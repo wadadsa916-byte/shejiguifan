@@ -1,0 +1,663 @@
+{
+ "id": "t039",
+ "overview": {
+  "name": "Dark Mode Design",
+  "url": "https://www.darkmodedesign.com/",
+  "section": "设计画廊",
+  "pagesScanned": [
+   "https://www.darkmodedesign.com/",
+   "https://www.darkmodedesign.com/about"
+  ],
+  "subpages": [
+   "/about"
+  ],
+  "sectionCount": 0,
+  "componentSamples": 14,
+  "typeSteps": 4
+ },
+ "colors": {
+  "roles": {
+   "muted": {
+    "hex": "#fae7c5",
+    "value": "#fae7c5",
+    "token": "--moon-subtle",
+    "source": "css-var",
+    "contrastOnBg": 16.01
+   },
+   "foreground": {
+    "hex": "#ffebc9",
+    "value": "#ffebc9",
+    "token": "--moon-text",
+    "source": "css-var",
+    "contrastOnBg": 16.64
+   },
+   "background": {
+    "hex": "#0d0d0d",
+    "value": "#0d0d0d",
+    "token": "--bg-surface",
+    "source": "css-var",
+    "contrastOnBg": null
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#000000",
+    "count": 10
+   },
+   {
+    "hex": "#fae7c5",
+    "count": 1
+   },
+   {
+    "hex": "#0000ee",
+    "count": 171
+   },
+   {
+    "hex": "#ffffff",
+    "count": 65
+   },
+   {
+    "hex": "#ffebc9",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 2,
+  "textTotal": 8,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Mobbin The world's largest mobile & web "
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 39,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Dark Mode Design"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "Dark Mode Design"
+    ]
+   },
+   {
+    "size": "30px",
+    "px": 30.0,
+    "weight": "300",
+    "lineHeight": "43.5px",
+    "letterSpacing": "0.3px",
+    "family": "Inter",
+    "count": 7,
+    "tags": [
+     "p",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "Dark Mode Design is a showcase of beauti"
+    ]
+   }
+  ],
+  "totalSteps": 4,
+  "families": [
+   "Inter"
+  ],
+  "weights": [
+   "300",
+   "400",
+   "500"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 6
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 8
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 1
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 1
+   },
+   {
+    "value": "17px",
+    "px": 17.0,
+    "count": 32
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 32
+   },
+   {
+    "value": "19px",
+    "px": 19.0,
+    "count": 99
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 1
+   },
+   {
+    "value": "47px",
+    "px": 47.0,
+    "count": 2
+   },
+   {
+    "value": "56px",
+    "px": 56.0,
+    "count": 3
+   },
+   {
+    "value": "92px",
+    "px": 92.0,
+    "count": 2
+   },
+   {
+    "value": "128px",
+    "px": 128.0,
+    "count": 1
+   },
+   {
+    "value": "240px",
+    "px": 240.0,
+    "count": 1
+   },
+   {
+    "value": "286px",
+    "px": 286.0,
+    "count": 22
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1296px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 33
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 5
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 33
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "200",
+    "count": 4
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "About",
+      "tag": "a",
+      "height": 26,
+      "width": 60,
+      "padding": "0px 9px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.5)",
+      "border": "0px none rgba(255, 255, 255, 0.5)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 3,
+    "xl": 1,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Dark Mode Design",
+      "tag": "a",
+      "height": 20,
+      "width": 171,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px none rgb(0, 0, 238)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "About",
+      "tag": "a",
+      "height": 26,
+      "width": 60,
+      "padding": "0px 9px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.5)",
+      "border": "0px none rgba(255, 255, 255, 0.5)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Mobbin The world's largest mob",
+      "tag": "a",
+      "height": 18,
+      "width": 439,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.35)",
+      "border": "0px none rgba(255, 255, 255, 0.35)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "Stash",
+      "tag": "a",
+      "height": 362,
+      "width": 421,
+      "padding": "19px 19px 18px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "border": "1px solid rgba(255, 255, 255, 0.11)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "gap": "normal",
+      "contrast": 2.23
+     }
+    ],
+    "md": [
+     {
+      "text": "Cai Cardenas",
+      "tag": "a",
+      "height": 36,
+      "width": 191,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.7)",
+      "border": "0px none rgba(255, 255, 255, 0.7)",
+      "fontSize": "30px",
+      "fontWeight": "300",
+      "fontFamily": "Inter",
+      "lineHeight": "43.5px",
+      "letterSpacing": "0.3px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 4,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 24,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.5)",
+      "border": "0px none rgba(255, 255, 255, 0.5)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Dark Mode DesignAboutSubmit a ",
+      "tag": "div",
+      "height": 26,
+      "width": 1440,
+      "padding": "0px 47px 0px 56px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.5)",
+      "border": "0px none rgba(255, 255, 255, 0.5)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Dark Mode Design",
+      "tag": "a",
+      "height": 20,
+      "width": 171,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px none rgb(0, 0, 238)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "About",
+      "tag": "a",
+      "height": 26,
+      "width": 60,
+      "padding": "0px 9px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.5)",
+      "border": "0px none rgba(255, 255, 255, 0.5)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "Dark Mode DesignAboutSubmit a ",
+      "tag": "div",
+      "height": 64,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.5)",
+      "border": "0px none rgba(255, 255, 255, 0.5)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Sponsored",
+      "tag": "div",
+      "height": 24,
+      "width": 88,
+      "padding": "0px 8px",
+      "margin": "0px 0px 0px 8px",
+      "radius": "6px",
+      "background": "rgba(250, 231, 197, 0.1)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px none rgb(0, 0, 238)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.74
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Dark Mode Design",
+      "tag": "h1",
+      "height": 20,
+      "width": 141,
+      "padding": "0px",
+      "margin": "0px 0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Dark Mode Design is a showcase",
+      "tag": "p",
+      "height": 218,
+      "width": 1296,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.7)",
+      "border": "0px none rgba(255, 255, 255, 0.7)",
+      "fontSize": "30px",
+      "fontWeight": "300",
+      "fontFamily": "Inter",
+      "lineHeight": "43.5px",
+      "letterSpacing": "0.3px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  }
+ },
+ "sections": [],
+ "accessibility": {
+  "bodyContrast": 16.64,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 18,
+  "tapTargetMedian": 26
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 33
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+    "count": 33
+   }
+  ],
+  "properties": [
+   {
+    "value": "border",
+    "count": 33
+   }
+  ]
+ }
+}

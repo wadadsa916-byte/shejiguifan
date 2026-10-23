@@ -1,0 +1,1515 @@
+{
+ "id": "p037",
+ "overview": {
+  "name": "Alistair Smith",
+  "url": "https://alistair.sh/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://alistair.sh/",
+   "https://alistair.sh/gleam-bun-apps",
+   "https://alistair.sh/ambient-declarations",
+   "https://alistair.sh/strict-tsconfig"
+  ],
+  "subpages": [
+   "/gleam-bun-apps",
+   "/ambient-declarations",
+   "/strict-tsconfig"
+  ],
+  "sectionCount": 2,
+  "componentSamples": 51,
+  "typeSteps": 14
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#faf8f4",
+    "value": "#faf8f4",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#45403b",
+    "value": "lab(27.3812 1.32917 3.57789)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 9.66
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#fdfcf9",
+    "count": 21
+   },
+   {
+    "hex": "#faf8f4",
+    "count": 4
+   },
+   {
+    "hex": "#78716c",
+    "count": 324
+   },
+   {
+    "hex": "#44403c",
+    "count": 234
+   },
+   {
+    "hex": "#9a3412",
+    "count": 86
+   },
+   {
+    "hex": "#b0512f",
+    "count": 63
+   },
+   {
+    "hex": "#57534e",
+    "count": 48
+   },
+   {
+    "hex": "#a29d90",
+    "count": 46
+   },
+   {
+    "hex": "#6d7030",
+    "count": 33
+   },
+   {
+    "hex": "#6f4a0e",
+    "count": 28
+   }
+  ],
+  "backgroundsTotal": 4,
+  "textTotal": 19,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Iosevka",
+    "count": 42,
+    "tags": [
+     "p",
+     "span"
+    ],
+    "samples": [
+     "src/bun_ffi.mjs"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Lora",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Landon Boles"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Iosevka",
+    "count": 896,
+    "tags": [
+     "pre",
+     "code",
+     "span"
+    ],
+    "samples": [
+     "// Bun.file(path).text() -> Promise<stri"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "23.5px",
+    "letterSpacing": "-0.48px",
+    "family": "Karla",
+    "count": 23,
+    "tags": [
+     "span",
+     "a"
+    ],
+    "samples": [
+     "© 2026 Alistair Smith"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "Iosevka",
+    "count": 3,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "export declare function foo(): void;"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "Iosevka",
+    "count": 36,
+    "tags": [
+     "pre",
+     "p"
+    ],
+    "samples": [
+     "gleam run --target=javascript --runtime="
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "family": "Iosevka",
+    "count": 66,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "fetch()"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "27px",
+    "letterSpacing": "-0.48px",
+    "family": "Karla",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "← Home"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "600",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "Lora",
+    "count": 3,
+    "tags": [
+     "th"
+    ],
+    "samples": [
+     "File Type"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "29px",
+    "letterSpacing": "-0.48px",
+    "family": "Karla",
+    "count": 25,
+    "tags": [
+     "p",
+     "a",
+     "li",
+     "span"
+    ],
+    "samples": [
+     "I work at Anthropic on Bun and Claude Co"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "family": "Lora",
+    "count": 80,
+    "tags": [
+     "p",
+     "li"
+    ],
+    "samples": [
+     "So how can we combine these two really v"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "500",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "family": "Lora",
+    "count": 14,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Gleam"
+    ]
+   },
+   {
+    "size": "25.5px",
+    "px": 25.5,
+    "weight": "600",
+    "lineHeight": "34px",
+    "letterSpacing": "normal",
+    "family": "Lora",
+    "count": 14,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Writing our program"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "600",
+    "lineHeight": "45px",
+    "letterSpacing": "-0.36px",
+    "family": "Lora",
+    "count": 3,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "Single file apps with Gleam and Bun"
+    ]
+   }
+  ],
+  "totalSteps": 16,
+  "families": [
+   "Iosevka",
+   "Karla",
+   "Lora"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 137
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 40
+   },
+   {
+    "value": "6.5px",
+    "px": 6.5,
+    "count": 23
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 3
+   },
+   {
+    "value": "8.5px",
+    "px": 8.5,
+    "count": 46
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 5
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 83
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 4
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 60
+   },
+   {
+    "value": "17px",
+    "px": 17.0,
+    "count": 2
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 42
+   },
+   {
+    "value": "21px",
+    "px": 21.0,
+    "count": 136
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 7
+   },
+   {
+    "value": "25.5px",
+    "px": 25.5,
+    "count": 14
+   },
+   {
+    "value": "27px",
+    "px": 27.0,
+    "count": 4
+   },
+   {
+    "value": "27.5px",
+    "px": 27.5,
+    "count": 9
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "650px",
+    "count": 4
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 65
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 6
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 21
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "9999",
+    "count": 4
+   }
+  ]
+ },
+ "components": {
+  "link": {
+   "label": "链接",
+   "count": 7,
+   "sizeBuckets": {
+    "sm": 5,
+    "xl": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Anthropic",
+      "tag": "a",
+      "height": 19,
+      "width": 67,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(37.1566 46.6433 50.5562)",
+      "border": "0px solid lab(37.1566 46.6433 50.5562)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Karla",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.48px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "home",
+      "tag": "a",
+      "height": 23,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(66.2166 1.88044 3.20326)",
+      "border": "0px solid lab(66.2166 1.88044 3.20326)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Karla",
+      "lineHeight": "23.4px",
+      "letterSpacing": "-0.48px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Gleam",
+      "tag": "a",
+      "height": 22,
+      "width": 51,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(37.1566 46.6433 50.5562)",
+      "border": "0px solid lab(37.1566 46.6433 50.5562)",
+      "fontSize": "17px",
+      "fontWeight": "500",
+      "fontFamily": "Lora",
+      "lineHeight": "29.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Landon Boles",
+      "tag": "a",
+      "height": 15,
+      "width": 76,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(37.1566 46.6433 50.5562)",
+      "border": "0px solid lab(37.1566 46.6433 50.5562)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Lora",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "clash with other declarations",
+      "tag": "a",
+      "height": 45,
+      "width": 563,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(37.1566 46.6433 50.5562)",
+      "border": "0px solid lab(37.1566 46.6433 50.5562)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "26.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "find the declaration here",
+      "tag": "a",
+      "height": 52,
+      "width": 564,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(37.1566 46.6433 50.5562)",
+      "border": "0px solid lab(37.1566 46.6433 50.5562)",
+      "fontSize": "17px",
+      "fontWeight": "500",
+      "fontFamily": "Lora",
+      "lineHeight": "29.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Single file apps with Gleam an",
+      "tag": "article",
+      "height": 4809,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Karla",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.48px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Ambient Declarations9 May 2025",
+      "tag": "article",
+      "height": 10764,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Karla",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.48px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "A strict TSConfig8 Sep 2022Her",
+      "tag": "article",
+      "height": 1482,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Karla",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.48px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Single file apps with Gleam an",
+      "tag": "header",
+      "height": 76,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px 0px 48px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Karla",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.48px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 2,
+    "xl": 1,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Alistair Smith",
+      "tag": "h1",
+      "height": 27,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.86037 0.455312 0.568903)",
+      "border": "0px solid lab(2.86037 0.455312 0.568903)",
+      "fontSize": "15px",
+      "fontWeight": "700",
+      "fontFamily": "Karla",
+      "lineHeight": "27px",
+      "letterSpacing": "-0.48px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "writing",
+      "tag": "h2",
+      "height": 23,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(66.2166 1.88044 3.20326)",
+      "border": "0px solid lab(66.2166 1.88044 3.20326)",
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "fontFamily": "Karla",
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.325px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Single file apps with Gleam an",
+      "tag": "h1",
+      "height": 45,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(9.03835 1.15298 1.92955)",
+      "border": "0px solid lab(9.03835 1.15298 1.92955)",
+      "fontSize": "36px",
+      "fontWeight": "600",
+      "fontFamily": "Lora",
+      "lineHeight": "45px",
+      "letterSpacing": "-0.36px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Writing our program",
+      "tag": "h2",
+      "height": 34,
+      "width": 618,
+      "padding": "0px",
+      "margin": "51px 0px 25.5px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(9.03835 1.15298 1.92955)",
+      "border": "0px solid lab(9.03835 1.15298 1.92955)",
+      "fontSize": "25.5px",
+      "fontWeight": "600",
+      "fontFamily": "Lora",
+      "lineHeight": "33.9999px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 15,
+   "sizeBuckets": {
+    "md": 4,
+    "xl": 7,
+    "sm": 4
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "I work at Anthropic on Bun and",
+      "tag": "p",
+      "height": 29,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Karla",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.48px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Currently in Tokyo, JP.",
+      "tag": "p",
+      "height": 29,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(66.2166 1.88044 3.20326)",
+      "border": "0px solid lab(66.2166 1.88044 3.20326)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Karla",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.48px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "So how can we combine these tw",
+      "tag": "p",
+      "height": 30,
+      "width": 618,
+      "padding": "0px",
+      "margin": "21.25px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "29.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "src/bun_ffi.mjs",
+      "tag": "p",
+      "height": 29,
+      "width": 616,
+      "padding": "6px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "lab(96.5286 -0.0991821 0.364268)",
+      "color": "lab(48.1164 2.35701 4.26852)",
+      "border": "0px solid lab(91.055 0.663072 0.865579)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Iosevka",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "I'm interested in language spe",
+      "tag": "p",
+      "height": 58,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Karla",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.48px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Gleam is a friendly language p",
+      "tag": "p",
+      "height": 179,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px 0px 21.25px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "29.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Conveniently, Gleam has a Java",
+      "tag": "p",
+      "height": 149,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px 0px 21.25px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "29.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "So, if we want to use Bun's si",
+      "tag": "p",
+      "height": 89,
+      "width": 618,
+      "padding": "0px",
+      "margin": "21.25px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "29.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "21 Aug 2026",
+      "tag": "p",
+      "height": 23,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(66.2166 1.88044 3.20326)",
+      "border": "0px solid lab(66.2166 1.88044 3.20326)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Karla",
+      "lineHeight": "23.4px",
+      "letterSpacing": "-0.48px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "gleam run --target=javascript ",
+      "tag": "p",
+      "height": 26,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(38.7484 23.5833 51.4916)",
+      "border": "0px solid lab(38.7484 23.5833 51.4916)",
+      "fontSize": "14.875px",
+      "fontWeight": "400",
+      "fontFamily": "Iosevka",
+      "lineHeight": "25.5001px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Downloading packages",
+      "tag": "p",
+      "height": 26,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "14.875px",
+      "fontWeight": "400",
+      "fontFamily": "Iosevka",
+      "lineHeight": "25.5001px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Thank you to Landon Boles who ",
+      "tag": "p",
+      "height": 16,
+      "width": 618,
+      "padding": "0px",
+      "margin": "15px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 9,
+   "sizeBuckets": {
+    "xl": 9
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Single file apps with Gleam an",
+      "tag": "ol",
+      "height": 223,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Karla",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.48px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "...we need both Gleam and Bun ",
+      "tag": "ol",
+      "height": 68,
+      "width": 618,
+      "padding": "0px 0px 0px 27.625px",
+      "margin": "21.25px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "29.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Bundled types: Some packages i",
+      "tag": "ul",
+      "height": 323,
+      "width": 618,
+      "padding": "0px 0px 0px 27.625px",
+      "margin": "21.25px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "29.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Module declarations: Any .d.ts",
+      "tag": "ul",
+      "height": 128,
+      "width": 618,
+      "padding": "0px 0px 0px 27.625px",
+      "margin": "0px 0px 21.25px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "29.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "table": {
+   "label": "表格",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "File TypeExample SyntaxScopeMo",
+      "tag": "table",
+      "height": 198,
+      "width": 618,
+      "padding": "0px",
+      "margin": "29.75px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "14.875px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "25.5001px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Gleam is a friendly language p",
+      "tag": "div",
+      "height": 4594,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "29.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "I recently landed a pull reque",
+      "tag": "div",
+      "height": 10549,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "29.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Here's a very strict TypeScrip",
+      "tag": "div",
+      "height": 1267,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "29.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 4
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "gleam run --target=javascript ",
+      "tag": "p",
+      "height": 26,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(38.7484 23.5833 51.4916)",
+      "border": "0px solid lab(38.7484 23.5833 51.4916)",
+      "fontSize": "14.875px",
+      "fontWeight": "400",
+      "fontFamily": "Iosevka",
+      "lineHeight": "25.5001px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Downloading packages",
+      "tag": "p",
+      "height": 26,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "14.875px",
+      "fontWeight": "400",
+      "fontFamily": "Iosevka",
+      "lineHeight": "25.5001px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px 8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(35.164 -9.57692 -34.4068)",
+      "border": "0px solid lab(35.164 -9.57692 -34.4068)",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "fontFamily": "Lora",
+      "lineHeight": "20px",
+      "letterSpacing": "0.275px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px 8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(38.7484 23.5833 51.4916)",
+      "border": "0px solid lab(38.7484 23.5833 51.4916)",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "fontFamily": "Lora",
+      "lineHeight": "20px",
+      "letterSpacing": "0.275px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 3,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 12,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.1164 2.35701 4.26852)",
+      "border": "0px solid lab(48.1164 2.35701 4.26852)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Iosevka",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px 8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(35.164 -9.57692 -34.4068)",
+      "border": "0px solid lab(35.164 -9.57692 -34.4068)",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "fontFamily": "Lora",
+      "lineHeight": "20px",
+      "letterSpacing": "0.275px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px 8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(38.7484 23.5833 51.4916)",
+      "border": "0px solid lab(38.7484 23.5833 51.4916)",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "fontFamily": "Lora",
+      "lineHeight": "20px",
+      "letterSpacing": "0.275px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Bun Logo",
+      "tag": "svg",
+      "height": 541,
+      "width": 618,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Lora",
+      "lineHeight": "29.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 534,
+   "heading": "Alistair Smith",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 258,
+   "heading": "writing",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 19.8,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 15,
+  "tapTargetMedian": 22
+ }
+}

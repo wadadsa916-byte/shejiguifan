@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>拾光</title>
+<style>
+/* ============================================================
+   参考真实小程序产品的做法：
+   · 不做"问候语+搜索+四宫格+大横幅"那套模板
+   · 首屏就是内容，不浪费在装饰上
+   · 混合密度：有的条目一行字，有的占半屏
+   · 线性图标，不用 emoji
+   · 数字用等宽，中文用系统字
+   ============================================================ */
+
+:root{
+  --green:#07C160;
+  --green-dark:#06AD56;
+  --green-bg:#E8F8EF;
+
+  --ink:#111111;
+  --ink-2:#5E5E5E;
+  --ink-3:#949494;
+  --ink-4:#C4C4C4;
+
+  --page:#F5F5F5;
+  --card:#FFFFFF;
+  --line:#ECECEC;
+  --line-2:#F4F4F4;
+
+  --red:#E64340;
+  --orange:#F5A623;
+
+  --font:-apple-system,BlinkMacSystemFont,"Helvetica Neue","PingFang SC",
+         "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{
+  margin:0;background:#DEDEDE;font-family:var(--font);
+  display:flex;align-items:flex-start;justify-content:center;
+  min-height:100vh;padding:36px 16px;
+  -webkit-font-smoothing:antialiased;
+}
+
+.device{
+  width:375px;height:750px;background:var(--page);
+  border-radius:30px;overflow:hidden;position:relative;
+  box-shadow:0 24px 70px rgba(0,0,0,.22), 0 0 0 1px rgba(0,0,0,.07);
+  display:flex;flex-direction:column;
+}
+
+/* ---------- 状态栏 ---------- */
+.sbar{
+  height:44px;flex:none;display:flex;align-items:center;justify-content:space-between;
+  padding:0 18px 0 22px;font-size:14px;font-weight:600;color:var(--ink);
+  background:var(--card);letter-spacing:.2px;
+}
+.sbar .r{display:flex;align-items:center;gap:5px}
+.sbar .r svg{display:block}
+
+/* ---------- 顶栏 ---------- */
+.topbar{
+  flex:none;background:var(--card);padding:0 16px 12px;
+  display:flex;align-items:center;gap:12px;
+}
+.topbar .title{
+  font-size:20px;font-weight:600;letter-spacing:-.3px;color:var(--ink);
+  flex:1;
+}
+.iconbtn{
+  width:32px;height:32px;border:0;background:none;padding:0;
+  display:grid;place-items:center;cursor:pointer;border-radius:8px;
+  transition:background .12s;
+}
+.iconbtn:active{background:var(--line-2)}
+
+/* ---------- 分段 ---------- */
+.seg{
+  flex:none;background:var(--card);padding:0 16px 12px;
+  display:flex;gap:20px;border-bottom:1px solid var(--line);
+}
+.seg button{
+  border:0;background:none;padding:6px 0;font-family:inherit;
+  font-size:15px;color:var(--ink-3);cursor:pointer;position:relative;
+  font-weight:400;transition:color .15s;
+}
+.seg button.on{color:var(--ink);font-weight:600}
+.seg button.on::after{
+  content:"";position:absolute;left:0;right:0;bottom:-13px;height:2px;
+  background:var(--ink);border-radius:1px;
+}
+
+/* ---------- 滚动区 ---------- */
+.scroll{flex:1;overflow-y:auto;overflow-x:hidden;padding-bottom:66px}
+.scroll::-webkit-scrollbar{display:none}
+.page{display:none}
+.page.on{display:block}
+
+/* ---------- 大卡：首屏第一条，占位足 ---------- */
+.hero-card{
+  margin:12px 16px 0;background:var(--card);border-radius:12px;
+  overflow:hidden;cursor:pointer;border:0;padding:0;width:calc(100% - 32px);
+  text-align:left;font-family:inherit;display:block;
+}
+.hero-visual{
+  height:170px;position:relative;overflow:hidden;
+  background:#0F0F0F;
+}
+.hero-visual .grid-lines{
+  position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(255,255,255,.06) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.06) 1px,transparent 1px);
+  background-size:28px 28px;
+}
+.hero-visual .blob{
+  position:absolute;width:150px;height:150px;border-radius:50%;
+  background:radial-gradient(circle at 35% 35%,#07C160,#04A050);
+  right:-30px;top:-40px;filter:blur(2px);
+}
+.hero-visual .blob2{
+  position:absolute;width:90px;height:90px;border-radius:50%;
+  background:rgba(7,193,96,.25);left:24px;bottom:-30px;
+}
+.hero-visual .label{
+  position:absolute;left:16px;bottom:14px;right:16px;
+  color:#fff;font-size:11px;letter-spacing:.5px;text-transform:uppercase;
+  opacity:.7;font-family:var(--mono);
+}
+.hero-visual .num{
+  position:absolute;right:16px;bottom:10px;color:#fff;
+  font-size:44px;font-weight:700;letter-spacing:-2px;line-height:1;
+  font-family:var(--mono);
+}
+.hero-body{padding:14px 16px 16px}
+.hero-body h2{
+  margin:0 0 6px;font-size:17px;line-height:1.4;font-weight:600;
+  letter-spacing:-.2px;color:var(--ink);
+}
+.hero-body p{margin:0;font-size:13px;line-height:1.5;color:var(--ink-2)}
+.hero-foot{
+  display:flex;align-items:center;gap:8px;margin-top:12px;
+  font-size:11px;color:var(--ink-3);
+}
+.hero-foot .av{
+  width:18px;height:18px;border-radius:50%;background:#DDD;
+  display:grid;place-items:center;font-size:9px;color:#666;font-weight:600;
+}
+
+/* ---------- 双列 ---------- */
+.duo{
+  display:grid;grid-template-columns:1fr 1fr;gap:10px;
+  padding:10px 16px 0;
+}
+.duo-card{
+  background:var(--card);border-radius:10px;overflow:hidden;
+  border:0;padding:0;cursor:pointer;text-align:left;font-family:inherit;
+  display:block;width:100%;
+}
+.duo-visual{
+  height:96px;display:grid;place-items:center;position:relative;
+}
+.duo-visual span{
+  font-size:26px;font-family:var(--mono);font-weight:700;color:rgba(255,255,255,.9);
+  letter-spacing:-1px;
+}
+.duo-body{padding:9px 11px 11px}
+.duo-body h3{
+  margin:0 0 3px;font-size:13px;line-height:1.4;font-weight:600;color:var(--ink);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.duo-body p{margin:0;font-size:11px;line-height:1.4;color:var(--ink-3)}
+
+/* ---------- 紧凑列表 ---------- */
+.list-head{
+  display:flex;align-items:baseline;justify-content:space-between;
+  padding:20px 16px 8px;
+}
+.list-head h2{margin:0;font-size:15px;font-weight:600;letter-spacing:-.2px;color:var(--ink)}
+.list-head a{
+  font-size:12px;color:var(--ink-3);text-decoration:none;
+}
+
+.rowlist{background:var(--card);margin:0 16px;border-radius:10px;overflow:hidden}
+.row{
+  display:flex;align-items:center;gap:12px;
+  padding:12px 14px;border-bottom:1px solid var(--line-2);
+  border:0;border-bottom:1px solid var(--line-2);
+  background:none;width:100%;font-family:inherit;text-align:left;cursor:pointer;
+  transition:background .12s;
+}
+.row:last-child{border-bottom:0}
+.row:active{background:#FAFAFA}
+.row-idx{
+  font-family:var(--mono);font-size:11px;color:var(--ink-4);
+  width:16px;flex:none;
+}
+.row-main{flex:1;min-width:0}
+.row-main h3{
+  margin:0 0 2px;font-size:14px;line-height:1.4;font-weight:500;color:var(--ink);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.row-main p{
+  margin:0;font-size:11px;line-height:1.4;color:var(--ink-3);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.row-tag{
+  flex:none;font-size:10px;padding:2px 6px;border-radius:4px;
+  background:var(--line-2);color:var(--ink-3);
+}
+.row-tag.new{background:var(--green-bg);color:var(--green)}
+
+/* ---------- 数字条 ---------- */
+.stats{
+  display:flex;margin:16px 16px 0;background:var(--card);
+  border-radius:10px;overflow:hidden;
+}
+.stat{
+  flex:1;padding:14px 0;text-align:center;position:relative;
+}
+.stat + .stat::before{
+  content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);
+  width:1px;height:24px;background:var(--line);
+}
+.stat b{
+  display:block;font-family:var(--mono);font-size:19px;font-weight:700;
+  letter-spacing:-.5px;color:var(--ink);line-height:1.1;
+}
+.stat span{display:block;font-size:10px;color:var(--ink-3);margin-top:3px}
+
+/* ---------- 发现页 ---------- */
+.filter-bar{
+  display:flex;gap:8px;padding:12px 16px;overflow-x:auto;
+  background:var(--card);border-bottom:1px solid var(--line);
+}
+.filter-bar::-webkit-scrollbar{display:none}
+.fchip{
+  flex:none;height:28px;padding:0 12px;border-radius:6px;
+  background:var(--line-2);border:0;font-family:inherit;
+  font-size:12px;color:var(--ink-2);cursor:pointer;transition:.13s;
+}
+.fchip.on{background:var(--ink);color:#fff}
+
+.masonry{
+  padding:10px 16px 0;
+  column-count:2;column-gap:10px;
+}
+.m-item{
+  break-inside:avoid;margin-bottom:10px;background:var(--card);
+  border-radius:10px;overflow:hidden;cursor:pointer;
+  border:0;padding:0;width:100%;text-align:left;font-family:inherit;display:block;
+}
+.m-vis{display:grid;place-items:center;position:relative;overflow:hidden}
+.m-vis .big{font-family:var(--mono);font-weight:700;color:rgba(255,255,255,.85);letter-spacing:-1px}
+.m-info{padding:8px 10px 10px}
+.m-info h3{margin:0 0 2px;font-size:12.5px;font-weight:600;color:var(--ink);line-height:1.35}
+.m-info p{margin:0;font-size:10.5px;color:var(--ink-3);line-height:1.35}
+
+/* ---------- 我的页 ---------- */
+.profile{
+  background:var(--card);padding:16px;display:flex;align-items:center;gap:14px;
+}
+.p-av{
+  width:56px;height:56px;border-radius:14px;flex:none;
+  background:#111;display:grid;place-items:center;
+  color:#fff;font-size:20px;font-weight:600;font-family:var(--mono);
+}
+.p-info{flex:1;min-width:0}
+.p-info h2{margin:0 0 3px;font-size:17px;font-weight:600;letter-spacing:-.2px;color:var(--ink)}
+.p-info p{margin:0;font-size:12px;color:var(--ink-3)}
+.p-edit{
+  font-size:12px;color:var(--ink-2);padding:5px 10px;
+  border:1px solid var(--line);border-radius:6px;background:none;
+  font-family:inherit;cursor:pointer;
+}
+
+.pstats{
+  display:flex;background:var(--card);padding:0 16px 16px;
+  border-bottom:8px solid var(--page);
+}
+.pstat{flex:1;text-align:center}
+.pstat b{display:block;font-family:var(--mono);font-size:18px;font-weight:700;color:var(--ink);line-height:1.2}
+.pstat span{display:block;font-size:11px;color:var(--ink-3);margin-top:2px}
+
+.menu{background:var(--card);margin-top:0}
+.menu + .menu{margin-top:8px}
+.mi{
+  display:flex;align-items:center;gap:12px;padding:14px 16px;
+  border:0;border-bottom:1px solid var(--line-2);background:none;
+  width:100%;font-family:inherit;text-align:left;cursor:pointer;
+  transition:background .12s;
+}
+.mi:last-child{border-bottom:0}
+.mi:active{background:#FAFAFA}
+.mi-ico{width:20px;height:20px;flex:none;display:grid;place-items:center}
+.mi-lb{flex:1;font-size:14px;color:var(--ink)}
+.mi-val{font-size:12px;color:var(--ink-3)}
+.mi-arr{color:var(--ink-4);flex:none}
+.mi.danger .mi-lb{color:var(--red)}
+
+/* ---------- TabBar ---------- */
+.tabbar{
+  position:absolute;left:0;right:0;bottom:0;height:56px;
+  background:rgba(255,255,255,.96);backdrop-filter:blur(10px);
+  border-top:1px solid var(--line);
+  display:flex;z-index:20;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+.tab{
+  flex:1;border:0;background:none;cursor:pointer;font-family:inherit;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:2px;color:var(--ink-3);transition:color .13s;padding:0;
+}
+.tab span{font-size:10px;line-height:1.2;letter-spacing:.1px}
+.tab svg{display:block;stroke:var(--ink-3);transition:stroke .13s}
+.tab.on{color:var(--ink)}
+.tab.on svg{stroke:var(--ink)}
+
+/* ---------- 详情 ---------- */
+.mask{
+  position:absolute;inset:0;background:rgba(0,0,0,.42);z-index:100;
+  opacity:0;pointer-events:none;transition:opacity .22s;
+}
+.mask.on{opacity:1;pointer-events:auto}
+.sheet{
+  position:absolute;left:0;right:0;bottom:0;z-index:101;background:var(--card);
+  border-radius:16px 16px 0 0;padding:8px 16px 24px;
+  transform:translateY(100%);transition:transform .26s cubic-bezier(0,0,.2,1);
+  max-height:78%;overflow-y:auto;
+}
+.sheet.on{transform:translateY(0)}
+.handle{width:32px;height:4px;background:var(--line);border-radius:2px;margin:0 auto 14px}
+.sheet h3{margin:0 0 6px;font-size:17px;font-weight:600;letter-spacing:-.2px;color:var(--ink)}
+.sheet .desc{margin:0 0 18px;font-size:13px;line-height:1.6;color:var(--ink-2)}
+.sheet .kv{display:grid;gap:0;margin-bottom:18px;border-top:1px solid var(--line-2)}
+.sheet .kv div{
+  display:flex;justify-content:space-between;padding:10px 0;
+  border-bottom:1px solid var(--line-2);font-size:13px;
+}
+.sheet .kv div span:first-child{color:var(--ink-3)}
+.sheet .kv div span:last-child{color:var(--ink);font-family:var(--mono)}
+.btn{
+  display:flex;align-items:center;justify-content:center;width:100%;
+  height:46px;border-radius:8px;font-size:15px;font-weight:500;
+  border:0;cursor:pointer;font-family:inherit;transition:.13s;
+}
+.btn-primary{background:var(--ink);color:#fff}
+.btn-primary:active{background:#333}
+.btn-ghost{background:var(--line-2);color:var(--ink);margin-top:8px}
+.btn-ghost:active{background:var(--line)}
+
+/* ---------- Toast ---------- */
+.toast{
+  position:absolute;left:50%;top:44%;transform:translate(-50%,-50%) scale(.94);
+  background:rgba(0,0,0,.8);color:#fff;padding:10px 18px;border-radius:8px;
+  font-size:13px;z-index:200;opacity:0;pointer-events:none;
+  transition:opacity .15s,transform .15s;max-width:230px;text-align:center;
+}
+.toast.on{opacity:1;transform:translate(-50%,-50%) scale(1)}
+</style>
+</head>
+<body>
+
+<div class="device">
+  <!-- 状态栏 -->
+  <div class="sbar">
+    <span>9:41</span>
+    <div class="r">
+      <svg width="17" height="11" viewBox="0 0 17 11" fill="none">
+        <rect x="0" y="7" width="3" height="4" rx="1" fill="#111"/>
+        <rect x="4.5" y="5" width="3" height="6" rx="1" fill="#111"/>
+        <rect x="9" y="2.5" width="3" height="8.5" rx="1" fill="#111"/>
+        <rect x="13.5" y="0" width="3" height="11" rx="1" fill="#111"/>
+      </svg>
+      <svg width="16" height="11" viewBox="0 0 16 11" fill="none">
+        <path d="M8 10.5l2-2.5a3 3 0 0 0-4 0l2 2.5z" fill="#111"/>
+        <path d="M8 5.5a6 6 0 0 1 4.2 1.7l1.3-1.6A8 8 0 0 0 8 3a8 8 0 0 0-5.5 2.6l1.3 1.6A6 6 0 0 1 8 5.5z" fill="#111"/>
+      </svg>
+      <svg width="25" height="12" viewBox="0 0 25 12" fill="none">
+        <rect x="0.5" y="0.5" width="21" height="11" rx="3" stroke="#111" opacity=".4"/>
+        <rect x="2" y="2" width="16" height="8" rx="1.5" fill="#111"/>
+        <path d="M23 4v4a2 2 0 0 0 0-4z" fill="#111" opacity=".4"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- 顶栏 -->
+  <div class="topbar">
+    <div class="title" id="pageTitle">拾光</div>
+    <button class="iconbtn" onclick="toast('搜索')">
+      <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.8">
+        <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.8-3.8"/>
+      </svg>
+    </button>
+    <button class="iconbtn" onclick="toast('暂无消息')">
+      <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.8">
+        <path d="M18 8a6 6 0 1 0-12 0c0 7-3 8-3 8h18s-3-1-3-8"/>
+        <path d="M13.7 21a2 2 0 0 1-3.4 0"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- 分段（仅首页） -->
+  <div class="seg" id="segBar">
+    <button class="on" onclick="pickSeg(this)">关注</button>
+    <button onclick="pickSeg(this)">推荐</button>
+    <button onclick="pickSeg(this)">最新</button>
+    <button onclick="pickSeg(this)">合集</button>
+  </div>
+
+  <div class="scroll" id="scroller">
+
+    <!-- ============ 首页 ============ -->
+    <div class="page on" id="p-home">
+
+      <!-- 头条大卡 -->
+      <button class="hero-card" onclick="openDetail('网格系统：为什么是 8 而不是 10','从 6 个主流小程序里反推出来的间距逻辑。8px 能整除 16/24/32，10px 只能整除 20/30。','设计方法','12.4k','林见','4 小时前')">
+        <div class="hero-visual">
+          <div class="grid-lines"></div>
+          <div class="blob"></div>
+          <div class="blob2"></div>
+          <div class="label">STUDY / 014</div>
+          <div class="num">8</div>
+        </div>
+        <div class="hero-body">
+          <h2>网格系统：为什么是 8 而不是 10</h2>
+          <p>从 6 个主流小程序里反推出来的间距逻辑。8px 能整除 16/24/32，10px 只能整除 20/30。</p>
+          <div class="hero-foot">
+            <span class="av">林</span>
+            <span>林见</span>
+            <span>·</span>
+            <span>4 小时前</span>
+            <span style="margin-left:auto;font-family:var(--mono)">12.4k</span>
+          </div>
+        </div>
+      </button>
+
+      <!-- 双列 -->
+      <div class="duo">
+        <button class="duo-card" onclick="openDetail('按钮的三种高度','32 用在工具栏，40 用在表单，48 用在底部主操作。','组件规范','3.2k','周牧','昨天')">
+          <div class="duo-visual" style="background:linear-gradient(140deg,#1A1A1A,#333)">
+            <span>32/40/48</span>
+          </div>
+          <div class="duo-body">
+            <h3>按钮的三种高度</h3>
+            <p>组件规范 · 3.2k</p>
+          </div>
+        </button>
+        <button class="duo-card" onclick="openDetail('空状态别只放一个图标','给用户一个下一步动作，比「暂无数据」有用得多。','交互细节','5.8k','陈迟','昨天')">
+          <div class="duo-visual" style="background:linear-gradient(140deg,#07C160,#049E4E)">
+            <span>0——</span>
+          </div>
+          <div class="duo-body">
+            <h3>空状态别只放一个图标</h3>
+            <p>交互细节 · 5.8k</p>
+          </div>
+        </button>
+      </div>
+
+      <!-- 数字条 -->
+      <div class="stats">
+        <div class="stat"><b>544</b><span>收录站点</span></div>
+        <div class="stat"><b>5.6w</b><span>组件样本</span></div>
+        <div class="stat"><b>18</b><span>分类</span></div>
+      </div>
+
+      <!-- 列表 -->
+      <div class="list-head">
+        <h2>本周更新</h2>
+        <a href="#" onclick="toast('查看全部');return false">全部 24 条</a>
+      </div>
+      <div class="rowlist">
+        <button class="row" onclick="openDetail('加载骨架别用灰色块','用真实内容的轮廓，用户等待时就知道要看到什么。','交互细节')">
+          <span class="row-idx">01</span>
+          <div class="row-main">
+            <h3>加载骨架别用灰色块</h3>
+            <p>交互细节 · 赵一</p>
+          </div>
+          <span class="row-tag new">新</span>
+        </button>
+        <button class="row" onclick="openDetail('深色模式不是把颜色反过来','同一套灰值在黑底上对比度会掉一半。','色彩')">
+          <span class="row-idx">02</span>
+          <div class="row-main">
+            <h3>深色模式不是把颜色反过来</h3>
+            <p>色彩 · 钱二</p>
+          </div>
+          <span class="row-tag">6 分钟</span>
+        </button>
+        <button class="row" onclick="openDetail('列表项 56px 的来历','iOS HIG 定的是 44，微信实际用 56，多了内边距。','组件规范')">
+          <span class="row-idx">03</span>
+          <div class="row-main">
+            <h3>列表项 56px 的来历</h3>
+            <p>组件规范 · 孙三</p>
+          </div>
+          <span class="row-tag">8 分钟</span>
+        </button>
+        <button class="row" onclick="openDetail('输入框 16px 是为了防缩放','iOS Safari 在小于 16px 的输入框聚焦时会放大整个页面。','平台约束')">
+          <span class="row-idx">04</span>
+          <div class="row-main">
+            <h3>输入框 16px 是为了防缩放</h3>
+            <p>平台约束 · 李四</p>
+          </div>
+          <span class="row-tag">5 分钟</span>
+        </button>
+        <button class="row" onclick="openDetail('Toast 该停多久','1.5 秒是极限。再长用户会等，再短读不完。','交互细节')">
+          <span class="row-idx">05</span>
+          <div class="row-main">
+            <h3>Toast 该停多久</h3>
+            <p>交互细节 · 周五</p>
+          </div>
+          <span class="row-tag">3 分钟</span>
+        </button>
+      </div>
+
+      <div style="height:16px"></div>
+    </div>
+
+    <!-- ============ 发现 ============ -->
+    <div class="page" id="p-discover">
+      <div class="filter-bar">
+        <button class="fchip on" onclick="pickChip(this)">全部</button>
+        <button class="fchip" onclick="pickChip(this)">界面</button>
+        <button class="fchip" onclick="pickChip(this)">组件</button>
+        <button class="fchip" onclick="pickChip(this)">动效</button>
+        <button class="fchip" onclick="pickChip(this)">色彩</button>
+        <button class="fchip" onclick="pickChip(this)">字体</button>
+      </div>
+
+      <div class="masonry">
+        <button class="m-item" onclick="openDetail('栅格','12 栏 / 8px gutter。','界面')">
+          <div class="m-vis" style="background:linear-gradient(160deg,#2B2B2B,#111);height:132px">
+            <span class="big" style="font-size:34px">12</span>
+          </div>
+          <div class="m-info"><h3>栅格</h3><p>界面 · 8 个案例</p></div>
+        </button>
+        <button class="m-item" onclick="openDetail('圆角','4 硬 / 8 中 / 16 软 / 全圆。','界面')">
+          <div class="m-vis" style="background:linear-gradient(160deg,#07C160,#049E4E);height:96px">
+            <span class="big" style="font-size:28px">r</span>
+          </div>
+          <div class="m-info"><h3>圆角</h3><p>界面 · 12 个案例</p></div>
+        </button>
+        <button class="m-item" onclick="openDetail('字重','400 / 500 / 600，三级够了。','字体')">
+          <div class="m-vis" style="background:linear-gradient(160deg,#F5A623,#D98C10);height:108px">
+            <span class="big" style="font-size:26px">Aa</span>
+          </div>
+          <div class="m-info"><h3>字重</h3><p>字体 · 6 个案例</p></div>
+        </button>
+        <button class="m-item" onclick="openDetail('阴影','小程序少用，用背景色分层。','组件')">
+          <div class="m-vis" style="background:linear-gradient(160deg,#5B5B5B,#2A2A2A);height:88px">
+            <span class="big" style="font-size:22px">◐</span>
+          </div>
+          <div class="m-info"><h3>阴影</h3><p>组件 · 4 个案例</p></div>
+        </button>
+        <button class="m-item" onclick="openDetail('缓动','150ms 用于反馈，250ms 用于转场。','动效')">
+          <div class="m-vis" style="background:linear-gradient(160deg,#576B95,#3D4E70);height:118px">
+            <span class="big" style="font-size:24px">~</span>
+          </div>
+          <div class="m-info"><h3>缓动</h3><p>动效 · 9 个案例</p></div>
+        </button>
+        <button class="m-item" onclick="openDetail('对比度','正文 4.5:1 是底线，不是目标。','色彩')">
+          <div class="m-vis" style="background:linear-gradient(160deg,#E64340,#B5302E);height:94px">
+            <span class="big" style="font-size:24px">4.5</span>
+          </div>
+          <div class="m-info"><h3>对比度</h3><p>色彩 · 15 个案例</p></div>
+        </button>
+      </div>
+      <div style="height:16px"></div>
+    </div>
+
+    <!-- ============ 我的 ============ -->
+    <div class="page" id="p-me">
+      <div class="profile">
+        <div class="p-av">沈</div>
+        <div class="p-info">
+          <h2>沈一</h2>
+          <p>设计工程师 · 加入 128 天</p>
+        </div>
+        <button class="p-edit" onclick="toast('编辑资料')">编辑</button>
+      </div>
+
+      <div class="pstats">
+        <div class="pstat"><b>42</b><span>收藏</span></div>
+        <div class="pstat"><b>18</b><span>笔记</span></div>
+        <div class="pstat"><b>7</b><span>合集</span></div>
+      </div>
+
+      <div class="menu">
+        <button class="mi" onclick="toast('我的收藏')">
+          <span class="mi-ico">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.7">
+              <path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/>
+            </svg>
+          </span>
+          <span class="mi-lb">我的收藏</span>
+          <span class="mi-val">42</span>
+          <span class="mi-arr">›</span>
+        </button>
+        <button class="mi" onclick="toast('我的笔记')">
+          <span class="mi-ico">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.7">
+              <path d="M4 4h11l5 5v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/>
+              <path d="M14 4v6h6"/>
+            </svg>
+          </span>
+          <span class="mi-lb">我的笔记</span>
+          <span class="mi-val">18</span>
+          <span class="mi-arr">›</span>
+        </button>
+        <button class="mi" onclick="toast('浏览历史')">
+          <span class="mi-ico">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.7">
+              <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+            </svg>
+          </span>
+          <span class="mi-lb">浏览历史</span>
+          <span class="mi-arr">›</span>
+        </button>
+      </div>
+
+      <div class="menu">
+        <button class="mi" onclick="toast('当前为浅色模式')">
+          <span class="mi-ico">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.7">
+              <circle cx="12" cy="12" r="4"/>
+              <path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/>
+            </svg>
+          </span>
+          <span class="mi-lb">外观</span>
+          <span class="mi-val">浅色</span>
+          <span class="mi-arr">›</span>
+        </button>
+        <button class="mi" onclick="toast('通知已开启')">
+          <span class="mi-ico">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.7">
+              <path d="M18 8a6 6 0 1 0-12 0c0 7-3 8-3 8h18s-3-1-3-8"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/>
+            </svg>
+          </span>
+          <span class="mi-lb">通知</span>
+          <span class="mi-val">已开启</span>
+          <span class="mi-arr">›</span>
+        </button>
+        <button class="mi" onclick="toast('拾光 v1.2.0')">
+          <span class="mi-ico">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.7">
+              <circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.5v.5"/>
+            </svg>
+          </span>
+          <span class="mi-lb">关于</span>
+          <span class="mi-val">1.2.0</span>
+          <span class="mi-arr">›</span>
+        </button>
+      </div>
+
+      <div class="menu">
+        <button class="mi danger" onclick="toast('已退出')">
+          <span class="mi-ico">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#E64340" stroke-width="1.7">
+              <path d="M9 21H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4"/><path d="M16 17l5-5-5-5M21 12H9"/>
+            </svg>
+          </span>
+          <span class="mi-lb">退出登录</span>
+        </button>
+      </div>
+      <div style="height:16px"></div>
+    </div>
+
+  </div>
+
+  <!-- TabBar -->
+  <div class="tabbar">
+    <button class="tab on" data-p="home" onclick="go('home')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.7">
+        <path d="M3 10.5l9-7 9 7V20a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10.5z"/>
+      </svg>
+      <span>首页</span>
+    </button>
+    <button class="tab" data-p="discover" onclick="go('discover')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.7">
+        <circle cx="12" cy="12" r="8.5"/><path d="M15.5 8.5l-2 5-5 2 2-5 5-2z"/>
+      </svg>
+      <span>发现</span>
+    </button>
+    <button class="tab" data-p="me" onclick="go('me')">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="1.7">
+        <circle cx="12" cy="8" r="3.8"/><path d="M4.5 21c0-3.8 3.4-6 7.5-6s7.5 2.2 7.5 6"/>
+      </svg>
+      <span>我的</span>
+    </button>
+  </div>
+
+  <!-- 详情 -->
+  <div class="mask" id="mask" onclick="closeDetail()"></div>
+  <div class="sheet" id="sheet">
+    <div class="handle"></div>
+    <h3 id="dTitle"></h3>
+    <p class="desc" id="dDesc"></p>
+    <div class="kv" id="dKv"></div>
+    <button class="btn btn-primary" onclick="toast('已收藏');closeDetail()">收藏</button>
+    <button class="btn btn-ghost" onclick="closeDetail()">关闭</button>
+  </div>
+
+  <div class="toast" id="toast"></div>
+</div>
+
+<script>
+const TITLES = { home:"拾光", discover:"发现", me:"我的" };
+const HAS_SEG = { home:true, discover:false, me:false };
+
+function go(p){
+  document.querySelectorAll(".page").forEach(e => e.classList.remove("on"));
+  document.getElementById("p-" + p).classList.add("on");
+  document.querySelectorAll(".tab").forEach(t => t.classList.toggle("on", t.dataset.p === p));
+  document.getElementById("pageTitle").textContent = TITLES[p];
+  document.getElementById("segBar").style.display = HAS_SEG[p] ? "flex" : "none";
+  document.getElementById("scroller").scrollTop = 0;
+}
+
+function pickSeg(el){
+  el.parentElement.querySelectorAll("button").forEach(b => b.classList.remove("on"));
+  el.classList.add("on");
+}
+function pickChip(el){
+  el.parentElement.querySelectorAll(".fchip").forEach(b => b.classList.remove("on"));
+  el.classList.add("on");
+}
+
+function openDetail(title, desc, cat, views, author, time){
+  document.getElementById("dTitle").textContent = title;
+  document.getElementById("dDesc").textContent = desc || "";
+  const kv = document.getElementById("dKv");
+  const rows = [];
+  if (cat)    rows.push(["分类", cat]);
+  if (author) rows.push(["作者", author]);
+  if (time)   rows.push(["发布", time]);
+  if (views)  rows.push(["收藏", views]);
+  kv.innerHTML = rows.map(([k,v]) => `<div><span>${k}</span><span>${v}</span></div>`).join("");
+  document.getElementById("mask").classList.add("on");
+  document.getElementById("sheet").classList.add("on");
+}
+function closeDetail(){
+  document.getElementById("mask").classList.remove("on");
+  document.getElementById("sheet").classList.remove("on");
+}
+
+let tt = null;
+function toast(m){
+  const t = document.getElementById("toast");
+  t.textContent = m; t.classList.add("on");
+  clearTimeout(tt);
+  tt = setTimeout(() => t.classList.remove("on"), 1500);
+}
+</script>
+</body>
+</html>

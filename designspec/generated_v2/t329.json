@@ -1,0 +1,3058 @@
+{
+ "id": "t329",
+ "overview": {
+  "name": "Ray.so",
+  "url": "https://ray.so/",
+  "section": "效率工具",
+  "pagesScanned": [
+   "https://ray.so/",
+   "https://ray.so/(code)"
+  ],
+  "subpages": [
+   "/(code)"
+  ],
+  "sectionCount": 2,
+  "componentSamples": 167,
+  "typeSteps": 37
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#191919",
+    "value": "#191919",
+    "token": "--panel-background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "border": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": "--frame-shadow-border",
+    "source": "css-var",
+    "contrastOnBg": 1.19
+   },
+   "hover": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": "--ray-highlight-hover",
+    "source": "css-var",
+    "contrastOnBg": 1.19
+   },
+   "foreground": {
+    "hex": "#eeeeee",
+    "value": "#eeeeee",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 15.15
+   },
+   "primary": {
+    "hex": "#3b82f6",
+    "value": "#3b82f6",
+    "token": "--tw-ring-color",
+    "source": "palette",
+    "contrastOnBg": 4.78
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 87
+   },
+   {
+    "hex": "#434345",
+    "count": 18
+   },
+   {
+    "hex": "#08090c",
+    "count": 6
+   },
+   {
+    "hex": "#e6e6e6",
+    "count": 5
+   },
+   {
+    "hex": "#181818",
+    "count": 3
+   },
+   {
+    "hex": "#07080a",
+    "count": 3
+   },
+   {
+    "hex": "#1b1c1e",
+    "count": 3
+   },
+   {
+    "hex": "#ff6161",
+    "count": 2
+   },
+   {
+    "hex": "#56c2fe",
+    "count": 2
+   },
+   {
+    "hex": "#ff6363",
+    "count": 2
+   }
+  ],
+  "backgroundsTotal": 34,
+  "textTotal": 26,
+  "bordersTotal": 18
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "5"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "500",
+    "lineHeight": "14px",
+    "letterSpacing": "0.1px",
+    "family": "Inter",
+    "count": 6,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "Theme"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "0.2px",
+    "family": "GeistMono",
+    "count": 8,
+    "tags": [
+     "p",
+     "span",
+     "button"
+    ],
+    "samples": [
+     "macOS Tahoe and Apple Silicon required"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Linear"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "0.1px",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "td"
+    ],
+    "samples": [
+     "VS Code"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "0.4px",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "span",
+     "a"
+    ],
+    "samples": [
+     "By submitting your email address, you ag"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "600",
+    "lineHeight": "14px",
+    "letterSpacing": "0.1px",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "th"
+    ],
+    "samples": [
+     "Application"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "600",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Clipboard History"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 14,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Sync linear tasks"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "0.1px",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "16"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "span",
+     "button"
+    ],
+    "samples": [
+     "Website"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "span",
+     "button"
+    ],
+    "samples": [
+     "by"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Fetching assigned tasks"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 7,
+    "tags": [
+     "button",
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Code Images"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "0.2px",
+    "family": "Inter",
+    "count": 73,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Store"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "22.5px",
+    "letterSpacing": "0.2px",
+    "family": "Inter",
+    "count": 15,
+    "tags": [
+     "a",
+     "p",
+     "button",
+     "h5"
+    ],
+    "samples": [
+     "Productivity"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "22.5px",
+    "letterSpacing": "0.3px",
+    "family": "GeistMono",
+    "count": 7,
+    "tags": [
+     "span",
+     "p"
+    ],
+    "samples": [
+     "37k members"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "0.2px",
+    "family": "Inter",
+    "count": 7,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Download"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "0.2px",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Realtime knowledge, anywhere in your OS."
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Join"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 18,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Introducing Raycast Focus"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "500",
+    "lineHeight": "22.5px",
+    "letterSpacing": "0.1px",
+    "family": "JetBrains Mono",
+    "count": 69,
+    "tags": [
+     "pre",
+     "code",
+     "span"
+    ],
+    "samples": [
+     "module.exports = leftpad;\n\nfunction left"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "18.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 27,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "LinearCreate, search and modify your iss"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "18.5px",
+    "letterSpacing": "0.1px",
+    "family": "Inter",
+    "count": 5,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Type to filter entries..."
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 17,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Create, search and modify your issues wi"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "25.5px",
+    "letterSpacing": "0.2px",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "span",
+     "p"
+    ],
+    "samples": [
+     "Remember Everything."
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "18.5px",
+    "letterSpacing": "normal",
+    "family": "SF Pro Text",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Fast. Think in milliseconds."
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "AI Chat"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "22.5px",
+    "letterSpacing": "0.3px",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Browse thousands more"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "600",
+    "lineHeight": "normal",
+    "letterSpacing": "0.3px",
+    "family": "Inter",
+    "count": 48,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "@rauchg"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "700",
+    "lineHeight": "18.5px",
+    "letterSpacing": "normal",
+    "family": "SF Pro Text",
+    "count": 4,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "Fast."
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 6,
+    "tags": [
+     "li"
+    ],
+    "samples": [
+     "Summarise this"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "0.2px",
+    "family": "Inter",
+    "count": 5,
+    "tags": [
+     "p",
+     "span",
+     "h5"
+    ],
+    "samples": [
+     "A collection of powerful productivity to"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "0.2px",
+    "family": "Inter",
+    "count": 16,
+    "tags": [
+     "h2",
+     "p",
+     "h5"
+    ],
+    "samples": [
+     "Take shortcuts, not detours."
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "500",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "p",
+     "span"
+    ],
+    "samples": [
+     "Raycast is incrementally turning my Mac "
+    ]
+   },
+   {
+    "size": "22px",
+    "px": 22.0,
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "+"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "500",
+    "lineHeight": "38.5px",
+    "letterSpacing": "0.2px",
+    "family": "Inter",
+    "count": 30,
+    "tags": [
+     "span",
+     "a",
+     "h4"
+    ],
+    "samples": [
+     "What else can Raycast do?"
+    ]
+   }
+  ],
+  "totalSteps": 50,
+  "families": [
+   "GeistMono",
+   "Inter",
+   "JetBrains Mono",
+   "SF Pro Text",
+   "jetBrainsMono"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 90
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 1
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 30
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 12
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 616
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 2
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 160
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 191
+   },
+   {
+    "value": "14.5px",
+    "px": 14.5,
+    "count": 318
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 319
+   },
+   {
+    "value": "15.5px",
+    "px": 15.5,
+    "count": 24
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 162
+   },
+   {
+    "value": "17px",
+    "px": 17.0,
+    "count": 1
+   },
+   {
+    "value": "19px",
+    "px": 19.0,
+    "count": 1
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 35
+   },
+   {
+    "value": "22px",
+    "px": 22.0,
+    "count": 2
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1204px",
+    "count": 7
+   },
+   {
+    "value": "450px",
+    "count": 6
+   },
+   {
+    "value": "1440px",
+    "count": 5
+   },
+   {
+    "value": "1252px",
+    "count": 2
+   },
+   {
+    "value": "454px",
+    "count": 2
+   },
+   {
+    "value": "1064px",
+    "count": 2
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "2.5px",
+    "px": 2.5,
+    "count": 5
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 19
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 10
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 69
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 3
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 107
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 12
+   },
+   {
+    "value": "11px",
+    "px": 11.0,
+    "count": 159
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 51
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 28
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.4) 0px 1.5px 0.5px 2.5px, rgb(0, 0, 0) 0px 0px 0.5px 1px, rgba(0, 0, 0, 0.25) 0px 2px 1px 1px inset, rgba(255, 255, 255, 0.2) 0px 1px 1px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset",
+    "count": 159
+   },
+   {
+    "value": "rgb(27, 28, 30) 0px 0px 0px 1px, rgb(7, 8, 10) 0px 0px 0px 1px inset",
+    "count": 54
+   },
+   {
+    "value": "rgba(215, 201, 175, 0.05) 0px 0px 20px 5px, rgba(215, 201, 175, 0.05) 0px 0px 16px -7px",
+    "count": 18
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.28) 0px 1.189px 2.377px 0px",
+    "count": 17
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.25) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset",
+    "count": 17
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.03) 0px 7px 3px 0px, rgba(0, 0, 0, 0.25) 0px 4px 4px 0px",
+    "count": 6
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.1) 0px 1px 0px 0px inset",
+    "count": 6
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset",
+    "count": 5
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 13
+   },
+   {
+    "value": "2",
+    "count": 7
+   },
+   {
+    "value": "-1",
+    "count": 4
+   },
+   {
+    "value": "10",
+    "count": 3
+   },
+   {
+    "value": "0",
+    "count": 2
+   },
+   {
+    "value": "20",
+    "count": 1
+   },
+   {
+    "value": "3",
+    "count": 1
+   },
+   {
+    "value": "4",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 25,
+   "sizeBuckets": {
+    "md": 14,
+    "sm": 8,
+    "xl": 3
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Code Images",
+      "tag": "button",
+      "height": 30,
+      "width": 138,
+      "padding": "4px 8px 4px 4px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.1s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), fill 0.1s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.1s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 18.1
+     },
+     {
+      "text": "About",
+      "tag": "button",
+      "height": 30,
+      "width": 88,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.686)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.1s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), fill 0.1s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.1s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 21
+     },
+     {
+      "text": "Export Image",
+      "tag": "span",
+      "height": 30,
+      "width": 176,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "Export Image",
+      "tag": "button",
+      "height": 30,
+      "width": 137,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "6px 0px 0px 6px",
+      "background": "rgba(255, 97, 97, 0.15)",
+      "color": "rgb(255, 97, 97)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(77, 42, 42) 0px 0px 0px 1px inset",
+      "transition": "color 0.1s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), fill 0.1s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.1s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "button",
+      "height": 24,
+      "width": 60,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(24, 24, 24)",
+      "color": "rgba(255, 255, 255, 0.93)",
+      "border": "1px solid rgba(255, 255, 255, 0.106)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.1s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), fill 0.1s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.1s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": 17.76
+     },
+     {
+      "text": "on",
+      "tag": "button",
+      "height": 16,
+      "width": 28,
+      "padding": "0px 3px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(86, 194, 254)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1.72
+     },
+     {
+      "text": "on",
+      "tag": "button",
+      "height": 16,
+      "width": 28,
+      "padding": "0px 3px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(72, 72, 72)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 7.88
+     },
+     {
+      "text": "16",
+      "tag": "button",
+      "height": 24,
+      "width": 26,
+      "padding": "4px 6px",
+      "margin": "0px",
+      "radius": "5px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.4)",
+      "border": "0px none rgba(255, 255, 255, 0.4)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "16px",
+      "letterSpacing": "0.1px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s, background-color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "button",
+      "height": 57,
+      "width": 58,
+      "padding": "20px",
+      "margin": "0px",
+      "radius": "86px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(106, 107, 108)",
+      "border": "1px solid rgba(255, 255, 255, 0.06)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.1) 0px 1px 0px 0px inset",
+      "transition": "color 0.3s",
+      "gap": "24px",
+      "contrast": 3.93
+     },
+     {
+      "text": "",
+      "tag": "button",
+      "height": 57,
+      "width": 58,
+      "padding": "20px",
+      "margin": "0px",
+      "radius": "86px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.06)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.1) 0px 1px 0px 0px inset",
+      "transition": "color 0.3s",
+      "gap": "24px",
+      "contrast": 21
+     },
+     {
+      "text": "Track your flights.",
+      "tag": "span",
+      "height": 67,
+      "width": 331,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(67, 67, 69)",
+      "border": "0px none rgb(67, 67, 69)",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "38.4px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s",
+      "gap": "normal",
+      "contrast": 2.13
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 21,
+   "sizeBuckets": {
+    "md": 6,
+    "lg": 1,
+    "sm": 5,
+    "xl": 9
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Raycast",
+      "tag": "a",
+      "height": 30,
+      "width": 99,
+      "padding": "0px 12px 0px 8px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.686)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.1s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), fill 0.1s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.1s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 21
+     },
+     {
+      "text": "Download",
+      "tag": "a",
+      "height": 36,
+      "width": 117,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(230, 230, 230)",
+      "color": "rgb(47, 48, 49)",
+      "border": "0px none rgb(47, 48, 49)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "16px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset",
+      "transition": "background-image 0.2s, background-color 0.2s, box-shadow 0.2s ease-in-out, transform 0.1s ease-in-out",
+      "gap": "8px",
+      "contrast": 10.6
+     },
+     {
+      "text": "The Raycast Keyboard",
+      "tag": "a",
+      "height": 30,
+      "width": 202,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "1000px",
+      "background": "rgb(19, 13, 14)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "16.1px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 19.24
+     },
+     {
+      "text": "And much, much more.",
+      "tag": "a",
+      "height": 29,
+      "width": 271,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(67, 67, 69)",
+      "border": "0px none rgb(67, 67, 69)",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "38.4px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s",
+      "gap": "normal",
+      "contrast": 2.13
+     }
+    ],
+    "lg": [
+     {
+      "text": "Store",
+      "tag": "a",
+      "height": 41,
+      "width": 53,
+      "padding": "12px 8px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(156, 156, 157)",
+      "border": "0px none rgb(156, 156, 157)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s ease-in-out",
+      "gap": "normal",
+      "contrast": 7.66
+     }
+    ],
+    "sm": [
+     {
+      "text": "Productivity",
+      "tag": "a",
+      "height": 22,
+      "width": 83,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "22.4px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Engineering",
+      "tag": "a",
+      "height": 22,
+      "width": 82,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(106, 107, 108)",
+      "border": "0px none rgb(106, 107, 108)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "22.4px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s",
+      "gap": "normal",
+      "contrast": 3.93
+     },
+     {
+      "text": "Browse thousands more",
+      "tag": "a",
+      "height": 22,
+      "width": 210,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(156, 156, 157)",
+      "border": "0px none rgb(156, 156, 157)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "22.4px",
+      "letterSpacing": "0.3px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s",
+      "gap": "3px",
+      "contrast": 7.66
+     },
+     {
+      "text": "Learn more",
+      "tag": "a",
+      "height": 17,
+      "width": 78,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(156, 156, 157)",
+      "border": "0px none rgb(156, 156, 157)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "22.4px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.66
+     }
+    ],
+    "xl": [
+     {
+      "text": "LinearCreate, search and modif",
+      "tag": "a",
+      "height": 536,
+      "width": 360,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Plus thousands more...Browse t",
+      "tag": "a",
+      "height": 536,
+      "width": 360,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "22px",
+      "background": "rgb(17, 18, 20)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.06)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "box-shadow 0.3s",
+      "gap": "normal",
+      "contrast": 18.74
+     },
+     {
+      "text": "Slack37k membersGet the inside",
+      "tag": "a",
+      "height": 168,
+      "width": 430,
+      "padding": "24px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.06)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.15) 0px 1px 1px 0px inset",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 129,
+      "width": 230,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(67, 67, 69)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(215, 201, 175, 0.05) 0px 0px 20px 5px, rgba(215, 201, 175, 0.05) 0px 0px 16px -7px",
+      "transition": "0.3s",
+      "gap": "normal",
+      "contrast": 9.87
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 1,
+    "md": 1,
+    "lg": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 16,
+      "width": 216,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "12px",
+      "letterSpacing": "0.32px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "module.exports = leftpad;\n\nfun",
+      "tag": "textarea",
+      "height": 370,
+      "width": 392,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px none rgb(238, 238, 238)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "22.5px",
+      "letterSpacing": "0.1px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "padding 0.2s",
+      "gap": "normal",
+      "contrast": 18.1
+     }
+    ],
+    "md": [
+     {
+      "text": "Ask Raycast AI",
+      "tag": "input",
+      "height": 36,
+      "width": 611,
+      "padding": "0px 4px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 42,
+      "width": 276,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(255, 255, 255, 0.05)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.05)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "16.1px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s, border 0.3s",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Subscribe",
+      "tag": "input",
+      "height": 42,
+      "width": 138,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(255, 255, 255, 0.9)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgba(255, 255, 255, 0.05)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.1s ease-in-out",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 8,
+   "sizeBuckets": {
+    "xl": 8
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "LinearCreate, search and modif",
+      "tag": "div",
+      "height": 536,
+      "width": 360,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "LinearCreate, search and modif",
+      "tag": "div",
+      "height": 536,
+      "width": 360,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.1) 0px 1px 0px 0px inset, rgba(7, 13, 79, 0.05) 0px 0px 20px 3px, rgba(7, 13, 79, 0.05) 0px 0px 40px 20px, rgba(255, 255, 255, 0.06) 0px 0px 0px 1px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Search chatsWebsiteDailyRecent",
+      "tag": "div",
+      "height": 477,
+      "width": 1020,
+      "padding": "24px",
+      "margin": "0px",
+      "radius": "30px",
+      "background": "rgba(255, 255, 255, 0.02)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Block my calendar for tomorrow",
+      "tag": "div",
+      "height": 513,
+      "width": 495,
+      "padding": "24px",
+      "margin": "0px",
+      "radius": "30px",
+      "background": "rgba(255, 255, 255, 0.02)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 3,
+    "lg": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Code Imagesby Raycast",
+      "tag": "nav",
+      "height": 50,
+      "width": 1440,
+      "padding": "0px 20px 0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(24, 24, 24)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 17.76
+     },
+     {
+      "text": "StoreProAIiOSWindowsTeamsEnter",
+      "tag": "div",
+      "height": 76,
+      "width": 1204,
+      "padding": "16px 32px",
+      "margin": "0px",
+      "radius": "16px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.06)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.15) 0px 1px 1px 0px inset",
+      "transition": "height 0.3s, transform 0.3s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Type to filter entries...All T",
+      "tag": "div",
+      "height": 56,
+      "width": 750,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "0.1px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "lg": [
+     {
+      "text": "StoreProAIiOSWindowsTeamsEnter",
+      "tag": "div",
+      "height": 42,
+      "width": 628,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 21
+     },
+     {
+      "text": "Store",
+      "tag": "a",
+      "height": 41,
+      "width": 53,
+      "padding": "12px 8px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(156, 156, 157)",
+      "border": "0px none rgb(156, 156, 157)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s ease-in-out",
+      "gap": "normal",
+      "contrast": 7.66
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 3,
+   "sizeBuckets": {
+    "lg": 1,
+    "sm": 2
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "A collection of powerful produ",
+      "tag": "p",
+      "height": 42,
+      "width": 786,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "Linear",
+      "tag": "span",
+      "height": 18,
+      "width": 61,
+      "padding": "0px 4px 0px 3px",
+      "margin": "0px 0px -5px",
+      "radius": "4.76px",
+      "background": "rgba(255, 255, 255, 0.1)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "11.9px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "11.9px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 1
+     },
+     {
+      "text": "AI Chat",
+      "tag": "span",
+      "height": 26,
+      "width": 86,
+      "padding": "0px 6px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(27, 28, 30)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "16.1px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 17.05
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 9,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 4,
+    "md": 1,
+    "lg": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Your shortcut to everything.",
+      "tag": "h1",
+      "height": 141,
+      "width": 540,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "64px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "70.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Build the perfect tools.",
+      "tag": "h3",
+      "height": 197,
+      "width": 307,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "56px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "65.52px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "Take shortcuts, not detours.",
+      "tag": "h2",
+      "height": 24,
+      "width": 350,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "AI Chat",
+      "tag": "h3",
+      "height": 24,
+      "width": 450,
+      "padding": "0px",
+      "margin": "0px 0px 4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Snippets",
+      "tag": "h5",
+      "height": 24,
+      "width": 116,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 21
+     },
+     {
+      "text": "Subscribe to our newsletter.",
+      "tag": "h5",
+      "height": 22,
+      "width": 260,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "22.4px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "Plus thousands more...",
+      "tag": "h3",
+      "height": 29,
+      "width": 267,
+      "padding": "0px",
+      "margin": "40px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "lg": [
+     {
+      "text": "Meet your new virtual assistan",
+      "tag": "h2",
+      "height": 38,
+      "width": 453,
+      "padding": "0px",
+      "margin": "0px 0px 15px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "32px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "38.4px",
+      "letterSpacing": "-0.8px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Cross-platform",
+      "tag": "h4",
+      "height": 38,
+      "width": 307,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "38.4px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 16,
+   "sizeBuckets": {
+    "lg": 2,
+    "sm": 5,
+    "xl": 9
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "A collection of powerful produ",
+      "tag": "p",
+      "height": 42,
+      "width": 786,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "We Tested Apple's New Window M",
+      "tag": "p",
+      "height": 39,
+      "width": 230,
+      "padding": "0px",
+      "margin": "16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "19.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "macOS Tahoe and Apple Silicon ",
+      "tag": "p",
+      "height": 19,
+      "width": 281,
+      "padding": "0px",
+      "margin": "16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "GeistMono",
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 21
+     },
+     {
+      "text": "One interface, everything you ",
+      "tag": "p",
+      "height": 24,
+      "width": 350,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(106, 107, 108)",
+      "border": "0px none rgb(106, 107, 108)",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.93
+     },
+     {
+      "text": "Realtime knowledge, anywhere i",
+      "tag": "p",
+      "height": 24,
+      "width": 294,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(156, 156, 157)",
+      "border": "0px none rgb(156, 156, 157)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.66
+     },
+     {
+      "text": "Sure, here you go:",
+      "tag": "p",
+      "height": 26,
+      "width": 413,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "It’s about feeling like you’re",
+      "tag": "p",
+      "height": 48,
+      "width": 272,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(106, 107, 108)",
+      "border": "0px none rgb(106, 107, 108)",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.93
+     },
+     {
+      "text": "Create, search and modify your",
+      "tag": "p",
+      "height": 51,
+      "width": 312,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Raycast AI uses the tools you ",
+      "tag": "p",
+      "height": 54,
+      "width": 500,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.5)",
+      "border": "0px none rgba(255, 255, 255, 0.5)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "27px",
+      "letterSpacing": "0.18px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "I forked the Notion Search ext",
+      "tag": "p",
+      "height": 48,
+      "width": 311,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(156, 156, 157)",
+      "border": "0px none rgb(156, 156, 157)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.66
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Summarise thisDraft a follow-u",
+      "tag": "ul",
+      "height": 192,
+      "width": 475,
+      "padding": "0px 20px 0px 56px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.3)",
+      "border": "0px none rgba(255, 255, 255, 0.3)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "table": {
+   "label": "表格",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "ApplicationVS CodeContent Type",
+      "tag": "table",
+      "height": 91,
+      "width": 438,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "ApplicationVS CodeContent Type",
+      "tag": "div",
+      "height": 91,
+      "width": 454,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "tooltip": {
+   "label": "提示",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Clipboard History",
+      "tag": "div",
+      "height": 26,
+      "width": 138,
+      "padding": "1px 8px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.06)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "22.4px",
+      "letterSpacing": "0.2px",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.25) 0px 4px 4px 0px",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 3,
+   "sizeBuckets": {
+    "md": 1,
+    "sm": 1,
+    "xl": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "All TypesSearch...All TypesTex",
+      "tag": "div",
+      "height": 32,
+      "width": 196,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.2)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "14.95px",
+      "letterSpacing": "0.1px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "All Types",
+      "tag": "span",
+      "height": 15,
+      "width": 167,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "14.95px",
+      "letterSpacing": "0.1px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "❤️",
+      "tag": "div",
+      "height": 84,
+      "width": 84,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(255, 255, 255, 0.05)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgb(255, 255, 255)",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "36.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "avatar": {
+   "label": "头像",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "img",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "99999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "1px solid rgba(255, 255, 255, 0.1)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.3px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 63,
+   "sizeBuckets": {
+    "sm": 54,
+    "xl": 8,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 12,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 97, 97)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.13
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.686)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 168,
+      "width": 485,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.4)",
+      "border": "0px none rgba(255, 255, 255, 0.4)",
+      "fontSize": "13px",
+      "fontWeight": "700",
+      "fontFamily": "SF Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "img",
+      "height": 56,
+      "width": 56,
+      "padding": "0px",
+      "margin": "-2px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.28) 0px 1.189px 2.377px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 385,
+      "width": 488,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 356,
+      "width": 362,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "SF Pro Text",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "divider": {
+   "label": "分割线",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 124,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 217,
+      "width": 98,
+      "padding": "0px 48px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "pagination": {
+   "label": "分页",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 57,
+      "width": 128,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 8,
+      "width": 240,
+      "padding": "0px",
+      "margin": "0px 169px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 21
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "nav",
+   "height": 50,
+   "heading": null,
+   "background": "rgb(24, 24, 24)",
+   "padding": "0px 20px 0px 16px",
+   "children": 1
+  },
+  {
+   "tag": "main",
+   "height": 813,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "50px 0px 0px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 15.15,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 32
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.2s",
+    "count": 35
+   },
+   {
+    "value": "0.1s",
+    "count": 8
+   },
+   {
+    "value": "0.15s",
+    "count": 7
+   },
+   {
+    "value": "0.3s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 32
+   },
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 15
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 15
+   },
+   {
+    "value": "background-color",
+    "count": 15
+   },
+   {
+    "value": "border-color",
+    "count": 11
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 11
+   },
+   {
+    "value": "fill",
+    "count": 11
+   },
+   {
+    "value": "stroke",
+    "count": 11
+   },
+   {
+    "value": "padding",
+    "count": 11
+   },
+   {
+    "value": "width",
+    "count": 8
+   },
+   {
+    "value": "margin",
+    "count": 8
+   },
+   {
+    "value": "transform",
+    "count": 4
+   }
+  ]
+ }
+}

@@ -1,0 +1,608 @@
+{
+ "id": "t071",
+ "overview": {
+  "name": "Everywhere Tools",
+  "url": "https://everywhere.tools/",
+  "section": "设计画廊",
+  "pagesScanned": [
+   "https://everywhere.tools/",
+   "https://everywhere.tools/about"
+  ],
+  "subpages": [
+   "/about"
+  ],
+  "sectionCount": 1,
+  "componentSamples": 13,
+  "typeSteps": 6
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#3d3d3d",
+    "value": "#3d3d3d",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#3d3d3d",
+    "value": "#3d3d3d",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 1.0
+   },
+   "primary": {
+    "hex": "#556bfc",
+    "value": "#556bfc",
+    "token": "--tw-ring-color",
+    "source": "palette",
+    "contrastOnBg": 2.53
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#3d3d3d",
+    "count": 20
+   },
+   {
+    "hex": "#ffffff",
+    "count": 4
+   },
+   {
+    "hex": "#dcdcdc",
+    "count": 2
+   },
+   {
+    "hex": "#000000",
+    "count": 6
+   }
+  ],
+  "backgroundsTotal": 4,
+  "textTotal": 3,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "__Inter_Tight_a3c0d3",
+    "count": 20,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Typefaces"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "__Inter_Tight_a3c0d3",
+    "count": 20,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "TypefacesType ToolsTypographic experimen"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "__Inter_Tight_a3c0d3",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Danil Vladimirov"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "__Inter_Tight_a3c0d3",
+    "count": 7,
+    "tags": [
+     "a",
+     "p",
+     "button"
+    ],
+    "samples": [
+     "About"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "400",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "__Inter_Tight_a3c0d3",
+    "count": 9,
+    "tags": [
+     "p",
+     "a"
+    ],
+    "samples": [
+     "Everywhere.tools is a living collection "
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "700",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "__Inter_Tight_a3c0d3",
+    "count": 2,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "Everywhere.tools"
+    ]
+   }
+  ],
+  "totalSteps": 6,
+  "families": [
+   "__Inter_Tight_a3c0d3"
+  ],
+  "weights": [
+   "400",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 54
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 40
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 58
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 4
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 46
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 42
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 2
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 2
+   },
+   {
+    "value": "56px",
+    "px": 56.0,
+    "count": 1
+   },
+   {
+    "value": "80px",
+    "px": 80.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": []
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "9999px",
+    "px": 9999.0,
+    "count": 6
+   }
+  ],
+  "shadows": [],
+  "zIndex": []
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 2,
+   "sizeBuckets": {
+    "lg": 2
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Everything",
+      "tag": "button",
+      "height": 38,
+      "width": 118,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(61, 61, 61)",
+      "color": "rgb(220, 220, 220)",
+      "border": "1px solid rgb(61, 61, 61)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "__Inter_Tight_a3c0d3",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.92
+     },
+     {
+      "text": "Typefaces",
+      "tag": "button",
+      "height": 38,
+      "width": 116,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(61, 61, 61)",
+      "border": "1px solid rgb(61, 61, 61)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "__Inter_Tight_a3c0d3",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.86
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 6,
+   "sizeBuckets": {
+    "md": 2,
+    "lg": 2,
+    "xl": 1,
+    "sm": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 36,
+      "width": 285,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 61, 61)",
+      "border": "0px solid rgb(227, 228, 232)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "__Inter_Tight_a3c0d3",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.93
+     },
+     {
+      "text": "Collected",
+      "tag": "a",
+      "height": 29,
+      "width": 98,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 61, 61)",
+      "border": "0px solid rgb(227, 228, 232)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "__Inter_Tight_a3c0d3",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.93
+     }
+    ],
+    "lg": [
+     {
+      "text": "About",
+      "tag": "a",
+      "height": 38,
+      "width": 78,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(61, 61, 61)",
+      "border": "1px solid rgb(61, 61, 61)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "__Inter_Tight_a3c0d3",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.86
+     },
+     {
+      "text": "About",
+      "tag": "a",
+      "height": 38,
+      "width": 78,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(61, 61, 61)",
+      "color": "rgb(220, 220, 220)",
+      "border": "1px solid rgb(61, 61, 61)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "__Inter_Tight_a3c0d3",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.92
+     }
+    ],
+    "xl": [
+     {
+      "text": "TypefacesType ToolsTypographic",
+      "tag": "a",
+      "height": 328,
+      "width": 267,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 61, 61)",
+      "border": "0px solid rgb(227, 228, 232)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "__Inter_Tight_a3c0d3",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.93
+     }
+    ],
+    "sm": [
+     {
+      "text": "Danil Vladimirov",
+      "tag": "a",
+      "height": 21,
+      "width": 122,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 61, 61)",
+      "border": "0px solid rgb(227, 228, 232)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "__Inter_Tight_a3c0d3",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.93
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 3,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Collection of open-source tool",
+      "tag": "p",
+      "height": 28,
+      "width": 933,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 61, 61)",
+      "border": "0px solid rgb(227, 228, 232)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "__Inter_Tight_a3c0d3",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.93
+     }
+    ],
+    "xl": [
+     {
+      "text": "Everywhere.tools is a living c",
+      "tag": "p",
+      "height": 128,
+      "width": 690,
+      "padding": "0px",
+      "margin": "0px 0px 14px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 61, 61)",
+      "border": "0px solid rgb(227, 228, 232)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "__Inter_Tight_a3c0d3",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.93
+     },
+     {
+      "text": "The site is built using a cust",
+      "tag": "p",
+      "height": 64,
+      "width": 690,
+      "padding": "0px",
+      "margin": "0px 0px 14px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 61, 61)",
+      "border": "0px solid rgb(227, 228, 232)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "__Inter_Tight_a3c0d3",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.93
+     },
+     {
+      "text": "Everywhere.tools is made by Da",
+      "tag": "p",
+      "height": 96,
+      "width": 690,
+      "padding": "0px",
+      "margin": "0px 0px 14px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 61, 61)",
+      "border": "0px solid rgb(227, 228, 232)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "__Inter_Tight_a3c0d3",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.93
+     }
+    ],
+    "md": [
+     {
+      "text": "–",
+      "tag": "p",
+      "height": 32,
+      "width": 690,
+      "padding": "0px",
+      "margin": "0px 0px 14px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 61, 61)",
+      "border": "0px solid rgb(227, 228, 232)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "__Inter_Tight_a3c0d3",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.93
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "footer",
+   "height": 68,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "20px",
+   "children": 3
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 1.0,
+  "bodyContrastLevel": "fail",
+  "tapTargetMin": 21,
+  "tapTargetMedian": 38
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.3s",
+    "count": 20
+   }
+  ],
+  "easings": [
+   {
+    "value": "linear",
+    "count": 20
+   }
+  ],
+  "properties": [
+   {
+    "value": "opacity",
+    "count": 20
+   }
+  ]
+ }
+}

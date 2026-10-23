@@ -1,0 +1,3932 @@
+{
+ "id": "t365",
+ "overview": {
+  "name": "CoolDock",
+  "url": "https://cooldock.app/",
+  "section": "桌面应用",
+  "pagesScanned": [
+   "https://cooldock.app/",
+   "https://cooldock.app/docs",
+   "https://cooldock.app/updates",
+   "https://cooldock.app/roadmap"
+  ],
+  "subpages": [
+   "/docs",
+   "/updates",
+   "/roadmap"
+  ],
+  "sectionCount": 36,
+  "componentSamples": 333,
+  "typeSteps": 40
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#161a1c",
+    "value": "#161a1c",
+    "token": "--cc-bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "muted": {
+    "hex": "#65666a",
+    "value": "#65666a",
+    "token": "--cd-muted",
+    "source": "css-var",
+    "contrastOnBg": 3.06
+   },
+   "foreground": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": "--cd-ink",
+    "source": "css-var",
+    "contrastOnBg": 1.2
+   },
+   "primary": {
+    "hex": "#006fff",
+    "value": "#006fff",
+    "token": "--cd-brand",
+    "source": "css-var",
+    "contrastOnBg": 3.94
+   },
+   "border": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": "--cd-line",
+    "source": "css-var",
+    "contrastOnBg": 1.2
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 293
+   },
+   {
+    "hex": "#000000",
+    "count": 156
+   },
+   {
+    "hex": "#f7f7f7",
+    "count": 36
+   },
+   {
+    "hex": "#006fff",
+    "count": 22
+   },
+   {
+    "hex": "#edeceb",
+    "count": 8
+   },
+   {
+    "hex": "#f5f8ff",
+    "count": 6
+   },
+   {
+    "hex": "#c2d0e0",
+    "count": 6
+   },
+   {
+    "hex": "#2387f4",
+    "count": 4
+   },
+   {
+    "hex": "#161a1c",
+    "count": 3
+   },
+   {
+    "hex": "#242c31",
+    "count": 3
+   }
+  ],
+  "backgroundsTotal": 32,
+  "textTotal": 25,
+  "bordersTotal": 11
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "700",
+    "lineHeight": "16px",
+    "letterSpacing": "0.4px",
+    "family": "Inter Display",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "MCP"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "13px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 6,
+    "tags": [
+     "small"
+    ],
+    "samples": [
+     "Thu\n                    \n               "
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 414,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "K"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 138,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Feature Request"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "700",
+    "lineHeight": "18px",
+    "letterSpacing": "0.66px",
+    "family": "Albert Sans",
+    "count": 10,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Getting Started"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "-0.12px",
+    "family": "Inter Display",
+    "count": 5,
+    "tags": [
+     "small",
+     "span"
+    ],
+    "samples": [
+     "Design leadership"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 5,
+    "tags": [
+     "p",
+     "span"
+    ],
+    "samples": [
+     "Tax might apply"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 7,
+    "tags": [
+     "li"
+    ],
+    "samples": [
+     "One-time purchase"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "14.5px",
+    "letterSpacing": "normal",
+    "family": "CoolDock Widget Text",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Wed, Jun 17"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Albert Sans",
+    "count": 179,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Next →"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 161,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Oct 12, 2026"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 22,
+    "tags": [
+     "li",
+     "span",
+     "p"
+    ],
+    "samples": [
+     "Local first"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "14.5px",
+    "letterSpacing": "normal",
+    "family": "CoolDock Widget Text",
+    "count": 8,
+    "tags": [
+     "span",
+     "strong"
+    ],
+    "samples": [
+     "30°"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "17.5px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "CoolDock"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 276,
+    "tags": [
+     "label"
+    ],
+    "samples": [
+     "Your name (optional)"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "600",
+    "lineHeight": "14.5px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 2,
+    "tags": [
+     "small"
+    ],
+    "samples": [
+     "Drake"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "600",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Download for macOS"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "600",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 552,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "↑\n                                      "
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "700",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Download"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "15.5px",
+    "letterSpacing": "normal",
+    "family": "CoolDock Widget Text",
+    "count": 2,
+    "tags": [
+     "small"
+    ],
+    "samples": [
+     "Today"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "600",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 21,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Accept all"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "600",
+    "lineHeight": "15.5px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 3,
+    "tags": [
+     "label"
+    ],
+    "samples": [
+     "1 device"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 67,
+    "tags": [
+     "p",
+     "span",
+     "li",
+     "a"
+    ],
+    "samples": [
+     "Lifetime Access includes one year of upd"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "-0.28px",
+    "family": "Inter Display",
+    "count": 60,
+    "tags": [
+     "li",
+     "a"
+    ],
+    "samples": [
+     "Docs"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "-0.14px",
+    "family": "Inter Display",
+    "count": 19,
+    "tags": [
+     "li",
+     "span"
+    ],
+    "samples": [
+     "One year access for 1 Mac"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "-0.14px",
+    "family": "Inter Display",
+    "count": 3,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "CoolDock brings music, todos, events, we"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20.5px",
+    "letterSpacing": "normal",
+    "family": "Albert Sans",
+    "count": 18,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Introduction"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 6,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Update preview unavailable pending owned"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "17px",
+    "letterSpacing": "-0.28px",
+    "family": "Inter Display",
+    "count": 15,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Features"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 4,
+    "tags": [
+     "label"
+    ],
+    "samples": [
+     "Title"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 144,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Watch the update video on YouTube"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "700",
+    "lineHeight": "21px",
+    "letterSpacing": "-0.14px",
+    "family": "Inter Display",
+    "count": 2,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "5"
+    ]
+   },
+   {
+    "size": "14.5px",
+    "px": 14.5,
+    "weight": "400",
+    "lineHeight": "21.5px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 3,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "We use cookies to run this site and, wit"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 146,
+    "tags": [
+     "p",
+     "li",
+     "a",
+     "span"
+    ],
+    "samples": [
+     "CoolDock 2.2.0 opens browser windows in "
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "600",
+    "lineHeight": "21px",
+    "letterSpacing": "-0.16px",
+    "family": "Inter Display",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Get one year"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "600",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Watch video here"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "700",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 2,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "v1.2"
+    ]
+   },
+   {
+    "size": "15.5px",
+    "px": 15.5,
+    "weight": "650",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "Albert Sans",
+    "count": 2,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "CoolDock Docs"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "22.5px",
+    "letterSpacing": "-0.16px",
+    "family": "Inter Display",
+    "count": 21,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Amazing. Great job! I’ve replaced my def"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "Inter Display",
+    "count": 175,
+    "tags": [
+     "a",
+     "li",
+     "span",
+     "p"
+    ],
+    "samples": [
+     "Skip to content"
+    ]
+   }
+  ],
+  "totalSteps": 72,
+  "families": [
+   "-apple-system",
+   "Albert Sans",
+   "CoolDock Widget Text",
+   "Inter Display"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "650",
+   "680",
+   "700",
+   "760",
+   "900"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 871
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 98
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 61
+   },
+   {
+    "value": "6.5px",
+    "px": 6.5,
+    "count": 18
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 1690
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 22
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 202
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 2121
+   },
+   {
+    "value": "13px",
+    "px": 13.0,
+    "count": 18
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 18
+   },
+   {
+    "value": "14.5px",
+    "px": 14.5,
+    "count": 3
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 34
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 1203
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 9
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 340
+   },
+   {
+    "value": "21px",
+    "px": 21.0,
+    "count": 24
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "600px",
+    "count": 3
+   },
+   {
+    "value": "768px",
+    "count": 2
+   },
+   {
+    "value": "750px",
+    "count": 1
+   },
+   {
+    "value": "1600px",
+    "count": 1
+   },
+   {
+    "value": "736px",
+    "count": 1
+   },
+   {
+    "value": "1280px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 26
+   },
+   {
+    "value": "6.4px",
+    "px": 6.4,
+    "count": 9
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 575
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 2
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 3
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 149
+   },
+   {
+    "value": "13px",
+    "px": 13.0,
+    "count": 42
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 1
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 15
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 3
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+    "count": 139
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 111, 255, 0.5) 0px 0px 9px 0px",
+    "count": 18
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset",
+    "count": 10
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px 12px 36px 0px",
+    "count": 6
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.14) 0px 3px 12px 0px",
+    "count": 6
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 111, 255, 0.35) 0px 0px 12px 0px",
+    "count": 4
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.17) 0px 10px 28px 0px",
+    "count": 4
+   },
+   {
+    "value": "rgb(255, 255, 255) 1px 1px 1px 0px inset",
+    "count": 3
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 21
+   },
+   {
+    "value": "2",
+    "count": 15
+   },
+   {
+    "value": "3",
+    "count": 5
+   },
+   {
+    "value": "100",
+    "count": 4
+   },
+   {
+    "value": "200",
+    "count": 3
+   },
+   {
+    "value": "0",
+    "count": 3
+   },
+   {
+    "value": "4",
+    "count": 2
+   },
+   {
+    "value": "40",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 25,
+   "sizeBuckets": {
+    "md": 2,
+    "sm": 6,
+    "xl": 10,
+    "lg": 7
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Download",
+      "tag": "a",
+      "height": 33,
+      "width": 105,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "fontFamily": "Inter Display",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.17) 0px 10px 28px 0px",
+      "transition": "transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1), background-color 0.18s, color 0.18s, box-shadow 0.18s",
+      "gap": "6px",
+      "contrast": 21
+     },
+     {
+      "text": "Send comment for review",
+      "tag": "button",
+      "height": 32,
+      "width": 163,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "fontFamily": "Inter Display",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 22,
+      "width": 22,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgb(57, 198, 107)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.46
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 22,
+      "width": 22,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgb(35, 135, 244)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.84
+     }
+    ],
+    "xl": [
+     {
+      "text": "Get CoolDock for your Mac",
+      "tag": "a",
+      "height": 52,
+      "width": 282,
+      "padding": "15px 30px",
+      "margin": "20px 0px 0px",
+      "radius": "20px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.17) 0px 10px 28px 0px",
+      "transition": "transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1), background-color 0.18s, color 0.18s, box-shadow 0.18s",
+      "gap": "10px",
+      "contrast": 21
+     },
+     {
+      "text": "Play CoolDock product overview",
+      "tag": "button",
+      "height": 49,
+      "width": 277,
+      "padding": "12px 20px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0.85)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.35)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Download for macOS",
+      "tag": "a",
+      "height": 52,
+      "width": 240,
+      "padding": "15px 30px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1), background-color 0.18s, color 0.18s, box-shadow 0.18s",
+      "gap": "10px",
+      "contrast": 21
+     },
+     {
+      "text": "Get one year",
+      "tag": "a",
+      "height": 52,
+      "width": 329,
+      "padding": "14px 16px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "21px",
+      "letterSpacing": "-0.16px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1), background-color 0.18s, color 0.18s, box-shadow 0.18s",
+      "gap": "10px",
+      "contrast": 21
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 44,
+      "width": 44,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgb(57, 198, 107)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.22
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 44,
+      "width": 44,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgb(35, 135, 244)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.59
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 44,
+      "width": 44,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgb(156, 84, 223)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.42
+     },
+     {
+      "text": "Accept all",
+      "tag": "button",
+      "height": 42,
+      "width": 171,
+      "padding": "6.56px 13.12px",
+      "margin": "0px",
+      "radius": "6.4px",
+      "background": "rgb(194, 208, 224)",
+      "color": "rgb(22, 26, 28)",
+      "border": "1px solid rgb(194, 208, 224)",
+      "fontSize": "13.12px",
+      "fontWeight": "600",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s, border-color 0.15s, color 0.15s",
+      "gap": "normal",
+      "contrast": 11.17
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 27,
+   "sizeBuckets": {
+    "lg": 4,
+    "md": 6,
+    "sm": 9,
+    "xl": 8
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Skip to content",
+      "tag": "a",
+      "height": 43,
+      "width": 137,
+      "padding": "10px 16px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.16s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Watch the overview",
+      "tag": "a",
+      "height": 38,
+      "width": 135,
+      "padding": "8px 14px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0.82)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "17.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Background.Supply",
+      "tag": "a",
+      "height": 40,
+      "width": 164,
+      "padding": "5px 10px",
+      "margin": "0px",
+      "radius": "30px",
+      "background": "rgb(247, 247, 247)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 19.6
+     },
+     {
+      "text": "CoolDock on Awwwards",
+      "tag": "a",
+      "height": 39,
+      "width": 79,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "CoolDock",
+      "tag": "a",
+      "height": 30,
+      "width": 109,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "19.2px",
+      "letterSpacing": "-0.32px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 1
+     },
+     {
+      "text": "Download",
+      "tag": "a",
+      "height": 33,
+      "width": 105,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "fontFamily": "Inter Display",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.17) 0px 10px 28px 0px",
+      "transition": "transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1), background-color 0.18s, color 0.18s, box-shadow 0.18s",
+      "gap": "6px",
+      "contrast": 21
+     },
+     {
+      "text": "Watch the customization overvi",
+      "tag": "a",
+      "height": 30,
+      "width": 211,
+      "padding": "9px 12px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0.78)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Download for macOS",
+      "tag": "a",
+      "height": 33,
+      "width": 165,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "Features",
+      "tag": "a",
+      "height": 17,
+      "width": 52,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.6)",
+      "border": "0px solid rgba(0, 0, 0, 0.6)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter Display",
+      "lineHeight": "16.8px",
+      "letterSpacing": "-0.28px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Backgrounds.Supply",
+      "tag": "a",
+      "height": 24,
+      "width": 174,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "See the roadmap",
+      "tag": "a",
+      "height": 20,
+      "width": 124,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "AppitStudio",
+      "tag": "a",
+      "height": 24,
+      "width": 92,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "5px",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "Get CoolDock for your Mac",
+      "tag": "a",
+      "height": 52,
+      "width": 282,
+      "padding": "15px 30px",
+      "margin": "20px 0px 0px",
+      "radius": "20px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.17) 0px 10px 28px 0px",
+      "transition": "transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1), background-color 0.18s, color 0.18s, box-shadow 0.18s",
+      "gap": "10px",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 90,
+      "width": 90,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Download for macOS",
+      "tag": "a",
+      "height": 52,
+      "width": 240,
+      "padding": "15px 30px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1), background-color 0.18s, color 0.18s, box-shadow 0.18s",
+      "gap": "10px",
+      "contrast": 21
+     },
+     {
+      "text": "Get one year",
+      "tag": "a",
+      "height": 52,
+      "width": 329,
+      "padding": "14px 16px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "21px",
+      "letterSpacing": "-0.16px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1), background-color 0.18s, color 0.18s, box-shadow 0.18s",
+      "gap": "10px",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 7,
+   "sizeBuckets": {
+    "lg": 1,
+    "xl": 4,
+    "sm": 1,
+    "md": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Search documentation",
+      "tag": "input",
+      "height": 41,
+      "width": 280,
+      "padding": "8px 12px 8px 34px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(245, 248, 255)",
+      "color": "rgb(23, 26, 33)",
+      "border": "1px solid rgb(227, 233, 243)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Albert Sans",
+      "lineHeight": "23.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 16.38
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 49,
+      "width": 718,
+      "padding": "12px 16px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(255, 255, 255)",
+      "color": "oklch(0.145 0 none)",
+      "border": "1px solid oklch(0.87 0 none)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "textarea",
+      "height": 128,
+      "width": 718,
+      "padding": "12px 16px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(255, 255, 255)",
+      "color": "oklch(0.145 0 none)",
+      "border": "1px solid oklch(0.87 0 none)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Choose a category\n            ",
+      "tag": "select",
+      "height": 48,
+      "width": 349,
+      "padding": "12px 16px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(255, 255, 255)",
+      "color": "oklch(0.145 0 none)",
+      "border": "1px solid oklch(0.87 0 none)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "textarea",
+      "height": 96,
+      "width": 248,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.145 0 none)",
+      "border": "1px solid oklch(0.87 0 none)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 23,
+      "width": 171,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 34,
+      "width": 248,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.145 0 none)",
+      "border": "1px solid oklch(0.87 0 none)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 74,
+   "sizeBuckets": {
+    "xl": 68,
+    "md": 2,
+    "sm": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Apps, Files & Quick Access\n   ",
+      "tag": "article",
+      "height": 488,
+      "width": 550,
+      "padding": "40px",
+      "margin": "0px",
+      "radius": "30px",
+      "background": "rgb(247, 247, 247)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.76s cubic-bezier(0.16, 1, 0.3, 1), transform 0.76s cubic-bezier(0.16, 1, 0.3, 1)",
+      "gap": "20px",
+      "contrast": 19.6
+     },
+     {
+      "text": "One Year License\n             ",
+      "tag": "div",
+      "height": 620,
+      "width": 1200,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "20px",
+      "contrast": 1
+     },
+     {
+      "text": "$14.99\n        \n        Tax mi",
+      "tag": "div",
+      "height": 123,
+      "width": 329,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "$14.99",
+      "tag": "p",
+      "height": 94,
+      "width": 329,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "One Year License",
+      "tag": "header",
+      "height": 30,
+      "width": 329,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "One Year License",
+      "tag": "h3",
+      "height": 30,
+      "width": 329,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "25px",
+      "fontWeight": "650",
+      "fontFamily": "Inter Display",
+      "lineHeight": "30px",
+      "letterSpacing": "-1px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "Tax might apply",
+      "tag": "p",
+      "height": 17,
+      "width": 329,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(101, 102, 106)",
+      "border": "0px solid rgb(101, 102, 106)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.66
+     },
+     {
+      "text": "One year access for 1 Mac",
+      "tag": "li",
+      "height": 21,
+      "width": 329,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "21px",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "9px",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "1px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "21px",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Save $11.51",
+      "tag": "span",
+      "height": 17,
+      "width": 62,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(22, 136, 63)",
+      "border": "0px solid rgb(22, 136, 63)",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "fontFamily": "Inter Display",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.63
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 36,
+   "sizeBuckets": {
+    "xl": 30,
+    "sm": 2,
+    "md": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "CoolDock\n        \n\n        \n  ",
+      "tag": "header",
+      "height": 53,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "CoolDock\n        \n\n        \n  ",
+      "tag": "div",
+      "height": 53,
+      "width": 610,
+      "padding": "10px",
+      "margin": "0px 415px",
+      "radius": "18px",
+      "background": "rgba(255, 255, 255, 0.8)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(255, 255, 255) 1px 1px 1px 0px inset",
+      "transition": "all",
+      "gap": "40px",
+      "contrast": 21
+     },
+     {
+      "text": "Everything useful, one Dock aw",
+      "tag": "header",
+      "height": 196,
+      "width": 700,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Background.Supply\n            ",
+      "tag": "header",
+      "height": 224,
+      "width": 700,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "20px",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "Features\n                     ",
+      "tag": "nav",
+      "height": 23,
+      "width": 297,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Getting Started",
+      "tag": "p",
+      "height": 18,
+      "width": 280,
+      "padding": "0px 10px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(139, 148, 165)",
+      "border": "0px none rgb(139, 148, 165)",
+      "fontSize": "11px",
+      "fontWeight": "700",
+      "fontFamily": "Albert Sans",
+      "lineHeight": "18.15px",
+      "letterSpacing": "0.66px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.88
+     }
+    ],
+    "md": [
+     {
+      "text": "Download",
+      "tag": "a",
+      "height": 33,
+      "width": 105,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "fontFamily": "Inter Display",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.17) 0px 10px 28px 0px",
+      "transition": "transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1), background-color 0.18s, color 0.18s, box-shadow 0.18s",
+      "gap": "6px",
+      "contrast": 21
+     },
+     {
+      "text": "One Year License",
+      "tag": "header",
+      "height": 30,
+      "width": 329,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Introduction",
+      "tag": "a",
+      "height": 30,
+      "width": 280,
+      "padding": "5px 10px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 95, 204)",
+      "border": "0px none rgb(0, 95, 204)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Albert Sans",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.51
+     },
+     {
+      "text": "New\n                          ",
+      "tag": "header",
+      "height": 36,
+      "width": 282,
+      "padding": "8px 4px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 9,
+   "sizeBuckets": {
+    "xl": 5,
+    "md": 2,
+    "lg": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "img",
+      "height": 90,
+      "width": 90,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Local first\n                  ",
+      "tag": "ul",
+      "height": 68,
+      "width": 700,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 1
+     },
+     {
+      "text": "One Year License\n             ",
+      "tag": "div",
+      "height": 697,
+      "width": 1200,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "32px",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 48,
+      "width": 220,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "Local first",
+      "tag": "li",
+      "height": 29,
+      "width": 72,
+      "padding": "5px 10px",
+      "margin": "0px",
+      "radius": "30px",
+      "background": "rgb(247, 247, 247)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Inter Display",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.6
+     },
+     {
+      "text": "",
+      "tag": "img",
+      "height": 30,
+      "width": 30,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "lg": [
+     {
+      "text": "Background.Supply",
+      "tag": "a",
+      "height": 40,
+      "width": 164,
+      "padding": "5px 10px",
+      "margin": "0px",
+      "radius": "30px",
+      "background": "rgb(247, 247, 247)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 19.6
+     }
+    ],
+    "sm": [
+     {
+      "text": "Background.Supply",
+      "tag": "span",
+      "height": 19,
+      "width": 104,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Inter Display",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 24,
+   "sizeBuckets": {
+    "xl": 16,
+    "md": 3,
+    "sm": 4,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "A useful Dock for live widgets",
+      "tag": "h1",
+      "height": 160,
+      "width": 680,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "80px",
+      "fontWeight": "700",
+      "fontFamily": "Inter Display",
+      "lineHeight": "80px",
+      "letterSpacing": "-4px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Everything useful, one Dock aw",
+      "tag": "h2",
+      "height": 120,
+      "width": 700,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "60px",
+      "fontWeight": "700",
+      "fontFamily": "Inter Display",
+      "lineHeight": "60px",
+      "letterSpacing": "-3px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Make your Dock truly yours",
+      "tag": "h2",
+      "height": 60,
+      "width": 700,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "60px",
+      "fontWeight": "700",
+      "fontFamily": "Inter Display",
+      "lineHeight": "60px",
+      "letterSpacing": "-3px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Make your Mac Dock more useful",
+      "tag": "h2",
+      "height": 120,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "60px",
+      "fontWeight": "700",
+      "fontFamily": "Inter Display",
+      "lineHeight": "60px",
+      "letterSpacing": "-3px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "Apps, Files & Quick Access",
+      "tag": "h3",
+      "height": 30,
+      "width": 470,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "30px",
+      "fontWeight": "700",
+      "fontFamily": "Inter Display",
+      "lineHeight": "30px",
+      "letterSpacing": "-1.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "One Year License",
+      "tag": "h3",
+      "height": 30,
+      "width": 329,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "25px",
+      "fontWeight": "650",
+      "fontFamily": "Inter Display",
+      "lineHeight": "30px",
+      "letterSpacing": "-1px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "CoolDock v2.2.0",
+      "tag": "h2",
+      "height": 31,
+      "width": 226,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "32px",
+      "fontWeight": "760",
+      "fontFamily": "Inter Display",
+      "lineHeight": "30.72px",
+      "letterSpacing": "-1.76px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "Your smart second Dock",
+      "tag": "h2",
+      "height": 20,
+      "width": 274,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "fontFamily": "Inter Display",
+      "lineHeight": "20px",
+      "letterSpacing": "-1px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Quick Links",
+      "tag": "h2",
+      "height": 16,
+      "width": 77,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "Inter Display",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.8px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "We value your privacy",
+      "tag": "h2",
+      "height": 19,
+      "width": 384,
+      "padding": "0px 20.8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(235, 243, 246)",
+      "border": "0px none rgb(235, 243, 246)",
+      "fontSize": "16.8px",
+      "fontWeight": "600",
+      "fontFamily": "-apple-system",
+      "lineHeight": "19.32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.68
+     },
+     {
+      "text": "New",
+      "tag": "h2",
+      "height": 20,
+      "width": 47,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.145 0 none)",
+      "border": "0px solid oklch(0.145 0 none)",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Start profile shortcuts with 1",
+      "tag": "h3",
+      "height": 40,
+      "width": 192,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.145 0 none)",
+      "border": "0px solid oklch(0.145 0 none)",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 72,
+   "sizeBuckets": {
+    "sm": 17,
+    "xl": 51,
+    "md": 2,
+    "lg": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Your smart second Dock\n       ",
+      "tag": "p",
+      "height": 25,
+      "width": 244,
+      "padding": "0px",
+      "margin": "0px 0px 22.5px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.4px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 1
+     },
+     {
+      "text": "Real feedback from people usin",
+      "tag": "p",
+      "height": 28,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "\"Usually you have to choose be",
+      "tag": "p",
+      "height": 22,
+      "width": 470,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "22.4px",
+      "letterSpacing": "-0.16px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "One-time payment. No subscript",
+      "tag": "p",
+      "height": 28,
+      "width": 307,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(101, 102, 106)",
+      "border": "0px solid rgb(101, 102, 106)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.66
+     }
+    ],
+    "xl": [
+     {
+      "text": "CoolDock brings music, todos, ",
+      "tag": "p",
+      "height": 56,
+      "width": 680,
+      "padding": "0px",
+      "margin": "20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(95, 96, 98)",
+      "border": "0px solid rgb(95, 96, 98)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.34
+     },
+     {
+      "text": "Add live widgets, quick action",
+      "tag": "p",
+      "height": 56,
+      "width": 700,
+      "padding": "0px",
+      "margin": "20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Amazing. Great job! I’ve repla",
+      "tag": "p",
+      "height": 45,
+      "width": 500,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "22.4px",
+      "letterSpacing": "-0.16px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Open your favorite apps, organ",
+      "tag": "p",
+      "height": 67,
+      "width": 470,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "22.4px",
+      "letterSpacing": "-0.16px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "No email is collected. Comment",
+      "tag": "p",
+      "height": 32,
+      "width": 248,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 none)",
+      "border": "0px solid oklch(0.556 0 none)",
+      "fontSize": "10.88px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "1 imported comment is included",
+      "tag": "p",
+      "height": 32,
+      "width": 248,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 none)",
+      "border": "0px solid oklch(0.556 0 none)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Having to build the same dock ",
+      "tag": "p",
+      "height": 40,
+      "width": 248,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.439 0 none)",
+      "border": "0px solid oklch(0.439 0 none)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Having to build the same dock ",
+      "tag": "p",
+      "height": 40,
+      "width": 248,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.371 0 none)",
+      "border": "0px solid oklch(0.371 0 none)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 25,
+   "sizeBuckets": {
+    "sm": 2,
+    "xl": 23
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Features\n                     ",
+      "tag": "ul",
+      "height": 23,
+      "width": 297,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "20px",
+      "contrast": 1
+     },
+     {
+      "text": "One-time purchase\n            ",
+      "tag": "ul",
+      "height": 19,
+      "width": 680,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "20px",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "ul",
+      "height": 90,
+      "width": 1120,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 1
+     },
+     {
+      "text": "Local first\n                  ",
+      "tag": "ul",
+      "height": 68,
+      "width": 700,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 1
+     },
+     {
+      "text": "One year access for 1 Mac\n    ",
+      "tag": "ul",
+      "height": 189,
+      "width": 329,
+      "padding": "4px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "14px",
+      "contrast": 1
+     },
+     {
+      "text": "Lifetime access for 1 Mac\n    ",
+      "tag": "ul",
+      "height": 192,
+      "width": 329,
+      "padding": "4px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "14px",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "modal": {
+   "label": "对话框",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "We value your privacyWe use co",
+      "tag": "div",
+      "height": 305,
+      "width": 384,
+      "padding": "0px",
+      "margin": "0px 16px 0px 0px",
+      "radius": "8px",
+      "background": "rgb(22, 26, 28)",
+      "color": "rgb(235, 243, 246)",
+      "border": "0px none rgb(235, 243, 246)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 2, 0.3) 0px 10px 30px 0px",
+      "transition": "opacity 0.25s, visibility 0.25s, transform 0.25s",
+      "gap": "normal",
+      "contrast": 15.59
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 5,
+   "sizeBuckets": {
+    "lg": 5
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Choose lifetime access device ",
+      "tag": "fieldset",
+      "height": 44,
+      "width": 329,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "1 device\n                     ",
+      "tag": "div",
+      "height": 44,
+      "width": 329,
+      "padding": "3px",
+      "margin": "0px",
+      "radius": "14px",
+      "background": "rgb(247, 247, 247)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.6
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 38,
+      "width": 108,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "1 device",
+      "tag": "label",
+      "height": 38,
+      "width": 108,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "15.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "avatar": {
+   "label": "头像",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 1,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "img",
+      "height": 60,
+      "width": 60,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "100px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 22,
+      "width": 22,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 44,
+      "width": 44,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 24,
+   "sizeBuckets": {
+    "md": 2,
+    "sm": 20,
+    "xl": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "img",
+      "height": 30,
+      "width": 30,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "19.2px",
+      "letterSpacing": "-0.32px",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.14) 0px 3px 12px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "img",
+      "height": 30,
+      "width": 30,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "700",
+      "fontFamily": "Inter Display",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 25,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.4px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter Display",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Inter Display",
+      "lineHeight": "17.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 60,
+      "width": 60,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "CoolDock",
+      "tag": "svg",
+      "height": 305,
+      "width": 1200,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Display",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "pagination": {
+   "label": "分页",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Next →\n                       ",
+      "tag": "nav",
+      "height": 106,
+      "width": 736,
+      "padding": "28px 0px 0px",
+      "margin": "56px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 26, 33)",
+      "border": "1px solid rgb(227, 233, 243)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Albert Sans",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.21
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 53,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "main",
+   "height": 15189,
+   "heading": "A useful Dock for live widgets.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 11
+  },
+  {
+   "tag": "section",
+   "height": 1326,
+   "heading": "A useful Dock for live widgets.",
+   "background": "rgb(237, 236, 235)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 1321,
+   "heading": "Everything useful, one Dock away",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "aside",
+   "height": 90,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 196,
+   "heading": "Everything useful, one Dock away",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 301,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 2060,
+   "heading": "Widgets for everything you do",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "100px 40px 200px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 196,
+   "heading": "Widgets for everything you do",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 488,
+   "heading": "Apps, Files & Quick Access",
+   "background": "rgb(247, 247, 247)",
+   "padding": "40px",
+   "children": 3
+  },
+  {
+   "tag": "article",
+   "height": 488,
+   "heading": "Productivity & Daily Focus",
+   "background": "rgb(247, 247, 247)",
+   "padding": "40px",
+   "children": 3
+  },
+  {
+   "tag": "article",
+   "height": 488,
+   "heading": "Mac Controls & System Tools",
+   "background": "rgb(247, 247, 247)",
+   "padding": "40px",
+   "children": 3
+  },
+  {
+   "tag": "article",
+   "height": 488,
+   "heading": "Creator & Utility Widgets",
+   "background": "rgb(247, 247, 247)",
+   "padding": "40px",
+   "children": 3
+  },
+  {
+   "tag": "article",
+   "height": 488,
+   "heading": "Founder & Business Widgets",
+   "background": "rgb(247, 247, 247)",
+   "padding": "40px",
+   "children": 3
+  },
+  {
+   "tag": "article",
+   "height": 488,
+   "heading": "Developer & Startup Widgets",
+   "background": "rgb(247, 247, 247)",
+   "padding": "40px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 1114,
+   "heading": "Make your Dock truly yours",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "header",
+   "height": 224,
+   "heading": "Make your Dock truly yours",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 1366,
+   "heading": "Loved by Mac Users",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "header",
+   "height": 108,
+   "heading": "Loved by Mac Users",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 3886,
+   "heading": "Make your Mac Dock more useful",
+   "background": "rgb(0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 1.2,
+  "bodyContrastLevel": "fail",
+  "tapTargetMin": 15,
+  "tapTargetMedian": 42
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.18s",
+    "count": 36
+   },
+   {
+    "value": "0.15s",
+    "count": 14
+   },
+   {
+    "value": "0.76s",
+    "count": 12
+   },
+   {
+    "value": "0.25s",
+    "count": 5
+   },
+   {
+    "value": "0.16s",
+    "count": 1
+   },
+   {
+    "value": "0.3s",
+    "count": 1
+   },
+   {
+    "value": "0.9s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 41
+   },
+   {
+    "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "count": 13
+   },
+   {
+    "value": "cubic-bezier(0.2, 0.7, 0.2, 1)",
+    "count": 10
+   }
+  ],
+  "properties": [
+   {
+    "value": "transform",
+    "count": 18
+   },
+   {
+    "value": "color",
+    "count": 18
+   },
+   {
+    "value": "background-color",
+    "count": 12
+   },
+   {
+    "value": "box-shadow",
+    "count": 9
+   },
+   {
+    "value": "opacity",
+    "count": 7
+   },
+   {
+    "value": "border-color",
+    "count": 3
+   },
+   {
+    "value": "stroke-dashoffset",
+    "count": 1
+   },
+   {
+    "value": "visibility",
+    "count": 1
+   },
+   {
+    "value": "background-size",
+    "count": 1
+   }
+  ]
+ }
+}

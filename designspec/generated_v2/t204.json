@@ -1,0 +1,2614 @@
+{
+ "id": "t204",
+ "overview": {
+  "name": "evlog",
+  "url": "https://www.evlog.dev/",
+  "section": "开发环境",
+  "pagesScanned": [
+   "https://www.evlog.dev/",
+   "https://www.evlog.dev/llms.txt",
+   "https://www.evlog.dev/sitemap.xml"
+  ],
+  "subpages": [
+   "/llms.txt",
+   "/sitemap.xml"
+  ],
+  "sectionCount": 21,
+  "componentSamples": 113,
+  "typeSteps": 32
+ },
+ "colors": {
+  "roles": {
+   "secondary": {
+    "hex": "#2853ff",
+    "value": "#2853ff",
+    "token": "--ui-secondary",
+    "source": "css-var",
+    "contrastOnBg": 1.0
+   },
+   "primary": {
+    "hex": "#2853ff",
+    "value": "#2853ff",
+    "token": "--ui-primary",
+    "source": "css-var",
+    "contrastOnBg": 1.0
+   },
+   "info": {
+    "hex": "#2853ff",
+    "value": "#2853ff",
+    "token": "--ui-info",
+    "source": "css-var",
+    "contrastOnBg": 1.0
+   },
+   "background": {
+    "hex": "#2853ff",
+    "value": "#2853ff",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#e4e4e7",
+    "value": "oklch(0.92 0.004 286.32)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 4.39
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ebebeb",
+    "count": 235
+   },
+   {
+    "hex": "#2853ff",
+    "count": 60
+   },
+   {
+    "hex": "#ffffff",
+    "count": 7
+   },
+   {
+    "hex": "#000000",
+    "count": 1
+   },
+   {
+    "hex": "#f5f5f5",
+    "count": 1
+   },
+   {
+    "hex": "#171717",
+    "count": 589
+   },
+   {
+    "hex": "#525252",
+    "count": 236
+   },
+   {
+    "hex": "#89ddff",
+    "count": 64
+   },
+   {
+    "hex": "#babed8",
+    "count": 29
+   },
+   {
+    "hex": "#f07178",
+    "count": 26
+   }
+  ],
+  "backgroundsTotal": 33,
+  "textTotal": 32,
+  "bordersTotal": 10
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "9px",
+    "px": 9.0,
+    "weight": "400",
+    "lineHeight": "13.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 18,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Nuxt / Next.js"
+    ]
+   },
+   {
+    "size": "9px",
+    "px": 9.0,
+    "weight": "400",
+    "lineHeight": "13.5px",
+    "letterSpacing": "0.45px",
+    "family": "Geist Mono",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "live"
+    ]
+   },
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 27,
+    "tags": [
+     "span",
+     "button",
+     "p"
+    ],
+    "samples": [
+     "?"
+    ]
+   },
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "400",
+    "lineHeight": "13.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 23,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "41"
+    ]
+   },
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "1px",
+    "family": "Geist Pixel Line",
+    "count": 13,
+    "tags": [
+     "button",
+     "p"
+    ],
+    "samples": [
+     "For humans"
+    ]
+   },
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.125px",
+    "family": "Geist Mono",
+    "count": 5,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "↗"
+    ]
+   },
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "0.25px",
+    "family": "Geist Mono",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "score"
+    ]
+   },
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "600",
+    "lineHeight": "normal",
+    "letterSpacing": "0.5px",
+    "family": "ui-monospace",
+    "count": 3,
+    "tags": [
+     "th"
+    ],
+    "samples": [
+     "URL"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "16.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 66,
+    "tags": [
+     "span",
+     "p"
+    ],
+    "samples": [
+     "Wide events"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 9,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "29 entry points scanned · 8 emit nothing"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 232,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "0"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "500",
+    "lineHeight": "16.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 7,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Frontend"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 176,
+    "tags": [
+     "span",
+     "a",
+     "p"
+    ],
+    "samples": [
+     "$"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 14,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Pipeline runs in the background. Your re"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 464,
+    "tags": [
+     "td",
+     "a"
+    ],
+    "samples": [
+     "https://www.evlog.dev/"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 32,
+    "tags": [
+     "span",
+     "button"
+    ],
+    "samples": [
+     "error"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.125px",
+    "family": "Geist Mono",
+    "count": 77,
+    "tags": [
+     "p",
+     "span",
+     "li",
+     "a"
+    ],
+    "samples": [
+     "21:00:29INFOGET /footer 200 in 0.4ms"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "0.3125px",
+    "family": "Geist Mono",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "INFO"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 259,
+    "tags": [
+     "span",
+     "p",
+     "pre",
+     "code"
+    ],
+    "samples": [
+     "export default"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 154,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "export default defineEventHandler(async "
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "76"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 31,
+    "tags": [
+     "a",
+     "span",
+     "button"
+    ],
+    "samples": [
+     "Docs"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 6,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "INFO"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 23,
+    "tags": [
+     "li",
+     "button",
+     "a"
+    ],
+    "samples": [
+     "Docs"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 22,
+    "tags": [
+     "button",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "I already use pino. What actually change"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "700",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "56% fewer bytes and 75% fewer events"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 2,
+    "tags": [
+     "span",
+     "p"
+    ],
+    "samples": [
+     "86"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "700",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 3,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "evlog.evlog."
+    ]
+   },
+   {
+    "size": "30px",
+    "px": 30.0,
+    "weight": "400",
+    "lineHeight": "36px",
+    "letterSpacing": "normal",
+    "family": "Geist Pixel Line",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "evlog"
+    ]
+   },
+   {
+    "size": "30px",
+    "px": 30.0,
+    "weight": "700",
+    "lineHeight": "36px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "."
+    ]
+   },
+   {
+    "size": "60px",
+    "px": 60.0,
+    "weight": "400",
+    "lineHeight": "60px",
+    "letterSpacing": "-1.5px",
+    "family": "Geist Pixel Line",
+    "count": 35,
+    "tags": [
+     "h2",
+     "span"
+    ],
+    "samples": [
+     "Set context.  Get answers."
+    ]
+   },
+   {
+    "size": "60px",
+    "px": 60.0,
+    "weight": "400",
+    "lineHeight": "66px",
+    "letterSpacing": "-1.5px",
+    "family": "Geist Pixel Line",
+    "count": 3,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "Digging through logs  is not observabili"
+    ]
+   }
+  ],
+  "totalSteps": 40,
+  "families": [
+   "Geist",
+   "Geist Mono",
+   "Geist Pixel Line",
+   "ui-monospace"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 120
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 779
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 872
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 64
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 302
+   },
+   {
+    "value": "13px",
+    "px": 13.0,
+    "count": 2
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 12
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 6
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 856
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 81
+   },
+   {
+    "value": "22.5px",
+    "px": 22.5,
+    "count": 5
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 67
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 15
+   },
+   {
+    "value": "36px",
+    "px": 36.0,
+    "count": 1
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 17
+   },
+   {
+    "value": "44px",
+    "px": 44.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "672px",
+    "count": 7
+   },
+   {
+    "value": "576px",
+    "count": 5
+   },
+   {
+    "value": "512px",
+    "count": 5
+   },
+   {
+    "value": "448px",
+    "count": 5
+   },
+   {
+    "value": "1440px",
+    "count": 3
+   },
+   {
+    "value": "896px",
+    "count": 3
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "2px",
+    "px": 2.0,
+    "count": 33
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 232
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 1
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 48
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0 0 0 / 0.6) 0px 25px 50px -12px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, color(srgb 0.156863 0.32549 1 / 0.25) 0px 0px 24px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.055) 0px 1px 0px 0px inset",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "10",
+    "count": 10
+   },
+   {
+    "value": "40",
+    "count": 2
+   },
+   {
+    "value": "50",
+    "count": 2
+   },
+   {
+    "value": "20",
+    "count": 2
+   },
+   {
+    "value": "0",
+    "count": 1
+   },
+   {
+    "value": "1",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 14,
+   "sizeBuckets": {
+    "md": 2,
+    "sm": 7,
+    "lg": 1,
+    "xl": 4
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Ask AI a question",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "6px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.92 0.004 286.32)",
+      "border": "0px solid oklch(0.92 0.004 286.32)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "$npx skills add https://www.ev",
+      "tag": "button",
+      "height": 30,
+      "width": 330,
+      "padding": "6px 16px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.92 0.004 286.32)",
+      "border": "1px solid oklch(0.37 0.013 285.805)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border-color 0.2s cubic-bezier(0.23, 1, 0.32, 1), transform 0.2s cubic-bezier(0.23, 1, 0.32, 1)",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "For humans",
+      "tag": "button",
+      "height": 15,
+      "width": 64,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Pixel Line",
+      "lineHeight": "15px",
+      "letterSpacing": "1px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "For agents",
+      "tag": "button",
+      "height": 15,
+      "width": 61,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Pixel Line",
+      "lineHeight": "15px",
+      "letterSpacing": "1px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "200",
+      "tag": "button",
+      "height": 21,
+      "width": 36,
+      "padding": "2px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.696 -0.162114 0.0511765 / 0.0824487)",
+      "color": "oklab(0.69758 -0.132932 0.0396645)",
+      "border": "1px solid oklab(0.696 -0.162114 0.0511766 / 0.247346)",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "402",
+      "tag": "button",
+      "height": 21,
+      "width": 36,
+      "padding": "2px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.637 0.214213 0.1014 / 0.0175514)",
+      "color": "oklab(0.693065 0.04102 0.00591282)",
+      "border": "1px solid oklab(0.637 0.214213 0.1014 / 0.0526541)",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Fix this with evlog",
+      "tag": "button",
+      "height": 40,
+      "width": 209,
+      "padding": "12px 24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(40, 83, 255)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, color(srgb 0.156863 0.32549 1 / 0.25) 0px 0px 24px 0px",
+      "transition": "0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 5.57
+     }
+    ],
+    "xl": [
+     {
+      "text": "Nuxt",
+      "tag": "button",
+      "height": 90,
+      "width": 74,
+      "padding": "12px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.536524 -0.0179856 -0.256156 / 0.05)",
+      "color": "oklch(0.92 0.004 286.32)",
+      "border": "1px solid oklab(0.536524 -0.0179856 -0.256156 / 0.3)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "Next.js",
+      "tag": "button",
+      "height": 90,
+      "width": 84,
+      "padding": "12px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.92 0.004 286.32)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "I already use pino. What actua",
+      "tag": "button",
+      "height": 52,
+      "width": 720,
+      "padding": "14px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.92 0.004 286.32)",
+      "border": "0px solid oklch(0.92 0.004 286.32)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Toggle",
+      "tag": "button",
+      "height": 813,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.92 0.004 286.32)",
+      "border": "0px solid oklch(0.92 0.004 286.32)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 16,
+   "sizeBuckets": {
+    "sm": 7,
+    "md": 5,
+    "lg": 2,
+    "xl": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "evlog.evlog.",
+      "tag": "a",
+      "height": 24,
+      "width": 85,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "fontFamily": "Geist",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 21
+     },
+     {
+      "text": "Get Started",
+      "tag": "a",
+      "height": 28,
+      "width": 107,
+      "padding": "6px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(40, 83, 255)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 5.57
+     },
+     {
+      "text": "Quick start guide",
+      "tag": "a",
+      "height": 16,
+      "width": 140,
+      "padding": "0px",
+      "margin": "16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "catalog",
+      "tag": "a",
+      "height": 22,
+      "width": 56,
+      "padding": "0px",
+      "margin": "6px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(40, 83, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 3.77
+     }
+    ],
+    "md": [
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 32,
+      "width": 59,
+      "padding": "6px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "6px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.92 0.004 286.32)",
+      "border": "0px solid oklch(0.92 0.004 286.32)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Fix your logs",
+      "tag": "a",
+      "height": 36,
+      "width": 135,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(40, 83, 255)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 5.57
+     },
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 36,
+      "width": 97,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Vercel",
+      "tag": "a",
+      "height": 40,
+      "width": 251,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(srgb 0.622531 0.622596 0.663406 / 0.55)",
+      "border": "0px solid color(srgb 0.622531 0.622596 0.663406 / 0.55)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s, transform 0.25s",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "View on GitHub",
+      "tag": "a",
+      "height": 38,
+      "width": 150,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid oklab(0.999994 0.0000455678 0.0000200868 / 0.4)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Vite",
+      "tag": "a",
+      "height": 90,
+      "width": 74,
+      "padding": "12px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.92 0.004 286.32)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "the comparison for your stack",
+      "tag": "a",
+      "height": 46,
+      "width": 717,
+      "padding": "0px",
+      "margin": "6px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(40, 83, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 3.77
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.92 0.004 286.32)",
+      "color": "oklch(0.92 0.004 286.32)",
+      "border": "0px solid oklch(0.92 0.004 286.32)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "evlog.evlog.DocsConceptsCLIFra",
+      "tag": "header",
+      "height": 64,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.92 0.004 286.32)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "right 0.2s linear",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "DocsConceptsCLIFrameworksAdapt",
+      "tag": "nav",
+      "height": 48,
+      "width": 483,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.92 0.004 286.32)",
+      "border": "0px solid oklch(0.92 0.004 286.32)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "›docsIntroductionQuick startCo",
+      "tag": "nav",
+      "height": 101,
+      "width": 1264,
+      "padding": "0px",
+      "margin": "0px 0px 0px 112.498px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.871 0.006 286.286)",
+      "border": "0px solid oklch(0.871 0.006 286.286)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.125px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 3,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Digging through logs  is not o",
+      "tag": "h1",
+      "height": 198,
+      "width": 583,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "60px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Pixel Line",
+      "lineHeight": "66px",
+      "letterSpacing": "-1.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Set context.  Get answers.",
+      "tag": "h2",
+      "height": 120,
+      "width": 672,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "60px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Pixel Line",
+      "lineHeight": "60px",
+      "letterSpacing": "-1.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Built for agents.",
+      "tag": "h2",
+      "height": 60,
+      "width": 576,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "60px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Pixel Line",
+      "lineHeight": "60px",
+      "letterSpacing": "-1.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "evlog",
+      "tag": "h1",
+      "height": 26,
+      "width": 1152,
+      "padding": "0px",
+      "margin": "0px 0px 4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px none rgb(23, 23, 23)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 24,
+   "sizeBuckets": {
+    "xl": 8,
+    "sm": 15,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "A modern TypeScript logger bui",
+      "tag": "p",
+      "height": 56,
+      "width": 576,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Accumulate context with log.se",
+      "tag": "p",
+      "height": 68,
+      "width": 512,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Structured fields, machine-rea",
+      "tag": "p",
+      "height": 91,
+      "width": 512,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Run evlog map to find missing ",
+      "tag": "p",
+      "height": 94,
+      "width": 512,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Used by",
+      "tag": "p",
+      "height": 15,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px 0px 40px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Pixel Line",
+      "lineHeight": "15px",
+      "letterSpacing": "2.4px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "✓ One log with full context",
+      "tag": "p",
+      "height": 16,
+      "width": 634,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Card declined by issuer — insu",
+      "tag": "p",
+      "height": 23,
+      "width": 370,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "good",
+      "tag": "p",
+      "height": 17,
+      "width": 128,
+      "padding": "0px",
+      "margin": "4px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(40, 83, 255)",
+      "border": "0px solid rgb(40, 83, 255)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.77
+     }
+    ],
+    "lg": [
+     {
+      "text": "76/100",
+      "tag": "p",
+      "height": 38,
+      "width": 128,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "36px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "DocsConceptsCLIFrameworksAdapt",
+      "tag": "ul",
+      "height": 48,
+      "width": 483,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.92 0.004 286.32)",
+      "border": "0px solid oklch(0.92 0.004 286.32)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "IntroductionQuick startConfigu",
+      "tag": "ul",
+      "height": 20,
+      "width": 1129,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.871 0.006 286.286)",
+      "border": "0px solid oklch(0.871 0.006 286.286)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.125px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal 14.9998px",
+      "contrast": null
+     },
+     {
+      "text": "GitHub↗ (opens in a new tab)Re",
+      "tag": "ul",
+      "height": 21,
+      "width": 1129,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.871 0.006 286.286)",
+      "border": "0px solid oklch(0.871 0.006 286.286)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.125px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal 14.9998px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "table": {
+   "label": "表格",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "URLImagesLast Updatedhttps://w",
+      "tag": "table",
+      "height": 3975,
+      "width": 1150,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px none rgb(23, 23, 23)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 14,
+   "sizeBuckets": {
+    "sm": 10,
+    "lg": 2,
+    "xl": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "41",
+      "tag": "span",
+      "height": 13,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px 16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "13.3333px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "21:00:24.528",
+      "tag": "span",
+      "height": 16,
+      "width": 86,
+      "padding": "0px",
+      "margin": "0px 12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.705 0.015 286.067)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "29 entry points",
+      "tag": "span",
+      "height": 17,
+      "width": 99,
+      "padding": "0px",
+      "margin": "0px 0px 0px 402.188px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 40,
+      "width": 170,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "color(srgb 0.622531 0.622596 0.663406 / 0.55)",
+      "color": "color(srgb 0.622531 0.622596 0.663406 / 0.55)",
+      "border": "0px solid color(srgb 0.622531 0.622596 0.663406 / 0.55)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "76/100",
+      "tag": "p",
+      "height": 38,
+      "width": 128,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "36px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "21:10",
+      "tag": "span",
+      "height": 78,
+      "width": 141,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "60px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Pixel Line",
+      "lineHeight": "60px",
+      "letterSpacing": "-1.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "URLImagesLast Updatedhttps://w",
+      "tag": "div",
+      "height": 3977,
+      "width": 1152,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(245, 245, 245)",
+      "color": "rgb(23, 23, 23)",
+      "border": "1px solid rgb(212, 212, 212)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "20.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 16.44
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "$",
+      "tag": "span",
+      "height": 16,
+      "width": 7,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(40, 83, 255)",
+      "border": "0px solid rgb(40, 83, 255)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.77
+     },
+     {
+      "text": "41",
+      "tag": "span",
+      "height": 13,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px 16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "13.3333px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "21:00:24.528",
+      "tag": "span",
+      "height": 16,
+      "width": 86,
+      "padding": "0px",
+      "margin": "0px 12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 30,
+   "sizeBuckets": {
+    "sm": 27,
+    "lg": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.92 0.004 286.32)",
+      "color": "oklch(0.92 0.004 286.32)",
+      "border": "0px solid oklch(0.92 0.004 286.32)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.705 0.015 286.067)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1), transform 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 40,
+      "width": 174,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "color(srgb 0.622531 0.622596 0.663406 / 0.55)",
+      "color": "color(srgb 0.622531 0.622596 0.663406 / 0.55)",
+      "border": "0px solid color(srgb 0.622531 0.622596 0.663406 / 0.55)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 40,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 40,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.705 0.015 286.067)",
+      "color": "oklch(0.705 0.015 286.067)",
+      "border": "0px solid oklch(0.705 0.015 286.067)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 64,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "nav",
+   "height": 48,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "main",
+   "height": 13048,
+   "heading": "Digging through logs  is not observability.  It's ",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1184,
+   "heading": "Digging through logs  is not observability.  It's ",
+   "background": "oklch(0.141 0.005 285.823)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 191,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "16px 0px 0px",
+   "children": 4
+  },
+  {
+   "tag": "section",
+   "height": 10140,
+   "heading": "Set context.  Get answers.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1016,
+   "heading": "Set context.  Get answers.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "80px 0px 128px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 958,
+   "heading": "Built for agents.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 1087,
+   "heading": "Find logging gaps  in your source.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 865,
+   "heading": "Send everywhere.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 842,
+   "heading": "See the full picture.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 981,
+   "heading": "Keep what matters.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 840,
+   "heading": "Compliance-ready  by composition.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 922,
+   "heading": "Make AI calls  observable.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1035,
+   "heading": "Add logging,  not overhead.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 1339,
+   "heading": "Your stack. Covered.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 724,
+   "heading": "Before you install.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 584,
+   "heading": "Better loggingby 21:10.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 4
+  },
+  {
+   "tag": "footer",
+   "height": 241,
+   "heading": "Site links",
+   "background": "oklch(0.141 0.005 285.823)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "nav",
+   "height": 101,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 5
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 3.77,
+  "bodyContrastLevel": "AA-large",
+  "tapTargetMin": 14,
+  "tapTargetMedian": 32
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 112
+   },
+   {
+    "value": "0.3s",
+    "count": 110
+   },
+   {
+    "value": "0.5s",
+    "count": 102
+   },
+   {
+    "value": "0.25s",
+    "count": 12
+   },
+   {
+    "value": "0.2s",
+    "count": 11
+   },
+   {
+    "value": "0.4s",
+    "count": 5
+   },
+   {
+    "value": "0.7s",
+    "count": 4
+   },
+   {
+    "value": "0.6s",
+    "count": 4
+   },
+   {
+    "value": "0.75s",
+    "count": 3
+   },
+   {
+    "value": "0.9s",
+    "count": 3
+   },
+   {
+    "value": "1.05s",
+    "count": 3
+   },
+   {
+    "value": "0.1s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 191
+   },
+   {
+    "value": "ease",
+    "count": 91
+   },
+   {
+    "value": "cubic-bezier(0, 0, 0.2, 1)",
+    "count": 64
+   },
+   {
+    "value": "cubic-bezier(0.34, 1.36, 0.64, 1)",
+    "count": 3
+   },
+   {
+    "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+    "count": 2
+   },
+   {
+    "value": "linear",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 145
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 134
+   },
+   {
+    "value": "border-color",
+    "count": 102
+   },
+   {
+    "value": "background-color",
+    "count": 101
+   },
+   {
+    "value": "outline-color",
+    "count": 101
+   },
+   {
+    "value": "fill",
+    "count": 101
+   },
+   {
+    "value": "stroke",
+    "count": 101
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 101
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 101
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 101
+   }
+  ]
+ }
+}

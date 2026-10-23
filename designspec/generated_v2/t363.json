@@ -1,0 +1,2649 @@
+{
+ "id": "t363",
+ "overview": {
+  "name": "LocalSend",
+  "url": "https://localsend.org/",
+  "section": "桌面应用",
+  "pagesScanned": [
+   "https://localsend.org/",
+   "https://localsend.org/changelog",
+   "https://localsend.org/download",
+   "https://localsend.org/community"
+  ],
+  "subpages": [
+   "/changelog",
+   "/download",
+   "/community"
+  ],
+  "sectionCount": 13,
+  "componentSamples": 143,
+  "typeSteps": 28
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#f4fbf8",
+    "value": "#f4fbf8",
+    "token": "--bg-dark",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "muted": {
+    "hex": "#3f4947",
+    "value": "#3f4947",
+    "token": "--text-muted",
+    "source": "css-var",
+    "contrastOnBg": 8.87
+   },
+   "primary": {
+    "hex": "#006a60",
+    "value": "#006a60",
+    "token": "--accent-primary",
+    "source": "css-var",
+    "contrastOnBg": 6.19
+   },
+   "border": {
+    "hex": "#006a60",
+    "value": "#006a60",
+    "token": "--mockup-border",
+    "source": "css-var",
+    "contrastOnBg": 6.19
+   },
+   "foreground": {
+    "hex": "#05201c",
+    "value": "#05201c",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 16.26
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#00a99a",
+    "count": 176
+   },
+   {
+    "hex": "#cce8e2",
+    "count": 143
+   },
+   {
+    "hex": "#ffa600",
+    "count": 101
+   },
+   {
+    "hex": "#eff5f2",
+    "count": 91
+   },
+   {
+    "hex": "#006a60",
+    "count": 21
+   },
+   {
+    "hex": "#b382d5",
+    "count": 13
+   },
+   {
+    "hex": "#3f4947",
+    "count": 8
+   },
+   {
+    "hex": "#f4fbf8",
+    "count": 7
+   },
+   {
+    "hex": "#05201c",
+    "count": 6
+   },
+   {
+    "hex": "#050807",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 15,
+  "textTotal": 12,
+  "bordersTotal": 6
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "800",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 294,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "fix"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "600",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 133,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "macos"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "20.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 9,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "It's FOSS"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "400",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 12,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Tien Nam Do"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "600",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "All (294)"
+    ]
+   },
+   {
+    "size": "14.5px",
+    "px": 14.5,
+    "weight": "400",
+    "lineHeight": "23px",
+    "letterSpacing": "1px",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "GitHub Stars"
+    ]
+   },
+   {
+    "size": "14.5px",
+    "px": 14.5,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "LocalSend is available for Windows, macO"
+    ]
+   },
+   {
+    "size": "14.5px",
+    "px": 14.5,
+    "weight": "500",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 8,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "English"
+    ]
+   },
+   {
+    "size": "14.5px",
+    "px": 14.5,
+    "weight": "600",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 29,
+    "tags": [
+     "button",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "English"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "24.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 62,
+    "tags": [
+     "p",
+     "a"
+    ],
+    "samples": [
+     "Download LocalSend on all your devices. "
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 429,
+    "tags": [
+     "li",
+     "a",
+     "p",
+     "span"
+    ],
+    "samples": [
+     "Downloads"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 16,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Downloads"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "600",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 6,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "View full changelog on GitHub"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "700",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 26,
+    "tags": [
+     "h3",
+     "h4"
+    ],
+    "samples": [
+     "Install & Open"
+    ]
+   },
+   {
+    "size": "17.5px",
+    "px": 17.5,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 12,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Everything you need for secure, fast fil"
+    ]
+   },
+   {
+    "size": "17.5px",
+    "px": 17.5,
+    "weight": "600",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Download"
+    ]
+   },
+   {
+    "size": "17.5px",
+    "px": 17.5,
+    "weight": "700",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Cross-platform"
+    ]
+   },
+   {
+    "size": "17.5px",
+    "px": 17.5,
+    "weight": "700",
+    "lineHeight": "21px",
+    "letterSpacing": "1.5px",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "App Stores"
+    ]
+   },
+   {
+    "size": "18.5px",
+    "px": 18.5,
+    "weight": "700",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "h4"
+    ],
+    "samples": [
+     "Issues"
+    ]
+   },
+   {
+    "size": "19px",
+    "px": 19.0,
+    "weight": "400",
+    "lineHeight": "30.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Track every update, feature, and fix acr"
+    ]
+   },
+   {
+    "size": "19px",
+    "px": 19.0,
+    "weight": "600",
+    "lineHeight": "30.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Discord →"
+    ]
+   },
+   {
+    "size": "19px",
+    "px": 19.0,
+    "weight": "700",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 9,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "LocalSend: An Open-Source AirDrop Altern"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "700",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 6,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Is it really free?"
+    ]
+   },
+   {
+    "size": "22.5px",
+    "px": 22.5,
+    "weight": "800",
+    "lineHeight": "36px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 16,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "LocalSend"
+    ]
+   },
+   {
+    "size": "40px",
+    "px": 40.0,
+    "weight": "700",
+    "lineHeight": "48px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 12,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Features"
+    ]
+   },
+   {
+    "size": "40px",
+    "px": 40.0,
+    "weight": "800",
+    "lineHeight": "64px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "93k+"
+    ]
+   },
+   {
+    "size": "56px",
+    "px": 56.0,
+    "weight": "700",
+    "lineHeight": "67px",
+    "letterSpacing": "-1px",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "Changelog"
+    ]
+   },
+   {
+    "size": "64px",
+    "px": 64.0,
+    "weight": "700",
+    "lineHeight": "77px",
+    "letterSpacing": "-1px",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "Share files without the cloud. Fast, pri"
+    ]
+   }
+  ],
+  "totalSteps": 31,
+  "families": [
+   "Courier New",
+   "Inter"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "700",
+   "800"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 588
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 52
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 2
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 303
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 600
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 673
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 2
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 706
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 50
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 8
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 186
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 18
+   },
+   {
+    "value": "25px",
+    "px": 25.0,
+    "count": 49
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 12
+   },
+   {
+    "value": "30px",
+    "px": 30.0,
+    "count": 301
+   },
+   {
+    "value": "36px",
+    "px": 36.0,
+    "count": 4
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1100px",
+    "count": 27
+   },
+   {
+    "value": "600px",
+    "count": 15
+   },
+   {
+    "value": "900px",
+    "count": 2
+   },
+   {
+    "value": "800px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "2px",
+    "px": 2.0,
+    "count": 2
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 427
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 9
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 12
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 3
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 80
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 2
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 1
+   },
+   {
+    "value": "50px",
+    "px": 50.0,
+    "count": 20
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "1000",
+    "count": 4
+   },
+   {
+    "value": "2",
+    "count": 3
+   },
+   {
+    "value": "1",
+    "count": 1
+   },
+   {
+    "value": "3",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 12,
+   "sizeBuckets": {
+    "md": 1,
+    "lg": 4,
+    "xl": 6,
+    "sm": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Switch to dark mode",
+      "tag": "button",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px none rgb(63, 73, 71)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 2.26
+     }
+    ],
+    "lg": [
+     {
+      "text": "English",
+      "tag": "button",
+      "height": 41,
+      "width": 111,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgba(204, 232, 226, 0.35)",
+      "color": "rgb(5, 32, 28)",
+      "border": "1px solid rgba(63, 73, 71, 0.16)",
+      "fontSize": "14.4px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "23.04px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "8px",
+      "contrast": 13.18
+     },
+     {
+      "text": "Download",
+      "tag": "a",
+      "height": 39,
+      "width": 110,
+      "padding": "8px 20px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgb(204, 232, 226)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px none rgb(5, 32, 28)",
+      "fontSize": "14.4px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "23.04px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.28s, color 0.28s, border-color 0.28s, box-shadow 0.28s, filter 0.28s, transform 0.2s",
+      "gap": "normal",
+      "contrast": 13.18
+     },
+     {
+      "text": "All (294)",
+      "tag": "button",
+      "height": 40,
+      "width": 91,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgb(0, 106, 96)",
+      "color": "rgb(244, 251, 248)",
+      "border": "1px solid rgb(0, 106, 96)",
+      "fontSize": "13.6px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "21.76px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 6.19
+     },
+     {
+      "text": "Features (176)",
+      "tag": "button",
+      "height": 40,
+      "width": 127,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 73, 71)",
+      "border": "1px solid rgba(63, 73, 71, 0.16)",
+      "fontSize": "13.6px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "21.76px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 2.26
+     }
+    ],
+    "xl": [
+     {
+      "text": "Download",
+      "tag": "a",
+      "height": 60,
+      "width": 157,
+      "padding": "16px 36px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgb(204, 232, 226)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px none rgb(5, 32, 28)",
+      "fontSize": "17.6px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "28.16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.28s, color 0.28s, border-color 0.28s, box-shadow 0.28s, filter 0.28s, transform 0.2s",
+      "gap": "normal",
+      "contrast": 13.18
+     },
+     {
+      "text": "Web",
+      "tag": "a",
+      "height": 60,
+      "width": 110,
+      "padding": "16px 36px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgb(239, 245, 242)",
+      "color": "rgb(0, 106, 96)",
+      "border": "0px none rgb(0, 106, 96)",
+      "fontSize": "17.6px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "28.16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.28s, color 0.28s, border-color 0.28s, box-shadow 0.28s, filter 0.28s, transform 0.2s",
+      "gap": "normal",
+      "contrast": 5.89
+     },
+     {
+      "text": "View full changelog on GitHub",
+      "tag": "a",
+      "height": 54,
+      "width": 322,
+      "padding": "14px 28px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgb(239, 245, 242)",
+      "color": "rgb(0, 106, 96)",
+      "border": "0px none rgb(0, 106, 96)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.28s, color 0.28s, border-color 0.28s, box-shadow 0.28s, filter 0.28s, transform 0.2s",
+      "gap": "normal",
+      "contrast": 5.89
+     },
+     {
+      "text": "Windows",
+      "tag": "button",
+      "height": 50,
+      "width": 128,
+      "padding": "12px 28px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgb(239, 245, 242)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px none rgb(63, 73, 71)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 8.43
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "button",
+      "height": 26,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 169, 154)",
+      "border": "0px none rgb(0, 169, 154)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Courier New",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 7.14
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 18,
+   "sizeBuckets": {
+    "md": 2,
+    "sm": 4,
+    "lg": 1,
+    "xl": 11
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "LocalSend",
+      "tag": "a",
+      "height": 36,
+      "width": 160,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "22.4px",
+      "fontWeight": "800",
+      "fontFamily": "Inter",
+      "lineHeight": "35.84px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "12px",
+      "contrast": 1.23
+     },
+     {
+      "text": "English",
+      "tag": "a",
+      "height": 34,
+      "width": 205,
+      "padding": "5px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "15.2px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24.32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 2.26
+     }
+    ],
+    "sm": [
+     {
+      "text": "Downloads",
+      "tag": "a",
+      "height": 20,
+      "width": 85,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 2.26
+     },
+     {
+      "text": "Download",
+      "tag": "a",
+      "height": 19,
+      "width": 72,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "15.2px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24.32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 2.26
+     },
+     {
+      "text": "Tien Nam Do",
+      "tag": "a",
+      "height": 16,
+      "width": 83,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 106, 96)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "13.6px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "21.76px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 3.23
+     },
+     {
+      "text": "Apache License 2.0",
+      "tag": "a",
+      "height": 16,
+      "width": 127,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "13.6px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "21.76px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 2.26
+     }
+    ],
+    "lg": [
+     {
+      "text": "Download",
+      "tag": "a",
+      "height": 39,
+      "width": 110,
+      "padding": "8px 20px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgb(204, 232, 226)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px none rgb(5, 32, 28)",
+      "fontSize": "14.4px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "23.04px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.28s, color 0.28s, border-color 0.28s, box-shadow 0.28s, filter 0.28s, transform 0.2s",
+      "gap": "normal",
+      "contrast": 13.18
+     }
+    ],
+    "xl": [
+     {
+      "text": "Download",
+      "tag": "a",
+      "height": 60,
+      "width": 157,
+      "padding": "16px 36px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgb(204, 232, 226)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px none rgb(5, 32, 28)",
+      "fontSize": "17.6px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "28.16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.28s, color 0.28s, border-color 0.28s, box-shadow 0.28s, filter 0.28s, transform 0.2s",
+      "gap": "normal",
+      "contrast": 13.18
+     },
+     {
+      "text": "Web",
+      "tag": "a",
+      "height": 60,
+      "width": 110,
+      "padding": "16px 36px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgb(239, 245, 242)",
+      "color": "rgb(0, 106, 96)",
+      "border": "0px none rgb(0, 106, 96)",
+      "fontSize": "17.6px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "28.16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.28s, color 0.28s, border-color 0.28s, box-shadow 0.28s, filter 0.28s, transform 0.2s",
+      "gap": "normal",
+      "contrast": 5.89
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 250,
+      "width": 562,
+      "padding": "30px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgb(239, 245, 242)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px none rgb(5, 32, 28)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.4s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "20px",
+      "contrast": 15.46
+     },
+     {
+      "text": "Discord ↗",
+      "tag": "a",
+      "height": 62,
+      "width": 430,
+      "padding": "18px 25px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgb(239, 245, 242)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px none rgb(5, 32, 28)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.4s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 15.46
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 50,
+      "width": 400,
+      "padding": "12px 15px 12px 50px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(244, 251, 248)",
+      "color": "rgb(5, 32, 28)",
+      "border": "1px solid rgba(63, 73, 71, 0.16)",
+      "fontSize": "15.2px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24.32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 16.26
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 50,
+   "sizeBuckets": {
+    "xl": 50
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "93k+GitHub Stars35M+Downloads2",
+      "tag": "div",
+      "height": 172,
+      "width": 1060,
+      "padding": "40px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px none rgb(5, 32, 28)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.4s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "Cross-platformLocalSend is ava",
+      "tag": "div",
+      "height": 226,
+      "width": 247,
+      "padding": "24px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgb(239, 245, 242)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px none rgb(5, 32, 28)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.4s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 15.46
+     },
+     {
+      "text": "Install & OpenDownload LocalSe",
+      "tag": "div",
+      "height": 288,
+      "width": 327,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 180,
+      "width": 327,
+      "padding": "30px",
+      "margin": "0px 0px 30px",
+      "radius": "20px",
+      "background": "rgb(239, 245, 242)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px none rgb(5, 32, 28)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.4s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "15px",
+      "contrast": 15.46
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 1,
+    "lg": 2,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "LocalSendDownloadsCommunityCon",
+      "tag": "header",
+      "height": 80,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "color(srgb 0.905882 0.952941 0.941176 / 0.86)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.28s, color 0.28s, border-color 0.28s, box-shadow 0.28s, filter 0.28s, transform 0.2s",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "LocalSendDownloadsCommunityCon",
+      "tag": "nav",
+      "height": 41,
+      "width": 1100,
+      "padding": "0px 20px",
+      "margin": "0px 170px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "English",
+      "tag": "button",
+      "height": 41,
+      "width": 111,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgba(204, 232, 226, 0.35)",
+      "color": "rgb(5, 32, 28)",
+      "border": "1px solid rgba(63, 73, 71, 0.16)",
+      "fontSize": "14.4px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "23.04px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "8px",
+      "contrast": 13.18
+     }
+    ],
+    "sm": [
+     {
+      "text": "DownloadsCommunityContactGitHu",
+      "tag": "ul",
+      "height": 26,
+      "width": 431,
+      "padding": "0px",
+      "margin": "0px 0px 0px 60px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "48px",
+      "contrast": 1.23
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 9,
+   "sizeBuckets": {
+    "xl": 2,
+    "md": 1,
+    "sm": 6
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Unreleased",
+      "tag": "div",
+      "height": 46,
+      "width": 163,
+      "padding": "0px",
+      "margin": "0px 0px 5px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "28.8px",
+      "fontWeight": "800",
+      "fontFamily": "Inter",
+      "lineHeight": "46.08px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 52,
+      "width": 515,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     }
+    ],
+    "md": [
+     {
+      "text": "Upcoming",
+      "tag": "div",
+      "height": 34,
+      "width": 99,
+      "padding": "6px 16px",
+      "margin": "0px 0px 20px",
+      "radius": "40px",
+      "background": "rgb(204, 232, 226)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "13.6px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "21.76px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.28s, color 0.28s, border-color 0.28s, box-shadow 0.28s, filter 0.28s, transform 0.2s",
+      "gap": "normal",
+      "contrast": 13.18
+     }
+    ],
+    "sm": [
+     {
+      "text": "fix",
+      "tag": "span",
+      "height": 26,
+      "width": 60,
+      "padding": "4px 10px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(255, 166, 0, 0.1)",
+      "color": "rgb(255, 166, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "11.2px",
+      "fontWeight": "800",
+      "fontFamily": "Inter",
+      "lineHeight": "17.92px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "macos",
+      "tag": "span",
+      "height": 19,
+      "width": 55,
+      "padding": "2px 8px",
+      "margin": "0px 8px 0px 0px",
+      "radius": "4px",
+      "background": "rgba(204, 232, 226, 0.35)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.19
+     },
+     {
+      "text": "feat",
+      "tag": "span",
+      "height": 26,
+      "width": 60,
+      "padding": "4px 10px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 169, 154, 0.1)",
+      "color": "rgb(0, 169, 154)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "11.2px",
+      "fontWeight": "800",
+      "fontFamily": "Inter",
+      "lineHeight": "17.92px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "security",
+      "tag": "span",
+      "height": 26,
+      "width": 77,
+      "padding": "4px 10px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "11.2px",
+      "fontWeight": "800",
+      "fontFamily": "Inter",
+      "lineHeight": "17.92px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 11,
+   "sizeBuckets": {
+    "xl": 7,
+    "sm": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Share files without the cloud.",
+      "tag": "h1",
+      "height": 154,
+      "width": 900,
+      "padding": "0px",
+      "margin": "0px 80px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "64px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "76.8px",
+      "letterSpacing": "-1px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "Features",
+      "tag": "h2",
+      "height": 48,
+      "width": 1060,
+      "padding": "0px",
+      "margin": "0px 0px 15px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "40px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "48px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "LocalSend: An Open-Source AirD",
+      "tag": "h3",
+      "height": 69,
+      "width": 273,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "19.2px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "23.04px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "Cette application universelle ",
+      "tag": "h3",
+      "height": 92,
+      "width": 273,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "19.2px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "23.04px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     }
+    ],
+    "sm": [
+     {
+      "text": "Cross-platform",
+      "tag": "h3",
+      "height": 21,
+      "width": 199,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "17.6px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "21.12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "Install & Open",
+      "tag": "h3",
+      "height": 19,
+      "width": 327,
+      "padding": "0px",
+      "margin": "0px 0px 10px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "App Stores",
+      "tag": "h3",
+      "height": 21,
+      "width": 515,
+      "padding": "0px",
+      "margin": "0px 0px 25px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 106, 96)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "17.6px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "21.12px",
+      "letterSpacing": "1.5px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.23
+     },
+     {
+      "text": "Issues",
+      "tag": "h4",
+      "height": 22,
+      "width": 59,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "18.4px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "22.08px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 12,
+   "sizeBuckets": {
+    "md": 2,
+    "xl": 8,
+    "sm": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Open source and cross-platform",
+      "tag": "p",
+      "height": 33,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 230px 40px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "20.8px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "33.28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.26
+     },
+     {
+      "text": "Track every update, feature, a",
+      "tag": "p",
+      "height": 31,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 230px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "19.2px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "30.72px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.26
+     }
+    ],
+    "xl": [
+     {
+      "text": "Everything you need for secure",
+      "tag": "p",
+      "height": 56,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 230px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "17.6px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28.16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.26
+     },
+     {
+      "text": "LocalSend is available for Win",
+      "tag": "p",
+      "height": 60,
+      "width": 199,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14.4px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20.16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.26
+     },
+     {
+      "text": "End-to-end encryption ensures ",
+      "tag": "p",
+      "height": 81,
+      "width": 199,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14.4px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20.16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.26
+     },
+     {
+      "text": "Download LocalSend on all your",
+      "tag": "p",
+      "height": 49,
+      "width": 327,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "15.2px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24.32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.26
+     }
+    ],
+    "sm": [
+     {
+      "text": "Zero configuration. Just insta",
+      "tag": "p",
+      "height": 28,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 230px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "17.6px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28.16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.26
+     },
+     {
+      "text": "Join language-specific discuss",
+      "tag": "p",
+      "height": 26,
+      "width": 430,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 6,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 5
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "DownloadsCommunityContactGitHu",
+      "tag": "ul",
+      "height": 26,
+      "width": 431,
+      "padding": "0px",
+      "margin": "0px 0px 0px 60px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "48px",
+      "contrast": 1.23
+     }
+    ],
+    "xl": [
+     {
+      "text": "Discord ↗Reddit ↗Mastodon ↗Mer",
+      "tag": "ul",
+      "height": 294,
+      "width": 430,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.23
+     },
+     {
+      "text": "EnglishDeutschEspañolFrançaisI",
+      "tag": "ul",
+      "height": 143,
+      "width": 430,
+      "padding": "0px",
+      "margin": "10px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "20px",
+      "contrast": 1.23
+     },
+     {
+      "text": "DownloadWeb AppChangelog",
+      "tag": "ul",
+      "height": 101,
+      "width": 204,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "GitHubDiscordRedditMastodonDon",
+      "tag": "ul",
+      "height": 214,
+      "width": 204,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 5
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "WindowsmacOSLinuxAndroidiOSApp",
+      "tag": "div",
+      "height": 357,
+      "width": 1060,
+      "padding": "0px",
+      "margin": "40px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "WindowsmacOSLinuxAndroidiOS",
+      "tag": "div",
+      "height": 50,
+      "width": 1060,
+      "padding": "0px",
+      "margin": "0px 0px 50px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "15px",
+      "contrast": 1.23
+     },
+     {
+      "text": "Windows",
+      "tag": "button",
+      "height": 50,
+      "width": 128,
+      "padding": "12px 28px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgb(239, 245, 242)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px none rgb(63, 73, 71)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 8.43
+     },
+     {
+      "text": "macOS",
+      "tag": "button",
+      "height": 50,
+      "width": 112,
+      "padding": "12px 28px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgb(0, 106, 96)",
+      "color": "rgb(244, 251, 248)",
+      "border": "0px none rgb(244, 251, 248)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 6.19
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 15,
+   "sizeBuckets": {
+    "sm": 8,
+    "xl": 5,
+    "md": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(63, 73, 71)",
+      "color": "rgb(63, 73, 71)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(5, 32, 28)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 106, 96)",
+      "color": "rgb(0, 106, 96)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(204, 232, 226)",
+      "color": "rgb(204, 232, 226)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 56,
+      "width": 56,
+      "padding": "0px",
+      "margin": "0px 71.5px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 106, 96)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "51.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.23
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 80,
+      "width": 80,
+      "padding": "0px",
+      "margin": "0px 164.078px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 106, 96)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.23
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 64,
+      "width": 64,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 106, 96)",
+      "color": "rgb(0, 106, 96)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "64px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "64px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "font-variation-settings 0.3s, transform 0.3s",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(88, 101, 242, 0.1)",
+      "color": "rgb(88, 101, 242)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "38.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 106, 96)",
+      "color": "rgb(0, 106, 96)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 29,
+      "width": 29,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(5, 32, 28)",
+      "color": "rgb(5, 32, 28)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 80,
+   "heading": null,
+   "background": "color(srgb 0.905882 0.952941 0.941176 / 0.86)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "nav",
+   "height": 41,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 20px",
+   "children": 3
+  },
+  {
+   "tag": "main",
+   "height": 9026,
+   "heading": "Share files without the cloud. Fast, private, offl",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 1193,
+   "heading": "Share files without the cloud. Fast, private, offl",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "180px 20px 60px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 252,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "40px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 705,
+   "heading": "Features",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "150px 20px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 739,
+   "heading": "How It Works",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "150px 20px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 720,
+   "heading": "Supported By",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "150px 20px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 865,
+   "heading": "Community",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "150px 20px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1261,
+   "heading": "In the News",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "150px 20px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 2079,
+   "heading": "Frequently Asked Questions",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "150px 20px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 706,
+   "heading": "Contact Us",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "150px 20px",
+   "children": 1
+  },
+  {
+   "tag": "footer",
+   "height": 508,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "80px 0px 40px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 16.26,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 52
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.2s",
+    "count": 36
+   },
+   {
+    "value": "0.4s",
+    "count": 33
+   },
+   {
+    "value": "0.28s",
+    "count": 27
+   },
+   {
+    "value": "0.3s",
+    "count": 3
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 34
+   },
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 33
+   }
+  ],
+  "properties": [
+   {
+    "value": "transform",
+    "count": 8
+   },
+   {
+    "value": "background-color",
+    "count": 6
+   },
+   {
+    "value": "color",
+    "count": 6
+   },
+   {
+    "value": "border-color",
+    "count": 5
+   },
+   {
+    "value": "box-shadow",
+    "count": 5
+   },
+   {
+    "value": "filter",
+    "count": 5
+   },
+   {
+    "value": "font-variation-settings",
+    "count": 1
+   }
+  ]
+ }
+}

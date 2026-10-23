@@ -1,0 +1,1642 @@
+{
+ "id": "t006",
+ "overview": {
+  "name": "Minimal Gallery",
+  "url": "https://minimal.gallery/",
+  "section": "设计画廊",
+  "pagesScanned": [
+   "https://minimal.gallery/",
+   "https://minimal.gallery/templates/",
+   "https://minimal.gallery/about/",
+   "https://minimal.gallery/platform/astro/"
+  ],
+  "subpages": [
+   "/templates/",
+   "/about/",
+   "/platform/astro/"
+  ],
+  "sectionCount": 6,
+  "componentSamples": 52,
+  "typeSteps": 6
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#1f1f1f",
+    "value": "#1f1f1f",
+    "token": "--color--background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "border": {
+    "hex": "#242424",
+    "value": "#242424",
+    "token": "--color--border",
+    "source": "css-var",
+    "contrastOnBg": 1.06
+   },
+   "foreground": {
+    "hex": "#b3b3b3",
+    "value": "#b3b3b3",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 7.86
+   },
+   "primary": {
+    "hex": "#ff7373",
+    "value": "#ff7373",
+    "token": "--color--font-red",
+    "source": "palette",
+    "contrastOnBg": 6.24
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#2c2c2c",
+    "count": 113
+   },
+   {
+    "hex": "#1f1f1f",
+    "count": 64
+   },
+   {
+    "hex": "#181818",
+    "count": 54
+   },
+   {
+    "hex": "#000000",
+    "count": 9
+   },
+   {
+    "hex": "#242424",
+    "count": 6
+   },
+   {
+    "hex": "#ffffff",
+    "count": 1
+   },
+   {
+    "hex": "#b3b3b3",
+    "count": 728
+   },
+   {
+    "hex": "#939393",
+    "count": 37
+   },
+   {
+    "hex": "#d8d8d8",
+    "count": 10
+   }
+  ],
+  "backgroundsTotal": 7,
+  "textTotal": 5,
+  "bordersTotal": 2
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "-1.12px",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Alt + M"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.17px",
+    "family": "Inter",
+    "count": 517,
+    "tags": [
+     "li",
+     "a",
+     "button",
+     "span",
+     "p",
+     "h3",
+     "h4",
+     "strong"
+    ],
+    "samples": [
+     "Websites"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "-0.17px",
+    "family": "Inter",
+    "count": 16,
+    "tags": [
+     "span",
+     "a"
+    ],
+    "samples": [
+     "1"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "400",
+    "lineHeight": "26.5px",
+    "letterSpacing": "-0.17px",
+    "family": "Inter",
+    "count": 7,
+    "tags": [
+     "p",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "The site was originally brought to life "
+    ]
+   },
+   {
+    "size": "19px",
+    "px": 19.0,
+    "weight": "400",
+    "lineHeight": "26.5px",
+    "letterSpacing": "-0.38px",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Discover professionally designed website"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "510",
+    "lineHeight": "40.5px",
+    "letterSpacing": "-1.152px",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "For the love of beautiful & functional w"
+    ]
+   }
+  ],
+  "totalSteps": 10,
+  "families": [
+   "Inter"
+  ],
+  "weights": [
+   "400",
+   "510"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 14
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 232
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 14
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 2
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 37
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 80
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 70
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 157
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 58
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 8
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 28
+   },
+   {
+    "value": "19px",
+    "px": 19.0,
+    "count": 8
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 29
+   },
+   {
+    "value": "22px",
+    "px": 22.0,
+    "count": 2
+   },
+   {
+    "value": "25px",
+    "px": 25.0,
+    "count": 5
+   },
+   {
+    "value": "35px",
+    "px": 35.0,
+    "count": 9
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "470px",
+    "count": 4
+   },
+   {
+    "value": "558.757px",
+    "count": 3
+   },
+   {
+    "value": "575.344px",
+    "count": 2
+   },
+   {
+    "value": "420px",
+    "count": 1
+   },
+   {
+    "value": "580px",
+    "count": 1
+   },
+   {
+    "value": "419.068px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 4
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 106
+   },
+   {
+    "value": "50%",
+    "px": 50,
+    "count": 106
+   },
+   {
+    "value": "60px",
+    "px": 60.0,
+    "count": 82
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "9",
+    "count": 4
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 9,
+   "sizeBuckets": {
+    "md": 3,
+    "xl": 2,
+    "lg": 3,
+    "sm": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Search",
+      "tag": "button",
+      "height": 34,
+      "width": 65,
+      "padding": "5px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "9px",
+      "contrast": 10.02
+     },
+     {
+      "text": "All types",
+      "tag": "button",
+      "height": 34,
+      "width": 92,
+      "padding": "5px 12px",
+      "margin": "0px",
+      "radius": "60px",
+      "background": "rgb(44, 44, 44)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s, background 0.3s",
+      "gap": "normal",
+      "contrast": 6.66
+     },
+     {
+      "text": "Get in touch",
+      "tag": "button",
+      "height": 33,
+      "width": 119,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "60px",
+      "background": "rgba(255, 255, 255, 0.2)",
+      "color": "rgb(216, 216, 216)",
+      "border": "0px none rgb(216, 216, 216)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "17px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.3s",
+      "gap": "normal",
+      "contrast": 1.43
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "button",
+      "height": 45,
+      "width": 45,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgb(44, 44, 44)",
+      "color": "rgb(216, 216, 216)",
+      "border": "0px none rgb(216, 216, 216)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "17px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s, background 0.2s",
+      "gap": "normal",
+      "contrast": 9.8
+     },
+     {
+      "text": "AIPortfolioPersonalStartupOne ",
+      "tag": "section",
+      "height": 74,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "button",
+      "height": 38,
+      "width": 38,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgb(44, 44, 44)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.2s",
+      "gap": "normal",
+      "contrast": 13.97
+     },
+     {
+      "text": "Get weekly digest",
+      "tag": "div",
+      "height": 38,
+      "width": 575,
+      "padding": "0px",
+      "margin": "20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     },
+     {
+      "text": "Get weekly digest",
+      "tag": "a",
+      "height": 38,
+      "width": 210,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "60px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(216, 216, 216)",
+      "border": "0px none rgb(216, 216, 216)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "17px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s, background 0.3s",
+      "gap": "4px",
+      "contrast": 14.73
+     }
+    ],
+    "sm": [
+     {
+      "text": "Alt + M\n                      ",
+      "tag": "button",
+      "height": 24,
+      "width": 108,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "8px",
+      "contrast": 10.02
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 12,
+   "sizeBuckets": {
+    "md": 6,
+    "xl": 1,
+    "lg": 2,
+    "sm": 3
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Websites",
+      "tag": "a",
+      "height": 34,
+      "width": 82,
+      "padding": "5px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "9px",
+      "contrast": 10.02
+     },
+     {
+      "text": "Minimal Gallery",
+      "tag": "a",
+      "height": 34,
+      "width": 131,
+      "padding": "5px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "9px",
+      "contrast": 21
+     },
+     {
+      "text": "Submit",
+      "tag": "a",
+      "height": 34,
+      "width": 79,
+      "padding": "5px 12px",
+      "margin": "0px 5px",
+      "radius": "60px",
+      "background": "rgb(36, 36, 36)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s, background 0.2s",
+      "gap": "9px",
+      "contrast": 7.4
+     },
+     {
+      "text": "AI",
+      "tag": "a",
+      "height": 34,
+      "width": 40,
+      "padding": "5px 12px",
+      "margin": "0px",
+      "radius": "60px",
+      "background": "rgb(31, 31, 31)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s, background 0.3s",
+      "gap": "normal",
+      "contrast": 7.86
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 236,
+      "width": 425,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 10.02
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 38,
+      "width": 38,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgb(44, 44, 44)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.2s",
+      "gap": "normal",
+      "contrast": 13.97
+     },
+     {
+      "text": "Get weekly digest",
+      "tag": "a",
+      "height": 38,
+      "width": 210,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "60px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(216, 216, 216)",
+      "border": "0px none rgb(216, 216, 216)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "17px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s, background 0.3s",
+      "gap": "4px",
+      "contrast": 14.73
+     }
+    ],
+    "sm": [
+     {
+      "text": "Ev Astapov",
+      "tag": "a",
+      "height": 20,
+      "width": 89,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Older",
+      "tag": "a",
+      "height": 22,
+      "width": 69,
+      "padding": "0px",
+      "margin": "0px 0px 0px 12px",
+      "radius": "60px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "17px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s, background 0.2s",
+      "gap": "4px",
+      "contrast": 10.02
+     },
+     {
+      "text": "About",
+      "tag": "a",
+      "height": 20,
+      "width": 47,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 10.02
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 46,
+      "width": 38,
+      "padding": "12px 18px",
+      "margin": "0px",
+      "radius": "60px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "17px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Websites\nTemplates\nTools\n\t\t\t\n\n",
+      "tag": "header",
+      "height": 72,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0.92)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 2,
+    "md": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "AIPortfolioPersonalStartupOne ",
+      "tag": "section",
+      "height": 74,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     },
+     {
+      "text": "AIPortfolioPersonalStartupOne ",
+      "tag": "div",
+      "height": 74,
+      "width": 1440,
+      "padding": "20px 40px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 10.02
+     }
+    ],
+    "md": [
+     {
+      "text": "AIPortfolioPersonalStartupOne ",
+      "tag": "div",
+      "height": 34,
+      "width": 1256,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     }
+    ],
+    "sm": [
+     {
+      "text": "Agency website design",
+      "tag": "li",
+      "height": 24,
+      "width": 320,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 6,
+   "sizeBuckets": {
+    "xl": 4,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "For the love of beautiful & fu",
+      "tag": "h1",
+      "height": 81,
+      "width": 559,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "36px",
+      "fontWeight": "510",
+      "fontFamily": "Inter",
+      "lineHeight": "40.32px",
+      "letterSpacing": "-1.152px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Discover professionally design",
+      "tag": "h2",
+      "height": 53,
+      "width": 575,
+      "padding": "0px",
+      "margin": "15px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "26.6px",
+      "letterSpacing": "-0.38px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     },
+     {
+      "text": "About",
+      "tag": "h1",
+      "height": 121,
+      "width": 419,
+      "padding": "40.32px 0px",
+      "margin": "0px 40.4688px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "36px",
+      "fontWeight": "510",
+      "fontFamily": "Inter",
+      "lineHeight": "40.32px",
+      "letterSpacing": "-1.152px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Minimal Gallery is a curated s",
+      "tag": "h3",
+      "height": 84,
+      "width": 500,
+      "padding": "0px",
+      "margin": "0px 0px 25px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "Ev Astapov",
+      "tag": "h3",
+      "height": 24,
+      "width": 89,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Site",
+      "tag": "h4",
+      "height": 24,
+      "width": 320,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 7,
+   "sizeBuckets": {
+    "sm": 3,
+    "xl": 4
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Receive a weekly digest via em",
+      "tag": "p",
+      "height": 24,
+      "width": 420,
+      "padding": "0px",
+      "margin": "0px 0px 10px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     },
+     {
+      "text": "Published once per week, unsub",
+      "tag": "p",
+      "height": 19,
+      "width": 329,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(147, 147, 147)",
+      "border": "0px none rgb(147, 147, 147)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.2px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.84
+     },
+     {
+      "text": "© Minimal Gallery 2013-2026",
+      "tag": "p",
+      "height": 24,
+      "width": 232,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(147, 147, 147)",
+      "border": "0px none rgb(147, 147, 147)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.84
+     }
+    ],
+    "xl": [
+     {
+      "text": "Minimal Gallery is a curated s",
+      "tag": "p",
+      "height": 48,
+      "width": 417,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     },
+     {
+      "text": "The site was originally brough",
+      "tag": "p",
+      "height": 53,
+      "width": 500,
+      "padding": "0px",
+      "margin": "0px 0px 25px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "26.35px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 10.02
+     },
+     {
+      "text": "Seeing the need for a website ",
+      "tag": "p",
+      "height": 79,
+      "width": 500,
+      "padding": "0px",
+      "margin": "0px 0px 25px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "26.35px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     },
+     {
+      "text": "Minimal Gallery has since beco",
+      "tag": "p",
+      "height": 105,
+      "width": 500,
+      "padding": "0px",
+      "margin": "0px 0px 25px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "26.35px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 3,
+   "sizeBuckets": {
+    "md": 1,
+    "xl": 1,
+    "sm": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Websites\nTemplates\nTools",
+      "tag": "ul",
+      "height": 34,
+      "width": 262,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "18px",
+      "contrast": 10.02
+     }
+    ],
+    "xl": [
+     {
+      "text": "About\nSubmit to gallery\nSponso",
+      "tag": "ul",
+      "height": 221,
+      "width": 320,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "9px",
+      "contrast": 10.02
+     }
+    ],
+    "sm": [
+     {
+      "text": "X/Twitter\n                    ",
+      "tag": "ul",
+      "height": 24,
+      "width": 572,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(147, 147, 147)",
+      "border": "0px none rgb(147, 147, 147)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "20px",
+      "contrast": 6.84
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 8,
+   "sizeBuckets": {
+    "sm": 7,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 19,
+      "width": 19,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 19,
+      "width": 19,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(216, 216, 216)",
+      "border": "0px none rgb(216, 216, 216)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "17px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.73
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 15,
+      "width": 15,
+      "padding": "0px",
+      "margin": "0px 5px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(147, 147, 147)",
+      "border": "0px none rgb(147, 147, 147)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "18.2px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.84
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 15,
+      "width": 15,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "fill 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 43,
+      "width": 43,
+      "padding": "0px",
+      "margin": "1px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     }
+    ]
+   }
+  },
+  "pagination": {
+   "label": "分页",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "1\n2\n3\n…\n132\nOlder",
+      "tag": "section",
+      "height": 113,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 179, 179)",
+      "border": "0px none rgb(179, 179, 179)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.02
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 72,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0.92)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 315,
+   "heading": "For the love of beautiful & functional websites",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "40.32px 40px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 74,
+   "heading": null,
+   "background": "rgb(0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 2522,
+   "heading": "Ev Astapov",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 40px",
+   "children": 24
+  },
+  {
+   "tag": "section",
+   "height": 113,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "footer",
+   "height": 465,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "60px 0px 0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 7.86,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 20,
+  "tapTargetMedian": 34
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.2s",
+    "count": 482
+   },
+   {
+    "value": "0.3s",
+    "count": 90
+   },
+   {
+    "value": "0.4s",
+    "count": 3
+   },
+   {
+    "value": "0.1s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 349
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 267
+   },
+   {
+    "value": "background",
+    "count": 217
+   },
+   {
+    "value": "opacity",
+    "count": 56
+   },
+   {
+    "value": "fill",
+    "count": 23
+   },
+   {
+    "value": "transform",
+    "count": 8
+   },
+   {
+    "value": "border",
+    "count": 5
+   }
+  ]
+ }
+}

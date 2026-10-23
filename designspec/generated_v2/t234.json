@@ -1,0 +1,1816 @@
+{
+ "id": "t234",
+ "overview": {
+  "name": "Distill",
+  "url": "https://distill.id/",
+  "section": "智能体与 MCP",
+  "pagesScanned": [
+   "https://distill.id/",
+   "https://distill.id/pricing",
+   "https://distill.id/docs",
+   "https://distill.id/login"
+  ],
+  "subpages": [
+   "/pricing",
+   "/docs",
+   "/login"
+  ],
+  "sectionCount": 10,
+  "componentSamples": 77,
+  "typeSteps": 12
+ },
+ "colors": {
+  "roles": {
+   "foreground": {
+    "hex": "#0b0b0b",
+    "value": "#0b0b0b",
+    "token": "--color-foreground",
+    "source": "css-var",
+    "contrastOnBg": 19.68
+   },
+   "primary": {
+    "hex": "#ffdc69",
+    "value": "#ffdc69",
+    "token": "--color-accent",
+    "source": "css-var",
+    "contrastOnBg": 1.34
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--color-background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "danger": {
+    "hex": "#e64d4d",
+    "value": "#e64d4d",
+    "token": "--color-destructive",
+    "source": "css-var",
+    "contrastOnBg": 3.8
+   },
+   "muted": {
+    "hex": "#ececec",
+    "value": "#ececec",
+    "token": "--color-muted",
+    "source": "css-var",
+    "contrastOnBg": 1.18
+   },
+   "focus": {
+    "hex": "#4d80e6",
+    "value": "#4d80e6",
+    "token": "--color-ring",
+    "source": "css-var",
+    "contrastOnBg": 3.79
+   },
+   "border": {
+    "hex": "#dddddd",
+    "value": "#dddddd",
+    "token": "--color-border",
+    "source": "css-var",
+    "contrastOnBg": 1.36
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#1174de",
+    "count": 28
+   },
+   {
+    "hex": "#ececec",
+    "count": 25
+   },
+   {
+    "hex": "#ffffff",
+    "count": 20
+   },
+   {
+    "hex": "#d83b99",
+    "count": 10
+   },
+   {
+    "hex": "#9959e5",
+    "count": 6
+   },
+   {
+    "hex": "#249b54",
+    "count": 4
+   },
+   {
+    "hex": "#dedede",
+    "count": 4
+   },
+   {
+    "hex": "#fcd34d",
+    "count": 3
+   },
+   {
+    "hex": "#626262",
+    "count": 2
+   },
+   {
+    "hex": "#0b0b0b",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 24,
+  "textTotal": 36,
+  "bordersTotal": 6
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 8,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Terms of Service"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 44,
+    "tags": [
+     "p",
+     "a",
+     "button"
+    ],
+    "samples": [
+     "With memory, your agents can keep track "
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 7,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Pricing"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 13,
+    "tags": [
+     "a",
+     "button"
+    ],
+    "samples": [
+     "Login"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 27,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Watch a video"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "25px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 5,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Build a beautiful, local workspace for y"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 5,
+    "tags": [
+     "li"
+    ],
+    "samples": [
+     "Knowledge workers who need a space to th"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Download for macOS"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Your personal think tank"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Build your knowledge base. Work offline "
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "600",
+    "lineHeight": "28px",
+    "letterSpacing": "-0.5px",
+    "family": "Alternate",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Distill"
+    ]
+   },
+   {
+    "size": "30px",
+    "px": 30.0,
+    "weight": "500",
+    "lineHeight": "36px",
+    "letterSpacing": "-0.75px",
+    "family": "Inter",
+    "count": 10,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Good morning! I've scoured the internet "
+    ]
+   }
+  ],
+  "totalSteps": 14,
+  "families": [
+   "Alternate",
+   "Inter"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 42
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 10
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 93
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 20
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 276
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 8
+   },
+   {
+    "value": "11px",
+    "px": 11.0,
+    "count": 4
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 160
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 172
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 2
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 71
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 35
+   },
+   {
+    "value": "26px",
+    "px": 26.0,
+    "count": 1
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 3
+   },
+   {
+    "value": "29px",
+    "px": 29.0,
+    "count": 1
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 16
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1024px",
+    "count": 12
+   },
+   {
+    "value": "512px",
+    "count": 4
+   },
+   {
+    "value": "672px",
+    "count": 3
+   },
+   {
+    "value": "576px",
+    "count": 2
+   },
+   {
+    "value": "768px",
+    "count": 2
+   },
+   {
+    "value": "448px",
+    "count": 2
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 11
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 20
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 23
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 38
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 3
+   },
+   {
+    "value": "999px",
+    "px": 999.0,
+    "count": 20
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 36
+   },
+   {
+    "value": "9999px",
+    "px": 9999.0,
+    "count": 20
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.08) 0px 0.4px 1.2px 0px",
+    "count": 10
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+    "count": 9
+   },
+   {
+    "value": "oklab(0.999994 0.0000455677 0.0000200868 / 0.7) 0px 1px 1px 0px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 3
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "2",
+    "count": 10
+   },
+   {
+    "value": "10",
+    "count": 9
+   },
+   {
+    "value": "20",
+    "count": 3
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 8,
+   "sizeBuckets": {
+    "lg": 3,
+    "sm": 4,
+    "md": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Download for macOS",
+      "tag": "button",
+      "height": 42,
+      "width": 231,
+      "padding": "8px 26px 8px 16px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(11, 11, 11)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 19.68
+     },
+     {
+      "text": "Previous card",
+      "tag": "button",
+      "height": 40,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(236, 236, 236)",
+      "color": "rgb(98, 98, 98)",
+      "border": "0px solid rgb(98, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1), transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), scale 0.15s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.15s cubic-bezier(0.4, 0, 0.2, 1), filter 0.15s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.15s cubic-bezier(0.4, 0, 0.2, 1), display 0.15s cubic-bezier(0.4, 0, 0.2, 1), content-visibility 0.15s cubic-bezier(0.4, 0, 0.2, 1), overlay 0.15s cubic-bezier(0.4, 0, 0.2, 1), pointer-events 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 5.16
+     },
+     {
+      "text": "@font-face {\n    font-family: ",
+      "tag": "div",
+      "height": 44,
+      "width": 224,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "Import to Distill",
+      "tag": "button",
+      "height": 20,
+      "width": 120,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.205 0 0 / 0.6)",
+      "border": "0px solid oklab(0.205 0 0 / 0.6)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Status",
+      "tag": "button",
+      "height": 28,
+      "width": 66,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "oklab(0.205 0 0 / 0.2)",
+      "color": "oklab(0.205 0 0 / 0.8)",
+      "border": "0px solid oklab(0.205 0 0 / 0.8)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "Copy link",
+      "tag": "button",
+      "height": 28,
+      "width": 85,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(222, 222, 222)",
+      "color": "rgb(77, 77, 77)",
+      "border": "0px solid rgb(77, 77, 77)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 6.28
+     },
+     {
+      "text": "Sign up to download",
+      "tag": "button",
+      "height": 28,
+      "width": 160,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "1px solid rgb(221, 221, 221)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "Download for macOS",
+      "tag": "button",
+      "height": 36,
+      "width": 248,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(17, 116, 222)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 4.59
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 15,
+   "sizeBuckets": {
+    "md": 3,
+    "sm": 9,
+    "lg": 3
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Distill",
+      "tag": "a",
+      "height": 36,
+      "width": 92,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.205 0 0 / 0.8)",
+      "border": "0px solid oklab(0.205 0 0 / 0.8)",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "Alternate",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "Login",
+      "tag": "a",
+      "height": 30,
+      "width": 60,
+      "padding": "5px 12px",
+      "margin": "0px 0px 0px 12px",
+      "radius": "12px",
+      "background": "oklab(0.205 0 0 / 0.15)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "oklab(0.999994 0.0000455677 0.0000200868 / 0.7) 0px 1px 1px 0px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Get Starter",
+      "tag": "a",
+      "height": 36,
+      "width": 305,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "Pricing",
+      "tag": "a",
+      "height": 28,
+      "width": 70,
+      "padding": "7px 12px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(98, 98, 98)",
+      "border": "0px solid rgb(98, 98, 98)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": 3.44
+     },
+     {
+      "text": "Create an account",
+      "tag": "a",
+      "height": 14,
+      "width": 148,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(98, 98, 98)",
+      "border": "0px solid rgb(98, 98, 98)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.44
+     },
+     {
+      "text": "The augmented thinker",
+      "tag": "a",
+      "height": 20,
+      "width": 189,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.205 0 0 / 0.6)",
+      "border": "0px solid oklab(0.205 0 0 / 0.6)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Terms of Service",
+      "tag": "a",
+      "height": 15,
+      "width": 95,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.205 0 0 / 0.6)",
+      "border": "0px solid oklab(0.205 0 0 / 0.6)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Watch a video",
+      "tag": "a",
+      "height": 42,
+      "width": 161,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Get on the App Store",
+      "tag": "a",
+      "height": 40,
+      "width": 220,
+      "padding": "8px 16px 8px 20px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(17, 116, 222)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 4.59
+     },
+     {
+      "text": "Terms of Service",
+      "tag": "a",
+      "height": 38,
+      "width": 260,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(98, 98, 98)",
+      "border": "0px dotted oklab(0 0 0 / 0.3)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.44
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Create routinesGood morning! I",
+      "tag": "article",
+      "height": 560,
+      "width": 389,
+      "padding": "20px",
+      "margin": "0px",
+      "radius": "24px",
+      "background": "oklab(0.707 -0.0437502 -0.159094 / 0.7)",
+      "color": "oklab(0.282 -0.00327904 -0.0909409 / 0.7)",
+      "border": "0px solid oklab(0.282 -0.00327904 -0.0909409 / 0.7)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "MemoryAdded 10 pounds to my be",
+      "tag": "article",
+      "height": 560,
+      "width": 389,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "ProloguePhilosophyBeyond notet",
+      "tag": "nav",
+      "height": 898,
+      "width": 121,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 7,
+   "sizeBuckets": {
+    "xl": 5,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Intelligence shaped around you",
+      "tag": "h1",
+      "height": 52,
+      "width": 768,
+      "padding": "0px",
+      "margin": "24px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.205 0 none)",
+      "border": "0px solid oklch(0.205 0 none)",
+      "fontSize": "48px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "52px",
+      "letterSpacing": "-2.4px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Good morning! I've scoured the",
+      "tag": "h3",
+      "height": 108,
+      "width": 349,
+      "padding": "0px",
+      "margin": "16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.282 0.091 267.935)",
+      "border": "0px solid oklch(0.282 0.091 267.935)",
+      "fontSize": "30px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.75px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Added 10 pounds to my bench to",
+      "tag": "h3",
+      "height": 72,
+      "width": 349,
+      "padding": "0px",
+      "margin": "16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.284 0.109 3.907)",
+      "border": "0px solid oklch(0.284 0.109 3.907)",
+      "fontSize": "30px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.75px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Can you find out what UNMS is ",
+      "tag": "h3",
+      "height": 72,
+      "width": 349,
+      "padding": "0px",
+      "margin": "16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.262 0.051 172.552)",
+      "border": "0px solid oklch(0.262 0.051 172.552)",
+      "fontSize": "30px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.75px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Your personal think tank",
+      "tag": "h3",
+      "height": 20,
+      "width": 504,
+      "padding": "0px",
+      "margin": "24px 0px 4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Who uses Distill",
+      "tag": "h2",
+      "height": 24,
+      "width": 504,
+      "padding": "0px",
+      "margin": "28.8px 0px 4.8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "19.2px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 3,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "With memory, your agents can k",
+      "tag": "p",
+      "height": 53,
+      "width": 349,
+      "padding": "12px 0px 0px",
+      "margin": "16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.408 0.152862 0.00649235 / 0.7)",
+      "border": "1px solid oklab(0.459 0.186586 0.0124421 / 0.2)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Build a beautiful, local works",
+      "tag": "p",
+      "height": 50,
+      "width": 672,
+      "padding": "0px",
+      "margin": "2px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(98, 98, 98)",
+      "border": "0px solid rgb(98, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.44
+     },
+     {
+      "text": "Instead of locking ideas insid",
+      "tag": "p",
+      "height": 74,
+      "width": 672,
+      "padding": "0px",
+      "margin": "8px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(98, 98, 98)",
+      "border": "0px solid rgb(98, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.44
+     }
+    ],
+    "sm": [
+     {
+      "text": "Distill is designed for creato",
+      "tag": "p",
+      "height": 25,
+      "width": 672,
+      "padding": "0px",
+      "margin": "8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(98, 98, 98)",
+      "border": "0px solid rgb(98, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.44
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "PhilosophyBeyond notetakingAct",
+      "tag": "ul",
+      "height": 84,
+      "width": 121,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "VaultEntriesListsTodos",
+      "tag": "ul",
+      "height": 114,
+      "width": 121,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Knowledge workers who need a s",
+      "tag": "ul",
+      "height": 148,
+      "width": 672,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Your browser does not support ",
+      "tag": "div",
+      "height": 700,
+      "width": 344,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "avatar": {
+   "label": "头像",
+   "count": 9,
+   "sizeBuckets": {
+    "sm": 9
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 28,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.379 -0.0113991 -0.145554 / 0.6)",
+      "border": "0px solid oklab(0.379 -0.0113991 -0.145554 / 0.6)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "0px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 28,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(255, 255, 255)",
+      "color": "oklab(0.379 -0.0113991 -0.145554 / 0.6)",
+      "border": "0px solid oklab(0.379 -0.0113991 -0.145554 / 0.6)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "0px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.08) 0px 0.4px 1.2px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 10,
+      "width": 10,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.379 -0.0113991 -0.145554 / 0.6)",
+      "border": "0px solid oklab(0.379 -0.0113991 -0.145554 / 0.6)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "0px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 10,
+      "width": 4,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgb(153, 89, 229)",
+      "color": "oklab(0.379 -0.0113991 -0.145554 / 0.6)",
+      "border": "0px solid oklab(0.379 -0.0113991 -0.145554 / 0.6)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "0px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 26,
+   "sizeBuckets": {
+    "sm": 24,
+    "md": 1,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 22,
+      "width": 22,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.149576 0.00000680983 0.00000298768 / 0.5)",
+      "border": "0px solid oklab(0.149576 0.00000680983 0.00000298768 / 0.5)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 26,
+      "width": 26,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(98, 98, 98)",
+      "border": "0px solid rgb(98, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.44
+     }
+    ],
+    "lg": [
+     {
+      "text": "@font-face {\n    font-family: ",
+      "tag": "svg",
+      "height": 44,
+      "width": 188,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "border": "0px solid rgba(0, 0, 0, 0.87)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "article",
+   "height": 560,
+   "heading": "Good morning! I've scoured the internet for you to",
+   "background": "oklab(0.707 -0.0437502 -0.159094 / 0.7)",
+   "padding": "20px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 560,
+   "heading": "Added 10 pounds to my bench today",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 560,
+   "heading": "Can you find out what UNMS is about for later?",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 560,
+   "heading": "Everyday at 11 give me a daily news digest, includ",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 560,
+   "heading": "Good morning! I've scoured the internet for you to",
+   "background": "oklab(0.707 -0.0437502 -0.159094 / 0.7)",
+   "padding": "20px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 560,
+   "heading": "Added 10 pounds to my bench today",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 560,
+   "heading": "Can you find out what UNMS is about for later?",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 560,
+   "heading": "Everyday at 11 give me a daily news digest, includ",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 560,
+   "heading": "Good morning! I've scoured the internet for you to",
+   "background": "oklab(0.707 -0.0437502 -0.159094 / 0.7)",
+   "padding": "20px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 560,
+   "heading": "Added 10 pounds to my bench today",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 19.68,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 14,
+  "tapTargetMedian": 28
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 6
+   },
+   {
+    "value": "0.2s",
+    "count": 2
+   },
+   {
+    "value": "0.56s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 8
+   },
+   {
+    "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 8
+   },
+   {
+    "value": "background-color",
+    "count": 6
+   },
+   {
+    "value": "border-color",
+    "count": 6
+   },
+   {
+    "value": "outline-color",
+    "count": 6
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 6
+   },
+   {
+    "value": "fill",
+    "count": 6
+   },
+   {
+    "value": "stroke",
+    "count": 6
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 6
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 6
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 6
+   }
+  ]
+ }
+}

@@ -1,0 +1,771 @@
+{
+ "id": "p003",
+ "overview": {
+  "name": "Paco Coursey",
+  "url": "https://paco.me/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://paco.me/",
+   "https://paco.me/craft",
+   "https://paco.me/writing"
+  ],
+  "subpages": [
+   "/craft",
+   "/writing"
+  ],
+  "sectionCount": 3,
+  "componentSamples": 19,
+  "typeSteps": 6
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#3a3a3a",
+    "value": "#3a3a3a",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 11.37
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 9
+   },
+   {
+    "hex": "#3a3a3a",
+    "count": 3
+   },
+   {
+    "hex": "#000000",
+    "count": 2
+   }
+  ],
+  "backgroundsTotal": 3,
+  "textTotal": 2,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Sohne",
+    "count": 12,
+    "tags": [
+     "h2",
+     "span"
+    ],
+    "samples": [
+     "Building"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 26,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "2023"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Sohne",
+    "count": 61,
+    "tags": [
+     "p",
+     "span"
+    ],
+    "samples": [
+     "Crafting interfaces. Building polished s"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "Sohne",
+    "count": 44,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Linear"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 5,
+    "tags": [
+     "h1",
+     "h2"
+    ],
+    "samples": [
+     "Paco Coursey"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "Newsreader",
+    "count": 4,
+    "tags": [
+     "em"
+    ],
+    "samples": [
+     "Crafting interfaces"
+    ]
+   }
+  ],
+  "totalSteps": 6,
+  "families": [
+   "Inter",
+   "Newsreader",
+   "Sohne"
+  ],
+  "weights": [
+   "400",
+   "500"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 48
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 29
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 9
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 2
+   },
+   {
+    "value": "42px",
+    "px": 42.0,
+    "count": 1
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 1
+   },
+   {
+    "value": "128px",
+    "px": 128.0,
+    "count": 6
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "640px",
+    "count": 7
+   },
+   {
+    "value": "1072px",
+    "count": 3
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "50%",
+    "px": 50,
+    "count": 3
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 5
+   },
+   {
+    "value": "10",
+    "count": 3
+   }
+  ]
+ },
+ "components": {
+  "link": {
+   "label": "链接",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 3,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Linear",
+      "tag": "a",
+      "height": 21,
+      "width": 44,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(58, 58, 58)",
+      "border": "0px none rgb(58, 58, 58)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "text-decoration-color 0.24s",
+      "gap": "normal",
+      "contrast": 1.85
+     },
+     {
+      "text": "Index",
+      "tag": "a",
+      "height": 28,
+      "width": 192,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Exclusion Tabs",
+      "tag": "a",
+      "height": 21,
+      "width": 105,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "text-decoration-color 0.24s",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "Get the browser default font s",
+      "tag": "a",
+      "height": 54,
+      "width": 480,
+      "padding": "12px 0px",
+      "margin": "-1px 0px 0px 160px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.16s, border-color 0.16s",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Paco CourseyCrafting interface",
+      "tag": "article",
+      "height": 1120,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(58, 58, 58)",
+      "border": "0px none rgb(58, 58, 58)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.85
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Index",
+      "tag": "nav",
+      "height": 28,
+      "width": 192,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 4
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Paco Coursey",
+      "tag": "h1",
+      "height": 28,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px 0px 28px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(58, 58, 58)",
+      "border": "0px none rgb(58, 58, 58)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.85
+     },
+     {
+      "text": "Building",
+      "tag": "h2",
+      "height": 20,
+      "width": 192,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(58, 58, 58)",
+      "border": "0px none rgb(58, 58, 58)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.85
+     },
+     {
+      "text": "Craft",
+      "tag": "h1",
+      "height": 28,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Motion",
+      "tag": "h2",
+      "height": 20,
+      "width": 192,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 3,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Crafting interfaces. Building ",
+      "tag": "p",
+      "height": 56,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px 0px 28px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(58, 58, 58)",
+      "border": "0px none rgb(58, 58, 58)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.85
+     },
+     {
+      "text": "All I want to do is build webs",
+      "tag": "p",
+      "height": 84,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px 0px 28px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(58, 58, 58)",
+      "border": "0px none rgb(58, 58, 58)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.85
+     },
+     {
+      "text": "Stripe’s smooth tabs using WAA",
+      "tag": "p",
+      "height": 56,
+      "width": 192,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "In the past I’ve developed the",
+      "tag": "p",
+      "height": 28,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(58, 58, 58)",
+      "border": "0px none rgb(58, 58, 58)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.85
+     },
+     {
+      "text": "Get the browser default font s",
+      "tag": "p",
+      "height": 28,
+      "width": 229,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "2023Get the browser default fo",
+      "tag": "div",
+      "height": 106,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "2022px vs rem in font-size09/0",
+      "tag": "div",
+      "height": 53,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "2020macOS Color Picker06/26SVG",
+      "tag": "div",
+      "height": 477,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "2019Styled System with styled-",
+      "tag": "div",
+      "height": 371,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Sohne",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 1376,
+   "heading": "Paco Coursey",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 1120,
+   "heading": "Paco Coursey",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 5
+  },
+  {
+   "tag": "footer",
+   "height": 48,
+   "heading": null,
+   "background": "rgb(255, 255, 255)",
+   "padding": "0px 24px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 11.37,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 21,
+  "tapTargetMedian": 28
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.24s",
+    "count": 13
+   }
+  ],
+  "easings": [],
+  "properties": [
+   {
+    "value": "text-decoration-color",
+    "count": 13
+   }
+  ]
+ }
+}

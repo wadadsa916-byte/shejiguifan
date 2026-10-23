@@ -1,0 +1,2610 @@
+{
+ "id": "t195",
+ "overview": {
+  "name": "Playwright",
+  "url": "https://playwright.dev/",
+  "section": "开发环境",
+  "pagesScanned": [
+   "https://playwright.dev/",
+   "https://playwright.dev/docs/intro"
+  ],
+  "subpages": [
+   "/docs/intro"
+  ],
+  "sectionCount": 10,
+  "componentSamples": 118,
+  "typeSteps": 19
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#f6f7f8",
+    "value": "#f6f7f8",
+    "token": "--ifm-pre-background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "warning": {
+    "hex": "#ffba00",
+    "value": "#ffba00",
+    "token": "--ifm-color-warning",
+    "source": "css-var",
+    "contrastOnBg": 1.59
+   },
+   "primary": {
+    "hex": "#1a7e1f",
+    "value": "#1a7e1f",
+    "token": "--ifm-color-primary",
+    "source": "css-var",
+    "contrastOnBg": 4.84
+   },
+   "success": {
+    "hex": "#00a400",
+    "value": "#00a400",
+    "token": "--ifm-color-success",
+    "source": "css-var",
+    "contrastOnBg": 3.1
+   },
+   "info": {
+    "hex": "#54c7ec",
+    "value": "#54c7ec",
+    "token": "--ifm-color-info",
+    "source": "css-var",
+    "contrastOnBg": 1.82
+   },
+   "danger": {
+    "hex": "#fa383e",
+    "value": "#fa383e",
+    "token": "--ifm-color-danger",
+    "source": "css-var",
+    "contrastOnBg": 3.43
+   },
+   "foreground": {
+    "hex": "#1c1e21",
+    "value": "#1c1e21",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 15.57
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#f6f7f8",
+    "count": 16
+   },
+   {
+    "hex": "#f6f8fa",
+    "count": 14
+   },
+   {
+    "hex": "#ffffff",
+    "count": 6
+   },
+   {
+    "hex": "#f5f5fa",
+    "count": 4
+   },
+   {
+    "hex": "#f5f6f7",
+    "count": 2
+   },
+   {
+    "hex": "#303846",
+    "count": 2
+   },
+   {
+    "hex": "#000000",
+    "count": 2
+   },
+   {
+    "hex": "#eeeeee",
+    "count": 1
+   },
+   {
+    "hex": "#fafafa",
+    "count": 1
+   },
+   {
+    "hex": "#1c1e21",
+    "count": 326
+   }
+  ],
+  "backgroundsTotal": 9,
+  "textTotal": 16,
+  "bordersTotal": 7
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 24,
+    "tags": [
+     "span",
+     "li",
+     "a"
+    ],
+    "samples": [
+     "Getting Started"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "SFMono-Regular",
+    "count": 3,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "npm init playwright@latest"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "25px",
+    "letterSpacing": "normal",
+    "family": "SFMono-Regular",
+    "count": 13,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "getByRole"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "SFMono-Regular",
+    "count": 39,
+    "tags": [
+     "pre",
+     "code",
+     "span"
+    ],
+    "samples": [
+     "npm init playwright@latest"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "26.5px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 109,
+    "tags": [
+     "a",
+     "button",
+     "span",
+     "p",
+     "li"
+    ],
+    "samples": [
+     "Skip to main content"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 26,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Getting started"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Search"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "26.5px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 80,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Docs"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 142,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Getting Started"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "600",
+    "lineHeight": "26.5px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Testing documentation"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "700",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 14,
+    "tags": [
+     "h4",
+     "a"
+    ],
+    "samples": [
+     "Auto-wait and web-first assertions"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "700",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 3,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Star"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "700",
+    "lineHeight": "26.5px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 19,
+    "tags": [
+     "strong",
+     "li"
+    ],
+    "samples": [
+     "You will learn"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "400",
+    "lineHeight": "33px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 5,
+    "tags": [
+     "p",
+     "a"
+    ],
+    "samples": [
+     "One API to drive Chromium, Firefox, and "
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "700",
+    "lineHeight": "25px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 3,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Playwright Test"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "700",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 3,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Chosen by companies and open source proj"
+    ]
+   },
+   {
+    "size": "28px",
+    "px": 28.0,
+    "weight": "700",
+    "lineHeight": "35px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 3,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Built for testing"
+    ]
+   },
+   {
+    "size": "32px",
+    "px": 32.0,
+    "weight": "700",
+    "lineHeight": "40px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 9,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Introduction​"
+    ]
+   },
+   {
+    "size": "60px",
+    "px": 60.0,
+    "weight": "700",
+    "lineHeight": "75px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "Playwright enables reliable web automati"
+    ]
+   }
+  ],
+  "totalSteps": 23,
+  "families": [
+   "-apple-system",
+   "SFMono-Regular",
+   "system-ui"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 125
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 6
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 142
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 58
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 6
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 183
+   },
+   {
+    "value": "13px",
+    "px": 13.0,
+    "count": 1
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 2
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 195
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 60
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 1
+   },
+   {
+    "value": "25px",
+    "px": 25.0,
+    "count": 1
+   },
+   {
+    "value": "26px",
+    "px": 26.0,
+    "count": 2
+   },
+   {
+    "value": "30px",
+    "px": 30.0,
+    "count": 2
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 20
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 9
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1320px",
+    "count": 10
+   },
+   {
+    "value": "700px",
+    "count": 1
+   },
+   {
+    "value": "600px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 82
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 3
+   },
+   {
+    "value": "6.4px",
+    "px": 6.4,
+    "count": 54
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 3
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 3
+   },
+   {
+    "value": "50%",
+    "px": 50,
+    "count": 2
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.1) 0px 1px 2px 0px",
+    "count": 9
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "201",
+    "count": 2
+   },
+   {
+    "value": "200",
+    "count": 2
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 13,
+   "sizeBuckets": {
+    "sm": 5,
+    "md": 6,
+    "lg": 1,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Node.js",
+      "tag": "a",
+      "height": 18,
+      "width": 73,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Search",
+      "tag": "span",
+      "height": 18,
+      "width": 71,
+      "padding": "0px 12px 0px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 106, 117)",
+      "border": "0px none rgb(94, 106, 117)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.79
+     },
+     {
+      "text": "⌘K",
+      "tag": "span",
+      "height": 24,
+      "width": 54,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 106, 117)",
+      "border": "0px none rgb(94, 106, 117)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.79
+     },
+     {
+      "text": "⌘",
+      "tag": "kbd",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px 5.6px 0px 0px",
+      "radius": "4px",
+      "background": "rgb(245, 245, 250)",
+      "color": "rgb(90, 94, 154)",
+      "border": "1px solid color(srgb 0.890196 0.890196 0.905882 / 0.2)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.1s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 5.52
+     }
+    ],
+    "md": [
+     {
+      "text": "Switch between dark and light ",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.2s",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Search",
+      "tag": "span",
+      "height": 36,
+      "width": 91,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 106, 117)",
+      "border": "0px none rgb(94, 106, 117)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.79
+     },
+     {
+      "text": "Star",
+      "tag": "a",
+      "height": 30,
+      "width": 77,
+      "padding": "3px 10px 3px 8px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(238, 238, 238)",
+      "color": "rgb(51, 51, 51)",
+      "border": "1px solid rgb(213, 213, 213)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 10.89
+     },
+     {
+      "text": "Getting Started",
+      "tag": "a",
+      "height": 32,
+      "width": 281,
+      "padding": "6px 12px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 126, 31)",
+      "border": "0px none rgb(26, 126, 31)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 4.05
+     }
+    ],
+    "lg": [
+     {
+      "text": "Search⌘K",
+      "tag": "button",
+      "height": 38,
+      "width": 162,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(94, 106, 117)",
+      "border": "1px solid rgb(227, 227, 231)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 5.53
+     }
+    ],
+    "xl": [
+     {
+      "text": "Get startedStar97k+",
+      "tag": "div",
+      "height": 76,
+      "width": 1288,
+      "padding": "16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "20px",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 22,
+   "sizeBuckets": {
+    "xl": 2,
+    "md": 10,
+    "sm": 9,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Skip to main content",
+      "tag": "a",
+      "height": 95,
+      "width": 88,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 16.71
+     },
+     {
+      "text": "NextWriting tests",
+      "tag": "a",
+      "height": 76,
+      "width": 404,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "6.4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 126, 31)",
+      "border": "1px solid rgb(218, 221, 225)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border-color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 4.05
+     }
+    ],
+    "md": [
+     {
+      "text": "Playwright",
+      "tag": "a",
+      "height": 32,
+      "width": 123,
+      "padding": "0px",
+      "margin": "0px 16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 34,
+      "width": 62,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "GitHub repository",
+      "tag": "a",
+      "height": 32,
+      "width": 48,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Star",
+      "tag": "a",
+      "height": 30,
+      "width": 77,
+      "padding": "3px 10px 3px 8px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(238, 238, 238)",
+      "color": "rgb(51, 51, 51)",
+      "border": "1px solid rgb(213, 213, 213)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 10.89
+     }
+    ],
+    "sm": [
+     {
+      "text": "Node.js",
+      "tag": "a",
+      "height": 18,
+      "width": 73,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Discord server",
+      "tag": "a",
+      "height": 27,
+      "width": 48,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "TypeScript",
+      "tag": "a",
+      "height": 23,
+      "width": 94,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "33px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "-webkit-text-decoration-color 0.2s, text-decoration-color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Testing documentation",
+      "tag": "a",
+      "height": 18,
+      "width": 174,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 126, 31)",
+      "border": "0px none rgb(26, 126, 31)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 4.05
+     }
+    ],
+    "lg": [
+     {
+      "text": "Get started",
+      "tag": "a",
+      "height": 44,
+      "width": 134,
+      "padding": "14px 26px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 3,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Playwright TestFull-featured t",
+      "tag": "section",
+      "height": 352,
+      "width": 1440,
+      "padding": "48px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Playwright TestFull-featured t",
+      "tag": "div",
+      "height": 224,
+      "width": 440,
+      "padding": "0px 16px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Getting StartedInstallationOn ",
+      "tag": "article",
+      "height": 5090,
+      "width": 823,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ],
+    "sm": [
+     {
+      "text": "Testing documentation",
+      "tag": "div",
+      "height": 26,
+      "width": 408,
+      "padding": "0px",
+      "margin": "8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 20,
+   "sizeBuckets": {
+    "xl": 6,
+    "lg": 3,
+    "md": 6,
+    "sm": 5
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "PlaywrightDocsMCPCLIAPINode.js",
+      "tag": "nav",
+      "height": 60,
+      "width": 1440,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 1px 2px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 16.71
+     },
+     {
+      "text": "Playwright enables reliable we",
+      "tag": "header",
+      "height": 492,
+      "width": 1440,
+      "padding": "80px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Getting StartedInstallationWri",
+      "tag": "nav",
+      "height": 753,
+      "width": 300,
+      "padding": "8px 0px 8px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Installation",
+      "tag": "header",
+      "height": 60,
+      "width": 823,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ],
+    "lg": [
+     {
+      "text": "PlaywrightDocsMCPCLIAPINode.js",
+      "tag": "div",
+      "height": 44,
+      "width": 1408,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Search⌘K",
+      "tag": "div",
+      "height": 38,
+      "width": 174,
+      "padding": "0px 0px 0px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Introduction​",
+      "tag": "h2",
+      "height": 40,
+      "width": 823,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ],
+    "md": [
+     {
+      "text": "Playwright",
+      "tag": "a",
+      "height": 32,
+      "width": 123,
+      "padding": "0px",
+      "margin": "0px 16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 34,
+      "width": 62,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "GitHub repository",
+      "tag": "a",
+      "height": 32,
+      "width": 48,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 34,
+      "width": 62,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 126, 31)",
+      "border": "0px none rgb(26, 126, 31)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 4.05
+     }
+    ],
+    "sm": [
+     {
+      "text": "Playwright",
+      "tag": "b",
+      "height": 26,
+      "width": 83,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Node.js",
+      "tag": "a",
+      "height": 18,
+      "width": 73,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Discord server",
+      "tag": "a",
+      "height": 27,
+      "width": 48,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Next",
+      "tag": "div",
+      "height": 18,
+      "width": 370,
+      "padding": "0px",
+      "margin": "0px 0px 4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 88, 96)",
+      "border": "0px none rgb(82, 88, 96)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.92
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 7,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 2,
+    "md": 2,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Playwright enables reliable we",
+      "tag": "h1",
+      "height": 150,
+      "width": 1288,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "60px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Installation",
+      "tag": "h1",
+      "height": 60,
+      "width": 823,
+      "padding": "0px",
+      "margin": "0px 0px 25px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "48px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "60px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ],
+    "sm": [
+     {
+      "text": "Playwright Test",
+      "tag": "h3",
+      "height": 25,
+      "width": 408,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Auto-wait and web-first assert",
+      "tag": "h4",
+      "height": 20,
+      "width": 628,
+      "padding": "0px",
+      "margin": "0px 0px 4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ],
+    "md": [
+     {
+      "text": "Built for testing",
+      "tag": "h2",
+      "height": 35,
+      "width": 1288,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "28px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "35px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Chosen by companies and open s",
+      "tag": "h2",
+      "height": 30,
+      "width": 1288,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ],
+    "lg": [
+     {
+      "text": "Introduction​",
+      "tag": "h2",
+      "height": 40,
+      "width": 823,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 13,
+   "sizeBuckets": {
+    "xl": 11,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "One API to drive Chromium, Fir",
+      "tag": "p",
+      "height": 66,
+      "width": 700,
+      "padding": "0px",
+      "margin": "8px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "33px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Full-featured test runner with",
+      "tag": "p",
+      "height": 79,
+      "width": 408,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(96, 103, 112)",
+      "border": "0px none rgb(96, 103, 112)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.67
+     },
+     {
+      "text": "Playwright waits for elements ",
+      "tag": "p",
+      "height": 53,
+      "width": 628,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(96, 103, 112)",
+      "border": "0px none rgb(96, 103, 112)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.67
+     },
+     {
+      "text": "Find elements with selectors t",
+      "tag": "p",
+      "height": 55,
+      "width": 628,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(96, 103, 112)",
+      "border": "0px none rgb(96, 103, 112)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.67
+     }
+    ],
+    "sm": [
+     {
+      "text": "You will learn",
+      "tag": "p",
+      "height": 26,
+      "width": 823,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "tests/ contains a minimal star",
+      "tag": "p",
+      "height": 27,
+      "width": 823,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 13,
+   "sizeBuckets": {
+    "xl": 12,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "ul",
+      "height": 72,
+      "width": 1288,
+      "padding": "0px",
+      "margin": "40px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Getting startedPlaywright Trai",
+      "tag": "ul",
+      "height": 128,
+      "width": 408,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(235, 237, 240)",
+      "border": "0px none rgb(235, 237, 240)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 17.9
+     },
+     {
+      "text": "GitHubYouTubeBlogAmbassadorsMi",
+      "tag": "ul",
+      "height": 160,
+      "width": 408,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(235, 237, 240)",
+      "border": "0px none rgb(235, 237, 240)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 17.9
+     },
+     {
+      "text": "Getting StartedInstallationWri",
+      "tag": "ul",
+      "height": 2552,
+      "width": 281,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ],
+    "md": [
+     {
+      "text": "Getting StartedInstallation",
+      "tag": "ul",
+      "height": 31,
+      "width": 823,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 12,
+   "sizeBuckets": {
+    "xl": 10,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Installation | Playwright{\"@co",
+      "tag": "html",
+      "height": 813,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "npmyarnpnpmnpm init playwright",
+      "tag": "div",
+      "height": 131,
+      "width": 823,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "npmyarnpnpm",
+      "tag": "ul",
+      "height": 61,
+      "width": 823,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 88, 96)",
+      "border": "0px none rgb(82, 88, 96)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.92
+     },
+     {
+      "text": "npm",
+      "tag": "li",
+      "height": 61,
+      "width": 66,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "6.4px 6.4px 0px 0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 126, 31)",
+      "border": "0px none rgb(26, 126, 31)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 4.05
+     }
+    ],
+    "sm": [
+     {
+      "text": "Introduction",
+      "tag": "a",
+      "height": 21,
+      "width": 228,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 126, 31)",
+      "border": "0px none rgb(26, 126, 31)",
+      "fontSize": "12.8px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "21.12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 4.05
+     },
+     {
+      "text": "Installing Playwright",
+      "tag": "a",
+      "height": 21,
+      "width": 228,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 88, 96)",
+      "border": "0px none rgb(82, 88, 96)",
+      "fontSize": "12.8px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "21.12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 2.92
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Node.jsNode.jsPythonJava.NET",
+      "tag": "div",
+      "height": 34,
+      "width": 97,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 5
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 106, 117)",
+      "border": "0px none rgb(94, 106, 117)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.79
+     },
+     {
+      "text": "(opens in new tab)",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px 0px 0px 4.8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(235, 237, 240)",
+      "border": "0px none rgb(235, 237, 240)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 17.9
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "12.8px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "21.12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ]
+   }
+  },
+  "breadcrumb": {
+   "label": "面包屑",
+   "count": 4,
+   "sizeBuckets": {
+    "md": 3,
+    "sm": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Getting StartedInstallation",
+      "tag": "nav",
+      "height": 31,
+      "width": 823,
+      "padding": "0px",
+      "margin": "0px 0px 12.8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Home page",
+      "tag": "a",
+      "height": 31,
+      "width": 38,
+      "padding": "5.12px 10.24px",
+      "margin": "0px",
+      "radius": "24px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "12.8px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "21.12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.2s cubic-bezier(0.08, 0.52, 0.52, 1), color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 1.26
+     },
+     {
+      "text": "Installation",
+      "tag": "span",
+      "height": 31,
+      "width": 85,
+      "padding": "5.12px 10.24px",
+      "margin": "0px",
+      "radius": "24px",
+      "background": "rgba(0, 0, 0, 0.05)",
+      "color": "rgb(26, 126, 31)",
+      "border": "0px none rgb(26, 126, 31)",
+      "fontSize": "12.8px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "21.12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.2s cubic-bezier(0.08, 0.52, 0.52, 1), color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 4.05
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "12.8px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "21.12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.26
+     }
+    ]
+   }
+  },
+  "pagination": {
+   "label": "分页",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "NextWriting tests",
+      "tag": "nav",
+      "height": 76,
+      "width": 823,
+      "padding": "0px",
+      "margin": "48px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 30, 33)",
+      "border": "0px none rgb(28, 30, 33)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.26
+     },
+     {
+      "text": "NextWriting tests",
+      "tag": "a",
+      "height": 76,
+      "width": 404,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "6.4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 126, 31)",
+      "border": "1px solid rgb(218, 221, 225)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border-color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1)",
+      "gap": "normal",
+      "contrast": 4.05
+     }
+    ],
+    "sm": [
+     {
+      "text": "Next",
+      "tag": "div",
+      "height": 18,
+      "width": 370,
+      "padding": "0px",
+      "margin": "0px 0px 4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 88, 96)",
+      "border": "0px none rgb(82, 88, 96)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.92
+     },
+     {
+      "text": "Writing tests",
+      "tag": "div",
+      "height": 20,
+      "width": 370,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 126, 31)",
+      "border": "0px none rgb(26, 126, 31)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.05
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "nav",
+   "height": 60,
+   "heading": null,
+   "background": "rgb(255, 255, 255)",
+   "padding": "8px 16px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 492,
+   "heading": "Playwright enables reliable web automation for tes",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "80px 0px",
+   "children": 1
+  },
+  {
+   "tag": "main",
+   "height": 1994,
+   "heading": "Playwright Test",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 6
+  },
+  {
+   "tag": "section",
+   "height": 352,
+   "heading": "Playwright Test",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "48px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 383,
+   "heading": "Built for testing",
+   "background": "rgb(245, 246, 247)",
+   "padding": "48px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 383,
+   "heading": "Built for AI agents",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "48px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 286,
+   "heading": "Powerful tooling",
+   "background": "rgb(245, 246, 247)",
+   "padding": "48px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 267,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "48px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 323,
+   "heading": "Chosen by companies and open source projects",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "footer",
+   "height": 302,
+   "heading": null,
+   "background": "rgb(48, 56, 70)",
+   "padding": "32px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 15.57,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 18,
+  "tapTargetMedian": 31
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.2s",
+    "count": 60
+   },
+   {
+    "value": "0.1s",
+    "count": 2
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.08, 0.52, 0.52, 1)",
+    "count": 49
+   },
+   {
+    "value": "ease",
+    "count": 8
+   },
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 2
+   },
+   {
+    "value": "ease-in-out",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 47
+   },
+   {
+    "value": "-webkit-text-decoration-color",
+    "count": 4
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 4
+   },
+   {
+    "value": "opacity",
+    "count": 2
+   },
+   {
+    "value": "visibility",
+    "count": 2
+   },
+   {
+    "value": "transform",
+    "count": 1
+   },
+   {
+    "value": "background",
+    "count": 1
+   }
+  ]
+ }
+}

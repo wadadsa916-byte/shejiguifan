@@ -1,0 +1,734 @@
+{
+ "id": "p027",
+ "overview": {
+  "name": "Marcelo Chaman Mallqui",
+  "url": "https://marcelochaman.ca/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://marcelochaman.ca/",
+   "https://marcelochaman.ca/repository",
+   "https://marcelochaman.ca/gallery",
+   "https://marcelochaman.ca/s"
+  ],
+  "subpages": [
+   "/repository",
+   "/gallery",
+   "/s"
+  ],
+  "sectionCount": 1,
+  "componentSamples": 20,
+  "typeSteps": 1
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#0060fe",
+    "value": "lab(43.3449 31.2288 -89.1374)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#18181b",
+    "value": "lab(8.30603 0.618205 -2.16572)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 3.46
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#000000",
+    "count": 4
+   }
+  ],
+  "backgroundsTotal": 5,
+  "textTotal": 3,
+  "bordersTotal": 0
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "350",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 77,
+    "tags": [
+     "h1",
+     "p",
+     "li",
+     "a"
+    ],
+    "samples": [
+     "Marcelo Chaman Mallqui"
+    ]
+   }
+  ],
+  "totalSteps": 2,
+  "families": [
+   "Geist"
+  ],
+  "weights": [
+   "350"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 8
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 8
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 26
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 5
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 10
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 5
+   },
+   {
+    "value": "80px",
+    "px": 80.0,
+    "count": 6
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "576px",
+    "count": 2
+   },
+   {
+    "value": "1024px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "2.5px",
+    "px": 2.5,
+    "count": 4
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 4
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 20
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 104
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "10",
+    "count": 4
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 1,
+    "lg": 2,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "button",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "button",
+      "height": 38,
+      "width": 3,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1), mix-blend-mode 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Show photo 1 of 86",
+      "tag": "button",
+      "height": 40,
+      "width": 17,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Previous photo",
+      "tag": "button",
+      "height": 709,
+      "width": 688,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "The RepositoryResources and es",
+      "tag": "a",
+      "height": 72,
+      "width": 264,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Design EngineeringWhat design ",
+      "tag": "a",
+      "height": 48,
+      "width": 544,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Writing",
+      "tag": "a",
+      "height": 24,
+      "width": 51,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Email",
+      "tag": "a",
+      "height": 24,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(47.2432 0 0)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Back",
+      "tag": "a",
+      "height": 20,
+      "width": 33,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(47.2432 0 0)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "14px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "lg": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "All photos",
+      "tag": "nav",
+      "height": 40,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 1,
+   "sizeBuckets": {
+    "lg": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "",
+      "tag": "button",
+      "height": 38,
+      "width": 3,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1), mix-blend-mode 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Marcelo Chaman Mallqui",
+      "tag": "h1",
+      "height": 24,
+      "width": 544,
+      "padding": "0px 24px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Writing about product engineer",
+      "tag": "p",
+      "height": 72,
+      "width": 544,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(47.2432 0 0)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Resources and essays about dev",
+      "tag": "p",
+      "height": 48,
+      "width": 264,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(47.2432 0 0)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "The Repository",
+      "tag": "p",
+      "height": 24,
+      "width": 264,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "What design engineering is, ho",
+      "tag": "p",
+      "height": 24,
+      "width": 544,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(47.2432 0 0)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "The RepositoryResources and es",
+      "tag": "ul",
+      "height": 72,
+      "width": 544,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": null
+     },
+     {
+      "text": "Design EngineeringWhat design ",
+      "tag": "ul",
+      "height": 240,
+      "width": 544,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": null
+     },
+     {
+      "text": "One Way to Format, EverywhereC",
+      "tag": "ul",
+      "height": 168,
+      "width": 992,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "24px 32px",
+      "contrast": null
+     },
+     {
+      "text": "Design EngineeringWhat design ",
+      "tag": "ul",
+      "height": 136,
+      "width": 544,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid lab(90.2328 -0.0000298023 0)",
+      "fontSize": "16px",
+      "fontWeight": "350",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": null
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 878,
+   "heading": "Marcelo Chaman Mallqui",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "80px 16px",
+   "children": 4
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 21.0,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 20,
+  "tapTargetMedian": 38
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 105
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 105
+   }
+  ],
+  "properties": [
+   {
+    "value": "opacity",
+    "count": 104
+   },
+   {
+    "value": "mix-blend-mode",
+    "count": 52
+   },
+   {
+    "value": "box-shadow",
+    "count": 1
+   }
+  ]
+ }
+}

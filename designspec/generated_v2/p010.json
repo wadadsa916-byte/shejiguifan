@@ -1,0 +1,864 @@
+{
+ "id": "p010",
+ "overview": {
+  "name": "shadcn",
+  "url": "https://shadcn.com/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://shadcn.com/",
+   "https://shadcn.com/copper"
+  ],
+  "subpages": [
+   "/copper"
+  ],
+  "sectionCount": 1,
+  "componentSamples": 23,
+  "typeSteps": 8
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#e0e0e0",
+    "value": "#e0e0e0",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#404040",
+    "value": "lab(27.036 0 0)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 7.85
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#e0e0e0",
+    "count": 8
+   },
+   {
+    "hex": "#ffffff",
+    "count": 2
+   },
+   {
+    "hex": "#71717a",
+    "count": 1
+   },
+   {
+    "hex": "#09090b",
+    "count": 56
+   },
+   {
+    "hex": "#000000",
+    "count": 12
+   }
+  ],
+  "backgroundsTotal": 3,
+  "textTotal": 5,
+  "bordersTotal": 2
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Schibsted Grotesk",
+    "count": 3,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "After checkout you'll get a one-line ins"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Schibsted Grotesk",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "privacy"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Schibsted Grotesk",
+    "count": 16,
+    "tags": [
+     "span",
+     "button",
+     "a",
+     "p"
+    ],
+    "samples": [
+     "github stars"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "family": "Schibsted Grotesk",
+    "count": 8,
+    "tags": [
+     "p",
+     "span"
+    ],
+    "samples": [
+     "Then you're in Claude. Cursor. Chrome. B"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono",
+    "count": 10,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "166K"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Schibsted Grotesk",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "shadcn/ui"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "family": "Schibsted Grotesk",
+    "count": 3,
+    "tags": [
+     "span",
+     "p",
+     "a"
+    ],
+    "samples": [
+     "you've got little things scattered every"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Schibsted Grotesk",
+    "count": 7,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "shadcn/numbers"
+    ]
+   }
+  ],
+  "totalSteps": 9,
+  "families": [
+   "JetBrains Mono",
+   "Schibsted Grotesk"
+  ],
+  "weights": [
+   "400",
+   "500"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 9
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 2
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 129
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 4
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 22
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 2
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 2
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 2
+   },
+   {
+    "value": "96px",
+    "px": 96.0,
+    "count": 8
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": []
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 1
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 48
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0 0 0 / 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": []
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Sign up",
+      "tag": "button",
+      "height": 28,
+      "width": 66,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(224, 224, 224)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgb(145, 145, 145)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.91
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 9,
+   "sizeBuckets": {
+    "sm": 6,
+    "xl": 2,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "shadcn",
+      "tag": "a",
+      "height": 20,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.036 0 0)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "shadcn/ui",
+      "tag": "a",
+      "height": 18,
+      "width": 65,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.036 0 0)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.036 0 0)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "Sponsor My Work",
+      "tag": "a",
+      "height": 28,
+      "width": 134,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(224, 224, 224)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgb(145, 145, 145)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.91
+     }
+    ],
+    "xl": [
+     {
+      "text": "shadcn/copperThe useful parts ",
+      "tag": "a",
+      "height": 136,
+      "width": 416,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.036 0 0)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "shadcn/uiThe most popular \"com",
+      "tag": "a",
+      "height": 72,
+      "width": 416,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.036 0 0)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.036 0 0)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 28,
+      "width": 184,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(9, 9, 11)",
+      "border": "1px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "shadcn/numbers",
+      "tag": "h2",
+      "height": 24,
+      "width": 416,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(9, 9, 11)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     }
+    ],
+    "xl": [
+     {
+      "text": "You know how you're in a conve",
+      "tag": "h1",
+      "height": 64,
+      "width": 480,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(9, 9, 11)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 8,
+   "sizeBuckets": {
+    "sm": 3,
+    "xl": 4,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Featured Sponsors",
+      "tag": "p",
+      "height": 20,
+      "width": 416,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(113, 113, 122)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.35
+     },
+     {
+      "text": "I had the same problem, so I b",
+      "tag": "p",
+      "height": 26,
+      "width": 480,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(9, 9, 11)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     },
+     {
+      "text": "After checkout you'll get a on",
+      "tag": "p",
+      "height": 20,
+      "width": 480,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(113, 113, 122)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.35
+     }
+    ],
+    "xl": [
+     {
+      "text": "Then you're in Claude. Cursor.",
+      "tag": "p",
+      "height": 78,
+      "width": 480,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(9, 9, 11)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     },
+     {
+      "text": "Copper combines the useful par",
+      "tag": "p",
+      "height": 52,
+      "width": 480,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(9, 9, 11)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     },
+     {
+      "text": "Whenever I find something wort",
+      "tag": "p",
+      "height": 104,
+      "width": 480,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(9, 9, 11)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     },
+     {
+      "text": "I've been using it every day f",
+      "tag": "p",
+      "height": 52,
+      "width": 480,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(9, 9, 11)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     }
+    ],
+    "lg": [
+     {
+      "text": "macOS 14 or later. Copper need",
+      "tag": "p",
+      "height": 39,
+      "width": 480,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(113, 113, 122)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.35
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "166K",
+      "tag": "span",
+      "height": 20,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(9, 9, 11)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 12,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(228, 228, 231)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Schibsted Grotesk",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 1601,
+   "heading": "shadcn/numbers",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 15.91,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 28
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "opacity",
+    "count": 1
+   }
+  ]
+ }
+}

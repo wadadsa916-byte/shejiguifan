@@ -1,0 +1,682 @@
+{
+ "id": "p081",
+ "overview": {
+  "name": "Umesh Nagare",
+  "url": "https://umeshnagare.com/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://umeshnagare.com/"
+  ],
+  "subpages": [],
+  "sectionCount": 4,
+  "componentSamples": 17,
+  "typeSteps": 5
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#0b0d0e",
+    "value": "#0b0d0e",
+    "token": "--bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#a1a1a1",
+    "value": "lab(66.128 -0.0000298023 0.0000119209)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 7.54
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 2
+   },
+   {
+    "hex": "#000000",
+    "count": 2
+   }
+  ],
+  "backgroundsTotal": 3,
+  "textTotal": 6,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "11px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 23,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "FastAPI"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "ui-sans-serif",
+    "count": 3,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Conversational design studio built with "
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "ui-sans-serif",
+    "count": 5,
+    "tags": [
+     "p",
+     "h2",
+     "a"
+    ],
+    "samples": [
+     "Engineer"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "ui-sans-serif",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Photowa"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "24.5px",
+    "letterSpacing": "normal",
+    "family": "ui-sans-serif",
+    "count": 12,
+    "tags": [
+     "p",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "I build software, write articles, and so"
+    ]
+   }
+  ],
+  "totalSteps": 7,
+  "families": [
+   "Inter",
+   "ui-monospace",
+   "ui-sans-serif"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 3
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 9
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 8
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 6
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 11
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 2
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 3
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "672px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 2
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "999",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "link": {
+   "label": "链接",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 18,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(7.78201 -0.0000149012 0)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24.375px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Photowa",
+      "tag": "a",
+      "height": 21,
+      "width": 57,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(7.78201 -0.0000149012 0)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Understanding CSR and SSR",
+      "tag": "a",
+      "height": 21,
+      "width": 185,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(7.78201 -0.0000149012 0)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Umesh Nagare",
+      "tag": "h1",
+      "height": 23,
+      "width": 624,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(7.78201 -0.0000149012 0)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Projects",
+      "tag": "h2",
+      "height": 21,
+      "width": 624,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(66.128 -0.0000298023 0.0000119209)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Writing",
+      "tag": "h2",
+      "height": 21,
+      "width": 624,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Engineer",
+      "tag": "p",
+      "height": 21,
+      "width": 624,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(66.128 -0.0000298023 0.0000119209)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "I build software, write articl",
+      "tag": "p",
+      "height": 24,
+      "width": 624,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(34.924 0 0)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24.375px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Conversational design studio b",
+      "tag": "p",
+      "height": 21,
+      "width": 536,
+      "padding": "0px",
+      "margin": "4px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "21.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 8,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 6
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "img",
+      "height": 80,
+      "width": 80,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "9999px",
+      "background": "lab(96.1634 0.0993311 -0.364041)",
+      "color": "lab(7.78201 -0.0000149012 0)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "2026",
+      "tag": "div",
+      "height": 65,
+      "width": 72,
+      "padding": "2px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(66.128 -0.0000298023 0.0000119209)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Projects",
+      "tag": "h2",
+      "height": 21,
+      "width": 624,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(66.128 -0.0000298023 0.0000119209)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "FastAPI•MongoDB•Redis•Next.js",
+      "tag": "div",
+      "height": 11,
+      "width": 536,
+      "padding": "0px",
+      "margin": "8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(66.128 -0.0000298023 0.0000119209)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "•",
+      "tag": "span",
+      "height": 13,
+      "width": 7,
+      "padding": "0px",
+      "margin": "0px 6px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(66.128 -0.0000298023 0.0000119209)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Writing",
+      "tag": "h2",
+      "height": 21,
+      "width": 624,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 830,
+   "heading": "Umesh Nagare",
+   "background": "rgb(255, 255, 255)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 228,
+   "heading": "Umesh Nagare",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "8px 0px 16px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 327,
+   "heading": "Projects",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "16px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 162,
+   "heading": "Writing",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "40px 0px 0px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 1.08,
+  "bodyContrastLevel": "fail",
+  "tapTargetMin": 18,
+  "tapTargetMedian": 21
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 9
+   },
+   {
+    "value": "0.3s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 10
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 10
+   },
+   {
+    "value": "background-color",
+    "count": 10
+   },
+   {
+    "value": "border-color",
+    "count": 10
+   },
+   {
+    "value": "outline-color",
+    "count": 10
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 10
+   },
+   {
+    "value": "fill",
+    "count": 10
+   },
+   {
+    "value": "stroke",
+    "count": 10
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 10
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 10
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 10
+   }
+  ]
+ }
+}

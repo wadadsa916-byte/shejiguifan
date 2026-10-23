@@ -1,0 +1,2977 @@
+{
+ "id": "t236",
+ "overview": {
+  "name": "OpenCode",
+  "url": "https://opencode.ai/",
+  "section": "智能体与 MCP",
+  "pagesScanned": [
+   "https://opencode.ai/",
+   "https://opencode.ai/docs",
+   "https://opencode.ai/enterprise",
+   "https://opencode.ai/changelog"
+  ],
+  "subpages": [
+   "/docs",
+   "/enterprise",
+   "/changelog"
+  ],
+  "sectionCount": 13,
+  "componentSamples": 178,
+  "typeSteps": 38
+ },
+ "colors": {
+  "roles": {
+   "warning": {
+    "hex": "#ff9f0a",
+    "value": "#ff9f0a",
+    "token": "--color-warning",
+    "source": "css-var",
+    "contrastOnBg": 2.06
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--color-bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "primary": {
+    "hex": "#007aff",
+    "value": "#007aff",
+    "token": "--color-accent",
+    "source": "css-var",
+    "contrastOnBg": 4.02
+   },
+   "border": {
+    "hex": "#d2d2d7",
+    "value": "#d2d2d7",
+    "token": "--color-border",
+    "source": "css-var",
+    "contrastOnBg": 1.51
+   },
+   "danger": {
+    "hex": "#ff3b30",
+    "value": "#ff3b30",
+    "token": "--color-danger",
+    "source": "css-var",
+    "contrastOnBg": 3.55
+   },
+   "muted": {
+    "hex": "#6e6e73",
+    "value": "#6e6e73",
+    "token": "--color-text-muted",
+    "source": "css-var",
+    "contrastOnBg": 5.07
+   },
+   "foreground": {
+    "hex": "#1d1d1f",
+    "value": "#1d1d1f",
+    "token": "--color-text",
+    "source": "css-var",
+    "contrastOnBg": 16.83
+   },
+   "disabled": {
+    "hex": "#86868b",
+    "value": "#86868b",
+    "token": "--color-text-disabled",
+    "source": "css-var",
+    "contrastOnBg": 3.62
+   },
+   "success": {
+    "hex": "#30d158",
+    "value": "#30d158",
+    "token": "--color-success",
+    "source": "css-var",
+    "contrastOnBg": 2.02
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#f8f7f7",
+    "count": 37
+   },
+   {
+    "hex": "#fdfcfc",
+    "count": 8
+   },
+   {
+    "hex": "#edd1fa",
+    "count": 6
+   },
+   {
+    "hex": "#201d1d",
+    "count": 6
+   },
+   {
+    "hex": "#000000",
+    "count": 5
+   },
+   {
+    "hex": "#ffffff",
+    "count": 3
+   },
+   {
+    "hex": "#e7e7e4",
+    "count": 3
+   },
+   {
+    "hex": "#cfd4fc",
+    "count": 1
+   },
+   {
+    "hex": "#24231e",
+    "count": 1
+   },
+   {
+    "hex": "#646262",
+    "count": 738
+   }
+  ],
+  "backgroundsTotal": 9,
+  "textTotal": 30,
+  "bordersTotal": 4
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "0.48px",
+    "family": "Berkeley Mono",
+    "count": 43,
+    "tags": [
+     "h3",
+     "span"
+    ],
+    "samples": [
+     "Highlights"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Mono",
+    "count": 18,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Install"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Mono",
+    "count": 2,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Overview"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "600",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 4,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "opencode"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "600",
+    "lineHeight": "22px",
+    "letterSpacing": "0.5px",
+    "family": "IBM Plex Mono",
+    "count": 4,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "npm"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "600",
+    "lineHeight": "18px",
+    "letterSpacing": "0.5px",
+    "family": "ui-monospace",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Usage"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "700",
+    "lineHeight": "15.5px",
+    "letterSpacing": "0.5px",
+    "family": "IBM Plex Mono",
+    "count": 7,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Note"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Berkeley Mono",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Fig 1. 215K GitHub Stars"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "23.5px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Mono",
+    "count": 261,
+    "tags": [
+     "a",
+     "li",
+     "p",
+     "em",
+     "label"
+    ],
+    "samples": [
+     "Skip to content"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Mono",
+    "count": 68,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Config"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Mono",
+    "count": 2,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Search  ⌘K"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Mono",
+    "count": 2,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "New OpenCode v2 is now available →"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "Berkeley Mono",
+    "count": 158,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "OPENCODE_DISABLE_FREE_MODELS"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Berkeley Mono",
+    "count": 5,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "native"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Berkeley Mono",
+    "count": 3,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "215K"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "23.5px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Mono",
+    "count": 16,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "OpenCode"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Berkeley Mono",
+    "count": 7,
+    "tags": [
+     "label"
+    ],
+    "samples": [
+     "Full name"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "23.5px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 6,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "opencode"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Mono",
+    "count": 2,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Intro"
+    ]
+   },
+   {
+    "size": "14.5px",
+    "px": 14.5,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "monospace",
+    "count": 25,
+    "tags": [
+     "pre"
+    ],
+    "samples": [
+     "curl -fsSL https://opencode.ai/install |"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Berkeley Mono",
+    "count": 91,
+    "tags": [
+     "li",
+     "a",
+     "pre",
+     "button",
+     "span"
+    ],
+    "samples": [
+     "GitHub"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "Berkeley Mono",
+    "count": 35,
+    "tags": [
+     "p",
+     "li",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "Free models included or connect any mode"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Berkeley Mono",
+    "count": 6,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "curl"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "Berkeley Mono",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "OpenCode operates securely inside your o"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "Berkeley Mono",
+    "count": 24,
+    "tags": [
+     "strong",
+     "button"
+    ],
+    "samples": [
+     "LSP enabled"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Berkeley Mono",
+    "count": 10,
+    "tags": [
+     "a",
+     "span",
+     "button"
+    ],
+    "samples": [
+     "Download"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Mono",
+    "count": 4,
+    "tags": [
+     "h4",
+     "a"
+    ],
+    "samples": [
+     "Prerequisites"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "700",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Berkeley Mono",
+    "count": 7,
+    "tags": [
+     "h3",
+     "strong"
+    ],
+    "samples": [
+     "What is OpenCode?"
+    ]
+   },
+   {
+    "size": "16.5px",
+    "px": 16.5,
+    "weight": "400",
+    "lineHeight": "27.5px",
+    "letterSpacing": "normal",
+    "family": "Berkeley Mono",
+    "count": 28,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "OPENCODE_DISABLE_FREE_MODELS=1"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "400",
+    "lineHeight": "27px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Serif",
+    "count": 410,
+    "tags": [
+     "li",
+     "a",
+     "p",
+     "td"
+    ],
+    "samples": [
+     "Added OPENCODE_DISABLE_FREE_MODELS for h"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Serif",
+    "count": 63,
+    "tags": [
+     "h4"
+    ],
+    "samples": [
+     "Improvements"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "600",
+    "lineHeight": "27px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Serif",
+    "count": 17,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "Subscribe"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "700",
+    "lineHeight": "27px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Serif",
+    "count": 3,
+    "tags": [
+     "th"
+    ],
+    "samples": [
+     "Surface"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "500",
+    "lineHeight": "21.5px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Mono",
+    "count": 8,
+    "tags": [
+     "h3",
+     "a"
+    ],
+    "samples": [
+     "Ask questions"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "400",
+    "lineHeight": "33px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Serif",
+    "count": 126,
+    "tags": [
+     "li",
+     "p",
+     "a"
+    ],
+    "samples": [
+     "Clear Free-Limit RecoveryWhen your free "
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "600",
+    "lineHeight": "33px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Serif",
+    "count": 12,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "Settings → Preferences → Timeline → Chan"
+    ]
+   },
+   {
+    "size": "22px",
+    "px": 22.0,
+    "weight": "500",
+    "lineHeight": "26.5px",
+    "letterSpacing": "normal",
+    "family": "IBM Plex Mono",
+    "count": 10,
+    "tags": [
+     "h2",
+     "a"
+    ],
+    "samples": [
+     "Install"
+    ]
+   },
+   {
+    "size": "32px",
+    "px": 32.0,
+    "weight": "400",
+    "lineHeight": "41.5px",
+    "letterSpacing": "-0.32px",
+    "family": "IBM Plex Serif",
+    "count": 16,
+    "tags": [
+     "h2",
+     "a"
+    ],
+    "samples": [
+     "v2.1.2"
+    ]
+   }
+  ],
+  "totalSteps": 49,
+  "families": [
+   "Berkeley Mono",
+   "IBM Plex Mono",
+   "IBM Plex Serif",
+   "monospace",
+   "ui-monospace"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 232
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 11
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 15
+   },
+   {
+    "value": "6.5px",
+    "px": 6.5,
+    "count": 14
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 8
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 66
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 140
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 292
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 77
+   },
+   {
+    "value": "14.5px",
+    "px": 14.5,
+    "count": 34
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 7
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 96
+   },
+   {
+    "value": "17px",
+    "px": 17.0,
+    "count": 8
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 30
+   },
+   {
+    "value": "21px",
+    "px": 21.0,
+    "count": 166
+   },
+   {
+    "value": "22px",
+    "px": 22.0,
+    "count": 53
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1080px",
+    "count": 4
+   },
+   {
+    "value": "788px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "1px",
+    "px": 1.0,
+    "count": 25
+   },
+   {
+    "value": "3px",
+    "px": 3.0,
+    "count": 1
+   },
+   {
+    "value": "3.2px",
+    "px": 3.2,
+    "count": 5
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 27
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 26
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 11
+   },
+   {
+    "value": "10",
+    "count": 5
+   },
+   {
+    "value": "5",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 7,
+   "sizeBuckets": {
+    "xl": 2,
+    "lg": 2,
+    "md": 2,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "curl",
+      "tag": "button",
+      "height": 50,
+      "width": 38,
+      "padding": "16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     },
+     {
+      "text": "npm",
+      "tag": "button",
+      "height": 50,
+      "width": 29,
+      "padding": "16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(154, 152, 152)",
+      "border": "0px none rgb(154, 152, 152)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.32
+     }
+    ],
+    "lg": [
+     {
+      "text": "curl -fsSL https://opencode.ai",
+      "tag": "button",
+      "height": 40,
+      "width": 517,
+      "padding": "8px 16px 8px 8px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 3.47
+     },
+     {
+      "text": "Subscribe",
+      "tag": "button",
+      "height": 40,
+      "width": 126,
+      "padding": "4px 20px",
+      "margin": "-20px 0px 0px",
+      "radius": "4px",
+      "background": "rgb(32, 29, 29)",
+      "color": "rgb(253, 252, 252)",
+      "border": "0px none rgb(253, 252, 252)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 16.34
+     }
+    ],
+    "md": [
+     {
+      "text": "What is OpenCode?",
+      "tag": "button",
+      "height": 32,
+      "width": 203,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.25
+     },
+     {
+      "text": "Search  ⌘K",
+      "tag": "button",
+      "height": 36,
+      "width": 111,
+      "padding": "6px 12px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(109, 113, 126)",
+      "border": "1px solid rgb(217, 216, 216)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 4.31
+     }
+    ],
+    "sm": [
+     {
+      "text": "English",
+      "tag": "button",
+      "height": 24,
+      "width": 83,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(154, 152, 152)",
+      "border": "0px none rgb(154, 152, 152)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s",
+      "gap": "8px",
+      "contrast": 7.32
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 29,
+   "sizeBuckets": {
+    "md": 5,
+    "sm": 17,
+    "lg": 5,
+    "xl": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 34,
+      "width": 189,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     },
+     {
+      "text": "OpenCode",
+      "tag": "a",
+      "height": 32,
+      "width": 178,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "33.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "40px",
+      "contrast": 1.25
+     },
+     {
+      "text": "Install",
+      "tag": "a",
+      "height": 29,
+      "width": 92,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "22px",
+      "fontWeight": "500",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     },
+     {
+      "text": "npm",
+      "tag": "a",
+      "height": 30,
+      "width": 65,
+      "padding": "0px 20px 6px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "21.9375px",
+      "letterSpacing": "0.5px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.25
+     }
+    ],
+    "sm": [
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 20,
+      "width": 58,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     },
+     {
+      "text": "Anomaly",
+      "tag": "a",
+      "height": 20,
+      "width": 67,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(154, 152, 152)",
+      "border": "0px none rgb(154, 152, 152)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.32
+     },
+     {
+      "text": "Skip to content",
+      "tag": "a",
+      "height": 24,
+      "width": 126,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 20,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     }
+    ],
+    "lg": [
+     {
+      "text": "Download",
+      "tag": "a",
+      "height": 40,
+      "width": 129,
+      "padding": "8px 16px 8px 10px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(32, 29, 29)",
+      "color": "rgb(253, 252, 252)",
+      "border": "0px none rgb(253, 252, 252)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 16.34
+     },
+     {
+      "text": "Learn about Zen",
+      "tag": "a",
+      "height": 42,
+      "width": 214,
+      "padding": "8px 12px 8px 20px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(253, 252, 252)",
+      "color": "rgb(32, 29, 29)",
+      "border": "1px solid rgba(15, 0, 0, 0.12)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 16.34
+     },
+     {
+      "text": "New OpenCode v2 is now availab",
+      "tag": "a",
+      "height": 44,
+      "width": 1440,
+      "padding": "0px 24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(248, 247, 247)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.15s",
+      "gap": "12px",
+      "contrast": 15.65
+     },
+     {
+      "text": "Download",
+      "tag": "a",
+      "height": 40,
+      "width": 127,
+      "padding": "8px 16px 8px 10px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(36, 35, 30)",
+      "color": "rgb(231, 231, 228)",
+      "border": "0px none rgb(231, 231, 228)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 12.7
+     }
+    ],
+    "xl": [
+     {
+      "text": "GitHub [215K]",
+      "tag": "a",
+      "height": 88,
+      "width": 215,
+      "padding": "32px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     },
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 88,
+      "width": 215,
+      "padding": "32px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 18, 17)",
+      "border": "0px none rgb(19, 18, 17)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.12
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 6,
+   "sizeBuckets": {
+    "xl": 4,
+    "lg": 1,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Email address",
+      "tag": "input",
+      "height": 66,
+      "width": 918,
+      "padding": "20px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(248, 247, 247)",
+      "color": "rgb(32, 29, 29)",
+      "border": "1px solid rgba(15, 0, 0, 0.12)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.65
+     },
+     {
+      "text": "",
+      "tag": "input",
+      "height": 50,
+      "width": 427,
+      "padding": "12px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(248, 247, 247)",
+      "color": "rgb(32, 29, 29)",
+      "border": "1px solid rgb(217, 216, 216)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.65
+     },
+     {
+      "text": "Select a range (optional)Not s",
+      "tag": "select",
+      "height": 48,
+      "width": 427,
+      "padding": "12px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(248, 247, 247)",
+      "color": "rgb(32, 29, 29)",
+      "border": "1px solid rgb(217, 216, 216)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.65
+     },
+     {
+      "text": "",
+      "tag": "textarea",
+      "height": 146,
+      "width": 427,
+      "padding": "12px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(248, 247, 247)",
+      "color": "rgb(32, 29, 29)",
+      "border": "1px solid rgb(217, 216, 216)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.65
+     }
+    ],
+    "lg": [
+     {
+      "text": "EnglishالعربيةBosanskiDanskDeu",
+      "tag": "select",
+      "height": 44,
+      "width": 210,
+      "padding": "10px 32px 10px 26px",
+      "margin": "0px -8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(35, 38, 47)",
+      "border": "0px none rgb(35, 38, 47)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.39
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 30,
+      "width": 214,
+      "padding": "1px 2px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px inset rgb(118, 118, 118)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 11,
+   "sizeBuckets": {
+    "xl": 11
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "On this page   Overview     In",
+      "tag": "div",
+      "height": 338,
+      "width": 1440,
+      "padding": "24px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(225, 223, 223)",
+      "border": "0px none rgb(225, 223, 223)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.82
+     },
+     {
+      "text": "IntroGet started with OpenCode",
+      "tag": "div",
+      "height": 120,
+      "width": 780,
+      "padding": "32px 48px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     },
+     {
+      "text": "NoteOpenCode 1 and OpenCode 2 ",
+      "tag": "div",
+      "height": 8963,
+      "width": 780,
+      "padding": "32px 48px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     },
+     {
+      "text": "v2.1.2October 21, 2026Highligh",
+      "tag": "article",
+      "height": 2421,
+      "width": 740,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(36, 35, 30)",
+      "border": "0px none rgb(36, 35, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 6,
+   "sizeBuckets": {
+    "lg": 2,
+    "xl": 4
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "GitHubDocsDataZenGoEnterpriseD",
+      "tag": "nav",
+      "height": 40,
+      "width": 639,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     },
+     {
+      "text": "GitHub\nDocs\nData\nZen\nGo\nEnterp",
+      "tag": "nav",
+      "height": 40,
+      "width": 597,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(36, 35, 30)",
+      "border": "0px none rgb(36, 35, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ],
+    "xl": [
+     {
+      "text": "OpenCode      app.header.homea",
+      "tag": "header",
+      "height": 64,
+      "width": 1440,
+      "padding": "24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(253, 252, 252)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(217, 216, 216)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.92
+     },
+     {
+      "text": "On this page   Overview     In",
+      "tag": "nav",
+      "height": 290,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(225, 223, 223)",
+      "border": "0px none rgb(225, 223, 223)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.82
+     },
+     {
+      "text": "GitHub\nDocs\nData\nZen\nGo\nEnterp",
+      "tag": "header",
+      "height": 80,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(231, 231, 228)",
+      "color": "rgb(36, 35, 30)",
+      "border": "0px none rgb(36, 35, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 12.7
+     },
+     {
+      "text": "v2.1.2October 21, 2026",
+      "tag": "header",
+      "height": 70,
+      "width": 740,
+      "padding": "0px",
+      "margin": "0px 0px 40px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(36, 35, 30)",
+      "border": "0px none rgb(36, 35, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "New",
+      "tag": "span",
+      "height": 19,
+      "width": 37,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "3px",
+      "background": "rgb(32, 29, 29)",
+      "color": "rgb(253, 252, 252)",
+      "border": "0px none rgb(253, 252, 252)",
+      "fontSize": "11px",
+      "fontWeight": "600",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "11px",
+      "letterSpacing": "0.44px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 16.34
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 12,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 6,
+    "md": 3,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "The open source AI coding agen",
+      "tag": "h1",
+      "height": 57,
+      "width": 918,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "38px",
+      "fontWeight": "700",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "57px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     },
+     {
+      "text": "Changelog",
+      "tag": "h1",
+      "height": 58,
+      "width": 740,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 18, 17)",
+      "border": "0px none rgb(19, 18, 17)",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Serif",
+      "lineHeight": "57.6px",
+      "letterSpacing": "-0.72px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.12
+     }
+    ],
+    "sm": [
+     {
+      "text": "What is OpenCode?",
+      "tag": "h3",
+      "height": 24,
+      "width": 918,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     },
+     {
+      "text": "Prerequisites",
+      "tag": "h4",
+      "height": 19,
+      "width": 684,
+      "padding": "0px",
+      "margin": "54px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     },
+     {
+      "text": "Install",
+      "tag": "h2",
+      "height": 26,
+      "width": 684,
+      "padding": "0px",
+      "margin": "54px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "22px",
+      "fontWeight": "500",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     },
+     {
+      "text": "Ask questions",
+      "tag": "h3",
+      "height": 22,
+      "width": 684,
+      "padding": "0px",
+      "margin": "54px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     }
+    ],
+    "md": [
+     {
+      "text": "On this page",
+      "tag": "h2",
+      "height": 32,
+      "width": 1440,
+      "padding": "0px 24px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "19.6px",
+      "letterSpacing": "-0.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     },
+     {
+      "text": "Intro",
+      "tag": "h1",
+      "height": 31,
+      "width": 684,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "26px",
+      "fontWeight": "500",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "31.2px",
+      "letterSpacing": "-0.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     },
+     {
+      "text": "Your code is yours",
+      "tag": "h1",
+      "height": 36,
+      "width": 427,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     }
+    ],
+    "lg": [
+     {
+      "text": "v2.1.2",
+      "tag": "h2",
+      "height": 42,
+      "width": 740,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(36, 35, 30)",
+      "border": "0px none rgb(36, 35, 30)",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Serif",
+      "lineHeight": "41.6px",
+      "letterSpacing": "-0.32px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 29,
+   "sizeBuckets": {
+    "xl": 17,
+    "md": 3,
+    "sm": 9
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Free models included or connec",
+      "tag": "p",
+      "height": 64,
+      "width": 753,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     },
+     {
+      "text": "Zen gives you access to a hand",
+      "tag": "p",
+      "height": 96,
+      "width": 826,
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     },
+     {
+      "text": "OpenCode 1 and OpenCode 2 both",
+      "tag": "p",
+      "height": 71,
+      "width": 583,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 24, 28)",
+      "border": "0px none rgb(23, 24, 28)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     },
+     {
+      "text": "OpenCode is an open source AI ",
+      "tag": "p",
+      "height": 47,
+      "width": 684,
+      "padding": "0px",
+      "margin": "22px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     }
+    ],
+    "md": [
+     {
+      "text": "OpenCode is an open source age",
+      "tag": "p",
+      "height": 32,
+      "width": 918,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     },
+     {
+      "text": "New updates and improvements t",
+      "tag": "p",
+      "height": 30,
+      "width": 740,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(136, 132, 124)",
+      "border": "0px none rgb(136, 132, 124)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Serif",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.64
+     },
+     {
+      "text": "Clear Free-Limit Recovery",
+      "tag": "p",
+      "height": 33,
+      "width": 740,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 18, 17)",
+      "border": "0px none rgb(19, 18, 17)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Serif",
+      "lineHeight": "33px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.12
+     }
+    ],
+    "sm": [
+     {
+      "text": "Get started with OpenCode.",
+      "tag": "p",
+      "height": 21,
+      "width": 684,
+      "padding": "0px",
+      "margin": "4px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     },
+     {
+      "text": "Note",
+      "tag": "p",
+      "height": 16,
+      "width": 53,
+      "padding": "0px",
+      "margin": "3px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 28, 138)",
+      "border": "0px none rgb(15, 28, 138)",
+      "fontSize": "13px",
+      "fontWeight": "700",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "15.6px",
+      "letterSpacing": "0.5px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6.4px",
+      "contrast": 1.55
+     },
+     {
+      "text": "Let’s get started.",
+      "tag": "p",
+      "height": 24,
+      "width": 684,
+      "padding": "0px",
+      "margin": "22px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     },
+     {
+      "text": "Recommended: Use WSL",
+      "tag": "p",
+      "height": 16,
+      "width": 185,
+      "padding": "0px",
+      "margin": "3px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(102, 8, 145)",
+      "border": "0px none rgb(102, 8, 145)",
+      "fontSize": "13px",
+      "fontWeight": "700",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "15.6px",
+      "letterSpacing": "0.5px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6.4px",
+      "contrast": 2.01
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 52,
+   "sizeBuckets": {
+    "lg": 2,
+    "xl": 48,
+    "md": 1,
+    "sm": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "GitHubDocsDataZenGoEnterpriseD",
+      "tag": "ul",
+      "height": 40,
+      "width": 639,
+      "padding": "0px 0px 0px 40px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "32px",
+      "contrast": 3.47
+     },
+     {
+      "text": "GitHub\nDocs\nData\nZen\nGo\nEnterp",
+      "tag": "ul",
+      "height": 40,
+      "width": 597,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(36, 35, 30)",
+      "border": "0px none rgb(36, 35, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "32px",
+      "contrast": 1.33
+     }
+    ],
+    "xl": [
+     {
+      "text": "[*]LSP enabled Automatically l",
+      "tag": "ul",
+      "height": 320,
+      "width": 918,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     },
+     {
+      "text": "What is OpenCode?OpenCode is a",
+      "tag": "ul",
+      "height": 424,
+      "width": 918,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     },
+     {
+      "text": "Intro     Config     Providers",
+      "tag": "ul",
+      "height": 1242,
+      "width": 299,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     },
+     {
+      "text": "Go     TUI     CLI     Web    ",
+      "tag": "ul",
+      "height": 249,
+      "width": 299,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     }
+    ],
+    "md": [
+     {
+      "text": "npm     Bun     pnpm     Yarn",
+      "tag": "ul",
+      "height": 30,
+      "width": 660,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(237, 238, 243)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     }
+    ],
+    "sm": [
+     {
+      "text": "Added paginated ctx.session.li",
+      "tag": "ul",
+      "height": 27,
+      "width": 740,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(36, 35, 30)",
+      "border": "0px none rgb(36, 35, 30)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Serif",
+      "lineHeight": "27.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 1.33
+     }
+    ]
+   }
+  },
+  "table": {
+   "label": "表格",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Surface\nBefore\nAfter\n\n\n\nText a",
+      "tag": "table",
+      "height": 469,
+      "width": 784,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(36, 35, 30)",
+      "border": "0px none rgb(36, 35, 30)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Serif",
+      "lineHeight": "27.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 6,
+   "sizeBuckets": {
+    "xl": 4,
+    "md": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "curlnpmbunbrewparuyaycurl -fsS",
+      "tag": "section",
+      "height": 125,
+      "width": 918,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     },
+     {
+      "text": "curlnpmbunbrewparuyay",
+      "tag": "div",
+      "height": 51,
+      "width": 918,
+      "padding": "0px 20px",
+      "margin": "0px",
+      "radius": "6px 6px 0px 0px",
+      "background": "rgb(248, 247, 247)",
+      "color": "rgb(100, 98, 98)",
+      "border": "1px solid rgba(15, 0, 0, 0.12)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "40px",
+      "contrast": 5.67
+     },
+     {
+      "text": "curl",
+      "tag": "button",
+      "height": 50,
+      "width": 38,
+      "padding": "16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.25
+     },
+     {
+      "text": "npm",
+      "tag": "button",
+      "height": 50,
+      "width": 29,
+      "padding": "16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(154, 152, 152)",
+      "border": "0px none rgb(154, 152, 152)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.32
+     }
+    ],
+    "md": [
+     {
+      "text": "npm     Bun     pnpm     Yarn",
+      "tag": "div",
+      "height": 30,
+      "width": 660,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "23.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     },
+     {
+      "text": "npm",
+      "tag": "a",
+      "height": 30,
+      "width": 65,
+      "padding": "0px 20px 6px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 29, 29)",
+      "border": "0px none rgb(32, 29, 29)",
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "fontFamily": "IBM Plex Mono",
+      "lineHeight": "21.9375px",
+      "letterSpacing": "0.5px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.25
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 18,
+   "sizeBuckets": {
+    "sm": 16,
+    "xl": 1,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(253, 252, 252)",
+      "border": "0px none rgb(253, 252, 252)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 20.51
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 207, 206)",
+      "border": "0px none rgb(208, 207, 206)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 13.5
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(253, 252, 252)",
+      "border": "0px none rgb(253, 252, 252)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 20.51
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "2px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(154, 152, 152)",
+      "border": "0px none rgb(154, 152, 152)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.32
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 264,
+      "width": 205,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 98, 98)",
+      "border": "0px none rgb(100, 98, 98)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     }
+    ],
+    "md": [
+     {
+      "text": "OpenCode",
+      "tag": "svg",
+      "height": 34,
+      "width": 189,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px none rgb(0, 0, 238)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Berkeley Mono",
+      "lineHeight": "0px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 4209,
+   "heading": "The open source AI coding agent",
+   "background": "rgb(253, 252, 252)",
+   "padding": "0px 0px 80px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 80,
+   "heading": null,
+   "background": "rgb(253, 252, 252)",
+   "padding": "24px 80px",
+   "children": 3
+  },
+  {
+   "tag": "nav",
+   "height": 40,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 478,
+   "heading": "The open source AI coding agent",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "96px 80px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 125,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 607,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 621,
+   "heading": "What is OpenCode?",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "64px 80px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 629,
+   "heading": "The open source AI coding agent",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "64px 80px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 229,
+   "heading": "Built for privacy first",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "64px 80px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 625,
+   "heading": "FAQ",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "64px 80px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 395,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "64px 80px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 287,
+   "heading": "Be the first to know when we release new products",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "64px 80px",
+   "children": 2
+  },
+  {
+   "tag": "footer",
+   "height": 89,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 5
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 16.83,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 18,
+  "tapTargetMedian": 29
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.18s",
+    "count": 1
+   },
+   {
+    "value": "0.15s",
+    "count": 1
+   }
+  ],
+  "easings": [],
+  "properties": [
+   {
+    "value": "opacity",
+    "count": 1
+   }
+  ]
+ }
+}

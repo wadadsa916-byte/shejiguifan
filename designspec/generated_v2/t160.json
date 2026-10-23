@@ -1,0 +1,955 @@
+{
+ "id": "t160",
+ "overview": {
+  "name": "Gradient Spin",
+  "url": "https://gradient-spin.vercel.app/",
+  "section": "组件库",
+  "pagesScanned": [
+   "https://gradient-spin.vercel.app/"
+  ],
+  "subpages": [],
+  "sectionCount": 7,
+  "componentSamples": 16,
+  "typeSteps": 6
+ },
+ "colors": {
+  "roles": {
+   "border": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": "--border",
+    "source": "css-var",
+    "contrastOnBg": 21.0
+   },
+   "foreground": {
+    "hex": "#1c1c1e",
+    "value": "#1c1c1e",
+    "token": "--fg",
+    "source": "css-var",
+    "contrastOnBg": 17.01
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "muted": {
+    "hex": "#8a8a90",
+    "value": "#8a8a90",
+    "token": "--muted",
+    "source": "css-var",
+    "contrastOnBg": 3.43
+   },
+   "focus": {
+    "hex": "#1c1c1e",
+    "value": "#1c1c1e",
+    "token": "--ring",
+    "source": "css-var",
+    "contrastOnBg": 17.01
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#f5ebd9",
+    "count": 11
+   },
+   {
+    "hex": "#78b0ff",
+    "count": 11
+   },
+   {
+    "hex": "#ffffff",
+    "count": 10
+   },
+   {
+    "hex": "#ebbdde",
+    "count": 7
+   },
+   {
+    "hex": "#d9f5fa",
+    "count": 7
+   },
+   {
+    "hex": "#fcc5ce",
+    "count": 7
+   },
+   {
+    "hex": "#f0b3f5",
+    "count": 7
+   },
+   {
+    "hex": "#decee8",
+    "count": 7
+   },
+   {
+    "hex": "#78c1f5",
+    "count": 7
+   },
+   {
+    "hex": "#00c7a6",
+    "count": 7
+   }
+  ],
+  "backgroundsTotal": 24,
+  "textTotal": 6,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "600",
+    "lineHeight": "normal",
+    "letterSpacing": "0.48px",
+    "family": "ui-monospace",
+    "count": 3,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Loading older messages"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 55,
+    "tags": [
+     "span",
+     "code",
+     "a"
+    ],
+    "samples": [
+     "gradient-spin"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "monospace",
+    "count": 9,
+    "tags": [
+     "code",
+     "span"
+    ],
+    "samples": [
+     "import { GradientSpin } from \"gradient-s"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "$npm i gradient-spin"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 7,
+    "tags": [
+     "a",
+     "button"
+    ],
+    "samples": [
+     "GitHub"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 7,
+    "tags": [
+     "button",
+     "label"
+    ],
+    "samples": [
+     "$npm i gradient-spin"
+    ]
+   }
+  ],
+  "totalSteps": 6,
+  "families": [
+   "monospace",
+   "ui-monospace"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 27
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 12
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 4
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 20
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 6
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 25
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 27
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 10
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 4
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 4
+   },
+   {
+    "value": "26px",
+    "px": 26.0,
+    "count": 2
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 3
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 2
+   },
+   {
+    "value": "44px",
+    "px": 44.0,
+    "count": 8
+   },
+   {
+    "value": "56px",
+    "px": 56.0,
+    "count": 2
+   },
+   {
+    "value": "100px",
+    "px": 100.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "508px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "1px",
+    "px": 1.0,
+    "count": 139
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 5
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 2
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 4
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 1
+   },
+   {
+    "value": "999px",
+    "px": 999.0,
+    "count": 16
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+    "count": 9
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.1) 0px 0px 0px 1px",
+    "count": 7
+   },
+   {
+    "value": "rgb(255, 255, 255) 0px 0px 0px 2px, rgb(28, 28, 30) 0px 0px 0px 3.5px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 6
+   },
+   {
+    "value": "50",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 5,
+   "sizeBuckets": {
+    "md": 1,
+    "xl": 1,
+    "lg": 1,
+    "sm": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Switch to dark mode",
+      "tag": "button",
+      "height": 29,
+      "width": 33,
+      "padding": "6px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(28, 28, 30)",
+      "border": "1px solid rgba(0, 0, 0, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "transform 0.14s, box-shadow 0.14s, background 0.14s, border-color 0.14s, color 0.14s",
+      "gap": "6px",
+      "contrast": 17.01
+     }
+    ],
+    "xl": [
+     {
+      "text": "$npm i gradient-spin",
+      "tag": "button",
+      "height": 46,
+      "width": 320,
+      "padding": "14px 16px",
+      "margin": "0px",
+      "radius": "14px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgba(0, 0, 0, 0.1)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 21
+     }
+    ],
+    "lg": [
+     {
+      "text": "sunrise",
+      "tag": "button",
+      "height": 40,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(255, 255, 255) 0px 0px 0px 2px, rgb(28, 28, 30) 0px 0px 0px 3.5px",
+      "transition": "transform 0.24s cubic-bezier(0.34, 1.4, 0.5, 1), box-shadow 0.2s",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "Arrow",
+      "tag": "button",
+      "height": 28,
+      "width": 70,
+      "padding": "6px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 28, 30)",
+      "border": "0px none rgb(28, 28, 30)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "Diagonal",
+      "tag": "button",
+      "height": 28,
+      "width": 95,
+      "padding": "6px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(138, 138, 144)",
+      "border": "0px none rgb(138, 138, 144)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 6.12
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 2,
+   "sizeBuckets": {
+    "md": 1,
+    "sm": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 30,
+      "width": 102,
+      "padding": "6px 14px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(28, 28, 30)",
+      "border": "1px solid rgba(0, 0, 0, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "transform 0.14s, box-shadow 0.14s, background 0.14s, border-color 0.14s, color 0.14s",
+      "gap": "6px",
+      "contrast": 17.01
+     }
+    ],
+    "sm": [
+     {
+      "text": "@mona_biasia",
+      "tag": "a",
+      "height": 15,
+      "width": 94,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(138, 138, 144)",
+      "border": "0px none rgb(138, 138, 144)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s",
+      "gap": "normal",
+      "contrast": 6.12
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "750",
+      "tag": "input",
+      "height": 16,
+      "width": 460,
+      "padding": "0px",
+      "margin": "2px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 16, 16)",
+      "border": "0px none rgb(16, 16, 16)",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.1
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "import { GradientSpin } from \"",
+      "tag": "pre",
+      "height": 100,
+      "width": 460,
+      "padding": "16px 18px",
+      "margin": "0px",
+      "radius": "14px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(28, 28, 30)",
+      "border": "1px solid rgba(0, 0, 0, 0.1)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 17.01
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "gradient-spinGitHub",
+      "tag": "nav",
+      "height": 59,
+      "width": 1440,
+      "padding": "14px 24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.999994 0.0000455677 0.0000200868 / 0.8)",
+      "color": "rgb(28, 28, 30)",
+      "border": "0px none rgb(28, 28, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 2,
+   "sizeBuckets": {
+    "md": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Switch to dark mode",
+      "tag": "button",
+      "height": 29,
+      "width": 33,
+      "padding": "6px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(28, 28, 30)",
+      "border": "1px solid rgba(0, 0, 0, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "transform 0.14s, box-shadow 0.14s, background 0.14s, border-color 0.14s, color 0.14s",
+      "gap": "6px",
+      "contrast": 17.01
+     },
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 30,
+      "width": 102,
+      "padding": "6px 14px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(28, 28, 30)",
+      "border": "1px solid rgba(0, 0, 0, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "transform 0.14s, box-shadow 0.14s, background 0.14s, border-color 0.14s, color 0.14s",
+      "gap": "6px",
+      "contrast": 17.01
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Loading older messages",
+      "tag": "p",
+      "height": 14,
+      "width": 170,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(138, 138, 144)",
+      "border": "0px none rgb(138, 138, 144)",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "normal",
+      "letterSpacing": "0.48px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.12
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 15,
+      "width": 15,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 28, 30)",
+      "border": "0px none rgb(28, 28, 30)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 13,
+      "width": 13,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 28, 30)",
+      "border": "0px none rgb(28, 28, 30)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.23
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(138, 138, 144)",
+      "border": "0px none rgb(138, 138, 144)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.12
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "nav",
+   "height": 59,
+   "heading": null,
+   "background": "oklab(0.999994 0.0000455677 0.0000200868 / 0.8)",
+   "padding": "14px 24px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 346,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "120px 0px 56px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 750,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "44px 0px",
+   "children": 4
+  },
+  {
+   "tag": "section",
+   "height": 300,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "44px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 216,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "44px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 471,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "44px 0px",
+   "children": 2
+  },
+  {
+   "tag": "footer",
+   "height": 71,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "56px 0px 0px",
+   "children": 3
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 17.01,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 15,
+  "tapTargetMedian": 29
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.18s",
+    "count": 16
+   },
+   {
+    "value": "0.14s",
+    "count": 15
+   },
+   {
+    "value": "0.2s",
+    "count": 14
+   },
+   {
+    "value": "0.24s",
+    "count": 8
+   },
+   {
+    "value": "0.4s",
+    "count": 4
+   },
+   {
+    "value": "0.3s",
+    "count": 4
+   },
+   {
+    "value": "0.15s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 43
+   },
+   {
+    "value": "cubic-bezier(0.34, 1.4, 0.5, 1)",
+    "count": 8
+   },
+   {
+    "value": "cubic-bezier(0.34, 1.3, 0.5, 1)",
+    "count": 4
+   }
+  ],
+  "properties": [
+   {
+    "value": "transform",
+    "count": 21
+   },
+   {
+    "value": "color",
+    "count": 12
+   },
+   {
+    "value": "box-shadow",
+    "count": 11
+   },
+   {
+    "value": "opacity",
+    "count": 8
+   },
+   {
+    "value": "background",
+    "count": 3
+   },
+   {
+    "value": "border-color",
+    "count": 3
+   },
+   {
+    "value": "background-color",
+    "count": 2
+   },
+   {
+    "value": "width",
+    "count": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,720 @@
+{
+ "id": "t118",
+ "overview": {
+  "name": "Headless UI",
+  "url": "https://headlessui.com/",
+  "section": "组件库",
+  "pagesScanned": [
+   "https://headlessui.com/"
+  ],
+  "subpages": [],
+  "sectionCount": 3,
+  "componentSamples": 16,
+  "typeSteps": 1
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "oklab(0.999994 0.0000455678 0.0000200868 / 0.05)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 1.0
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#404040",
+    "count": 4
+   },
+   {
+    "hex": "#ffffff",
+    "count": 2
+   },
+   {
+    "hex": "#000000",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 12,
+  "textTotal": 4,
+  "bordersTotal": 4
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Inter var",
+    "count": 17,
+    "tags": [
+     "button",
+     "a"
+    ],
+    "samples": [
+     "v2.1"
+    ]
+   }
+  ],
+  "totalSteps": 4,
+  "families": [
+   "Inter var",
+   "ui-monospace"
+  ],
+  "weights": [
+   "400",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 64
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 7
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 95
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 16
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 12
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 2
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 17
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 2
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 14
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 1
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 8
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 3
+   },
+   {
+    "value": "56px",
+    "px": 56.0,
+    "count": 2
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 1
+   },
+   {
+    "value": "96px",
+    "px": 96.0,
+    "count": 2
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "1280px",
+    "count": 6
+   },
+   {
+    "value": "1282px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 23
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 4
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 5
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 1
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 1
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 31
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0.999994 0.0000455678 0.0000200868 / 0.1) 0px 2px 4px 0px inset",
+    "count": 4
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "-10",
+    "count": 3
+   },
+   {
+    "value": "10",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "v2.1",
+      "tag": "button",
+      "height": 28,
+      "width": 62,
+      "padding": "2px 6px 2px 12px",
+      "margin": "0px",
+      "radius": "16px",
+      "background": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter var",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 4,
+   "sizeBuckets": {
+    "md": 2,
+    "sm": 1,
+    "xl": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Headless UI home page",
+      "tag": "a",
+      "height": 32,
+      "width": 174,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter var",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Vue",
+      "tag": "a",
+      "height": 32,
+      "width": 51,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.5)",
+      "border": "0px solid oklab(0.999994 0.0000455678 0.0000200868 / 0.5)",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "fontFamily": "Inter var",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "View project on GitHub",
+      "tag": "a",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter var",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "OptionsEditDuplicate⌘DArchiveD",
+      "tag": "a",
+      "height": 294,
+      "width": 400,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter var",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "v2.1",
+      "tag": "header",
+      "height": 80,
+      "width": 1440,
+      "padding": "0px 24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter var",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Completely unstyled, fully acc",
+      "tag": "h1",
+      "height": 120,
+      "width": 1264,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "48px",
+      "fontWeight": "600",
+      "fontFamily": "Inter var",
+      "lineHeight": "60px",
+      "letterSpacing": "-1.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "Forms",
+      "tag": "h2",
+      "height": 16,
+      "width": 1264,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.5)",
+      "border": "0px solid oklab(0.999994 0.0000455678 0.0000200868 / 0.5)",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "16px",
+      "letterSpacing": "1.2px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "React",
+      "tag": "div",
+      "height": 32,
+      "width": 63,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "fontFamily": "Inter var",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 7,
+   "sizeBuckets": {
+    "md": 1,
+    "sm": 5,
+    "xl": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 174,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter var",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter var",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter var",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "11px",
+      "fontWeight": "600",
+      "fontFamily": "Inter var",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "Inter var",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 163,
+      "width": 128,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "Inter var",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 80,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 24px",
+   "children": 1
+  },
+  {
+   "tag": "main",
+   "height": 2308,
+   "heading": "Forms",
+   "background": "oklab(0 0 0 / 0.8)",
+   "padding": "0px 24px 48px",
+   "children": 4
+  },
+  {
+   "tag": "footer",
+   "height": 120,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "48px 0px",
+   "children": 0
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 1.0,
+  "bodyContrastLevel": "fail",
+  "tapTargetMin": 24,
+  "tapTargetMedian": 32
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 16
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 16
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 16
+   },
+   {
+    "value": "background-color",
+    "count": 16
+   },
+   {
+    "value": "border-color",
+    "count": 16
+   },
+   {
+    "value": "outline-color",
+    "count": 16
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 16
+   },
+   {
+    "value": "fill",
+    "count": 16
+   },
+   {
+    "value": "stroke",
+    "count": 16
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 16
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 16
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 16
+   }
+  ]
+ }
+}

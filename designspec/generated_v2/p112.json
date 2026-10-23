@@ -1,0 +1,888 @@
+{
+ "id": "p112",
+ "overview": {
+  "name": "Tom",
+  "url": "https://tomm.page/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://tomm.page/",
+   "https://tomm.page/craft"
+  ],
+  "subpages": [
+   "/craft"
+  ],
+  "sectionCount": 2,
+  "componentSamples": 30,
+  "typeSteps": 4
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "lab(100 0 0)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#0a0a0a",
+    "value": "lab(2.75381 0 0)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 19.8
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#111110",
+    "count": 1
+   },
+   {
+    "hex": "#ffffff",
+    "count": 83
+   },
+   {
+    "hex": "#000000",
+    "count": 2
+   }
+  ],
+  "backgroundsTotal": 4,
+  "textTotal": 11,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "openRunde",
+    "count": 11,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "2026"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "openRunde",
+    "count": 13,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Back"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "500",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "openRunde",
+    "count": 4,
+    "tags": [
+     "a",
+     "span",
+     "button"
+    ],
+    "samples": [
+     "Sponsor Me"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "openRunde",
+    "count": 11,
+    "tags": [
+     "span",
+     "p",
+     "a"
+    ],
+    "samples": [
+     "Tom, Design Engineer"
+    ]
+   }
+  ],
+  "totalSteps": 7,
+  "families": [
+   "Caveat",
+   "openRunde",
+   "redactionSerif"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 13
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 30
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 25
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 26
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 2
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 22
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 10
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 1
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 1
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 1
+   },
+   {
+    "value": "80px",
+    "px": 80.0,
+    "count": 6
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "448px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 11
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 6
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "10",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 4,
+   "sizeBuckets": {
+    "md": 4
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Toggle theme",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Sponsor Me",
+      "tag": "a",
+      "height": 34,
+      "width": 132,
+      "padding": "0px 12px 0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "lab(7.78201 -0.0000149012 0)",
+      "color": "lab(98.26 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0, 0, 0.2, 1), translate 0.15s cubic-bezier(0, 0, 0.2, 1), scale 0.15s cubic-bezier(0, 0, 0.2, 1), rotate 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Copy Email",
+      "tag": "button",
+      "height": 34,
+      "width": 126,
+      "padding": "0px 12px 0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "lab(96.52 -0.0000298023 0.0000119209)",
+      "color": "lab(7.78201 -0.0000149012 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0, 0, 0.2, 1), translate 0.15s cubic-bezier(0, 0, 0.2, 1), scale 0.15s cubic-bezier(0, 0, 0.2, 1), rotate 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Back",
+      "tag": "a",
+      "height": 34,
+      "width": 77,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 3,
+    "md": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "@spell_ui",
+      "tag": "a",
+      "height": 20,
+      "width": 73,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(7.78201 -0.0000149012 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "interfaces",
+      "tag": "a",
+      "height": 24,
+      "width": 97,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(7.78201 -0.0000149012 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "ign.bio beta",
+      "tag": "a",
+      "height": 20,
+      "width": 99,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid lab(100 0 0 / 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "Sponsor Me",
+      "tag": "a",
+      "height": 34,
+      "width": 132,
+      "padding": "0px 12px 0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "lab(7.78201 -0.0000149012 0)",
+      "color": "lab(98.26 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0, 0, 0.2, 1), translate 0.15s cubic-bezier(0, 0, 0.2, 1), scale 0.15s cubic-bezier(0, 0, 0.2, 1), rotate 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Back",
+      "tag": "a",
+      "height": 34,
+      "width": 77,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Tom, Design Engineer",
+      "tag": "h1",
+      "height": 32,
+      "width": 448,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "openRunde",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "I'm a design engineer who care",
+      "tag": "p",
+      "height": 48,
+      "width": 448,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Sponsored by Guillermo Rauch.",
+      "tag": "p",
+      "height": 24,
+      "width": 448,
+      "padding": "0px",
+      "margin": "8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 5,
+   "sizeBuckets": {
+    "md": 4,
+    "sm": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Toggle theme",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Sponsor Me",
+      "tag": "a",
+      "height": 34,
+      "width": 132,
+      "padding": "0px 12px 0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "lab(7.78201 -0.0000149012 0)",
+      "color": "lab(98.26 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0, 0, 0.2, 1), translate 0.15s cubic-bezier(0, 0, 0.2, 1), scale 0.15s cubic-bezier(0, 0, 0.2, 1), rotate 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Copy Email",
+      "tag": "button",
+      "height": 34,
+      "width": 126,
+      "padding": "0px 12px 0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "lab(96.52 -0.0000298023 0.0000119209)",
+      "color": "lab(7.78201 -0.0000149012 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0, 0, 0.2, 1), translate 0.15s cubic-bezier(0, 0, 0.2, 1), scale 0.15s cubic-bezier(0, 0, 0.2, 1), rotate 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Back",
+      "tag": "a",
+      "height": 34,
+      "width": 77,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "img",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "4px 0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 13,
+   "sizeBuckets": {
+    "sm": 10,
+    "md": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(54.1736 13.3369 -74.6839)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "4px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(7.78201 -0.0000149012 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Sponsor Me",
+      "tag": "a",
+      "height": 34,
+      "width": 132,
+      "padding": "0px 12px 0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "lab(7.78201 -0.0000149012 0)",
+      "color": "lab(98.26 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0, 0, 0.2, 1), translate 0.15s cubic-bezier(0, 0, 0.2, 1), scale 0.15s cubic-bezier(0, 0, 0.2, 1), rotate 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Copy Email",
+      "tag": "button",
+      "height": 34,
+      "width": 126,
+      "padding": "0px 12px 0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "lab(96.52 -0.0000298023 0.0000119209)",
+      "color": "lab(7.78201 -0.0000149012 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0, 0, 0.2, 1), translate 0.15s cubic-bezier(0, 0, 0.2, 1), scale 0.15s cubic-bezier(0, 0, 0.2, 1), rotate 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Back",
+      "tag": "a",
+      "height": 34,
+      "width": 77,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "openRunde",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 21
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 813,
+   "heading": "Tom, Design Engineer",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 230,
+   "heading": "Tom, Design Engineer",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 80px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 21.0,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 20,
+  "tapTargetMedian": 34
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 4
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0, 0, 0.2, 1)",
+    "count": 3
+   },
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "transform",
+    "count": 3
+   },
+   {
+    "value": "translate",
+    "count": 3
+   },
+   {
+    "value": "scale",
+    "count": 3
+   },
+   {
+    "value": "rotate",
+    "count": 3
+   }
+  ]
+ }
+}

@@ -1,0 +1,659 @@
+{
+ "id": "p052",
+ "overview": {
+  "name": "Maze",
+  "url": "https://remvze.com/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://remvze.com/"
+  ],
+  "subpages": [],
+  "sectionCount": 5,
+  "componentSamples": 14,
+  "typeSteps": 2
+ },
+ "colors": {
+  "roles": {
+   "foreground": {
+    "hex": "#fafafa",
+    "value": "#fafafa",
+    "token": "--color-foreground",
+    "source": "css-var",
+    "contrastOnBg": 2.34
+   },
+   "background": {
+    "hex": "#d99a2b",
+    "value": "#d99a2b",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#d99a2b",
+    "count": 3
+   },
+   {
+    "hex": "#0b0b0a",
+    "count": 1
+   },
+   {
+    "hex": "#fafafa",
+    "count": 111
+   },
+   {
+    "hex": "#71717a",
+    "count": 103
+   },
+   {
+    "hex": "#a1a1aa",
+    "count": 49
+   },
+   {
+    "hex": "#000000",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 2,
+  "textTotal": 4,
+  "bordersTotal": 0
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "400",
+    "lineHeight": "24.5px",
+    "letterSpacing": "normal",
+    "family": "EB Garamond-932f6a08df36ecaa",
+    "count": 35,
+    "tags": [
+     "p",
+     "li"
+    ],
+    "samples": [
+     "(Design, Development, Direction)"
+    ]
+   },
+   {
+    "size": "19px",
+    "px": 19.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "EB Garamond-932f6a08df36ecaa",
+    "count": 155,
+    "tags": [
+     "p",
+     "li",
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Code, Design, Curation"
+    ]
+   }
+  ],
+  "totalSteps": 5,
+  "families": [
+   "EB Garamond-932f6a08df36ecaa"
+  ],
+  "weights": [
+   "400",
+   "500"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 24
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 1
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 8
+   },
+   {
+    "value": "22px",
+    "px": 22.0,
+    "count": 1
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 50
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 1
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 1
+   },
+   {
+    "value": "34px",
+    "px": 34.0,
+    "count": 2
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 1
+   },
+   {
+    "value": "120px",
+    "px": 120.0,
+    "count": 1
+   },
+   {
+    "value": "144px",
+    "px": 144.0,
+    "count": 2
+   },
+   {
+    "value": "160px",
+    "px": 160.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "556.8px",
+    "count": 24
+   },
+   {
+    "value": "560px",
+    "count": 1
+   },
+   {
+    "value": "768px",
+    "count": 1
+   },
+   {
+    "value": "518.4px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "50%",
+    "px": 50,
+    "count": 3
+   }
+  ],
+  "shadows": [],
+  "zIndex": []
+ },
+ "components": {
+  "link": {
+   "label": "链接",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Not Absurd",
+      "tag": "a",
+      "height": 25,
+      "width": 90,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 250, 250)",
+      "border": "0px none rgb(250, 250, 250)",
+      "fontSize": "19.2px",
+      "fontWeight": "400",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "27.84px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s, text-decoration-color 0.16s",
+      "gap": "normal",
+      "contrast": 20.12
+     },
+     {
+      "text": "X",
+      "tag": "a",
+      "height": 28,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 170)",
+      "border": "0px none rgb(161, 161, 170)",
+      "fontSize": "19.2px",
+      "fontWeight": "400",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "27.84px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s, text-decoration-color 0.16s",
+      "gap": "normal",
+      "contrast": 8.19
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "MazeCode, Design, Curation",
+      "tag": "header",
+      "height": 54,
+      "width": 560,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 250, 250)",
+      "border": "0px none rgb(250, 250, 250)",
+      "fontSize": "19.2px",
+      "fontWeight": "400",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "27.84px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 20.12
+     }
+    ],
+    "sm": [
+     {
+      "text": "XLinkedInInstagramGitHub",
+      "tag": "nav",
+      "height": 28,
+      "width": 560,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 250, 250)",
+      "border": "0px none rgb(250, 250, 250)",
+      "fontSize": "19.2px",
+      "fontWeight": "400",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "27.84px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px 22px",
+      "contrast": 20.12
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Maze",
+      "tag": "h1",
+      "height": 26,
+      "width": 560,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 250, 250)",
+      "border": "0px none rgb(250, 250, 250)",
+      "fontSize": "21.6px",
+      "fontWeight": "500",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "25.92px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 20.12
+     },
+     {
+      "text": "Selected Works (25)",
+      "tag": "h2",
+      "height": 21,
+      "width": 560,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 170)",
+      "border": "0px none rgb(161, 161, 170)",
+      "fontSize": "14.72px",
+      "fontWeight": "400",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "21.344px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.19
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 2,
+    "xl": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Code, Design, Curation",
+      "tag": "p",
+      "height": 28,
+      "width": 560,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 170)",
+      "border": "0px none rgb(161, 161, 170)",
+      "fontSize": "19.2px",
+      "fontWeight": "400",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "27.84px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.19
+     },
+     {
+      "text": "(Design, Development, Directio",
+      "tag": "p",
+      "height": 24,
+      "width": 560,
+      "padding": "0px",
+      "margin": "3px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(113, 113, 122)",
+      "border": "0px none rgb(113, 113, 122)",
+      "fontSize": "16.896px",
+      "fontWeight": "400",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "24.4992px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.35
+     }
+    ],
+    "xl": [
+     {
+      "text": "An independent practice in des",
+      "tag": "p",
+      "height": 157,
+      "width": 560,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 250, 250)",
+      "border": "0px none rgb(250, 250, 250)",
+      "fontSize": "51.2px",
+      "fontWeight": "400",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "52.224px",
+      "letterSpacing": "-1.28px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 20.12
+     },
+     {
+      "text": "Creating independent digital p",
+      "tag": "p",
+      "height": 56,
+      "width": 518,
+      "padding": "0px",
+      "margin": "28px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 170)",
+      "border": "0px none rgb(161, 161, 170)",
+      "fontSize": "19.2px",
+      "fontWeight": "400",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "27.84px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.19
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Not Absurd•Founder2026Independ",
+      "tag": "ol",
+      "height": 3380,
+      "width": 560,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 250, 250)",
+      "border": "0px none rgb(250, 250, 250)",
+      "fontSize": "19.2px",
+      "fontWeight": "400",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "27.84px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "34px",
+      "contrast": 20.12
+     },
+     {
+      "text": "1,000,000+ combined audience28",
+      "tag": "ul",
+      "height": 51,
+      "width": 560,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 170)",
+      "border": "0px none rgb(161, 161, 170)",
+      "fontSize": "16.896px",
+      "fontWeight": "400",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "24.4992px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": 8.19
+     }
+    ],
+    "sm": [
+     {
+      "text": "Operating Philosophors, Observ",
+      "tag": "ul",
+      "height": 24,
+      "width": 560,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 170)",
+      "border": "0px none rgb(161, 161, 170)",
+      "fontSize": "16.896px",
+      "fontWeight": "400",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "24.4992px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": 8.19
+     }
+    ]
+   }
+  },
+  "divider": {
+   "label": "分割线",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "•",
+      "tag": "span",
+      "height": 25,
+      "width": 7,
+      "padding": "0px",
+      "margin": "0px 8.64px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(113, 113, 122)",
+      "border": "0px none rgb(113, 113, 122)",
+      "fontSize": "19.2px",
+      "fontWeight": "400",
+      "fontFamily": "EB Garamond-932f6a08df36ecaa",
+      "lineHeight": "27.84px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.35
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 4136,
+   "heading": "Maze",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "144px 0px 0px",
+   "children": 3
+  },
+  {
+   "tag": "header",
+   "height": 54,
+   "heading": "Maze",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 240,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 3434,
+   "heading": "Selected Works (25)",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "footer",
+   "height": 252,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "160px 0px 64px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 2.34,
+  "bodyContrastLevel": "fail",
+  "tapTargetMin": 25,
+  "tapTargetMedian": 28
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.16s",
+    "count": 56
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 56
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 28
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 28
+   }
+  ]
+ }
+}

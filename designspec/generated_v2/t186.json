@@ -1,0 +1,3152 @@
+{
+ "id": "t186",
+ "overview": {
+  "name": "Pin UI",
+  "url": "https://www.pinui.xyz/",
+  "section": "组件库",
+  "pagesScanned": [
+   "https://www.pinui.xyz/",
+   "https://www.pinui.xyz/components/liquid-voice",
+   "https://www.pinui.xyz/blocx",
+   "https://www.pinui.xyz/components"
+  ],
+  "subpages": [
+   "/components/liquid-voice",
+   "/blocx",
+   "/components"
+  ],
+  "sectionCount": 4,
+  "componentSamples": 234,
+  "typeSteps": 33
+ },
+ "colors": {
+  "roles": {
+   "foreground": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--mm-ink",
+    "source": "css-var",
+    "contrastOnBg": 1.0
+   },
+   "link": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--pin-link",
+    "source": "css-var",
+    "contrastOnBg": 1.0
+   },
+   "muted": {
+    "hex": "#9a9a9a",
+    "value": "#9a9a9a",
+    "token": "--peek-dim",
+    "source": "css-var",
+    "contrastOnBg": 2.81
+   },
+   "focus": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--pin-ring",
+    "source": "css-var",
+    "contrastOnBg": 1.0
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--pin-field-bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#000000",
+    "count": 46
+   },
+   {
+    "hex": "#e60024",
+    "count": 38
+   },
+   {
+    "hex": "#ffffff",
+    "count": 37
+   },
+   {
+    "hex": "#272727",
+    "count": 32
+   },
+   {
+    "hex": "#121319",
+    "count": 8
+   },
+   {
+    "hex": "#0b0b0c",
+    "count": 7
+   },
+   {
+    "hex": "#f4f4f4",
+    "count": 6
+   },
+   {
+    "hex": "#0d5bb5",
+    "count": 5
+   },
+   {
+    "hex": "#fbe9d2",
+    "count": 5
+   },
+   {
+    "hex": "#f2c300",
+    "count": 5
+   }
+  ],
+  "backgroundsTotal": 44,
+  "textTotal": 23,
+  "bordersTotal": 4
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "8px",
+    "px": 8.0,
+    "weight": "600",
+    "lineHeight": "9.5px",
+    "letterSpacing": "0.6496px",
+    "family": "Neue Montreal",
+    "count": 22,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "New"
+    ]
+   },
+   {
+    "size": "8.5px",
+    "px": 8.5,
+    "weight": "600",
+    "lineHeight": "8.5px",
+    "letterSpacing": "0.504px",
+    "family": "Neue Montreal",
+    "count": 14,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "New"
+    ]
+   },
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "600",
+    "lineHeight": "14px",
+    "letterSpacing": "1.39944px",
+    "family": "Neue Montreal",
+    "count": 4,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Inputs & controls"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "600",
+    "lineHeight": "14px",
+    "letterSpacing": "0.11px",
+    "family": "Neue Montreal",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "New"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "family": "Neue Montreal",
+    "count": 2,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Want to submit a design?? →"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Neue Montreal",
+    "count": 3,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Thoughtfully crafted UI components desig"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.14px",
+    "family": "Neue Montreal",
+    "count": 5,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "3"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "Neue Montreal",
+    "count": 21,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "@DristJakob"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "-0.135px",
+    "family": "Neue Montreal",
+    "count": 8,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "A headline floating in a field of party "
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "Arial",
+    "count": 2,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "Switch to the light theme"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "Neue Montreal",
+    "count": 174,
+    "tags": [
+     "button",
+     "span",
+     "a",
+     "li"
+    ],
+    "samples": [
+     "Switch to the light theme"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.07px",
+    "family": "Neue Montreal",
+    "count": 46,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Copy Paste PadNew"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.14px",
+    "family": "Neue Montreal",
+    "count": 5,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "Just added3"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.07px",
+    "family": "Neue Montreal",
+    "count": 2,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Liquid VoiceNew"
+    ]
+   },
+   {
+    "size": "14.5px",
+    "px": 14.5,
+    "weight": "400",
+    "lineHeight": "21.5px",
+    "letterSpacing": "normal",
+    "family": "Neue Montreal",
+    "count": 5,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "The newest three, straight off the board"
+    ]
+   },
+   {
+    "size": "14.5px",
+    "px": 14.5,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.147px",
+    "family": "Neue Montreal",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Home"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "500",
+    "lineHeight": "19.5px",
+    "letterSpacing": "-0.1498px",
+    "family": "Neue Montreal",
+    "count": 42,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Jakob"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "-0.3px",
+    "family": "Neue Montreal",
+    "count": 2,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "Explore Blocx"
+    ]
+   },
+   {
+    "size": "15.5px",
+    "px": 15.5,
+    "weight": "500",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "Neue Montreal",
+    "count": 5,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "3"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "20.5px",
+    "letterSpacing": "0.07875px",
+    "family": "Neue Montreal",
+    "count": 16,
+    "tags": [
+     "p",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "Pin UI © 2026Support: pinui.official@gma"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "-0.315px",
+    "family": "Neue Montreal",
+    "count": 4,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Home"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "Neue Montreal",
+    "count": 36,
+    "tags": [
+     "span",
+     "li",
+     "a"
+    ],
+    "samples": [
+     "Switch to the light themeBlocxswitch the"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.16002px",
+    "family": "Neue Montreal",
+    "count": 2,
+    "tags": [
+     "h1",
+     "a"
+    ],
+    "samples": [
+     "Components"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "600",
+    "lineHeight": "22px",
+    "letterSpacing": "-0.425px",
+    "family": "Neue Montreal",
+    "count": 8,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "iPartyLabs Hero"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "Neue Montreal",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Pin UI"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.10125px",
+    "family": "Neue Montreal",
+    "count": 8,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Home"
+    ]
+   },
+   {
+    "size": "20.5px",
+    "px": 20.5,
+    "weight": "500",
+    "lineHeight": "24.5px",
+    "letterSpacing": "-0.3654px",
+    "family": "Neue Montreal",
+    "count": 21,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "“Just want to say you’re doing amazing w"
+    ]
+   },
+   {
+    "size": "20.5px",
+    "px": 20.5,
+    "weight": "500",
+    "lineHeight": "20.5px",
+    "letterSpacing": "-0.406px",
+    "family": "Neue Montreal",
+    "count": 32,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Liquid VoiceNew"
+    ]
+   },
+   {
+    "size": "28px",
+    "px": 28.0,
+    "weight": "500",
+    "lineHeight": "34px",
+    "letterSpacing": "-1.12px",
+    "family": "Neue Montreal",
+    "count": 4,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Hero Section:"
+    ]
+   },
+   {
+    "size": "28px",
+    "px": 28.0,
+    "weight": "500",
+    "lineHeight": "31px",
+    "letterSpacing": "-0.84px",
+    "family": "Neue Montreal",
+    "count": 5,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Just added3"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "500",
+    "lineHeight": "36px",
+    "letterSpacing": "-0.72px",
+    "family": "Neue Montreal",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Blocx"
+    ]
+   },
+   {
+    "size": "40.5px",
+    "px": 40.5,
+    "weight": "500",
+    "lineHeight": "40.5px",
+    "letterSpacing": "-0.81px",
+    "family": "Neue Montreal",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Pin UI"
+    ]
+   },
+   {
+    "size": "58.5px",
+    "px": 58.5,
+    "weight": "500",
+    "lineHeight": "58.5px",
+    "letterSpacing": "-1.1655px",
+    "family": "Neue Montreal",
+    "count": 5,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "We turn  static designsinto reusable com"
+    ]
+   }
+  ],
+  "totalSteps": 57,
+  "families": [
+   "Arial",
+   "Caveat",
+   "Neue Montreal"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 65
+   },
+   {
+    "value": "4.5px",
+    "px": 4.5,
+    "count": 44
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 16
+   },
+   {
+    "value": "5.5px",
+    "px": 5.5,
+    "count": 7
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 4
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 76
+   },
+   {
+    "value": "7.5px",
+    "px": 7.5,
+    "count": 23
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 37
+   },
+   {
+    "value": "8.5px",
+    "px": 8.5,
+    "count": 16
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 16
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 5
+   },
+   {
+    "value": "10.5px",
+    "px": 10.5,
+    "count": 63
+   },
+   {
+    "value": "11px",
+    "px": 11.0,
+    "count": 42
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 22
+   },
+   {
+    "value": "12.5px",
+    "px": 12.5,
+    "count": 3
+   },
+   {
+    "value": "13.5px",
+    "px": 13.5,
+    "count": 10
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1166px",
+    "count": 3
+   },
+   {
+    "value": "1288px",
+    "count": 1
+   },
+   {
+    "value": "571.2px",
+    "count": 1
+   },
+   {
+    "value": "441px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 3
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 8
+   },
+   {
+    "value": "12.25px",
+    "px": 12.25,
+    "count": 33
+   },
+   {
+    "value": "15.75px",
+    "px": 15.75,
+    "count": 1
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 8
+   },
+   {
+    "value": "20.006px",
+    "px": 20.006,
+    "count": 1
+   },
+   {
+    "value": "21px",
+    "px": 21.0,
+    "count": 48
+   },
+   {
+    "value": "26.6667px",
+    "px": 26.6667,
+    "count": 2
+   },
+   {
+    "value": "20% 0px",
+    "px": 50,
+    "count": 4
+   },
+   {
+    "value": "50%",
+    "px": 50,
+    "count": 2
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 1px inset",
+    "count": 21
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 1px 2px 0px",
+    "count": 8
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.45) 0px 10px 22px -14px",
+    "count": 3
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.09) 0px 0px 0px 1px, rgba(0, 0, 0, 0.9) 0px 28px 56px -30px, rgba(0, 0, 0, 0.4) 0px 2px 6px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.09) 0px 0px 0px 1px",
+    "count": 1
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.18) 0px 0px 0px 1.26px inset, rgb(88, 95, 232) 0px 0px 6.3px 0.7px",
+    "count": 1
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.14) 0px 0px 0px 1px, rgba(0, 0, 0, 0.14) 0px 4.9px 12.6px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 1px 0px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 7
+   },
+   {
+    "value": "2",
+    "count": 4
+   },
+   {
+    "value": "3",
+    "count": 3
+   },
+   {
+    "value": "0",
+    "count": 2
+   },
+   {
+    "value": "-1",
+    "count": 1
+   },
+   {
+    "value": "2147482000",
+    "count": 1
+   },
+   {
+    "value": "20",
+    "count": 1
+   },
+   {
+    "value": "10",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 13,
+   "sizeBuckets": {
+    "lg": 4,
+    "xl": 2,
+    "md": 7
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Switch to the light theme",
+      "tag": "button",
+      "height": 39,
+      "width": 33,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Explore Blocx",
+      "tag": "button",
+      "height": 44,
+      "width": 254,
+      "padding": "0px 18px",
+      "margin": "0px",
+      "radius": "12px 0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(230, 0, 36)",
+      "border": "0px none rgb(230, 0, 36)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.3px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s, scale 0.2s",
+      "gap": "8px",
+      "contrast": 4.78
+     },
+     {
+      "text": "Maybe later",
+      "tag": "button",
+      "height": 44,
+      "width": 114,
+      "padding": "0px 18px",
+      "margin": "0px",
+      "radius": "12px 0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(245, 245, 245, 0.66)",
+      "border": "0px none rgba(245, 245, 245, 0.66)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.3px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s, color 0.2s",
+      "gap": "8px",
+      "contrast": 19.26
+     },
+     {
+      "text": "Switch to the light theme",
+      "tag": "button",
+      "height": 37,
+      "width": 31,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "Press the enter key",
+      "tag": "button",
+      "height": 280,
+      "width": 677,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "26.6667px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Start recording",
+      "tag": "button",
+      "height": 46,
+      "width": 46,
+      "padding": "0px",
+      "margin": "-23px 0px 0px -23px",
+      "radius": "999px",
+      "background": "rgb(238, 244, 255)",
+      "color": "rgb(7, 16, 31)",
+      "border": "0px none rgb(7, 16, 31)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.4s, color 0.4s",
+      "gap": "normal",
+      "contrast": 17.24
+     }
+    ],
+    "md": [
+     {
+      "text": "Close",
+      "tag": "button",
+      "height": 30,
+      "width": 30,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(15, 16, 20, 0.82)",
+      "color": "rgb(245, 245, 245)",
+      "border": "0px none rgb(245, 245, 245)",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.09) 0px 0px 0px 1px",
+      "transition": "scale 0.2s, background-color 0.2s",
+      "gap": "normal",
+      "contrast": 17.44
+     },
+     {
+      "text": "Collapse the component list",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "2.002px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "border": "0px none rgb(170, 170, 170)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.04
+     },
+     {
+      "text": "Read about this component",
+      "tag": "button",
+      "height": 34,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(229, 229, 229)",
+      "border": "0px none rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s, color 0.25s",
+      "gap": "normal",
+      "contrast": 16.67
+     },
+     {
+      "text": "Switch to the light theme",
+      "tag": "button",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "20% 0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(230, 0, 36)",
+      "border": "0px none rgb(230, 0, 36)",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.39
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 26,
+   "sizeBuckets": {
+    "sm": 13,
+    "md": 6,
+    "xl": 7
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Home",
+      "tag": "a",
+      "height": 20,
+      "width": 41,
+      "padding": "0px 0px 3.9375px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "15.75px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "15.75px",
+      "letterSpacing": "-0.315px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), background-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), border-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Want to submit a design?? →",
+      "tag": "a",
+      "height": 12,
+      "width": 158,
+      "padding": "0px",
+      "margin": "0px 0px 12.25px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.8)",
+      "border": "0px none rgba(255, 255, 255, 0.8)",
+      "fontSize": "12.25px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "12.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), text-underline-offset 0.25s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "View all testimonials",
+      "tag": "a",
+      "height": 20,
+      "width": 157,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(230, 0, 36)",
+      "border": "0px none rgb(230, 0, 36)",
+      "fontSize": "14.98px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.1498px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "text-decoration-color 0.25s",
+      "gap": "4.494px",
+      "contrast": 4.39
+     },
+     {
+      "text": "Jakob on X (opens in a new tab",
+      "tag": "a",
+      "height": 28,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "23",
+      "tag": "a",
+      "height": 35,
+      "width": 35,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(15, 15, 15)",
+      "border": "0px none rgb(15, 15, 15)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "width 0.62s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 19.17
+     },
+     {
+      "text": "Pin UI",
+      "tag": "a",
+      "height": 35,
+      "width": 72,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "29.554px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "34.8737px",
+      "letterSpacing": "-0.59108px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Copy Paste PadNew",
+      "tag": "a",
+      "height": 34,
+      "width": 302,
+      "padding": "7px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "border": "0px none rgb(170, 170, 170)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "20.006px",
+      "letterSpacing": "-0.07px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s",
+      "gap": "normal",
+      "contrast": 9.04
+     },
+     {
+      "text": "Liquid VoiceNew",
+      "tag": "a",
+      "height": 34,
+      "width": 302,
+      "padding": "7px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "20.006px",
+      "letterSpacing": "-0.07px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "Pin UI on Pinterest — the boar",
+      "tag": "a",
+      "height": 72,
+      "width": 75,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "58.275px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "58.275px",
+      "letterSpacing": "-1.1655px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.6
+     },
+     {
+      "text": "Browse Components",
+      "tag": "a",
+      "height": 58,
+      "width": 212,
+      "padding": "0px",
+      "margin": "29.75px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.6
+     },
+     {
+      "text": "Liquid VoiceNew",
+      "tag": "a",
+      "height": 310,
+      "width": 439,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "12.25px",
+      "background": "rgb(39, 39, 39)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), background-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), border-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1)",
+      "gap": "0px",
+      "contrast": 14.94
+     },
+     {
+      "text": "View allView all components",
+      "tag": "a",
+      "height": 310,
+      "width": 439,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "12.25px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 86,
+   "sizeBuckets": {
+    "xl": 78,
+    "sm": 8
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Switch to the light themePin U",
+      "tag": "div",
+      "height": 3052,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 19.6
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 198,
+      "width": 336,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "21px",
+      "background": "rgb(237, 234, 228)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.12
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 198,
+      "width": 336,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "21px",
+      "background": "rgb(11, 11, 11)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.37
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 198,
+      "width": 336,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "21px",
+      "background": "rgb(241, 241, 241)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.05
+     }
+    ],
+    "sm": [
+     {
+      "text": "Liquid VoiceNew",
+      "tag": "span",
+      "height": 20,
+      "width": 140,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "20.3px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "20.3px",
+      "letterSpacing": "-0.406px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "New",
+      "tag": "span",
+      "height": 14,
+      "width": 29,
+      "padding": "2.2736px 4.06px 1.9488px",
+      "margin": "0px 0px 0px 4.06px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(39, 39, 39)",
+      "border": "0px none rgb(39, 39, 39)",
+      "fontSize": "8.12px",
+      "fontWeight": "600",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "9.744px",
+      "letterSpacing": "0.6496px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "background-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 14.94
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.4s cubic-bezier(0.22, 0.68, 0.16, 1)",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "iPartyLabs HeroNew",
+      "tag": "span",
+      "height": 22,
+      "width": 331,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 19.6
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 32,
+   "sizeBuckets": {
+    "lg": 3,
+    "sm": 11,
+    "xl": 12,
+    "md": 6
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Switch to the light themePin U",
+      "tag": "header",
+      "height": 39,
+      "width": 1361,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "17.5px",
+      "contrast": 19.6
+     },
+     {
+      "text": "Switch to the light themePin U",
+      "tag": "div",
+      "height": 37,
+      "width": 322,
+      "padding": "0px 39.998px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.3s, transform 0.46s cubic-bezier(0.22, 0.68, 0.16, 1)",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 40,
+      "width": 322,
+      "padding": "8.4px 39.998px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.3s",
+      "gap": "8.4px",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "HomeComponentsBlocxTestimonial",
+      "tag": "nav",
+      "height": 20,
+      "width": 306,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "17.5px",
+      "contrast": 19.6
+     },
+     {
+      "text": "Home",
+      "tag": "a",
+      "height": 20,
+      "width": 41,
+      "padding": "0px 0px 3.9375px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "15.75px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "15.75px",
+      "letterSpacing": "-0.315px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), background-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), border-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "HomeComponentsBlocxTestimonial",
+      "tag": "nav",
+      "height": 20,
+      "width": 403,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "22.5px",
+      "contrast": 21
+     },
+     {
+      "text": "Home",
+      "tag": "a",
+      "height": 20,
+      "width": 54,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "20.25px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "20.25px",
+      "letterSpacing": "-0.10125px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "Switch to the light themePin U",
+      "tag": "nav",
+      "height": 813,
+      "width": 362,
+      "padding": "53.998px 0px 19.6px 39.998px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "width 0.46s cubic-bezier(0.22, 0.68, 0.16, 1), padding 0.46s cubic-bezier(0.22, 0.68, 0.16, 1)",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Inputs & controlsCopy Paste Pa",
+      "tag": "div",
+      "height": 596,
+      "width": 322,
+      "padding": "0px 0px 8.4px",
+      "margin": "9.996px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.3s, transform 0.46s cubic-bezier(0.22, 0.68, 0.16, 1), --wbnav-fade-top 0.3s, --wbnav-fade-end 0.3s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Inputs & controlsCopy Paste Pa",
+      "tag": "section",
+      "height": 298,
+      "width": 322,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Copy Paste PadNewProgress Imag",
+      "tag": "ul",
+      "height": 272,
+      "width": 322,
+      "padding": "0px 0px 0px 20.006px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "Pin UI",
+      "tag": "a",
+      "height": 35,
+      "width": 72,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "29.554px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "34.8737px",
+      "letterSpacing": "-0.59108px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Collapse the component list",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "2.002px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "border": "0px none rgb(170, 170, 170)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.04
+     },
+     {
+      "text": "Copy Paste PadNew",
+      "tag": "li",
+      "height": 34,
+      "width": 302,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Copy Paste PadNew",
+      "tag": "a",
+      "height": 34,
+      "width": 302,
+      "padding": "7px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "border": "0px none rgb(170, 170, 170)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "20.006px",
+      "letterSpacing": "-0.07px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s",
+      "gap": "normal",
+      "contrast": 9.04
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 13,
+   "sizeBuckets": {
+    "xl": 6,
+    "sm": 3,
+    "md": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 196,
+      "width": 404,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "15px 0px",
+      "background": "rgb(21, 23, 29)",
+      "color": "rgb(245, 245, 245)",
+      "border": "0px none rgb(245, 245, 245)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 16.43
+     },
+     {
+      "text": "Liquid Voice — Pin UI Componen",
+      "tag": "main",
+      "height": 813,
+      "width": 1078,
+      "padding": "18.004px 18.004px 18.004px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "width 0.46s cubic-bezier(0.22, 0.68, 0.16, 1), padding 0.46s cubic-bezier(0.22, 0.68, 0.16, 1)",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Ready to record",
+      "tag": "div",
+      "height": 777,
+      "width": 1060,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "20.006px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgb(170, 170, 170)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "height 0.5s cubic-bezier(0.22, 0.68, 0.16, 1)",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 775,
+      "width": 1058,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(6, 11, 28)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 19.58
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "5px 0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(230, 0, 36)",
+      "border": "0px none rgb(230, 0, 36)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.28px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.78
+     },
+     {
+      "text": "3",
+      "tag": "span",
+      "height": 16,
+      "width": 7,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "11.9px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "4",
+      "tag": "span",
+      "height": 16,
+      "width": 7,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.75)",
+      "border": "0px none rgba(255, 255, 255, 0.75)",
+      "fontSize": "11.9px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "Switch to the light theme",
+      "tag": "button",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "20% 0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(230, 0, 36)",
+      "border": "0px none rgb(230, 0, 36)",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.39
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "20% 0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(230, 0, 36)",
+      "border": "0px none rgb(230, 0, 36)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.39
+     },
+     {
+      "text": "Just added3",
+      "tag": "button",
+      "height": 36,
+      "width": 112,
+      "padding": "0px 13.3px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "1px solid rgba(255, 255, 255, 0.14)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.25s, border-color 0.25s, color 0.25s",
+      "gap": "8.4px",
+      "contrast": 19.6
+     },
+     {
+      "text": "Lists & pickers4",
+      "tag": "button",
+      "height": 36,
+      "width": 133,
+      "padding": "0px 13.3px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(230, 0, 36)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgb(230, 0, 36)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.25s, border-color 0.25s, color 0.25s",
+      "gap": "8.4px",
+      "contrast": 4.78
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 9,
+   "sizeBuckets": {
+    "xl": 3,
+    "lg": 1,
+    "sm": 3,
+    "md": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "We turn  static designsinto re",
+      "tag": "h1",
+      "height": 118,
+      "width": 662,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "58.275px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "58.275px",
+      "letterSpacing": "-1.1655px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), background-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), border-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 19.6
+     },
+     {
+      "text": "What people are saying?",
+      "tag": "h2",
+      "height": 53,
+      "width": 1397,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "49px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "52.92px",
+      "letterSpacing": "-1.225px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 19.6
+     },
+     {
+      "text": "All components24",
+      "tag": "h1",
+      "height": 74,
+      "width": 1221,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "72.8px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "69.16px",
+      "letterSpacing": "-3.276px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 19.6
+     }
+    ],
+    "lg": [
+     {
+      "text": "Components worth building with",
+      "tag": "h2",
+      "height": 39,
+      "width": 1397,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "38.5px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "38.5px",
+      "letterSpacing": "-0.77px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), background-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), border-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 19.6
+     }
+    ],
+    "sm": [
+     {
+      "text": "Whole sections, ready to drop ",
+      "tag": "h2",
+      "height": 27,
+      "width": 376,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(245, 245, 245)",
+      "border": "0px none rgb(245, 245, 245)",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "26.88px",
+      "letterSpacing": "-0.84px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.26
+     },
+     {
+      "text": "Components",
+      "tag": "h1",
+      "height": 20,
+      "width": 322,
+      "padding": "0px",
+      "margin": "36.0045px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16.002px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "20.0025px",
+      "letterSpacing": "-0.16002px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.3s, transform 0.46s cubic-bezier(0.22, 0.68, 0.16, 1)",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Inputs & controls",
+      "tag": "h2",
+      "height": 26,
+      "width": 322,
+      "padding": "8.9964px 0px 3.4986px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "border": "0px none rgb(170, 170, 170)",
+      "fontSize": "9.996px",
+      "fontWeight": "600",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "13.9944px",
+      "letterSpacing": "1.39944px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.04
+     }
+    ],
+    "md": [
+     {
+      "text": "Hero Section:",
+      "tag": "h2",
+      "height": 34,
+      "width": 1118,
+      "padding": "0px",
+      "margin": "0px 0px 6px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "28px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "34px",
+      "letterSpacing": "-1.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.6
+     },
+     {
+      "text": "Just added3",
+      "tag": "h2",
+      "height": 33,
+      "width": 147,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "28px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "30.8px",
+      "letterSpacing": "-0.84px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 19.6
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 13,
+   "sizeBuckets": {
+    "sm": 6,
+    "xl": 7
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Thoughtfully crafted UI compon",
+      "tag": "p",
+      "height": 16,
+      "width": 1397,
+      "padding": "0px",
+      "margin": "15.8025px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.72)",
+      "border": "0px none rgba(255, 255, 255, 0.72)",
+      "fontSize": "12.25px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "15.925px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), background-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1), border-color 0.52s cubic-bezier(0.22, 0.75, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Pin UI © 2026Support: pinui.of",
+      "tag": "p",
+      "height": 20,
+      "width": 363,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(247, 247, 247, 0.8)",
+      "border": "0px none rgba(247, 247, 247, 0.8)",
+      "fontSize": "15.75px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "20.475px",
+      "letterSpacing": "0.07875px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "3.9375px 27.5625px",
+      "contrast": 19.6
+     },
+     {
+      "text": "BlocxNew",
+      "tag": "p",
+      "height": 20,
+      "width": 376,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(245, 245, 245)",
+      "border": "0px none rgb(245, 245, 245)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.28px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "7px",
+      "contrast": 19.26
+     },
+     {
+      "text": "Facing an issue?? DM-",
+      "tag": "p",
+      "height": 22,
+      "width": 189,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "“Just want to say you’re doing",
+      "tag": "p",
+      "height": 191,
+      "width": 336,
+      "padding": "4.06px 11.165px 16.24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "20.3px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "24.36px",
+      "letterSpacing": "-0.3654px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "“clean component library with ",
+      "tag": "p",
+      "height": 142,
+      "width": 336,
+      "padding": "4.06px 11.165px 16.24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "20.3px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "24.36px",
+      "letterSpacing": "-0.3654px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "“Soo good UIs, crafted so prem",
+      "tag": "p",
+      "height": 69,
+      "width": 336,
+      "padding": "4.06px 11.165px 16.24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "20.3px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "24.36px",
+      "letterSpacing": "-0.3654px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "“looks amazing! well done!”",
+      "tag": "p",
+      "height": 45,
+      "width": 336,
+      "padding": "4.06px 11.165px 16.24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "20.3px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "24.36px",
+      "letterSpacing": "-0.3654px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 11,
+   "sizeBuckets": {
+    "xl": 11
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Liquid VoiceNewFile BoxNewCopy",
+      "tag": "ul",
+      "height": 637,
+      "width": 1397,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "17.5px 40.25px",
+      "contrast": 19.6
+     },
+     {
+      "text": "Jakob@DristJakob“Just want to ",
+      "tag": "ul",
+      "height": 259,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 247, 247)",
+      "border": "0px none rgb(247, 247, 247)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "5.6px",
+      "contrast": 19.6
+     },
+     {
+      "text": "Copy Paste PadNewProgress Imag",
+      "tag": "ul",
+      "height": 272,
+      "width": 322,
+      "padding": "0px 0px 0px 20.006px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "File BoxNewTask CardNewMagnify",
+      "tag": "ul",
+      "height": 340,
+      "width": 322,
+      "padding": "0px 0px 0px 20.006px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "modal": {
+   "label": "对话框",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "BlocxNewWhole sections, ready ",
+      "tag": "div",
+      "height": 434,
+      "width": 420,
+      "padding": "8px",
+      "margin": "0px",
+      "radius": "22px 0px",
+      "background": "rgb(15, 16, 20)",
+      "color": "rgb(245, 245, 245)",
+      "border": "0px none rgb(245, 245, 245)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.09) 0px 0px 0px 1px, rgba(0, 0, 0, 0.9) 0px 28px 56px -30px, rgba(0, 0, 0, 0.4) 0px 2px 6px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 17.44
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 30,
+   "sizeBuckets": {
+    "lg": 2,
+    "md": 4,
+    "sm": 22,
+    "xl": 2
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 39,
+      "width": 33,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "0px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 37,
+      "width": 31,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "0px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 35,
+      "width": 35,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 15, 15)",
+      "border": "0px none rgb(15, 15, 15)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "border": "0px none rgb(170, 170, 170)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.04
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(230, 0, 36)",
+      "border": "0px none rgb(230, 0, 36)",
+      "fontSize": "14.4px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.39
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 29,
+      "width": 25,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "0px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 15, 15)",
+      "border": "0px none rgb(15, 15, 15)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(230, 0, 36)",
+      "border": "0px none rgb(230, 0, 36)",
+      "fontSize": "14.98px",
+      "fontWeight": "500",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "-0.1498px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.35s cubic-bezier(0.22, 1, 0.36, 1)",
+      "gap": "normal",
+      "contrast": 4.39
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 15,
+      "width": 15,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 92,
+      "width": 91,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 51,
+      "width": 43,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Neue Montreal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 813,
+   "heading": "We turn  static designsinto reusable components",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "21.312px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 966,
+   "heading": "Components worth building with",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "112px 21.312px 84px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 499,
+   "heading": "What people are saying?",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 21.312px 112px",
+   "children": 3
+  },
+  {
+   "tag": "footer",
+   "height": 774,
+   "heading": null,
+   "background": "rgb(223, 2, 34)",
+   "padding": "0px",
+   "children": 3
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 1.0,
+  "bodyContrastLevel": "fail",
+  "tapTargetMin": 12,
+  "tapTargetMedian": 35
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.52s",
+    "count": 162
+   },
+   {
+    "value": "0.2s",
+    "count": 32
+   },
+   {
+    "value": "0.55s",
+    "count": 21
+   },
+   {
+    "value": "0.5s",
+    "count": 5
+   },
+   {
+    "value": "0.4s",
+    "count": 5
+   },
+   {
+    "value": "0.25s",
+    "count": 4
+   },
+   {
+    "value": "0.62s",
+    "count": 3
+   },
+   {
+    "value": "0.434s",
+    "count": 2
+   },
+   {
+    "value": "0.35s",
+    "count": 2
+   },
+   {
+    "value": "0.3s",
+    "count": 1
+   },
+   {
+    "value": "0.32s",
+    "count": 1
+   },
+   {
+    "value": "0.05s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.22, 0.75, 0.2, 1)",
+    "count": 162
+   },
+   {
+    "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "count": 28
+   },
+   {
+    "value": "cubic-bezier(0.22, 0.68, 0.16, 1)",
+    "count": 14
+   },
+   {
+    "value": "ease",
+    "count": 7
+   },
+   {
+    "value": "linear",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "background-color",
+    "count": 53
+   },
+   {
+    "value": "color",
+    "count": 52
+   },
+   {
+    "value": "opacity",
+    "count": 25
+   },
+   {
+    "value": "box-shadow",
+    "count": 21
+   },
+   {
+    "value": "grid-template-rows",
+    "count": 21
+   },
+   {
+    "value": "fill",
+    "count": 17
+   },
+   {
+    "value": "border-color",
+    "count": 16
+   },
+   {
+    "value": "transform",
+    "count": 16
+   },
+   {
+    "value": "stroke",
+    "count": 12
+   },
+   {
+    "value": "scale",
+    "count": 2
+   }
+  ]
+ }
+}

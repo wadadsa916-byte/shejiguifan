@@ -1,0 +1,4389 @@
+{
+ "id": "t223",
+ "overview": {
+  "name": "Ghostex",
+  "url": "https://ghostex.dev/",
+  "section": "智能体与 MCP",
+  "pagesScanned": [
+   "https://ghostex.dev/",
+   "https://ghostex.dev/docs",
+   "https://ghostex.dev/privacy-policy",
+   "https://ghostex.dev/terms-and-conditions"
+  ],
+  "subpages": [
+   "/docs",
+   "/privacy-policy",
+   "/terms-and-conditions"
+  ],
+  "sectionCount": 39,
+  "componentSamples": 462,
+  "typeSteps": 40
+ },
+ "colors": {
+  "roles": {
+   "border": {
+    "hex": "#d9e1ef",
+    "value": "#d9e1ef",
+    "token": "--line",
+    "source": "css-var",
+    "contrastOnBg": 1.27
+   },
+   "primary": {
+    "hex": "#061c74",
+    "value": "#061c74",
+    "token": "--accent",
+    "source": "css-var",
+    "contrastOnBg": 14.19
+   },
+   "foreground": {
+    "hex": "#071129",
+    "value": "#071129",
+    "token": "--ink",
+    "source": "css-var",
+    "contrastOnBg": 18.05
+   },
+   "background": {
+    "hex": "#f8fbff",
+    "value": "#f8fbff",
+    "token": "--bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 49
+   },
+   {
+    "hex": "#0e1422",
+    "count": 30
+   },
+   {
+    "hex": "#2858b8",
+    "count": 22
+   },
+   {
+    "hex": "#e9a50c",
+    "count": 12
+   },
+   {
+    "hex": "#2aa4d8",
+    "count": 9
+   },
+   {
+    "hex": "#0a0a0a",
+    "count": 8
+   },
+   {
+    "hex": "#f4f6fb",
+    "count": 7
+   },
+   {
+    "hex": "#101626",
+    "count": 6
+   },
+   {
+    "hex": "#1f9d6b",
+    "count": 6
+   },
+   {
+    "hex": "#d08a00",
+    "count": 5
+   }
+  ],
+  "backgroundsTotal": 45,
+  "textTotal": 38,
+  "bordersTotal": 19
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "8px",
+    "px": 8.0,
+    "weight": "600",
+    "lineHeight": "10.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 9,
+    "tags": [
+     "em"
+    ],
+    "samples": [
+     "Bug"
+    ]
+   },
+   {
+    "size": "9.5px",
+    "px": 9.5,
+    "weight": "400",
+    "lineHeight": "12.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 9,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Cart empties after sign-in"
+    ]
+   },
+   {
+    "size": "9.5px",
+    "px": 9.5,
+    "weight": "400",
+    "lineHeight": "13.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 6,
+    "tags": [
+     "span",
+     "em"
+    ],
+    "samples": [
+     "10"
+    ]
+   },
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "4"
+    ]
+   },
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "700",
+    "lineHeight": "14.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "A"
+    ]
+   },
+   {
+    "size": "10.5px",
+    "px": 10.5,
+    "weight": "400",
+    "lineHeight": "14.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 35,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "1h"
+    ]
+   },
+   {
+    "size": "10.5px",
+    "px": 10.5,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 4,
+    "tags": [
+     "em"
+    ],
+    "samples": [
+     "\"./ProductCard\""
+    ]
+   },
+   {
+    "size": "10.5px",
+    "px": 10.5,
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 3,
+    "tags": [
+     "li"
+    ],
+    "samples": [
+     "docs"
+    ]
+   },
+   {
+    "size": "10.5px",
+    "px": 10.5,
+    "weight": "500",
+    "lineHeight": "15px",
+    "letterSpacing": "0.63px",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Parked1"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 30,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "you@••••.•••"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "15.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 16,
+    "tags": [
+     "em",
+     "span"
+    ],
+    "samples": [
+     "+1926 −1211"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "10:32 AM"
+    ]
+   },
+   {
+    "size": "11.5px",
+    "px": 11.5,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 46,
+    "tags": [
+     "span",
+     "em",
+     "p"
+    ],
+    "samples": [
+     "Local 1"
+    ]
+   },
+   {
+    "size": "11.5px",
+    "px": 11.5,
+    "weight": "400",
+    "lineHeight": "16.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 13,
+    "tags": [
+     "span",
+     "em",
+     "button"
+    ],
+    "samples": [
+     "+214 −37"
+    ]
+   },
+   {
+    "size": "11.5px",
+    "px": 11.5,
+    "weight": "400",
+    "lineHeight": "18.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 11,
+    "tags": [
+     "small",
+     "span",
+     "em",
+     "button"
+    ],
+    "samples": [
+     "6 tool calls"
+    ]
+   },
+   {
+    "size": "11.5px",
+    "px": 11.5,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 4,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Press Enter to send a message and Tab to"
+    ]
+   },
+   {
+    "size": "11.5px",
+    "px": 11.5,
+    "weight": "600",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Kanban"
+    ]
+   },
+   {
+    "size": "11.5px",
+    "px": 11.5,
+    "weight": "600",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 3,
+    "tags": [
+     "em"
+    ],
+    "samples": [
+     "bug"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 42,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Release checklist"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "17.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 15,
+    "tags": [
+     "span",
+     "button"
+    ],
+    "samples": [
+     "2m"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "17.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "Local"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 18,
+    "tags": [
+     "p",
+     "li"
+    ],
+    "samples": [
+     "The cart lived in a cookie that sign-in "
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 9,
+    "tags": [
+     "p",
+     "li",
+     "span"
+    ],
+    "samples": [
+     "Why is my regex so slow?"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 6,
+    "tags": [
+     "button",
+     "span",
+     "small"
+    ],
+    "samples": [
+     "Commands ⌘⇧P"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 5,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Claude Code v2.1.284"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 3,
+    "tags": [
+     "pre",
+     "em"
+    ],
+    "samples": [
+     "import { cart } from \"./cart\";\n\nexport f"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "500",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 5,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "Start"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "600",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 6,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "checkout.tsx · VS Code"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "700",
+    "lineHeight": "17.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 5,
+    "tags": [
+     "span",
+     "strong"
+    ],
+    "samples": [
+     "Ghostex"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 19,
+    "tags": [
+     "span",
+     "button"
+    ],
+    "samples": [
+     "2"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 5,
+    "tags": [
+     "p",
+     "span"
+    ],
+    "samples": [
+     "Fresh picks for spring"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Lisbonfrom $89 a night"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "400",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 7,
+    "tags": [
+     "p",
+     "li",
+     "button"
+    ],
+    "samples": [
+     "Done. The summary and the payment form n"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 5,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Checkout cleanup bug"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "acme-web/Checkout page redesign"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 5,
+    "tags": [
+     "em"
+    ],
+    "samples": [
+     "calm"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "560",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "acme-web"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 8,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "Type a message, then Enter"
+    ]
+   },
+   {
+    "size": "14.5px",
+    "px": 14.5,
+    "weight": "400",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 19,
+    "tags": [
+     "span",
+     "p",
+     "a"
+    ],
+    "samples": [
+     "macOS"
+    ]
+   },
+   {
+    "size": "14.5px",
+    "px": 14.5,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Easy ConnectScan with the Ghostex app. N"
+    ]
+   }
+  ],
+  "totalSteps": 91,
+  "families": [
+   "DM Sans-ec9e91e22f9ea51a",
+   "Geist",
+   "Geist Mono",
+   "Inter",
+   "Manrope-85be4131c384d649"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "560",
+   "600",
+   "700",
+   "800",
+   "850"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 105
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 103
+   },
+   {
+    "value": "5.5px",
+    "px": 5.5,
+    "count": 12
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 379
+   },
+   {
+    "value": "6.5px",
+    "px": 6.5,
+    "count": 18
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 124
+   },
+   {
+    "value": "7.5px",
+    "px": 7.5,
+    "count": 4
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 521
+   },
+   {
+    "value": "8.5px",
+    "px": 8.5,
+    "count": 12
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 145
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 345
+   },
+   {
+    "value": "11px",
+    "px": 11.0,
+    "count": 53
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 224
+   },
+   {
+    "value": "13px",
+    "px": 13.0,
+    "count": 28
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 121
+   },
+   {
+    "value": "14.5px",
+    "px": 14.5,
+    "count": 31
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1100px",
+    "count": 6
+   },
+   {
+    "value": "980px",
+    "count": 4
+   },
+   {
+    "value": "672px",
+    "count": 3
+   },
+   {
+    "value": "720px",
+    "count": 2
+   },
+   {
+    "value": "1080px",
+    "count": 2
+   },
+   {
+    "value": "860px",
+    "count": 2
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "1px",
+    "px": 1.0,
+    "count": 24
+   },
+   {
+    "value": "2.448px",
+    "px": 2.448,
+    "count": 9
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 18
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 12
+   },
+   {
+    "value": "5.76px",
+    "px": 5.76,
+    "count": 9
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 38
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 129
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 69
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 18
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 59
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgb(255, 255, 255) 1.5px 1.5px 0px 0px inset, rgba(118, 146, 226, 0.3) -1px -1px 0px 0px inset, rgba(255, 150, 205, 0.3) 3px 3px 3px -2px inset, rgba(110, 185, 255, 0.45) -3px -3px 3px -2px inset, rgba(24, 40, 96, 0.22) 0px 10px 24px -10px, rgba(24, 40, 96, 0.14) 0px 24px 50px -24px",
+    "count": 31
+   },
+   {
+    "value": "rgba(16, 22, 38, 0.11) 0px 0px 0px 1px inset",
+    "count": 24
+   },
+   {
+    "value": "rgb(255, 255, 255) 1.5px 1.5px 0px 0px inset, rgba(118, 146, 226, 0.3) -1px -1px 0px 0px inset, rgba(255, 150, 205, 0.3) 3px 3px 3px -2px inset, rgba(110, 185, 255, 0.45) -3px -3px 3px -2px inset, rgba(24, 40, 96, 0.2) 0px 26px 50px -16px, rgba(24, 40, 96, 0.12) 0px 60px 110px -30px",
+    "count": 13
+   },
+   {
+    "value": "rgba(16, 22, 38, 0.075) 0px 0px 0px 1px inset, rgba(24, 40, 96, 0.05) 0px 1px 2px 0px, rgba(24, 40, 96, 0.2) 0px 6px 18px -10px",
+    "count": 11
+   },
+   {
+    "value": "rgba(14, 20, 34, 0.07) 0px 0px 0px 1px, rgba(24, 40, 96, 0.3) 0px 2.88px 7.68px -3.84px",
+    "count": 9
+   },
+   {
+    "value": "rgba(16, 22, 38, 0.075) 0px 0px 0px 1px inset",
+    "count": 8
+   },
+   {
+    "value": "rgba(14, 20, 34, 0.06) 0px 0px 0px 1px",
+    "count": 7
+   },
+   {
+    "value": "rgba(14, 20, 34, 0.07) 0px 0px 0px 1px",
+    "count": 7
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 27
+   },
+   {
+    "value": "0",
+    "count": 4
+   },
+   {
+    "value": "3",
+    "count": 3
+   },
+   {
+    "value": "-1",
+    "count": 2
+   },
+   {
+    "value": "40",
+    "count": 2
+   },
+   {
+    "value": "2",
+    "count": 1
+   },
+   {
+    "value": "6",
+    "count": 1
+   },
+   {
+    "value": "100",
+    "count": 1
+   },
+   {
+    "value": "50",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 73,
+   "sizeBuckets": {
+    "xl": 21,
+    "sm": 23,
+    "md": 22,
+    "lg": 7
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Download Ghostex",
+      "tag": "button",
+      "height": 54,
+      "width": 232,
+      "padding": "0px 26px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.35) 0px 1px 0px 0px inset, rgba(40, 88, 184, 0.6) 0px 14px 30px -10px, rgba(24, 40, 96, 0.25) 0px 2px 6px 0px",
+      "transition": "transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.2s, background 0.2s",
+      "gap": "10px",
+      "contrast": 21
+     },
+     {
+      "text": "Star on GitHub",
+      "tag": "a",
+      "height": 54,
+      "width": 198,
+      "padding": "0px 26px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "rgb(255, 255, 255) 1.5px 1.5px 0px 0px inset, rgba(118, 146, 226, 0.3) -1px -1px 0px 0px inset, rgba(255, 150, 205, 0.3) 3px 3px 3px -2px inset, rgba(110, 185, 255, 0.45) -3px -3px 3px -2px inset, rgba(24, 40, 96, 0.22) 0px 10px 24px -10px, rgba(24, 40, 96, 0.14) 0px 24px 50px -24px",
+      "transition": "transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.2s, background 0.2s",
+      "gap": "10px",
+      "contrast": 1.14
+     },
+     {
+      "text": "ACME-88Empty cart illustration",
+      "tag": "div",
+      "height": 86,
+      "width": 182,
+      "padding": "10px 11px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(255, 255, 255, 0.66)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(16, 22, 38, 0.075) 0px 0px 0px 1px inset, rgba(24, 40, 96, 0.05) 0px 1px 2px 0px, rgba(24, 40, 96, 0.2) 0px 6px 18px -10px",
+      "transition": "box-shadow 0.2s, opacity 0.2s, transform 0.2s cubic-bezier(0.22, 1, 0.36, 1)",
+      "gap": "6px",
+      "contrast": 18.03
+     },
+     {
+      "text": "ACME-91Gift card supportAccept",
+      "tag": "div",
+      "height": 125,
+      "width": 182,
+      "padding": "10px 11px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(255, 255, 255, 0.66)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(16, 22, 38, 0.075) 0px 0px 0px 1px inset, rgba(24, 40, 96, 0.05) 0px 1px 2px 0px, rgba(24, 40, 96, 0.2) 0px 6px 18px -10px",
+      "transition": "box-shadow 0.2s, opacity 0.2s, transform 0.2s cubic-bezier(0.22, 1, 0.36, 1)",
+      "gap": "6px",
+      "contrast": 18.03
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "button",
+      "height": 28,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(16, 22, 38, 0.6)",
+      "border": "0px none rgba(16, 22, 38, 0.6)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.18s, color 0.18s, transform 0.18s cubic-bezier(0.22, 1, 0.36, 1)",
+      "gap": "normal",
+      "contrast": 1.16
+     },
+     {
+      "text": "Local",
+      "tag": "button",
+      "height": 25,
+      "width": 117,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "7px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "17.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "5px",
+      "contrast": 1.16
+     },
+     {
+      "text": "Remote",
+      "tag": "button",
+      "height": 25,
+      "width": 117,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "7px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(16, 22, 38, 0.55)",
+      "border": "0px none rgba(16, 22, 38, 0.55)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "17.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "5px",
+      "contrast": 1.16
+     },
+     {
+      "text": "",
+      "tag": "button",
+      "height": 22,
+      "width": 22,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(16, 22, 38, 0.6)",
+      "border": "0px none rgba(16, 22, 38, 0.6)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     }
+    ],
+    "md": [
+     {
+      "text": "Work",
+      "tag": "button",
+      "height": 30,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(59, 124, 240)",
+      "border": "0px none rgb(59, 124, 240)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(16, 22, 38, 0.06) 0px 0px 0px 1px inset",
+      "transition": "transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.2s",
+      "gap": "normal",
+      "contrast": 5.33
+     },
+     {
+      "text": "Mobile",
+      "tag": "button",
+      "height": 30,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(139, 92, 246)",
+      "border": "0px none rgb(139, 92, 246)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(16, 22, 38, 0.06) 0px 0px 0px 1px inset",
+      "transition": "transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.2s",
+      "gap": "normal",
+      "contrast": 4.96
+     },
+     {
+      "text": "Open source",
+      "tag": "button",
+      "height": 30,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 163, 127)",
+      "border": "0px none rgb(16, 163, 127)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(16, 22, 38, 0.06) 0px 0px 0px 1px inset",
+      "transition": "transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.2s",
+      "gap": "normal",
+      "contrast": 6.57
+     },
+     {
+      "text": "Research",
+      "tag": "button",
+      "height": 30,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(227, 154, 18)",
+      "border": "0px none rgb(227, 154, 18)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(16, 22, 38, 0.06) 0px 0px 0px 1px inset",
+      "transition": "transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.2s",
+      "gap": "normal",
+      "contrast": 8.9
+     }
+    ],
+    "lg": [
+     {
+      "text": "New chat ⌘N",
+      "tag": "button",
+      "height": 40,
+      "width": 225,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "11px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "16.5px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "24.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "11px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Opus 5.5 High",
+      "tag": "button",
+      "height": 38,
+      "width": 255,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "color(srgb 0.156863 0.345098 0.721569 / 0.12)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "16.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": null
+     },
+     {
+      "text": "Sonnet 5.5 Medium",
+      "tag": "button",
+      "height": 38,
+      "width": 255,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "16.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 2.72
+     },
+     {
+      "text": "Send to agent",
+      "tag": "button",
+      "height": 42,
+      "width": 196,
+      "padding": "0px 18px",
+      "margin": "222.5px 0px 0px",
+      "radius": "999px",
+      "background": "rgb(40, 88, 184)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "15.5px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "23.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(40, 88, 184, 0.8) 0px 10px 20px -10px",
+      "transition": "background 0.3s, transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.2s",
+      "gap": "7px",
+      "contrast": 6.61
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 22,
+   "sizeBuckets": {
+    "md": 8,
+    "lg": 3,
+    "xl": 4,
+    "sm": 7
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Ghostex",
+      "tag": "a",
+      "height": 32,
+      "width": 119,
+      "padding": "0px",
+      "margin": "0px 733.547px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "21px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "31.5px",
+      "letterSpacing": "-0.735px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Download",
+      "tag": "a",
+      "height": 33,
+      "width": 94,
+      "padding": "6px 12px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.68 0 0)",
+      "border": "0px solid oklch(0.68 0 0)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "DM Sans-ec9e91e22f9ea51a",
+      "lineHeight": "21.4286px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Ask Ghostex",
+      "tag": "a",
+      "height": 33,
+      "width": 134,
+      "padding": "6px 14px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(56, 189, 248)",
+      "color": "oklch(1 0 0)",
+      "border": "0px solid oklch(1 0 0)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "DM Sans-ec9e91e22f9ea51a",
+      "lineHeight": "21.4286px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "Welcome",
+      "tag": "a",
+      "height": 33,
+      "width": 248,
+      "padding": "6px 10px",
+      "margin": "0px",
+      "radius": "10.4px",
+      "background": "oklch(0.16 0 0)",
+      "color": "oklch(0.96 0 0)",
+      "border": "0px solid oklch(0.96 0 0)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "DM Sans-ec9e91e22f9ea51a",
+      "lineHeight": "21.4286px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 38,
+      "width": 86,
+      "padding": "0px 13px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.15s, color 0.15s",
+      "gap": "7px",
+      "contrast": 2.72
+     },
+     {
+      "text": "Skip to content",
+      "tag": "a",
+      "height": 40,
+      "width": 146,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(56, 189, 248)",
+      "color": "oklch(1 0 0)",
+      "border": "0px solid oklch(1 0 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "DM Sans-ec9e91e22f9ea51a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Start here",
+      "tag": "a",
+      "height": 41,
+      "width": 174,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0 0)",
+      "border": "0px solid oklch(0.96 0 0)",
+      "fontSize": "30px",
+      "fontWeight": "500",
+      "fontFamily": "Manrope-85be4131c384d649",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.6px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Star on GitHub",
+      "tag": "a",
+      "height": 54,
+      "width": 198,
+      "padding": "0px 26px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "rgb(255, 255, 255) 1.5px 1.5px 0px 0px inset, rgba(118, 146, 226, 0.3) -1px -1px 0px 0px inset, rgba(255, 150, 205, 0.3) 3px 3px 3px -2px inset, rgba(110, 185, 255, 0.45) -3px -3px 3px -2px inset, rgba(24, 40, 96, 0.22) 0px 10px 24px -10px, rgba(24, 40, 96, 0.14) 0px 24px 50px -24px",
+      "transition": "transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.2s, background 0.2s",
+      "gap": "10px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Install GhostexmacOS, Windows,",
+      "tag": "a",
+      "height": 148,
+      "width": 328,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(10, 10, 10)",
+      "color": "oklch(0.68 0 0)",
+      "border": "1px solid oklch(0.24 0 0 / 0.8)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "DM Sans-ec9e91e22f9ea51a",
+      "lineHeight": "27.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Tour of the windowWhat every p",
+      "tag": "a",
+      "height": 127,
+      "width": 328,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(10, 10, 10)",
+      "color": "oklch(0.68 0 0)",
+      "border": "1px solid oklch(0.24 0 0 / 0.8)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "DM Sans-ec9e91e22f9ea51a",
+      "lineHeight": "27.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "NextAsk Ghostex",
+      "tag": "a",
+      "height": 67,
+      "width": 323,
+      "padding": "12px 16px",
+      "margin": "0px 0px 0px 333.453px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0 0)",
+      "border": "1px solid oklch(0.24 0 0 / 0.8)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "DM Sans-ec9e91e22f9ea51a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 22,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(124, 133, 152)",
+      "border": "0px none rgb(124, 133, 152)",
+      "fontSize": "14.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.67
+     },
+     {
+      "text": "Learn how",
+      "tag": "a",
+      "height": 21,
+      "width": 90,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0 0)",
+      "border": "0px solid oklch(0.96 0 0)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "DM Sans-ec9e91e22f9ea51a",
+      "lineHeight": "21.4286px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "Ghostex",
+      "tag": "a",
+      "height": 24,
+      "width": 93,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0 0)",
+      "border": "0px solid oklch(0.96 0 0)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "DM Sans-ec9e91e22f9ea51a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "How Ask Ghostex works",
+      "tag": "a",
+      "height": 20,
+      "width": 168,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0 0)",
+      "border": "0px solid oklch(0.96 0 0)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "DM Sans-ec9e91e22f9ea51a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 3,
+   "sizeBuckets": {
+    "lg": 1,
+    "sm": 1,
+    "xl": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Message Claude Code",
+      "tag": "textarea",
+      "height": 44,
+      "width": 430,
+      "padding": "0px 4px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "height 0.2s cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1.16
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 20,
+      "width": 150,
+      "padding": "1px 2px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     }
+    ],
+    "xl": [
+     {
+      "text": "Search every prompt",
+      "tag": "input",
+      "height": 47,
+      "width": 662,
+      "padding": "1px 2px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "45px",
+      "letterSpacing": "-0.6px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 47,
+   "sizeBuckets": {
+    "xl": 32,
+    "sm": 6,
+    "md": 2,
+    "lg": 7
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "2 Local Remote Aacme-web+214 −",
+      "tag": "div",
+      "height": 740,
+      "width": 1200,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "22px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(238, 239, 243, 0.41) 0px 0.52356px 1.04712px 2.85864px, rgba(103, 130, 195, 0.42) 0px 13.6126px 83.3508px 2.77489px, rgba(24, 40, 96, 0.157) 0px 36.6492px 73.2984px -20.9424px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     },
+     {
+      "text": "Kanbanlocalhost:3000DocsProjec",
+      "tag": "aside",
+      "height": 740,
+      "width": 446,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(255, 255, 255, 0.2)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "width 0.46s cubic-bezier(0.22, 1, 0.36, 1)",
+      "gap": "normal",
+      "contrast": 18.03
+     },
+     {
+      "text": "Kanbanlocalhost:3000Docs",
+      "tag": "div",
+      "height": 46,
+      "width": 445,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 1.16
+     },
+     {
+      "text": "Projectacme-web9 tickets · 1 i",
+      "tag": "div",
+      "height": 694,
+      "width": 445,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     }
+    ],
+    "sm": [
+     {
+      "text": "ACME-88",
+      "tag": "div",
+      "height": 16,
+      "width": 160,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 1.16
+     },
+     {
+      "text": "ACME-88",
+      "tag": "span",
+      "height": 16,
+      "width": 49,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(16, 22, 38, 0.42)",
+      "border": "0px none rgba(16, 22, 38, 0.42)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "15.95px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     },
+     {
+      "text": "Empty cart illustration",
+      "tag": "div",
+      "height": 18,
+      "width": 160,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "17.94px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     },
+     {
+      "text": "designS",
+      "tag": "div",
+      "height": 20,
+      "width": 160,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 1.16
+     }
+    ],
+    "md": [
+     {
+      "text": "Accept gift cards next to the ",
+      "tag": "div",
+      "height": 34,
+      "width": 160,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(16, 22, 38, 0.55)",
+      "border": "0px none rgba(16, 22, 38, 0.55)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     },
+     {
+      "text": "DocsCheckout API guide",
+      "tag": "div",
+      "height": 32,
+      "width": 86,
+      "padding": "5.28px 5.76px 5.76px",
+      "margin": "0px",
+      "radius": "5.76px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "9.6px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "12.48px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(14, 20, 34, 0.07) 0px 0px 0px 1px, rgba(24, 40, 96, 0.3) 0px 2.88px 7.68px -3.84px",
+      "transition": "all",
+      "gap": "2.88px",
+      "contrast": 18.39
+     }
+    ],
+    "lg": [
+     {
+      "text": "checkoutbug2",
+      "tag": "div",
+      "height": 44,
+      "width": 160,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 1.16
+     },
+     {
+      "text": "BugCart empties after sign-in",
+      "tag": "div",
+      "height": 42,
+      "width": 86,
+      "padding": "5.28px 5.76px 5.76px",
+      "margin": "0px",
+      "radius": "5.76px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "9.6px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "12.48px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(14, 20, 34, 0.07) 0px 0px 0px 1px, rgba(24, 40, 96, 0.3) 0px 2.88px 7.68px -3.84px",
+      "transition": "all",
+      "gap": "2.88px",
+      "contrast": 18.39
+     },
+     {
+      "text": "localhost:3000 Running on Work",
+      "tag": "div",
+      "height": 44,
+      "width": 576,
+      "padding": "0px 8px 0px 16px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(14, 20, 34, 0.05)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "9px",
+      "contrast": 2.38
+     },
+     {
+      "text": "",
+      "tag": "i",
+      "height": 43,
+      "width": 43,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "13px",
+      "background": "rgba(255, 255, 255, 0.8)",
+      "color": "rgb(40, 88, 184)",
+      "border": "0px none rgb(40, 88, 184)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(14, 20, 34, 0.07) 0px 0px 0px 1px, rgba(24, 40, 96, 0.4) 0px 8px 16px -10px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.61
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 23,
+   "sizeBuckets": {
+    "xl": 10,
+    "lg": 3,
+    "sm": 4,
+    "md": 6
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "GhostexDocsGitHubDiscord",
+      "tag": "nav",
+      "height": 60,
+      "width": 1180,
+      "padding": "0px 10px 0px 18px",
+      "margin": "14px 130px 0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(255, 255, 255) 1.5px 1.5px 0px 0px inset, rgba(118, 146, 226, 0.3) -1px -1px 0px 0px inset, rgba(255, 150, 205, 0.3) 3px 3px 3px -2px inset, rgba(110, 185, 255, 0.45) -3px -3px 3px -2px inset, rgba(24, 40, 96, 0.22) 0px 10px 24px -10px, rgba(24, 40, 96, 0.14) 0px 24px 50px -24px",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.14
+     },
+     {
+      "text": "The best all-in-one native age",
+      "tag": "header",
+      "height": 1310,
+      "width": 1440,
+      "padding": "48px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "acme-web/Checkout page redesig",
+      "tag": "header",
+      "height": 46,
+      "width": 496,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "5px",
+      "contrast": 1.16
+     },
+     {
+      "text": "Ghostex / Checkout page Browse",
+      "tag": "header",
+      "height": 54,
+      "width": 1080,
+      "padding": "0px 18px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 2.72
+     }
+    ],
+    "lg": [
+     {
+      "text": "DocsGitHubDiscord",
+      "tag": "div",
+      "height": 38,
+      "width": 291,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Checkout cleanup · Claude Code",
+      "tag": "header",
+      "height": 40,
+      "width": 443,
+      "padding": "0px 0px 14px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "16.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "9px",
+      "contrast": 2.72
+     },
+     {
+      "text": "Acme web / Fix the card grid S",
+      "tag": "header",
+      "height": 40,
+      "width": 1098,
+      "padding": "0px 12px 0px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 2.72
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 26,
+      "width": 52,
+      "padding": "0px",
+      "margin": "0px 4px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     },
+     {
+      "text": "Acme",
+      "tag": "div",
+      "height": 23,
+      "width": 404,
+      "padding": "0px",
+      "margin": "0px 0px 16.72px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "15.2px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "22.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "13.68px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Acme",
+      "tag": "div",
+      "height": 20,
+      "width": 926,
+      "padding": "0px",
+      "margin": "0px 0px 15.675px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "14.25px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "19.95px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12.825px",
+      "contrast": 1.14
+     },
+     {
+      "text": "DocsGitHubDiscord@maddadaPriva",
+      "tag": "nav",
+      "height": 22,
+      "width": 403,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(124, 133, 152)",
+      "border": "0px none rgb(124, 133, 152)",
+      "fontSize": "14.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px 22px",
+      "contrast": 5.67
+     }
+    ],
+    "md": [
+     {
+      "text": "Ghostex / Checkout cleanup Sta",
+      "tag": "header",
+      "height": 29,
+      "width": 630,
+      "padding": "0px 12px 0px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 2.72
+     },
+     {
+      "text": "Checkout / Login redirect fix ",
+      "tag": "header",
+      "height": 36,
+      "width": 771,
+      "padding": "0px 12px 0px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 2.72
+     },
+     {
+      "text": "Acme",
+      "tag": "div",
+      "height": 29,
+      "width": 860,
+      "padding": "0px",
+      "margin": "0px 0px 20.9px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "28.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "17.1px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Send toNew session · Acme web ",
+      "tag": "header",
+      "height": 29,
+      "width": 523,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12.8px",
+      "contrast": 2.72
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 14,
+   "sizeBuckets": {
+    "md": 2,
+    "xl": 5,
+    "sm": 5,
+    "lg": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 34,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.35) 0px 1px 0px 0px inset, rgba(40, 88, 184, 0.6) 0px 6px 14px -6px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Type a message, then Enter",
+      "tag": "button",
+      "height": 30,
+      "width": 205,
+      "padding": "0px 11px 0px 5px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(255, 255, 255, 0.6)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(255, 255, 255) 1px 1px 0px 0px inset, rgba(14, 20, 34, 0.05) 0px 0px 0px 1px",
+      "transition": "background 0.2s, box-shadow 0.2s, transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 7.72
+     }
+    ],
+    "xl": [
+     {
+      "text": "checkout.tsx · VS Codeimport {",
+      "tag": "div",
+      "height": 740,
+      "width": 1200,
+      "padding": "0px",
+      "margin": "78px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "2 Local Remote Aacme-web+214 −",
+      "tag": "div",
+      "height": 740,
+      "width": 1200,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     },
+     {
+      "text": "No Electron or Tauri.",
+      "tag": "li",
+      "height": 48,
+      "width": 247,
+      "padding": "0px 22px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "21px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "31.5px",
+      "letterSpacing": "-0.42px",
+      "textTransform": "none",
+      "shadow": "rgb(255, 255, 255) 1.5px 1.5px 0px 0px inset, rgba(118, 146, 226, 0.3) -1px -1px 0px 0px inset, rgba(255, 150, 205, 0.3) 3px 3px 3px -2px inset, rgba(110, 185, 255, 0.45) -3px -3px 3px -2px inset, rgba(24, 40, 96, 0.22) 0px 10px 24px -10px, rgba(24, 40, 96, 0.14) 0px 24px 50px -24px",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 2.72
+     },
+     {
+      "text": "Spaces",
+      "tag": "button",
+      "height": 56,
+      "width": 148,
+      "padding": "0px 22px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "22px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "33px",
+      "letterSpacing": "-0.44px",
+      "textTransform": "none",
+      "shadow": "rgb(255, 255, 255) 1.5px 1.5px 0px 0px inset, rgba(118, 146, 226, 0.3) -1px -1px 0px 0px inset, rgba(255, 150, 205, 0.3) 3px 3px 3px -2px inset, rgba(110, 185, 255, 0.45) -3px -3px 3px -2px inset, rgba(24, 40, 96, 0.22) 0px 10px 24px -10px, rgba(24, 40, 96, 0.14) 0px 24px 50px -24px",
+      "transition": "transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s, color 0.3s",
+      "gap": "8px",
+      "contrast": 1.14
+     }
+    ],
+    "sm": [
+     {
+      "text": "2",
+      "tag": "span",
+      "height": 14,
+      "width": 14,
+      "padding": "0px 3.5px",
+      "margin": "0px",
+      "radius": "7px",
+      "background": "rgb(40, 98, 224)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "9px",
+      "fontWeight": "700",
+      "fontFamily": "Geist",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(255, 255, 255) 0px 0px 0px 2px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.37
+     },
+     {
+      "text": "Opus 5.5High",
+      "tag": "button",
+      "height": 28,
+      "width": 137,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.15s",
+      "gap": "6px",
+      "contrast": 1.16
+     },
+     {
+      "text": "designS",
+      "tag": "div",
+      "height": 20,
+      "width": 160,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 1.16
+     },
+     {
+      "text": "design",
+      "tag": "span",
+      "height": 20,
+      "width": 60,
+      "padding": "0px 7px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(16, 22, 38, 0.65)",
+      "border": "0px none rgba(16, 22, 38, 0.65)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "15.95px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(16, 22, 38, 0.11) 0px 0px 0px 1px inset",
+      "transition": "all",
+      "gap": "5px",
+      "contrast": 1.16
+     }
+    ],
+    "lg": [
+     {
+      "text": "checkoutbug2",
+      "tag": "div",
+      "height": 44,
+      "width": 160,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 1.16
+     },
+     {
+      "text": "Pause",
+      "tag": "span",
+      "height": 44,
+      "width": 115,
+      "padding": "0px 18px 0px 10px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(255, 255, 255) 1.5px 1.5px 0px 0px inset, rgba(118, 146, 226, 0.3) -1px -1px 0px 0px inset, rgba(255, 150, 205, 0.3) 3px 3px 3px -2px inset, rgba(110, 185, 255, 0.45) -3px -3px 3px -2px inset, rgba(24, 40, 96, 0.22) 0px 10px 24px -10px, rgba(24, 40, 96, 0.14) 0px 24px 50px -24px",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.14
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 19,
+   "sizeBuckets": {
+    "xl": 11,
+    "md": 4,
+    "lg": 2,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "The best all-in-one native age",
+      "tag": "h1",
+      "height": 179,
+      "width": 955,
+      "padding": "0px",
+      "margin": "8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "86px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "89.44px",
+      "letterSpacing": "-3.87px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Just like the ChatGPT and Clau",
+      "tag": "h2",
+      "height": 117,
+      "width": 1026,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "54px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "58.32px",
+      "letterSpacing": "-2.16px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Native and fast.",
+      "tag": "h2",
+      "height": 77,
+      "width": 504,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "74px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "76.96px",
+      "letterSpacing": "-3.33px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Chat and terminal views, both ",
+      "tag": "h2",
+      "height": 154,
+      "width": 788,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "74px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "76.96px",
+      "letterSpacing": "-3.33px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     }
+    ],
+    "md": [
+     {
+      "text": "Checkout",
+      "tag": "h4",
+      "height": 33,
+      "width": 404,
+      "padding": "0px",
+      "margin": "0px 0px 18.24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "30.4px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "33.44px",
+      "letterSpacing": "-1.216px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "New arrivals",
+      "tag": "h4",
+      "height": 33,
+      "width": 860,
+      "padding": "0px",
+      "margin": "0px 0px 4.5px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "30px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "33px",
+      "letterSpacing": "-1.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Start here",
+      "tag": "h2",
+      "height": 36,
+      "width": 672,
+      "padding": "0px",
+      "margin": "48px 0px 30px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0 0)",
+      "border": "0px solid oklch(0.96 0 0)",
+      "fontSize": "30px",
+      "fontWeight": "500",
+      "fontFamily": "Manrope-85be4131c384d649",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.6px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Your privacy matters",
+      "tag": "h2",
+      "height": 32,
+      "width": 810,
+      "padding": "0px",
+      "margin": "0px 0px 18px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(7, 17, 41)",
+      "border": "0px none rgb(7, 17, 41)",
+      "fontSize": "21.6px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "32.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.12
+     }
+    ],
+    "lg": [
+     {
+      "text": "Checkout redesign",
+      "tag": "h4",
+      "height": 38,
+      "width": 498,
+      "padding": "0px",
+      "margin": "0px 0px 4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "25px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "37.5px",
+      "letterSpacing": "-0.875px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Find your next escape.",
+      "tag": "h4",
+      "height": 43,
+      "width": 497,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "28.8px",
+      "fontWeight": "700",
+      "fontFamily": "Geist",
+      "lineHeight": "43.2px",
+      "letterSpacing": "-1.152px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     }
+    ],
+    "sm": [
+     {
+      "text": "Swipe between Spaces",
+      "tag": "h3",
+      "height": 23,
+      "width": 207,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "21px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "25.2px",
+      "letterSpacing": "-0.63px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "1. Scope",
+      "tag": "h3",
+      "height": 24,
+      "width": 810,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(7, 17, 41)",
+      "border": "0px none rgb(7, 17, 41)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.12
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 56,
+   "sizeBuckets": {
+    "xl": 14,
+    "sm": 27,
+    "lg": 8,
+    "md": 7
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Agent chats, a code editor and",
+      "tag": "p",
+      "height": 63,
+      "width": 660,
+      "padding": "0px",
+      "margin": "18px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "31.74px",
+      "letterSpacing": "-0.345px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.72
+     },
+     {
+      "text": "Asked Codex to run the checkou",
+      "tag": "p",
+      "height": 66,
+      "width": 444,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(16, 22, 38, 0.9)",
+      "border": "0px none rgba(16, 22, 38, 0.9)",
+      "fontSize": "13.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21.87px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     },
+     {
+      "text": "Ghostex moves the session to t",
+      "tag": "p",
+      "height": 117,
+      "width": 874,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "54px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "58.32px",
+      "letterSpacing": "-2.16px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Check the checkout page on mob",
+      "tag": "p",
+      "height": 66,
+      "width": 269,
+      "padding": "9px 14px",
+      "margin": "0px",
+      "radius": "14px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(40, 88, 184, 0.7) 0px 10px 20px -10px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "Why is my regex so slow?",
+      "tag": "p",
+      "height": 7,
+      "width": 38,
+      "padding": "6px 10.8px",
+      "margin": "0px",
+      "radius": "9.6px",
+      "background": "rgba(14, 20, 34, 0.07)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "12.72px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "19.08px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "It lived in a cookie that sign",
+      "tag": "p",
+      "height": 23,
+      "width": 522,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "15.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "23.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "The cart lived in a cookie tha",
+      "tag": "p",
+      "height": 15,
+      "width": 308,
+      "padding": "0px",
+      "margin": "0px 0px 9px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Press Enter to send a message ",
+      "tag": "p",
+      "height": 25,
+      "width": 288,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(124, 133, 152)",
+      "border": "0px none rgb(124, 133, 152)",
+      "fontSize": "11.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "17.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.67
+     }
+    ],
+    "lg": [
+     {
+      "text": "Done. The summary and the paym",
+      "tag": "p",
+      "height": 44,
+      "width": 444,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(16, 22, 38, 0.9)",
+      "border": "0px none rgba(16, 22, 38, 0.9)",
+      "fontSize": "13.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21.87px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     },
+     {
+      "text": "Why does checkout drop the car",
+      "tag": "p",
+      "height": 41,
+      "width": 271,
+      "padding": "8px 13px",
+      "margin": "0px",
+      "radius": "13px",
+      "background": "color(srgb 0.156863 0.345098 0.721569 / 0.1)",
+      "color": "rgb(14, 20, 34)",
+      "border": "1px solid color(srgb 0.156863 0.345098 0.721569 / 0.18)",
+      "fontSize": "15.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "23.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Click anywhere on the page to ",
+      "tag": "p",
+      "height": 44,
+      "width": 196,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(124, 133, 152)",
+      "border": "0px none rgb(124, 133, 152)",
+      "fontSize": "14.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.67
+     },
+     {
+      "text": "The change is in ProductGrid.t",
+      "tag": "p",
+      "height": 40,
+      "width": 292,
+      "padding": "0px",
+      "margin": "0px 0px 9px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     }
+    ],
+    "md": [
+     {
+      "text": "Safari dropped the return URL ",
+      "tag": "p",
+      "height": 36,
+      "width": 465,
+      "padding": "0px",
+      "margin": "0px 0px 9px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Press Enter to send a message ",
+      "tag": "p",
+      "height": 31,
+      "width": 440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(124, 133, 152)",
+      "border": "0px none rgb(124, 133, 152)",
+      "fontSize": "11.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "17.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.67
+     },
+     {
+      "text": "Fixed the rounding: amounts ar",
+      "tag": "p",
+      "height": 29,
+      "width": 393,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "28.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Can you fix the login redirect",
+      "tag": "p",
+      "height": 35,
+      "width": 667,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "34.5px",
+      "letterSpacing": "-0.345px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 17,
+   "sizeBuckets": {
+    "xl": 17
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "New chatPricing page copyOnboa",
+      "tag": "ul",
+      "height": 78,
+      "width": 44,
+      "padding": "12px 8.4px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(14, 20, 34, 0.035)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "12.72px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "19.08px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "3.6px",
+      "contrast": 2.38
+     },
+     {
+      "text": "Moved the order summary into a",
+      "tag": "ul",
+      "height": 72,
+      "width": 444,
+      "padding": "0px 0px 0px 18px",
+      "margin": "6px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(16, 22, 38, 0.9)",
+      "border": "0px none rgba(16, 22, 38, 0.9)",
+      "fontSize": "13.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21.87px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     },
+     {
+      "text": "Cart moves into your account o",
+      "tag": "ul",
+      "height": 48,
+      "width": 308,
+      "padding": "0px 0px 0px 17px",
+      "margin": "0px 0px 9px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Can you fix the login redirect",
+      "tag": "ul",
+      "height": 292,
+      "width": 860,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 1.14
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 16,
+   "sizeBuckets": {
+    "md": 9,
+    "sm": 4,
+    "lg": 3
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Local Remote",
+      "tag": "div",
+      "height": 29,
+      "width": 237,
+      "padding": "2px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgba(16, 22, 38, 0.04)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(16, 22, 38, 0.075) 0px 0px 0px 1px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Kanbanlocalhost:3000Docs",
+      "tag": "div",
+      "height": 30,
+      "width": 199,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 1.16
+     },
+     {
+      "text": "Kanban",
+      "tag": "div",
+      "height": 30,
+      "width": 101,
+      "padding": "0px 4px 0px 10px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgba(255, 255, 255, 0.85)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(16, 22, 38, 0.11) 0px 0px 0px 1px inset, rgba(24, 40, 96, 0.05) 0px 1px 2px 0px, rgba(24, 40, 96, 0.2) 0px 6px 18px -10px",
+      "transition": "background 0.18s, color 0.18s, box-shadow 0.18s",
+      "gap": "6px",
+      "contrast": 18.03
+     },
+     {
+      "text": "localhost:3000",
+      "tag": "div",
+      "height": 30,
+      "width": 29,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(16, 22, 38, 0.55)",
+      "border": "0px none rgba(16, 22, 38, 0.55)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.18s, color 0.18s, box-shadow 0.18s",
+      "gap": "6px",
+      "contrast": 1.16
+     }
+    ],
+    "sm": [
+     {
+      "text": "Local",
+      "tag": "button",
+      "height": 25,
+      "width": 117,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "7px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(16, 22, 38)",
+      "border": "0px none rgb(16, 22, 38)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "17.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "5px",
+      "contrast": 1.16
+     },
+     {
+      "text": "Remote",
+      "tag": "button",
+      "height": 25,
+      "width": 117,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "7px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(16, 22, 38, 0.55)",
+      "border": "0px none rgba(16, 22, 38, 0.55)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "17.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "5px",
+      "contrast": 1.16
+     },
+     {
+      "text": "",
+      "tag": "button",
+      "height": 28,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(16, 22, 38, 0.55)",
+      "border": "0px none rgba(16, 22, 38, 0.55)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.15s, color 0.15s, transform 0.2s cubic-bezier(0.22, 1, 0.36, 1)",
+      "gap": "normal",
+      "contrast": 1.16
+     },
+     {
+      "text": "Browser Code Files Kanban Term",
+      "tag": "div",
+      "height": 25,
+      "width": 285,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": 1.14
+     }
+    ],
+    "lg": [
+     {
+      "text": "1Shortcut2Select3Mark up4Promp",
+      "tag": "div",
+      "height": 38,
+      "width": 1180,
+      "padding": "0px",
+      "margin": "26px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 1.14
+     },
+     {
+      "text": "1Shortcut",
+      "tag": "button",
+      "height": 38,
+      "width": 113,
+      "padding": "0px 14px 0px 8px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(24, 40, 96, 0.35) 0px 4px 14px -6px",
+      "transition": "background 0.2s, color 0.2s",
+      "gap": "8px",
+      "contrast": 18.39
+     },
+     {
+      "text": "2Select",
+      "tag": "button",
+      "height": 38,
+      "width": 97,
+      "padding": "0px 14px 0px 8px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.2s, color 0.2s",
+      "gap": "8px",
+      "contrast": 2.72
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 171,
+   "sizeBuckets": {
+    "sm": 157,
+    "md": 3,
+    "xl": 11
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 17,
+      "width": 17,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.72
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 19,
+      "width": 19,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 19,
+      "width": 19,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px 0px 0px 2px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "17px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "-0.17px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "localhost:3000",
+      "tag": "div",
+      "height": 30,
+      "width": 29,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(16, 22, 38, 0.55)",
+      "border": "0px none rgba(16, 22, 38, 0.55)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.18s, color 0.18s, box-shadow 0.18s",
+      "gap": "6px",
+      "contrast": 1.16
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 30,
+      "width": 45,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(74, 83, 102)",
+      "border": "0px none rgb(74, 83, 102)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.72
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 36,
+      "width": 162,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 48,
+      "width": 50,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "14px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(14, 20, 34, 0.06) 0px 0px 0px 1px, rgba(24, 40, 96, 0.3) 0px 8px 16px -8px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.39
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 52,
+      "width": 52,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "14px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(14, 20, 34, 0.06) 0px 0px 0px 1px, rgba(24, 40, 96, 0.3) 0px 8px 16px -8px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.39
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 46,
+      "width": 46,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "14px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(14, 20, 34, 0.06) 0px 0px 0px 1px, rgba(24, 40, 96, 0.3) 0px 8px 16px -8px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.39
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 50,
+      "width": 50,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "14px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(14, 20, 34)",
+      "border": "0px none rgb(14, 20, 34)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(14, 20, 34, 0.06) 0px 0px 0px 1px, rgba(24, 40, 96, 0.3) 0px 8px 16px -8px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.39
+     }
+    ]
+   }
+  },
+  "pagination": {
+   "label": "分页",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "NextAsk Ghostex",
+      "tag": "nav",
+      "height": 92,
+      "width": 672,
+      "padding": "24px 0px 0px",
+      "margin": "48px 64px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0 0)",
+      "border": "1px solid oklch(0.24 0 0 / 0.8)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "DM Sans-ec9e91e22f9ea51a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": null
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "nav",
+   "height": 60,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 10px 0px 18px",
+   "children": 2
+  },
+  {
+   "tag": "main",
+   "height": 19823,
+   "heading": "The best all-in-one native agents workspace.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 10
+  },
+  {
+   "tag": "header",
+   "height": 1310,
+   "heading": "The best all-in-one native agents workspace.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "48px 0px 0px",
+   "children": 6
+  },
+  {
+   "tag": "aside",
+   "height": 740,
+   "heading": null,
+   "background": "rgba(240, 244, 251, 0.34)",
+   "padding": "0px",
+   "children": 6
+  },
+  {
+   "tag": "section",
+   "height": 740,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 46,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 10px",
+   "children": 7
+  },
+  {
+   "tag": "aside",
+   "height": 740,
+   "heading": null,
+   "background": "rgba(255, 255, 255, 0.2)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 735,
+   "heading": "Just like the ChatGPT and Claude apps, but much mo",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "144px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "aside",
+   "height": 410,
+   "heading": null,
+   "background": "rgba(236, 242, 251, 0.45)",
+   "padding": "20px 12px",
+   "children": 8
+  },
+  {
+   "tag": "section",
+   "height": 827,
+   "heading": "Native and fast.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "144px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "aside",
+   "height": 466,
+   "heading": null,
+   "background": "rgba(236, 242, 251, 0.6)",
+   "padding": "0px",
+   "children": 5
+  },
+  {
+   "tag": "section",
+   "height": 437,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 10px 10px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 1522,
+   "heading": "20+ agents in 1 app.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "144px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "aside",
+   "height": 571,
+   "heading": null,
+   "background": "rgba(236, 242, 251, 0.6)",
+   "padding": "0px",
+   "children": 5
+  },
+  {
+   "tag": "section",
+   "height": 1299,
+   "heading": "Add multiple Claude and Codex accounts.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "144px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 1472,
+   "heading": "Organize it your way.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "144px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 1682,
+   "heading": "Mark up any web page. Send it to your agent.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "144px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 54,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 18px",
+   "children": 4
+  },
+  {
+   "tag": "aside",
+   "height": 388,
+   "heading": null,
+   "background": "rgba(255, 255, 255, 0.62)",
+   "padding": "14px 12px 12px",
+   "children": 4
+  },
+  {
+   "tag": "header",
+   "height": 54,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 18px",
+   "children": 4
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 18.05,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 33
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.7s",
+    "count": 230
+   },
+   {
+    "value": "0.9s",
+    "count": 201
+   },
+   {
+    "value": "0.8s",
+    "count": 180
+   },
+   {
+    "value": "0.2s",
+    "count": 140
+   },
+   {
+    "value": "0.15s",
+    "count": 108
+   },
+   {
+    "value": "0.18s",
+    "count": 86
+   },
+   {
+    "value": "0.6s",
+    "count": 62
+   },
+   {
+    "value": "0.3s",
+    "count": 45
+   },
+   {
+    "value": "0.5s",
+    "count": 39
+   },
+   {
+    "value": "0.4s",
+    "count": 22
+   },
+   {
+    "value": "0.45s",
+    "count": 22
+   },
+   {
+    "value": "0.12s",
+    "count": 20
+   },
+   {
+    "value": "0.34s",
+    "count": 13
+   },
+   {
+    "value": "0.24s",
+    "count": 12
+   },
+   {
+    "value": "0.25s",
+    "count": 10
+   },
+   {
+    "value": "0.35s",
+    "count": 10
+   },
+   {
+    "value": "0.28s",
+    "count": 7
+   },
+   {
+    "value": "1.3s",
+    "count": 5
+   },
+   {
+    "value": "0.42s",
+    "count": 2
+   },
+   {
+    "value": "0.36s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 739
+   },
+   {
+    "value": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "count": 252
+   },
+   {
+    "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "count": 68
+   },
+   {
+    "value": "cubic-bezier(0.3, 1.4, 0.5, 1)",
+    "count": 44
+   },
+   {
+    "value": "cubic-bezier(0.3, 1.35, 0.5, 1)",
+    "count": 10
+   },
+   {
+    "value": "cubic-bezier(0.3, 1.6, 0.5, 1)",
+    "count": 9
+   },
+   {
+    "value": "cubic-bezier(0.5, 0, 0.2, 1)",
+    "count": 5
+   },
+   {
+    "value": "cubic-bezier(0.5, 0, 0.15, 1)",
+    "count": 1
+   },
+   {
+    "value": "cubic-bezier(0.3, 1.7, 0.5, 1)",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "transform",
+    "count": 376
+   },
+   {
+    "value": "opacity",
+    "count": 330
+   },
+   {
+    "value": "filter",
+    "count": 178
+   },
+   {
+    "value": "background",
+    "count": 148
+   },
+   {
+    "value": "color",
+    "count": 87
+   },
+   {
+    "value": "box-shadow",
+    "count": 69
+   },
+   {
+    "value": "grid-template-rows",
+    "count": 12
+   },
+   {
+    "value": "visibility",
+    "count": 9
+   },
+   {
+    "value": "width",
+    "count": 8
+   },
+   {
+    "value": "border-color",
+    "count": 5
+   }
+  ]
+ }
+}

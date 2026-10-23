@@ -1,0 +1,1631 @@
+{
+ "id": "t257",
+ "overview": {
+  "name": "textmotion",
+  "url": "https://textmotion.dev/",
+  "section": "动效",
+  "pagesScanned": [
+   "https://textmotion.dev/"
+  ],
+  "subpages": [],
+  "sectionCount": 8,
+  "componentSamples": 37,
+  "typeSteps": 24
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#fffdf9",
+    "value": "#fffdf9",
+    "token": "--surface",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#1c1a17",
+    "value": "#1c1a17",
+    "token": "--ink",
+    "source": "css-var",
+    "contrastOnBg": 17.09
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#fffdf9",
+    "count": 20
+   },
+   {
+    "hex": "#1c1a17",
+    "count": 3
+   },
+   {
+    "hex": "#faf7f1",
+    "count": 1
+   },
+   {
+    "hex": "#22c55e",
+    "count": 1
+   },
+   {
+    "hex": "#3c321e",
+    "count": 1
+   },
+   {
+    "hex": "#5d574e",
+    "count": 67
+   },
+   {
+    "hex": "#a29c90",
+    "count": 33
+   },
+   {
+    "hex": "#0f766e",
+    "count": 5
+   },
+   {
+    "hex": "#7c3aed",
+    "count": 4
+   },
+   {
+    "hex": "#2563eb",
+    "count": 3
+   }
+  ],
+  "backgroundsTotal": 5,
+  "textTotal": 9,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "500",
+    "lineHeight": "14.5px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono",
+    "count": 16,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "ll"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "500",
+    "lineHeight": "11px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono",
+    "count": 6,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "llllmmss..ttxxtt"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "500",
+    "lineHeight": "11px",
+    "letterSpacing": "0.88px",
+    "family": "JetBrains Mono",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "01How it works"
+    ]
+   },
+   {
+    "size": "11.5px",
+    "px": 11.5,
+    "weight": "500",
+    "lineHeight": "11.5px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono",
+    "count": 4,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "flash()"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "17.5px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "duration 3000 · stagger 450"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono",
+    "count": 12,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "character"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono",
+    "count": 14,
+    "tags": [
+     "pre",
+     "span"
+    ],
+    "samples": [
+     "import { slotText } from \"slot-text\";\nim"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.195px",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "How it works"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "-0.195px",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "flash() rolls up, then rolls back on its"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "500",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono",
+    "count": 30,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "11"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "500",
+    "lineHeight": "13px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono",
+    "count": 6,
+    "tags": [
+     "a",
+     "span",
+     "button"
+    ],
+    "samples": [
+     "11kk"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.195px",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "One module, about 1 kB of CSS. Transform"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "500",
+    "lineHeight": "17.5px",
+    "letterSpacing": "-0.195px",
+    "family": "Inter",
+    "count": 52,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "CC"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "500",
+    "lineHeight": "21px",
+    "letterSpacing": "-0.195px",
+    "family": "Inter",
+    "count": 8,
+    "tags": [
+     "a",
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Get started"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21.5px",
+    "letterSpacing": "-0.195px",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "It is the cell clipping and nothing else"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "23px",
+    "letterSpacing": "-0.195px",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "The text is split into characters or wor"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "600",
+    "lineHeight": "23px",
+    "letterSpacing": "-0.195px",
+    "family": "Inter",
+    "count": 7,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Zero dependencies"
+    ]
+   },
+   {
+    "size": "34px",
+    "px": 34.0,
+    "weight": "500",
+    "lineHeight": "44px",
+    "letterSpacing": "-1.02px",
+    "family": "JetBrains Mono",
+    "count": 12,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "11"
+    ]
+   },
+   {
+    "size": "34px",
+    "px": 34.0,
+    "weight": "500",
+    "lineHeight": "34px",
+    "letterSpacing": "-1.02px",
+    "family": "JetBrains Mono",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "1122,,885511req/s"
+    ]
+   },
+   {
+    "size": "34px",
+    "px": 34.0,
+    "weight": "600",
+    "lineHeight": "38px",
+    "letterSpacing": "-1.02px",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Every segment is its own slot."
+    ]
+   },
+   {
+    "size": "66px",
+    "px": 66.0,
+    "weight": "500",
+    "lineHeight": "86px",
+    "letterSpacing": "-1.98px",
+    "family": "JetBrains Mono",
+    "count": 10,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "ff"
+    ]
+   },
+   {
+    "size": "66px",
+    "px": 66.0,
+    "weight": "600",
+    "lineHeight": "86px",
+    "letterSpacing": "-2.508px",
+    "family": "Inter",
+    "count": 26,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "TT"
+    ]
+   },
+   {
+    "size": "66px",
+    "px": 66.0,
+    "weight": "600",
+    "lineHeight": "68px",
+    "letterSpacing": "-2.508px",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "TTeexxtt  tthhaatt  rroollllss\n         "
+    ]
+   },
+   {
+    "size": "96px",
+    "px": 96.0,
+    "weight": "500",
+    "lineHeight": "125px",
+    "letterSpacing": "-3.84px",
+    "family": "Inter",
+    "count": 27,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "DOD"
+    ]
+   }
+  ],
+  "totalSteps": 30,
+  "families": [
+   "Inter",
+   "JetBrains Mono"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 6
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 10
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 6
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 15
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 24
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 29
+   },
+   {
+    "value": "11px",
+    "px": 11.0,
+    "count": 1
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 11
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 28
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 11
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 10
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 2
+   },
+   {
+    "value": "22px",
+    "px": 22.0,
+    "count": 1
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 2
+   },
+   {
+    "value": "26px",
+    "px": 26.0,
+    "count": 1
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 16
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1080px",
+    "count": 7
+   },
+   {
+    "value": "640px",
+    "count": 4
+   },
+   {
+    "value": "529.922px",
+    "count": 2
+   },
+   {
+    "value": "557.68px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "3px",
+    "px": 3.0,
+    "count": 9
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 12
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 12
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 10
+   },
+   {
+    "value": "50%",
+    "px": 50,
+    "count": 1
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(60, 50, 30, 0.12) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+    "count": 10
+   },
+   {
+    "value": "rgba(60, 50, 30, 0.07) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px 0px",
+    "count": 10
+   },
+   {
+    "value": "rgba(60, 50, 30, 0.12) 0px 0px 0px 1px",
+    "count": 9
+   }
+  ],
+  "zIndex": []
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 10,
+   "sizeBuckets": {
+    "md": 4,
+    "sm": 6
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "llllmmss..ttxxtt",
+      "tag": "button",
+      "height": 32,
+      "width": 71,
+      "padding": "0px 9px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(162, 156, 144)",
+      "border": "0px none rgb(162, 156, 144)",
+      "fontSize": "11px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background 0.16s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "5px",
+      "contrast": 7.69
+     },
+     {
+      "text": "Get started",
+      "tag": "a",
+      "height": 34,
+      "width": 98,
+      "padding": "0px 14px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(28, 26, 23)",
+      "color": "rgb(250, 247, 241)",
+      "border": "0px none rgb(250, 247, 241)",
+      "fontSize": "13.5px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20.925px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "8px",
+      "contrast": 16.24
+     },
+     {
+      "text": "npm",
+      "tag": "a",
+      "height": 34,
+      "width": 56,
+      "padding": "0px 14px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(255, 253, 249)",
+      "color": "rgb(28, 26, 23)",
+      "border": "0px none rgb(28, 26, 23)",
+      "fontSize": "13.5px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20.925px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "rgba(60, 50, 30, 0.12) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "8px",
+      "contrast": 17.09
+     },
+     {
+      "text": "$\n              nnppmm  ii  ss",
+      "tag": "button",
+      "height": 34,
+      "width": 188,
+      "padding": "0px 12px 0px 14px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(255, 253, 249)",
+      "color": "rgb(28, 26, 23)",
+      "border": "0px none rgb(28, 26, 23)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "13px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(60, 50, 30, 0.12) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "10px",
+      "contrast": 17.09
+     }
+    ],
+    "sm": [
+     {
+      "text": "character",
+      "tag": "button",
+      "height": 26,
+      "width": 85,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(28, 26, 23)",
+      "color": "rgb(250, 247, 241)",
+      "border": "0px none rgb(250, 247, 241)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background 0.16s cubic-bezier(0.2, 0, 0, 1), transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 16.24
+     },
+     {
+      "text": "word",
+      "tag": "button",
+      "height": 26,
+      "width": 49,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(255, 253, 249)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(60, 50, 30, 0.12) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background 0.16s cubic-bezier(0.2, 0, 0, 1), transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 7.03
+     },
+     {
+      "text": "1x",
+      "tag": "button",
+      "height": 22,
+      "width": 32,
+      "padding": "0px 9px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background 0.16s cubic-bezier(0.2, 0, 0, 1), transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 2.94
+     },
+     {
+      "text": "slow",
+      "tag": "button",
+      "height": 22,
+      "width": 47,
+      "padding": "0px 9px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(28, 26, 23)",
+      "color": "rgb(250, 247, 241)",
+      "border": "0px none rgb(250, 247, 241)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background 0.16s cubic-bezier(0.2, 0, 0, 1), transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 16.24
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 1,
+    "md": 4
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "slot-text v0.3.4",
+      "tag": "a",
+      "height": 23,
+      "width": 107,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 26, 23)",
+      "border": "0px none rgb(28, 26, 23)",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "23.25px",
+      "letterSpacing": "-0.3px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.21
+     }
+    ],
+    "md": [
+     {
+      "text": "How it works",
+      "tag": "a",
+      "height": 32,
+      "width": 96,
+      "padding": "0px 9px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20.15px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background 0.16s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "5px",
+      "contrast": 2.94
+     },
+     {
+      "text": "11kk",
+      "tag": "a",
+      "height": 32,
+      "width": 77,
+      "padding": "0px 9px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "13px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background 0.16s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "5px",
+      "contrast": 2.94
+     },
+     {
+      "text": "Get started",
+      "tag": "a",
+      "height": 34,
+      "width": 98,
+      "padding": "0px 14px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(28, 26, 23)",
+      "color": "rgb(250, 247, 241)",
+      "border": "0px none rgb(250, 247, 241)",
+      "fontSize": "13.5px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20.925px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "8px",
+      "contrast": 16.24
+     },
+     {
+      "text": "npm",
+      "tag": "a",
+      "height": 34,
+      "width": 56,
+      "padding": "0px 14px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(255, 253, 249)",
+      "color": "rgb(28, 26, 23)",
+      "border": "0px none rgb(28, 26, 23)",
+      "fontSize": "13.5px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20.925px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "rgba(60, 50, 30, 0.12) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "8px",
+      "contrast": 17.09
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "vanilla\n                \n     ",
+      "tag": "div",
+      "height": 239,
+      "width": 569,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgb(255, 253, 249)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.25px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "rgba(60, 50, 30, 0.07) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.03
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "slot-text v0.3.4\n      \n      ",
+      "tag": "header",
+      "height": 56,
+      "width": 1080,
+      "padding": "0px 28px",
+      "margin": "0px 180px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.25px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 2.94
+     }
+    ],
+    "md": [
+     {
+      "text": "How it works\n        Demos\n   ",
+      "tag": "nav",
+      "height": 32,
+      "width": 404,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.25px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 2.94
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 3,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "A tiny, dependency-free roll a",
+      "tag": "p",
+      "height": 77,
+      "width": 558,
+      "padding": "0px",
+      "margin": "22px 233.172px 0px 233.156px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.5px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.94
+     },
+     {
+      "text": "DODepepeplrloaoytyiiinongngal",
+      "tag": "div",
+      "height": 280,
+      "width": 1024,
+      "padding": "32px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.25px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.94
+     },
+     {
+      "text": "CCooppyy",
+      "tag": "div",
+      "height": 132,
+      "width": 247,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.25px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.94
+     }
+    ],
+    "sm": [
+     {
+      "text": "character",
+      "tag": "button",
+      "height": 26,
+      "width": 85,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(28, 26, 23)",
+      "color": "rgb(250, 247, 241)",
+      "border": "0px none rgb(250, 247, 241)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background 0.16s cubic-bezier(0.2, 0, 0, 1), transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 16.24
+     },
+     {
+      "text": "word",
+      "tag": "button",
+      "height": 26,
+      "width": 49,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(255, 253, 249)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(60, 50, 30, 0.12) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background 0.16s cubic-bezier(0.2, 0, 0, 1), transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 7.03
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "TTeexxtt  tthhaatt  rroollllss",
+      "tag": "h1",
+      "height": 172,
+      "width": 1024,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 26, 23)",
+      "border": "0px none rgb(28, 26, 23)",
+      "fontSize": "66px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "67.98px",
+      "letterSpacing": "-2.508px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.21
+     }
+    ],
+    "lg": [
+     {
+      "text": "Every segment is its own slot.",
+      "tag": "h2",
+      "height": 38,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 26, 23)",
+      "border": "0px none rgb(28, 26, 23)",
+      "fontSize": "34px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "38.08px",
+      "letterSpacing": "-1.02px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.21
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 7,
+   "sizeBuckets": {
+    "xl": 4,
+    "sm": 2,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "A tiny, dependency-free roll a",
+      "tag": "p",
+      "height": 77,
+      "width": 558,
+      "padding": "0px",
+      "margin": "22px 233.172px 0px 233.156px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "25.5px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.94
+     },
+     {
+      "text": "The text is split into charact",
+      "tag": "p",
+      "height": 70,
+      "width": 530,
+      "padding": "0px",
+      "margin": "14px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.25px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.94
+     },
+     {
+      "text": "flash() rolls up, then rolls b",
+      "tag": "p",
+      "height": 61,
+      "width": 247,
+      "padding": "12px 14px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "19.5px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.94
+     },
+     {
+      "text": "One module, about 1 kB of CSS.",
+      "tag": "p",
+      "height": 61,
+      "width": 215,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "13.5px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20.25px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.94
+     }
+    ],
+    "sm": [
+     {
+      "text": "Every cell is live. Click one.",
+      "tag": "p",
+      "height": 23,
+      "width": 530,
+      "padding": "0px",
+      "margin": "14px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.25px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.94
+     },
+     {
+      "text": "Zero dependencies",
+      "tag": "p",
+      "height": 23,
+      "width": 215,
+      "padding": "0px",
+      "margin": "0px 0px 6px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 26, 23)",
+      "border": "0px none rgb(28, 26, 23)",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "23.25px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.21
+     }
+    ],
+    "lg": [
+     {
+      "text": "It is the cell clipping and no",
+      "tag": "p",
+      "height": 43,
+      "width": 353,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "21.7px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.94
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "vanilla\n                \n     ",
+      "tag": "div",
+      "height": 26,
+      "width": 285,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "23.25px",
+      "letterSpacing": "-0.195px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": 2.94
+     },
+     {
+      "text": "vanilla",
+      "tag": "button",
+      "height": 26,
+      "width": 68,
+      "padding": "0px 9px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(60, 50, 30, 0.07)",
+      "color": "rgb(28, 26, 23)",
+      "border": "0px none rgb(28, 26, 23)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background 0.16s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 1.38
+     },
+     {
+      "text": "react",
+      "tag": "button",
+      "height": 26,
+      "width": 54,
+      "padding": "0px 9px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(162, 156, 144)",
+      "border": "0px none rgb(162, 156, 144)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background 0.16s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 7.69
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(93, 87, 78)",
+      "border": "0px none rgb(93, 87, 78)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "13px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.94
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 26, 23)",
+      "border": "0px none rgb(28, 26, 23)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono",
+      "lineHeight": "13px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.21
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 56,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 28px",
+   "children": 2
+  },
+  {
+   "tag": "main",
+   "height": 2772,
+   "heading": "TTeexxtt  tthhaatt  rroollllss\n          into ffoo",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 5
+  },
+  {
+   "tag": "section",
+   "height": 616,
+   "heading": "TTeexxtt  tthhaatt  rroollllss\n          into ffoo",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 28px 104px",
+   "children": 4
+  },
+  {
+   "tag": "section",
+   "height": 691,
+   "heading": "Every segment is its own slot.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "88px 28px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 510,
+   "heading": "Four places it belongs.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "88px 28px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 406,
+   "heading": "Small enough to forget it is there.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "88px 28px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 549,
+   "heading": "Three lines from static to rolling.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "88px 28px",
+   "children": 2
+  },
+  {
+   "tag": "footer",
+   "height": 85,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "28px 28px 36px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 17.09,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 22,
+  "tapTargetMedian": 32
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.16s",
+    "count": 34
+   },
+   {
+    "value": "0.12s",
+    "count": 13
+   },
+   {
+    "value": "0.3s",
+    "count": 6
+   },
+   {
+    "value": "0.339s",
+    "count": 2
+   },
+   {
+    "value": "0.31s",
+    "count": 1
+   },
+   {
+    "value": "0.2s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.2, 0, 0, 1)",
+    "count": 54
+   },
+   {
+    "value": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "count": 3
+   }
+  ],
+  "properties": [
+   {
+    "value": "background",
+    "count": 18
+   },
+   {
+    "value": "transform",
+    "count": 18
+   },
+   {
+    "value": "color",
+    "count": 17
+   },
+   {
+    "value": "opacity",
+    "count": 2
+   },
+   {
+    "value": "filter",
+    "count": 2
+   }
+  ]
+ }
+}

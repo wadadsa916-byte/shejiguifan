@@ -1,0 +1,428 @@
+{
+ "id": "t272",
+ "overview": {
+  "name": "Wakamai Fondue",
+  "url": "https://wakamaifondue.com/",
+  "section": "字体",
+  "pagesScanned": [
+   "https://wakamaifondue.com/"
+  ],
+  "subpages": [],
+  "sectionCount": 2,
+  "componentSamples": 8,
+  "typeSteps": 1
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#5f8e5d",
+    "value": "#5f8e5d",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 5.51
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#5f8e5d",
+    "count": 1
+   },
+   {
+    "hex": "#dddddd",
+    "count": 1
+   },
+   {
+    "hex": "#000000",
+    "count": 18
+   },
+   {
+    "hex": "#cd4e49",
+    "count": 2
+   },
+   {
+    "hex": "#ffffff",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 2,
+  "textTotal": 3,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "label",
+     "a"
+    ],
+    "samples": [
+     "Drop a font! Try with NaN Success Titlin"
+    ]
+   }
+  ],
+  "totalSteps": 4,
+  "families": [
+   "system-ui"
+  ],
+  "weights": [
+   "400",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 5
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 2
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 4
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 2
+   },
+   {
+    "value": "80px",
+    "px": 80.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "500px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "3.2px",
+    "px": 3.2,
+    "count": 2
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 3
+   },
+   {
+    "value": "10",
+    "count": 2
+   },
+   {
+    "value": "40",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Info",
+      "tag": "button",
+      "height": 50,
+      "width": 50,
+      "padding": "1px 6px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "Try with NaN Success Titling",
+      "tag": "button",
+      "height": 26,
+      "width": 214,
+      "padding": "4px 16px",
+      "margin": "20px 0px 0px",
+      "radius": "3.2px",
+      "background": "rgb(95, 142, 93)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.25)",
+      "fontSize": "13.6px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.81
+     },
+     {
+      "text": "Or pick a local font",
+      "tag": "select",
+      "height": 28,
+      "width": 173,
+      "padding": "4px 16px",
+      "margin": "20px 0px 0px",
+      "radius": "3.2px",
+      "background": "rgb(221, 221, 221)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgba(255, 255, 255, 0.25)",
+      "fontSize": "13.6px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.46
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Tell me about it so I can fix ",
+      "tag": "a",
+      "height": 18,
+      "width": 205,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(205, 78, 73)",
+      "border": "0px none rgb(205, 78, 73)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.78
+     }
+    ],
+    "xl": [
+     {
+      "text": "PixelAmbacht",
+      "tag": "a",
+      "height": 64,
+      "width": 144,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Or pick a local font",
+      "tag": "select",
+      "height": 28,
+      "width": 173,
+      "padding": "4px 16px",
+      "margin": "20px 0px 0px",
+      "radius": "3.2px",
+      "background": "rgb(221, 221, 221)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgba(255, 255, 255, 0.25)",
+      "fontSize": "13.6px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.46
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Drop a font! Try with NaN Succ",
+      "tag": "header",
+      "height": 813,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 33,
+      "width": 33,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 813,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "header",
+   "height": 813,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 4
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 5.51,
+  "bodyContrastLevel": "AA",
+  "tapTargetMin": 18,
+  "tapTargetMedian": 28
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 2
+   }
+  ],
+  "easings": [],
+  "properties": [
+   {
+    "value": "background",
+    "count": 1
+   },
+   {
+    "value": "transform",
+    "count": 1
+   }
+  ]
+ }
+}

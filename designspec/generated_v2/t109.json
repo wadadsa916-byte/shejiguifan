@@ -1,0 +1,2533 @@
+{
+ "id": "t109",
+ "overview": {
+  "name": "Animate UI",
+  "url": "https://animate-ui.com/",
+  "section": "组件库",
+  "pagesScanned": [
+   "https://animate-ui.com/",
+   "https://animate-ui.com/docs"
+  ],
+  "subpages": [
+   "/docs"
+  ],
+  "sectionCount": 6,
+  "componentSamples": 119,
+  "typeSteps": 18
+ },
+ "colors": {
+  "roles": {
+   "muted": {
+    "hex": "#f5f5f5",
+    "value": "#f5f5f5",
+    "token": "--color-fd-muted",
+    "source": "css-var",
+    "contrastOnBg": 1.04
+   },
+   "foreground": {
+    "hex": "#0a0a0a",
+    "value": "#0a0a0a",
+    "token": "--color-fd-foreground",
+    "source": "css-var",
+    "contrastOnBg": 18.97
+   },
+   "focus": {
+    "hex": "#a3a3a3",
+    "value": "#a3a3a3",
+    "token": "--color-fd-ring",
+    "source": "css-var",
+    "contrastOnBg": 2.42
+   },
+   "background": {
+    "hex": "#fafafa",
+    "value": "#fafafa",
+    "token": "--color-fd-background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "primary": {
+    "hex": "#e60a64",
+    "value": "#e60a64",
+    "token": "--color-fd-diff-remove-symbol",
+    "source": "palette",
+    "contrastOnBg": 4.38
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#c80a64",
+    "count": 1
+   },
+   {
+    "hex": "#0eb464",
+    "count": 1
+   },
+   {
+    "hex": "#032f62",
+    "count": 17
+   },
+   {
+    "hex": "#24292e",
+    "count": 12
+   },
+   {
+    "hex": "#737373",
+    "count": 10
+   },
+   {
+    "hex": "#0a0a0a",
+    "count": 9
+   },
+   {
+    "hex": "#000000",
+    "count": 6
+   },
+   {
+    "hex": "#d73a49",
+    "count": 6
+   },
+   {
+    "hex": "#6f42c1",
+    "count": 4
+   }
+  ],
+  "backgroundsTotal": 11,
+  "textTotal": 15,
+  "bordersTotal": 2
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "16.5px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "localhost:3000"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 16,
+    "tags": [
+     "span",
+     "button",
+     "p"
+    ],
+    "samples": [
+     "v2"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 13,
+    "tags": [
+     "span",
+     "p"
+    ],
+    "samples": [
+     "Switch"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 49,
+    "tags": [
+     "pre",
+     "code",
+     "span"
+    ],
+    "samples": [
+     "import { Accordion as AccordionPrimitive"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "18.5px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 9,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Guide"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 456,
+    "tags": [
+     "a",
+     "span",
+     "label",
+     "button",
+     "li",
+     "p"
+    ],
+    "samples": [
+     "Docs"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 22,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "00123456789"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 44,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "00123456789"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 28,
+    "tags": [
+     "a",
+     "span",
+     "button",
+     "h2"
+    ],
+    "samples": [
+     "4530001234567890012345678900123456789001"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "900",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "Dancing Script",
+    "count": 91,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "updated"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 4,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Is it accessible?"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 4,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Animate UI animates the primitives your "
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Radix UI"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 3,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Drop-in animated primitives for Radix UI"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "600",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 6,
+    "tags": [
+     "h2",
+     "a"
+    ],
+    "samples": [
+     "Why primitivesCopy Anchor Link"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "600",
+    "lineHeight": "36px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 55,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "00123456789"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "600",
+    "lineHeight": "40px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "12,5550012345678900123456789,00123456789"
+    ]
+   },
+   {
+    "size": "60px",
+    "px": 60.0,
+    "weight": "500",
+    "lineHeight": "60px",
+    "letterSpacing": "normal",
+    "family": "Outfit",
+    "count": 14,
+    "tags": [
+     "h1",
+     "span",
+     "h2"
+    ],
+    "samples": [
+     "Animate yourAnimate your shadcn/uiRadix "
+    ]
+   }
+  ],
+  "totalSteps": 23,
+  "families": [
+   "Dancing Script",
+   "Outfit",
+   "ui-monospace"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "900"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 215
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 235
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 177
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 14
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 400
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 10
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 182
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 27
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 46
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 11
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 7
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 3
+   },
+   {
+    "value": "44px",
+    "px": 44.0,
+    "count": 8
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 12
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 1
+   },
+   {
+    "value": "68px",
+    "px": 68.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "1200px",
+    "count": 2
+   },
+   {
+    "value": "620px",
+    "count": 2
+   },
+   {
+    "value": "1670px",
+    "count": 2
+   },
+   {
+    "value": "860px",
+    "count": 1
+   },
+   {
+    "value": "1100px",
+    "count": 1
+   },
+   {
+    "value": "900px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 6
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 12
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 1
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 4
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 36
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 44
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 15
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 2
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 18
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, lab(2.75381 0 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 2
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0.145 -0.00000143796 0.00000340492 / 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 19
+   },
+   {
+    "value": "0",
+    "count": 5
+   },
+   {
+    "value": "11",
+    "count": 2
+   },
+   {
+    "value": "70",
+    "count": 1
+   },
+   {
+    "value": "10",
+    "count": 1
+   },
+   {
+    "value": "1000",
+    "count": 1
+   },
+   {
+    "value": "40",
+    "count": 1
+   },
+   {
+    "value": "20",
+    "count": 1
+   },
+   {
+    "value": "2",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 26,
+   "sizeBuckets": {
+    "md": 8,
+    "sm": 13,
+    "lg": 5
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Toggle theme",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Copy the command",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Is it animated?",
+      "tag": "button",
+      "height": 35,
+      "width": 239,
+      "padding": "8px 0px 4px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Save button",
+      "tag": "button",
+      "height": 32,
+      "width": 97,
+      "padding": "6px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "npm",
+      "tag": "button",
+      "height": 24,
+      "width": 40,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "pnpm",
+      "tag": "button",
+      "height": 24,
+      "width": 47,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "on",
+      "tag": "button",
+      "height": 16,
+      "width": 26,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "lab(90.952 0 -0.0000119209)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "on",
+      "tag": "button",
+      "height": 16,
+      "width": 26,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "lab(2.75381 0 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Is it accessible?",
+      "tag": "button",
+      "height": 37,
+      "width": 239,
+      "padding": "8px 0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Can I style it?",
+      "tag": "button",
+      "height": 40,
+      "width": 239,
+      "padding": "8px 0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Save changes",
+      "tag": "button",
+      "height": 44,
+      "width": 176,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "lab(2.75381 0 0)",
+      "color": "lab(98.26 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "npm",
+      "tag": "button",
+      "height": 40,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 15,
+   "sizeBuckets": {
+    "sm": 5,
+    "md": 8,
+    "lg": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Animate UI",
+      "tag": "a",
+      "height": 28,
+      "width": 168,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "v2Animate UI is now a package",
+      "tag": "a",
+      "height": 28,
+      "width": 230,
+      "padding": "4px 12px 4px 4px",
+      "margin": "0px 0px 32px",
+      "radius": "9999px",
+      "background": "lab(96.52 -0.0000298023 0.0000119209)",
+      "color": "lab(34.924 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "Skyleen",
+      "tag": "a",
+      "height": 18,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 20,
+      "width": 31,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 32,
+      "width": 55,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.036 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "453000123456789001234567890012",
+      "tag": "a",
+      "height": 32,
+      "width": 99,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Animate UI",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 32,
+      "width": 55,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "lg": [
+     {
+      "text": "Get started",
+      "tag": "a",
+      "height": 40,
+      "width": 112,
+      "padding": "0px 20px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "lab(2.75381 0 0)",
+      "color": "lab(98.26 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Browse primitives",
+      "tag": "a",
+      "height": 40,
+      "width": 150,
+      "padding": "0px 20px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "lab(96.52 -0.0000298023 0.0000119209)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "IntroductionCopy pageAnimated ",
+      "tag": "article",
+      "height": 1171,
+      "width": 889,
+      "padding": "24px 32px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 2,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "DocsPrimitivesIcons45300012345",
+      "tag": "header",
+      "height": 80,
+      "width": 1425,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.999998 -0.00000980496 0.0000234246 / 0.8)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "HomeDocsPrimitivesBackgroundsI",
+      "tag": "header",
+      "height": 68,
+      "width": 1425,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "lab(100 0 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "DocsPrimitivesIcons",
+      "tag": "nav",
+      "height": 32,
+      "width": 196,
+      "padding": "0px",
+      "margin": "0px 4px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": ":where([data-animate-ui-toast-",
+      "tag": "html",
+      "height": 4463,
+      "width": 1425,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "::view-transition-old(root){di",
+      "tag": "html",
+      "height": 1239,
+      "width": 1425,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 9,
+   "sizeBuckets": {
+    "xl": 3,
+    "lg": 3,
+    "md": 2,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Animate yourAnimate your shadc",
+      "tag": "h1",
+      "height": 128,
+      "width": 779,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "60px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "60px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Every primitive, alive.",
+      "tag": "h2",
+      "height": 45,
+      "width": 1128,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "48px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "48px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Ask for motion in plain words.",
+      "tag": "h2",
+      "height": 60,
+      "width": 786,
+      "padding": "0px",
+      "margin": "20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "60px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "60px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Is it accessible?",
+      "tag": "h3",
+      "height": 37,
+      "width": 239,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Can I style it?",
+      "tag": "h3",
+      "height": 40,
+      "width": 239,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Introduction",
+      "tag": "h1",
+      "height": 42,
+      "width": 153,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "28px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "42px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Is it animated?",
+      "tag": "h3",
+      "height": 35,
+      "width": 239,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Why primitivesCopy Anchor Link",
+      "tag": "h2",
+      "height": 32,
+      "width": 825,
+      "padding": "0px",
+      "margin": "48px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "Outfit",
+      "lineHeight": "31.9999px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 1.06
+     }
+    ],
+    "sm": [
+     {
+      "text": "Event created",
+      "tag": "h2",
+      "height": 14,
+      "width": 125,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 16,
+   "sizeBuckets": {
+    "xl": 4,
+    "sm": 12
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Drop-in animated primitives fo",
+      "tag": "p",
+      "height": 56,
+      "width": 620,
+      "padding": "0px",
+      "margin": "20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Your AI agent finds what each ",
+      "tag": "p",
+      "height": 84,
+      "width": 620,
+      "padding": "0px",
+      "margin": "20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Animate UI animates the primit",
+      "tag": "p",
+      "height": 56,
+      "width": 825,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.144787 0.00000661612 0.00000289828 / 0.9)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "shadcn/ui components change of",
+      "tag": "p",
+      "height": 84,
+      "width": 825,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.144787 0.00000661612 0.00000289828 / 0.9)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Overview",
+      "tag": "p",
+      "height": 18,
+      "width": 181,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "12 active projects, 3 tasks du",
+      "tag": "p",
+      "height": 19,
+      "width": 181,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Analytics",
+      "tag": "p",
+      "height": 19,
+      "width": 199,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Page views up 25% this week.",
+      "tag": "p",
+      "height": 20,
+      "width": 199,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Read components.json: shadcn/u",
+      "tag": "ol",
+      "height": 21,
+      "width": 489,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Write the release notesReview ",
+      "tag": "ul",
+      "height": 88,
+      "width": 256,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "modal": {
+   "label": "对话框",
+   "count": 1,
+   "sizeBuckets": {
+    "lg": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Event created",
+      "tag": "div",
+      "height": 38,
+      "width": 177,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "16px",
+      "background": "lab(100 0 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+      "transition": "transform 0.55s linear(0 0%, 0.0134 1.85185%, 0.0492 3.7037%, 0.1017 5.55556%, 0.1659 7.40741%, 0.2377 9.25926%, 0.3134 11.1111%, 0.3904 12.963%, 0.4664 14.8148%, 0.5396 16.6667%, 0.6088 18.5185%, 0.673 20.3704%, 0.7317 22.2222%, 0.7846 24.0741%, 0.8315 25.9259%, 0.8726 27.7778%, 0.9081 29.6296%, 0.9382 31.4815%, 0.9634 33.3333%, 0.984 35.1852%, 1.0006 37.037%, 1.0136 38.8889%, 1.0234 40.7407%, 1.0305 42.5926%, 1.0353 44.4444%, 1.0381 46.2963%, 1.0393 48.1481%, 1.0393 50%, 1.0382 51.8519%, 1.0364 53.7037%, 1.0341 55.5556%, 1.0314 57.4074%, 1.0284 59.2593%, 1.0254 61.1111%, 1.0224 62.963%, 1.0194 64.8148%, 1.0166 66.6667%, 1.014 68.5185%, 1.0116 70.3704%, 1.0094 72.2222%, 1.0075 74.0741%, 1.0057 75.9259%, 1.0042 77.7778%, 1.0029 79.6296%, 1.0019 81.4815%, 1.001 83.3333%, 1.0003 85.1852%, 0.9997 87.037%, 0.9992 88.8889%, 0.9989 90.7407%, 1 92.5926%, 1 94.4444%, 1 96.2963%, 1 98.1481%, 1 100%), opacity 0.55s linear(0 0%, 0.0134 1.85185%, 0.0492 3.7037%, 0.1017 5.55556%, 0.1659 7.40741%, 0.2377 9.25926%, 0.3134 11.1111%, 0.3904 12.963%, 0.4664 14.8148%, 0.5396 16.6667%, 0.6088 18.5185%, 0.673 20.3704%, 0.7317 22.2222%, 0.7846 24.0741%, 0.8315 25.9259%, 0.8726 27.7778%, 0.9081 29.6296%, 0.9382 31.4815%, 0.9634 33.3333%, 0.984 35.1852%, 1.0006 37.037%, 1.0136 38.8889%, 1.0234 40.7407%, 1.0305 42.5926%, 1.0353 44.4444%, 1.0381 46.2963%, 1.0393 48.1481%, 1.0393 50%, 1.0382 51.8519%, 1.0364 53.7037%, 1.0341 55.5556%, 1.0314 57.4074%, 1.0284 59.2593%, 1.0254 61.1111%, 1.0224 62.963%, 1.0194 64.8148%, 1.0166 66.6667%, 1.014 68.5185%, 1.0116 70.3704%, 1.0094 72.2222%, 1.0075 74.0741%, 1.0057 75.9259%, 1.0042 77.7778%, 1.0029 79.6296%, 1.0019 81.4815%, 1.001 83.3333%, 1.0003 85.1852%, 0.9997 87.037%, 0.9992 88.8889%, 0.9989 90.7407%, 1 92.5926%, 1 94.4444%, 1 96.2963%, 1 98.1481%, 1 100%), height 0.55s linear(0 0%, 0.0134 1.85185%, 0.0492 3.7037%, 0.1017 5.55556%, 0.1659 7.40741%, 0.2377 9.25926%, 0.3134 11.1111%, 0.3904 12.963%, 0.4664 14.8148%, 0.5396 16.6667%, 0.6088 18.5185%, 0.673 20.3704%, 0.7317 22.2222%, 0.7846 24.0741%, 0.8315 25.9259%, 0.8726 27.7778%, 0.9081 29.6296%, 0.9382 31.4815%, 0.9634 33.3333%, 0.984 35.1852%, 1.0006 37.037%, 1.0136 38.8889%, 1.0234 40.7407%, 1.0305 42.5926%, 1.0353 44.4444%, 1.0381 46.2963%, 1.0393 48.1481%, 1.0393 50%, 1.0382 51.8519%, 1.0364 53.7037%, 1.0341 55.5556%, 1.0314 57.4074%, 1.0284 59.2593%, 1.0254 61.1111%, 1.0224 62.963%, 1.0194 64.8148%, 1.0166 66.6667%, 1.014 68.5185%, 1.0116 70.3704%, 1.0094 72.2222%, 1.0075 74.0741%, 1.0057 75.9259%, 1.0042 77.7778%, 1.0029 79.6296%, 1.0019 81.4815%, 1.001 83.3333%, 1.0003 85.1852%, 0.9997 87.037%, 0.9992 88.8889%, 0.9989 90.7407%, 1 92.5926%, 1 94.4444%, 1 96.2963%, 1 98.1481%, 1 100%), filter 0.55s linear(0 0%, 0.0134 1.85185%, 0.0492 3.7037%, 0.1017 5.55556%, 0.1659 7.40741%, 0.2377 9.25926%, 0.3134 11.1111%, 0.3904 12.963%, 0.4664 14.8148%, 0.5396 16.6667%, 0.6088 18.5185%, 0.673 20.3704%, 0.7317 22.2222%, 0.7846 24.0741%, 0.8315 25.9259%, 0.8726 27.7778%, 0.9081 29.6296%, 0.9382 31.4815%, 0.9634 33.3333%, 0.984 35.1852%, 1.0006 37.037%, 1.0136 38.8889%, 1.0234 40.7407%, 1.0305 42.5926%, 1.0353 44.4444%, 1.0381 46.2963%, 1.0393 48.1481%, 1.0393 50%, 1.0382 51.8519%, 1.0364 53.7037%, 1.0341 55.5556%, 1.0314 57.4074%, 1.0284 59.2593%, 1.0254 61.1111%, 1.0224 62.963%, 1.0194 64.8148%, 1.0166 66.6667%, 1.014 68.5185%, 1.0116 70.3704%, 1.0094 72.2222%, 1.0075 74.0741%, 1.0057 75.9259%, 1.0042 77.7778%, 1.0029 79.6296%, 1.0019 81.4815%, 1.001 83.3333%, 1.0003 85.1852%, 0.9997 87.037%, 0.9992 88.8889%, 0.9989 90.7407%, 1 92.5926%, 1 94.4444%, 1 96.2963%, 1 98.1481%, 1 100%)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 15,
+   "sizeBuckets": {
+    "sm": 7,
+    "md": 5,
+    "lg": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "453000123456789001234567890012",
+      "tag": "span",
+      "height": 14,
+      "width": 37,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "npmpnpmyarnbun",
+      "tag": "div",
+      "height": 24,
+      "width": 175,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "npm",
+      "tag": "button",
+      "height": 24,
+      "width": 40,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "pnpm",
+      "tag": "button",
+      "height": 24,
+      "width": 47,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "OverviewAnalyticsReports",
+      "tag": "div",
+      "height": 32,
+      "width": 202,
+      "padding": "3px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "lab(96.52 -0.0000298023 0.0000119209)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "12,5550012345678900123456789,0",
+      "tag": "span",
+      "height": 32,
+      "width": 99,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "36px",
+      "fontWeight": "600",
+      "fontFamily": "Outfit",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Save buttonBell iconTodo listR",
+      "tag": "div",
+      "height": 32,
+      "width": 327,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "Save button",
+      "tag": "button",
+      "height": 32,
+      "width": 97,
+      "padding": "6px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "npmpnpmyarnbun",
+      "tag": "div",
+      "height": 40,
+      "width": 151,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.144787 0.00000661612 0.00000289828 / 0.9)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal 12px",
+      "contrast": null
+     },
+     {
+      "text": "npm",
+      "tag": "button",
+      "height": 40,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "pnpm",
+      "tag": "button",
+      "height": 40,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 2,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "$",
+      "tag": "span",
+      "height": 20,
+      "width": 8,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Close toast",
+      "tag": "button",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Event created",
+      "tag": "div",
+      "height": 38,
+      "width": 177,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "16px",
+      "background": "lab(100 0 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+      "transition": "transform 0.55s linear(0 0%, 0.0134 1.85185%, 0.0492 3.7037%, 0.1017 5.55556%, 0.1659 7.40741%, 0.2377 9.25926%, 0.3134 11.1111%, 0.3904 12.963%, 0.4664 14.8148%, 0.5396 16.6667%, 0.6088 18.5185%, 0.673 20.3704%, 0.7317 22.2222%, 0.7846 24.0741%, 0.8315 25.9259%, 0.8726 27.7778%, 0.9081 29.6296%, 0.9382 31.4815%, 0.9634 33.3333%, 0.984 35.1852%, 1.0006 37.037%, 1.0136 38.8889%, 1.0234 40.7407%, 1.0305 42.5926%, 1.0353 44.4444%, 1.0381 46.2963%, 1.0393 48.1481%, 1.0393 50%, 1.0382 51.8519%, 1.0364 53.7037%, 1.0341 55.5556%, 1.0314 57.4074%, 1.0284 59.2593%, 1.0254 61.1111%, 1.0224 62.963%, 1.0194 64.8148%, 1.0166 66.6667%, 1.014 68.5185%, 1.0116 70.3704%, 1.0094 72.2222%, 1.0075 74.0741%, 1.0057 75.9259%, 1.0042 77.7778%, 1.0029 79.6296%, 1.0019 81.4815%, 1.001 83.3333%, 1.0003 85.1852%, 0.9997 87.037%, 0.9992 88.8889%, 0.9989 90.7407%, 1 92.5926%, 1 94.4444%, 1 96.2963%, 1 98.1481%, 1 100%), opacity 0.55s linear(0 0%, 0.0134 1.85185%, 0.0492 3.7037%, 0.1017 5.55556%, 0.1659 7.40741%, 0.2377 9.25926%, 0.3134 11.1111%, 0.3904 12.963%, 0.4664 14.8148%, 0.5396 16.6667%, 0.6088 18.5185%, 0.673 20.3704%, 0.7317 22.2222%, 0.7846 24.0741%, 0.8315 25.9259%, 0.8726 27.7778%, 0.9081 29.6296%, 0.9382 31.4815%, 0.9634 33.3333%, 0.984 35.1852%, 1.0006 37.037%, 1.0136 38.8889%, 1.0234 40.7407%, 1.0305 42.5926%, 1.0353 44.4444%, 1.0381 46.2963%, 1.0393 48.1481%, 1.0393 50%, 1.0382 51.8519%, 1.0364 53.7037%, 1.0341 55.5556%, 1.0314 57.4074%, 1.0284 59.2593%, 1.0254 61.1111%, 1.0224 62.963%, 1.0194 64.8148%, 1.0166 66.6667%, 1.014 68.5185%, 1.0116 70.3704%, 1.0094 72.2222%, 1.0075 74.0741%, 1.0057 75.9259%, 1.0042 77.7778%, 1.0029 79.6296%, 1.0019 81.4815%, 1.001 83.3333%, 1.0003 85.1852%, 0.9997 87.037%, 0.9992 88.8889%, 0.9989 90.7407%, 1 92.5926%, 1 94.4444%, 1 96.2963%, 1 98.1481%, 1 100%), height 0.55s linear(0 0%, 0.0134 1.85185%, 0.0492 3.7037%, 0.1017 5.55556%, 0.1659 7.40741%, 0.2377 9.25926%, 0.3134 11.1111%, 0.3904 12.963%, 0.4664 14.8148%, 0.5396 16.6667%, 0.6088 18.5185%, 0.673 20.3704%, 0.7317 22.2222%, 0.7846 24.0741%, 0.8315 25.9259%, 0.8726 27.7778%, 0.9081 29.6296%, 0.9382 31.4815%, 0.9634 33.3333%, 0.984 35.1852%, 1.0006 37.037%, 1.0136 38.8889%, 1.0234 40.7407%, 1.0305 42.5926%, 1.0353 44.4444%, 1.0381 46.2963%, 1.0393 48.1481%, 1.0393 50%, 1.0382 51.8519%, 1.0364 53.7037%, 1.0341 55.5556%, 1.0314 57.4074%, 1.0284 59.2593%, 1.0254 61.1111%, 1.0224 62.963%, 1.0194 64.8148%, 1.0166 66.6667%, 1.014 68.5185%, 1.0116 70.3704%, 1.0094 72.2222%, 1.0075 74.0741%, 1.0057 75.9259%, 1.0042 77.7778%, 1.0029 79.6296%, 1.0019 81.4815%, 1.001 83.3333%, 1.0003 85.1852%, 0.9997 87.037%, 0.9992 88.8889%, 0.9989 90.7407%, 1 92.5926%, 1 94.4444%, 1 96.2963%, 1 98.1481%, 1 100%), filter 0.55s linear(0 0%, 0.0134 1.85185%, 0.0492 3.7037%, 0.1017 5.55556%, 0.1659 7.40741%, 0.2377 9.25926%, 0.3134 11.1111%, 0.3904 12.963%, 0.4664 14.8148%, 0.5396 16.6667%, 0.6088 18.5185%, 0.673 20.3704%, 0.7317 22.2222%, 0.7846 24.0741%, 0.8315 25.9259%, 0.8726 27.7778%, 0.9081 29.6296%, 0.9382 31.4815%, 0.9634 33.3333%, 0.984 35.1852%, 1.0006 37.037%, 1.0136 38.8889%, 1.0234 40.7407%, 1.0305 42.5926%, 1.0353 44.4444%, 1.0381 46.2963%, 1.0393 48.1481%, 1.0393 50%, 1.0382 51.8519%, 1.0364 53.7037%, 1.0341 55.5556%, 1.0314 57.4074%, 1.0284 59.2593%, 1.0254 61.1111%, 1.0224 62.963%, 1.0194 64.8148%, 1.0166 66.6667%, 1.014 68.5185%, 1.0116 70.3704%, 1.0094 72.2222%, 1.0075 74.0741%, 1.0057 75.9259%, 1.0042 77.7778%, 1.0029 79.6296%, 1.0019 81.4815%, 1.001 83.3333%, 1.0003 85.1852%, 0.9997 87.037%, 0.9992 88.8889%, 0.9989 90.7407%, 1 92.5926%, 1 94.4444%, 1 96.2963%, 1 98.1481%, 1 100%)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 25,
+   "sizeBuckets": {
+    "sm": 20,
+    "xl": 1,
+    "lg": 2,
+    "md": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 28,
+      "width": 168,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 257,
+      "width": 250,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Is it accessible?",
+      "tag": "button",
+      "height": 37,
+      "width": 239,
+      "padding": "8px 0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Can I style it?",
+      "tag": "button",
+      "height": 40,
+      "width": 239,
+      "padding": "8px 0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Is it animated?",
+      "tag": "button",
+      "height": 35,
+      "width": 239,
+      "padding": "8px 0px 4px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Outfit",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "alert": {
+   "label": "提示条",
+   "count": 1,
+   "sizeBuckets": {
+    "lg": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Event created",
+      "tag": "div",
+      "height": 38,
+      "width": 177,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "16px",
+      "background": "lab(100 0 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Outfit",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+      "transition": "transform 0.55s linear(0 0%, 0.0134 1.85185%, 0.0492 3.7037%, 0.1017 5.55556%, 0.1659 7.40741%, 0.2377 9.25926%, 0.3134 11.1111%, 0.3904 12.963%, 0.4664 14.8148%, 0.5396 16.6667%, 0.6088 18.5185%, 0.673 20.3704%, 0.7317 22.2222%, 0.7846 24.0741%, 0.8315 25.9259%, 0.8726 27.7778%, 0.9081 29.6296%, 0.9382 31.4815%, 0.9634 33.3333%, 0.984 35.1852%, 1.0006 37.037%, 1.0136 38.8889%, 1.0234 40.7407%, 1.0305 42.5926%, 1.0353 44.4444%, 1.0381 46.2963%, 1.0393 48.1481%, 1.0393 50%, 1.0382 51.8519%, 1.0364 53.7037%, 1.0341 55.5556%, 1.0314 57.4074%, 1.0284 59.2593%, 1.0254 61.1111%, 1.0224 62.963%, 1.0194 64.8148%, 1.0166 66.6667%, 1.014 68.5185%, 1.0116 70.3704%, 1.0094 72.2222%, 1.0075 74.0741%, 1.0057 75.9259%, 1.0042 77.7778%, 1.0029 79.6296%, 1.0019 81.4815%, 1.001 83.3333%, 1.0003 85.1852%, 0.9997 87.037%, 0.9992 88.8889%, 0.9989 90.7407%, 1 92.5926%, 1 94.4444%, 1 96.2963%, 1 98.1481%, 1 100%), opacity 0.55s linear(0 0%, 0.0134 1.85185%, 0.0492 3.7037%, 0.1017 5.55556%, 0.1659 7.40741%, 0.2377 9.25926%, 0.3134 11.1111%, 0.3904 12.963%, 0.4664 14.8148%, 0.5396 16.6667%, 0.6088 18.5185%, 0.673 20.3704%, 0.7317 22.2222%, 0.7846 24.0741%, 0.8315 25.9259%, 0.8726 27.7778%, 0.9081 29.6296%, 0.9382 31.4815%, 0.9634 33.3333%, 0.984 35.1852%, 1.0006 37.037%, 1.0136 38.8889%, 1.0234 40.7407%, 1.0305 42.5926%, 1.0353 44.4444%, 1.0381 46.2963%, 1.0393 48.1481%, 1.0393 50%, 1.0382 51.8519%, 1.0364 53.7037%, 1.0341 55.5556%, 1.0314 57.4074%, 1.0284 59.2593%, 1.0254 61.1111%, 1.0224 62.963%, 1.0194 64.8148%, 1.0166 66.6667%, 1.014 68.5185%, 1.0116 70.3704%, 1.0094 72.2222%, 1.0075 74.0741%, 1.0057 75.9259%, 1.0042 77.7778%, 1.0029 79.6296%, 1.0019 81.4815%, 1.001 83.3333%, 1.0003 85.1852%, 0.9997 87.037%, 0.9992 88.8889%, 0.9989 90.7407%, 1 92.5926%, 1 94.4444%, 1 96.2963%, 1 98.1481%, 1 100%), height 0.55s linear(0 0%, 0.0134 1.85185%, 0.0492 3.7037%, 0.1017 5.55556%, 0.1659 7.40741%, 0.2377 9.25926%, 0.3134 11.1111%, 0.3904 12.963%, 0.4664 14.8148%, 0.5396 16.6667%, 0.6088 18.5185%, 0.673 20.3704%, 0.7317 22.2222%, 0.7846 24.0741%, 0.8315 25.9259%, 0.8726 27.7778%, 0.9081 29.6296%, 0.9382 31.4815%, 0.9634 33.3333%, 0.984 35.1852%, 1.0006 37.037%, 1.0136 38.8889%, 1.0234 40.7407%, 1.0305 42.5926%, 1.0353 44.4444%, 1.0381 46.2963%, 1.0393 48.1481%, 1.0393 50%, 1.0382 51.8519%, 1.0364 53.7037%, 1.0341 55.5556%, 1.0314 57.4074%, 1.0284 59.2593%, 1.0254 61.1111%, 1.0224 62.963%, 1.0194 64.8148%, 1.0166 66.6667%, 1.014 68.5185%, 1.0116 70.3704%, 1.0094 72.2222%, 1.0075 74.0741%, 1.0057 75.9259%, 1.0042 77.7778%, 1.0029 79.6296%, 1.0019 81.4815%, 1.001 83.3333%, 1.0003 85.1852%, 0.9997 87.037%, 0.9992 88.8889%, 0.9989 90.7407%, 1 92.5926%, 1 94.4444%, 1 96.2963%, 1 98.1481%, 1 100%), filter 0.55s linear(0 0%, 0.0134 1.85185%, 0.0492 3.7037%, 0.1017 5.55556%, 0.1659 7.40741%, 0.2377 9.25926%, 0.3134 11.1111%, 0.3904 12.963%, 0.4664 14.8148%, 0.5396 16.6667%, 0.6088 18.5185%, 0.673 20.3704%, 0.7317 22.2222%, 0.7846 24.0741%, 0.8315 25.9259%, 0.8726 27.7778%, 0.9081 29.6296%, 0.9382 31.4815%, 0.9634 33.3333%, 0.984 35.1852%, 1.0006 37.037%, 1.0136 38.8889%, 1.0234 40.7407%, 1.0305 42.5926%, 1.0353 44.4444%, 1.0381 46.2963%, 1.0393 48.1481%, 1.0393 50%, 1.0382 51.8519%, 1.0364 53.7037%, 1.0341 55.5556%, 1.0314 57.4074%, 1.0284 59.2593%, 1.0254 61.1111%, 1.0224 62.963%, 1.0194 64.8148%, 1.0166 66.6667%, 1.014 68.5185%, 1.0116 70.3704%, 1.0094 72.2222%, 1.0075 74.0741%, 1.0057 75.9259%, 1.0042 77.7778%, 1.0029 79.6296%, 1.0019 81.4815%, 1.001 83.3333%, 1.0003 85.1852%, 0.9997 87.037%, 0.9992 88.8889%, 0.9989 90.7407%, 1 92.5926%, 1 94.4444%, 1 96.2963%, 1 98.1481%, 1 100%)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 80,
+   "heading": null,
+   "background": "oklab(0.999998 -0.00000980496 0.0000234246 / 0.8)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "main",
+   "height": 4463,
+   "heading": "Animate yourAnimate your shadcn/uiRadix UIBase UIR",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 5
+  },
+  {
+   "tag": "section",
+   "height": 680,
+   "heading": "Animate yourAnimate your shadcn/uiRadix UIBase UIR",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "176px 20px 0px",
+   "children": 5
+  },
+  {
+   "tag": "section",
+   "height": 2439,
+   "heading": "Every primitive, alive.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 940,
+   "heading": "Ask for motion in plain words.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 20px",
+   "children": 5
+  },
+  {
+   "tag": "footer",
+   "height": 84,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "32px 20px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 18.97,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 12,
+  "tapTargetMedian": 32
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 18
+   },
+   {
+    "value": "0.3s",
+    "count": 18
+   },
+   {
+    "value": "0.35s",
+    "count": 3
+   },
+   {
+    "value": "0.2s",
+    "count": 2
+   },
+   {
+    "value": "0.55s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 36
+   },
+   {
+    "value": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+    "count": 3
+   },
+   {
+    "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+    "count": 2
+   },
+   {
+    "value": "linear(0 0%, 0.0134 1.85185%, 0.0492 3.7037%, 0.1017 5.55556%, 0.1659 7.40741%, 0.2377 9.25926%, 0.3134 11.1111%, 0.3904 12.963%, 0.4664 14.8148%, 0.5396 16.6667%, 0.6088 18.5185%, 0.673 20.3704%, 0.7317 22.2222%, 0.7846 24.0741%, 0.8315 25.9259%, 0.8726 27.7778%, 0.9081 29.6296%, 0.9382 31.4815%, 0.9634 33.3333%, 0.984 35.1852%, 1.0006 37.037%, 1.0136 38.8889%, 1.0234 40.7407%, 1.0305 42.5926%, 1.0353 44.4444%, 1.0381 46.2963%, 1.0393 48.1481%, 1.0393 50%, 1.0382 51.8519%, 1.0364 53.7037%, 1.0341 55.5556%, 1.0314 57.4074%, 1.0284 59.2593%, 1.0254 61.1111%, 1.0224 62.963%, 1.0194 64.8148%, 1.0166 66.6667%, 1.014 68.5185%, 1.0116 70.3704%, 1.0094 72.2222%, 1.0075 74.0741%, 1.0057 75.9259%, 1.0042 77.7778%, 1.0029 79.6296%, 1.0019 81.4815%, 1.001 83.3333%, 1.0003 85.1852%, 0.9997 87.037%, 0.9992 88.8889%, 0.9989 90.7407%, 1 92.5926%, 1 94.4444%, 1 96.2963%, 1 98.1481%, 1 100%)",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 32
+   },
+   {
+    "value": "background-color",
+    "count": 32
+   },
+   {
+    "value": "border-color",
+    "count": 32
+   },
+   {
+    "value": "outline-color",
+    "count": 32
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 32
+   },
+   {
+    "value": "fill",
+    "count": 32
+   },
+   {
+    "value": "stroke",
+    "count": 32
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 32
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 32
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 32
+   }
+  ]
+ }
+}

@@ -1,0 +1,2093 @@
+{
+ "id": "t345",
+ "overview": {
+  "name": "Drawably",
+  "url": "https://www.drawably.dev/",
+  "section": "效率工具",
+  "pagesScanned": [
+   "https://www.drawably.dev/"
+  ],
+  "subpages": [],
+  "sectionCount": 5,
+  "componentSamples": 106,
+  "typeSteps": 7
+ },
+ "colors": {
+  "roles": {
+   "border": {
+    "hex": "#2724d1",
+    "value": "#2724d1",
+    "token": "--drawably-stroke",
+    "source": "css-var",
+    "contrastOnBg": 1.91
+   },
+   "foreground": {
+    "hex": "#18181b",
+    "value": "#18181b",
+    "token": "--ink",
+    "source": "css-var",
+    "contrastOnBg": 1.0
+   },
+   "background": {
+    "hex": "#18181b",
+    "value": "oklab(0.210329 0.00161358 -0.00563219 / 0.07)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 2
+   },
+   {
+    "hex": "#e3e3e1",
+    "count": 1
+   },
+   {
+    "hex": "#2724d1",
+    "count": 1
+   },
+   {
+    "hex": "#18181b",
+    "count": 1
+   },
+   {
+    "hex": "#c2410c",
+    "count": 1
+   },
+   {
+    "hex": "#0f766e",
+    "count": 1
+   },
+   {
+    "hex": "#b45309",
+    "count": 1
+   },
+   {
+    "hex": "#6d4bd6",
+    "count": 1
+   },
+   {
+    "hex": "#474645",
+    "count": 50
+   },
+   {
+    "hex": "#a1a1aa",
+    "count": 44
+   }
+  ],
+  "backgroundsTotal": 11,
+  "textTotal": 15,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 29,
+    "tags": [
+     "button",
+     "label"
+    ],
+    "samples": [
+     "Button"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 59,
+    "tags": [
+     "p",
+     "span"
+    ],
+    "samples": [
+     "MIT"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 36,
+    "tags": [
+     "pre",
+     "span"
+    ],
+    "samples": [
+     "<DrawablyButton seed={2084582796}>"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "hover to re-sketch"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "500",
+    "lineHeight": "13px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 3,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "$ npm i drawably"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Drawably Pen",
+    "count": 10,
+    "tags": [
+     "label",
+     "li",
+     "a"
+    ],
+    "samples": [
+     "Pen"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Drawably Pen",
+    "count": 36,
+    "tags": [
+     "button",
+     "p",
+     "span"
+    ],
+    "samples": [
+     "Done"
+    ]
+   }
+  ],
+  "totalSteps": 11,
+  "families": [
+   "Drawably Pen",
+   "Geist Mono"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 56
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 2
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 44
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 2
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 70
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 13
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 12
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 49
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 94
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 5
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 1
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 14
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 1
+   },
+   {
+    "value": "34px",
+    "px": 34.0,
+    "count": 1
+   },
+   {
+    "value": "57.5px",
+    "px": 57.5,
+    "count": 2
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "880px",
+    "count": 1
+   },
+   {
+    "value": "481.536px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "2px",
+    "px": 2.0,
+    "count": 1
+   },
+   {
+    "value": "3px",
+    "px": 3.0,
+    "count": 27
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 13
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 1
+   },
+   {
+    "value": "50%",
+    "px": 50,
+    "count": 6
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "-1",
+    "count": 44
+   },
+   {
+    "value": "1",
+    "count": 12
+   },
+   {
+    "value": "3",
+    "count": 1
+   },
+   {
+    "value": "2",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 26,
+   "sizeBuckets": {
+    "lg": 7,
+    "sm": 11,
+    "xl": 2,
+    "md": 6
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "agent.md",
+      "tag": "button",
+      "height": 40,
+      "width": 87,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 170)",
+      "border": "0px none rgb(161, 161, 170)",
+      "fontSize": "11px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "6px",
+      "contrast": 8.19
+     },
+     {
+      "text": "Done",
+      "tag": "button",
+      "height": 38,
+      "width": 72,
+      "padding": "6px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(227, 227, 225)",
+      "border": "0px none rgb(227, 227, 225)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.12s",
+      "gap": "normal",
+      "contrast": 16.34
+     },
+     {
+      "text": "Cancel",
+      "tag": "button",
+      "height": 39,
+      "width": 85,
+      "padding": "6px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 103, 95)",
+      "border": "0px none rgb(110, 103, 95)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.12s",
+      "gap": "normal",
+      "contrast": 3.77
+     },
+     {
+      "text": "Save",
+      "tag": "button",
+      "height": 38,
+      "width": 71,
+      "padding": "6px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(39, 36, 209)",
+      "border": "0px none rgb(39, 36, 209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.12s",
+      "gap": "normal",
+      "contrast": 2.26
+     }
+    ],
+    "sm": [
+     {
+      "text": "Button",
+      "tag": "button",
+      "height": 24,
+      "width": 59,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "3px",
+      "background": "oklab(0.210329 0.00161358 -0.00563219 / 0.07)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background-color 0.16s cubic-bezier(0.2, 0, 0, 1), transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Solid",
+      "tag": "button",
+      "height": 24,
+      "width": 52,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "3px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 170)",
+      "border": "0px none rgb(161, 161, 170)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background-color 0.16s cubic-bezier(0.2, 0, 0, 1), transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 8.19
+     },
+     {
+      "text": "mixed",
+      "tag": "button",
+      "height": 14,
+      "width": 48,
+      "padding": "0px 6px",
+      "margin": "0px",
+      "radius": "3px",
+      "background": "oklab(0.210329 0.00161358 -0.00563219 / 0.07)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.12s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.16s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "pen",
+      "tag": "button",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgb(39, 36, 209)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.12s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.16s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 2.26
+     }
+    ],
+    "xl": [
+     {
+      "text": "Done",
+      "tag": "button",
+      "height": 108,
+      "width": 165,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "oklab(0.423455 -0.000845671 -0.246526 / 0.09)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.16s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Save",
+      "tag": "button",
+      "height": 108,
+      "width": 165,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.16s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "Done",
+      "tag": "button",
+      "height": 36,
+      "width": 71,
+      "padding": "6px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(39, 36, 209)",
+      "border": "0px none rgb(39, 36, 209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.12s",
+      "gap": "normal",
+      "contrast": 2.26
+     },
+     {
+      "text": "Save",
+      "tag": "button",
+      "height": 36,
+      "width": 70,
+      "padding": "6px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.12s",
+      "gap": "normal",
+      "contrast": 1.19
+     },
+     {
+      "text": "Ship it",
+      "tag": "button",
+      "height": 36,
+      "width": 79,
+      "padding": "6px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(194, 65, 12)",
+      "border": "0px none rgb(194, 65, 12)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.12s",
+      "gap": "normal",
+      "contrast": 4.06
+     },
+     {
+      "text": "Retry",
+      "tag": "button",
+      "height": 36,
+      "width": 78,
+      "padding": "6px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 118, 110)",
+      "border": "0px none rgb(15, 118, 110)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.12s",
+      "gap": "normal",
+      "contrast": 3.84
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 3,
+   "sizeBuckets": {
+    "lg": 3
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 40,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 170)",
+      "border": "0px none rgb(161, 161, 170)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 8.19
+     },
+     {
+      "text": "Drawably",
+      "tag": "a",
+      "height": 40,
+      "width": 90,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 170)",
+      "border": "0px none rgb(161, 161, 170)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 8.19
+     },
+     {
+      "text": "Pick",
+      "tag": "a",
+      "height": 40,
+      "width": 90,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 1.19
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 2,
+    "lg": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 47,
+      "width": 201,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     },
+     {
+      "text": "Note",
+      "tag": "textarea",
+      "height": 64,
+      "width": 172,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     }
+    ],
+    "lg": [
+     {
+      "text": "Pen Pencil Marker",
+      "tag": "select",
+      "height": 43,
+      "width": 98,
+      "padding": "8px 34px 8px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.19
+     }
+    ],
+    "sm": [
+     {
+      "text": "1",
+      "tag": "input",
+      "height": 16,
+      "width": 96,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(16, 16, 16)",
+      "border": "0px none rgb(16, 16, 16)",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.03
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 11,
+   "sizeBuckets": {
+    "xl": 11
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Every stroke is generated at l",
+      "tag": "div",
+      "height": 96,
+      "width": 223,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     },
+     {
+      "text": "$ npm i drawably",
+      "tag": "div",
+      "height": 52,
+      "width": 169,
+      "padding": "6px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     },
+     {
+      "text": "import  DrawablyButton \nfrom \"",
+      "tag": "div",
+      "height": 136,
+      "width": 279,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     },
+     {
+      "text": "import  drawablyButton  from \"",
+      "tag": "div",
+      "height": 138,
+      "width": 420,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Drawably Pick Install API",
+      "tag": "nav",
+      "height": 2120,
+      "width": 90,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Hand-drawn UI. Fresh pen sketc",
+      "tag": "p",
+      "height": 50,
+      "width": 306,
+      "padding": "0px",
+      "margin": "14px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     }
+    ],
+    "sm": [
+     {
+      "text": "v0.4.2",
+      "tag": "p",
+      "height": 25,
+      "width": 61,
+      "padding": "1px 7px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "12.5px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "drawably",
+      "tag": "h1",
+      "height": 119,
+      "width": 365,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "88px",
+      "fontWeight": "600",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "83.6px",
+      "letterSpacing": "-3.52px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     },
+     {
+      "text": "Every mount is a new sketch. P",
+      "tag": "h2",
+      "height": 117,
+      "width": 482,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "34px",
+      "fontWeight": "600",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "39.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 13,
+   "sizeBuckets": {
+    "sm": 4,
+    "xl": 3,
+    "lg": 1,
+    "md": 5
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "hover to re-sketch",
+      "tag": "p",
+      "height": 24,
+      "width": 141,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "MIT",
+      "tag": "p",
+      "height": 21,
+      "width": 25,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "v0.4.2",
+      "tag": "p",
+      "height": 25,
+      "width": 61,
+      "padding": "1px 7px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "12.5px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "drawablyToggle(wrap, opts)",
+      "tag": "p",
+      "height": 28,
+      "width": 196,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     }
+    ],
+    "xl": [
+     {
+      "text": "Hand-drawn UI. Fresh pen sketc",
+      "tag": "p",
+      "height": 50,
+      "width": 306,
+      "padding": "0px",
+      "margin": "14px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "Every stroke is generated at l",
+      "tag": "p",
+      "height": 63,
+      "width": 190,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "18.85px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "Twenty-five pieces, twelve han",
+      "tag": "p",
+      "height": 72,
+      "width": 482,
+      "padding": "0px",
+      "margin": "10px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     }
+    ],
+    "lg": [
+     {
+      "text": "drawablyButton(el, opts)",
+      "tag": "p",
+      "height": 37,
+      "width": 181,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     }
+    ],
+    "md": [
+     {
+      "text": "drawablyCheckbox(wrap, opts)",
+      "tag": "p",
+      "height": 36,
+      "width": 211,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "drawablyInput(wrap, opts)",
+      "tag": "p",
+      "height": 31,
+      "width": 188,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "drawablyCard(el, opts)",
+      "tag": "p",
+      "height": 32,
+      "width": 166,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "drawablyDivider(el, opts)",
+      "tag": "p",
+      "height": 34,
+      "width": 188,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "18.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "zero deps real inputs boils in",
+      "tag": "ul",
+      "height": 67,
+      "width": 106,
+      "padding": "0px 0px 0px 24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "Drawably Pick Install API",
+      "tag": "ol",
+      "height": 160,
+      "width": 90,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Button Solid Scribble Checkbox",
+      "tag": "div",
+      "height": 50,
+      "width": 832,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": 1.19
+     }
+    ],
+    "sm": [
+     {
+      "text": "Button",
+      "tag": "button",
+      "height": 24,
+      "width": 59,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "3px",
+      "background": "oklab(0.210329 0.00161358 -0.00563219 / 0.07)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background-color 0.16s cubic-bezier(0.2, 0, 0, 1), transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Solid",
+      "tag": "button",
+      "height": 24,
+      "width": 52,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "3px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 170)",
+      "border": "0px none rgb(161, 161, 170)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s cubic-bezier(0.2, 0, 0, 1), background-color 0.16s cubic-bezier(0.2, 0, 0, 1), transform 0.12s cubic-bezier(0.2, 0, 0, 1)",
+      "gap": "normal",
+      "contrast": 8.19
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 1,
+   "sizeBuckets": {
+    "lg": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Pen Pencil Marker",
+      "tag": "div",
+      "height": 43,
+      "width": 98,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 37,
+   "sizeBuckets": {
+    "sm": 10,
+    "lg": 6,
+    "xl": 15,
+    "md": 6
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 170)",
+      "border": "0px none rgb(161, 161, 170)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.19
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 12,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(161, 161, 170)",
+      "border": "0px none rgb(161, 161, 170)",
+      "fontSize": "11px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.19
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 23,
+      "width": 23,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 80,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(71, 70, 69)",
+      "border": "0px none rgb(71, 70, 69)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 38,
+      "width": 72,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(227, 227, 225)",
+      "border": "0px none rgb(227, 227, 225)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 16.34
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 39,
+      "width": 85,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 103, 95)",
+      "border": "0px none rgb(110, 103, 95)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.77
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 38,
+      "width": 71,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(39, 36, 209)",
+      "border": "0px none rgb(39, 36, 209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.26
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 39,
+      "width": 79,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(209, 39, 36)",
+      "border": "0px none rgb(209, 39, 36)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.03
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 47,
+      "width": 201,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 119,
+      "width": 365,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "88px",
+      "fontWeight": "600",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "83.6px",
+      "letterSpacing": "-3.52px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 64,
+      "width": 172,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 96,
+      "width": 223,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 36,
+      "width": 71,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(39, 36, 209)",
+      "border": "0px none rgb(39, 36, 209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.26
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 36,
+      "width": 70,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(24, 24, 27)",
+      "border": "0px none rgb(24, 24, 27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.19
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 36,
+      "width": 79,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(194, 65, 12)",
+      "border": "0px none rgb(194, 65, 12)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.06
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 36,
+      "width": 78,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 118, 110)",
+      "border": "0px none rgb(15, 118, 110)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.84
+     }
+    ]
+   }
+  },
+  "divider": {
+   "label": "分割线",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "hr",
+      "height": 13,
+      "width": 88,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(128, 128, 128)",
+      "border": "0px none rgb(128, 128, 128)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Drawably Pen",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.32
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "section",
+   "height": 813,
+   "heading": "drawably",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "72px 57.6px",
+   "children": 4
+  },
+  {
+   "tag": "nav",
+   "height": 2120,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 900,
+   "heading": "Every mount is a new sketch. Pick the one you like",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "96px 24px 64px",
+   "children": 4
+  },
+  {
+   "tag": "section",
+   "height": 813,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 813,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 17.72,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 14,
+  "tapTargetMedian": 36
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.12s",
+    "count": 170
+   },
+   {
+    "value": "0.16s",
+    "count": 86
+   },
+   {
+    "value": "0.3s",
+    "count": 18
+   },
+   {
+    "value": "0.48s",
+    "count": 8
+   },
+   {
+    "value": "0.24s",
+    "count": 3
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.2, 0, 0, 1)",
+    "count": 152
+   },
+   {
+    "value": "ease",
+    "count": 114
+   }
+  ],
+  "properties": [
+   {
+    "value": "transform",
+    "count": 71
+   },
+   {
+    "value": "stroke-width",
+    "count": 57
+   },
+   {
+    "value": "fill",
+    "count": 57
+   },
+   {
+    "value": "background-color",
+    "count": 38
+   },
+   {
+    "value": "color",
+    "count": 32
+   },
+   {
+    "value": "opacity",
+    "count": 10
+   },
+   {
+    "value": "box-shadow",
+    "count": 7
+   },
+   {
+    "value": "filter",
+    "count": 6
+   },
+   {
+    "value": "translate",
+    "count": 4
+   },
+   {
+    "value": "stroke-dashoffset",
+    "count": 3
+   }
+  ]
+ }
+}

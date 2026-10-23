@@ -1,0 +1,1733 @@
+{
+ "id": "p114",
+ "overview": {
+  "name": "Anthony Fu",
+  "url": "https://antfu.me/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://antfu.me/",
+   "https://antfu.me/posts",
+   "https://antfu.me/projects",
+   "https://antfu.me/talks"
+  ],
+  "subpages": [
+   "/posts",
+   "/projects",
+   "/talks"
+  ],
+  "sectionCount": 4,
+  "componentSamples": 52,
+  "typeSteps": 15
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--c-bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "warning": {
+    "hex": "#9a6700",
+    "value": "#9a6700",
+    "token": "--color-warning",
+    "source": "css-var",
+    "contrastOnBg": 4.87
+   },
+   "border": {
+    "hex": "#c37d0d",
+    "value": "#c37d0d",
+    "token": "--twoslash-highlighted-border",
+    "source": "css-var",
+    "contrastOnBg": 3.35
+   },
+   "foreground": {
+    "hex": "#374151",
+    "value": "#374151",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 10.31
+   },
+   "primary": {
+    "hex": "#bc4c00",
+    "value": "#bc4c00",
+    "token": "--color-severe",
+    "source": "palette",
+    "contrastOnBg": 5.03
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#374151",
+    "count": 139
+   },
+   {
+    "hex": "#000000",
+    "count": 118
+   },
+   {
+    "hex": "#a1a1aa",
+    "count": 21
+   },
+   {
+    "hex": "#888888",
+    "count": 19
+   },
+   {
+    "hex": "#ffffff",
+    "count": 5
+   },
+   {
+    "hex": "#555555",
+    "count": 4
+   },
+   {
+    "hex": "#222222",
+    "count": 23
+   },
+   {
+    "hex": "#71717a",
+    "count": 21
+   }
+  ],
+  "backgroundsTotal": 7,
+  "textTotal": 7,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 18,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "日本語"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "700",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "日本語"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 46,
+    "tags": [
+     "li",
+     "a"
+    ],
+    "samples": [
+     "Current Focus"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 123,
+    "tags": [
+     "span",
+     "a"
+    ],
+    "samples": [
+     "How does this work?"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 284,
+    "tags": [
+     "p",
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Hey! I’m Anthony Fu, a fanatical open so"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Roboto Condensed",
+    "count": 19,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Vercel"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 34,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Anthony Fu @ antfu.me"
+    ]
+   },
+   {
+    "size": "17.5px",
+    "px": 17.5,
+    "weight": "400",
+    "lineHeight": "26.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 126,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "DevframeFramework-neutral foundation for"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "21.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 55,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Pluggable, Extensible, and Playful DevTo"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Projects that I created or maintaining."
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "700",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 19,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Introducing Vite DevTools #"
+    ]
+   },
+   {
+    "size": "30px",
+    "px": 30.0,
+    "weight": "400",
+    "lineHeight": "36px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 10,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Blog"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "800",
+    "lineHeight": "40px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "Anthony Fu"
+    ]
+   },
+   {
+    "size": "80px",
+    "px": 80.0,
+    "weight": "700",
+    "lineHeight": "80px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 23,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Current Focus"
+    ]
+   },
+   {
+    "size": "128px",
+    "px": 128.0,
+    "weight": "700",
+    "lineHeight": "224px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 7,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "2026"
+    ]
+   }
+  ],
+  "totalSteps": 16,
+  "families": [
+   "Inter",
+   "Roboto Condensed",
+   "ui-serif"
+  ],
+  "weights": [
+   "400",
+   "700",
+   "800"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 139
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 38
+   },
+   {
+    "value": "6.5px",
+    "px": 6.5,
+    "count": 23
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 832
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 14
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 76
+   },
+   {
+    "value": "13px",
+    "px": 13.0,
+    "count": 23
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 378
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 102
+   },
+   {
+    "value": "19px",
+    "px": 19.0,
+    "count": 8
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 183
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 78
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 8
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 26
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 14
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 19
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "2000px",
+    "count": 23
+   },
+   {
+    "value": "656.094px",
+    "count": 16
+   },
+   {
+    "value": "1200px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "2px",
+    "px": 2.0,
+    "count": 19
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 50
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 126
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "40",
+    "count": 4
+   },
+   {
+    "value": "-1",
+    "count": 4
+   },
+   {
+    "value": "200",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 3,
+   "sizeBuckets": {
+    "lg": 2,
+    "sm": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Sponsor the Ecosystem",
+      "tag": "a",
+      "height": 42,
+      "width": 225,
+      "padding": "8px 8px 8px 12px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgba(136, 136, 136, 0.27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border 0.3s ease-in-out",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Sponsor to support Anthony",
+      "tag": "a",
+      "height": 38,
+      "width": 259,
+      "padding": "4px 10px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgba(136, 136, 136, 0.27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border 0.3s ease-in-out",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "English Only",
+      "tag": "button",
+      "height": 20,
+      "width": 103,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 2.82
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 20,
+   "sizeBuckets": {
+    "xl": 5,
+    "sm": 10,
+    "md": 2,
+    "lg": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Anthony Fu @ antfu.me",
+      "tag": "a",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.04
+     },
+     {
+      "text": "photos on this page",
+      "tag": "a",
+      "height": 49,
+      "width": 655,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border 0.3s ease-in-out",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "DevframeFramework-neutral foun",
+      "tag": "a",
+      "height": 88,
+      "width": 350,
+      "padding": "8px 14px 14px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "17.6px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s ease-out",
+      "gap": "normal",
+      "contrast": 2.04
+     },
+     {
+      "text": "Nuxt Server FunctionsServer fu",
+      "tag": "a",
+      "height": 69,
+      "width": 350,
+      "padding": "8px 14px 14px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "17.6px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s ease-out",
+      "gap": "normal",
+      "contrast": 2.04
+     }
+    ],
+    "sm": [
+     {
+      "text": "Blog",
+      "tag": "a",
+      "height": 24,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s",
+      "gap": "normal",
+      "contrast": 2.04
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 26,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s",
+      "gap": "normal",
+      "contrast": 2.04
+     },
+     {
+      "text": "Vercel",
+      "tag": "a",
+      "height": 26,
+      "width": 73,
+      "padding": "4px 6px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(136, 136, 136, 0.133)",
+      "color": "rgb(136, 136, 136)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Roboto Condensed",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border 0.3s ease-in-out",
+      "gap": "4px",
+      "contrast": 1
+     },
+     {
+      "text": "full projects list here",
+      "tag": "a",
+      "height": 21,
+      "width": 153,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border 0.3s ease-in-out",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 29,
+      "width": 76,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border 0.3s ease-in-out",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Blog",
+      "tag": "a",
+      "height": 36,
+      "width": 63,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(229, 231, 235)",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border 0.3s ease-in-out",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "lg": [
+     {
+      "text": "Sponsor the Ecosystem",
+      "tag": "a",
+      "height": 42,
+      "width": 225,
+      "padding": "8px 8px 8px 12px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgba(136, 136, 136, 0.27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border 0.3s ease-in-out",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Sponsor to support Anthony",
+      "tag": "a",
+      "height": 38,
+      "width": 259,
+      "padding": "4px 10px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgba(136, 136, 136, 0.27)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border 0.3s ease-in-out",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "How I Manage GitHub Notificati",
+      "tag": "a",
+      "height": 42,
+      "width": 656,
+      "padding": "0px",
+      "margin": "8px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border 0.3s ease-in-out",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Hey! I’m Anthony Fu, a fanatic",
+      "tag": "article",
+      "height": 933,
+      "width": 1384,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.04
+     },
+     {
+      "text": "English Only  Blog  Talks  Pod",
+      "tag": "article",
+      "height": 3296,
+      "width": 1384,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.04
+     },
+     {
+      "text": "Projects that I created or mai",
+      "tag": "article",
+      "height": 7676,
+      "width": 1384,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.04
+     },
+     {
+      "text": "English Only  Blog  Talks  Pod",
+      "tag": "article",
+      "height": 6026,
+      "width": 1384,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.04
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Anthony Fu @ antfu.meBlogProje",
+      "tag": "header",
+      "height": 90,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.04
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 3,
+   "sizeBuckets": {
+    "lg": 1,
+    "md": 1,
+    "xl": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Anthony Fu",
+      "tag": "h1",
+      "height": 40,
+      "width": 656,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "36px",
+      "fontWeight": "800",
+      "fontFamily": "Inter",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "Introducing Vite DevTools #",
+      "tag": "h2",
+      "height": 32,
+      "width": 656,
+      "padding": "0px",
+      "margin": "48px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "31.9999px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     }
+    ],
+    "xl": [
+     {
+      "text": "Anthony's Road to Open Source ",
+      "tag": "h2",
+      "height": 64,
+      "width": 656,
+      "padding": "0px",
+      "margin": "48px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "31.9999px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 9,
+   "sizeBuckets": {
+    "sm": 2,
+    "xl": 4,
+    "md": 1,
+    "lg": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Hey! I’m Anthony Fu, a fanatic",
+      "tag": "p",
+      "height": 28,
+      "width": 656,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     },
+     {
+      "text": "Projects that I created or mai",
+      "tag": "p",
+      "height": 28,
+      "width": 1200,
+      "padding": "0px",
+      "margin": "-24px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.04
+     }
+    ],
+    "xl": [
+     {
+      "text": "Working at Vercel / Nuxt Creat",
+      "tag": "p",
+      "height": 148,
+      "width": 656,
+      "padding": "0px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     },
+     {
+      "text": "Dreaming up cool ideas and mak",
+      "tag": "p",
+      "height": 84,
+      "width": 656,
+      "padding": "0px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     },
+     {
+      "text": "I give talks and write blog po",
+      "tag": "p",
+      "height": 113,
+      "width": 656,
+      "padding": "0px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     },
+     {
+      "text": "Outside of programming, I enjo",
+      "tag": "p",
+      "height": 56,
+      "width": 656,
+      "padding": "0px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     }
+    ],
+    "md": [
+     {
+      "text": "GitHub Bluesky Discord Server ",
+      "tag": "p",
+      "height": 29,
+      "width": 656,
+      "padding": "0px",
+      "margin": "-8px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 2.82
+     }
+    ],
+    "lg": [
+     {
+      "text": "Sponsor the Ecosystem How does",
+      "tag": "p",
+      "height": 42,
+      "width": 656,
+      "padding": "0px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 2.82
+     },
+     {
+      "text": "Sponsor to support Anthony  在爱",
+      "tag": "p",
+      "height": 38,
+      "width": 656,
+      "padding": "0px",
+      "margin": "20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 2.82
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "2026Pluggable, Extensible, and",
+      "tag": "ul",
+      "height": 3200,
+      "width": 656,
+      "padding": "0px",
+      "margin": "20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 3,
+   "sizeBuckets": {
+    "md": 1,
+    "xl": 1,
+    "sm": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(55, 65, 81)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "Current FocusNuxt EcosystemDev",
+      "tag": "div",
+      "height": 723,
+      "width": 300,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "12.8px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.04
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 27,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px 8px",
+      "radius": "4px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgba(136, 136, 136, 0.47)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "transition": "color 0.4s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), fill 0.4s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1), transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), filter 0.4s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.4s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.4s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 3.54
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 1,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Anthony Fu @ antfu.me",
+      "tag": "a",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.04
+     },
+     {
+      "text": "English Only  Blog  Talks  Pod",
+      "tag": "div",
+      "height": 64,
+      "width": 656,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 24,
+      "width": 19,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s",
+      "gap": "normal",
+      "contrast": 2.04
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(55, 65, 81)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 1,
+    "md": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Anthony Fu @ antfu.me",
+      "tag": "svg",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.04
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.04
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(55, 65, 81)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.04
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 90,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "nav",
+   "height": 90,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "32px",
+   "children": 2
+  },
+  {
+   "tag": "main",
+   "height": 1169,
+   "heading": "Anthony Fu",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "40px 28px",
+   "children": 4
+  },
+  {
+   "tag": "article",
+   "height": 933,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 10.31,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 15,
+  "tapTargetMedian": 29
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.3s",
+    "count": 40
+   },
+   {
+    "value": "0.2s",
+    "count": 14
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease-in-out",
+    "count": 39
+   },
+   {
+    "value": "cubic-bezier(0, 0, 0.2, 1)",
+    "count": 3
+   },
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "border",
+    "count": 39
+   },
+   {
+    "value": "opacity",
+    "count": 12
+   },
+   {
+    "value": "color",
+    "count": 1
+   },
+   {
+    "value": "background-color",
+    "count": 1
+   },
+   {
+    "value": "border-color",
+    "count": 1
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 1
+   },
+   {
+    "value": "fill",
+    "count": 1
+   },
+   {
+    "value": "stroke",
+    "count": 1
+   },
+   {
+    "value": "box-shadow",
+    "count": 1
+   },
+   {
+    "value": "transform",
+    "count": 1
+   }
+  ]
+ }
+}

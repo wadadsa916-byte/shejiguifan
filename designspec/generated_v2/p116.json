@@ -1,0 +1,1152 @@
+{
+ "id": "p116",
+ "overview": {
+  "name": "Aditya Sur",
+  "url": "https://ample.studio/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://ample.studio/"
+  ],
+  "subpages": [],
+  "sectionCount": 24,
+  "componentSamples": 27,
+  "typeSteps": 3
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#f3f3f3",
+    "value": "#f3f3f3",
+    "token": "--surface",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#161616",
+    "value": "#161616",
+    "token": "--foreground",
+    "source": "css-var",
+    "contrastOnBg": 16.31
+   },
+   "active": {
+    "hex": "#1c1c1e",
+    "value": "#1c1c1e",
+    "token": "--pill-active",
+    "source": "css-var",
+    "contrastOnBg": 15.33
+   },
+   "muted": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": "--faint",
+    "source": "css-var",
+    "contrastOnBg": 18.93
+   },
+   "border": {
+    "hex": "#f3f3f3",
+    "value": "#f3f3f3",
+    "token": "--line",
+    "source": "css-var",
+    "contrastOnBg": 1.0
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#dbdbdb",
+    "count": 17
+   },
+   {
+    "hex": "#ffffff",
+    "count": 6
+   },
+   {
+    "hex": "#f2f2f2",
+    "count": 2
+   },
+   {
+    "hex": "#0d99ff",
+    "count": 1
+   },
+   {
+    "hex": "#f3f3f3",
+    "count": 1
+   },
+   {
+    "hex": "#161616",
+    "count": 1
+   },
+   {
+    "hex": "#1c1c1e",
+    "count": 1
+   },
+   {
+    "hex": "#0b0b0b",
+    "count": 1
+   },
+   {
+    "hex": "#fafafa",
+    "count": 1
+   },
+   {
+    "hex": "#000000",
+    "count": 3
+   }
+  ],
+  "backgroundsTotal": 10,
+  "textTotal": 5,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 5,
+    "tags": [
+     "a",
+     "p",
+     "button"
+    ],
+    "samples": [
+     "@adityasur11"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 8,
+    "tags": [
+     "a",
+     "span",
+     "strong",
+     "button"
+    ],
+    "samples": [
+     "Let’s chat"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 11,
+    "tags": [
+     "h1",
+     "h2",
+     "span"
+    ],
+    "samples": [
+     "Aditya sur"
+    ]
+   }
+  ],
+  "totalSteps": 4,
+  "families": [
+   "GeistSans"
+  ],
+  "weights": [
+   "400",
+   "500"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 5
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 4
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 8
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 46
+   },
+   {
+    "value": "30px",
+    "px": 30.0,
+    "count": 16
+   }
+  ],
+  "inferredBaseUnit": 5,
+  "containerWidths": []
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 1
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 23
+   },
+   {
+    "value": "100px",
+    "px": 100.0,
+    "count": 4
+   },
+   {
+    "value": "139px",
+    "px": 139.0,
+    "count": 1
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 2
+   },
+   {
+    "value": "5",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 8,
+   "sizeBuckets": {
+    "sm": 3,
+    "md": 5
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Toggle color theme",
+      "tag": "button",
+      "height": 20,
+      "width": 20,
+      "padding": "3px",
+      "margin": "0px",
+      "radius": "5px",
+      "background": "rgb(243, 243, 243)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 16.31
+     },
+     {
+      "text": "Let’s chat",
+      "tag": "span",
+      "height": 16,
+      "width": 70,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "5px",
+      "contrast": 1.16
+     },
+     {
+      "text": "Book a call",
+      "tag": "span",
+      "height": 16,
+      "width": 83,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "5px",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "Let’s chatBook a call",
+      "tag": "nav",
+      "height": 32,
+      "width": 520,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 1.16
+     },
+     {
+      "text": "Let’s chat",
+      "tag": "a",
+      "height": 32,
+      "width": 90,
+      "padding": "8px 10px",
+      "margin": "0px",
+      "radius": "100px",
+      "background": "rgb(242, 242, 242)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "filter 0.18s",
+      "gap": "normal",
+      "contrast": 16.16
+     },
+     {
+      "text": "Book a call",
+      "tag": "a",
+      "height": 32,
+      "width": 103,
+      "padding": "8px 10px",
+      "margin": "0px",
+      "radius": "100px",
+      "background": "rgb(22, 22, 22)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "filter 0.18s",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "Work",
+      "tag": "button",
+      "height": 31,
+      "width": 125,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "100px",
+      "background": "rgb(28, 28, 30)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.18s, background-color 0.18s",
+      "gap": "normal",
+      "contrast": 17.01
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 1,
+    "md": 2,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "@adityasur11",
+      "tag": "a",
+      "height": 16,
+      "width": 70,
+      "padding": "0px",
+      "margin": "5px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.4)",
+      "border": "0px none rgba(0, 0, 0, 0.4)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.18s",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "Let’s chat",
+      "tag": "a",
+      "height": 32,
+      "width": 90,
+      "padding": "8px 10px",
+      "margin": "0px",
+      "radius": "100px",
+      "background": "rgb(242, 242, 242)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "filter 0.18s",
+      "gap": "normal",
+      "contrast": 16.16
+     },
+     {
+      "text": "Book a call",
+      "tag": "a",
+      "height": 32,
+      "width": 103,
+      "padding": "8px 10px",
+      "margin": "0px",
+      "radius": "100px",
+      "background": "rgb(22, 22, 22)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "filter 0.18s",
+      "gap": "normal",
+      "contrast": 18.1
+     }
+    ],
+    "xl": [
+     {
+      "text": "Your browser does not support ",
+      "tag": "a",
+      "height": 543,
+      "width": 800,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Your browser does not support ",
+      "tag": "article",
+      "height": 543,
+      "width": 800,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "15px",
+      "contrast": 1.16
+     },
+     {
+      "text": "Your browser does not support ",
+      "tag": "article",
+      "height": 510,
+      "width": 800,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "15px",
+      "contrast": 1.16
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Let’s chatBook a call",
+      "tag": "nav",
+      "height": 32,
+      "width": 520,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 1.16
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Aditya sur",
+      "tag": "h1",
+      "height": 18,
+      "width": 105,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "I'm an independent product & b",
+      "tag": "p",
+      "height": 48,
+      "width": 520,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.3)",
+      "border": "0px none rgba(0, 0, 0, 0.3)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "I've partnered with founders a",
+      "tag": "p",
+      "height": 32,
+      "width": 520,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.3)",
+      "border": "0px none rgba(0, 0, 0, 0.3)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 1,
+    "lg": 1,
+    "md": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "WorkInteractions",
+      "tag": "div",
+      "height": 82,
+      "width": 860,
+      "padding": "30px 30px 15px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "color(srgb 1 1 1 / 0.92)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "WorkInteractions",
+      "tag": "div",
+      "height": 37,
+      "width": 256,
+      "padding": "3px",
+      "margin": "0px",
+      "radius": "139px",
+      "background": "rgb(242, 242, 242)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 16.16
+     }
+    ],
+    "md": [
+     {
+      "text": "Work",
+      "tag": "button",
+      "height": 31,
+      "width": 125,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "100px",
+      "background": "rgb(28, 28, 30)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.18s, background-color 0.18s",
+      "gap": "normal",
+      "contrast": 17.01
+     },
+     {
+      "text": "Interactions",
+      "tag": "button",
+      "height": 31,
+      "width": 125,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "100px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.4)",
+      "border": "0px none rgba(0, 0, 0, 0.4)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.18s, background-color 0.18s",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "avatar": {
+   "label": "头像",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 105,
+      "width": 105,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
+      "gap": "normal",
+      "contrast": 1.16
+     },
+     {
+      "text": "",
+      "tag": "img",
+      "height": 108,
+      "width": 108,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(22, 22, 22)",
+      "border": "0px none rgb(22, 22, 22)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.16
+     },
+     {
+      "text": "",
+      "tag": "img",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.36s, transform 0.62s cubic-bezier(0.16, 1, 0.3, 1), filter 0.26s",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "img",
+      "height": 10,
+      "width": 10,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "filter 0.18s",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 813,
+   "heading": "Aditya sur",
+   "background": "rgb(255, 255, 255)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "aside",
+   "height": 813,
+   "heading": "Aditya sur",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "30px",
+   "children": 5
+  },
+  {
+   "tag": "section",
+   "height": 178,
+   "heading": "Hello,Hello,",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 4
+  },
+  {
+   "tag": "section",
+   "height": 813,
+   "heading": "Featured by Figma",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 543,
+   "heading": "Featured by Figma",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 510,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 16.31,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 32
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.22s",
+    "count": 9
+   },
+   {
+    "value": "0.18s",
+    "count": 8
+   },
+   {
+    "value": "0.3s",
+    "count": 2
+   },
+   {
+    "value": "0.36s",
+    "count": 2
+   },
+   {
+    "value": "0.62s",
+    "count": 2
+   },
+   {
+    "value": "0.26s",
+    "count": 2
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 8
+   },
+   {
+    "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "count": 4
+   },
+   {
+    "value": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "opacity",
+    "count": 10
+   },
+   {
+    "value": "transform",
+    "count": 5
+   },
+   {
+    "value": "filter",
+    "count": 5
+   },
+   {
+    "value": "color",
+    "count": 3
+   },
+   {
+    "value": "background-color",
+    "count": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,3160 @@
+{
+ "id": "t131",
+ "overview": {
+  "name": "Kokonut UI",
+  "url": "https://kokonutui.com/",
+  "section": "组件库",
+  "pagesScanned": [
+   "https://kokonutui.com/",
+   "https://kokonutui.com/docs"
+  ],
+  "subpages": [
+   "/docs"
+  ],
+  "sectionCount": 9,
+  "componentSamples": 193,
+  "typeSteps": 40
+ },
+ "colors": {
+  "roles": {
+   "border": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": "--color-fd-border",
+    "source": "css-var",
+    "contrastOnBg": 21.0
+   },
+   "foreground": {
+    "hex": "#0a0a0a",
+    "value": "#0a0a0a",
+    "token": "--color-fd-foreground",
+    "source": "css-var",
+    "contrastOnBg": 19.8
+   },
+   "muted": {
+    "hex": "#f5f5f5",
+    "value": "#f5f5f5",
+    "token": "--color-fd-muted",
+    "source": "css-var",
+    "contrastOnBg": 1.09
+   },
+   "focus": {
+    "hex": "#a3a3a3",
+    "value": "#a3a3a3",
+    "token": "--color-fd-ring",
+    "source": "css-var",
+    "contrastOnBg": 2.52
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--color-fd-background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "primary": {
+    "hex": "#e60a64",
+    "value": "#e60a64",
+    "token": "--color-fd-diff-remove-symbol",
+    "source": "palette",
+    "contrastOnBg": 4.57
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 78
+   },
+   {
+    "hex": "#f5f5f5",
+    "count": 6
+   },
+   {
+    "hex": "#f4f4f4",
+    "count": 5
+   },
+   {
+    "hex": "#000000",
+    "count": 2
+   },
+   {
+    "hex": "#ff2d55",
+    "count": 2
+   },
+   {
+    "hex": "#f4f4f5",
+    "count": 1
+   },
+   {
+    "hex": "#d4d4d8",
+    "count": 1
+   },
+   {
+    "hex": "#a1a1aa",
+    "count": 1
+   },
+   {
+    "hex": "#52525b",
+    "count": 1
+   },
+   {
+    "hex": "#18181b",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 28,
+  "textTotal": 36,
+  "bordersTotal": 5
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "10.5px",
+    "px": 10.5,
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 97,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "PRO"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "16.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 79,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "New"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "15.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 80,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "BG-01"
+    ]
+   },
+   {
+    "size": "11.5px",
+    "px": 11.5,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 194,
+    "tags": [
+     "p",
+     "span",
+     "button",
+     "a"
+    ],
+    "samples": [
+     "Component catalog"
+    ]
+   },
+   {
+    "size": "11.5px",
+    "px": 11.5,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 4,
+    "tags": [
+     "span",
+     "p"
+    ],
+    "samples": [
+     "Set up with your agent"
+    ]
+   },
+   {
+    "size": "11.5px",
+    "px": 11.5,
+    "weight": "500",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 10,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "BT-04"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 10,
+    "tags": [
+     "p",
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Claude Fable 5.1 is free this weekend"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 8,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "›Add an AI chat input with a model picke"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 12,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "bun"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 40,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "0"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 19,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "CD-04"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 16,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Try it"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 4,
+    "tags": [
+     "span",
+     "li"
+    ],
+    "samples": [
+     "100+ components to build websites faster"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 13,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Rexan Wong@rexan_wong"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "18.5px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 36,
+    "tags": [
+     "code",
+     "span"
+    ],
+    "samples": [
+     "{\n  \"registries\": {\n    \"@kokonutui\": \"h"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 13,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "$bunx --bun shadcn@latest init"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 6,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "components.json"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "500",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 11,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Claude Code"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 162,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "BG-01Dot FieldNew"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 343,
+    "tags": [
+     "a",
+     "p",
+     "span"
+    ],
+    "samples": [
+     "Github2.2K"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 6,
+    "tags": [
+     "span",
+     "p"
+    ],
+    "samples": [
+     "The library grows in the open. Ask for a"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 18,
+    "tags": [
+     "button",
+     "span",
+     "p"
+    ],
+    "samples": [
+     "Circle Theme"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "span",
+     "a"
+    ],
+    "samples": [
+     "shadcn"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "24.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 5,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Live demos, not screenshots. Each compon"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "20.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "›Set up Kokonut UI in this project by fo"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "500",
+    "lineHeight": "22.5px",
+    "letterSpacing": "-0.15px",
+    "family": "Geist",
+    "count": 13,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Apple Activity Card"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "500",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 12,
+    "tags": [
+     "h3",
+     "span"
+    ],
+    "samples": [
+     "BackgroundsBG"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "500",
+    "lineHeight": "22.5px",
+    "letterSpacing": "-0.75px",
+    "family": "Geist",
+    "count": 4,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Components"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 155,
+    "tags": [
+     "a",
+     "span",
+     "li",
+     "p",
+     "button"
+    ],
+    "samples": [
+     "Kokonut UI"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.8px",
+    "family": "Geist",
+    "count": 3,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Kokonut UI Pro - 100+ components to buil"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 12,
+    "tags": [
+     "button",
+     "span",
+     "a",
+     "p"
+    ],
+    "samples": [
+     "Set up with your agentCopy prompt›Set up"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 4,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Tailwind CSS v4"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "600",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "CAL"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "700",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.4px",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Kokonut UI"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "400",
+    "lineHeight": "23.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 3,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "›Add @kokonutui/apple-activity-card to m"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "500",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 5,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "80 components"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "600",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 19,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "479 of 800 CAL479/800CAL"
+    ]
+   },
+   {
+    "size": "30px",
+    "px": 30.0,
+    "weight": "500",
+    "lineHeight": "36px",
+    "letterSpacing": "-0.75px",
+    "family": "Geist",
+    "count": 11,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "21.0°"
+    ]
+   },
+   {
+    "size": "30px",
+    "px": 30.0,
+    "weight": "500",
+    "lineHeight": "36px",
+    "letterSpacing": "-1.5px",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "%"
+    ]
+   },
+   {
+    "size": "39.5px",
+    "px": 39.5,
+    "weight": "600",
+    "lineHeight": "39.5px",
+    "letterSpacing": "-0.993652px",
+    "family": "Geist",
+    "count": 15,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Good vibrations"
+    ]
+   }
+  ],
+  "totalSteps": 61,
+  "families": [
+   "Geist",
+   "Geist Mono",
+   "ui-monospace"
+  ],
+  "weights": [
+   "300",
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 72
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 160
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 169
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 1001
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 42
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 282
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 58
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 293
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 2
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 151
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 104
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 2
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 21
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 8
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 7
+   },
+   {
+    "value": "49px",
+    "px": 49.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "1280px",
+    "count": 2
+   },
+   {
+    "value": "1400px",
+    "count": 1
+   },
+   {
+    "value": "520px",
+    "count": 1
+   },
+   {
+    "value": "900px",
+    "count": 1
+   },
+   {
+    "value": "739.908px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "1px",
+    "px": 1.0,
+    "count": 4
+   },
+   {
+    "value": "2px",
+    "px": 2.0,
+    "count": 1
+   },
+   {
+    "value": "3px",
+    "px": 3.0,
+    "count": 5
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 93
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 6
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 11
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 117
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 1
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 1
+   },
+   {
+    "value": "22px",
+    "px": 22.0,
+    "count": 1
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 2
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 2px 0px, rgba(255, 255, 255, 0.14) 0px 1px 0px 0px inset",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0 0 0 / 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 1px 2px 0px, rgba(0, 0, 0, 0.12) 0px 6px 20px -10px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0 0 0 / 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px, rgba(0, 0, 0, 0.25) 0px 12px 32px -12px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 2px 8px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "-1",
+    "count": 5
+   },
+   {
+    "value": "100",
+    "count": 3
+   },
+   {
+    "value": "50",
+    "count": 1
+   },
+   {
+    "value": "10",
+    "count": 1
+   },
+   {
+    "value": "20",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 28,
+   "sizeBuckets": {
+    "md": 11,
+    "sm": 10,
+    "lg": 3,
+    "xl": 4
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Circle Theme",
+      "tag": "button",
+      "height": 36,
+      "width": 34,
+      "padding": "2px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 1.06
+     },
+     {
+      "text": "Claude Code",
+      "tag": "button",
+      "height": 36,
+      "width": 166,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(244, 244, 244)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 19.09
+     },
+     {
+      "text": "Cursor",
+      "tag": "button",
+      "height": 36,
+      "width": 166,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "oklab(0 0 0 / 0.55)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Claude Opus 5.5",
+      "tag": "button",
+      "height": 32,
+      "width": 149,
+      "padding": "0px 8px 0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0 0 0 / 0.7)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0.23, 1, 0.32, 1), color 0.15s cubic-bezier(0.23, 1, 0.32, 1)",
+      "gap": "6px",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Replay",
+      "tag": "button",
+      "height": 17,
+      "width": 59,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0 0 0 / 0.5)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "11.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "17.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "AgentAgent",
+      "tag": "button",
+      "height": 28,
+      "width": 77,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0 0 0 / 0.6)",
+      "border": "1px solid oklab(0 0 0 / 0.13)",
+      "fontSize": "11.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "17.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "›Add @kokonutui/apple-activity",
+      "tag": "button",
+      "height": 23,
+      "width": 669,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "23.375px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1
+     },
+     {
+      "text": "$npx shadcn@latest mcp init --",
+      "tag": "button",
+      "height": 20,
+      "width": 669,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "10px",
+      "contrast": 1
+     }
+    ],
+    "lg": [
+     {
+      "text": "Browse all",
+      "tag": "button",
+      "height": 40,
+      "width": 127,
+      "padding": "0px 18px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 2px 0px, rgba(255, 255, 255, 0.14) 0px 1px 0px 0px inset",
+      "transition": "color 0.15s cubic-bezier(0.23, 1, 0.32, 1), background-color 0.15s cubic-bezier(0.23, 1, 0.32, 1), border-color 0.15s cubic-bezier(0.23, 1, 0.32, 1), outline-color 0.15s cubic-bezier(0.23, 1, 0.32, 1), text-decoration-color 0.15s cubic-bezier(0.23, 1, 0.32, 1), fill 0.15s cubic-bezier(0.23, 1, 0.32, 1), stroke 0.15s cubic-bezier(0.23, 1, 0.32, 1), --tw-gradient-from 0.15s cubic-bezier(0.23, 1, 0.32, 1), --tw-gradient-via 0.15s cubic-bezier(0.23, 1, 0.32, 1), --tw-gradient-to 0.15s cubic-bezier(0.23, 1, 0.32, 1)",
+      "gap": "8px",
+      "contrast": 21
+     },
+     {
+      "text": "Notify meSubscribed0123456789,",
+      "tag": "button",
+      "height": 44,
+      "width": 190,
+      "padding": "0px 6px 0px 16px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(255, 255, 255)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "1px solid lab(90.6853 0.399232 -1.45452)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0, 0, 0.2, 1), background-color 0.2s cubic-bezier(0, 0, 0.2, 1), border-color 0.2s cubic-bezier(0, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0, 0, 0.2, 1), fill 0.2s cubic-bezier(0, 0, 0.2, 1), stroke 0.2s cubic-bezier(0, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "10px",
+      "contrast": null
+     },
+     {
+      "text": "›Add an AI chat input with a m",
+      "tag": "button",
+      "height": 38,
+      "width": 361,
+      "padding": "0px",
+      "margin": "47.875px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "10px",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "Tear",
+      "tag": "button",
+      "height": 68,
+      "width": 76,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px 16px 16px 0px",
+      "background": "lab(8.30603 0.618205 -2.16572)",
+      "color": "oklab(0.999994 0.0000455677 0.0000200868 / 0.6)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1), translate 0.3s cubic-bezier(0.23, 1, 0.32, 1)",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "Play video",
+      "tag": "button",
+      "height": 288,
+      "width": 512,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "24px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     },
+     {
+      "text": "Set up with your agentCopy pro",
+      "tag": "button",
+      "height": 213,
+      "width": 556,
+      "padding": "20px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "oklab(0.144787 0.00000661612 0.00000289828 / 0.9)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "16px",
+      "contrast": null
+     },
+     {
+      "text": "$bunx --bun shadcn@latest init",
+      "tag": "button",
+      "height": 45,
+      "width": 834,
+      "padding": "12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "20.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "10px",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 27,
+   "sizeBuckets": {
+    "sm": 9,
+    "md": 9,
+    "xl": 8,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Kokonut UI Pro - 100+ componen",
+      "tag": "a",
+      "height": 24,
+      "width": 1408,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.8px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "12px",
+      "contrast": 1.06
+     },
+     {
+      "text": "Kokonut UI",
+      "tag": "a",
+      "height": 28,
+      "width": 130,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.06
+     },
+     {
+      "text": "Apple Activity Card",
+      "tag": "a",
+      "height": 23,
+      "width": 132,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "22.5px",
+      "letterSpacing": "-0.15px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "BT-04Magnet Button",
+      "tag": "a",
+      "height": 17,
+      "width": 132,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "11.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "17.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.06
+     }
+    ],
+    "md": [
+     {
+      "text": "Components",
+      "tag": "a",
+      "height": 31,
+      "width": 106,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0 0 0 / 0.8)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "22.5px",
+      "letterSpacing": "-0.75px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "Github2.2K",
+      "tag": "a",
+      "height": 34,
+      "width": 77,
+      "padding": "6px 12px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(35.1166 1.78212 -6.1173)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "BG-01Dot FieldNew",
+      "tag": "a",
+      "height": 31,
+      "width": 291,
+      "padding": "5px 8px",
+      "margin": "0px -8px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0 0 0 / 0.7)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "12px",
+      "contrast": null
+     },
+     {
+      "text": "Kokonut UI",
+      "tag": "a",
+      "height": 30,
+      "width": 123,
+      "padding": "0px",
+      "margin": "0px 83.0469px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21.4286px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 1.06
+     }
+    ],
+    "xl": [
+     {
+      "text": "Backed byVercel OSS",
+      "tag": "a",
+      "height": 147,
+      "width": 512,
+      "padding": "24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "16px",
+      "contrast": 19.8
+     },
+     {
+      "text": "Something missing?The library ",
+      "tag": "a",
+      "height": 164,
+      "width": 307,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "24px",
+      "contrast": 19.8
+     },
+     {
+      "text": "Re: “All components from Kokon",
+      "tag": "a",
+      "height": 547,
+      "width": 717,
+      "padding": "32px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "32px",
+      "contrast": 19.8
+     },
+     {
+      "text": "PR-01TemplateAgentaFuturistic,",
+      "tag": "a",
+      "height": 356,
+      "width": 409,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.8
+     }
+    ],
+    "lg": [
+     {
+      "text": "Explore Pro",
+      "tag": "a",
+      "height": 40,
+      "width": 139,
+      "padding": "0px 20px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "textarea",
+      "height": 56,
+      "width": 353,
+      "padding": "14px 16px 4px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgba(0, 0, 0, 0.13)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24.375px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Kokonut UISearch⌘K[data-radix-",
+      "tag": "aside",
+      "height": 813,
+      "width": 268,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(250, 250, 250)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.25s",
+      "gap": "normal",
+      "contrast": 18.97
+     },
+     {
+      "text": "{\"@context\":\"https://schema.or",
+      "tag": "article",
+      "height": 2457,
+      "width": 900,
+      "padding": "56px 32px 24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.06
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(115, 115, 115)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.43
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "ComponentsTemplatesKokonut UI ",
+      "tag": "nav",
+      "height": 88,
+      "width": 289,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1.06
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 7,
+   "sizeBuckets": {
+    "xl": 3,
+    "sm": 2,
+    "lg": 1,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Components that feel right.",
+      "tag": "h1",
+      "height": 223,
+      "width": 740,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "124px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "111.6px",
+      "letterSpacing": "-7.44px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Animated React components",
+      "tag": "h2",
+      "height": 96,
+      "width": 400,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "48px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "48px",
+      "letterSpacing": "-2.16px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "All components",
+      "tag": "h2",
+      "height": 48,
+      "width": 400,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "48px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "48px",
+      "letterSpacing": "-2.16px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "BackgroundsBG",
+      "tag": "h3",
+      "height": 23,
+      "width": 275,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "On this page",
+      "tag": "h3",
+      "height": 20,
+      "width": 252,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(115, 115, 115)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 4.43
+     }
+    ],
+    "lg": [
+     {
+      "text": "Installation",
+      "tag": "h1",
+      "height": 40,
+      "width": 836,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "36px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "40px",
+      "letterSpacing": "-1.08px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     }
+    ],
+    "md": [
+     {
+      "text": "Add the registry",
+      "tag": "h2",
+      "height": 32,
+      "width": 836,
+      "padding": "0px",
+      "margin": "48px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "31.9999px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 1.06
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 33,
+   "sizeBuckets": {
+    "lg": 4,
+    "xl": 10,
+    "sm": 18,
+    "md": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Kokonut UI",
+      "tag": "p",
+      "height": 40,
+      "width": 307,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "11.5px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "17.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Component catalog",
+      "tag": "p",
+      "height": 40,
+      "width": 307,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "oklab(0 0 0 / 0.5)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "11.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "17.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "72%",
+      "tag": "p",
+      "height": 44,
+      "width": 176,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "60px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "60px",
+      "letterSpacing": "-1.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "72%",
+      "tag": "p",
+      "height": 44,
+      "width": 176,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "60px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "60px",
+      "letterSpacing": "-1.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "Open-source React components b",
+      "tag": "p",
+      "height": 83,
+      "width": 520,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0 0 0 / 0.6)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "27.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Live demos, not screenshots. E",
+      "tag": "p",
+      "height": 49,
+      "width": 400,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0 0 0 / 0.6)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24.375px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Kokonut UI is a shadcn/ui regi",
+      "tag": "p",
+      "height": 73,
+      "width": 400,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0 0 0 / 0.6)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24.375px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Name a component, or describe ",
+      "tag": "p",
+      "height": 68,
+      "width": 361,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0 0 0 / 0.6)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Ask your agent",
+      "tag": "p",
+      "height": 17,
+      "width": 669,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0 0 0 / 0.5)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "11.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "17.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Connect your editor onceshadcn",
+      "tag": "p",
+      "height": 17,
+      "width": 669,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.06
+     },
+     {
+      "text": "Claude Fable 5.1 is free this ",
+      "tag": "p",
+      "height": 16,
+      "width": 262,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0 0 0 / 0.6)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Searching the webSearching the",
+      "tag": "p",
+      "height": 20,
+      "width": 120,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Then add the @kokonutui namesp",
+      "tag": "p",
+      "height": 29,
+      "width": 836,
+      "padding": "0px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.144787 0.00000661612 0.00000289828 / 0.9)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 12,
+   "sizeBuckets": {
+    "xl": 12
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "MOVE479 of 800 CAL479/800CALEX",
+      "tag": "ul",
+      "height": 192,
+      "width": 129,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "24px",
+      "contrast": null
+     },
+     {
+      "text": "Searching the webSearching the",
+      "tag": "ol",
+      "height": 128,
+      "width": 361,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     },
+     {
+      "text": "BG-01Dot FieldNewBG-02Backgrou",
+      "tag": "ul",
+      "height": 217,
+      "width": 275,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     },
+     {
+      "text": "CD-01Flick CardUpdatedCD-02Thr",
+      "tag": "ul",
+      "height": 496,
+      "width": 275,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 25,
+   "sizeBuckets": {
+    "md": 8,
+    "sm": 15,
+    "lg": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "479 of 800 CAL479/800CAL",
+      "tag": "span",
+      "height": 30,
+      "width": 129,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6 0.238362 17.9006)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "42 of 30 MIN42/30MIN",
+      "tag": "span",
+      "height": 30,
+      "width": 129,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6 0.241519 130.358)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "6 of 12 HR6/12HR",
+      "tag": "span",
+      "height": 30,
+      "width": 129,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6 0.130455 208.844)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "21.0°",
+      "tag": "span",
+      "height": 36,
+      "width": 70,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "30px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.75px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "High",
+      "tag": "span",
+      "height": 16,
+      "width": 25,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0 0 0 / 0.7)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "16.0°",
+      "tag": "span",
+      "height": 17,
+      "width": 26,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(65.6464 1.53497 -5.42429)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "16.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "7s",
+      "tag": "span",
+      "height": 20,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(65.6464 1.53497 -5.42429)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "4",
+      "tag": "div",
+      "height": 8,
+      "width": 58,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(65.6464 1.53497 -5.42429)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "72%",
+      "tag": "p",
+      "height": 44,
+      "width": 176,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "60px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "60px",
+      "letterSpacing": "-1.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "72%",
+      "tag": "p",
+      "height": 44,
+      "width": 176,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "60px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "60px",
+      "letterSpacing": "-1.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 9,
+   "sizeBuckets": {
+    "lg": 2,
+    "xl": 7
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Browse all",
+      "tag": "button",
+      "height": 40,
+      "width": 127,
+      "padding": "0px 18px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 2px 0px, rgba(255, 255, 255, 0.14) 0px 1px 0px 0px inset",
+      "transition": "color 0.15s cubic-bezier(0.23, 1, 0.32, 1), background-color 0.15s cubic-bezier(0.23, 1, 0.32, 1), border-color 0.15s cubic-bezier(0.23, 1, 0.32, 1), outline-color 0.15s cubic-bezier(0.23, 1, 0.32, 1), text-decoration-color 0.15s cubic-bezier(0.23, 1, 0.32, 1), fill 0.15s cubic-bezier(0.23, 1, 0.32, 1), stroke 0.15s cubic-bezier(0.23, 1, 0.32, 1), --tw-gradient-from 0.15s cubic-bezier(0.23, 1, 0.32, 1), --tw-gradient-via 0.15s cubic-bezier(0.23, 1, 0.32, 1), --tw-gradient-to 0.15s cubic-bezier(0.23, 1, 0.32, 1)",
+      "gap": "8px",
+      "contrast": 21
+     },
+     {
+      "text": "Notify meSubscribed0123456789,",
+      "tag": "button",
+      "height": 44,
+      "width": 190,
+      "padding": "0px 6px 0px 16px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(255, 255, 255)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "1px solid lab(90.6853 0.399232 -1.45452)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0, 0, 0.2, 1), background-color 0.2s cubic-bezier(0, 0, 0.2, 1), border-color 0.2s cubic-bezier(0, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0, 0, 0.2, 1), fill 0.2s cubic-bezier(0, 0, 0.2, 1), stroke 0.2s cubic-bezier(0, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "10px",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "16.0°30.0°Temperature21.0°",
+      "tag": "div",
+      "height": 240,
+      "width": 240,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     },
+     {
+      "text": "Delete workspaceTear off the s",
+      "tag": "div",
+      "height": 68,
+      "width": 312,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     },
+     {
+      "text": "456789101112124567891011121236",
+      "tag": "div",
+      "height": 224,
+      "width": 218,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "16px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(10, 10, 10)",
+      "border": "1px solid lab(90.6853 0.399232 -1.45452)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.8
+     },
+     {
+      "text": "Good vibrationsGood vibrations",
+      "tag": "div",
+      "height": 95,
+      "width": 331,
+      "padding": "27.8223px 19.873px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "39.7461px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "39.7461px",
+      "letterSpacing": "-0.993652px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 47,
+   "sizeBuckets": {
+    "sm": 38,
+    "xl": 6,
+    "md": 2,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.8px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.8px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.2s cubic-bezier(0, 0, 0.2, 1), translate 0.2s cubic-bezier(0, 0, 0.2, 1), scale 0.2s cubic-bezier(0, 0, 0.2, 1), rotate 0.2s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Github",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "X",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(35.1166 1.78212 -6.1173)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "MOVE: 479 of 800 CAL, 60%",
+      "tag": "svg",
+      "height": 188,
+      "width": 188,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "EXERCISE: 42 of 30 MIN, 140%",
+      "tag": "svg",
+      "height": 150,
+      "width": 150,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "STAND: 6 of 12 HR, 50%",
+      "tag": "svg",
+      "height": 113,
+      "width": 113,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(8.30603 0.618205 -2.16572)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 240,
+      "width": 240,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 17,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 17,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(115, 115, 115)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.43
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 38,
+      "width": 17,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(115, 115, 115)",
+      "border": "0px solid rgba(0, 0, 0, 0.13)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.43
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 6509,
+   "heading": "Components that feel right.",
+   "background": "rgb(255, 255, 255)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 734,
+   "heading": "Components that feel right.",
+   "background": "oklab(0 0 0 / 0.13)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 1866,
+   "heading": "Animated React components",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 1485,
+   "heading": "All components",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 524,
+   "heading": "How to install",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 1014,
+   "heading": "What developers say",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 710,
+   "heading": "Kokonut UI Pro",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px 0px",
+   "children": 3
+  },
+  {
+   "tag": "footer",
+   "height": 169,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "nav",
+   "height": 88,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 19.8,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 17,
+  "tapTargetMedian": 32
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 256
+   },
+   {
+    "value": "0.2s",
+    "count": 83
+   },
+   {
+    "value": "0.3s",
+    "count": 4
+   },
+   {
+    "value": "0.5s",
+    "count": 3
+   },
+   {
+    "value": "0.7s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0, 0, 0.2, 1)",
+    "count": 215
+   },
+   {
+    "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+    "count": 74
+   },
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 58
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 234
+   },
+   {
+    "value": "background-color",
+    "count": 234
+   },
+   {
+    "value": "border-color",
+    "count": 230
+   },
+   {
+    "value": "stroke",
+    "count": 141
+   },
+   {
+    "value": "outline-color",
+    "count": 112
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 112
+   },
+   {
+    "value": "fill",
+    "count": 112
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 112
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 112
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 112
+   }
+  ]
+ }
+}

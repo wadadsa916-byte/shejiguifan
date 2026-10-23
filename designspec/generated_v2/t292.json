@@ -1,0 +1,1623 @@
+{
+ "id": "t292",
+ "overview": {
+  "name": "OpenShaders",
+  "url": "https://openshaders.com/",
+  "section": "着色器",
+  "pagesScanned": [
+   "https://openshaders.com/",
+   "https://openshaders.com/about",
+   "https://openshaders.com/explore"
+  ],
+  "subpages": [
+   "/about",
+   "/explore"
+  ],
+  "sectionCount": 3,
+  "componentSamples": 60,
+  "typeSteps": 10
+ },
+ "colors": {
+  "roles": {
+   "border": {
+    "hex": "#e5e5e5",
+    "value": "#e5e5e5",
+    "token": "--border",
+    "source": "css-var",
+    "contrastOnBg": 1.26
+   },
+   "danger": {
+    "hex": "#b91c1c",
+    "value": "#b91c1c",
+    "token": "--destructive",
+    "source": "css-var",
+    "contrastOnBg": 6.47
+   },
+   "muted": {
+    "hex": "#6b6b6b",
+    "value": "#6b6b6b",
+    "token": "--muted",
+    "source": "css-var",
+    "contrastOnBg": 5.33
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--surface",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#111111",
+    "value": "#111111",
+    "token": "--foreground",
+    "source": "css-var",
+    "contrastOnBg": 18.88
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 12
+   },
+   {
+    "hex": "#111111",
+    "count": 7
+   },
+   {
+    "hex": "#6b6b6b",
+    "count": 30
+   },
+   {
+    "hex": "#000000",
+    "count": 3
+   }
+  ],
+  "backgroundsTotal": 4,
+  "textTotal": 4,
+  "bordersTotal": 3
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "12px",
+    "letterSpacing": "0.84px",
+    "family": "Geist",
+    "count": 6,
+    "tags": [
+     "span",
+     "p"
+    ],
+    "samples": [
+     "#3295"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "All rarities"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 4,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Immersive"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "500",
+    "lineHeight": "19.5px",
+    "letterSpacing": "0.26px",
+    "family": "Geist",
+    "count": 3,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "What it is"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "21px",
+    "letterSpacing": "-0.14px",
+    "family": "Geist",
+    "count": 9,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "GitHub (opens in a new tab)"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "500",
+    "lineHeight": "21.5px",
+    "letterSpacing": "-0.225px",
+    "family": "Geist",
+    "count": 7,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Claim your username"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "500",
+    "lineHeight": "21.5px",
+    "letterSpacing": "-0.15px",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Claim your username"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "400",
+    "lineHeight": "27.5px",
+    "letterSpacing": "-0.187px",
+    "family": "Geist",
+    "count": 11,
+    "tags": [
+     "h1",
+     "p"
+    ],
+    "samples": [
+     "Hi,"
+    ]
+   },
+   {
+    "size": "52px",
+    "px": 52.0,
+    "weight": "400",
+    "lineHeight": "61px",
+    "letterSpacing": "-2.08px",
+    "family": "Geist",
+    "count": 3,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "Shaders belong on the web.What will your"
+    ]
+   },
+   {
+    "size": "56px",
+    "px": 56.0,
+    "weight": "500",
+    "lineHeight": "59px",
+    "letterSpacing": "-2.24px",
+    "family": "Geist",
+    "count": 5,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "@dennybuck"
+    ]
+   }
+  ],
+  "totalSteps": 14,
+  "families": [
+   "Geist"
+  ],
+  "weights": [
+   "400",
+   "500"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 2
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 6
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 17
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 38
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 10
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 12
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 5
+   },
+   {
+    "value": "13px",
+    "px": 13.0,
+    "count": 2
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 4
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 17
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 8
+   },
+   {
+    "value": "22px",
+    "px": 22.0,
+    "count": 17
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 2
+   },
+   {
+    "value": "26px",
+    "px": 26.0,
+    "count": 1
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 12
+   },
+   {
+    "value": "38px",
+    "px": 38.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "600px",
+    "count": 16
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "3px",
+    "px": 3.0,
+    "count": 3
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 2
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 18
+   },
+   {
+    "value": "999px",
+    "px": 999.0,
+    "count": 10
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 8
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.35) 0px 40px 120px -40px, rgba(255, 255, 255, 0.6) 0px 1px 0px 0px inset",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.243) 0px 40px 120px -40px, rgba(255, 255, 255, 0.42) 0px 1px 0px 0px inset",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.153) 0px 40px 120px -40px, rgba(255, 255, 255, 0.267) 0px 1px 0px 0px inset",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.082) 0px 40px 120px -40px, rgba(255, 255, 255, 0.137) 0px 1px 0px 0px inset",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.027) 0px 40px 120px -40px, rgba(255, 255, 255, 0.047) 0px 1px 0px 0px inset",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 17
+   },
+   {
+    "value": "2",
+    "count": 8
+   },
+   {
+    "value": "0",
+    "count": 5
+   },
+   {
+    "value": "6",
+    "count": 1
+   },
+   {
+    "value": "4",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 7,
+   "sizeBuckets": {
+    "lg": 3,
+    "md": 4
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Claim your username",
+      "tag": "button",
+      "height": 40,
+      "width": 184,
+      "padding": "0px 20px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21.4286px",
+      "letterSpacing": "-0.225px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.32s cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "gap": "10px",
+      "contrast": 1
+     },
+     {
+      "text": "Switch to dark mode",
+      "tag": "button",
+      "height": 40,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(17, 17, 17)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 18.88
+     },
+     {
+      "text": "Claim your usernameClaim usern",
+      "tag": "button",
+      "height": 40,
+      "width": 184,
+      "padding": "0px 20px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(17, 17, 17)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21.4286px",
+      "letterSpacing": "-0.225px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "10px",
+      "contrast": 18.88
+     }
+    ],
+    "md": [
+     {
+      "text": "Immersive",
+      "tag": "button",
+      "height": 34,
+      "width": 109,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "7px",
+      "contrast": 21
+     },
+     {
+      "text": "Grid",
+      "tag": "button",
+      "height": 34,
+      "width": 109,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 107, 107)",
+      "border": "0px none rgb(107, 107, 107)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "7px",
+      "contrast": 3.94
+     },
+     {
+      "text": "All rarities",
+      "tag": "button",
+      "height": 34,
+      "width": 100,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "7px",
+      "contrast": 1.11
+     },
+     {
+      "text": "Copy code",
+      "tag": "button",
+      "height": 34,
+      "width": 117,
+      "padding": "0px 14px 0px 12px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "color(srgb 1 1 1 / 0.6)",
+      "color": "rgb(17, 17, 17)",
+      "border": "1px solid color(srgb 0.0666667 0.0666667 0.0666667 / 0.1)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "18.5714px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 11,
+   "sizeBuckets": {
+    "sm": 2,
+    "lg": 3,
+    "xl": 6
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "OpenShaders home",
+      "tag": "a",
+      "height": 22,
+      "width": 136,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "3px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "@davidhaz",
+      "tag": "a",
+      "height": 21,
+      "width": 75,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 107, 107)",
+      "border": "0px solid rgb(107, 107, 107)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s",
+      "gap": "normal",
+      "contrast": 3.94
+     }
+    ],
+    "lg": [
+     {
+      "text": "GitHub (opens in a new tab)",
+      "tag": "a",
+      "height": 37,
+      "width": 44,
+      "padding": "8px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 107, 107)",
+      "border": "0px none rgb(107, 107, 107)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s",
+      "gap": "normal",
+      "contrast": 3.94
+     },
+     {
+      "text": "About",
+      "tag": "a",
+      "height": 37,
+      "width": 39,
+      "padding": "8px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Claim your usernameClaim usern",
+      "tag": "a",
+      "height": 40,
+      "width": 184,
+      "padding": "0px 20px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(17, 17, 17)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21.4286px",
+      "letterSpacing": "-0.225px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "10px",
+      "contrast": 18.88
+     }
+    ],
+    "xl": [
+     {
+      "text": "Claim your username",
+      "tag": "a",
+      "height": 46,
+      "width": 191,
+      "padding": "0px 22px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "color(srgb 1 1 1 / 0.6)",
+      "color": "rgb(17, 17, 17)",
+      "border": "1px solid color(srgb 0.0666667 0.0666667 0.0666667 / 0.1)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21.4286px",
+      "letterSpacing": "-0.15px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "@dennybuck, member #3295",
+      "tag": "a",
+      "height": 375,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "28px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "@ultraproduct, member #3294",
+      "tag": "a",
+      "height": 228,
+      "width": 365,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "28px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "@sergeybuharev, member #3293",
+      "tag": "a",
+      "height": 164,
+      "width": 263,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "28px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 22,
+   "sizeBuckets": {
+    "xl": 12,
+    "sm": 8,
+    "md": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Hi,Some of the best work on th",
+      "tag": "article",
+      "height": 1554,
+      "width": 820,
+      "padding": "0px 7px 100px",
+      "margin": "88px 294px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "@dennybuck#3295Copy code",
+      "tag": "div",
+      "height": 375,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "28px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.35) 0px 40px 120px -40px, rgba(255, 255, 255, 0.6) 0px 1px 0px 0px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "",
+      "tag": "canvas",
+      "height": 375,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "none",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "@dennybuck",
+      "tag": "span",
+      "height": 59,
+      "width": 319,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "56px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "58.8px",
+      "letterSpacing": "-2.24px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ],
+    "sm": [
+     {
+      "text": "#3295",
+      "tag": "span",
+      "height": 12,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 107, 107)",
+      "border": "0px solid rgb(107, 107, 107)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "12px",
+      "letterSpacing": "0.84px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "9px",
+      "contrast": 3.94
+     },
+     {
+      "text": "#3294",
+      "tag": "span",
+      "height": 7,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 107, 107)",
+      "border": "0px solid rgb(107, 107, 107)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "12px",
+      "letterSpacing": "0.84px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "9px",
+      "contrast": 3.94
+     },
+     {
+      "text": "@sergeybuharev",
+      "tag": "span",
+      "height": 26,
+      "width": 178,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "56px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "58.8px",
+      "letterSpacing": "-2.24px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "#3293",
+      "tag": "span",
+      "height": 5,
+      "width": 17,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 107, 107)",
+      "border": "0px solid rgb(107, 107, 107)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "12px",
+      "letterSpacing": "0.84px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "9px",
+      "contrast": 3.94
+     }
+    ],
+    "md": [
+     {
+      "text": "Copy code",
+      "tag": "div",
+      "height": 34,
+      "width": 117,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.11
+     },
+     {
+      "text": "@ultraproduct",
+      "tag": "span",
+      "height": 36,
+      "width": 211,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "56px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "58.8px",
+      "letterSpacing": "-2.24px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 2,
+    "lg": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "GitHub (opens in a new tab)Abo",
+      "tag": "nav",
+      "height": 56,
+      "width": 820,
+      "padding": "7px 7px 7px 22px",
+      "margin": "16px 294px 0px",
+      "radius": "28px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(17, 17, 17)",
+      "border": "1px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.42s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.32s",
+      "gap": "28px",
+      "contrast": 18.88
+     },
+     {
+      "text": "The ones who didn't wait.",
+      "tag": "header",
+      "height": 49,
+      "width": 1360,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ],
+    "lg": [
+     {
+      "text": "GitHub (opens in a new tab)",
+      "tag": "a",
+      "height": 37,
+      "width": 44,
+      "padding": "8px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 107, 107)",
+      "border": "0px none rgb(107, 107, 107)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s",
+      "gap": "normal",
+      "contrast": 3.94
+     },
+     {
+      "text": "Switch to dark mode",
+      "tag": "button",
+      "height": 40,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(17, 17, 17)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 18.88
+     },
+     {
+      "text": "About",
+      "tag": "a",
+      "height": 37,
+      "width": 39,
+      "padding": "8px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.16s",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "The ones who didn't wait.@denn",
+      "tag": "div",
+      "height": 781,
+      "width": 1408,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Shaders belong on the web.What",
+      "tag": "h1",
+      "height": 122,
+      "width": 605,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "52px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "60.84px",
+      "letterSpacing": "-2.08px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "font-size 0.32s cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "The ones who didn't wait.",
+      "tag": "h1",
+      "height": 49,
+      "width": 1360,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "48px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "48.96px",
+      "letterSpacing": "-1.92px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ],
+    "sm": [
+     {
+      "text": "Hi,",
+      "tag": "h1",
+      "height": 28,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 26px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "27.54px",
+      "letterSpacing": "-0.187px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "What it is",
+      "tag": "h2",
+      "height": 20,
+      "width": 600,
+      "padding": "0px",
+      "margin": "44px 0px 14px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 107, 107)",
+      "border": "0px solid rgb(107, 107, 107)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "19.5px",
+      "letterSpacing": "0.26px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.94
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 2,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Some of the best work on the w",
+      "tag": "p",
+      "height": 83,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 22px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "27.54px",
+      "letterSpacing": "-0.187px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "A home for shaders and the peo",
+      "tag": "p",
+      "height": 110,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 22px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "27.54px",
+      "letterSpacing": "-0.187px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ],
+    "sm": [
+     {
+      "text": "Thank you for reading this far",
+      "tag": "p",
+      "height": 28,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 22px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "27.54px",
+      "letterSpacing": "-0.187px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Scroll to explore",
+      "tag": "p",
+      "height": 12,
+      "width": 134,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 107, 107)",
+      "border": "0px solid rgb(107, 107, 107)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "12px",
+      "letterSpacing": "0.84px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "opacity 0.6s",
+      "gap": "normal",
+      "contrast": 3.94
+     }
+    ],
+    "md": [
+     {
+      "text": "3,295 names claimed",
+      "tag": "p",
+      "height": 30,
+      "width": 158,
+      "padding": "0px 13px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "color(srgb 1 1 1 / 0.72)",
+      "color": "rgb(107, 107, 107)",
+      "border": "1px solid color(srgb 0.0666667 0.0666667 0.0666667 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "13px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "5px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 5
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 107, 107)",
+      "border": "0px solid rgb(107, 107, 107)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.94
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(17, 17, 17)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.18s",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 813,
+   "heading": "Shaders belong on the web.What will yours look lik",
+   "background": "rgb(255, 255, 255)",
+   "padding": "16px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 781,
+   "heading": "Shaders belong on the web.What will yours look lik",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "120px 24px 64px",
+   "children": 1
+  },
+  {
+   "tag": "nav",
+   "height": 56,
+   "heading": null,
+   "background": "rgb(255, 255, 255)",
+   "padding": "7px 7px 7px 22px",
+   "children": 3
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 18.88,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 21,
+  "tapTargetMedian": 40
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.32s",
+    "count": 3
+   },
+   {
+    "value": "0.16s",
+    "count": 3
+   },
+   {
+    "value": "0.15s",
+    "count": 3
+   },
+   {
+    "value": "0.18s",
+    "count": 1
+   },
+   {
+    "value": "0.6s",
+    "count": 1
+   },
+   {
+    "value": "0.42s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "count": 4
+   },
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 3
+   },
+   {
+    "value": "ease",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 6
+   },
+   {
+    "value": "opacity",
+    "count": 5
+   },
+   {
+    "value": "transform",
+    "count": 3
+   },
+   {
+    "value": "background-color",
+    "count": 3
+   },
+   {
+    "value": "border-color",
+    "count": 3
+   },
+   {
+    "value": "box-shadow",
+    "count": 3
+   },
+   {
+    "value": "font-size",
+    "count": 1
+   }
+  ]
+ }
+}

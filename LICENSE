@@ -1,0 +1,48 @@
+# 许可 / License
+
+本仓库采用**双许可**：
+
+## 代码 — MIT License
+
+`designspec/` 目录下的所有 Python 代码（含 `examples/` 中的 HTML/WXSS 示例文件）：
+
+MIT License
+
+Copyright (c) 2026 designspec contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## 数据 — CC BY 4.0
+
+`designspec/specs_sem/`、`designspec/generated_v2/`、`designspec/themes/`、
+`designspec/index.json` 中的数据文件采用
+[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)。
+
+使用时请注明数据来源，例如：
+
+> Design data from the designspec project (544 measured websites, runtime computed styles).
+
+## 数据说明 / Data Provenance
+
+这些数据是对公开网站**运行时渲染结果的实测值**（颜色值、像素尺寸、字体名、间距频次），
+即 `getComputedStyle` 的输出统计——属于事实性测量数据，不是被测量网站设计源文件、
+组件代码或创意作品的副本。
+
+采集过程中已对数据做脱敏处理：邮箱、电话号码等个人信息已被替换为占位符。
+如在数据中发现遗漏的个人信息，请提 issue，我们会立即处理。

@@ -1,0 +1,796 @@
+{
+ "id": "t308",
+ "overview": {
+  "name": "Feather",
+  "url": "https://feathericons.com/",
+  "section": "图标",
+  "pagesScanned": [
+   "https://feathericons.com/"
+  ],
+  "subpages": [],
+  "sectionCount": 3,
+  "componentSamples": 20,
+  "typeSteps": 4
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#2f363d",
+    "value": "#2f363d",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 12.24
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 39
+   },
+   {
+    "hex": "#d1d5da",
+    "count": 2
+   },
+   {
+    "hex": "#f6f8fa",
+    "count": 1
+   },
+   {
+    "hex": "#0066ff",
+    "count": 1
+   },
+   {
+    "hex": "#2f363d",
+    "count": 1
+   },
+   {
+    "hex": "#eeeeee",
+    "count": 1
+   },
+   {
+    "hex": "#0000ee",
+    "count": 25
+   },
+   {
+    "hex": "#959da5",
+    "count": 6
+   },
+   {
+    "hex": "#000000",
+    "count": 1
+   },
+   {
+    "hex": "#333333",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 6,
+  "textTotal": 6,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 40,
+    "tags": [
+     "label",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "Size"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 2,
+    "tags": [
+     "a",
+     "button"
+    ],
+    "samples": [
+     "v4.29.0"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "GitHub"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 2,
+    "tags": [
+     "a",
+     "button"
+    ],
+    "samples": [
+     "Get started"
+    ]
+   }
+  ],
+  "totalSteps": 7,
+  "families": [
+   "-apple-system"
+  ],
+  "weights": [
+   "400",
+   "500"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 15
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 156
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 6
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 131
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 15
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 2
+   },
+   {
+    "value": "52px",
+    "px": 52.0,
+    "count": 1
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 2
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "1048px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 46
+   },
+   {
+    "value": "9999px",
+    "px": 9999.0,
+    "count": 2
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px",
+    "count": 38
+   },
+   {
+    "value": "rgb(209, 213, 218) 0px 0px 0px 1px inset",
+    "count": 3
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 4,
+   "sizeBuckets": {
+    "md": 2,
+    "xl": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Activate dark mode",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "4px",
+      "margin": "0px 0px 0px 16px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(149, 157, 165)",
+      "border": "0px none rgb(149, 157, 165)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "-apple-system",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.64
+     },
+     {
+      "text": "Reset",
+      "tag": "button",
+      "height": 29,
+      "width": 53,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 54, 61)",
+      "border": "0px none rgb(47, 54, 61)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "-apple-system",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(209, 213, 218) 0px 0px 0px 1px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.72
+     }
+    ],
+    "xl": [
+     {
+      "text": "Download all",
+      "tag": "button",
+      "height": 48,
+      "width": 143,
+      "padding": "12px 24px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 54, 61)",
+      "border": "0px none rgb(47, 54, 61)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(209, 213, 218) 0px 0px 0px 1px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.72
+     },
+     {
+      "text": "activity",
+      "tag": "div",
+      "height": 164,
+      "width": 159,
+      "padding": "0px 0px 16px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(47, 54, 61)",
+      "border": "0px none rgb(47, 54, 61)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 12.24
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 6,
+   "sizeBuckets": {
+    "md": 2,
+    "sm": 2,
+    "xl": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Feather",
+      "tag": "a",
+      "height": 30,
+      "width": 67,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 54, 61)",
+      "border": "0px none rgb(47, 54, 61)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.72
+     },
+     {
+      "text": "v4.29.0",
+      "tag": "a",
+      "height": 29,
+      "width": 66,
+      "padding": "4px 8px",
+      "margin": "0px 0px 0px 8px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 54, 61)",
+      "border": "0px none rgb(47, 54, 61)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "-apple-system",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(209, 213, 218) 0px 0px 0px 1px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.72
+     }
+    ],
+    "sm": [
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 24,
+      "width": 51,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 54, 61)",
+      "border": "0px none rgb(47, 54, 61)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.72
+     },
+     {
+      "text": "Made by @colebemis",
+      "tag": "a",
+      "height": 17,
+      "width": 138,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 54, 61)",
+      "border": "0px none rgb(47, 54, 61)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.72
+     }
+    ],
+    "xl": [
+     {
+      "text": "Get started",
+      "tag": "a",
+      "height": 48,
+      "width": 132,
+      "padding": "12px 24px",
+      "margin": "0px 16px 0px 0px",
+      "radius": "6px",
+      "background": "rgb(0, 102, 255)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.83
+     },
+     {
+      "text": "Ad",
+      "tag": "a",
+      "height": 224,
+      "width": 328,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px none rgb(0, 0, 238)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.4
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 1,
+    "lg": 1,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "24",
+      "tag": "input",
+      "height": 4,
+      "width": 264,
+      "padding": "0px",
+      "margin": "8px 0px",
+      "radius": "9999px",
+      "background": "rgb(209, 213, 218)",
+      "color": "rgb(47, 54, 61)",
+      "border": "0px none rgb(47, 54, 61)",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.3
+     }
+    ],
+    "lg": [
+     {
+      "text": "currentColor",
+      "tag": "input",
+      "height": 42,
+      "width": 264,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(47, 54, 61)",
+      "border": "1px solid rgb(209, 213, 218)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 12.24
+     }
+    ],
+    "xl": [
+     {
+      "text": "Search",
+      "tag": "input",
+      "height": 50,
+      "width": 1032,
+      "padding": "16px 16px 16px 52px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(47, 54, 61)",
+      "border": "0px none rgb(47, 54, 61)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 12.24
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Featherv4.29.0GitHub",
+      "tag": "header",
+      "height": 64,
+      "width": 1440,
+      "padding": "16px 24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 54, 61)",
+      "border": "0px none rgb(47, 54, 61)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.72
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "lg": 1,
+    "md": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Simply beautiful open source i",
+      "tag": "h1",
+      "height": 40,
+      "width": 477,
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 54, 61)",
+      "border": "0px none rgb(47, 54, 61)",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.72
+     }
+    ],
+    "md": [
+     {
+      "text": "Customize",
+      "tag": "h2",
+      "height": 30,
+      "width": 96,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 54, 61)",
+      "border": "0px none rgb(47, 54, 61)",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "fontFamily": "-apple-system",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.72
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 3,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(149, 157, 165)",
+      "border": "0px none rgb(149, 157, 165)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "-apple-system",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.64
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(149, 157, 165)",
+      "border": "0px none rgb(149, 157, 165)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.64
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 54, 61)",
+      "border": "0px none rgb(47, 54, 61)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.72
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 224,
+      "width": 330,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px none rgb(0, 0, 238)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 64,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "16px 24px",
+   "children": 5
+  },
+  {
+   "tag": "main",
+   "height": 9067,
+   "heading": "Simply beautiful open source icons",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "footer",
+   "height": 57,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "16px 0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 12.24,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 17,
+  "tapTargetMedian": 32
+ }
+}

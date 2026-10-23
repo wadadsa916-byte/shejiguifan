@@ -1,0 +1,536 @@
+{
+ "id": "t058",
+ "overview": {
+  "name": "designengineer.tools",
+  "url": "https://designengineer.tools/",
+  "section": "设计画廊",
+  "pagesScanned": [
+   "https://designengineer.tools/"
+  ],
+  "subpages": [],
+  "sectionCount": 2,
+  "componentSamples": 11,
+  "typeSteps": 2
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#171717",
+    "value": "#171717",
+    "token": "--foreground",
+    "source": "css-var",
+    "contrastOnBg": 17.93
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#171717",
+    "count": 2
+   },
+   {
+    "hex": "#ffffff",
+    "count": 1
+   },
+   {
+    "hex": "#000000",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 2,
+  "textTotal": 3,
+  "bordersTotal": 0
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "geistSans",
+    "count": 132,
+    "tags": [
+     "p",
+     "a",
+     "span"
+    ],
+    "samples": [
+     "A list of useful tools for web-focused d"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "geistSans",
+    "count": 20,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Inspiration"
+    ]
+   }
+  ],
+  "totalSteps": 5,
+  "families": [
+   "geistSans"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 254
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 4
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 255
+   },
+   {
+    "value": "13px",
+    "px": 13.0,
+    "count": 20
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 1
+   },
+   {
+    "value": "22.5px",
+    "px": 22.5,
+    "count": 1
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 2
+   },
+   {
+    "value": "26px",
+    "px": 26.0,
+    "count": 7
+   },
+   {
+    "value": "52px",
+    "px": 52.0,
+    "count": 4
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1440px",
+    "count": 2
+   },
+   {
+    "value": "960px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "3.2px",
+    "px": 3.2,
+    "count": 128
+   }
+  ],
+  "shadows": [],
+  "zIndex": []
+ },
+ "components": {
+  "link": {
+   "label": "链接",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 3,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "60fps",
+      "tag": "a",
+      "height": 24,
+      "width": 62,
+      "padding": "3.6px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "border": "0px none color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "geistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s cubic-bezier(0, 0.55, 0.45, 1)",
+      "gap": "7.2px",
+      "contrast": null
+     },
+     {
+      "text": "James Warner",
+      "tag": "a",
+      "height": 16,
+      "width": 113,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "border": "0px none color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "geistSans",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s cubic-bezier(0, 0.55, 0.45, 1)",
+      "gap": "3.5px",
+      "contrast": null
+     },
+     {
+      "text": "System",
+      "tag": "a",
+      "height": 16,
+      "width": 52,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px none rgb(23, 23, 23)",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "fontFamily": "geistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s cubic-bezier(0, 0.55, 0.45, 1)",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ],
+    "lg": [
+     {
+      "text": "Framer University Resources",
+      "tag": "a",
+      "height": 41,
+      "width": 188,
+      "padding": "3.6px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "border": "0px none color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "geistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s cubic-bezier(0, 0.55, 0.45, 1)",
+      "gap": "7.2px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Design Engineer ToolsA list of",
+      "tag": "header",
+      "height": 63,
+      "width": 908,
+      "padding": "0px",
+      "margin": "25.888px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px none rgb(23, 23, 23)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "geistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s cubic-bezier(0, 0.55, 0.45, 1)",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "lg": 1,
+    "sm": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Design Engineer Tools",
+      "tag": "h1",
+      "height": 39,
+      "width": 908,
+      "padding": "0px",
+      "margin": "0px 0px 7.2px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px none rgb(23, 23, 23)",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "fontFamily": "geistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s cubic-bezier(0, 0.55, 0.45, 1)",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ],
+    "sm": [
+     {
+      "text": "Inspiration",
+      "tag": "h2",
+      "height": 21,
+      "width": 428,
+      "padding": "0px",
+      "margin": "0px 0px 12.944px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px none rgb(23, 23, 23)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "geistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s cubic-bezier(0, 0.55, 0.45, 1)",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "A list of useful tools for web",
+      "tag": "p",
+      "height": 17,
+      "width": 908,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "border": "0px none color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "geistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s cubic-bezier(0, 0.55, 0.45, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "3.2px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "border": "0px none color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "geistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.25s cubic-bezier(0, 0.55, 0.45, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "3.2px",
+      "background": "rgb(23, 23, 23)",
+      "color": "color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "border": "0px none color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "geistSans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.25s cubic-bezier(0, 0.55, 0.45, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "James Warner",
+      "tag": "a",
+      "height": 16,
+      "width": 113,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "border": "0px none color(srgb 0.0901961 0.0901961 0.0901961 / 0.75)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "geistSans",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.25s cubic-bezier(0, 0.55, 0.45, 1)",
+      "gap": "3.5px",
+      "contrast": null
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 63,
+   "heading": "Design Engineer Tools",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "main",
+   "height": 1485,
+   "heading": "Inspiration",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "51.776px 0px",
+   "children": 20
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 17.93,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 24
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.25s",
+    "count": 1588
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0, 0.55, 0.45, 1)",
+    "count": 1588
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 697
+   },
+   {
+    "value": "filter",
+    "count": 254
+   },
+   {
+    "value": "opacity",
+    "count": 254
+   },
+   {
+    "value": "transform",
+    "count": 254
+   },
+   {
+    "value": "background-color",
+    "count": 128
+   },
+   {
+    "value": "background",
+    "count": 1
+   }
+  ]
+ }
+}

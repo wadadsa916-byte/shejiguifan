@@ -1,0 +1,2417 @@
+{
+ "id": "t201",
+ "overview": {
+  "name": "Vercel Doctor",
+  "url": "https://vercel-doctor.com/",
+  "section": "开发环境",
+  "pagesScanned": [
+   "https://vercel-doctor.com/",
+   "https://vercel-doctor.com/docs",
+   "https://vercel-doctor.com/horrors",
+   "https://vercel-doctor.com/showcase"
+  ],
+  "subpages": [
+   "/docs",
+   "/horrors",
+   "/showcase"
+  ],
+  "sectionCount": 7,
+  "componentSamples": 132,
+  "typeSteps": 24
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "lab(100 0 0)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#0a0a0a",
+    "value": "lab(2.75381 0 0)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 19.8
+   },
+   "primary": {
+    "hex": "#e60a64",
+    "value": "#e60a64",
+    "token": "--color-fd-diff-remove-symbol",
+    "source": "palette",
+    "contrastOnBg": 4.57
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 3
+   },
+   {
+    "hex": "#1d9bf0",
+    "count": 1
+   },
+   {
+    "hex": "#0f1419",
+    "count": 1
+   },
+   {
+    "hex": "#536471",
+    "count": 72
+   },
+   {
+    "hex": "#006fd6",
+    "count": 17
+   },
+   {
+    "hex": "#f91880",
+    "count": 9
+   },
+   {
+    "hex": "#032f62",
+    "count": 4
+   },
+   {
+    "hex": "#000000",
+    "count": 4
+   },
+   {
+    "hex": "#005cc5",
+    "count": 3
+   },
+   {
+    "hex": "#24292e",
+    "count": 2
+   }
+  ],
+  "backgroundsTotal": 12,
+  "textTotal": 20,
+  "bordersTotal": 3
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "GeistMono",
+    "count": 2,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "$npx skills add aniket-508/vercel-doctor"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 26,
+    "tags": [
+     "button",
+     "a"
+    ],
+    "samples": [
+     "Copy Markdown"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "18.5px",
+    "letterSpacing": "normal",
+    "family": "GeistMono",
+    "count": 15,
+    "tags": [
+     "pre",
+     "code",
+     "span"
+    ],
+    "samples": [
+     "npx -y vercel-doctor@latest ."
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "GeistMono",
+    "count": 5,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "force-dynamic"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 57,
+    "tags": [
+     "li",
+     "a",
+     "button",
+     "p"
+    ],
+    "samples": [
+     "Docs"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.7px",
+    "family": "GeistMono",
+    "count": 5,
+    "tags": [
+     "p",
+     "span"
+    ],
+    "samples": [
+     "git:(main)x"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 18,
+    "tags": [
+     "td"
+    ],
+    "samples": [
+     "Function Duration"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 25,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Type-safe search params state management"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 17,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Vercel"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 6,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Function Duration"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 3,
+    "tags": [
+     "th"
+    ],
+    "samples": [
+     "Category"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 25,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "nuqs"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "700",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 13,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Watch on X"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 28,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Athrix ☄️"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "700",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 9,
+    "tags": [
+     "span",
+     "a"
+    ],
+    "samples": [
+     "Athrix ☄️"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 56,
+    "tags": [
+     "button",
+     "a",
+     "p"
+    ],
+    "samples": [
+     "git:(main)xnpx -y vercel-doctor@latest ."
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 15,
+    "tags": [
+     "p",
+     "li"
+    ],
+    "samples": [
+     "That's it. No install, no config. It sca"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 11,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "Billing lint"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "600",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Vercel Doctor"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Let coding agents diagnose and fix your "
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 14,
+    "tags": [
+     "p",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "I think it's need some help 😅\nFor Obsid"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "600",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 8,
+    "tags": [
+     "h3",
+     "a"
+    ],
+    "samples": [
+     "Run on your project"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "600",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "GeistSans",
+    "count": 6,
+    "tags": [
+     "h2",
+     "a"
+    ],
+    "samples": [
+     "Quick Start"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "700",
+    "lineHeight": "40px",
+    "letterSpacing": "normal",
+    "family": "GeistPixelGrid",
+    "count": 2,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "Horrors"
+    ]
+   }
+  ],
+  "totalSteps": 31,
+  "families": [
+   "-apple-system",
+   "GeistMono",
+   "GeistPixelGrid",
+   "GeistSans"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 136
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 194
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 312
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 107
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 219
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 24
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 150
+   },
+   {
+    "value": "17.5px",
+    "px": 17.5,
+    "count": 2
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 114
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 36
+   },
+   {
+    "value": "26px",
+    "px": 26.0,
+    "count": 1
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 1
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 11
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 38
+   },
+   {
+    "value": "56px",
+    "px": 56.0,
+    "count": 1
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 4
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "1400px",
+    "count": 12
+   },
+   {
+    "value": "550px",
+    "count": 3
+   },
+   {
+    "value": "448px",
+    "count": 1
+   },
+   {
+    "value": "900px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "2px",
+    "px": 2.0,
+    "count": 1
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 6
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 30
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 19
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 7
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 2
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 80
+   },
+   {
+    "value": "9999px",
+    "px": 9999.0,
+    "count": 26
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0 0 0 / 0.1) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 20
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.03) 0px 0px 2px 0px inset",
+    "count": 3
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+    "count": 2
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+    "count": 2
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 25px 50px -12px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, lab(90.952 0 -0.0000119209) 0px 0px 0px 2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "10",
+    "count": 28
+   },
+   {
+    "value": "0",
+    "count": 25
+   },
+   {
+    "value": "1",
+    "count": 4
+   },
+   {
+    "value": "40",
+    "count": 3
+   },
+   {
+    "value": "2",
+    "count": 2
+   },
+   {
+    "value": "20",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 15,
+   "sizeBuckets": {
+    "md": 10,
+    "sm": 4,
+    "xl": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Search⌘K",
+      "tag": "button",
+      "height": 36,
+      "width": 240,
+      "padding": "6px 6px 6px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "oklab(0.969998 -0.00000959635 0.0000227094 / 0.5)",
+      "color": "lab(48.496 0 0)",
+      "border": "1px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "Toggle Theme",
+      "tag": "button",
+      "height": 36,
+      "width": 62,
+      "padding": "4px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Choose a language",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "6px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.1s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), fill 0.1s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.1s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.1s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.1s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.1s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Select a package manager",
+      "tag": "button",
+      "height": 36,
+      "width": 46,
+      "padding": "8px 4px 8px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px none lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "$npx skills add aniket-508/ver",
+      "tag": "button",
+      "height": 28,
+      "width": 330,
+      "padding": "6px 16px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "oklab(0.969998 -0.00000959635 0.0000227094 / 0.6)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "GeistMono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "git:(main)xnpx -y vercel-docto",
+      "tag": "button",
+      "height": 20,
+      "width": 330,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "Toggle Theme",
+      "tag": "button",
+      "height": 28,
+      "width": 54,
+      "padding": "0px",
+      "margin": "0px 0px 0px 122px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "1px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Copy Text",
+      "tag": "button",
+      "height": 24,
+      "width": 24,
+      "padding": "4px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.1s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), fill 0.1s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.1s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.1s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.1s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.1s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "View video on X",
+      "tag": "button",
+      "height": 67,
+      "width": 67,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(29, 155, 240)",
+      "color": "rgb(15, 20, 25)",
+      "border": "4px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s",
+      "gap": "normal",
+      "contrast": 6.17
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 34,
+   "sizeBuckets": {
+    "sm": 10,
+    "md": 17,
+    "xl": 7
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Vercel Doctor",
+      "tag": "a",
+      "height": 24,
+      "width": 139,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": null
+     },
+     {
+      "text": "Vercel",
+      "tag": "a",
+      "height": 18,
+      "width": 42,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Twitter",
+      "tag": "a",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Quick Start",
+      "tag": "a",
+      "height": 26,
+      "width": 250,
+      "padding": "0px 0px 6px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(7.78201 -0.0000149012 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 36,
+      "width": 49,
+      "padding": "8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "6px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.1s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), fill 0.1s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.1s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.1s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.1s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.1s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Fix your costs",
+      "tag": "a",
+      "height": 36,
+      "width": 139,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "lab(7.78201 -0.0000149012 0)",
+      "color": "lab(98.26 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 36,
+      "width": 95,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "lab(100 0 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "“I love it. In fact, you can n",
+      "tag": "a",
+      "height": 326,
+      "width": 537,
+      "padding": "48px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "interesting!grim",
+      "tag": "a",
+      "height": 144,
+      "width": 319,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "👀 This is a great idea. Thanks",
+      "tag": "a",
+      "height": 120,
+      "width": 319,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "CLI ReferenceAll command-line ",
+      "tag": "a",
+      "height": 82,
+      "width": 836,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "1px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 15,
+   "sizeBuckets": {
+    "xl": 14,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Vercel DoctorSearch⌘K[data-rad",
+      "tag": "aside",
+      "height": 813,
+      "width": 268,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "lab(98.26 0 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.25s",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "What is Vercel Doctor?Reduce y",
+      "tag": "article",
+      "height": 2105,
+      "width": 900,
+      "padding": "56px 32px 24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": null
+     },
+     {
+      "text": "npx -y vercel-doctor@latest .",
+      "tag": "figure",
+      "height": 49,
+      "width": 791,
+      "padding": "0px",
+      "margin": "16px 0px",
+      "radius": "14px",
+      "background": "lab(100 0 0)",
+      "color": "oklab(0.145 -0.00000143796 0.00000340492 / 0.9)",
+      "border": "1px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Athrix ☄️@athrix_codes·FollowI",
+      "tag": "article",
+      "height": 1358,
+      "width": 441,
+      "padding": "10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Vercel DoctorDocsHorrorsShowca",
+      "tag": "header",
+      "height": 56,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 19,
+      "width": 21,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(29, 155, 240)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 8,
+   "sizeBuckets": {
+    "xl": 2,
+    "lg": 2,
+    "md": 2,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Stop racking upVercel costs",
+      "tag": "h1",
+      "height": 120,
+      "width": 434,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "60px",
+      "fontWeight": "700",
+      "fontFamily": "GeistPixelGrid",
+      "lineHeight": "60px",
+      "letterSpacing": "-1.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Better billing by 10/26.",
+      "tag": "h2",
+      "height": 96,
+      "width": 299,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "48px",
+      "fontWeight": "700",
+      "fontFamily": "GeistPixelGrid",
+      "lineHeight": "48px",
+      "letterSpacing": "-1.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "What is Vercel Doctor?",
+      "tag": "h1",
+      "height": 42,
+      "width": 836,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "28px",
+      "fontWeight": "600",
+      "fontFamily": "GeistSans",
+      "lineHeight": "42px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Horrors",
+      "tag": "h1",
+      "height": 40,
+      "width": 127,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "36px",
+      "fontWeight": "700",
+      "fontFamily": "GeistPixelGrid",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Quick Start",
+      "tag": "h2",
+      "height": 32,
+      "width": 836,
+      "padding": "0px",
+      "margin": "48px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "GeistSans",
+      "lineHeight": "31.9999px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "Run on your project",
+      "tag": "h3",
+      "height": 32,
+      "width": 791,
+      "padding": "0px",
+      "margin": "32px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "GeistSans",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "On this page",
+      "tag": "h3",
+      "height": 20,
+      "width": 252,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "nuqs",
+      "tag": "h2",
+      "height": 20,
+      "width": 33,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 21,
+   "sizeBuckets": {
+    "sm": 9,
+    "xl": 11,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Let coding agents diagnose and",
+      "tag": "p",
+      "height": 28,
+      "width": 434,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "git:(main)x",
+      "tag": "p",
+      "height": 20,
+      "width": 89,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistMono",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.7px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Malte Ubl",
+      "tag": "p",
+      "height": 24,
+      "width": 84,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "CTO @Vercel",
+      "tag": "p",
+      "height": 20,
+      "width": 84,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Love that you saw a problem an",
+      "tag": "p",
+      "height": 72,
+      "width": 287,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "👀 This is a great idea. Thanks",
+      "tag": "p",
+      "height": 48,
+      "width": 287,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Vercel Doctor is a specialized",
+      "tag": "p",
+      "height": 84,
+      "width": 836,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.145 -0.00000143796 0.00000340492 / 0.9)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Each diagnostic includes a hel",
+      "tag": "p",
+      "height": 56,
+      "width": 791,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.145 -0.00000143796 0.00000340492 / 0.9)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Use --diff on feature branches",
+      "tag": "p",
+      "height": 29,
+      "width": 791,
+      "padding": "0px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.145 -0.00000143796 0.00000340492 / 0.9)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 4,
+   "sizeBuckets": {
+    "md": 2,
+    "xl": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "DocsHorrorsShowcasesSponsors",
+      "tag": "ul",
+      "height": 36,
+      "width": 349,
+      "padding": "0px 24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "ul",
+      "height": 33,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Billing lint — AST-based and p",
+      "tag": "ol",
+      "height": 64,
+      "width": 836,
+      "padding": "0px 0px 0px 26px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.145 -0.00000143796 0.00000340492 / 0.9)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Zero config — runs out of the ",
+      "tag": "ul",
+      "height": 316,
+      "width": 836,
+      "padding": "0px 0px 0px 16px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.145 -0.00000143796 0.00000340492 / 0.9)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "table": {
+   "label": "表格",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "CategoryRulesWhat it catchesFu",
+      "tag": "table",
+      "height": 317,
+      "width": 836,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "lab(100 0 0)",
+      "color": "oklab(0.145 -0.00000143796 0.00000340492 / 0.9)",
+      "border": "1px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24.0001px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 1,
+    "md": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "git:(main)x",
+      "tag": "p",
+      "height": 20,
+      "width": 89,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistMono",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.7px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Select a package manager",
+      "tag": "button",
+      "height": 36,
+      "width": 46,
+      "padding": "8px 4px 8px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px none lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "img",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "avatar": {
+   "label": "头像",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 20, 25)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 20, 25)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 20, 25)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 20, 25)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 24,
+   "sizeBuckets": {
+    "sm": 22,
+    "md": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.75381 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 26,
+      "width": 26,
+      "padding": "6px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "lab(96.52 -0.0000298023 0.0000119209)",
+      "color": "lab(7.78201 -0.0000149012 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 26,
+      "width": 26,
+      "padding": "6px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.496 0 0)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "GeistSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 34,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px 0px 0px 3px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px 0px 0px -4px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(83, 100, 113)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.43
+     }
+    ]
+   }
+  },
+  "divider": {
+   "label": "分割线",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "·",
+      "tag": "span",
+      "height": 20,
+      "width": 12,
+      "padding": "0px 4px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(15, 20, 25)",
+      "border": "0px solid lab(90.952 0 -0.0000119209)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 1769,
+   "heading": "Stop racking upVercel costs",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 8
+  },
+  {
+   "tag": "header",
+   "height": 56,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "nav",
+   "height": 56,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 16px",
+   "children": 4
+  },
+  {
+   "tag": "section",
+   "height": 530,
+   "heading": "Stop racking upVercel costs",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 48px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 394,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 48px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 425,
+   "heading": "Better billing by 10/26.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 48px",
+   "children": 2
+  },
+  {
+   "tag": "footer",
+   "height": 69,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 21.0,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 32
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 35
+   },
+   {
+    "value": "0.1s",
+    "count": 4
+   },
+   {
+    "value": "0.3s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0, 0, 0.2, 1)",
+    "count": 21
+   },
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 19
+   }
+  ],
+  "properties": [
+   {
+    "value": "background-color",
+    "count": 34
+   },
+   {
+    "value": "color",
+    "count": 14
+   },
+   {
+    "value": "border-color",
+    "count": 13
+   },
+   {
+    "value": "outline-color",
+    "count": 13
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 13
+   },
+   {
+    "value": "fill",
+    "count": 13
+   },
+   {
+    "value": "stroke",
+    "count": 13
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 13
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 13
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 13
+   }
+  ]
+ }
+}

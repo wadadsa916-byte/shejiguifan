@@ -1,0 +1,2766 @@
+{
+ "id": "t178",
+ "overview": {
+  "name": "sensory-ui",
+  "url": "https://www.sensory-ui.com/",
+  "section": "组件库",
+  "pagesScanned": [
+   "https://www.sensory-ui.com/",
+   "https://www.sensory-ui.com/docs"
+  ],
+  "subpages": [
+   "/docs"
+  ],
+  "sectionCount": 10,
+  "componentSamples": 193,
+  "typeSteps": 20
+ },
+ "colors": {
+  "roles": {
+   "border": {
+    "hex": "#cccccc",
+    "value": "#cccccc",
+    "token": "--color-fd-border",
+    "source": "css-var",
+    "contrastOnBg": 1.47
+   },
+   "muted": {
+    "hex": "#f5f5f5",
+    "value": "#f5f5f5",
+    "token": "--color-fd-muted",
+    "source": "css-var",
+    "contrastOnBg": 1.0
+   },
+   "focus": {
+    "hex": "#a3a3a3",
+    "value": "#a3a3a3",
+    "token": "--color-fd-ring",
+    "source": "css-var",
+    "contrastOnBg": 2.31
+   },
+   "foreground": {
+    "hex": "#0a0a0a",
+    "value": "#0a0a0a",
+    "token": "--color-fd-foreground",
+    "source": "css-var",
+    "contrastOnBg": 18.16
+   },
+   "background": {
+    "hex": "#f5f5f5",
+    "value": "#f5f5f5",
+    "token": "--color-fd-background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "primary": {
+    "hex": "#e60a64",
+    "value": "#e60a64",
+    "token": "--color-fd-diff-remove-symbol",
+    "source": "palette",
+    "contrastOnBg": 4.19
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#f1f1f1",
+    "count": 11
+   },
+   {
+    "hex": "#f5f5f5",
+    "count": 3
+   },
+   {
+    "hex": "#ffffff",
+    "count": 2
+   },
+   {
+    "hex": "#171717",
+    "count": 1
+   },
+   {
+    "hex": "#737373",
+    "count": 100
+   },
+   {
+    "hex": "#272727",
+    "count": 32
+   },
+   {
+    "hex": "#0a0a0a",
+    "count": 31
+   },
+   {
+    "hex": "#000000",
+    "count": 5
+   }
+  ],
+  "backgroundsTotal": 23,
+  "textTotal": 26,
+  "bordersTotal": 10
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "1px",
+    "family": "Geist Mono",
+    "count": 15,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Checkbox"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "16.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 34,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "interaction.tap"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Be Vietnam Pro",
+    "count": 53,
+    "tags": [
+     "span",
+     "button",
+     "label",
+     "p",
+     "a"
+    ],
+    "samples": [
+     "components"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Be Vietnam Pro",
+    "count": 9,
+    "tags": [
+     "li",
+     "span",
+     "h3"
+    ],
+    "samples": [
+     "Previous"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "1.2px",
+    "family": "Geist Mono",
+    "count": 8,
+    "tags": [
+     "span",
+     "p"
+    ],
+    "samples": [
+     "Showcase"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Be Vietnam Pro",
+    "count": 42,
+    "tags": [
+     "a",
+     "span",
+     "button"
+    ],
+    "samples": [
+     "Docs"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "Be Vietnam Pro",
+    "count": 15,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Drop-in replacements for shadcn/ui. Add "
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "0.35px",
+    "family": "Geist Mono",
+    "count": 2,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Let's collaborate→"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Be Vietnam Pro",
+    "count": 72,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "MIT License · Open source forever"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Be Vietnam Pro",
+    "count": 10,
+    "tags": [
+     "button",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "Getting Started"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "600",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "Be Vietnam Pro",
+    "count": 2,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "sensory-ui"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Be Vietnam Pro",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "•"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Be Vietnam Pro",
+    "count": 14,
+    "tags": [
+     "p",
+     "a",
+     "em"
+    ],
+    "samples": [
+     "sensory-ui is the opposite bet: sound as"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Be Vietnam Pro",
+    "count": 3,
+    "tags": [
+     "strong",
+     "a"
+    ],
+    "samples": [
+     "sound as semantics"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "600",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Be Vietnam Pro",
+    "count": 6,
+    "tags": [
+     "a",
+     "span",
+     "h3"
+    ],
+    "samples": [
+     "sensory-ui"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "700",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "Cardo",
+    "count": 11,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "17 sound roles"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "600",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "Cardo",
+    "count": 4,
+    "tags": [
+     "h2",
+     "a"
+    ],
+    "samples": [
+     "Why this existsCopy Anchor Link"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "400",
+    "lineHeight": "40px",
+    "letterSpacing": "normal",
+    "family": "Cardo",
+    "count": 10,
+    "tags": [
+     "h2",
+     "span"
+    ],
+    "samples": [
+     "Hear your components."
+    ]
+   },
+   {
+    "size": "48px",
+    "px": 48.0,
+    "weight": "400",
+    "lineHeight": "48px",
+    "letterSpacing": "normal",
+    "family": "Cardo",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "0"
+    ]
+   },
+   {
+    "size": "60px",
+    "px": 60.0,
+    "weight": "400",
+    "lineHeight": "66px",
+    "letterSpacing": "-1.5px",
+    "family": "Cardo",
+    "count": 2,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "Your website speaks. Give it a voice."
+    ]
+   }
+  ],
+  "totalSteps": 31,
+  "families": [
+   "Be Vietnam Pro",
+   "Cardo",
+   "Geist Mono",
+   "ui-monospace"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 123
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 162
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 287
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 94
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 49
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 213
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 9
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 30
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 7
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 7
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 3
+   },
+   {
+    "value": "80px",
+    "px": 80.0,
+    "count": 1
+   },
+   {
+    "value": "96px",
+    "px": 96.0,
+    "count": 11
+   },
+   {
+    "value": "128px",
+    "px": 128.0,
+    "count": 2
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "1280px",
+    "count": 8
+   },
+   {
+    "value": "512px",
+    "count": 2
+   },
+   {
+    "value": "2000px",
+    "count": 2
+   },
+   {
+    "value": "576px",
+    "count": 1
+   },
+   {
+    "value": "672px",
+    "count": 1
+   },
+   {
+    "value": "448px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 1
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 1
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 15
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0.147 0.00261104 0.00303026 / 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 12
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklch(0.147 0.004 49.25) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 2
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px",
+    "count": 2
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(39, 39, 39) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "10",
+    "count": 15
+   },
+   {
+    "value": "0",
+    "count": 7
+   },
+   {
+    "value": "50",
+    "count": 1
+   },
+   {
+    "value": "30",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 30,
+   "sizeBuckets": {
+    "sm": 18,
+    "md": 11,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 28,
+      "width": 52,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.553 0.013 58.071)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "Motion enabled - sounds are ac",
+      "tag": "button",
+      "height": 8,
+      "width": 8,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Normal 'Tick' Sound",
+      "tag": "button",
+      "height": 28,
+      "width": 362,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.577 0.245 27.325)",
+      "color": "oklch(0.971 0.013 17.38)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "Subtle 'Tock' Sound",
+      "tag": "button",
+      "height": 28,
+      "width": 362,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(1 0 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Twitter/X - @SatyamVyas04",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Copy install command",
+      "tag": "button",
+      "height": 32,
+      "width": 39,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.577 0.217662 0.112464 / 0.1)",
+      "color": "oklch(0.577 0.245 27.325)",
+      "border": "1px solid oklab(0.577 0.217662 0.112464 / 0.3)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Get Started",
+      "tag": "a",
+      "height": 32,
+      "width": 113,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.577 0.245 27.325)",
+      "color": "oklch(0.971 0.013 17.38)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Explore Components",
+      "tag": "a",
+      "height": 32,
+      "width": 144,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(1 0 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "What is sensory-ui?",
+      "tag": "button",
+      "height": 38,
+      "width": 362,
+      "padding": "10px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 22,
+   "sizeBuckets": {
+    "sm": 11,
+    "md": 8,
+    "xl": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "sensory-ui",
+      "tag": "a",
+      "height": 24,
+      "width": 118,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "10px",
+      "contrast": null
+     },
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 28,
+      "width": 52,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.553 0.013 58.071)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "Sounds on the Web",
+      "tag": "a",
+      "height": 15,
+      "width": 125,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.553 0.013 58.071)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 16,
+      "width": 30,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.999994 0.0000455677 0.0000200868 / 0.6)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Twitter/X - @SatyamVyas04",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Get Started",
+      "tag": "a",
+      "height": 32,
+      "width": 113,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.577 0.245 27.325)",
+      "color": "oklch(0.971 0.013 17.38)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Explore Components",
+      "tag": "a",
+      "height": 32,
+      "width": 144,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(1 0 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Previous",
+      "tag": "a",
+      "height": 32,
+      "width": 90,
+      "padding": "0px 10px 0px 6px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Sponsor sensory-uiFree & Open-",
+      "tag": "a",
+      "height": 107,
+      "width": 246,
+      "padding": "16px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.971 0.0134023 -0.00404691 / 0.6)",
+      "color": "rgb(39, 39, 39)",
+      "border": "1px solid oklch(0.899 0.061 343.231)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "17 sound rolesOne language for",
+      "tag": "a",
+      "height": 104,
+      "width": 420,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(241, 241, 241)",
+      "color": "rgb(10, 10, 10)",
+      "border": "1px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 17.53
+     },
+     {
+      "text": "InstallationGet running in min",
+      "tag": "a",
+      "height": 84,
+      "width": 420,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(241, 241, 241)",
+      "color": "rgb(10, 10, 10)",
+      "border": "1px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 17.53
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 16,
+      "width": 336,
+      "padding": "0px 0px 0px 6px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 28,
+   "sizeBuckets": {
+    "md": 2,
+    "lg": 2,
+    "xl": 22,
+    "sm": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "$ npx shadcn@latest add Satyam",
+      "tag": "div",
+      "height": 34,
+      "width": 576,
+      "padding": "0px",
+      "margin": "20px 0px 0px",
+      "radius": "0px",
+      "background": "oklab(1 0 0 / 0.4)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid oklab(0.577 0.217662 0.112464 / 0.3)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "0px",
+      "contrast": null
+     },
+     {
+      "text": "CrispSharp hi-fi precision",
+      "tag": "button",
+      "height": 32,
+      "width": 240,
+      "padding": "8px 8px 8px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(1 0 0 / 0.5)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid oklab(0.577 0.217662 0.112464 / 0.3)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "components24components•sound c",
+      "tag": "div",
+      "height": 42,
+      "width": 522,
+      "padding": "8px 12px",
+      "margin": "24px 0px 0px",
+      "radius": "0px",
+      "background": "oklab(1 0 0 / 0.2)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "ButtonClick to trigger each ac",
+      "tag": "div",
+      "height": 38,
+      "width": 394,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "ButtonClick to trigger each ac",
+      "tag": "div",
+      "height": 154,
+      "width": 394,
+      "padding": "16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(1 0 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0.147 0.00261104 0.00303026 / 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "transition": "box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), ring-color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "16px",
+      "contrast": null
+     },
+     {
+      "text": "Normal 'Tick' SoundSubtle 'Toc",
+      "tag": "div",
+      "height": 68,
+      "width": 394,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Toggle ControlsCheckboxes, swi",
+      "tag": "div",
+      "height": 384,
+      "width": 394,
+      "padding": "16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(1 0 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0.147 0.00261104 0.00303026 / 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "transition": "box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), ring-color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "16px",
+      "contrast": null
+     },
+     {
+      "text": "CheckboxAppleBananaCherrySwitc",
+      "tag": "div",
+      "height": 305,
+      "width": 394,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Button",
+      "tag": "div",
+      "height": 16,
+      "width": 362,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "Open Dialog",
+      "tag": "div",
+      "height": 28,
+      "width": 394,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 1,
+    "md": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "sensory-uiDocsComponentsBlocks",
+      "tag": "header",
+      "height": 64,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "DocsComponentsBlocks293 ★",
+      "tag": "nav",
+      "height": 32,
+      "width": 351,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "Previous123More pagesNext",
+      "tag": "nav",
+      "height": 32,
+      "width": 362,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 7,
+   "sizeBuckets": {
+    "xl": 1,
+    "lg": 3,
+    "sm": 2,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Your website speaks. Give it a",
+      "tag": "h1",
+      "height": 132,
+      "width": 576,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "60px",
+      "fontWeight": "400",
+      "fontFamily": "Cardo",
+      "lineHeight": "66px",
+      "letterSpacing": "-1.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Hear your components.",
+      "tag": "h2",
+      "height": 40,
+      "width": 968,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "fontFamily": "Cardo",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "What is sensory-ui?",
+      "tag": "h3",
+      "height": 38,
+      "width": 362,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Documentation",
+      "tag": "h1",
+      "height": 42,
+      "width": 852,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "28px",
+      "fontWeight": "600",
+      "fontFamily": "Cardo",
+      "lineHeight": "42px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Informative, not decorative",
+      "tag": "h3",
+      "height": 24,
+      "width": 551,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "17 sound roles",
+      "tag": "h3",
+      "height": 26,
+      "width": 386,
+      "padding": "0px",
+      "margin": "0px 0px 4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "fontFamily": "Cardo",
+      "lineHeight": "25.7143px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     }
+    ],
+    "md": [
+     {
+      "text": "Why this existsCopy Anchor Lin",
+      "tag": "h2",
+      "height": 32,
+      "width": 852,
+      "padding": "0px",
+      "margin": "48px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "Cardo",
+      "lineHeight": "31.9999px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 1.06
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 15,
+   "sizeBuckets": {
+    "sm": 7,
+    "xl": 7,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Sound-enabled components for R",
+      "tag": "p",
+      "height": 26,
+      "width": 576,
+      "padding": "0px",
+      "margin": "16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.553 0.013 58.071)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Drop-in replacements for shadc",
+      "tag": "p",
+      "height": 23,
+      "width": 672,
+      "padding": "0px",
+      "margin": "16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.553 0.013 58.071)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Sounds generated in real time ",
+      "tag": "p",
+      "height": 16,
+      "width": 1232,
+      "padding": "0px",
+      "margin": "32px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.553 0.00687528 0.0110332 / 0.8)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "audio files",
+      "tag": "p",
+      "height": 16,
+      "width": 92,
+      "padding": "0px",
+      "margin": "4px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.553 0.013 58.071)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "1.2px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Sound should communicate, not ",
+      "tag": "p",
+      "height": 46,
+      "width": 512,
+      "padding": "0px",
+      "margin": "16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.553 0.013 58.071)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "\"Your ears are faster than you",
+      "tag": "p",
+      "height": 68,
+      "width": 566,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.553 0.013 58.071)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Ready to makesome noise?",
+      "tag": "p",
+      "height": 90,
+      "width": 215,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "fontFamily": "Cardo",
+      "lineHeight": "45px",
+      "letterSpacing": "-0.9px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "sensory-ui",
+      "tag": "p",
+      "height": 200,
+      "width": 1216,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "200px",
+      "fontWeight": "400",
+      "fontFamily": "Cardo",
+      "lineHeight": "200px",
+      "letterSpacing": "-5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "lg": [
+     {
+      "text": "One language for taps, toggles",
+      "tag": "p",
+      "height": 40,
+      "width": 386,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(115, 115, 115)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.43
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 2,
+   "sizeBuckets": {
+    "md": 1,
+    "sm": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Previous123More pagesNext",
+      "tag": "ul",
+      "height": 32,
+      "width": 295,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Docs>Documentation",
+      "tag": "ol",
+      "height": 16,
+      "width": 852,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "modal": {
+   "label": "对话框",
+   "count": 2,
+   "sizeBuckets": {
+    "md": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Action one",
+      "tag": "div",
+      "height": 32,
+      "width": 360,
+      "padding": "8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.97 0.001 106.424)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "Action two",
+      "tag": "div",
+      "height": 32,
+      "width": 360,
+      "padding": "8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 26,
+   "sizeBuckets": {
+    "sm": 24,
+    "xl": 1,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "293 ★",
+      "tag": "span",
+      "height": 16,
+      "width": 39,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.553 0.013 58.071)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 12,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.577 0.245 27.325)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "PreviewCodeDocsPreview - switc",
+      "tag": "div",
+      "height": 60,
+      "width": 362,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "PreviewCodeDocs",
+      "tag": "div",
+      "height": 32,
+      "width": 362,
+      "padding": "3px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.97 0.001 106.424)",
+      "color": "oklch(0.553 0.013 58.071)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 23,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 12,
+    "md": 9
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 813,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "sensory-ui",
+      "tag": "p",
+      "height": 200,
+      "width": 1216,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "200px",
+      "fontWeight": "400",
+      "fontFamily": "Cardo",
+      "lineHeight": "200px",
+      "letterSpacing": "-5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 28,
+      "width": 52,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.553 0.013 58.071)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.553 0.013 58.071)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Normal 'Tick' Sound",
+      "tag": "button",
+      "height": 28,
+      "width": 362,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.577 0.245 27.325)",
+      "color": "oklch(0.971 0.013 17.38)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "Subtle 'Tock' Sound",
+      "tag": "button",
+      "height": 28,
+      "width": 362,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(1 0 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Twitter/X - @SatyamVyas04",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Copy install command",
+      "tag": "button",
+      "height": 32,
+      "width": 39,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.577 0.217662 0.112464 / 0.1)",
+      "color": "oklch(0.577 0.245 27.325)",
+      "border": "1px solid oklab(0.577 0.217662 0.112464 / 0.3)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Get Started",
+      "tag": "a",
+      "height": 32,
+      "width": 113,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.577 0.245 27.325)",
+      "color": "oklch(0.971 0.013 17.38)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Explore Components",
+      "tag": "a",
+      "height": 32,
+      "width": 144,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(1 0 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 32,
+   "sizeBuckets": {
+    "sm": 26,
+    "md": 5,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 28,
+      "width": 52,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.553 0.013 58.071)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 12,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.577 0.245 27.325)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Twitter/X - @SatyamVyas04",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Copy install command",
+      "tag": "button",
+      "height": 32,
+      "width": 39,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.577 0.217662 0.112464 / 0.1)",
+      "color": "oklch(0.577 0.245 27.325)",
+      "border": "1px solid oklab(0.577 0.217662 0.112464 / 0.3)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Get Started",
+      "tag": "a",
+      "height": 32,
+      "width": 113,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.577 0.245 27.325)",
+      "color": "oklch(0.971 0.013 17.38)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     },
+     {
+      "text": "Explore Components",
+      "tag": "a",
+      "height": 32,
+      "width": 144,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(1 0 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "What is sensory-ui?",
+      "tag": "button",
+      "height": 38,
+      "width": 362,
+      "padding": "10px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "pagination": {
+   "label": "分页",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Previous123More pagesNext",
+      "tag": "nav",
+      "height": 32,
+      "width": 362,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.147 0.004 49.25)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "alert": {
+   "label": "提示条",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.769 0.188 70.08)",
+      "border": "0px solid oklch(0.923 0.003 48.717)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Be Vietnam Pro",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 4800,
+   "heading": "Your website speaks. Give it a voice.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 6
+  },
+  {
+   "tag": "section",
+   "height": 813,
+   "heading": "Your website speaks. Give it a voice.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 6
+  },
+  {
+   "tag": "header",
+   "height": 64,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1354,
+   "heading": "Hear your components.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "96px 0px",
+   "children": 1
+  },
+  {
+   "tag": "div",
+   "height": 100,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 741,
+   "heading": "Sound with intention.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "96px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 574,
+   "heading": "No audio files. Just sound.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "96px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 765,
+   "heading": "The forgotten dimension of UI.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "96px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 554,
+   "heading": "Give your UI a voice.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "96px 0px",
+   "children": 1
+  },
+  {
+   "tag": "footer",
+   "height": 545,
+   "heading": null,
+   "background": "oklch(0.147 0.004 49.25)",
+   "padding": "0px",
+   "children": 3
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 18.16,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 8,
+  "tapTargetMedian": 28
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 120
+   },
+   {
+    "value": "0.2s",
+    "count": 12
+   },
+   {
+    "value": "0.3s",
+    "count": 3
+   },
+   {
+    "value": "0.35s",
+    "count": 2
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 132
+   },
+   {
+    "value": "cubic-bezier(0, 0, 0.2, 1)",
+    "count": 3
+   },
+   {
+    "value": "ease-out",
+    "count": 2
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 29
+   },
+   {
+    "value": "background-color",
+    "count": 28
+   },
+   {
+    "value": "border-color",
+    "count": 28
+   },
+   {
+    "value": "outline-color",
+    "count": 28
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 28
+   },
+   {
+    "value": "fill",
+    "count": 28
+   },
+   {
+    "value": "stroke",
+    "count": 28
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 28
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 28
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 28
+   }
+  ]
+ }
+}

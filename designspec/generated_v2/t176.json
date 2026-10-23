@@ -1,0 +1,1089 @@
+{
+ "id": "t176",
+ "overview": {
+  "name": "Uiuno",
+  "url": "https://uiuno.com/",
+  "section": "组件库",
+  "pagesScanned": [
+   "https://uiuno.com/"
+  ],
+  "subpages": [],
+  "sectionCount": 2,
+  "componentSamples": 54,
+  "typeSteps": 5
+ },
+ "colors": {
+  "roles": {
+   "danger": {
+    "hex": "#ea3323",
+    "value": "#ea3323",
+    "token": "--sp-colors-error",
+    "source": "css-var",
+    "contrastOnBg": 3.81
+   },
+   "warning": {
+    "hex": "#6a4516",
+    "value": "#6a4516",
+    "token": "--sp-colors-warning",
+    "source": "css-var",
+    "contrastOnBg": 7.69
+   },
+   "hover": {
+    "hex": "#4d4d4d",
+    "value": "#4d4d4d",
+    "token": "--sp-colors-hover",
+    "source": "css-var",
+    "contrastOnBg": 7.67
+   },
+   "background": {
+    "hex": "#f4f4f0",
+    "value": "lab(96.0988 -0.493258 1.82395)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#090b0c",
+    "value": "lab(2.93655 -0.435196 -0.608262)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 17.89
+   },
+   "primary": {
+    "hex": "#fef2c0",
+    "value": "#fef2c0",
+    "token": "--sp-colors-warningSurface",
+    "source": "palette",
+    "contrastOnBg": 1.02
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 8
+   },
+   {
+    "hex": "#000000",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 6,
+  "textTotal": 9,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "600",
+    "lineHeight": "11px",
+    "letterSpacing": "normal",
+    "family": "monoFont",
+    "count": 12,
+    "tags": [
+     "button",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "File"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "0.12px",
+    "family": "sansFont",
+    "count": 5,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Fork"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "monoFont",
+    "count": 4,
+    "tags": [
+     "li",
+     "button",
+     "span"
+    ],
+    "samples": [
+     "example.tsxcomponent"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "450",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "monoFont",
+    "count": 2,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "example.tsx"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "family": "monoFont",
+    "count": 57,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "\"use"
+    ]
+   }
+  ],
+  "totalSteps": 7,
+  "families": [
+   "monoFont",
+   "sansFont"
+  ],
+  "weights": [
+   "400",
+   "450",
+   "500",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 31
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 23
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 61
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 2
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 22
+   },
+   {
+    "value": "44px",
+    "px": 44.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": []
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 10
+   },
+   {
+    "value": "11.25px",
+    "px": 11.25,
+    "count": 8
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 4
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 8
+   },
+   {
+    "value": "9999px",
+    "px": 9999.0,
+    "count": 1
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, lab(86.1731 -1.073 4.02397) 0px 0px 0px 0.5px, rgba(255, 255, 255, 0.533) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.533) 0px 0px 1px 1px inset, rgba(0, 0, 0, 0.067) 0px 0.5px 1px 0px, rgba(0, 0, 0, 0.133) 0px 0px 1px 0px, rgba(0, 0, 0, 0.133) 0px 0px 4px -1px",
+    "count": 2
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "0",
+    "count": 12
+   },
+   {
+    "value": "20",
+    "count": 3
+   },
+   {
+    "value": "10",
+    "count": 1
+   },
+   {
+    "value": "200",
+    "count": 1
+   },
+   {
+    "value": "30",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 16,
+   "sizeBuckets": {
+    "sm": 13,
+    "md": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Open navigation menu",
+      "tag": "button",
+      "height": 28,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(51.5272 -2.86695 11.5408)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "sansFont",
+      "lineHeight": "16px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "0px",
+      "contrast": null
+     },
+     {
+      "text": "File",
+      "tag": "button",
+      "height": 26,
+      "width": 42,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(51.5272 -2.86695 11.5408)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "11px",
+      "fontWeight": "600",
+      "fontFamily": "monoFont",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Previous",
+      "tag": "button",
+      "height": 26,
+      "width": 26,
+      "padding": "0px",
+      "margin": "0px 8px 0px 0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(69.6658 -2.009 7.72947)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "0.16px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Terminal Loader",
+      "tag": "button",
+      "height": 26,
+      "width": 144,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "sansFont",
+      "lineHeight": "19.5px",
+      "letterSpacing": "0.13px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Files",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "11.25px",
+      "background": "rgb(255, 255, 255)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "1px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), scale 0.15s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Design System",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "11.25px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), scale 0.15s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Open profile menu",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), scale 0.15s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Explore",
+      "tag": "a",
+      "height": 26,
+      "width": 80,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(51.5272 -2.86695 11.5408)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "11px",
+      "fontWeight": "600",
+      "fontFamily": "monoFont",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Clear logs",
+      "tag": "div",
+      "height": 757,
+      "width": 550,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "15px",
+      "background": "lab(98.6338 -0.297457 1.09334)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "1px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "FileEditorPreviewExploreGenera",
+      "tag": "header",
+      "height": 48,
+      "width": 1440,
+      "padding": "8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Open navigation menu",
+      "tag": "button",
+      "height": 28,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(51.5272 -2.86695 11.5408)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "sansFont",
+      "lineHeight": "16px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "0px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "div",
+      "tag": "span",
+      "height": 18,
+      "width": 25,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(61.1055 -41.0235 73.1483)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "monoFont",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Terminal Loader",
+      "tag": "h1",
+      "height": 27,
+      "width": 144,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "example.tsxcomponentterminal-l",
+      "tag": "ul",
+      "height": 58,
+      "width": 276,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "monoFont",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 15,
+   "sizeBuckets": {
+    "sm": 11,
+    "md": 3,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Open navigation menu",
+      "tag": "button",
+      "height": 28,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(51.5272 -2.86695 11.5408)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "sansFont",
+      "lineHeight": "16px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "0px",
+      "contrast": null
+     },
+     {
+      "text": "File",
+      "tag": "button",
+      "height": 26,
+      "width": 42,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(51.5272 -2.86695 11.5408)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "11px",
+      "fontWeight": "600",
+      "fontFamily": "monoFont",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Previous",
+      "tag": "button",
+      "height": 26,
+      "width": 26,
+      "padding": "0px",
+      "margin": "0px 8px 0px 0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(69.6658 -2.009 7.72947)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "0.16px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Terminal Loader",
+      "tag": "button",
+      "height": 26,
+      "width": 144,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "sansFont",
+      "lineHeight": "19.5px",
+      "letterSpacing": "0.13px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Files",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "11.25px",
+      "background": "rgb(255, 255, 255)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "1px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), scale 0.15s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Design System",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "11.25px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), scale 0.15s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Open profile menu",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), scale 0.15s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 755,
+      "width": 548,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 15,
+   "sizeBuckets": {
+    "sm": 15
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 15,
+      "width": 15,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(51.5272 -2.86695 11.5408)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "sansFont",
+      "lineHeight": "16px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 12,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "11px",
+      "fontWeight": "600",
+      "fontFamily": "monoFont",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(51.5272 -2.86695 11.5408)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "11px",
+      "fontWeight": "600",
+      "fontFamily": "monoFont",
+      "lineHeight": "11px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(69.6658 -2.009 7.72947)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "0.16px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "divider": {
+   "label": "分割线",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Fork",
+      "tag": "div",
+      "height": 26,
+      "width": 85,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(2.93655 -0.435196 -0.608262)",
+      "border": "0px solid oklab(0.897997 -0.00267131 0.00898026)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "sansFont",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 48,
+   "heading": "Terminal Loader",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "8px",
+   "children": 3
+  },
+  {
+   "tag": "main",
+   "height": 765,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 21.0,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 26,
+  "tapTargetMedian": 26
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 36
+   },
+   {
+    "value": "0.2s",
+    "count": 3
+   },
+   {
+    "value": "0.3s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 35
+   },
+   {
+    "value": "cubic-bezier(0, 0, 0.2, 1)",
+    "count": 2
+   },
+   {
+    "value": "ease-in-out",
+    "count": 1
+   },
+   {
+    "value": "linear",
+    "count": 1
+   },
+   {
+    "value": "ease",
+    "count": 1
+   },
+   {
+    "value": "ease-in",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "translate",
+    "count": 31
+   },
+   {
+    "value": "opacity",
+    "count": 19
+   },
+   {
+    "value": "transform",
+    "count": 9
+   },
+   {
+    "value": "scale",
+    "count": 9
+   },
+   {
+    "value": "rotate",
+    "count": 9
+   },
+   {
+    "value": "color",
+    "count": 5
+   },
+   {
+    "value": "background-color",
+    "count": 4
+   },
+   {
+    "value": "border-color",
+    "count": 3
+   },
+   {
+    "value": "outline-color",
+    "count": 3
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 3
+   }
+  ]
+ }
+}

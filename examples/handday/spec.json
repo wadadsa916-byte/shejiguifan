@@ -1,0 +1,427 @@
+{
+  "_meta": {
+    "name": "指掌天下 · 订货商城小程序",
+    "company": "成都指掌天下网络科技有限公司",
+    "product": "面向批发商/经销商的 B2b 订货商城（微信小程序 + 企业微信）",
+    "source": "https://home.handday.com/",
+    "method": "从官网架构图中的商城界面截图逐像素采样 + 官网 DOM 计算样式交叉验证",
+    "limitations": "界面图来自架构示意（非原始设计稿，约 335×420 像素），部分尺寸为比例推算；色彩与层级结构可靠，精确间距存在误差",
+    "generatedAt": "2026-10-22"
+  },
+  "colors": {
+    "primary": {
+      "value": "#3461FF",
+      "note": "标题栏实心蓝，品牌主色"
+    },
+    "primaryAlt": {
+      "value": "#4870F8",
+      "note": "次级蓝，用于链接、图标、选中态"
+    },
+    "primaryLight": {
+      "value": "#E8F3FF",
+      "note": "浅蓝底，用于卡片背景、标签底"
+    },
+    "pageBg": {
+      "value": "#F2F6FF",
+      "note": "页面底色，带极淡蓝调"
+    },
+    "surface": {
+      "value": "#FFFFFF",
+      "note": "卡片、列表、内容块"
+    },
+    "accent": {
+      "value": "#ED7D31",
+      "note": "橙色，用于促销、角标、强调"
+    },
+    "accentHot": {
+      "value": "#F15A24",
+      "note": "深橙/红橙，用于限时特价渐变右端"
+    },
+    "accentLight": {
+      "value": "#FFF1E8",
+      "note": "浅橙底，用于角标背景"
+    },
+    "text": {
+      "value": "#111111",
+      "note": "正文主色，对比度 18.9:1"
+    },
+    "textSecondary": {
+      "value": "#666666",
+      "note": "次要文字，对比度 5.7:1"
+    },
+    "textTertiary": {
+      "value": "#999999",
+      "note": "辅助/占位，对比度 2.8:1"
+    },
+    "textInverse": {
+      "value": "#FFFFFF"
+    },
+    "border": {
+      "value": "#E5E5E5"
+    },
+    "divider": {
+      "value": "#F0F0F0"
+    },
+    "danger": {
+      "value": "#E64340"
+    },
+    "success": {
+      "value": "#07C160"
+    },
+    "warning": {
+      "value": "#FF9500"
+    }
+  },
+  "typography": {
+    "fontFamily": "-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif",
+    "note": "与官网一致：16px 占绝对主导（1639 次），字重 400 为主（1961 次），700 仅用于标题",
+    "scale": [
+      {
+        "name": "pageTitle",
+        "size": 17,
+        "weight": 600,
+        "lineHeight": 1.4,
+        "usage": "导航栏标题（白字蓝底）"
+      },
+      {
+        "name": "sectionTitle",
+        "size": 16,
+        "weight": 600,
+        "lineHeight": 1.4,
+        "usage": "区块标题"
+      },
+      {
+        "name": "body",
+        "size": 16,
+        "weight": 400,
+        "lineHeight": 1.5,
+        "usage": "正文（主力）"
+      },
+      {
+        "name": "bodySm",
+        "size": 14,
+        "weight": 400,
+        "lineHeight": 1.43,
+        "usage": "次要信息"
+      },
+      {
+        "name": "caption",
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 1.33,
+        "usage": "分类标签、时间"
+      },
+      {
+        "name": "micro",
+        "size": 10,
+        "weight": 400,
+        "lineHeight": 1.2,
+        "usage": "TabBar 文字"
+      }
+    ],
+    "weights": [
+      400,
+      500,
+      600,
+      700
+    ]
+  },
+  "spacing": {
+    "base": 8,
+    "observed": {
+      "8px": 225,
+      "4px": 53,
+      "5px": 51,
+      "15px": 16
+    },
+    "scale": {
+      "xs": 4,
+      "sm": 8,
+      "md": 12,
+      "lg": 16,
+      "xl": 20,
+      "2xl": 24,
+      "3xl": 32
+    },
+    "usage": {
+      "卡片内边距": 12,
+      "页面左右边距": 12,
+      "卡片间距": 8,
+      "区块之间": 12,
+      "网格列间距": 12,
+      "网格行间距": 16
+    }
+  },
+  "radius": {
+    "observed": {
+      "8px": 225,
+      "4px": 53,
+      "5px": 51,
+      "15px": 16,
+      "16px": 1,
+      "50%": 1
+    },
+    "scale": {
+      "sm": 4,
+      "md": 8,
+      "lg": 15,
+      "full": 9999
+    },
+    "usage": {
+      "卡片": 8,
+      "搜索框": 8,
+      "小标签": 4,
+      "标题栏底部": "0 0 8 8",
+      "促销条": 15,
+      "头像/图标": "50% 或 8"
+    }
+  },
+  "layout": {
+    "designWidth": 375,
+    "pagePadding": 12,
+    "cardGap": 8,
+    "structure": [
+      {
+        "order": 1,
+        "name": "状态栏",
+        "height": 44,
+        "bg": "#FFFFFF 或透明"
+      },
+      {
+        "order": 2,
+        "name": "标题栏",
+        "height": 44,
+        "bg": "#3461FF",
+        "textColor": "#FFFFFF",
+        "radius": "0 0 8 8",
+        "note": "实心蓝底白字，底部圆角"
+      },
+      {
+        "order": 3,
+        "name": "店铺信息",
+        "height": 44,
+        "bg": "#FFFFFF",
+        "content": "店名 + 连锁角标 + ⋯ + 设置图标"
+      },
+      {
+        "order": 4,
+        "name": "搜索框",
+        "height": 36,
+        "bg": "#F2F6FF",
+        "content": "扫码图标 + 占位文字「请输入商品名称/编号/条码」"
+      },
+      {
+        "order": 5,
+        "name": "公告条",
+        "height": 32,
+        "bg": "#FFF1E8",
+        "content": "喇叭图标 + 橙色文字 + 联系电话"
+      },
+      {
+        "order": 6,
+        "name": "地图卡片",
+        "height": 96,
+        "bg": "#FFFFFF",
+        "content": "腾讯地图 + 红色定位点 + 公司位置标签"
+      },
+      {
+        "order": 7,
+        "name": "分类网格",
+        "height": 200,
+        "content": "4 列 × 3 行，方形缩略图 + 居中文字标签"
+      },
+      {
+        "order": 8,
+        "name": "限时特价条",
+        "height": 44,
+        "bg": "linear-gradient(90deg, #ED7D31, #F15A24)"
+      },
+      {
+        "order": 9,
+        "name": "登录浮条",
+        "height": 40,
+        "bg": "rgba(0,0,0,0.72)",
+        "content": "黑底白字 + 橙色登录按钮"
+      },
+      {
+        "order": 10,
+        "name": "TabBar",
+        "height": 50,
+        "bg": "#FFFFFF",
+        "items": [
+          "商城",
+          "分类",
+          "快速下单",
+          "购物车",
+          "我的"
+        ],
+        "activeColor": "#ED7D31"
+      }
+    ]
+  },
+  "components": {
+    "titleBar": {
+      "height": 44,
+      "bg": "#3461FF",
+      "color": "#FFFFFF",
+      "fontSize": 17,
+      "fontWeight": 600,
+      "radius": "0 0 8 8",
+      "note": "整个页面最显眼的元素，蓝色占比大"
+    },
+    "searchBar": {
+      "height": 36,
+      "bg": "#F2F6FF",
+      "radius": 8,
+      "paddingX": 12,
+      "iconSize": 16,
+      "fontSize": 14,
+      "placeholderColor": "#999999",
+      "note": "左侧固定扫码图标，不只是搜索"
+    },
+    "noticeBar": {
+      "height": 32,
+      "bg": "#FFF1E8",
+      "radius": 4,
+      "paddingX": 10,
+      "fontSize": 13,
+      "color": "#ED7D31",
+      "iconSize": 14,
+      "note": "橙色文字 + 喇叭图标，滚动或静态都可"
+    },
+    "categoryGrid": {
+      "columns": 4,
+      "thumbSize": 56,
+      "thumbRadius": 8,
+      "gapX": 12,
+      "gapY": 16,
+      "labelSize": 12,
+      "labelColor": "#111111",
+      "labelLines": 2,
+      "note": "缩略图用真实门头照片，不是图标"
+    },
+    "promoBar": {
+      "height": 44,
+      "radius": 15,
+      "paddingX": 12,
+      "bg": "linear-gradient(90deg,#ED7D31,#F15A24)",
+      "textColor": "#FFFFFF",
+      "fontSize": 14,
+      "fontWeight": 600,
+      "icon": "时钟图标 + 「限时特价」"
+    },
+    "loginBar": {
+      "height": 40,
+      "bg": "rgba(0,0,0,0.72)",
+      "radius": 0,
+      "textColor": "#FFFFFF",
+      "fontSize": 13,
+      "buttonBg": "#ED7D31",
+      "buttonRadius": 4,
+      "buttonHeight": 28,
+      "buttonText": "登录",
+      "buttonColor": "#FFFFFF"
+    },
+    "tabBar": {
+      "height": 50,
+      "bg": "#FFFFFF",
+      "borderTop": "1px solid #F0F0F0",
+      "iconSize": 22,
+      "fontSize": 10,
+      "color": "#999999",
+      "activeColor": "#ED7D31",
+      "items": [
+        {
+          "label": "商城",
+          "icon": "房子"
+        },
+        {
+          "label": "分类",
+          "icon": "列表"
+        },
+        {
+          "label": "快速下单",
+          "icon": "闪电/文档"
+        },
+        {
+          "label": "购物车",
+          "icon": "购物车"
+        },
+        {
+          "label": "我的",
+          "icon": "人像"
+        }
+      ],
+      "note": "5 个 Tab，选中态用橙色不是蓝色"
+    },
+    "badge": {
+      "bg": "#FFF1E8",
+      "color": "#ED7D31",
+      "radius": 4,
+      "padding": "1px 5px",
+      "fontSize": 10,
+      "note": "如「连锁」角标"
+    },
+    "button": {
+      "primary": {
+        "bg": "#3461FF",
+        "color": "#FFFFFF",
+        "height": 44,
+        "radius": 8,
+        "fontSize": 16
+      },
+      "accent": {
+        "bg": "#ED7D31",
+        "color": "#FFFFFF",
+        "height": 44,
+        "radius": 8,
+        "fontSize": 16
+      },
+      "outline": {
+        "bg": "transparent",
+        "border": "1px solid #3461FF",
+        "color": "#3461FF"
+      }
+    }
+  },
+  "designPrinciples": [
+    {
+      "principle": "实心色块定调",
+      "detail": "标题栏用大面积实心蓝，一眼确认品牌身份，不做渐变"
+    },
+    {
+      "principle": "橙蓝双色分工",
+      "detail": "蓝色=信任/主导航，橙色=行动/促销。两者不混用"
+    },
+    {
+      "principle": "照片代替图标",
+      "detail": "分类用真实门头照片，让采购员凭照片认部门，比图标快"
+    },
+    {
+      "principle": "信息密度优先",
+      "detail": "一屏放 8-10 个信息块，不给装饰留空间"
+    },
+    {
+      "principle": "商业元素前置",
+      "detail": "公告、电话、限时特价、登录引导都在首屏，全是生意"
+    },
+    {
+      "principle": "圆角克制",
+      "detail": "主要用 8px，标题栏底部圆角是唯一「造型」"
+    },
+    {
+      "principle": "浅蓝底分层",
+      "detail": "页面底 #F2F6FF，卡片纯白，靠色差分层不用阴影"
+    }
+  ],
+  "constraints": {
+    "platform": "微信小程序 + 企业微信",
+    "notes": [
+      "标题栏高度需按胶囊按钮位置动态计算，不能写死",
+      "底部需处理 safe-area-inset-bottom",
+      "分类网格缩略图建议 1:1，56-64px",
+      "公告条可做成滚动跑马灯",
+      "登录浮条需覆盖 TabBar 上方，不遮挡内容"
+    ]
+  }
+}

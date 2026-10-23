@@ -1,0 +1,251 @@
+{
+ "id": "p120",
+ "overview": {
+  "name": "Henry Heffernan",
+  "url": "https://henryheffernan.com/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://henryheffernan.com/"
+  ],
+  "subpages": [],
+  "sectionCount": 0,
+  "componentSamples": 3,
+  "typeSteps": 1
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 1.0
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#000000",
+    "count": 3
+   },
+   {
+    "hex": "#ffffff",
+    "count": 2
+   },
+   {
+    "hex": "#1d2e2f",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 3,
+  "textTotal": 2,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "0.8px",
+    "family": "monospace",
+    "count": 22,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Heffernan,"
+    ]
+   }
+  ],
+  "totalSteps": 1,
+  "families": [
+   "monospace"
+  ],
+  "weights": [
+   "400"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 4
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 1
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 4
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 6
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 9
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 8,
+  "containerWidths": [
+   {
+    "value": "500px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "-10",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 1,
+   "sizeBuckets": {
+    "lg": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "START",
+      "tag": "div",
+      "height": 43,
+      "width": 74,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "4px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "PingFang SC",
+      "lineHeight": "normal",
+      "letterSpacing": "0.8px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 1,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Heffernan,",
+      "tag": "p",
+      "height": 19,
+      "width": 104,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "monospace",
+      "lineHeight": "normal",
+      "letterSpacing": "0.8px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "START",
+      "tag": "p",
+      "height": 35,
+      "width": 68,
+      "padding": "8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "monospace",
+      "lineHeight": "normal",
+      "letterSpacing": "0.8px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  }
+ },
+ "sections": [],
+ "accessibility": {
+  "bodyContrast": 1.0,
+  "bodyContrastLevel": "fail",
+  "tapTargetMin": 43,
+  "tapTargetMedian": 43
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.2s",
+    "count": 2
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease-in-out",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "opacity",
+    "count": 1
+   },
+   {
+    "value": "transform",
+    "count": 1
+   }
+  ]
+ }
+}

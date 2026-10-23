@@ -1,0 +1,321 @@
+{
+ "id": "p086",
+ "overview": {
+  "name": "Manish Kumar",
+  "url": "https://www.manixh.dev/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://www.manixh.dev/"
+  ],
+  "subpages": [],
+  "sectionCount": 0,
+  "componentSamples": 5,
+  "typeSteps": 0
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#5f6368",
+    "value": "#5f6368",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 6.05
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 1
+   },
+   {
+    "hex": "#1a73e8",
+    "count": 1
+   },
+   {
+    "hex": "#5f6368",
+    "count": 10
+   },
+   {
+    "hex": "#202124",
+    "count": 2
+   },
+   {
+    "hex": "#000000",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 2,
+  "textTotal": 4,
+  "bordersTotal": 0
+ },
+ "typography": {
+  "ladder": [],
+  "totalSteps": 4,
+  "families": [
+   "Arial",
+   "system-ui"
+  ],
+  "weights": [
+   "400",
+   "500"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 4
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 1
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 2
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 4
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 1
+   },
+   {
+    "value": "51px",
+    "px": 51.0,
+    "count": 1
+   },
+   {
+    "value": "114px",
+    "px": 114.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "600px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 1
+   }
+  ],
+  "shadows": [],
+  "zIndex": []
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "重新加载",
+      "tag": "button",
+      "height": 34,
+      "width": 86,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgb(26, 115, 232)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "13.125px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 4.51
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "重新加载",
+      "tag": "div",
+      "height": 50,
+      "width": 600,
+      "padding": "0px 0px 16px",
+      "margin": "51px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(95, 99, 104)",
+      "border": "0px none rgb(95, 99, 104)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "该网页无法正常运作",
+      "tag": "h1",
+      "height": 30,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(32, 33, 36)",
+      "border": "0px none rgb(32, 33, 36)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.3
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "如果问题仍然存在，请与网站所有者联系。",
+      "tag": "p",
+      "height": 18,
+      "width": 291,
+      "padding": "0px",
+      "margin": "15px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(95, 99, 104)",
+      "border": "0px none rgb(95, 99, 104)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 72,
+      "width": 72,
+      "padding": "0px",
+      "margin": "0px 0px 40px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(95, 99, 104)",
+      "border": "0px none rgb(95, 99, 104)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.47
+     }
+    ]
+   }
+  }
+ },
+ "sections": [],
+ "accessibility": {
+  "bodyContrast": 6.05,
+  "bodyContrastLevel": "AA",
+  "tapTargetMin": 34,
+  "tapTargetMedian": 34
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "box-shadow",
+    "count": 1
+   }
+  ]
+ }
+}

@@ -1,0 +1,1774 @@
+{
+ "id": "t404",
+ "overview": {
+  "name": "Codrops",
+  "url": "https://tympanus.net/codrops/",
+  "section": "阅读",
+  "pagesScanned": [
+   "https://tympanus.net/codrops/"
+  ],
+  "subpages": [],
+  "sectionCount": 22,
+  "componentSamples": 52,
+  "typeSteps": 11
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#f7f7f7",
+    "value": "#f7f7f7",
+    "token": "--color-bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "border": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": "--color-tagstyle-border",
+    "source": "css-var",
+    "contrastOnBg": 19.6
+   },
+   "link": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": "--color-link",
+    "source": "css-var",
+    "contrastOnBg": 19.6
+   },
+   "foreground": {
+    "hex": "#26272e",
+    "value": "#26272e",
+    "token": "--color-text",
+    "source": "css-var",
+    "contrastOnBg": 13.88
+   },
+   "primary": {
+    "hex": "#485ae1",
+    "value": "#485ae1",
+    "token": "--color-brand",
+    "source": "css-var",
+    "contrastOnBg": 5.12
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#e8e8e8",
+    "count": 8
+   },
+   {
+    "hex": "#f7f7f7",
+    "count": 1
+   },
+   {
+    "hex": "#0e121d",
+    "count": 1
+   },
+   {
+    "hex": "#000000",
+    "count": 1
+   },
+   {
+    "hex": "#26272e",
+    "count": 128
+   },
+   {
+    "hex": "#ffffff",
+    "count": 46
+   },
+   {
+    "hex": "#fefefe",
+    "count": 25
+   },
+   {
+    "hex": "#858585",
+    "count": 7
+   },
+   {
+    "hex": "#d3d3d3",
+    "count": 2
+   }
+  ],
+  "backgroundsTotal": 4,
+  "textTotal": 6,
+  "bordersTotal": 0
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "14.5px",
+    "letterSpacing": "normal",
+    "family": "InterVariable",
+    "count": 2,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Support us on"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "InterVariable",
+    "count": 58,
+    "tags": [
+     "p",
+     "a",
+     "li"
+    ],
+    "samples": [
+     "by Jérémie Nallet"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "-0.14px",
+    "family": "InterVariable",
+    "count": 8,
+    "tags": [
+     "p",
+     "a"
+    ],
+    "samples": [
+     "A growing showcase of Codrops originals "
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "550",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "family": "InterVariable",
+    "count": 6,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "View all"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "InterVariable",
+    "count": 4,
+    "tags": [
+     "a",
+     "strong"
+    ],
+    "samples": [
+     "All Posts"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "InterVariable",
+    "count": 2,
+    "tags": [
+     "h5"
+    ],
+    "samples": [
+     "Explore the site"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "InterVariable",
+    "count": 3,
+    "tags": [
+     "li"
+    ],
+    "samples": [
+     "All Posts"
+    ]
+   },
+   {
+    "size": "18.5px",
+    "px": 18.5,
+    "weight": "600",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.46px",
+    "family": "InterVariable",
+    "count": 14,
+    "tags": [
+     "h2",
+     "a"
+    ],
+    "samples": [
+     "Atelier UI: Mixing WebGL and the DOM in "
+    ]
+   },
+   {
+    "size": "18.5px",
+    "px": 18.5,
+    "weight": "600",
+    "lineHeight": "18.5px",
+    "letterSpacing": "-0.46px",
+    "family": "InterVariable",
+    "count": 2,
+    "tags": [
+     "h3",
+     "a"
+    ],
+    "samples": [
+     "Webzibition"
+    ]
+   },
+   {
+    "size": "25px",
+    "px": 25.0,
+    "weight": "600",
+    "lineHeight": "25px",
+    "letterSpacing": "-0.6252px",
+    "family": "InterVariable",
+    "count": 11,
+    "tags": [
+     "h3",
+     "a"
+    ],
+    "samples": [
+     "Case Studies"
+    ]
+   },
+   {
+    "size": "32px",
+    "px": 32.0,
+    "weight": "600",
+    "lineHeight": "32px",
+    "letterSpacing": "-0.8px",
+    "family": "InterVariable",
+    "count": 2,
+    "tags": [
+     "h1",
+     "a"
+    ],
+    "samples": [
+     "Codrops"
+    ]
+   }
+  ],
+  "totalSteps": 11,
+  "families": [
+   "InterVariable"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "550",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 20
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 10
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 7
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 45
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 1
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 38
+   },
+   {
+    "value": "17.5px",
+    "px": 17.5,
+    "count": 6
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 1
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 7
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 12
+   },
+   {
+    "value": "30px",
+    "px": 30.0,
+    "count": 1
+   },
+   {
+    "value": "30.5px",
+    "px": 30.5,
+    "count": 1
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 24
+   },
+   {
+    "value": "35px",
+    "px": 35.0,
+    "count": 6
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 3
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 4
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1410px",
+    "count": 3
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 12
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 32
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "10",
+    "count": 14
+   },
+   {
+    "value": "0",
+    "count": 7
+   },
+   {
+    "value": "999",
+    "count": 1
+   },
+   {
+    "value": "100000",
+    "count": 1
+   },
+   {
+    "value": "-1",
+    "count": 1
+   },
+   {
+    "value": "90",
+    "count": 1
+   },
+   {
+    "value": "10000",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Support us on",
+      "tag": "a",
+      "height": 50,
+      "width": 241,
+      "padding": "8px 40px 8px 20px",
+      "margin": "0px",
+      "radius": "8px 8px 0px 0px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "InterVariable",
+      "lineHeight": "14.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 17,
+   "sizeBuckets": {
+    "sm": 8,
+    "xl": 5,
+    "lg": 1,
+    "md": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Codrops",
+      "tag": "a",
+      "height": 17,
+      "width": 100,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.8px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "All Posts",
+      "tag": "a",
+      "height": 17,
+      "width": 59,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Jérémie Nallet",
+      "tag": "a",
+      "height": 17,
+      "width": 95,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "View all",
+      "tag": "a",
+      "height": 16,
+      "width": 530,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "550",
+      "fontFamily": "InterVariable",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 158,
+      "width": 210,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(232, 232, 232)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 17.14
+     },
+     {
+      "text": "Atelier UI: Mixing WebGL and t",
+      "tag": "a",
+      "height": 48,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "18.4px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "23.92px",
+      "letterSpacing": "-0.46px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Designing in Paper as a Develo",
+      "tag": "a",
+      "height": 72,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "18.4px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "23.92px",
+      "letterSpacing": "-0.46px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 152,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(254, 254, 254)",
+      "border": "0px none rgb(254, 254, 254)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 20.82
+     }
+    ],
+    "lg": [
+     {
+      "text": "Webzibition",
+      "tag": "a",
+      "height": 38,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(254, 254, 254)",
+      "border": "0px none rgb(254, 254, 254)",
+      "fontSize": "18.4px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "18.4px",
+      "letterSpacing": "-0.46px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 20.82
+     }
+    ],
+    "md": [
+     {
+      "text": "Case Studies",
+      "tag": "a",
+      "height": 30,
+      "width": 146,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "25.008px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "25.008px",
+      "letterSpacing": "-0.6252px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Learn with Tutorials",
+      "tag": "a",
+      "height": 30,
+      "width": 216,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "25.008px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "25.008px",
+      "letterSpacing": "-0.6252px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 30,
+      "width": 141,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 34,
+      "width": 96,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "550",
+      "fontFamily": "InterVariable",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Atelier UI: Mixing WebGL and t",
+      "tag": "article",
+      "height": 174,
+      "width": 530,
+      "padding": "0px 0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal 16px",
+      "contrast": 1.41
+     },
+     {
+      "text": "When a Website Becomes a Melod",
+      "tag": "article",
+      "height": 190,
+      "width": 530,
+      "padding": "16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal 16px",
+      "contrast": 1.41
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 4,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Codrops\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n",
+      "tag": "header",
+      "height": 154,
+      "width": 1440,
+      "padding": "24px 0px 96px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     },
+     {
+      "text": "Atelier UI: Mixing WebGL and t",
+      "tag": "header",
+      "height": 76,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     },
+     {
+      "text": "Designing in Paper as a Develo",
+      "tag": "header",
+      "height": 100,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     },
+     {
+      "text": "Home\n              Creative Hu",
+      "tag": "nav",
+      "height": 182,
+      "width": 512,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "86.4px",
+      "contrast": 1.41
+     }
+    ],
+    "sm": [
+     {
+      "text": "All Posts\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t",
+      "tag": "div",
+      "height": 19,
+      "width": 772,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Atelier UI: Mixing WebGL and t",
+      "tag": "article",
+      "height": 174,
+      "width": 530,
+      "padding": "0px 0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal 16px",
+      "contrast": 1.41
+     },
+     {
+      "text": "When a Website Becomes a Melod",
+      "tag": "article",
+      "height": 190,
+      "width": 530,
+      "padding": "16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal 16px",
+      "contrast": 1.41
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 8,
+   "sizeBuckets": {
+    "sm": 5,
+    "xl": 2,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Codrops",
+      "tag": "h1",
+      "height": 17,
+      "width": 130,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.8px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     },
+     {
+      "text": "Creative Hub",
+      "tag": "h3",
+      "height": 25,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px 0px 17.6px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(254, 254, 254)",
+      "border": "0px none rgb(254, 254, 254)",
+      "fontSize": "25.008px",
+      "fontWeight": "600",
+      "fontFamily": "AlphaLyrae",
+      "lineHeight": "25.008px",
+      "letterSpacing": "-0.6252px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 20.82
+     },
+     {
+      "text": "Case Studies",
+      "tag": "h3",
+      "height": 25,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px 0px 17.6px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "25.008px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "25.008px",
+      "letterSpacing": "-0.6252px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     },
+     {
+      "text": "Learn with Tutorials",
+      "tag": "h3",
+      "height": 25,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px 0px 17.6px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "25.008px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "25.008px",
+      "letterSpacing": "-0.6252px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "Atelier UI: Mixing WebGL and t",
+      "tag": "h2",
+      "height": 52,
+      "width": 304,
+      "padding": "4px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "18.4px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "23.92px",
+      "letterSpacing": "-0.46px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     },
+     {
+      "text": "Designing in Paper as a Develo",
+      "tag": "h2",
+      "height": 76,
+      "width": 304,
+      "padding": "4px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "18.4px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "23.92px",
+      "letterSpacing": "-0.46px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     }
+    ],
+    "lg": [
+     {
+      "text": "Webzibition",
+      "tag": "h3",
+      "height": 38,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px 0px 17.6px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(254, 254, 254)",
+      "border": "0px none rgb(254, 254, 254)",
+      "fontSize": "18.4px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "18.4px",
+      "letterSpacing": "-0.46px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 20.82
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 1,
+    "md": 3,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "by Jérémie Nallet",
+      "tag": "p",
+      "height": 24,
+      "width": 304,
+      "padding": "7px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(133, 133, 133)",
+      "border": "0px none rgb(133, 133, 133)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.69
+     }
+    ],
+    "md": [
+     {
+      "text": "A growing showcase of Codrops ",
+      "tag": "p",
+      "height": 36,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px 0px 35.2px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(211, 211, 211)",
+      "border": "0px none rgb(211, 211, 211)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "18.2px",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.03
+     },
+     {
+      "text": "Discover the ideas, design, an",
+      "tag": "p",
+      "height": 36,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px 0px 35.2px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "18.2px",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     },
+     {
+      "text": "Level up your front-end skills",
+      "tag": "p",
+      "height": 36,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px 0px 35.2px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "18.2px",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "💎✨ Discover fresh gems in our ",
+      "tag": "p",
+      "height": 55,
+      "width": 304,
+      "padding": "0px",
+      "margin": "0px 0px 35.2px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(211, 211, 211)",
+      "border": "0px none rgb(211, 211, 211)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "18.2px",
+      "letterSpacing": "-0.14px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.03
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "All Posts\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t",
+      "tag": "ul",
+      "height": 19,
+      "width": 772,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "40px",
+      "contrast": 1.41
+     }
+    ],
+    "xl": [
+     {
+      "text": "Home\n              Creative Hu",
+      "tag": "ul",
+      "height": 182,
+      "width": 113,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     }
+    ]
+   }
+  },
+  "avatar": {
+   "label": "头像",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 72,
+      "width": 457,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "5px",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 72,
+      "width": 72,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 61,
+      "width": 392,
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "5px",
+      "contrast": 1.41
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 61,
+      "width": 61,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 2,
+    "md": 2,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Codrops",
+      "tag": "svg",
+      "height": 17,
+      "width": 100,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.8px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "42px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 34,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "42px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     },
+     {
+      "text": "Keycdn",
+      "tag": "svg",
+      "height": 30,
+      "width": 103,
+      "padding": "0px",
+      "margin": "16px 0px 0px 37.4375px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 39, 46)",
+      "border": "0px none rgb(38, 39, 46)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "InterVariable",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.41
+     }
+    ],
+    "lg": [
+     {
+      "text": "Webzibition",
+      "tag": "svg",
+      "height": 38,
+      "width": 152,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(254, 254, 254)",
+      "border": "0px none rgb(254, 254, 254)",
+      "fontSize": "18.4px",
+      "fontWeight": "600",
+      "fontFamily": "InterVariable",
+      "lineHeight": "18.4px",
+      "letterSpacing": "-0.46px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 20.82
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 154,
+   "heading": "Codrops",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "24px 0px 96px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1367,
+   "heading": "Atelier UI: Mixing WebGL and the DOM in a React UI",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 8
+  },
+  {
+   "tag": "article",
+   "height": 174,
+   "heading": "Atelier UI: Mixing WebGL and the DOM in a React UI",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 0px 16px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 76,
+   "heading": "Atelier UI: Mixing WebGL and the DOM in a React UI",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 190,
+   "heading": "When a Website Becomes a Melody: Inside Maria Vasi",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "16px 0px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 76,
+   "heading": "When a Website Becomes a Melody: Inside Maria Vasi",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 190,
+   "heading": "Designing in Paper as a Developer: Taking Paper Sh",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "16px 0px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 100,
+   "heading": "Designing in Paper as a Developer: Taking Paper Sh",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 190,
+   "heading": "Real Folds, Real Fire: Building a React Library fo",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "16px 0px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 100,
+   "heading": "Real Folds, Real Fire: Building a React Library fo",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 190,
+   "heading": "Build a Browser-Based Image Compression Previewer ",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "16px 0px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 100,
+   "heading": "Build a Browser-Based Image Compression Previewer ",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 190,
+   "heading": "Just Trying to Do What I Like: Ksenia Kondrashova’",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "16px 0px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 100,
+   "heading": "Just Trying to Do What I Like: Ksenia Kondrashova’",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 190,
+   "heading": "Knowing When to Do Less: Translating Noho’s Produc",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "16px 0px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 100,
+   "heading": "Knowing When to Do Less: Translating Noho’s Produc",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "footer",
+   "height": 56,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "10px 0px 30px",
+   "children": 1
+  },
+  {
+   "tag": "aside",
+   "height": 1463,
+   "heading": "Explore Courses",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "footer",
+   "height": 342,
+   "heading": null,
+   "background": "rgb(232, 232, 232)",
+   "padding": "80px 0px 0px",
+   "children": 1
+  },
+  {
+   "tag": "nav",
+   "height": 182,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 13.88,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 30
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.2s",
+    "count": 5
+   }
+  ],
+  "easings": [],
+  "properties": [
+   {
+    "value": "opacity",
+    "count": 2
+   },
+   {
+    "value": "transform",
+    "count": 2
+   }
+  ]
+ }
+}

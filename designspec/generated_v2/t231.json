@@ -1,0 +1,1853 @@
+{
+ "id": "t231",
+ "overview": {
+  "name": "fx",
+  "url": "https://fx.sh/",
+  "section": "智能体与 MCP",
+  "pagesScanned": [
+   "https://fx.sh/",
+   "https://fx.sh/docs",
+   "https://fx.sh/changelog",
+   "https://fx.sh/try"
+  ],
+  "subpages": [
+   "/docs",
+   "/changelog",
+   "/try"
+  ],
+  "sectionCount": 5,
+  "componentSamples": 131,
+  "typeSteps": 13
+ },
+ "colors": {
+  "roles": {
+   "border": {
+    "hex": "#e5e5e5",
+    "value": "#e5e5e5",
+    "token": "--border",
+    "source": "css-var",
+    "contrastOnBg": 1.26
+   },
+   "foreground": {
+    "hex": "#171717",
+    "value": "#171717",
+    "token": "--foreground",
+    "source": "css-var",
+    "contrastOnBg": 17.93
+   },
+   "muted": {
+    "hex": "#f2f2f2",
+    "value": "#f2f2f2",
+    "token": "--muted",
+    "source": "css-var",
+    "contrastOnBg": 1.12
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "focus": {
+    "hex": "#a3a3a3",
+    "value": "#a3a3a3",
+    "token": "--ring",
+    "source": "css-var",
+    "contrastOnBg": 2.52
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#f2f2f2",
+    "count": 240
+   },
+   {
+    "hex": "#ffffff",
+    "count": 17
+   },
+   {
+    "hex": "#fafafa",
+    "count": 8
+   },
+   {
+    "hex": "#171717",
+    "count": 951
+   },
+   {
+    "hex": "#525252",
+    "count": 206
+   },
+   {
+    "hex": "#111111",
+    "count": 104
+   },
+   {
+    "hex": "#626262",
+    "count": 16
+   },
+   {
+    "hex": "#262626",
+    "count": 14
+   },
+   {
+    "hex": "#9e9e9e",
+    "count": 10
+   },
+   {
+    "hex": "#000000",
+    "count": 4
+   }
+  ],
+  "backgroundsTotal": 4,
+  "textTotal": 10,
+  "bordersTotal": 2
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 20,
+    "tags": [
+     "p",
+     "span",
+     "a",
+     "button"
+    ],
+    "samples": [
+     "v0.0.14 (notes) · 6.66mib · status: expe"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 226,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "idempotent: true"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "24.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 1057,
+    "tags": [
+     "p",
+     "a"
+    ],
+    "samples": [
+     "fx is a coding agent harness and CLI wri"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 28,
+    "tags": [
+     "pre",
+     "span"
+    ],
+    "samples": [
+     "𝒇x v0.0.14 · Run /help for commands\n\n┃\n"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 29,
+    "tags": [
+     "a",
+     "p",
+     "button",
+     "span"
+    ],
+    "samples": [
+     "docs"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "18.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 15,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "changelog"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 113,
+    "tags": [
+     "h1",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "Tiny, open, native coding agent."
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Install"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 10,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "𝒇x"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "24.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 199,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "Automatic recovery:"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "700",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 7,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Tiny native binary"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "700",
+    "lineHeight": "24.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 12,
+    "tags": [
+     "a",
+     "h1",
+     "h2"
+    ],
+    "samples": [
+     "fx"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "700",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 93,
+    "tags": [
+     "th"
+    ],
+    "samples": [
+     "Action"
+    ]
+   }
+  ],
+  "totalSteps": 17,
+  "families": [
+   "Geist Mono",
+   "ui-monospace"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 98
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 488
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 43
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 422
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 94
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 19
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 41
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 130
+   },
+   {
+    "value": "21px",
+    "px": 21.0,
+    "count": 3
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 26
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 8
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 43
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 80
+   },
+   {
+    "value": "44px",
+    "px": 44.0,
+    "count": 32
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 3
+   },
+   {
+    "value": "56px",
+    "px": 56.0,
+    "count": 5
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "800px",
+    "count": 2
+   },
+   {
+    "value": "680px",
+    "count": 1
+   },
+   {
+    "value": "600px",
+    "count": 1
+   },
+   {
+    "value": "560px",
+    "count": 1
+   },
+   {
+    "value": "620px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 1
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 1
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 3
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 6
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+    "count": 5
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 4
+   },
+   {
+    "value": "2",
+    "count": 4
+   },
+   {
+    "value": "30",
+    "count": 2
+   },
+   {
+    "value": "10",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 7,
+   "sizeBuckets": {
+    "sm": 5,
+    "xl": 1,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "$ curl -fsSL https://fx.sh/set",
+      "tag": "button",
+      "height": 20,
+      "width": 434,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.17
+     },
+     {
+      "text": "(i)",
+      "tag": "button",
+      "height": 20,
+      "width": 23,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.69
+     },
+     {
+      "text": "Expand terminal",
+      "tag": "button",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 2.69
+     },
+     {
+      "text": "install",
+      "tag": "button",
+      "height": 21,
+      "width": 79,
+      "padding": "0px",
+      "margin": "0px 0px 0px 869.266px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 1.17
+     }
+    ],
+    "xl": [
+     {
+      "text": "***",
+      "tag": "button",
+      "height": 117,
+      "width": 40,
+      "padding": "48px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "4.9px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 2.69
+     }
+    ],
+    "md": [
+     {
+      "text": "Copy command",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 2.69
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 19,
+   "sizeBuckets": {
+    "sm": 13,
+    "xl": 2,
+    "lg": 1,
+    "md": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Vercel open source",
+      "tag": "a",
+      "height": 18,
+      "width": 21,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "docs",
+      "tag": "a",
+      "height": 20,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.69
+     },
+     {
+      "text": "(notes)",
+      "tag": "a",
+      "height": 17,
+      "width": 55,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.69
+     },
+     {
+      "text": "changelog",
+      "tag": "a",
+      "height": 19,
+      "width": 76,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "18.6667px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 2.69
+     }
+    ],
+    "xl": [
+     {
+      "text": "fx home",
+      "tag": "a",
+      "height": 47,
+      "width": 61,
+      "padding": "12px 14px 12px 0px",
+      "margin": "-12px -14px -12px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "NextInstallation",
+      "tag": "a",
+      "height": 88,
+      "width": 409,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "1px solid oklab(0.9219 0.0000418723 0.0000184774 / 0.6)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 1.17
+     }
+    ],
+    "lg": [
+     {
+      "text": "just-bash",
+      "tag": "a",
+      "height": 39,
+      "width": 218,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ],
+    "md": [
+     {
+      "text": "Quick start",
+      "tag": "a",
+      "height": 29,
+      "width": 220,
+      "padding": "4px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "Installation",
+      "tag": "a",
+      "height": 29,
+      "width": 220,
+      "padding": "4px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 2.69
+     },
+     {
+      "text": "v0.0.14 [latest]",
+      "tag": "a",
+      "height": 29,
+      "width": 260,
+      "padding": "4px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 16,
+   "sizeBuckets": {
+    "xl": 16
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Quick start\nfx is an open-sour",
+      "tag": "article",
+      "height": 2237,
+      "width": 800,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "$curl -fsSL https://fx.sh/setu",
+      "tag": "div",
+      "height": 58,
+      "width": 800,
+      "padding": "12px 16px",
+      "margin": "24px 0px 0px",
+      "radius": "16px",
+      "background": "rgb(250, 250, 250)",
+      "color": "rgb(23, 23, 23)",
+      "border": "1px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 17.18
+     },
+     {
+      "text": "v0.0.14Oct 16, 20266.66miblibf",
+      "tag": "article",
+      "height": 5596,
+      "width": 620,
+      "padding": "44px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "1px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "v0.0.13Oct 4, 20266.74mibfx no",
+      "tag": "article",
+      "height": 1939,
+      "width": 620,
+      "padding": "44px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "1px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 8,
+   "sizeBuckets": {
+    "xl": 6,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "docsclilibtrysourceinstall",
+      "tag": "header",
+      "height": 64,
+      "width": 1440,
+      "padding": "0px 32px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "40px",
+      "contrast": 1.17
+     },
+     {
+      "text": "fx/libfxgetting startedQuick s",
+      "tag": "nav",
+      "height": 1308,
+      "width": 220,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "NextInstallation",
+      "tag": "nav",
+      "height": 121,
+      "width": 800,
+      "padding": "32px 0px 0px",
+      "margin": "24px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "1px solid oklab(0.9219 0.0000418723 0.0000184774 / 0.6)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.17
+     },
+     {
+      "text": "on this pageInstallStart fxThi",
+      "tag": "nav",
+      "height": 2237,
+      "width": 200,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ],
+    "sm": [
+     {
+      "text": "docsclilibtrysource",
+      "tag": "nav",
+      "height": 20,
+      "width": 272,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "28px",
+      "contrast": 2.69
+     },
+     {
+      "text": "v0.0.14Oct 16, 20266.66mib",
+      "tag": "header",
+      "height": 21,
+      "width": 620,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px 12px",
+      "contrast": 1.17
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 4,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Tiny, open, native coding agen",
+      "tag": "h1",
+      "height": 21,
+      "width": 434,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.69
+     },
+     {
+      "text": "Tiny native binary",
+      "tag": "h2",
+      "height": 20,
+      "width": 560,
+      "padding": "0px",
+      "margin": "0px 0px 4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "Quick start",
+      "tag": "h1",
+      "height": 25,
+      "width": 800,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "Changelog",
+      "tag": "h1",
+      "height": 21,
+      "width": 620,
+      "padding": "0px",
+      "margin": "8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ],
+    "xl": [
+     {
+      "text": "Install",
+      "tag": "h2",
+      "height": 70,
+      "width": 800,
+      "padding": "44px 0px 0px",
+      "margin": "24px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "1px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 14,
+   "sizeBuckets": {
+    "sm": 6,
+    "xl": 8
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "$ curl -fsSL https://fx.sh/set",
+      "tag": "p",
+      "height": 20,
+      "width": 434,
+      "padding": "0px",
+      "margin": "14px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "v0.0.14 (notes) · 6.66mib · st",
+      "tag": "p",
+      "height": 20,
+      "width": 434,
+      "padding": "0px",
+      "margin": "14px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.69
+     },
+     {
+      "text": "Its output is closer to a Unix",
+      "tag": "p",
+      "height": 25,
+      "width": 600,
+      "padding": "0px",
+      "margin": "21px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.69
+     },
+     {
+      "text": "getting started",
+      "tag": "p",
+      "height": 21,
+      "width": 220,
+      "padding": "0px",
+      "margin": "0px 0px 14px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.438602 0.0000199676 0.00000876188 / 0.7)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "fx is a coding agent harness a",
+      "tag": "p",
+      "height": 49,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.69
+     },
+     {
+      "text": "fx is an open-source coding ag",
+      "tag": "p",
+      "height": 49,
+      "width": 800,
+      "padding": "0px",
+      "margin": "24px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.204625 0.00000931323 0.00000409782 / 0.92)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "libfx is now durable out of th",
+      "tag": "p",
+      "height": 74,
+      "width": 620,
+      "padding": "0px",
+      "margin": "0px 0px 40px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.204625 0.00000931323 0.00000409782 / 0.92)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Pass hooks to createFxAgent() ",
+      "tag": "p",
+      "height": 98,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.204625 0.00000931323 0.00000409782 / 0.92)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 52,
+   "sizeBuckets": {
+    "xl": 51,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "InstallStart fxThings to knowR",
+      "tag": "ul",
+      "height": 137,
+      "width": 200,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "Durable libfx sessions can con",
+      "tag": "ul",
+      "height": 1567,
+      "width": 620,
+      "padding": "0px 0px 0px 20px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "Prompts now appear immediately",
+      "tag": "ul",
+      "height": 995,
+      "width": 620,
+      "padding": "0px 0px 0px 20px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "Long submitted prompts and ste",
+      "tag": "ul",
+      "height": 1004,
+      "width": 620,
+      "padding": "0px 0px 0px 20px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ],
+    "sm": [
+     {
+      "text": "MCP errors now have stronger s",
+      "tag": "ul",
+      "height": 25,
+      "width": 620,
+      "padding": "0px 0px 0px 20px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ]
+   }
+  },
+  "table": {
+   "label": "表格",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "ActionHowSteer fx while it wor",
+      "tag": "table",
+      "height": 441,
+      "width": 800,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "$",
+      "tag": "span",
+      "height": 20,
+      "width": 8,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "$",
+      "tag": "span",
+      "height": 21,
+      "width": 8,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.69
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 7,
+   "sizeBuckets": {
+    "sm": 7
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 21,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px 8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 23,
+      "width": 23,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 82, 82)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.69
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 64,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 32px",
+   "children": 3
+  },
+  {
+   "tag": "main",
+   "height": 1727,
+   "heading": "Tiny, open, native coding agent.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "56px 32px 96px",
+   "children": 2
+  },
+  {
+   "tag": "div",
+   "height": 148,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "4px 0px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 727,
+   "heading": "Tiny native binary",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 7
+  },
+  {
+   "tag": "footer",
+   "height": 91,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "32px 32px 40px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 17.93,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 17,
+  "tapTargetMedian": 22
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 8
+   },
+   {
+    "value": "0.12s",
+    "count": 3
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 11
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 7
+   },
+   {
+    "value": "background-color",
+    "count": 7
+   },
+   {
+    "value": "border-color",
+    "count": 7
+   },
+   {
+    "value": "outline-color",
+    "count": 7
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 7
+   },
+   {
+    "value": "fill",
+    "count": 7
+   },
+   {
+    "value": "stroke",
+    "count": 7
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 7
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 7
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 7
+   }
+  ]
+ }
+}

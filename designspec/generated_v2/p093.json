@@ -1,0 +1,408 @@
+{
+ "id": "p093",
+ "overview": {
+  "name": "Connor Hepburn",
+  "url": "https://hpbrn.cc/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://hpbrn.cc/"
+  ],
+  "subpages": [],
+  "sectionCount": 2,
+  "componentSamples": 7,
+  "typeSteps": 1
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#171717",
+    "value": "#171717",
+    "token": "--foreground",
+    "source": "css-var",
+    "contrastOnBg": 17.93
+   },
+   "border": {
+    "hex": "#a8a8a8",
+    "value": "#a8a8a8",
+    "token": "--divider",
+    "source": "css-var",
+    "contrastOnBg": 2.38
+   },
+   "focus": {
+    "hex": "#0070f3",
+    "value": "#0070f3",
+    "token": "--focus",
+    "source": "css-var",
+    "contrastOnBg": 4.55
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 1
+   },
+   {
+    "hex": "#4d4d4d",
+    "count": 8
+   },
+   {
+    "hex": "#171717",
+    "count": 6
+   },
+   {
+    "hex": "#a8a8a8",
+    "count": 2
+   },
+   {
+    "hex": "#000000",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 1,
+  "textTotal": 4,
+  "bordersTotal": 0
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "geist mono",
+    "count": 6,
+    "tags": [
+     "p",
+     "a",
+     "span",
+     "button"
+    ],
+    "samples": [
+     "404 DEPLOYMENT_NOT_FOUND"
+    ]
+   }
+  ],
+  "totalSteps": 3,
+  "families": [
+   "geist",
+   "geist mono"
+  ],
+  "weights": [
+   "400",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 2
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 1
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 2
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 1
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 4
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": []
+ },
+ "shape": {
+  "radiusLadder": [],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Copy Debug Prompt",
+      "tag": "button",
+      "height": 16,
+      "width": 123,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(77, 77, 77)",
+      "border": "0px none rgb(77, 77, 77)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "geist mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "color 0.15s",
+      "gap": "normal",
+      "contrast": 2.48
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "View Documentation",
+      "tag": "a",
+      "height": 16,
+      "width": 130,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(77, 77, 77)",
+      "border": "0px none rgb(77, 77, 77)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "geist mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "color 0.15s",
+      "gap": "normal",
+      "contrast": 2.48
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "This page doesn’t exist",
+      "tag": "h1",
+      "height": 32,
+      "width": 283,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px none rgb(23, 23, 23)",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "geist",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.96px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "It may have been moved, remove",
+      "tag": "p",
+      "height": 48,
+      "width": 283,
+      "padding": "0px",
+      "margin": "8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "border": "0px none rgb(23, 23, 23)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.17
+     }
+    ],
+    "sm": [
+     {
+      "text": "404 DEPLOYMENT_NOT_FOUND",
+      "tag": "p",
+      "height": 16,
+      "width": 283,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(77, 77, 77)",
+      "border": "0px none rgb(77, 77, 77)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "geist mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.48
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 10,
+      "width": 6,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(168, 168, 168)",
+      "border": "0px none rgb(168, 168, 168)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "geist",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.83
+     }
+    ]
+   }
+  },
+  "divider": {
+   "label": "分割线",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 10,
+      "width": 6,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(168, 168, 168)",
+      "border": "0px none rgb(168, 168, 168)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "geist",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.83
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 813,
+   "heading": "This page doesn’t exist",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "32px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 140,
+   "heading": "This page doesn’t exist",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 5
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 17.93,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 16
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 2
+   }
+  ],
+  "easings": [],
+  "properties": [
+   {
+    "value": "color",
+    "count": 2
+   }
+  ]
+ }
+}

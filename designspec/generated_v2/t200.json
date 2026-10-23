@@ -1,0 +1,2987 @@
+{
+ "id": "t200",
+ "overview": {
+  "name": "Alumnium",
+  "url": "https://alumnium.ai/",
+  "section": "开发环境",
+  "pagesScanned": [
+   "https://alumnium.ai/",
+   "https://alumnium.ai/docs",
+   "https://alumnium.ai/blog"
+  ],
+  "subpages": [
+   "/docs",
+   "/blog"
+  ],
+  "sectionCount": 7,
+  "componentSamples": 176,
+  "typeSteps": 36
+ },
+ "colors": {
+  "roles": {
+   "foreground": {
+    "hex": "#0d1017",
+    "value": "#0d1017",
+    "token": "--sl-color-text",
+    "source": "css-var",
+    "contrastOnBg": 17.5
+   },
+   "primary": {
+    "hex": "#3d52d7",
+    "value": "#3d52d7",
+    "token": "--sl-color-accent",
+    "source": "css-var",
+    "contrastOnBg": 5.7
+   },
+   "border": {
+    "hex": "#eeeeee",
+    "value": "#eeeeee",
+    "token": "--pagefind-ui-border",
+    "source": "css-var",
+    "contrastOnBg": 1.07
+   },
+   "background": {
+    "hex": "#f3f5ff",
+    "value": "#f3f5ff",
+    "token": "--sl-color-bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#01040f",
+    "count": 16
+   },
+   {
+    "hex": "#e4e6ed",
+    "count": 16
+   },
+   {
+    "hex": "#000000",
+    "count": 7
+   },
+   {
+    "hex": "#f3f5ff",
+    "count": 7
+   },
+   {
+    "hex": "#03004c",
+    "count": 2
+   },
+   {
+    "hex": "#3d52d7",
+    "count": 2
+   },
+   {
+    "hex": "#101aa2",
+    "count": 1
+   },
+   {
+    "hex": "#223abf",
+    "count": 1
+   },
+   {
+    "hex": "#04007a",
+    "count": 1
+   },
+   {
+    "hex": "#f7f7ff",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 27,
+  "textTotal": 34,
+  "bordersTotal": 9
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono Variable",
+    "count": 21,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "CLI"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 5,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Music License"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono Variable",
+    "count": 33,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "macOS/Linux"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "13px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono Variable",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "--:----:--"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 6,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Overview"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "600",
+    "lineHeight": "13px",
+    "letterSpacing": "normal",
+    "family": "Cascadia Code",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "--:--"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono Variable",
+    "count": 265,
+    "tags": [
+     "pre",
+     "code",
+     "span"
+    ],
+    "samples": [
+     "curl -LsSf https://alumnium.ai/install.s"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono Variable",
+    "count": 23,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Browser Use"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "24.5px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 6,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Search⌘K"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 30,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Installation"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono Variable",
+    "count": 6,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "#1"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 3,
+    "tags": [
+     "a",
+     "button"
+    ],
+    "samples": [
+     "Start Testing"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 2,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Overview"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 60,
+    "tags": [
+     "p",
+     "li",
+     "span"
+    ],
+    "samples": [
+     "Install Alumnium binary using a installa"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "20.5px",
+    "letterSpacing": "normal",
+    "family": "Hubot Sans Variable",
+    "count": 17,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Keep implementation details out of the t"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono Variable",
+    "count": 6,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "Keyboard shortcuts (?)"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "300",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono Variable",
+    "count": 18,
+    "tags": [
+     "td"
+    ],
+    "samples": [
+     "45,000Excluding ~1.7M tokens of GPT-5 Na"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 168,
+    "tags": [
+     "a",
+     "label",
+     "p",
+     "em",
+     "li",
+     "td",
+     "span"
+    ],
+    "samples": [
+     "Skip to content"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 5,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "See all posts"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Getting Started"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 14,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Published by"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono Variable",
+    "count": 35,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "How"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 6,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Blog"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Hubot Sans Variable",
+    "count": 2,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Agents"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "600",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 6,
+    "tags": [
+     "span",
+     "a"
+    ],
+    "samples": [
+     "Getting Started"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "700",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "Hubot Sans Variable",
+    "count": 34,
+    "tags": [
+     "h4"
+    ],
+    "samples": [
+     "Add an MCP Server"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "25px",
+    "letterSpacing": "normal",
+    "family": "Hubot Sans Variable",
+    "count": 20,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Connect Alumnium to a coding agent throu"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "500",
+    "lineHeight": "25px",
+    "letterSpacing": "normal",
+    "family": "Hubot Sans Variable",
+    "count": 16,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "What is Alumnium?"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "GitHub"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "700",
+    "lineHeight": "27.5px",
+    "letterSpacing": "normal",
+    "family": "Hubot Sans Variable",
+    "count": 26,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Works with Smaller Models"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "600",
+    "lineHeight": "42px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Alumnium"
+    ]
+   },
+   {
+    "size": "30px",
+    "px": 30.0,
+    "weight": "700",
+    "lineHeight": "41px",
+    "letterSpacing": "normal",
+    "family": "Hubot Sans Variable",
+    "count": 15,
+    "tags": [
+     "h2",
+     "h3"
+    ],
+    "samples": [
+     "State-of-the-Art Performance"
+    ]
+   },
+   {
+    "size": "30px",
+    "px": 30.0,
+    "weight": "700",
+    "lineHeight": "37.5px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 13,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Alumnium v0.22 - Leaner accessibility tr"
+    ]
+   },
+   {
+    "size": "35px",
+    "px": 35.0,
+    "weight": "600",
+    "lineHeight": "42px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Variable",
+    "count": 2,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Motivation"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "700",
+    "lineHeight": "49.5px",
+    "letterSpacing": "normal",
+    "family": "Hubot Sans Variable",
+    "count": 6,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "How Alumnium Works"
+    ]
+   },
+   {
+    "size": "40px",
+    "px": 40.0,
+    "weight": "600",
+    "lineHeight": "44px",
+    "letterSpacing": "normal",
+    "family": "Hubot Sans Variable",
+    "count": 2,
+    "tags": [
+     "em"
+    ],
+    "samples": [
+     "Agents"
+    ]
+   }
+  ],
+  "totalSteps": 47,
+  "families": [
+   "Cascadia Code",
+   "Hubot Sans Variable",
+   "JetBrains Mono Variable",
+   "Mona Sans Variable"
+  ],
+  "weights": [
+   "100",
+   "300",
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 343
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 10
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 138
+   },
+   {
+    "value": "6.5px",
+    "px": 6.5,
+    "count": 108
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 451
+   },
+   {
+    "value": "8.5px",
+    "px": 8.5,
+    "count": 12
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 24
+   },
+   {
+    "value": "9.5px",
+    "px": 9.5,
+    "count": 6
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 78
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 230
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 4
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 158
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 175
+   },
+   {
+    "value": "21px",
+    "px": 21.0,
+    "count": 2
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 89
+   },
+   {
+    "value": "26px",
+    "px": 26.0,
+    "count": 4
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1024px",
+    "count": 51
+   },
+   {
+    "value": "768px",
+    "count": 34
+   },
+   {
+    "value": "1152px",
+    "count": 20
+   },
+   {
+    "value": "672px",
+    "count": 8
+   },
+   {
+    "value": "720px",
+    "count": 2
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 28
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 30
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 4
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 21
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 83
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px",
+    "count": 3
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(247, 247, 255) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 3
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "10",
+    "count": 6
+   },
+   {
+    "value": "20",
+    "count": 2
+   },
+   {
+    "value": "40",
+    "count": 1
+   },
+   {
+    "value": "30",
+    "count": 1
+   },
+   {
+    "value": "5",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 10,
+   "sizeBuckets": {
+    "lg": 3,
+    "xl": 4,
+    "md": 1,
+    "sm": 2
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Search⌘K",
+      "tag": "button",
+      "height": 40,
+      "width": 192,
+      "padding": "1px 8px 1px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 165, 255)",
+      "border": "1px solid rgb(34, 58, 191)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 9.03
+     },
+     {
+      "text": "Subscribe",
+      "tag": "button",
+      "height": 40,
+      "width": 95,
+      "padding": "8px 14px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(4, 0, 122)",
+      "color": "rgb(224, 230, 255)",
+      "border": "0px solid rgb(224, 230, 255)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 13.16
+     },
+     {
+      "text": "Search⌘K",
+      "tag": "button",
+      "height": 40,
+      "width": 352,
+      "padding": "1px 8px 1px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(247, 247, 255)",
+      "color": "rgb(68, 77, 107)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 7.82
+     }
+    ],
+    "xl": [
+     {
+      "text": "Watch Demo",
+      "tag": "button",
+      "height": 120,
+      "width": 120,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Prompt to Test",
+      "tag": "button",
+      "height": 80,
+      "width": 80,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 80,
+      "width": 496,
+      "padding": "0px",
+      "margin": "99.375px 0px 99.3906px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "0px",
+      "fontWeight": "400",
+      "fontFamily": "JetBrains Mono Variable",
+      "lineHeight": "0px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "What is Alumnium?",
+      "tag": "button",
+      "height": 57,
+      "width": 1022,
+      "padding": "16px 32px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.190621 -0.00739428 -0.128527 / 0.4)",
+      "color": "rgb(189, 196, 255)",
+      "border": "0px solid rgb(189, 196, 255)",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "24.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Play",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "10px",
+      "margin": "0px 0px 0px 2px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px none rgb(208, 213, 225)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "JetBrains Mono Variable",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.29
+     }
+    ],
+    "sm": [
+     {
+      "text": "More details",
+      "tag": "button",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "fontFamily": "JetBrains Mono Variable",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "-2.4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 123, 236)",
+      "border": "0px solid rgb(100, 123, 236)",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), scale 0.15s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 5.59
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 32,
+   "sizeBuckets": {
+    "sm": 22,
+    "md": 4,
+    "xl": 5,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Skip to content",
+      "tag": "a",
+      "height": 28,
+      "width": 112,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px solid rgb(0, 0, 238)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "Alumnium",
+      "tag": "a",
+      "height": 28,
+      "width": 98,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 82, 215)",
+      "border": "0px solid rgb(61, 82, 215)",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "42px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "24px",
+      "contrast": 3.39
+     },
+     {
+      "text": "Blog",
+      "tag": "a",
+      "height": 28,
+      "width": 35,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(213, 219, 255)",
+      "border": "0px solid rgb(213, 219, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.41
+     },
+     {
+      "text": "Music License",
+      "tag": "a",
+      "height": 17,
+      "width": 79,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(srgb 0.847059 0.980392 1)",
+      "border": "0px solid color(srgb 0.847059 0.980392 1)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "8px",
+      "margin": "-8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(213, 219, 255)",
+      "border": "0px solid rgb(213, 219, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.41
+     },
+     {
+      "text": "Newv0.23 with direct MCP mode,",
+      "tag": "a",
+      "height": 30,
+      "width": 397,
+      "padding": "6px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(srgb 0.778431 0.917647 0.941176)",
+      "border": "1px solid rgb(61, 82, 215)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "JetBrains Mono Variable",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "Start Testing",
+      "tag": "a",
+      "height": 36,
+      "width": 125,
+      "padding": "8px 20px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(16, 26, 162)",
+      "color": "color(srgb 0.778431 0.917647 0.941176)",
+      "border": "0px solid color(srgb 0.778431 0.917647 0.941176)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Reference",
+      "tag": "a",
+      "height": 32,
+      "width": 252,
+      "padding": "4.8px 8px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 2, 11)",
+      "border": "0px solid rgb(0, 2, 11)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.01
+     }
+    ],
+    "xl": [
+     {
+      "text": "Alumnium v0.23 - direct MCP mo",
+      "tag": "a",
+      "height": 288,
+      "width": 315,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(srgb 0.778431 0.917647 0.941176)",
+      "border": "0px solid color(srgb 0.778431 0.917647 0.941176)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Alumnium v0.23 - direct MCP mo",
+      "tag": "a",
+      "height": 522,
+      "width": 928,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px solid rgb(0, 0, 238)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "Alumnium v0.22 - Leaner access",
+      "tag": "a",
+      "height": 149,
+      "width": 928,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px solid rgb(0, 0, 238)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 2.23
+     },
+     {
+      "text": "The Story Behind \"Alumnium\" Na",
+      "tag": "a",
+      "height": 90,
+      "width": 928,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px solid rgb(0, 0, 238)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 2.23
+     }
+    ],
+    "lg": [
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 40,
+      "width": 40,
+      "padding": "10px",
+      "margin": "-10px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 123, 236)",
+      "border": "0px solid rgb(100, 123, 236)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.59
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "DarkLightAuto",
+      "tag": "select",
+      "height": 45,
+      "width": 104,
+      "padding": "10px 32px 10px 26px",
+      "margin": "0px -8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(213, 219, 255)",
+      "border": "0px none rgb(213, 219, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.41
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 40,
+      "width": 281,
+      "padding": "8px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(241, 241, 255)",
+      "border": "0px solid rgb(241, 241, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.77
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 5
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Newv0.23 with direct MCP mode,",
+      "tag": "div",
+      "height": 18984,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 16, 23)",
+      "border": "0px solid rgb(13, 16, 23)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.1
+     },
+     {
+      "text": "On this pageOverviewMotivation",
+      "tag": "div",
+      "height": 134,
+      "width": 1439,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 16, 23)",
+      "border": "0px solid rgb(13, 16, 23)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.1
+     },
+     {
+      "text": "Alumnium",
+      "tag": "div",
+      "height": 114,
+      "width": 780,
+      "padding": "24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 16, 23)",
+      "border": "0px solid rgb(13, 16, 23)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.1
+     },
+     {
+      "text": "Alumnium is an experimental pr",
+      "tag": "div",
+      "height": 1438,
+      "width": 780,
+      "padding": "24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 16, 23)",
+      "border": "1px solid rgb(212, 215, 224)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.1
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "AlumniumBlogDocumentationSearc",
+      "tag": "header",
+      "height": 64,
+      "width": 1440,
+      "padding": "12px 24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 16, 23)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.1
+     },
+     {
+      "text": "HowWhyAI TestsFeaturesScaleCom",
+      "tag": "nav",
+      "height": 50,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "1px solid rgb(61, 82, 215)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.29
+     },
+     {
+      "text": "LearnDocumentationBlogCommunit",
+      "tag": "nav",
+      "height": 143,
+      "width": 338,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px solid rgb(208, 213, 225)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "72px",
+      "contrast": 14.29
+     },
+     {
+      "text": "On this pageOverviewMotivation",
+      "tag": "nav",
+      "height": 102,
+      "width": 265,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 16, 23)",
+      "border": "0px solid rgb(13, 16, 23)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.1
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "New",
+      "tag": "span",
+      "height": 16,
+      "width": 28,
+      "padding": "2px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.841 0.238 128.85)",
+      "border": "1px solid oklab(0.841 -0.149294 0.185352 / 0.4)",
+      "fontSize": "10.2px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono Variable",
+      "lineHeight": "10.2px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": null
+     },
+     {
+      "text": "1017",
+      "tag": "span",
+      "height": 18,
+      "width": 47,
+      "padding": "2px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(srgb 0.778431 0.917647 0.941176)",
+      "border": "1px solid oklab(0.913468 -0.0331323 -0.0183091 / 0.4)",
+      "fontSize": "11.9px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "11.9px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 17,
+   "sizeBuckets": {
+    "xl": 11,
+    "sm": 4,
+    "lg": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "End-to-End Testing with AI  fo",
+      "tag": "h1",
+      "height": 106,
+      "width": 613,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(241, 241, 255)",
+      "border": "0px solid rgb(241, 241, 255)",
+      "fontSize": "48px",
+      "fontWeight": "500",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "52.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.77
+     },
+     {
+      "text": "How Alumnium Works",
+      "tag": "h2",
+      "height": 50,
+      "width": 400,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(241, 241, 255)",
+      "border": "0px solid rgb(241, 241, 255)",
+      "fontSize": "36px",
+      "fontWeight": "700",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "49.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.77
+     },
+     {
+      "text": "Use English Programming Langua",
+      "tag": "h2",
+      "height": 83,
+      "width": 492,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(241, 241, 255)",
+      "border": "0px solid rgb(241, 241, 255)",
+      "fontSize": "30px",
+      "fontWeight": "700",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "41.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.77
+     },
+     {
+      "text": "Markdown Test Runner*",
+      "tag": "h3",
+      "height": 48,
+      "width": 492,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(241, 241, 255)",
+      "border": "0px solid rgb(241, 241, 255)",
+      "fontSize": "30px",
+      "fontWeight": "700",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "41.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.77
+     }
+    ],
+    "sm": [
+     {
+      "text": "Agents",
+      "tag": "h3",
+      "height": 16,
+      "width": 496,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 165, 255)",
+      "border": "0px solid rgb(145, 165, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 9.03
+     },
+     {
+      "text": "Add an MCP Server",
+      "tag": "h4",
+      "height": 22,
+      "width": 496,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(213, 219, 255)",
+      "border": "0px solid rgb(213, 219, 255)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "22px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.41
+     },
+     {
+      "text": "Works with Smaller Models",
+      "tag": "h3",
+      "height": 28,
+      "width": 309,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(241, 241, 255)",
+      "border": "0px solid rgb(241, 241, 255)",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "27.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.77
+     },
+     {
+      "text": "On this page",
+      "tag": "h2",
+      "height": 22,
+      "width": 265,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 2, 11)",
+      "border": "0px solid rgb(0, 2, 11)",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "21.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.01
+     }
+    ],
+    "lg": [
+     {
+      "text": "State-of-the-Art Performance",
+      "tag": "h2",
+      "height": 41,
+      "width": 492,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(241, 241, 255)",
+      "border": "0px solid rgb(241, 241, 255)",
+      "fontSize": "30px",
+      "fontWeight": "700",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "41.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.77
+     },
+     {
+      "text": "The Story Behind \"Alumnium\" Na",
+      "tag": "h3",
+      "height": 38,
+      "width": 928,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 2, 11)",
+      "border": "0px solid rgb(0, 2, 11)",
+      "fontSize": "30px",
+      "fontWeight": "700",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "37.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.01
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 26,
+   "sizeBuckets": {
+    "xl": 19,
+    "sm": 6,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "State-of-the-art MCP server, l",
+      "tag": "p",
+      "height": 55,
+      "width": 768,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 165, 255)",
+      "border": "0px solid rgb(145, 165, 255)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "27.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.03
+     },
+     {
+      "text": "Connect Alumnium to a coding a",
+      "tag": "p",
+      "height": 50,
+      "width": 768,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 165, 255)",
+      "border": "0px solid rgb(145, 165, 255)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "24.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.03
+     },
+     {
+      "text": "Install Alumnium binary using ",
+      "tag": "p",
+      "height": 53,
+      "width": 496,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 165, 255)",
+      "border": "0px solid rgb(145, 165, 255)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "26.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.03
+     },
+     {
+      "text": "Choose a supported AI provider",
+      "tag": "p",
+      "height": 79,
+      "width": 496,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 165, 255)",
+      "border": "0px solid rgb(145, 165, 255)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "26.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.03
+     }
+    ],
+    "sm": [
+     {
+      "text": "How",
+      "tag": "p",
+      "height": 16,
+      "width": 29,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 123, 236)",
+      "border": "0px solid rgb(100, 123, 236)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono Variable",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.59
+     },
+     {
+      "text": "Install the Alumnium client fo",
+      "tag": "p",
+      "height": 26,
+      "width": 496,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 165, 255)",
+      "border": "0px solid rgb(145, 165, 255)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "26.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.03
+     },
+     {
+      "text": "Read more about the WebVoyager",
+      "tag": "p",
+      "height": 28,
+      "width": 492,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(189, 196, 255)",
+      "border": "0px solid rgb(189, 196, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 12.5
+     },
+     {
+      "text": "Keep implementation details ou",
+      "tag": "p",
+      "height": 21,
+      "width": 448,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 165, 255)",
+      "border": "0px solid rgb(145, 165, 255)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "20.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.03
+     }
+    ],
+    "lg": [
+     {
+      "text": "Choose a supported model for y",
+      "tag": "p",
+      "height": 41,
+      "width": 256,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 165, 255)",
+      "border": "0px solid rgb(145, 165, 255)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Hubot Sans Variable",
+      "lineHeight": "20.625px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.03
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 9,
+   "sizeBuckets": {
+    "xl": 9
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Tab handlingAutomatic waits & ",
+      "tag": "ul",
+      "height": 268,
+      "width": 448,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px solid rgb(208, 213, 225)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "26.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 14.29
+     },
+     {
+      "text": "Write a Markdown scenario manu",
+      "tag": "ol",
+      "height": 120,
+      "width": 492,
+      "padding": "0px 0px 0px 40px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(189, 196, 255)",
+      "border": "0px solid rgb(189, 196, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 12.5
+     },
+     {
+      "text": "DocumentationBlog",
+      "tag": "ul",
+      "height": 56,
+      "width": 118,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px solid rgb(208, 213, 225)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.29
+     },
+     {
+      "text": "DiscordSlackGitHub Discussions",
+      "tag": "ul",
+      "height": 84,
+      "width": 148,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px solid rgb(208, 213, 225)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.29
+     }
+    ]
+   }
+  },
+  "table": {
+   "label": "表格",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "AlumniumBrowser UseMobile Next",
+      "tag": "table",
+      "height": 293,
+      "width": 1024,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px solid rgb(208, 213, 225)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.29
+     },
+     {
+      "text": "AlumniumBrowser UseMobile Next",
+      "tag": "table",
+      "height": 588,
+      "width": 1024,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px solid rgb(208, 213, 225)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.29
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 25,
+   "sizeBuckets": {
+    "xl": 18,
+    "sm": 7
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "|CLImacOS/LinuxWindows||npmnpm",
+      "tag": "landing-tabs",
+      "height": 126,
+      "width": 496,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(1, 4, 15)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px solid rgb(208, 213, 225)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 13.93
+     },
+     {
+      "text": "|CLImacOS/LinuxWindows||npmnpm",
+      "tag": "div",
+      "height": 54,
+      "width": 496,
+      "padding": "4px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px solid rgb(31, 36, 51)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4.8px 16px",
+      "contrast": 14.29
+     },
+     {
+      "text": "curl -LsSf https://alumnium.ai",
+      "tag": "div",
+      "height": 72,
+      "width": 496,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px solid rgb(208, 213, 225)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.29
+     },
+     {
+      "text": "Claude CodeCodexGrok Buildclau",
+      "tag": "landing-tabs",
+      "height": 135,
+      "width": 496,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(1, 4, 15)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px solid rgb(208, 213, 225)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 13.93
+     }
+    ],
+    "sm": [
+     {
+      "text": "CLI",
+      "tag": "a",
+      "height": 18,
+      "width": 22,
+      "padding": "4px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(212, 215, 224)",
+      "border": "0px solid rgb(120, 127, 150)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "JetBrains Mono Variable",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.6
+     },
+     {
+      "text": "macOS/LinuxWindows",
+      "tag": "div",
+      "height": 23,
+      "width": 464,
+      "padding": "4px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "1px solid rgb(16, 22, 45)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px 16px",
+      "contrast": 14.29
+     },
+     {
+      "text": "macOS/Linux",
+      "tag": "a",
+      "height": 18,
+      "width": 79,
+      "padding": "4px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(212, 215, 224)",
+      "border": "0px solid rgb(61, 82, 215)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono Variable",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.6
+     },
+     {
+      "text": "Windows",
+      "tag": "a",
+      "height": 18,
+      "width": 50,
+      "padding": "4px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(120, 127, 150)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "JetBrains Mono Variable",
+      "lineHeight": "12px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.27
+     }
+    ]
+   }
+  },
+  "tooltip": {
+   "label": "提示",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Keyboard shortcuts (?)",
+      "tag": "button",
+      "height": 32,
+      "width": 44,
+      "padding": "9px",
+      "margin": "0px 0px 0px 4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px none rgb(208, 213, 225)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "JetBrains Mono Variable",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.29
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 41,
+   "sizeBuckets": {
+    "sm": 22,
+    "md": 4,
+    "lg": 2,
+    "xl": 13
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 28,
+      "width": 98,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 82, 215)",
+      "border": "0px solid rgb(61, 82, 215)",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "42px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.39
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 165, 255)",
+      "border": "0px solid rgb(145, 165, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "24.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.03
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(213, 219, 255)",
+      "border": "0px solid rgb(213, 219, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.41
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "-2px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 165, 255)",
+      "border": "0px solid rgb(145, 165, 255)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "35px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.03
+     }
+    ],
+    "md": [
+     {
+      "text": "GitHubDiscordSlack",
+      "tag": "div",
+      "height": 32,
+      "width": 96,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 16, 23)",
+      "border": "0px solid rgb(13, 16, 23)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.1
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 30,
+      "width": 768,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px solid rgb(208, 213, 225)",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.29
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 30,
+      "width": 30,
+      "padding": "4.2px",
+      "margin": "-3px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(145, 165, 255)",
+      "border": "0px solid rgb(145, 165, 255)",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.03
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 29,
+      "width": 29,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 82, 215)",
+      "border": "0px solid rgb(61, 82, 215)",
+      "fontSize": "35px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "42px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.39
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 40,
+      "width": 768,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px solid rgb(208, 213, 225)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.29
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 42,
+      "width": 29,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 82, 215)",
+      "border": "0px solid rgb(61, 82, 215)",
+      "fontSize": "35px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "42px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.39
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 120,
+      "width": 120,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 80,
+      "width": 80,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans Variable",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 320,
+      "width": 482,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(208, 213, 225)",
+      "border": "0px solid rgb(208, 213, 225)",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "fontFamily": "Cascadia Code",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.29
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 80,
+      "width": 80,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "0px",
+      "fontWeight": "400",
+      "fontFamily": "JetBrains Mono Variable",
+      "lineHeight": "0px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 64,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "12px 24px",
+   "children": 2
+  },
+  {
+   "tag": "main",
+   "height": 18984,
+   "heading": "End-to-End Testing with AI  for Agents and Enginee",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "nav",
+   "height": 50,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 17520,
+   "heading": "How Alumnium Works",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 14
+  },
+  {
+   "tag": "footer",
+   "height": 377,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "64px",
+   "children": 1
+  },
+  {
+   "tag": "nav",
+   "height": 143,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 143,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 17.5,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 14,
+  "tapTargetMedian": 28
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 128
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 123
+   },
+   {
+    "value": "linear",
+    "count": 5
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 58
+   },
+   {
+    "value": "background-color",
+    "count": 58
+   },
+   {
+    "value": "border-color",
+    "count": 58
+   },
+   {
+    "value": "outline-color",
+    "count": 58
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 58
+   },
+   {
+    "value": "fill",
+    "count": 58
+   },
+   {
+    "value": "stroke",
+    "count": 58
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 58
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 58
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 58
+   }
+  ]
+ }
+}

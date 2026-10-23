@@ -1,0 +1,728 @@
+{
+ "id": "t281",
+ "overview": {
+  "name": "Three.js",
+  "url": "https://threejs.org/",
+  "section": "三维",
+  "pagesScanned": [
+   "https://threejs.org/",
+   "https://threejs.org/docs/"
+  ],
+  "subpages": [
+   "/docs/"
+  ],
+  "sectionCount": 0,
+  "componentSamples": 41,
+  "typeSteps": 5
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#0000ee",
+    "value": "#0000ee",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 9.4
+   },
+   "primary": {
+    "hex": "#049ef4",
+    "value": "#049ef4",
+    "token": "--color-blue",
+    "source": "palette",
+    "contrastOnBg": 2.92
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 4
+   },
+   {
+    "hex": "#444444",
+    "count": 1
+   },
+   {
+    "hex": "#0000ee",
+    "count": 488
+   },
+   {
+    "hex": "#049ef4",
+    "count": 16
+   },
+   {
+    "hex": "#000000",
+    "count": 2
+   },
+   {
+    "hex": "#9e9e9e",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 2,
+  "textTotal": 5,
+  "bordersTotal": 2
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "25px",
+    "letterSpacing": "normal",
+    "family": "Roboto Mono",
+    "count": 3666,
+    "tags": [
+     "li",
+     "a"
+    ],
+    "samples": [
+     "examples"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "500",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "family": "Roboto Mono",
+    "count": 10,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Learn"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "500",
+    "lineHeight": "25px",
+    "letterSpacing": "normal",
+    "family": "Roboto Mono",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "submit project"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "900",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "family": "Roboto Mono",
+    "count": 49,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Animation"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Roboto Mono",
+    "count": 4,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "three.js r186"
+    ]
+   }
+  ],
+  "totalSteps": 6,
+  "families": [
+   "Roboto Mono"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "900"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 6
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 5
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 18
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 6
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 59
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 3
+   },
+   {
+    "value": "300px",
+    "px": 300.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": []
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 1
+   },
+   {
+    "value": "25px",
+    "px": 25.0,
+    "count": 1
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.15) 0px 0px 4px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "100",
+    "count": 2
+   },
+   {
+    "value": "999",
+    "count": 1
+   },
+   {
+    "value": "1000",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "link": {
+   "label": "链接",
+   "count": 6,
+   "sizeBuckets": {
+    "sm": 3,
+    "xl": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "r186",
+      "tag": "a",
+      "height": 18,
+      "width": 38,
+      "padding": "0px 2px",
+      "margin": "0px 0px 0px 6px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(4, 158, 244)",
+      "border": "1px solid rgb(4, 158, 244)",
+      "fontSize": "13.5px",
+      "fontWeight": "500",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.2
+     },
+     {
+      "text": "examples",
+      "tag": "a",
+      "height": 20,
+      "width": 72,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(68, 68, 68)",
+      "border": "0px none rgb(68, 68, 68)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.16
+     },
+     {
+      "text": "three.js",
+      "tag": "a",
+      "height": 24,
+      "width": 86,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(4, 158, 244)",
+      "border": "0px none rgb(4, 158, 244)",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.2
+     }
+    ],
+    "xl": [
+     {
+      "text": "submit project",
+      "tag": "a",
+      "height": 49,
+      "width": 166,
+      "padding": "12px 20px",
+      "margin": "0px",
+      "radius": "25px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(4, 158, 244)",
+      "border": "0px none rgb(4, 158, 244)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.15) 0px 0px 4px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.92
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 143,
+      "width": 190,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px none rgb(0, 0, 238)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "0px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     },
+     {
+      "text": "manual",
+      "tag": "a",
+      "height": 47,
+      "width": 86,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(158, 158, 158)",
+      "border": "0px none rgb(158, 158, 158)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.84
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 22,
+      "width": 283,
+      "padding": "1px 2px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(68, 68, 68)",
+      "color": "rgb(68, 68, 68)",
+      "border": "0px none rgb(68, 68, 68)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 3,
+    "md": 1,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "three.js r186",
+      "tag": "h1",
+      "height": 24,
+      "width": 299,
+      "padding": "0px 0px 0px 16px",
+      "margin": "12.06px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(4, 158, 244)",
+      "border": "0px none rgb(4, 158, 244)",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.2
+     },
+     {
+      "text": "Core",
+      "tag": "h2",
+      "height": 26,
+      "width": 267,
+      "padding": "0px",
+      "margin": "16px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(4, 158, 244)",
+      "border": "0px none rgb(4, 158, 244)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.2
+     },
+     {
+      "text": "Animation",
+      "tag": "h3",
+      "height": 26,
+      "width": 267,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(68, 68, 68)",
+      "border": "0px none rgb(68, 68, 68)",
+      "fontSize": "15px",
+      "fontWeight": "900",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.16
+     }
+    ],
+    "md": [
+     {
+      "text": "Learn",
+      "tag": "h2",
+      "height": 32,
+      "width": 267,
+      "padding": "6px 0px 0px",
+      "margin": "18px 0px 2px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(4, 158, 244)",
+      "border": "0px none rgb(4, 158, 244)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.2
+     }
+    ],
+    "lg": [
+     {
+      "text": "Addons",
+      "tag": "h2",
+      "height": 39,
+      "width": 267,
+      "padding": "12px 0px 0px",
+      "margin": "32px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(4, 158, 244)",
+      "border": "1px solid rgb(232, 232, 232)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.2
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 28,
+   "sizeBuckets": {
+    "xl": 27,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "examples\n\t\t\t\t\t\tdocumentation\n\t",
+      "tag": "ul",
+      "height": 77,
+      "width": 267,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(68, 68, 68)",
+      "border": "0px none rgb(68, 68, 68)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.16
+     },
+     {
+      "text": "devtools\n\t\t\t\t\t\teditor",
+      "tag": "ul",
+      "height": 51,
+      "width": 267,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(68, 68, 68)",
+      "border": "0px none rgb(68, 68, 68)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.16
+     },
+     {
+      "text": "questions\n\t\t\t\t\t\tdiscord\n\t\t\t\t\t\t",
+      "tag": "ul",
+      "height": 103,
+      "width": 267,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(68, 68, 68)",
+      "border": "0px none rgb(68, 68, 68)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.16
+     },
+     {
+      "text": "AnimationAction\n\t\t\t\t\t\tAnimatio",
+      "tag": "ul",
+      "height": 363,
+      "width": 267,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(68, 68, 68)",
+      "border": "0px none rgb(68, 68, 68)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.16
+     }
+    ],
+    "sm": [
+     {
+      "text": "T-Shirts",
+      "tag": "ul",
+      "height": 25,
+      "width": 267,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(68, 68, 68)",
+      "border": "0px none rgb(68, 68, 68)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.16
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "docs",
+      "tag": "span",
+      "height": 47,
+      "width": 68,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(68, 68, 68)",
+      "border": "0px none rgb(68, 68, 68)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Roboto Mono",
+      "lineHeight": "25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.16
+     }
+    ]
+   }
+  }
+ },
+ "sections": [],
+ "accessibility": {
+  "bodyContrast": 9.4,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 18,
+  "tapTargetMedian": 47
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 244
+   }
+  ],
+  "easings": [],
+  "properties": [
+   {
+    "value": "transform",
+    "count": 244
+   },
+   {
+    "value": "height",
+    "count": 1
+   }
+  ]
+ }
+}

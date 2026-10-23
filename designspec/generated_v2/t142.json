@@ -1,0 +1,3259 @@
+{
+ "id": "t142",
+ "overview": {
+  "name": "Annnimate",
+  "url": "https://annnimate.com/",
+  "section": "组件库",
+  "pagesScanned": [
+   "https://annnimate.com/",
+   "https://annnimate.com/pricing",
+   "https://annnimate.com/docs",
+   "https://annnimate.com/changelog"
+  ],
+  "subpages": [
+   "/pricing",
+   "/docs",
+   "/changelog"
+  ],
+  "sectionCount": 21,
+  "componentSamples": 200,
+  "typeSteps": 22
+ },
+ "colors": {
+  "roles": {
+   "border": {
+    "hex": "#eeeeee",
+    "value": "#eeeeee",
+    "token": "--border",
+    "source": "css-var",
+    "contrastOnBg": 10.89
+   },
+   "foreground": {
+    "hex": "#eeeeee",
+    "value": "#eeeeee",
+    "token": "--foreground",
+    "source": "css-var",
+    "contrastOnBg": 10.89
+   },
+   "primary": {
+    "hex": "#fd551d",
+    "value": "#fd551d",
+    "token": "--brand",
+    "source": "css-var",
+    "contrastOnBg": 3.91
+   },
+   "success": {
+    "hex": "#22c55e",
+    "value": "#22c55e",
+    "token": "--success",
+    "source": "css-var",
+    "contrastOnBg": 5.54
+   },
+   "muted": {
+    "hex": "#0a0a0a",
+    "value": "#0a0a0a",
+    "token": "--muted",
+    "source": "css-var",
+    "contrastOnBg": 1.57
+   },
+   "warning": {
+    "hex": "#f59e0b",
+    "value": "#f59e0b",
+    "token": "--warning",
+    "source": "css-var",
+    "contrastOnBg": 5.88
+   },
+   "info": {
+    "hex": "#337ab7",
+    "value": "#337ab7",
+    "token": "--rt-color-info",
+    "source": "css-var",
+    "contrastOnBg": 2.77
+   },
+   "background": {
+    "hex": "#333333",
+    "value": "#333333",
+    "token": "--surface",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "danger": {
+    "hex": "#ef4444",
+    "value": "#ef4444",
+    "token": "--destructive",
+    "source": "css-var",
+    "contrastOnBg": 3.36
+   },
+   "focus": {
+    "hex": "#fd551d",
+    "value": "#fd551d",
+    "token": "--ring",
+    "source": "css-var",
+    "contrastOnBg": 3.91
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#333333",
+    "count": 412
+   },
+   {
+    "hex": "#fd551d",
+    "count": 67
+   },
+   {
+    "hex": "#141314",
+    "count": 47
+   },
+   {
+    "hex": "#000000",
+    "count": 46
+   },
+   {
+    "hex": "#fb460d",
+    "count": 32
+   },
+   {
+    "hex": "#eeeeee",
+    "count": 28
+   },
+   {
+    "hex": "#d5d5d5",
+    "count": 16
+   },
+   {
+    "hex": "#d6a437",
+    "count": 2
+   },
+   {
+    "hex": "#6a93b3",
+    "count": 2
+   },
+   {
+    "hex": "#84a574",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 23,
+  "textTotal": 19,
+  "bordersTotal": 11
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "9px",
+    "px": 9.0,
+    "weight": "400",
+    "lineHeight": "10.5px",
+    "letterSpacing": "-0.0886939px",
+    "family": "aktivGrotesk",
+    "count": 16,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "New"
+    ]
+   },
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "normal",
+    "family": "aktivGrotesk",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "by Good Fella"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "13px",
+    "letterSpacing": "-0.108694px",
+    "family": "aktivGrotesk",
+    "count": 53,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Search⌘K"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "aktivGrotesk",
+    "count": 6,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "snap"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "500",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "aktivGrotesk",
+    "count": 14,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "01"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "400",
+    "lineHeight": "20.5px",
+    "letterSpacing": "-0.274776px",
+    "family": "aktivGrotesk",
+    "count": 338,
+    "tags": [
+     "button",
+     "label",
+     "span",
+     "a",
+     "p"
+    ],
+    "samples": [
+     "Quarterly"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20.5px",
+    "letterSpacing": "normal",
+    "family": "aktivGrotesk",
+    "count": 794,
+    "tags": [
+     "p",
+     "a",
+     "span",
+     "button",
+     "li"
+    ],
+    "samples": [
+     "Used on sites for"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20.5px",
+    "letterSpacing": "normal",
+    "family": "aktivGrotesk",
+    "count": 227,
+    "tags": [
+     "a",
+     "span",
+     "button"
+    ],
+    "samples": [
+     "Get accessGet access"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "380",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.15px",
+    "family": "aktivGrotesk",
+    "count": 14,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Can I use Annnimate in commercial and cl"
+    ]
+   },
+   {
+    "size": "15.5px",
+    "px": 15.5,
+    "weight": "400",
+    "lineHeight": "23.5px",
+    "letterSpacing": "-0.314775px",
+    "family": "aktivGrotesk",
+    "count": 120,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "LibraryLibrary"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "aktivGrotesk",
+    "count": 118,
+    "tags": [
+     "a",
+     "p",
+     "span"
+    ],
+    "samples": [
+     "Buttons"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "aktivGrotesk",
+    "count": 30,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "The quick start takes one real component"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "aktivGrotesk",
+    "count": 3,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Edoardo Lunardi"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "600",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.32px",
+    "family": "aktivGrotesk",
+    "count": 6,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Motion that wins the pitch"
+    ]
+   },
+   {
+    "size": "17.5px",
+    "px": 17.5,
+    "weight": "500",
+    "lineHeight": "25px",
+    "letterSpacing": "-0.354776px",
+    "family": "aktivGrotesk",
+    "count": 38,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Customize"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "27px",
+    "letterSpacing": "normal",
+    "family": "aktivGrotesk",
+    "count": 341,
+    "tags": [
+     "a",
+     "li",
+     "span",
+     "label",
+     "button"
+    ],
+    "samples": [
+     "by Good Fella"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "family": "aktivGrotesk",
+    "count": 8,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "The same GSAP animations we build for Co"
+    ]
+   },
+   {
+    "size": "21.5px",
+    "px": 21.5,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "-0.536939px",
+    "family": "aktivGrotesk",
+    "count": 41,
+    "tags": [
+     "button",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "Library"
+    ]
+   },
+   {
+    "size": "30.5px",
+    "px": 30.5,
+    "weight": "400",
+    "lineHeight": "35.5px",
+    "letterSpacing": "-1.07429px",
+    "family": "aktivGrotesk",
+    "count": 3,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Annnimate makes it easier to work with a"
+    ]
+   },
+   {
+    "size": "30.5px",
+    "px": 30.5,
+    "weight": "500",
+    "lineHeight": "35.5px",
+    "letterSpacing": "-1.07429px",
+    "family": "aktivGrotesk",
+    "count": 12,
+    "tags": [
+     "h2",
+     "span",
+     "p"
+    ],
+    "samples": [
+     "Try it before you copy it."
+    ]
+   },
+   {
+    "size": "38px",
+    "px": 38.0,
+    "weight": "500",
+    "lineHeight": "42.5px",
+    "letterSpacing": "-1.51641px",
+    "family": "aktivGrotesk",
+    "count": 78,
+    "tags": [
+     "h2",
+     "span"
+    ],
+    "samples": [
+     "Client-ready themoment you paste it."
+    ]
+   },
+   {
+    "size": "59.5px",
+    "px": 59.5,
+    "weight": "500",
+    "lineHeight": "59.5px",
+    "letterSpacing": "-2.07543px",
+    "family": "aktivGrotesk",
+    "count": 5,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "Give any site award‑levelanimation in mi"
+    ]
+   }
+  ],
+  "totalSteps": 22,
+  "families": [
+   "aktivGrotesk"
+  ],
+  "weights": [
+   "380",
+   "400",
+   "500",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 45
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 4
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 374
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 1
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 481
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 51
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 628
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 80
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 295
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 46
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 53
+   },
+   {
+    "value": "22px",
+    "px": 22.0,
+    "count": 56
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 147
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 393
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 28
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 30
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "663.04px",
+    "count": 39
+   },
+   {
+    "value": "1600px",
+    "count": 25
+   },
+   {
+    "value": "1536px",
+    "count": 12
+   },
+   {
+    "value": "486.364px",
+    "count": 4
+   },
+   {
+    "value": "448.854px",
+    "count": 3
+   },
+   {
+    "value": "640px",
+    "count": 2
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "2px",
+    "px": 2.0,
+    "count": 7
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "0",
+    "count": 16
+   },
+   {
+    "value": "1",
+    "count": 16
+   },
+   {
+    "value": "10",
+    "count": 15
+   },
+   {
+    "value": "4",
+    "count": 14
+   },
+   {
+    "value": "3",
+    "count": 14
+   },
+   {
+    "value": "20",
+    "count": 8
+   },
+   {
+    "value": "90",
+    "count": 6
+   },
+   {
+    "value": "80",
+    "count": 6
+   },
+   {
+    "value": "70",
+    "count": 6
+   },
+   {
+    "value": "60",
+    "count": 4
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 25,
+   "sizeBuckets": {
+    "xl": 10,
+    "sm": 5,
+    "lg": 4,
+    "md": 6
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Library",
+      "tag": "button",
+      "height": 60,
+      "width": 1344,
+      "padding": "16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "21.4776px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27.9208px",
+      "letterSpacing": "-0.536939px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "POWERADE House of Legends",
+      "tag": "button",
+      "height": 540,
+      "width": 864,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(213, 213, 213)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 12.63
+     },
+     {
+      "text": "Anthracite studio",
+      "tag": "button",
+      "height": 475,
+      "width": 760,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(213, 213, 213)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 12.63
+     },
+     {
+      "text": "BODYARMOR",
+      "tag": "button",
+      "height": 418,
+      "width": 669,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(213, 213, 213)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 12.63
+     }
+    ],
+    "sm": [
+     {
+      "text": "snap",
+      "tag": "button",
+      "height": 28,
+      "width": 71,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.949113 0.0000431836 0.0000190735 / 0.05)",
+      "color": "rgb(238, 238, 238)",
+      "border": "1px solid oklab(0.949113 0.0000431836 0.0000190735 / 0.1)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "901234567890.901234567890",
+      "tag": "button",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "Save up to 31% with yearly",
+      "tag": "button",
+      "height": 21,
+      "width": 176,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(251, 70, 13)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "13.7388px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.6082px",
+      "letterSpacing": "-0.274776px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "8px",
+      "contrast": 5.98
+     },
+     {
+      "text": "Cookie Preferences",
+      "tag": "button",
+      "height": 21,
+      "width": 118,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(105, 104, 105)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "13.7388px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.6082px",
+      "letterSpacing": "-0.274776px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0, 0, 0.2, 1), background-color 0.3s cubic-bezier(0, 0, 0.2, 1), border-color 0.3s cubic-bezier(0, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0, 0, 0.2, 1), fill 0.3s cubic-bezier(0, 0, 0.2, 1), stroke 0.3s cubic-bezier(0, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 3.78
+     }
+    ],
+    "lg": [
+     {
+      "text": "Previous",
+      "tag": "button",
+      "height": 40,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), scale 0.2s cubic-bezier(0.16, 1, 0.3, 1)",
+      "gap": "normal",
+      "contrast": 10.89
+     },
+     {
+      "text": "Previous testimonial",
+      "tag": "button",
+      "height": 40,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(213, 213, 213)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), scale 0.2s cubic-bezier(0.16, 1, 0.3, 1)",
+      "gap": "normal",
+      "contrast": 12.63
+     },
+     {
+      "text": "Send me the free packSend me t",
+      "tag": "button",
+      "height": 40,
+      "width": 174,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), translate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), scale 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), rotate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "JoinJoin",
+      "tag": "button",
+      "height": 40,
+      "width": 57,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), translate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), scale 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), rotate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ],
+    "md": [
+     {
+      "text": "Remove a seat",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.188334 0.00211275 -0.00143278 / 0.05)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), scale 0.2s cubic-bezier(0.16, 1, 0.3, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Search⌘K",
+      "tag": "button",
+      "height": 33,
+      "width": 209,
+      "padding": "8px 12px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 128, 129)",
+      "border": "1px solid oklab(0.949113 0.0000431836 0.0000190735 / 0.15)",
+      "fontSize": "10.8694px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "13.0433px",
+      "letterSpacing": "-0.108694px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.4s cubic-bezier(0.25, 1, 0.5, 1), background-color 0.4s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.4s cubic-bezier(0.25, 1, 0.5, 1), outline-color 0.4s cubic-bezier(0.25, 1, 0.5, 1), text-decoration-color 0.4s cubic-bezier(0.25, 1, 0.5, 1), fill 0.4s cubic-bezier(0.25, 1, 0.5, 1), stroke 0.4s cubic-bezier(0.25, 1, 0.5, 1), --tw-gradient-from 0.4s cubic-bezier(0.25, 1, 0.5, 1), --tw-gradient-via 0.4s cubic-bezier(0.25, 1, 0.5, 1), --tw-gradient-to 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "8px",
+      "contrast": 5.34
+     },
+     {
+      "text": "Copy page",
+      "tag": "button",
+      "height": 32,
+      "width": 99,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(20, 19, 20)",
+      "color": "rgb(129, 128, 129)",
+      "border": "1px solid oklab(0.949113 0.0000431836 0.0000190735 / 0.15)",
+      "fontSize": "10.8694px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "13.0433px",
+      "letterSpacing": "-0.108694px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.4s cubic-bezier(0.25, 1, 0.5, 1), background-color 0.4s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.4s cubic-bezier(0.25, 1, 0.5, 1), outline-color 0.4s cubic-bezier(0.25, 1, 0.5, 1), text-decoration-color 0.4s cubic-bezier(0.25, 1, 0.5, 1), fill 0.4s cubic-bezier(0.25, 1, 0.5, 1), stroke 0.4s cubic-bezier(0.25, 1, 0.5, 1), --tw-gradient-from 0.4s cubic-bezier(0.25, 1, 0.5, 1), --tw-gradient-via 0.4s cubic-bezier(0.25, 1, 0.5, 1), --tw-gradient-to 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "8px",
+      "contrast": 4.71
+     },
+     {
+      "text": "Getting started",
+      "tag": "button",
+      "height": 32,
+      "width": 209,
+      "padding": "4px 0px 4px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklab(0.852494 0.00147933 -0.00096947 / 0.75)",
+      "border": "0px solid oklab(0.949113 0.0000431836 0.0000190735 / 0.2)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.4s cubic-bezier(0.25, 1, 0.5, 1), background-color 0.4s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.4s cubic-bezier(0.25, 1, 0.5, 1), outline-color 0.4s cubic-bezier(0.25, 1, 0.5, 1), text-decoration-color 0.4s cubic-bezier(0.25, 1, 0.5, 1), fill 0.4s cubic-bezier(0.25, 1, 0.5, 1), stroke 0.4s cubic-bezier(0.25, 1, 0.5, 1), --tw-gradient-from 0.4s cubic-bezier(0.25, 1, 0.5, 1), --tw-gradient-via 0.4s cubic-bezier(0.25, 1, 0.5, 1), --tw-gradient-to 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 42,
+   "sizeBuckets": {
+    "sm": 9,
+    "xl": 23,
+    "md": 7,
+    "lg": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "by Good Fella",
+      "tag": "a",
+      "height": 18,
+      "width": 332,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 18.1
+     },
+     {
+      "text": "Card Fan",
+      "tag": "a",
+      "height": 21,
+      "width": 73,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "Open the component",
+      "tag": "a",
+      "height": 20,
+      "width": 136,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "padding-left 0.5s cubic-bezier(0.25, 1, 0.5, 1), color 0.5s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "More than 20 seats? Email us.",
+      "tag": "a",
+      "height": 16,
+      "width": 187,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(105, 104, 105)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.78
+     }
+    ],
+    "xl": [
+     {
+      "text": "LibraryLibrary",
+      "tag": "a",
+      "height": 72,
+      "width": 72,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 128, 129)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "15.7388px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "23.6082px",
+      "letterSpacing": "-0.314775px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "gap": "normal",
+      "contrast": 5.34
+     },
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 61,
+      "width": 1344,
+      "padding": "16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.05)",
+      "fontSize": "21.4776px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27.9208px",
+      "letterSpacing": "-0.536939px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "Login",
+      "tag": "a",
+      "height": 48,
+      "width": 41,
+      "padding": "12px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 128, 129)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.34
+     },
+     {
+      "text": "Get accessGet access",
+      "tag": "a",
+      "height": 48,
+      "width": 109,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), translate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), scale 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), rotate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "gap": "normal",
+      "contrast": 18.1
+     }
+    ],
+    "md": [
+     {
+      "text": "LoginLogin",
+      "tag": "a",
+      "height": 36,
+      "width": 62,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 128, 129)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "15.7388px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "23.6082px",
+      "letterSpacing": "-0.314775px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), translate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), scale 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), rotate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "gap": "normal",
+      "contrast": 5.34
+     },
+     {
+      "text": "Cast ListCast List",
+      "tag": "a",
+      "height": 33,
+      "width": 76,
+      "padding": "0px",
+      "margin": "-6px -12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "13.7388px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.6082px",
+      "letterSpacing": "-0.274776px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), translate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), scale 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), rotate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "X",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.4s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), outline-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), text-decoration-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), fill 0.4s cubic-bezier(0.16, 1, 0.3, 1), stroke 0.4s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-from 0.4s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-via 0.4s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-to 0.4s cubic-bezier(0.16, 1, 0.3, 1)",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "How it worksHow it works",
+      "tag": "a",
+      "height": 32,
+      "width": 105,
+      "padding": "0px",
+      "margin": "0px -12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), translate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), scale 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), rotate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ],
+    "lg": [
+     {
+      "text": "Get accessGet access",
+      "tag": "a",
+      "height": 40,
+      "width": 101,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), translate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), scale 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), rotate 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "Buttons",
+      "tag": "a",
+      "height": 40,
+      "width": 1344,
+      "padding": "8px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 128, 129)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.34
+     },
+     {
+      "text": "Buttons",
+      "tag": "a",
+      "height": 40,
+      "width": 1344,
+      "padding": "8px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(105, 104, 105)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.78
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 7,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 4,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 57,
+      "width": 574,
+      "padding": "10px 0px 20px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid oklab(0.949113 0.0000431836 0.0000190735 / 0.2)",
+      "fontSize": "17.8694px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "25.9106px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), outline-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), text-decoration-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), fill 0.3s cubic-bezier(0.16, 1, 0.3, 1), stroke 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-from 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-via 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-to 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "",
+      "tag": "input",
+      "height": 57,
+      "width": 524,
+      "padding": "10px 0px 20px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid oklab(0.188334 0.00211275 -0.00143278 / 0.2)",
+      "fontSize": "17.8694px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "25.9106px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), outline-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), text-decoration-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), fill 0.3s cubic-bezier(0.16, 1, 0.3, 1), stroke 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-from 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-via 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-to 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 27,
+      "width": 190,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "on",
+      "tag": "input",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 128, 129)",
+      "border": "1px solid oklab(0.949113 0.0000431836 0.0000190735 / 0.3)",
+      "fontSize": "13.7388px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.6082px",
+      "letterSpacing": "-0.274776px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 5.34
+     },
+     {
+      "text": "",
+      "tag": "input",
+      "height": 27,
+      "width": 190,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "on",
+      "tag": "input",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(105, 104, 105)",
+      "border": "1px solid oklab(0.188334 0.00211275 -0.00143278 / 0.3)",
+      "fontSize": "13.7388px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.6082px",
+      "letterSpacing": "-0.274776px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 3.78
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 42,
+      "width": 169,
+      "padding": "10px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "1px solid oklab(0.949113 0.0000431836 0.0000190735 / 0.25)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), outline-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), text-decoration-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), fill 0.3s cubic-bezier(0.16, 1, 0.3, 1), stroke 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-from 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-via 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-to 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
+      "gap": "normal",
+      "contrast": 18.1
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 19,
+   "sizeBuckets": {
+    "xl": 19
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "SoloMost popularMost popular€0",
+      "tag": "article",
+      "height": 698,
+      "width": 457,
+      "padding": "32px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "24px",
+      "contrast": 21
+     },
+     {
+      "text": "Studio, per seat€0123456789012",
+      "tag": "article",
+      "height": 698,
+      "width": 457,
+      "padding": "32px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(238, 238, 238)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "24px",
+      "contrast": 15.98
+     },
+     {
+      "text": "Reveal Kit€149 One-time paymen",
+      "tag": "article",
+      "height": 348,
+      "width": 457,
+      "padding": "32px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(238, 238, 238)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 15.98
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 48,
+      "width": 680,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.89
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 9,
+   "sizeBuckets": {
+    "xl": 8,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "by Good FellaLibraryLibraryKit",
+      "tag": "header",
+      "height": 72,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), padding-top 0.3s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "PlatformHow it worksHow it wor",
+      "tag": "nav",
+      "height": 595,
+      "width": 200,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "Getting startedIntroductionIns",
+      "tag": "nav",
+      "height": 367,
+      "width": 209,
+      "padding": "0px 8px 16px 4px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "top 0.4s cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "Copy pageDocumentation.Install",
+      "tag": "header",
+      "height": 151,
+      "width": 760,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     }
+    ],
+    "sm": [
+     {
+      "text": "October 20",
+      "tag": "header",
+      "height": 27,
+      "width": 760,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "01Can I use Annnimate in comme",
+      "tag": "div",
+      "height": 504,
+      "width": 688,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "01How does Annnimate Studio pr",
+      "tag": "div",
+      "height": 376,
+      "width": 688,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 11,
+   "sizeBuckets": {
+    "xl": 5,
+    "md": 1,
+    "sm": 3,
+    "lg": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Give any site award‑levelanima",
+      "tag": "h1",
+      "height": 119,
+      "width": 772,
+      "padding": "0px",
+      "margin": "0px 301.906px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "59.298px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "59.298px",
+      "letterSpacing": "-2.07543px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "Client-ready themoment you pas",
+      "tag": "h2",
+      "height": 85,
+      "width": 404,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "37.9102px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "42.649px",
+      "letterSpacing": "-1.51641px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "These sites werebuilt with Ann",
+      "tag": "h2",
+      "height": 85,
+      "width": 328,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "37.9102px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "42.649px",
+      "letterSpacing": "-1.51641px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "One component takesa day to bu",
+      "tag": "h2",
+      "height": 128,
+      "width": 494,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "37.9102px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "42.649px",
+      "letterSpacing": "-1.51641px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ],
+    "md": [
+     {
+      "text": "Try it before you copy it.",
+      "tag": "h2",
+      "height": 35,
+      "width": 379,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "30.6939px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "35.298px",
+      "letterSpacing": "-1.07429px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     }
+    ],
+    "sm": [
+     {
+      "text": "Motion that wins the pitch",
+      "tag": "h3",
+      "height": 24,
+      "width": 492,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.32px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "October 2026",
+      "tag": "h2",
+      "height": 28,
+      "width": 760,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "21.4776px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27.9208px",
+      "letterSpacing": "-0.536939px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "Cast List",
+      "tag": "h3",
+      "height": 25,
+      "width": 760,
+      "padding": "0px",
+      "margin": "8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "17.7388px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "24.8343px",
+      "letterSpacing": "-0.354776px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     }
+    ],
+    "lg": [
+     {
+      "text": "Just shipped",
+      "tag": "h2",
+      "height": 43,
+      "width": 1376,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "37.9102px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "42.649px",
+      "letterSpacing": "-1.51641px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "From people who pay for it.",
+      "tag": "h2",
+      "height": 43,
+      "width": 449,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "37.9102px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "42.649px",
+      "letterSpacing": "-1.51641px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 31,
+   "sizeBuckets": {
+    "xl": 14,
+    "sm": 12,
+    "lg": 4,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "The same GSAP animations we bu",
+      "tag": "p",
+      "height": 52,
+      "width": 736,
+      "padding": "0px",
+      "margin": "24px 320px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(207, 206, 207)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "17.8694px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "25.9106px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 13.38
+     },
+     {
+      "text": "Circular Slider, exactly as it",
+      "tag": "p",
+      "height": 48,
+      "width": 379,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 128, 129)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.34
+     },
+     {
+      "text": "Every timing, ease and distanc",
+      "tag": "p",
+      "height": 61,
+      "width": 263,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 128, 129)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.34
+     },
+     {
+      "text": "Annnimate makes it easier to w",
+      "tag": "p",
+      "height": 141,
+      "width": 909,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "30.6939px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "35.298px",
+      "letterSpacing": "-1.07429px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ],
+    "sm": [
+     {
+      "text": "Used on sites for",
+      "tag": "p",
+      "height": 20,
+      "width": 107,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(207, 206, 207)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 13.38
+     },
+     {
+      "text": "Customize",
+      "tag": "p",
+      "height": 25,
+      "width": 85,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "17.7388px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "24.8343px",
+      "letterSpacing": "-0.354776px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "Available in",
+      "tag": "p",
+      "height": 20,
+      "width": 71,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 128, 129)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.34
+     },
+     {
+      "text": "123 components and counting. C",
+      "tag": "p",
+      "height": 26,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 128, 129)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "17.8694px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "25.9106px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.34
+     }
+    ],
+    "lg": [
+     {
+      "text": "The reveals, menus and sliders",
+      "tag": "p",
+      "height": 41,
+      "width": 365,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 128, 129)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.34
+     },
+     {
+      "text": "For a studio or team shipping ",
+      "tag": "p",
+      "height": 41,
+      "width": 393,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(105, 104, 105)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.78
+     },
+     {
+      "text": "Try the library before you dec",
+      "tag": "p",
+      "height": 41,
+      "width": 169,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "By signing up you agree to the",
+      "tag": "p",
+      "height": 41,
+      "width": 169,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 128, 129)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "13.7388px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.6082px",
+      "letterSpacing": "-0.274776px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.34
+     }
+    ],
+    "md": [
+     {
+      "text": "€149 One-time payment",
+      "tag": "p",
+      "height": 35,
+      "width": 191,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "30.6939px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "35.298px",
+      "letterSpacing": "-1.07429px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 13,
+   "sizeBuckets": {
+    "lg": 1,
+    "xl": 12
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Coca-ColaBodyArmorWKNDHRSPower",
+      "tag": "ul",
+      "height": 40,
+      "width": 474,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "24px",
+      "contrast": 18.1
+     }
+    ],
+    "xl": [
+     {
+      "text": "MovementsnapDuration9012345678",
+      "tag": "ul",
+      "height": 280,
+      "width": 379,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 18.1
+     },
+     {
+      "text": "All 123 signature components22",
+      "tag": "ul",
+      "height": 162,
+      "width": 393,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 21
+     },
+     {
+      "text": "Everything in Solo, for every ",
+      "tag": "ul",
+      "height": 133,
+      "width": 393,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.13
+     },
+     {
+      "text": "13 components, built as one sy",
+      "tag": "ul",
+      "height": 77,
+      "width": 393,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.13
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 3,
+    "md": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "901234567890.901234567890",
+      "tag": "span",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "2 seats",
+      "tag": "span",
+      "height": 24,
+      "width": 53,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "901234567890901234567890",
+      "tag": "span",
+      "height": 20,
+      "width": 17,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "20.3px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ],
+    "md": [
+     {
+      "text": "€640",
+      "tag": "span",
+      "height": 35,
+      "width": 289,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "30.6939px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "35.298px",
+      "letterSpacing": "-1.07429px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "€240",
+      "tag": "span",
+      "height": 35,
+      "width": 289,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(251, 70, 13)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "30.6939px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "35.298px",
+      "letterSpacing": "-1.07429px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.98
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 3,
+    "lg": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Card FanProject WheelCircular ",
+      "tag": "div",
+      "height": 813,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "Cast ListStacking CardsProcess",
+      "tag": "div",
+      "height": 682,
+      "width": 1376,
+      "padding": "0px",
+      "margin": "176px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 918,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "64px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ],
+    "lg": [
+     {
+      "text": "Duration901234567890.901234567",
+      "tag": "div",
+      "height": 40,
+      "width": 379,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.949113 0.0000431836 0.0000190735 / 0.04)",
+      "color": "rgb(238, 238, 238)",
+      "border": "1px solid oklab(0.949113 0.0000431836 0.0000190735 / 0.08)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), outline-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), text-decoration-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), fill 0.3s cubic-bezier(0.16, 1, 0.3, 1), stroke 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-from 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-via 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-to 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "901234567890901234567890€/h",
+      "tag": "div",
+      "height": 40,
+      "width": 559,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.188334 0.00211275 -0.00143278 / 0.04)",
+      "color": "rgb(20, 19, 20)",
+      "border": "1px solid oklab(0.188334 0.00211275 -0.00143278 / 0.08)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), outline-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), text-decoration-color 0.3s cubic-bezier(0.16, 1, 0.3, 1), fill 0.3s cubic-bezier(0.16, 1, 0.3, 1), stroke 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-from 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-via 0.3s cubic-bezier(0.16, 1, 0.3, 1), --tw-gradient-to 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 31,
+   "sizeBuckets": {
+    "sm": 19,
+    "lg": 1,
+    "xl": 11
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(253, 85, 29)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.49
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "21.4776px",
+      "fontWeight": "500",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27.9208px",
+      "letterSpacing": "-0.536939px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 73,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(207, 206, 207)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 13.38
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 40,
+      "width": 43,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(207, 206, 207)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 13.38
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 260,
+      "width": 492,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "border": "0px solid rgba(238, 238, 238, 0.1)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 120,
+      "width": 393,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 120,
+      "width": 393,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 88,
+      "width": 120,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 19, 20)",
+      "border": "0px solid rgba(0, 0, 0, 0.2)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "aktivGrotesk",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 72,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 4
+  },
+  {
+   "tag": "nav",
+   "height": 72,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 5
+  },
+  {
+   "tag": "main",
+   "height": 10232,
+   "heading": "Give any site award‑levelanimation in minutes.",
+   "background": "rgb(20, 19, 20)",
+   "padding": "0px",
+   "children": 11
+  },
+  {
+   "tag": "section",
+   "height": 813,
+   "heading": "Give any site award‑levelanimation in minutes.",
+   "background": "rgb(20, 19, 20)",
+   "padding": "136px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 1012,
+   "heading": "Try it before you copy it.",
+   "background": "rgb(20, 19, 20)",
+   "padding": "192px 0px 96px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1494,
+   "heading": "Client-ready themoment you paste it.",
+   "background": "rgb(20, 19, 20)",
+   "padding": "160px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1262,
+   "heading": "Just shipped",
+   "background": "rgb(20, 19, 20)",
+   "padding": "160px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 1387,
+   "heading": "These sites werebuilt with Annnimate",
+   "background": "rgb(238, 238, 238)",
+   "padding": "160px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 549,
+   "heading": "The people usingit ship for a living.",
+   "background": "rgb(238, 238, 238)",
+   "padding": "160px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1169,
+   "heading": "Every component, for lessthan a day of building on",
+   "background": "rgb(238, 238, 238)",
+   "padding": "160px 0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 698,
+   "heading": null,
+   "background": "rgb(0, 0, 0)",
+   "padding": "32px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 698,
+   "heading": null,
+   "background": "rgb(238, 238, 238)",
+   "padding": "32px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 348,
+   "heading": null,
+   "background": "rgb(238, 238, 238)",
+   "padding": "32px",
+   "children": 3
+  },
+  {
+   "tag": "article",
+   "height": 348,
+   "heading": null,
+   "background": "rgb(238, 238, 238)",
+   "padding": "32px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 962,
+   "heading": "A new free component every week.",
+   "background": "rgb(20, 19, 20)",
+   "padding": "0px",
+   "children": 4
+  },
+  {
+   "tag": "section",
+   "height": 930,
+   "heading": "Questions,answered.",
+   "background": "rgb(20, 19, 20)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 653,
+   "heading": "Give your next siteaward-level animation.",
+   "background": "rgb(20, 19, 20)",
+   "padding": "0px",
+   "children": 4
+  },
+  {
+   "tag": "footer",
+   "height": 974,
+   "heading": null,
+   "background": "rgb(20, 19, 20)",
+   "padding": "0px 32px 32px",
+   "children": 1
+  },
+  {
+   "tag": "nav",
+   "height": 595,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "nav",
+   "height": 595,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 10.89,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 40
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.3s",
+    "count": 289
+   },
+   {
+    "value": "0.5s",
+    "count": 220
+   },
+   {
+    "value": "0.2s",
+    "count": 21
+   },
+   {
+    "value": "1.5s",
+    "count": 12
+   },
+   {
+    "value": "0.4s",
+    "count": 7
+   },
+   {
+    "value": "0.55s",
+    "count": 4
+   },
+   {
+    "value": "0.15s",
+    "count": 4
+   },
+   {
+    "value": "0.8s",
+    "count": 2
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "count": 347
+   },
+   {
+    "value": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+    "count": 111
+   },
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 54
+   },
+   {
+    "value": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "count": 16
+   },
+   {
+    "value": "cubic-bezier(0.76, 0, 0.24, 1)",
+    "count": 16
+   },
+   {
+    "value": "cubic-bezier(0.7, 0, 0.16, 1)",
+    "count": 8
+   },
+   {
+    "value": "cubic-bezier(0, 0, 0.2, 1)",
+    "count": 5
+   },
+   {
+    "value": "cubic-bezier(0.87, 0, 0.13, 1)",
+    "count": 2
+   }
+  ],
+  "properties": [
+   {
+    "value": "transform",
+    "count": 341
+   },
+   {
+    "value": "scale",
+    "count": 331
+   },
+   {
+    "value": "translate",
+    "count": 330
+   },
+   {
+    "value": "rotate",
+    "count": 325
+   },
+   {
+    "value": "background-color",
+    "count": 179
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 165
+   },
+   {
+    "value": "color",
+    "count": 161
+   },
+   {
+    "value": "border-color",
+    "count": 156
+   },
+   {
+    "value": "outline-color",
+    "count": 156
+   },
+   {
+    "value": "fill",
+    "count": 156
+   }
+  ]
+ }
+}

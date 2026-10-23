@@ -1,0 +1,1806 @@
+{
+ "id": "t206",
+ "overview": {
+  "name": "Nue",
+  "url": "https://nuejs.org/",
+  "section": "开发环境",
+  "pagesScanned": [
+   "https://nuejs.org/",
+   "https://nuejs.org/docs/",
+   "https://nuejs.org/blog/",
+   "https://nuejs.org/docs"
+  ],
+  "subpages": [
+   "/docs/",
+   "/blog/",
+   "/docs"
+  ],
+  "sectionCount": 12,
+  "componentSamples": 64,
+  "typeSteps": 15
+ },
+ "colors": {
+  "roles": {
+   "foreground": {
+    "hex": "#64707f",
+    "value": "#64707f",
+    "token": "--text",
+    "source": "css-var",
+    "contrastOnBg": 5.04
+   },
+   "primary": {
+    "hex": "#3481fe",
+    "value": "#3481fe",
+    "token": "--brand",
+    "source": "css-var",
+    "contrastOnBg": 3.67
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#1c2026",
+    "count": 15
+   },
+   {
+    "hex": "#f4f6f9",
+    "count": 9
+   },
+   {
+    "hex": "#121212",
+    "count": 7
+   },
+   {
+    "hex": "#3481fe",
+    "count": 5
+   },
+   {
+    "hex": "#ffffff",
+    "count": 4
+   },
+   {
+    "hex": "#000000",
+    "count": 3
+   },
+   {
+    "hex": "#64707f",
+    "count": 224
+   },
+   {
+    "hex": "#a7b4c8",
+    "count": 61
+   },
+   {
+    "hex": "#6d7d91",
+    "count": 39
+   },
+   {
+    "hex": "#eef2f7",
+    "count": 31
+   }
+  ],
+  "backgroundsTotal": 6,
+  "textTotal": 10,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "15.5px",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 24,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Standards first web framework"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "600",
+    "lineHeight": "15.5px",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 3,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Dev server"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "600",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "New"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 7,
+    "tags": [
+     "h4"
+    ],
+    "samples": [
+     "index.md"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "17.5px",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 128,
+    "tags": [
+     "a",
+     "li",
+     "span"
+    ],
+    "samples": [
+     "NUE"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 4,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Nue is small and fast"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 4,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "Ping me"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "17.5px",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 35,
+    "tags": [
+     "strong",
+     "h3"
+    ],
+    "samples": [
+     "Slack"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "26.5px",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 28,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Learn Nue"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "450",
+    "lineHeight": "26.5px",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 4,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "The UNIX of the Web"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "600",
+    "lineHeight": "26.5px",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 11,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "Nue 2.0: The UNIX of the web"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "29.5px",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 4,
+    "tags": [
+     "p",
+     "a"
+    ],
+    "samples": [
+     "What used to be 500MB is now 1MB"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "550",
+    "lineHeight": "25px",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 3,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "3.0 is coming"
+    ]
+   },
+   {
+    "size": "28px",
+    "px": 28.0,
+    "weight": "650",
+    "lineHeight": "35px",
+    "letterSpacing": "-0.28px",
+    "family": "inter",
+    "count": 3,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "Learn Nue"
+    ]
+   },
+   {
+    "size": "32px",
+    "px": 32.0,
+    "weight": "600",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "inter",
+    "count": 3,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "The entire ecosystem in 1MB"
+    ]
+   }
+  ],
+  "totalSteps": 17,
+  "families": [
+   "inter"
+  ],
+  "weights": [
+   "400",
+   "450",
+   "500",
+   "550",
+   "600",
+   "650"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 3
+   },
+   {
+    "value": "6.5px",
+    "px": 6.5,
+    "count": 7
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 93
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 13
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 3
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 6
+   },
+   {
+    "value": "10.5px",
+    "px": 10.5,
+    "count": 57
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 36
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 112
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 41
+   },
+   {
+    "value": "17.5px",
+    "px": 17.5,
+    "count": 36
+   },
+   {
+    "value": "18.5px",
+    "px": 18.5,
+    "count": 3
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 7
+   },
+   {
+    "value": "21px",
+    "px": 21.0,
+    "count": 4
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 2
+   },
+   {
+    "value": "27px",
+    "px": 27.0,
+    "count": 3
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "672px",
+    "count": 34
+   },
+   {
+    "value": "1024px",
+    "count": 4
+   },
+   {
+    "value": "560px",
+    "count": 4
+   },
+   {
+    "value": "532px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "2px",
+    "px": 2.0,
+    "count": 4
+   },
+   {
+    "value": "3.5px",
+    "px": 3.5,
+    "count": 4
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 18
+   },
+   {
+    "value": "126px",
+    "px": 126.0,
+    "count": 4
+   }
+  ],
+  "shadows": [],
+  "zIndex": []
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 4,
+   "sizeBuckets": {
+    "lg": 3,
+    "md": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Learn Nue Get started ->",
+      "tag": "div",
+      "height": 42,
+      "width": 992,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 10.01
+     },
+     {
+      "text": "Learn Nue",
+      "tag": "a",
+      "height": 42,
+      "width": 118,
+      "padding": "8px 20px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(52, 129, 254)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 3.67
+     },
+     {
+      "text": "Get started ->",
+      "tag": "a",
+      "height": 42,
+      "width": 143,
+      "padding": "8px 20px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(28, 32, 38)",
+      "color": "rgb(238, 242, 247)",
+      "border": "0px none rgb(238, 242, 247)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 14.55
+     }
+    ],
+    "md": [
+     {
+      "text": "Ping me",
+      "tag": "button",
+      "height": 31,
+      "width": 89,
+      "padding": "7px 17.5px",
+      "margin": "0px",
+      "radius": "3.5px",
+      "background": "rgb(52, 129, 254)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "7px",
+      "contrast": 3.67
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 12,
+   "sizeBuckets": {
+    "sm": 9,
+    "lg": 2,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "NUE",
+      "tag": "a",
+      "height": 20,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.01
+     },
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 18,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.01
+     },
+     {
+      "text": "8.8k",
+      "tag": "a",
+      "height": 25,
+      "width": 74,
+      "padding": "3.5px 10.5px",
+      "margin": "0px",
+      "radius": "126px",
+      "background": "rgb(28, 32, 38)",
+      "color": "rgb(238, 242, 247)",
+      "border": "0px none rgb(238, 242, 247)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "7px",
+      "contrast": 14.55
+     },
+     {
+      "text": "multi-site development",
+      "tag": "a",
+      "height": 21,
+      "width": 192,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "29.7px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.01
+     }
+    ],
+    "lg": [
+     {
+      "text": "Learn Nue",
+      "tag": "a",
+      "height": 42,
+      "width": 118,
+      "padding": "8px 20px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(52, 129, 254)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 3.67
+     },
+     {
+      "text": "Get started ->",
+      "tag": "a",
+      "height": 42,
+      "width": 143,
+      "padding": "8px 20px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(28, 32, 38)",
+      "color": "rgb(238, 242, 247)",
+      "border": "0px none rgb(238, 242, 247)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 14.55
+     }
+    ],
+    "md": [
+     {
+      "text": "Oct 14, 2025 Nue 2.0: The UNIX",
+      "tag": "a",
+      "height": 30,
+      "width": 672,
+      "padding": "2px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 112, 127)",
+      "border": "0px none rgb(100, 112, 127)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 4.17
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 4,
+   "sizeBuckets": {
+    "lg": 2,
+    "xl": 2
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 38,
+      "width": 273,
+      "padding": "10.5px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(28, 32, 38)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.79
+     },
+     {
+      "text": "",
+      "tag": "input",
+      "height": 38,
+      "width": 273,
+      "padding": "10.5px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(244, 246, 249)",
+      "color": "rgb(100, 112, 127)",
+      "border": "0px none rgb(100, 112, 127)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.66
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "textarea",
+      "height": 55,
+      "width": 273,
+      "padding": "10.5px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(28, 32, 38)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.79
+     },
+     {
+      "text": "",
+      "tag": "textarea",
+      "height": 55,
+      "width": 273,
+      "padding": "10.5px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(244, 246, 249)",
+      "color": "rgb(100, 112, 127)",
+      "border": "0px none rgb(100, 112, 127)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.66
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 7,
+   "sizeBuckets": {
+    "xl": 7
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Fastest way to build modern we",
+      "tag": "article",
+      "height": 1912,
+      "width": 992,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "48px",
+      "contrast": 10.01
+     },
+     {
+      "text": "Nuekit Standards first web fra",
+      "tag": "div",
+      "height": 408,
+      "width": 992,
+      "padding": "14px 17.5px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(28, 32, 38)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "14px",
+      "contrast": 7.79
+     },
+     {
+      "text": "Nuekit Standards first web fra",
+      "tag": "div",
+      "height": 72,
+      "width": 310,
+      "padding": "14px 17.5px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(18, 18, 18)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.93
+     },
+     {
+      "text": "@shared ├── ui ├── app ├── dat",
+      "tag": "aside",
+      "height": 174,
+      "width": 200,
+      "padding": "28px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(28, 32, 38)",
+      "color": "rgb(167, 180, 200)",
+      "border": "1px solid rgb(52, 129, 254)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "plex mono",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.79
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 10,
+   "sizeBuckets": {
+    "xl": 6,
+    "sm": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "NUE Docs BlogNewNue 2.0 is out",
+      "tag": "header",
+      "height": 53,
+      "width": 1024,
+      "padding": "14px",
+      "margin": "0px 0px 42px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "14px",
+      "contrast": 10.01
+     },
+     {
+      "text": "← →",
+      "tag": "header",
+      "height": 66,
+      "width": 84,
+      "padding": "20px 24px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 10.01
+     },
+     {
+      "text": "NUE Docs BlogNewNue 2.0 is out",
+      "tag": "header",
+      "height": 53,
+      "width": 1024,
+      "padding": "14px",
+      "margin": "0px 0px 42px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 112, 127)",
+      "border": "0px none rgb(100, 112, 127)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "14px",
+      "contrast": 4.17
+     },
+     {
+      "text": "Why NueGetting startedMigratio",
+      "tag": "nav",
+      "height": 144,
+      "width": 156,
+      "padding": "0px",
+      "margin": "0px 144px 42px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 112, 127)",
+      "border": "0px none rgb(100, 112, 127)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "14px",
+      "contrast": 4.17
+     }
+    ],
+    "sm": [
+     {
+      "text": "NUE Docs BlogNewNue 2.0 is out",
+      "tag": "nav",
+      "height": 20,
+      "width": 331,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "28px",
+      "contrast": 10.01
+     },
+     {
+      "text": "Slack 8.8k",
+      "tag": "nav",
+      "height": 25,
+      "width": 164,
+      "padding": "0px",
+      "margin": "0px 0px 0px 487.031px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "28px",
+      "contrast": 10.01
+     },
+     {
+      "text": "NUE Docs BlogNewNue 2.0 is out",
+      "tag": "nav",
+      "height": 20,
+      "width": 331,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 112, 127)",
+      "border": "0px none rgb(100, 112, 127)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "28px",
+      "contrast": 4.17
+     },
+     {
+      "text": "Slack 8.8k",
+      "tag": "nav",
+      "height": 25,
+      "width": 164,
+      "padding": "0px",
+      "margin": "0px 0px 0px 487.031px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 112, 127)",
+      "border": "0px none rgb(100, 112, 127)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "28px",
+      "contrast": 4.17
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 4
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "New",
+      "tag": "span",
+      "height": 15,
+      "width": 33,
+      "padding": "1.53125px 3.0625px",
+      "margin": "0px",
+      "radius": "2px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "12.25px",
+      "fontWeight": "600",
+      "fontFamily": "inter",
+      "lineHeight": "12.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "8.8k",
+      "tag": "a",
+      "height": 25,
+      "width": 74,
+      "padding": "3.5px 10.5px",
+      "margin": "0px",
+      "radius": "126px",
+      "background": "rgb(28, 32, 38)",
+      "color": "rgb(238, 242, 247)",
+      "border": "0px none rgb(238, 242, 247)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "7px",
+      "contrast": 14.55
+     },
+     {
+      "text": "New",
+      "tag": "span",
+      "height": 15,
+      "width": 33,
+      "padding": "1.53125px 3.0625px",
+      "margin": "0px",
+      "radius": "2px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "12.25px",
+      "fontWeight": "600",
+      "fontFamily": "inter",
+      "lineHeight": "12.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "8.8k",
+      "tag": "a",
+      "height": 25,
+      "width": 74,
+      "padding": "3.5px 10.5px",
+      "margin": "0px",
+      "radius": "126px",
+      "background": "rgb(244, 246, 249)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "7px",
+      "contrast": 19.4
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 8,
+   "sizeBuckets": {
+    "xl": 1,
+    "md": 2,
+    "sm": 5
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Fastest way to build modern we",
+      "tag": "h1",
+      "height": 128,
+      "width": 992,
+      "padding": "0px",
+      "margin": "32px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 242, 247)",
+      "border": "0px none rgb(238, 242, 247)",
+      "fontSize": "64px",
+      "fontWeight": "650",
+      "fontFamily": "inter",
+      "lineHeight": "64px",
+      "letterSpacing": "-1.6px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.68
+     }
+    ],
+    "md": [
+     {
+      "text": "The entire ecosystem in 1MB",
+      "tag": "h2",
+      "height": 32,
+      "width": 672,
+      "padding": "0px",
+      "margin": "32px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 242, 247)",
+      "border": "0px none rgb(238, 242, 247)",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "fontFamily": "inter",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.68
+     },
+     {
+      "text": "Learn Nue",
+      "tag": "h1",
+      "height": 35,
+      "width": 672,
+      "padding": "0px",
+      "margin": "0px 0px 7px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "28px",
+      "fontWeight": "650",
+      "fontFamily": "inter",
+      "lineHeight": "35px",
+      "letterSpacing": "-0.28px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "Nuekit",
+      "tag": "h3",
+      "height": 18,
+      "width": 275,
+      "padding": "0px",
+      "margin": "0px 0px 10.5px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 242, 247)",
+      "border": "0px none rgb(238, 242, 247)",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "7px",
+      "contrast": 18.68
+     },
+     {
+      "text": "Dev server",
+      "tag": "h3",
+      "height": 15,
+      "width": 292,
+      "padding": "0px",
+      "margin": "6.125px 0px 9.1875px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 242, 247)",
+      "border": "0px none rgb(238, 242, 247)",
+      "fontSize": "12.25px",
+      "fontWeight": "600",
+      "fontFamily": "inter",
+      "lineHeight": "15.3125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.68
+     },
+     {
+      "text": "index.md",
+      "tag": "h4",
+      "height": 16,
+      "width": 115,
+      "padding": "0px",
+      "margin": "0px 0px 6.3px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 242, 247)",
+      "border": "0px none rgb(238, 242, 247)",
+      "fontSize": "12.6px",
+      "fontWeight": "500",
+      "fontFamily": "inter",
+      "lineHeight": "15.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.68
+     },
+     {
+      "text": "Essentials",
+      "tag": "h3",
+      "height": 18,
+      "width": 300,
+      "padding": "0px",
+      "margin": "7px 0px 10.5px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 7,
+   "sizeBuckets": {
+    "md": 2,
+    "sm": 5
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Nue is a development environme",
+      "tag": "p",
+      "height": 33,
+      "width": 992,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 242, 247)",
+      "border": "0px none rgb(238, 242, 247)",
+      "fontSize": "20px",
+      "fontWeight": "450",
+      "fontFamily": "inter",
+      "lineHeight": "33px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.68
+     },
+     {
+      "text": "What used to be 500MB is now 1",
+      "tag": "p",
+      "height": 30,
+      "width": 672,
+      "padding": "0px",
+      "margin": "0px 0px 27px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "29.7px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.01
+     }
+    ],
+    "sm": [
+     {
+      "text": "Nue is small and fast",
+      "tag": "p",
+      "height": 23,
+      "width": 672,
+      "padding": "0px",
+      "margin": "14px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(109, 125, 145)",
+      "border": "0px none rgb(109, 125, 145)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "23.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.99
+     },
+     {
+      "text": "Standards first web framework",
+      "tag": "p",
+      "height": 15,
+      "width": 275,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(109, 125, 145)",
+      "border": "0px none rgb(109, 125, 145)",
+      "fontSize": "12.25px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "15.3125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.99
+     },
+     {
+      "text": "├── ui",
+      "tag": "p",
+      "height": 18,
+      "width": 142,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(76, 86, 99)",
+      "border": "0px none rgb(76, 86, 99)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "plex mono",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     },
+     {
+      "text": "The UNIX of the Web",
+      "tag": "p",
+      "height": 26,
+      "width": 672,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "450",
+      "fontFamily": "inter",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "index.md app/index.html blog/i",
+      "tag": "ul",
+      "height": 174,
+      "width": 743,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.01
+     },
+     {
+      "text": "Oct 14, 2025 Nue 2.0: The UNIX",
+      "tag": "ul",
+      "height": 274,
+      "width": 992,
+      "padding": "0px",
+      "margin": "32px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(100, 112, 127)",
+      "border": "0px none rgb(100, 112, 127)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.17
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 6,
+   "sizeBuckets": {
+    "sm": 6
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(167, 180, 200)",
+      "border": "0px none rgb(167, 180, 200)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.01
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 242, 247)",
+      "border": "0px none rgb(238, 242, 247)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.68
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(52, 129, 254)",
+      "border": "0px none rgb(52, 129, 254)",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.72
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 28,
+      "padding": "0px",
+      "margin": "-14px 0px 0px -7px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 242, 247)",
+      "border": "0px none rgb(238, 242, 247)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "inter",
+      "lineHeight": "17.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.68
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 53,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "14px",
+   "children": 2
+  },
+  {
+   "tag": "main",
+   "height": 2309,
+   "heading": "Fastest way to build modern websites",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "16px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 1912,
+   "heading": "Fastest way to build modern websites",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 874,
+   "heading": "Fastest way to build modern websites",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 5
+  },
+  {
+   "tag": "header",
+   "height": 66,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "20px 24px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 588,
+   "heading": "The entire ecosystem in 1MB",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 4
+  },
+  {
+   "tag": "section",
+   "height": 158,
+   "heading": "Nuekit",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 6
+  },
+  {
+   "tag": "aside",
+   "height": 196,
+   "heading": "Dev server",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 354,
+   "heading": "Rapid application assembly",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 4
+  },
+  {
+   "tag": "aside",
+   "height": 174,
+   "heading": "@shared",
+   "background": "rgb(28, 32, 38)",
+   "padding": "28px",
+   "children": 6
+  },
+  {
+   "tag": "aside",
+   "height": 205,
+   "heading": "3.0 is coming",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 4
+  },
+  {
+   "tag": "footer",
+   "height": 140,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "14px 14px 63px",
+   "children": 3
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 5.04,
+  "bodyContrastLevel": "AA",
+  "tapTargetMin": 18,
+  "tapTargetMedian": 25
+ }
+}

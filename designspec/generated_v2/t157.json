@@ -1,0 +1,2106 @@
+{
+ "id": "t157",
+ "overview": {
+  "name": "Shadcn Labs",
+  "url": "https://www.shadcn-labs.com/",
+  "section": "组件库",
+  "pagesScanned": [
+   "https://www.shadcn-labs.com/",
+   "https://www.shadcn-labs.com/about",
+   "https://www.shadcn-labs.com/contact",
+   "https://www.shadcn-labs.com/press"
+  ],
+  "subpages": [
+   "/about",
+   "/contact",
+   "/press"
+  ],
+  "sectionCount": 5,
+  "componentSamples": 86,
+  "typeSteps": 12
+ },
+ "colors": {
+  "roles": {
+   "border": {
+    "hex": "#e5e5e5",
+    "value": "#e5e5e5",
+    "token": "--border",
+    "source": "css-var",
+    "contrastOnBg": 1.14
+   },
+   "primary": {
+    "hex": "#f06292",
+    "value": "#f06292",
+    "token": "--primary",
+    "source": "css-var",
+    "contrastOnBg": 2.78
+   },
+   "foreground": {
+    "hex": "#111111",
+    "value": "#111111",
+    "token": "--foreground",
+    "source": "css-var",
+    "contrastOnBg": 17.15
+   },
+   "background": {
+    "hex": "#f5f4ef",
+    "value": "#f5f4ef",
+    "token": "--background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "muted": {
+    "hex": "#ebeae4",
+    "value": "#ebeae4",
+    "token": "--muted",
+    "source": "css-var",
+    "contrastOnBg": 1.09
+   },
+   "focus": {
+    "hex": "#111111",
+    "value": "#111111",
+    "token": "--ring",
+    "source": "css-var",
+    "contrastOnBg": 17.15
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#f5f4ef",
+    "count": 4
+   },
+   {
+    "hex": "#ebeae4",
+    "count": 3
+   },
+   {
+    "hex": "#111111",
+    "count": 2
+   },
+   {
+    "hex": "#0f1419",
+    "count": 2
+   },
+   {
+    "hex": "#006fd6",
+    "count": 21
+   },
+   {
+    "hex": "#f91880",
+    "count": 15
+   },
+   {
+    "hex": "#ffffff",
+    "count": 12
+   },
+   {
+    "hex": "#000000",
+    "count": 4
+   },
+   {
+    "hex": "#f06292",
+    "count": 4
+   }
+  ],
+  "backgroundsTotal": 4,
+  "textTotal": 7,
+  "bordersTotal": 2
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Geist Sans-80bfc511756c8a7a",
+    "count": 11,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "© Shadcn Labs 2026"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist Sans-80bfc511756c8a7a",
+    "count": 33,
+    "tags": [
+     "button",
+     "span",
+     "p"
+    ],
+    "samples": [
+     "all▼"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist Sans-80bfc511756c8a7a",
+    "count": 7,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "Toggle theme"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "family": "Geist Sans-80bfc511756c8a7a",
+    "count": 5,
+    "tags": [
+     "label"
+    ],
+    "samples": [
+     "Name"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "700",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Geist Sans-80bfc511756c8a7a",
+    "count": 22,
+    "tags": [
+     "span",
+     "a"
+    ],
+    "samples": [
+     "176"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist Sans-80bfc511756c8a7a",
+    "count": 25,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Tom Dörr"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "700",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Geist Sans-80bfc511756c8a7a",
+    "count": 10,
+    "tags": [
+     "span",
+     "a"
+    ],
+    "samples": [
+     "Tom Dörr"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist Sans-80bfc511756c8a7a",
+    "count": 143,
+    "tags": [
+     "h1",
+     "a",
+     "p",
+     "li",
+     "span"
+    ],
+    "samples": [
+     "Shadcn Labs"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "-1.6px",
+    "family": "Geist Sans-80bfc511756c8a7a",
+    "count": 8,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "~ ~ ~"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist Sans-80bfc511756c8a7a",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "React 19.3 Is Here"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist Sans-80bfc511756c8a7a",
+    "count": 15,
+    "tags": [
+     "p",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "Generates PDFs from React components usi"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "-0.4px",
+    "family": "Geist Sans-80bfc511756c8a7a",
+    "count": 16,
+    "tags": [
+     "h2",
+     "a"
+    ],
+    "samples": [
+     "Projects"
+    ]
+   }
+  ],
+  "totalSteps": 13,
+  "families": [
+   "Geist Sans-80bfc511756c8a7a"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 54
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 17
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 79
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 16
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 80
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 88
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 21
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 4
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 4
+   },
+   {
+    "value": "317px",
+    "px": 317.0,
+    "count": 2
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "672px",
+    "count": 20
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 1
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 4
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 5
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 46
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 10
+   },
+   {
+    "value": "9999px",
+    "px": 9999.0,
+    "count": 39
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 2
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.03) 0px 0px 2px 0px inset",
+    "count": 5
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.18) 0px 0px 1px 1px inset, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 2px 0px, rgb(239, 91, 142) 0px 0px 0px 1px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "50",
+    "count": 4
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 9,
+   "sizeBuckets": {
+    "sm": 3,
+    "md": 5,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "X",
+      "tag": "a",
+      "height": 28,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Toggle theme",
+      "tag": "button",
+      "height": 28,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "all▼",
+      "tag": "button",
+      "height": 28,
+      "width": 56,
+      "padding": "8px 8px 8px 10px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px none rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "General▼",
+      "tag": "button",
+      "height": 32,
+      "width": 640,
+      "padding": "8px 8px 8px 10px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "1px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 1.11
+     },
+     {
+      "text": "Send message",
+      "tag": "button",
+      "height": 32,
+      "width": 140,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.18) 0px 0px 1px 1px inset, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 2px 0px, rgb(239, 91, 142) 0px 0px 0px 1px",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 21
+     },
+     {
+      "text": "Show 2 more videos",
+      "tag": "button",
+      "height": 32,
+      "width": 155,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(235, 234, 228)",
+      "color": "rgb(17, 17, 17)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 15.67
+     },
+     {
+      "text": "Copy link",
+      "tag": "button",
+      "height": 32,
+      "width": 96,
+      "padding": "0px",
+      "margin": "0px 20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px none oklch(0.556 0 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "View video on X",
+      "tag": "button",
+      "height": 67,
+      "width": 67,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(17, 17, 17)",
+      "color": "rgb(17, 17, 17)",
+      "border": "4px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 19,
+   "sizeBuckets": {
+    "sm": 11,
+    "xl": 4,
+    "md": 4
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Shadcn Labs",
+      "tag": "a",
+      "height": 16,
+      "width": 148,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "X",
+      "tag": "a",
+      "height": 28,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "home",
+      "tag": "a",
+      "height": 24,
+      "width": 41,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "about",
+      "tag": "a",
+      "height": 24,
+      "width": 43,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Next.js WeeklyReact 19.3 Is He",
+      "tag": "a",
+      "height": 126,
+      "width": 640,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "1px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 725,
+      "width": 604,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 317,
+      "width": 604,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ],
+    "md": [
+     {
+      "text": "Twitter for Websites, Ads Info",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px -4px 0px 415.359px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "176",
+      "tag": "a",
+      "height": 32,
+      "width": 56,
+      "padding": "0px",
+      "margin": "0px 20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Read 1 reply",
+      "tag": "a",
+      "height": 32,
+      "width": 606,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 111, 214)",
+      "border": "1px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s",
+      "gap": "normal",
+      "contrast": 4.24
+     },
+     {
+      "text": "Watch on X",
+      "tag": "a",
+      "height": 32,
+      "width": 112,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(15, 20, 25, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s",
+      "gap": "normal",
+      "contrast": 18.51
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 2,
+   "sizeBuckets": {
+    "md": 1,
+    "xl": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 32,
+      "width": 640,
+      "padding": "4px 10px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "1px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "textarea",
+      "height": 144,
+      "width": 640,
+      "padding": "8px 10px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "1px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 5
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Tom Dörr@tom_doerr·FollowGener",
+      "tag": "article",
+      "height": 1034,
+      "width": 638,
+      "padding": "12px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "OrcDev@orcdev·FollowGenerating",
+      "tag": "article",
+      "height": 625,
+      "width": 638,
+      "padding": "12px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "AI Tech Diggest@TheTechDiggest",
+      "tag": "article",
+      "height": 745,
+      "width": 638,
+      "padding": "12px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Human Coders@humancoders·Follo",
+      "tag": "article",
+      "height": 626,
+      "width": 638,
+      "padding": "12px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "astro-island,astro-slot,astro-",
+      "tag": "header",
+      "height": 201,
+      "width": 672,
+      "padding": "40px 16px 0px",
+      "margin": "0px 384px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ],
+    "md": [
+     {
+      "text": "homeaboutcontactpressToggle th",
+      "tag": "nav",
+      "height": 29,
+      "width": 640,
+      "padding": "0px",
+      "margin": "24px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Shadcn Labs",
+      "tag": "h1",
+      "height": 16,
+      "width": 148,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Projects",
+      "tag": "h2",
+      "height": 28,
+      "width": 76,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.4px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 12,
+   "sizeBuckets": {
+    "sm": 5,
+    "md": 1,
+    "xl": 6
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Pushing the limits of the shad",
+      "tag": "p",
+      "height": 24,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px 0px 4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(240, 98, 146)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.87
+     },
+     {
+      "text": "© Shadcn Labs 2026",
+      "tag": "p",
+      "height": 16,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "shadcn/ui registry template wi",
+      "tag": "p",
+      "height": 20,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Want to sponsor? See stats and",
+      "tag": "p",
+      "height": 24,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Want to contribute? Browse ope",
+      "tag": "p",
+      "height": 36,
+      "width": 640,
+      "padding": "12px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Sponsor the entire ecosystem a",
+      "tag": "p",
+      "height": 48,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "We’re an independent org explo",
+      "tag": "p",
+      "height": 96,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Generates PDFs from React comp",
+      "tag": "p",
+      "height": 96,
+      "width": 606,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Generating PDFs in React used ",
+      "tag": "p",
+      "height": 72,
+      "width": 606,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 6,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 5
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": ".st0{fill:#FF4500;}\n  \t.st1{fi",
+      "tag": "ul",
+      "height": 28,
+      "width": 646,
+      "padding": "0px",
+      "margin": "0px 0px 0px -6px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.11
+     }
+    ],
+    "xl": [
+     {
+      "text": "startercnshadcn/ui registry te",
+      "tag": "ul",
+      "height": 884,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Aniket PawarFounder and CEO (C",
+      "tag": "ul",
+      "height": 492,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Show 2 more videosvar e=docume",
+      "tag": "ul",
+      "height": 1896,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Next.js WeeklyReact 19.3 Is He",
+      "tag": "ul",
+      "height": 402,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "tooltip": {
+   "label": "提示",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Enter",
+      "tag": "kbd",
+      "height": 20,
+      "width": 55,
+      "padding": "0px 4px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(235, 234, 228)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 10,
+   "sizeBuckets": {
+    "sm": 7,
+    "md": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Shadcn Labs",
+      "tag": "div",
+      "height": 24,
+      "width": 640,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "X",
+      "tag": "a",
+      "height": 28,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Toggle theme",
+      "tag": "button",
+      "height": 28,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "all▼",
+      "tag": "button",
+      "height": 28,
+      "width": 56,
+      "padding": "8px 8px 8px 10px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px none rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "General▼",
+      "tag": "button",
+      "height": 32,
+      "width": 640,
+      "padding": "8px 8px 8px 10px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "1px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 1.11
+     },
+     {
+      "text": "Send message",
+      "tag": "button",
+      "height": 32,
+      "width": 140,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.18) 0px 0px 1px 1px inset, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 2px 0px, rgb(239, 91, 142) 0px 0px 0px 1px",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 21
+     },
+     {
+      "text": "Show 2 more videos",
+      "tag": "button",
+      "height": 32,
+      "width": 155,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(235, 234, 228)",
+      "color": "rgb(17, 17, 17)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 15.67
+     }
+    ]
+   }
+  },
+  "avatar": {
+   "label": "头像",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 15,
+   "sizeBuckets": {
+    "sm": 11,
+    "md": 4
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 148,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "▼",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Send message",
+      "tag": "button",
+      "height": 32,
+      "width": 140,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.18) 0px 0px 1px 1px inset, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 2px 0px, rgb(239, 91, 142) 0px 0px 0px 1px",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 21
+     },
+     {
+      "text": "Show 2 more videos",
+      "tag": "button",
+      "height": 32,
+      "width": 155,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(235, 234, 228)",
+      "color": "rgb(17, 17, 17)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 15.67
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px 0px 0px -4px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 34,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px 0px 0px 3px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "divider": {
+   "label": "分割线",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "·",
+      "tag": "span",
+      "height": 20,
+      "width": 11,
+      "padding": "0px 4px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px solid rgb(229, 229, 229)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Sans-80bfc511756c8a7a",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 201,
+   "heading": "Shadcn Labs",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "40px 16px 0px",
+   "children": 2
+  },
+  {
+   "tag": "main",
+   "height": 1204,
+   "heading": "Projects",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 4
+  },
+  {
+   "tag": "section",
+   "height": 960,
+   "heading": "Projects",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 16px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 124,
+   "heading": "Sponsor us",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 16px",
+   "children": 3
+  },
+  {
+   "tag": "footer",
+   "height": 533,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 17.15,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 32
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 14
+   },
+   {
+    "value": "0.18s",
+    "count": 2
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 14
+   },
+   {
+    "value": "ease",
+    "count": 2
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 3
+   },
+   {
+    "value": "background-color",
+    "count": 3
+   },
+   {
+    "value": "border-color",
+    "count": 3
+   },
+   {
+    "value": "outline-color",
+    "count": 3
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 3
+   },
+   {
+    "value": "fill",
+    "count": 3
+   },
+   {
+    "value": "stroke",
+    "count": 3
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 3
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 3
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 3
+   }
+  ]
+ }
+}

@@ -1,0 +1,971 @@
+{
+ "id": "t072",
+ "overview": {
+  "name": "Jessy In's Gallery",
+  "url": "https://gallery.jessyin.world/",
+  "section": "设计画廊",
+  "pagesScanned": [
+   "https://gallery.jessyin.world/",
+   "https://gallery.jessyin.world/explore",
+   "https://gallery.jessyin.world/privacy",
+   "https://gallery.jessyin.world/terms"
+  ],
+  "subpages": [
+   "/explore",
+   "/privacy",
+   "/terms"
+  ],
+  "sectionCount": 2,
+  "componentSamples": 22,
+  "typeSteps": 9
+ },
+ "colors": {
+  "roles": {
+   "muted": {
+    "hex": "#999999",
+    "value": "#999999",
+    "token": "--dim",
+    "source": "css-var",
+    "contrastOnBg": 2.85
+   },
+   "foreground": {
+    "hex": "#1a1a1a",
+    "value": "#1a1a1a",
+    "token": "--fg",
+    "source": "css-var",
+    "contrastOnBg": 17.4
+   },
+   "primary": {
+    "hex": "#e8543e",
+    "value": "#e8543e",
+    "token": "--accent",
+    "source": "css-var",
+    "contrastOnBg": 3.64
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 4
+   },
+   {
+    "hex": "#4ade80",
+    "count": 4
+   },
+   {
+    "hex": "#f5f3ee",
+    "count": 2
+   },
+   {
+    "hex": "#1a1a1a",
+    "count": 63
+   },
+   {
+    "hex": "#999999",
+    "count": 23
+   },
+   {
+    "hex": "#555555",
+    "count": 19
+   },
+   {
+    "hex": "#333333",
+    "count": 19
+   },
+   {
+    "hex": "#bbbbbb",
+    "count": 4
+   },
+   {
+    "hex": "#000000",
+    "count": 4
+   },
+   {
+    "hex": "#666666",
+    "count": 2
+   }
+  ],
+  "backgroundsTotal": 4,
+  "textTotal": 7,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Privacy"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "0.2496px",
+    "family": "Inter",
+    "count": 10,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "uncovered"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "0.2496px",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "gallery"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "a",
+     "p"
+    ],
+    "samples": [
+     "← Back to gallery"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "10,258"
+    ]
+   },
+   {
+    "size": "14.5px",
+    "px": 14.5,
+    "weight": "300",
+    "lineHeight": "24.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 15,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "gallery.jessyin.world is a personal art "
+    ]
+   },
+   {
+    "size": "14.5px",
+    "px": 14.5,
+    "weight": "400",
+    "lineHeight": "24.5px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "Chat and presence."
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "27px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 13,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "What this site is"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "500",
+    "lineHeight": "41px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "Privacy Policy"
+    ]
+   }
+  ],
+  "totalSteps": 13,
+  "families": [
+   "General Sans",
+   "Inter"
+  ],
+  "weights": [
+   "300",
+   "400",
+   "500"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 32
+   },
+   {
+    "value": "5.5px",
+    "px": 5.5,
+    "count": 8
+   },
+   {
+    "value": "6.5px",
+    "px": 6.5,
+    "count": 1
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 15
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 24
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 17
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 5
+   },
+   {
+    "value": "30px",
+    "px": 30.0,
+    "count": 4
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 18
+   },
+   {
+    "value": "41px",
+    "px": 41.0,
+    "count": 8
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 5
+   },
+   {
+    "value": "50px",
+    "px": 50.0,
+    "count": 3
+   },
+   {
+    "value": "52px",
+    "px": 52.0,
+    "count": 1
+   },
+   {
+    "value": "60px",
+    "px": 60.0,
+    "count": 4
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 1
+   },
+   {
+    "value": "80px",
+    "px": 80.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "600px",
+    "count": 2
+   },
+   {
+    "value": "1400px",
+    "count": 1
+   },
+   {
+    "value": "480px",
+    "count": 1
+   },
+   {
+    "value": "900px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 1
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 12
+   },
+   {
+    "value": "50%",
+    "px": 50,
+    "count": 5
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "500",
+    "count": 4
+   }
+  ]
+ },
+ "components": {
+  "link": {
+   "label": "链接",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 4
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "gallery",
+      "tag": "a",
+      "height": 23,
+      "width": 60,
+      "padding": "4px 8.8px",
+      "margin": "0px",
+      "radius": "14px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 26, 26)",
+      "border": "0px none rgb(26, 26, 26)",
+      "fontSize": "12.48px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.2496px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s, background 0.15s",
+      "gap": "normal",
+      "contrast": 1.21
+     },
+     {
+      "text": "uncovered",
+      "tag": "a",
+      "height": 23,
+      "width": 82,
+      "padding": "4px 8.8px",
+      "margin": "0px",
+      "radius": "14px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(153, 153, 153)",
+      "border": "0px none rgb(153, 153, 153)",
+      "fontSize": "12.48px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.2496px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s, background 0.15s",
+      "gap": "normal",
+      "contrast": 7.37
+     },
+     {
+      "text": "Privacy",
+      "tag": "a",
+      "height": 14,
+      "width": 39,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(187, 187, 187)",
+      "border": "0px none rgb(187, 187, 187)",
+      "fontSize": "11.2px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.94
+     },
+     {
+      "text": "← Back to gallery",
+      "tag": "a",
+      "height": 22,
+      "width": 105,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(153, 153, 153)",
+      "border": "0px none rgb(153, 153, 153)",
+      "fontSize": "12.8px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "21.76px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.37
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "galleryuncovered4 people viewi",
+      "tag": "nav",
+      "height": 52,
+      "width": 1440,
+      "padding": "0px 41px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(255, 255, 255, 0.7)",
+      "color": "rgb(26, 26, 26)",
+      "border": "0px none rgb(26, 26, 26)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 17.4
+     },
+     {
+      "text": "archive exploredeach dot is a ",
+      "tag": "header",
+      "height": 86,
+      "width": 1300,
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 26, 26)",
+      "border": "0px none rgb(26, 26, 26)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.21
+     }
+    ],
+    "sm": [
+     {
+      "text": "gallery",
+      "tag": "a",
+      "height": 23,
+      "width": 60,
+      "padding": "4px 8.8px",
+      "margin": "0px",
+      "radius": "14px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 26, 26)",
+      "border": "0px none rgb(26, 26, 26)",
+      "fontSize": "12.48px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.2496px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s, background 0.15s",
+      "gap": "normal",
+      "contrast": 1.21
+     },
+     {
+      "text": "uncovered",
+      "tag": "a",
+      "height": 23,
+      "width": 82,
+      "padding": "4px 8.8px",
+      "margin": "0px",
+      "radius": "14px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(153, 153, 153)",
+      "border": "0px none rgb(153, 153, 153)",
+      "fontSize": "12.48px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "0.2496px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s, background 0.15s",
+      "gap": "normal",
+      "contrast": 7.37
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Come for a stroll through the ",
+      "tag": "p",
+      "height": 77,
+      "width": 1440,
+      "padding": "52px 0px 0px 50px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 26, 26)",
+      "border": "0px none rgb(26, 26, 26)",
+      "fontSize": "18.4px",
+      "fontWeight": "500",
+      "fontFamily": "General Sans",
+      "lineHeight": "normal",
+      "letterSpacing": "0.184px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.21
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 3,
+   "sizeBuckets": {
+    "lg": 2,
+    "sm": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "archive explored",
+      "tag": "h1",
+      "height": 39,
+      "width": 1300,
+      "padding": "0px",
+      "margin": "0px 0px 6.4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 26, 26)",
+      "border": "0px none rgb(26, 26, 26)",
+      "fontSize": "28.8px",
+      "fontWeight": "500",
+      "fontFamily": "General Sans",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.21
+     },
+     {
+      "text": "Privacy Policy",
+      "tag": "h1",
+      "height": 41,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "border": "0px none rgb(51, 51, 51)",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "40.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.66
+     }
+    ],
+    "sm": [
+     {
+      "text": "What this site is",
+      "tag": "h2",
+      "height": 27,
+      "width": 600,
+      "padding": "0px",
+      "margin": "32px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "border": "0px none rgb(51, 51, 51)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "27.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.66
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 10,
+   "sizeBuckets": {
+    "xl": 5,
+    "lg": 1,
+    "sm": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Come for a stroll through the ",
+      "tag": "p",
+      "height": 77,
+      "width": 1440,
+      "padding": "52px 0px 0px 50px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 26, 26)",
+      "border": "0px none rgb(26, 26, 26)",
+      "fontSize": "18.4px",
+      "fontWeight": "500",
+      "fontFamily": "General Sans",
+      "lineHeight": "normal",
+      "letterSpacing": "0.184px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.21
+     },
+     {
+      "text": "gallery.jessyin.world is a per",
+      "tag": "p",
+      "height": 73,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px none rgb(85, 85, 85)",
+      "fontSize": "14.4px",
+      "fontWeight": "300",
+      "fontFamily": "Inter",
+      "lineHeight": "24.48px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     },
+     {
+      "text": "Chat and presence.When you vis",
+      "tag": "p",
+      "height": 122,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px none rgb(85, 85, 85)",
+      "fontSize": "14.4px",
+      "fontWeight": "300",
+      "fontFamily": "Inter",
+      "lineHeight": "24.48px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     },
+     {
+      "text": "AI descriptions. When you view",
+      "tag": "p",
+      "height": 98,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px none rgb(85, 85, 85)",
+      "fontSize": "14.4px",
+      "fontWeight": "300",
+      "fontFamily": "Inter",
+      "lineHeight": "24.48px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     }
+    ],
+    "lg": [
+     {
+      "text": "each dot is a work we've explo",
+      "tag": "p",
+      "height": 41,
+      "width": 480,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(102, 102, 102)",
+      "border": "0px none rgb(102, 102, 102)",
+      "fontSize": "13.6px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.66
+     }
+    ],
+    "sm": [
+     {
+      "text": "10,258 works explored out of 5",
+      "tag": "p",
+      "height": 16,
+      "width": 1300,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(102, 102, 102)",
+      "border": "0px none rgb(102, 102, 102)",
+      "fontSize": "13.6px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.66
+     },
+     {
+      "text": "drag to rotate, pinch to zoom",
+      "tag": "p",
+      "height": 14,
+      "width": 153,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(153, 153, 153)",
+      "border": "0px none rgb(153, 153, 153)",
+      "fontSize": "11.2px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.37
+     },
+     {
+      "text": "Last updated: April 2026",
+      "tag": "p",
+      "height": 22,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(153, 153, 153)",
+      "border": "0px none rgb(153, 153, 153)",
+      "fontSize": "12.8px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "21.76px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.37
+     },
+     {
+      "text": "Very little. Here is the full ",
+      "tag": "p",
+      "height": 24,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px none rgb(85, 85, 85)",
+      "fontSize": "14.4px",
+      "fontWeight": "300",
+      "fontFamily": "Inter",
+      "lineHeight": "24.48px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "nav",
+   "height": 52,
+   "heading": null,
+   "background": "rgba(255, 255, 255, 0.7)",
+   "padding": "0px 41px",
+   "children": 4
+  },
+  {
+   "tag": "footer",
+   "height": 94,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "32px 0px 48px",
+   "children": 3
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 17.4,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 14,
+  "tapTargetMedian": 23
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.2s",
+    "count": 35
+   },
+   {
+    "value": "0.15s",
+    "count": 6
+   },
+   {
+    "value": "0.1s",
+    "count": 4
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 6
+   }
+  ],
+  "properties": [
+   {
+    "value": "opacity",
+    "count": 35
+   },
+   {
+    "value": "background",
+    "count": 7
+   },
+   {
+    "value": "color",
+    "count": 3
+   }
+  ]
+ }
+}

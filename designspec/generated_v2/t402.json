@@ -1,0 +1,243 @@
+{
+ "id": "t402",
+ "overview": {
+  "name": "UX Collective",
+  "url": "https://uxdesign.cc/",
+  "section": "阅读",
+  "pagesScanned": [
+   "https://uxdesign.cc/"
+  ],
+  "subpages": [],
+  "sectionCount": 0,
+  "componentSamples": 4,
+  "typeSteps": 1
+ },
+ "colors": {
+  "roles": {
+   "foreground": {
+    "hex": "#313131",
+    "value": "#313131",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 1.38
+   },
+   "background": {
+    "hex": "#0000ee",
+    "value": null,
+    "token": null,
+    "source": "inferred",
+    "fallback": "色板最亮色"
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#313131",
+    "count": 20
+   },
+   {
+    "hex": "#0000ee",
+    "count": 2
+   }
+  ],
+  "backgroundsTotal": 0,
+  "textTotal": 2,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 4,
+    "tags": [
+     "span",
+     "a"
+    ],
+    "samples": [
+     "Performance and Security by Cloudflare"
+    ]
+   }
+  ],
+  "totalSteps": 4,
+  "families": [
+   "system-ui"
+  ],
+  "weights": [
+   "400",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 4
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 4
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 5
+   },
+   {
+    "value": "128px",
+    "px": 128.0,
+    "count": 2
+   }
+  ],
+  "inferredBaseUnit": 8,
+  "containerWidths": [
+   {
+    "value": "960px",
+    "count": 2
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [],
+  "shadows": [],
+  "zIndex": []
+ },
+ "components": {
+  "link": {
+   "label": "链接",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Cloudflare",
+      "tag": "a",
+      "height": 18,
+      "width": 58,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px none rgb(0, 0, 238)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.23
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "uxdesign.cc",
+      "tag": "h1",
+      "height": 50,
+      "width": 216,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(49, 49, 49)",
+      "border": "0px none rgb(49, 49, 49)",
+      "fontSize": "40px",
+      "fontWeight": "600",
+      "fontFamily": "system-ui",
+      "lineHeight": "50px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.61
+     }
+    ],
+    "md": [
+     {
+      "text": "Performing security verificati",
+      "tag": "h2",
+      "height": 30,
+      "width": 896,
+      "padding": "0px",
+      "margin": "8px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(49, 49, 49)",
+      "border": "0px none rgb(49, 49, 49)",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "system-ui",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.61
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "This website uses a security s",
+      "tag": "p",
+      "height": 48,
+      "width": 896,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(49, 49, 49)",
+      "border": "0px none rgb(49, 49, 49)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.61
+     }
+    ]
+   }
+  }
+ },
+ "sections": [],
+ "accessibility": {
+  "bodyContrast": 13.01,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 18,
+  "tapTargetMedian": 18
+ }
+}

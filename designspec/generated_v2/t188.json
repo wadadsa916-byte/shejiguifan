@@ -1,0 +1,4132 @@
+{
+ "id": "t188",
+ "overview": {
+  "name": "Claude Code",
+  "url": "https://claude.com/claude-code",
+  "section": "开发环境",
+  "pagesScanned": [
+   "https://claude.com/claude-code",
+   "https://claude.com/claude-code/pricing",
+   "https://claude.com/claude-code/blog/projects-redesigned",
+   "https://claude.com/claude-code/customers"
+  ],
+  "subpages": [
+   "/pricing",
+   "/blog/projects-redesigned",
+   "/customers"
+  ],
+  "sectionCount": 19,
+  "componentSamples": 280,
+  "typeSteps": 25
+ },
+ "colors": {
+  "roles": {
+   "hover": {
+    "hex": "#c6613f",
+    "value": "#c6613f",
+    "token": "--color-clay-hover",
+    "source": "css-var",
+    "contrastOnBg": 4.05
+   },
+   "foreground": {
+    "hex": "#141413",
+    "value": "#141413",
+    "token": "--theme-brand-ink",
+    "source": "css-var",
+    "contrastOnBg": 18.43
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--theme-input-bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "focus": {
+    "hex": "#c46849",
+    "value": "#c46849",
+    "token": "--color-focus",
+    "source": "css-var",
+    "contrastOnBg": 3.87
+   },
+   "danger": {
+    "hex": "#bf4d43",
+    "value": "#bf4d43",
+    "token": "--color-error",
+    "source": "css-var",
+    "contrastOnBg": 4.82
+   },
+   "primary": {
+    "hex": "#2c84db",
+    "value": "#2c84db",
+    "token": "--color-switch-on",
+    "source": "palette",
+    "contrastOnBg": 3.87
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#faf9f5",
+    "count": 27
+   },
+   {
+    "hex": "#ffffff",
+    "count": 16
+   },
+   {
+    "hex": "#141413",
+    "count": 14
+   },
+   {
+    "hex": "#f5f4ed",
+    "count": 10
+   },
+   {
+    "hex": "#e8e6dc",
+    "count": 7
+   },
+   {
+    "hex": "#d4d4d4",
+    "count": 3
+   },
+   {
+    "hex": "#87867f",
+    "count": 3
+   },
+   {
+    "hex": "#f0f0f0",
+    "count": 2
+   },
+   {
+    "hex": "#f0eee6",
+    "count": 2
+   },
+   {
+    "hex": "#1a1918",
+    "count": 2
+   }
+  ],
+  "backgroundsTotal": 20,
+  "textTotal": 21,
+  "bordersTotal": 7
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 6,
+    "tags": [
+     "span",
+     "button"
+    ],
+    "samples": [
+     "Auto"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "0.12px",
+    "family": "anthropicSans",
+    "count": 136,
+    "tags": [
+     "li",
+     "span",
+     "p",
+     "a",
+     "h2",
+     "button"
+    ],
+    "samples": [
+     "Claude Code"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "12px",
+    "letterSpacing": "0.12px",
+    "family": "anthropicSans",
+    "count": 12,
+    "tags": [
+     "button",
+     "a"
+    ],
+    "samples": [
+     "Individual"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "anthropicMono",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "curl -fsSL https://claude.ai/install.sh "
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 4,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "POST /charges"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "13px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 11,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "New"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 8,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Add a dark mode toggle to settings"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 7,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "Add a dark mode toggle to settings"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 16,
+    "tags": [
+     "span",
+     "p",
+     "button"
+    ],
+    "samples": [
+     "/"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 2,
+    "tags": [
+     "span",
+     "strong"
+    ],
+    "samples": [
+     "acme-storefront"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 132,
+    "tags": [
+     "a",
+     "button",
+     "li",
+     "h3"
+    ],
+    "samples": [
+     "Skip to main content"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 29,
+    "tags": [
+     "button",
+     "span",
+     "a",
+     "p"
+    ],
+    "samples": [
+     "Product"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 8,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "How do I get started with Claude?"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "500",
+    "lineHeight": "15px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Contact sales"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "400",
+    "lineHeight": "27px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 28,
+    "tags": [
+     "p",
+     "a",
+     "li"
+    ],
+    "samples": [
+     "You can access Claude Code with a Claude"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 9,
+    "tags": [
+     "a",
+     "button"
+    ],
+    "samples": [
+     "Download for macOS"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "anthropicMono",
+    "count": 8,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "curl -fsSL https://claude.ai/install.sh "
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "500",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Talk to Claude"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "700",
+    "lineHeight": "27px",
+    "letterSpacing": "normal",
+    "family": "anthropicSerif",
+    "count": 4,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "Projects:"
+    ]
+   },
+   {
+    "size": "19px",
+    "px": 19.0,
+    "weight": "400",
+    "lineHeight": "24.5px",
+    "letterSpacing": "normal",
+    "family": "anthropicSerif",
+    "count": 3,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "Nothing to see here"
+    ]
+   },
+   {
+    "size": "19px",
+    "px": 19.0,
+    "weight": "500",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "anthropicSerif",
+    "count": 14,
+    "tags": [
+     "h3",
+     "span"
+    ],
+    "samples": [
+     "Code onboarding"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "400",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "anthropicSans",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "“With Claude, we're not just automating "
+    ]
+   },
+   {
+    "size": "25px",
+    "px": 25.0,
+    "weight": "500",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "family": "anthropicSerif",
+    "count": 4,
+    "tags": [
+     "h2",
+     "h3"
+    ],
+    "samples": [
+     "Latest feature announcements"
+    ]
+   },
+   {
+    "size": "32px",
+    "px": 32.0,
+    "weight": "500",
+    "lineHeight": "35px",
+    "letterSpacing": "normal",
+    "family": "anthropicSerif",
+    "count": 3,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Pro"
+    ]
+   },
+   {
+    "size": "52px",
+    "px": 52.0,
+    "weight": "500",
+    "lineHeight": "62.5px",
+    "letterSpacing": "normal",
+    "family": "anthropicSerif",
+    "count": 7,
+    "tags": [
+     "h2",
+     "span"
+    ],
+    "samples": [
+     "Get started with Claude Code"
+    ]
+   }
+  ],
+  "totalSteps": 32,
+  "families": [
+   "anthropicMono",
+   "anthropicSans",
+   "anthropicSerif"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 314
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 7
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 19
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 4
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 223
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 6
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 8
+   },
+   {
+    "value": "11px",
+    "px": 11.0,
+    "count": 1
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 62
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 3
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 134
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 1
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 1
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 60
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 1
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 118
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1440px",
+    "count": 15
+   },
+   {
+    "value": "1012.42px",
+    "count": 4
+   },
+   {
+    "value": "543.59px",
+    "count": 4
+   },
+   {
+    "value": "960px",
+    "count": 3
+   },
+   {
+    "value": "634.188px",
+    "count": 3
+   },
+   {
+    "value": "728px",
+    "count": 2
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 1
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 2
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 30
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 1
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 25
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 2
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 21
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 1
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 7
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 11
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgb(20, 20, 19) 0px 0px 0px 0px",
+    "count": 9
+   },
+   {
+    "value": "rgb(245, 244, 237) 0px 0px 0px 0px, rgb(232, 230, 220) 0px 0px 0px 1px",
+    "count": 8
+   },
+   {
+    "value": "rgb(232, 230, 220) 0px 0px 0px 0px, rgb(209, 207, 197) 0px 0px 0px 1px",
+    "count": 7
+   },
+   {
+    "value": "rgb(250, 249, 245) 0px 0px 0px 0px, rgb(209, 207, 197) 0px 0px 0px 1px",
+    "count": 5
+   },
+   {
+    "value": "rgb(250, 249, 245) 0px 0px 0px 0px",
+    "count": 2
+   },
+   {
+    "value": "rgba(10, 10, 10, 0.04) 0px 0px 0px 1px, rgba(0, 0, 0, 0.024) 0px 8px 24px 0px, rgba(0, 0, 0, 0.04) 0px 32px 80px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(10, 10, 10, 0.1) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(10, 10, 10, 0.1) 0px -0.5px 0px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 2
+   },
+   {
+    "value": "9999",
+    "count": 1
+   },
+   {
+    "value": "100",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 48,
+   "sizeBuckets": {
+    "lg": 13,
+    "md": 4,
+    "sm": 29,
+    "xl": 2
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Product",
+      "tag": "button",
+      "height": 40,
+      "width": 97,
+      "padding": "8px 8px 8px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 48, 46)",
+      "border": "0px none rgb(48, 48, 46)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.5s cubic-bezier(0.19, 1, 0.22, 1)",
+      "gap": "4px",
+      "contrast": 1.59
+     },
+     {
+      "text": "Download for macOS",
+      "tag": "a",
+      "height": 40,
+      "width": 421,
+      "padding": "8px 24px 8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(20, 20, 19)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px none rgb(250, 249, 245)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "17px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(20, 20, 19) 0px 0px 0px 0px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 17.5
+     },
+     {
+      "text": "Read documentation (opens in n",
+      "tag": "a",
+      "height": 40,
+      "width": 421,
+      "padding": "8px 16px 8px 24px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(232, 230, 220)",
+      "color": "rgb(77, 76, 72)",
+      "border": "0px none rgb(77, 76, 72)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "17px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(232, 230, 220) 0px 0px 0px 0px, rgb(209, 207, 197) 0px 0px 0px 1px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 6.87
+     },
+     {
+      "text": "Individual",
+      "tag": "button",
+      "height": 40,
+      "width": 108,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px none rgb(20, 20, 19)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "12px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "4px",
+      "contrast": 1.14
+     }
+    ],
+    "md": [
+     {
+      "text": "Contact salesTry Claude",
+      "tag": "div",
+      "height": 36,
+      "width": 250,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Contact sales",
+      "tag": "a",
+      "height": 36,
+      "width": 130,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(250, 249, 245)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px none rgb(94, 93, 89)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(250, 249, 245) 0px 0px 0px 0px, rgb(209, 207, 197) 0px 0px 0px 1px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 6.26
+     },
+     {
+      "text": "Try Claude",
+      "tag": "a",
+      "height": 36,
+      "width": 108,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(20, 20, 19)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px none rgb(250, 249, 245)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(20, 20, 19) 0px 0px 0px 0px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 17.5
+     },
+     {
+      "text": "View changelog (opens in new t",
+      "tag": "a",
+      "height": 36,
+      "width": 464,
+      "padding": "8px 12px 8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(232, 230, 220)",
+      "color": "rgb(77, 76, 72)",
+      "border": "0px none rgb(77, 76, 72)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(232, 230, 220) 0px 0px 0px 0px, rgb(209, 207, 197) 0px 0px 0px 1px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 6.87
+     }
+    ],
+    "sm": [
+     {
+      "text": "Explore here",
+      "tag": "button",
+      "height": 19,
+      "width": 94,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px none rgb(94, 93, 89)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.5s cubic-bezier(0.19, 1, 0.22, 1)",
+      "gap": "4px",
+      "contrast": 3.19
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px solid rgb(250, 249, 245)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "17px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.93
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(77, 76, 72)",
+      "border": "0px solid rgb(77, 76, 72)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "17px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.44
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 24,
+      "width": 72,
+      "padding": "0px",
+      "margin": "0px 0px 0px 76px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(11, 11, 11)",
+      "border": "0px solid rgb(11, 11, 11)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.07
+     }
+    ],
+    "xl": [
+     {
+      "text": "How do I get started with Clau",
+      "tag": "button",
+      "height": 88,
+      "width": 660,
+      "padding": "32px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px none rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "17.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.14
+     },
+     {
+      "text": "English",
+      "tag": "button",
+      "height": 46,
+      "width": 128,
+      "padding": "12px 16px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(20, 20, 19)",
+      "color": "rgb(176, 174, 165)",
+      "border": "1px solid rgb(48, 48, 46)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.3s",
+      "gap": "6px",
+      "contrast": 8.29
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 26,
+   "sizeBuckets": {
+    "lg": 7,
+    "sm": 10,
+    "md": 3,
+    "xl": 6
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Skip to main content",
+      "tag": "a",
+      "height": 43,
+      "width": 180,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(250, 249, 245)",
+      "color": "rgb(20, 20, 19)",
+      "border": "2px solid rgb(196, 104, 73)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 17.5
+     },
+     {
+      "text": "Login",
+      "tag": "a",
+      "height": 40,
+      "width": 58,
+      "padding": "8px 8px 8px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 48, 46)",
+      "border": "0px solid rgb(48, 48, 46)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.5s cubic-bezier(0.19, 1, 0.22, 1)",
+      "gap": "4px",
+      "contrast": 1.59
+     },
+     {
+      "text": "Download for macOS",
+      "tag": "a",
+      "height": 40,
+      "width": 421,
+      "padding": "8px 24px 8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(20, 20, 19)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px none rgb(250, 249, 245)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "17px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(20, 20, 19) 0px 0px 0px 0px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 17.5
+     },
+     {
+      "text": "Read documentation (opens in n",
+      "tag": "a",
+      "height": 40,
+      "width": 421,
+      "padding": "8px 16px 8px 24px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(232, 230, 220)",
+      "color": "rgb(77, 76, 72)",
+      "border": "0px none rgb(77, 76, 72)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "17px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(232, 230, 220) 0px 0px 0px 0px, rgb(209, 207, 197) 0px 0px 0px 1px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 6.87
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 26,
+      "width": 120,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Usage limits apply",
+      "tag": "a",
+      "height": 15,
+      "width": 103,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px solid rgb(94, 93, 89)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.19
+     },
+     {
+      "text": "documentation",
+      "tag": "a",
+      "height": 19,
+      "width": 108,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px solid rgb(94, 93, 89)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.19
+     },
+     {
+      "text": "VS Code (opens in new tab)",
+      "tag": "a",
+      "height": 28,
+      "width": 73,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(232, 230, 220)",
+      "color": "rgb(77, 76, 72)",
+      "border": "0px none rgb(77, 76, 72)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "12px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "rgb(232, 230, 220) 0px 0px 0px 0px, rgb(209, 207, 197) 0px 0px 0px 1px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "4px",
+      "contrast": 6.87
+     }
+    ],
+    "md": [
+     {
+      "text": "Contact sales",
+      "tag": "a",
+      "height": 36,
+      "width": 130,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(250, 249, 245)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px none rgb(94, 93, 89)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(250, 249, 245) 0px 0px 0px 0px, rgb(209, 207, 197) 0px 0px 0px 1px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 6.26
+     },
+     {
+      "text": "Try Claude",
+      "tag": "a",
+      "height": 36,
+      "width": 108,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(20, 20, 19)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px none rgb(250, 249, 245)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(20, 20, 19) 0px 0px 0px 0px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 17.5
+     },
+     {
+      "text": "View changelog (opens in new t",
+      "tag": "a",
+      "height": 36,
+      "width": 464,
+      "padding": "8px 12px 8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(232, 230, 220)",
+      "color": "rgb(77, 76, 72)",
+      "border": "0px none rgb(77, 76, 72)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(232, 230, 220) 0px 0px 0px 0px, rgb(209, 207, 197) 0px 0px 0px 1px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 6.87
+     }
+    ],
+    "xl": [
+     {
+      "text": "Terminal (opens in new tab)",
+      "tag": "a",
+      "height": 83,
+      "width": 88,
+      "padding": "16px 8px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(245, 244, 237)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(245, 244, 237) 0px 0px 0px 0px, rgb(232, 230, 220) 0px 0px 0px 1px",
+      "transition": "box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 16.72
+     },
+     {
+      "text": "Projects: Group related coding",
+      "tag": "a",
+      "height": 184,
+      "width": 464,
+      "padding": "32px",
+      "margin": "0px",
+      "radius": "16px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s, background-color 0.5s, box-shadow 0.5s",
+      "gap": "16px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Auto mode by default: Claude C",
+      "tag": "a",
+      "height": 211,
+      "width": 464,
+      "padding": "32px",
+      "margin": "0px",
+      "radius": "16px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s, background-color 0.5s, box-shadow 0.5s",
+      "gap": "16px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Claude desktop app",
+      "tag": "a",
+      "height": 48,
+      "width": 641,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 48, 46)",
+      "border": "0px solid rgb(48, 48, 46)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "27.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.59
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 3,
+   "sizeBuckets": {
+    "lg": 1,
+    "sm": 2
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Describe a task or ask a quest",
+      "tag": "textarea",
+      "height": 38,
+      "width": 455,
+      "padding": "9px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(11, 11, 11)",
+      "border": "0px none rgb(11, 11, 11)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.07
+     }
+    ],
+    "sm": [
+     {
+      "text": "Email address",
+      "tag": "input",
+      "height": 19,
+      "width": 402,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px none rgb(250, 249, 245)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.93
+     },
+     {
+      "text": "Ask Claude",
+      "tag": "textarea",
+      "height": 25,
+      "width": 222,
+      "padding": "4px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px none rgb(250, 249, 245)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "16.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.93
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 30,
+   "sizeBuckets": {
+    "xl": 21,
+    "sm": 7,
+    "md": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Terminal (opens in new tab)",
+      "tag": "a",
+      "height": 83,
+      "width": 88,
+      "padding": "16px 8px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(245, 244, 237)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(245, 244, 237) 0px 0px 0px 0px, rgb(232, 230, 220) 0px 0px 0px 1px",
+      "transition": "box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 16.72
+     },
+     {
+      "text": "ProClaude Code is included in ",
+      "tag": "div",
+      "height": 439,
+      "width": 381,
+      "padding": "32px",
+      "margin": "0px",
+      "radius": "24px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(20, 20, 19)",
+      "border": "1px solid rgb(240, 238, 230)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "24px",
+      "contrast": 18.43
+     },
+     {
+      "text": "ProClaude Code is included in ",
+      "tag": "div",
+      "height": 199,
+      "width": 315,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1.14
+     },
+     {
+      "text": "$17Per month with annual subsc",
+      "tag": "div",
+      "height": 145,
+      "width": 315,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "24px",
+      "contrast": 1.14
+     }
+    ],
+    "sm": [
+     {
+      "text": "Terminal",
+      "tag": "span",
+      "height": 19,
+      "width": 49,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px solid rgb(94, 93, 89)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.19
+     },
+     {
+      "text": "Read 3 files, searched the che",
+      "tag": "div",
+      "height": 21,
+      "width": 494,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(11, 11, 11)",
+      "border": "0px solid rgb(11, 11, 11)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.07
+     },
+     {
+      "text": "Read 3 files, searched the che",
+      "tag": "button",
+      "height": 21,
+      "width": 283,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(137, 135, 129)",
+      "border": "0px none rgb(137, 135, 129)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 5.85
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 12,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(154, 154, 154)",
+      "border": "0px solid rgb(154, 154, 154)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.46
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "picture",
+      "height": 36,
+      "width": 340,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Get the developer newsletter",
+      "tag": "h3",
+      "height": 30,
+      "width": 464,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px solid rgb(250, 249, 245)",
+      "fontSize": "25px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSerif",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.93
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 20,
+   "sizeBuckets": {
+    "xl": 7,
+    "sm": 8,
+    "lg": 2,
+    "md": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "ProductProductsClaudeClaude Co",
+      "tag": "header",
+      "height": 129,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(250, 249, 245)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 17.5
+     },
+     {
+      "text": "ProductProductsClaudeClaude Co",
+      "tag": "div",
+      "height": 84,
+      "width": 1312,
+      "padding": "0px",
+      "margin": "0px 64px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "ProductProductsClaudeClaude Co",
+      "tag": "div",
+      "height": 88,
+      "width": 859,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Claude CodeExplore hereAsk que",
+      "tag": "nav",
+      "height": 45,
+      "width": 1440,
+      "padding": "12px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 48, 46)",
+      "border": "1px solid rgb(232, 230, 220)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.59
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 26,
+      "width": 120,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px solid rgb(94, 93, 89)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.75s cubic-bezier(0.19, 1, 0.22, 1), color 0.5s cubic-bezier(0.19, 1, 0.22, 1)",
+      "gap": "normal",
+      "contrast": 3.19
+     },
+     {
+      "text": "Claude CodeExplore hereAsk que",
+      "tag": "div",
+      "height": 19,
+      "width": 1312,
+      "padding": "0px",
+      "margin": "0px 64px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 48, 46)",
+      "border": "0px solid rgb(48, 48, 46)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.59
+     },
+     {
+      "text": "New",
+      "tag": "button",
+      "height": 26,
+      "width": 243,
+      "padding": "0px 2px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 81, 78)",
+      "border": "0px none rgb(82, 81, 78)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "13px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 2.65
+     }
+    ],
+    "lg": [
+     {
+      "text": "Product",
+      "tag": "button",
+      "height": 40,
+      "width": 97,
+      "padding": "8px 8px 8px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 48, 46)",
+      "border": "0px none rgb(48, 48, 46)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.5s cubic-bezier(0.19, 1, 0.22, 1)",
+      "gap": "4px",
+      "contrast": 1.59
+     },
+     {
+      "text": "Login",
+      "tag": "a",
+      "height": 40,
+      "width": 58,
+      "padding": "8px 8px 8px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 48, 46)",
+      "border": "0px solid rgb(48, 48, 46)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.5s cubic-bezier(0.19, 1, 0.22, 1)",
+      "gap": "4px",
+      "contrast": 1.59
+     }
+    ],
+    "md": [
+     {
+      "text": "Contact salesTry Claude",
+      "tag": "div",
+      "height": 36,
+      "width": 250,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Contact sales",
+      "tag": "a",
+      "height": 36,
+      "width": 130,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(250, 249, 245)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px none rgb(94, 93, 89)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(250, 249, 245) 0px 0px 0px 0px, rgb(209, 207, 197) 0px 0px 0px 1px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 6.26
+     },
+     {
+      "text": "Try Claude",
+      "tag": "a",
+      "height": 36,
+      "width": 108,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(20, 20, 19)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px none rgb(250, 249, 245)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(20, 20, 19) 0px 0px 0px 0px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 17.5
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 5
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "New",
+      "tag": "span",
+      "height": 16,
+      "width": 30,
+      "padding": "0px 4px",
+      "margin": "0px 0px 0px 4px",
+      "radius": "4px",
+      "background": "rgb(205, 226, 251)",
+      "color": "rgb(24, 79, 149)",
+      "border": "0px solid rgb(24, 79, 149)",
+      "fontSize": "10px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.12
+     },
+     {
+      "text": "Auto",
+      "tag": "span",
+      "height": 24,
+      "width": 37,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 81, 78)",
+      "border": "0px solid rgb(82, 81, 78)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.65
+     },
+     {
+      "text": "Auto",
+      "tag": "button",
+      "height": 24,
+      "width": 37,
+      "padding": "4px 6px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 81, 78)",
+      "border": "0px none rgb(82, 81, 78)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.65
+     },
+     {
+      "text": "Extra high",
+      "tag": "span",
+      "height": 24,
+      "width": 64,
+      "padding": "4px 6px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(11, 11, 11)",
+      "border": "0px solid rgb(11, 11, 11)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.07
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 15,
+   "sizeBuckets": {
+    "xl": 8,
+    "md": 3,
+    "sm": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Claude Code",
+      "tag": "h1",
+      "height": 70,
+      "width": 386,
+      "padding": "0px",
+      "margin": "-32px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "64px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSerif",
+      "lineHeight": "70.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Get started with Claude Code",
+      "tag": "h2",
+      "height": 62,
+      "width": 714,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSerif",
+      "lineHeight": "62.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Latest feature announcements",
+      "tag": "h2",
+      "height": 60,
+      "width": 291,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "25px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSerif",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Projects: Group related coding",
+      "tag": "h3",
+      "height": 82,
+      "width": 398,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSerif",
+      "lineHeight": "27.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     }
+    ],
+    "md": [
+     {
+      "text": "Pro",
+      "tag": "h3",
+      "height": 35,
+      "width": 315,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "32px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSerif",
+      "lineHeight": "35.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Kick off coding tasks in Slack",
+      "tag": "h2",
+      "height": 30,
+      "width": 342,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "25px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSerif",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Get the developer newsletter",
+      "tag": "h3",
+      "height": 30,
+      "width": 464,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px solid rgb(250, 249, 245)",
+      "fontSize": "25px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSerif",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.93
+     }
+    ],
+    "sm": [
+     {
+      "text": "Code onboarding",
+      "tag": "h3",
+      "height": 23,
+      "width": 509,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "19px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSerif",
+      "lineHeight": "22.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Claude Code documentation",
+      "tag": "h3",
+      "height": 27,
+      "width": 238,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSerif",
+      "lineHeight": "27.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Products",
+      "tag": "h2",
+      "height": 19,
+      "width": 189,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(135, 134, 127)",
+      "border": "0px solid rgb(135, 134, 127)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.75
+     },
+     {
+      "text": "Nothing to see here",
+      "tag": "h1",
+      "height": 25,
+      "width": 317,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "19px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSerif",
+      "lineHeight": "24.7px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 22,
+   "sizeBuckets": {
+    "xl": 14,
+    "sm": 6,
+    "lg": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Hand Claude a bug fix, test, o",
+      "tag": "p",
+      "height": 104,
+      "width": 421,
+      "padding": "0px",
+      "margin": "-8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px solid rgb(94, 93, 89)",
+      "fontSize": "23px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "34.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.19
+     },
+     {
+      "text": "I can reproduce it: the checko",
+      "tag": "p",
+      "height": 63,
+      "width": 494,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 81, 78)",
+      "border": "0px solid rgb(82, 81, 78)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.65
+     },
+     {
+      "text": "Root cause: createCharge() gen",
+      "tag": "p",
+      "height": 84,
+      "width": 494,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 81, 78)",
+      "border": "0px solid rgb(82, 81, 78)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.65
+     },
+     {
+      "text": "Claude Code is included in you",
+      "tag": "p",
+      "height": 72,
+      "width": 315,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px solid rgb(94, 93, 89)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.19
+     }
+    ],
+    "sm": [
+     {
+      "text": "Available for macOS, Linux, an",
+      "tag": "p",
+      "height": 24,
+      "width": 292,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px solid rgb(94, 93, 89)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.19
+     },
+     {
+      "text": "Per month",
+      "tag": "p",
+      "height": 19,
+      "width": 315,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px solid rgb(94, 93, 89)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.19
+     },
+     {
+      "text": "Claude Code works on macOS, Li",
+      "tag": "p",
+      "height": 27,
+      "width": 660,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 48, 46)",
+      "border": "0px solid rgb(48, 48, 46)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "27.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.59
+     },
+     {
+      "text": "Use Claude Code where you work",
+      "tag": "p",
+      "height": 27,
+      "width": 752,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(135, 134, 127)",
+      "border": "0px solid rgb(135, 134, 127)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "27.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.75
+     }
+    ],
+    "lg": [
+     {
+      "text": "Per month with annual subscrip",
+      "tag": "p",
+      "height": 38,
+      "width": 315,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px solid rgb(94, 93, 89)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.19
+     },
+     {
+      "text": "Please provide your email addr",
+      "tag": "p",
+      "height": 38,
+      "width": 464,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(135, 134, 127)",
+      "border": "0px solid rgb(135, 134, 127)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.75
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 17,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 16
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Claude Code",
+      "tag": "ol",
+      "height": 19,
+      "width": 75,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 48, 46)",
+      "border": "0px solid rgb(48, 48, 46)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.59
+     }
+    ],
+    "xl": [
+     {
+      "text": "Terminal (opens in new tab)Web",
+      "tag": "ul",
+      "height": 83,
+      "width": 788,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1.14
+     },
+     {
+      "text": "",
+      "tag": "ul",
+      "height": 64,
+      "width": 1192,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "48px 24px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Code onboardingClaude Code map",
+      "tag": "ul",
+      "height": 348,
+      "width": 509,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "32px",
+      "contrast": 1.14
+     },
+     {
+      "text": "“Claude Code has dramatically ",
+      "tag": "ul",
+      "height": 905,
+      "width": 960,
+      "padding": "0px",
+      "margin": "0px 176px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 15,
+   "sizeBuckets": {
+    "md": 4,
+    "sm": 2,
+    "xl": 4,
+    "lg": 5
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Contact salesTry Claude",
+      "tag": "div",
+      "height": 36,
+      "width": 250,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Contact sales",
+      "tag": "a",
+      "height": 36,
+      "width": 130,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(250, 249, 245)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px none rgb(94, 93, 89)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(250, 249, 245) 0px 0px 0px 0px, rgb(209, 207, 197) 0px 0px 0px 1px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 6.26
+     },
+     {
+      "text": "Try Claude",
+      "tag": "a",
+      "height": 36,
+      "width": 108,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(20, 20, 19)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px none rgb(250, 249, 245)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(20, 20, 19) 0px 0px 0px 0px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 17.5
+     },
+     {
+      "text": "Kick off coding tasks in Slack",
+      "tag": "h2",
+      "height": 30,
+      "width": 342,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "25px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSerif",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     }
+    ],
+    "sm": [
+     {
+      "text": "Home",
+      "tag": "button",
+      "height": 26,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(137, 135, 129)",
+      "border": "0px none rgb(137, 135, 129)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "14.95px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.85
+     },
+     {
+      "text": "Code",
+      "tag": "button",
+      "height": 26,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(11, 11, 11)",
+      "border": "0px none rgb(11, 11, 11)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "14.95px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(10, 10, 10, 0.1) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.68
+     }
+    ],
+    "xl": [
+     {
+      "text": "IndividualTeam & Enterprise",
+      "tag": "div",
+      "height": 48,
+      "width": 1312,
+      "padding": "0px",
+      "margin": "0px 0px 48px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.14
+     },
+     {
+      "text": "IndividualTeam & Enterprise",
+      "tag": "div",
+      "height": 48,
+      "width": 275,
+      "padding": "4px",
+      "margin": "0px",
+      "radius": "16px",
+      "background": "rgb(240, 238, 230)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": 15.87
+     },
+     {
+      "text": "OnboardingTriage issuesMigrate",
+      "tag": "div",
+      "height": 48,
+      "width": 386,
+      "padding": "4px",
+      "margin": "0px",
+      "radius": "16px",
+      "background": "rgb(245, 244, 237)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": 16.72
+     },
+     {
+      "text": "Kick off coding tasks in Slack",
+      "tag": "div",
+      "height": 64,
+      "width": 430,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "24px",
+      "contrast": 1.14
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 40,
+      "width": 108,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), width 0.25s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 18.43
+     },
+     {
+      "text": "Individual",
+      "tag": "button",
+      "height": 40,
+      "width": 108,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px none rgb(20, 20, 19)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "12px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "4px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Team & Enterprise",
+      "tag": "button",
+      "height": 40,
+      "width": 157,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(77, 76, 72)",
+      "border": "0px none rgb(77, 76, 72)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "12px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "4px",
+      "contrast": 2.44
+     },
+     {
+      "text": "Triage issues",
+      "tag": "button",
+      "height": 40,
+      "width": 126,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(61, 61, 58)",
+      "border": "0px none rgb(61, 61, 58)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "12px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "4px",
+      "contrast": 1.93
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 11,
+   "sizeBuckets": {
+    "lg": 4,
+    "sm": 6,
+    "xl": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "ProductProductsClaudeClaude Co",
+      "tag": "div",
+      "height": 40,
+      "width": 97,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Product",
+      "tag": "button",
+      "height": 40,
+      "width": 97,
+      "padding": "8px 8px 8px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 48, 46)",
+      "border": "0px none rgb(48, 48, 46)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.5s cubic-bezier(0.19, 1, 0.22, 1)",
+      "gap": "4px",
+      "contrast": 1.59
+     },
+     {
+      "text": "Get Claude CodeDesktopVS CodeJ",
+      "tag": "div",
+      "height": 42,
+      "width": 206,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "Get Claude CodeDesktopVS CodeJ",
+      "tag": "div",
+      "height": 42,
+      "width": 206,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px solid rgb(250, 249, 245)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.93
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px solid rgb(94, 93, 89)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.75s cubic-bezier(0.19, 1, 0.22, 1), color 0.5s cubic-bezier(0.19, 1, 0.22, 1)",
+      "gap": "normal",
+      "contrast": 3.19
+     },
+     {
+      "text": "Explore hereAsk questions abou",
+      "tag": "div",
+      "height": 19,
+      "width": 94,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 48, 46)",
+      "border": "0px solid rgb(48, 48, 46)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.59
+     },
+     {
+      "text": "Add a dark mode toggle to sett",
+      "tag": "button",
+      "height": 26,
+      "width": 243,
+      "padding": "0px 2px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 81, 78)",
+      "border": "0px none rgb(82, 81, 78)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 2.65
+     },
+     {
+      "text": "Fix the double-charge bug in c",
+      "tag": "button",
+      "height": 26,
+      "width": 243,
+      "padding": "0px 2px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(11, 11, 11)",
+      "border": "0px none rgb(11, 11, 11)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 1.07
+     }
+    ],
+    "xl": [
+     {
+      "text": "EnglishEnglish日本語DeutschFrança",
+      "tag": "div",
+      "height": 46,
+      "width": 128,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px solid rgb(250, 249, 245)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.93
+     }
+    ]
+   }
+  },
+  "avatar": {
+   "label": "头像",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px 2px",
+      "radius": "50%",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(82, 81, 78)",
+      "border": "0px solid rgb(82, 81, 78)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "13px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.65
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 59,
+   "sizeBuckets": {
+    "sm": 47,
+    "lg": 6,
+    "xl": 3,
+    "md": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Claude",
+      "tag": "svg",
+      "height": 26,
+      "width": 120,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(94, 93, 89)",
+      "border": "0px solid rgb(94, 93, 89)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.75s cubic-bezier(0.19, 1, 0.22, 1), color 0.5s cubic-bezier(0.19, 1, 0.22, 1)",
+      "gap": "normal",
+      "contrast": 3.19
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px solid rgb(250, 249, 245)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "17px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.93
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(77, 76, 72)",
+      "border": "0px solid rgb(77, 76, 72)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "17px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.44
+     }
+    ],
+    "lg": [
+     {
+      "text": "Download for macOS",
+      "tag": "a",
+      "height": 40,
+      "width": 421,
+      "padding": "8px 24px 8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(20, 20, 19)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px none rgb(250, 249, 245)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "17px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(20, 20, 19) 0px 0px 0px 0px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 17.5
+     },
+     {
+      "text": "Read documentation (opens in n",
+      "tag": "a",
+      "height": 40,
+      "width": 421,
+      "padding": "8px 16px 8px 24px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(232, 230, 220)",
+      "color": "rgb(77, 76, 72)",
+      "border": "0px none rgb(77, 76, 72)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "17px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(232, 230, 220) 0px 0px 0px 0px, rgb(209, 207, 197) 0px 0px 0px 1px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 6.87
+     },
+     {
+      "text": "Individual",
+      "tag": "button",
+      "height": 40,
+      "width": 108,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px none rgb(20, 20, 19)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "12px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "4px",
+      "contrast": 1.14
+     },
+     {
+      "text": "Team & Enterprise",
+      "tag": "button",
+      "height": 40,
+      "width": 157,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(77, 76, 72)",
+      "border": "0px none rgb(77, 76, 72)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "12px",
+      "letterSpacing": "0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "4px",
+      "contrast": 2.44
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 96,
+      "width": 96,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 64,
+      "width": 64,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 64,
+      "width": 64,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px solid rgb(250, 249, 245)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.93
+     }
+    ],
+    "md": [
+     {
+      "text": "View changelog (opens in new t",
+      "tag": "a",
+      "height": 36,
+      "width": 464,
+      "padding": "8px 12px 8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(232, 230, 220)",
+      "color": "rgb(77, 76, 72)",
+      "border": "0px none rgb(77, 76, 72)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(232, 230, 220) 0px 0px 0px 0px, rgb(209, 207, 197) 0px 0px 0px 1px",
+      "transition": "color 0.1s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out",
+      "gap": "8px",
+      "contrast": 6.87
+     },
+     {
+      "text": "Claude",
+      "tag": "svg",
+      "height": 31,
+      "width": 144,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 249, 245)",
+      "border": "0px solid rgb(250, 249, 245)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.93
+     },
+     {
+      "text": "Claude",
+      "tag": "svg",
+      "height": 33,
+      "width": 150,
+      "padding": "0px",
+      "margin": "0px 0px 48px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(20, 20, 19)",
+      "border": "0px solid rgb(20, 20, 19)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.14
+     }
+    ]
+   }
+  },
+  "divider": {
+   "label": "分割线",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "/",
+      "tag": "span",
+      "height": 21,
+      "width": 5,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(154, 154, 154)",
+      "border": "0px solid rgb(154, 154, 154)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.46
+     }
+    ]
+   }
+  },
+  "breadcrumb": {
+   "label": "面包屑",
+   "count": 7,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 5
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Claude CodeExplore hereAsk que",
+      "tag": "nav",
+      "height": 45,
+      "width": 1440,
+      "padding": "12px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 48, 46)",
+      "border": "1px solid rgb(232, 230, 220)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.59
+     },
+     {
+      "text": "acme-storefront/Fix the double",
+      "tag": "div",
+      "height": 53,
+      "width": 494,
+      "padding": "18px 0px 14px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(137, 135, 129)",
+      "border": "0px solid rgb(137, 135, 129)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "7px",
+      "contrast": 3.59
+     }
+    ],
+    "sm": [
+     {
+      "text": "Claude CodeExplore hereAsk que",
+      "tag": "div",
+      "height": 19,
+      "width": 1312,
+      "padding": "0px",
+      "margin": "0px 64px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 48, 46)",
+      "border": "0px solid rgb(48, 48, 46)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.59
+     },
+     {
+      "text": "acme-storefront",
+      "tag": "span",
+      "height": 21,
+      "width": 109,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(11, 11, 11)",
+      "border": "0px solid rgb(11, 11, 11)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.07
+     },
+     {
+      "text": "/",
+      "tag": "span",
+      "height": 21,
+      "width": 5,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(154, 154, 154)",
+      "border": "0px solid rgb(154, 154, 154)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.46
+     },
+     {
+      "text": "Fix the double-charge bug in c",
+      "tag": "span",
+      "height": 21,
+      "width": 251,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(137, 135, 129)",
+      "border": "0px solid rgb(137, 135, 129)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "anthropicSans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.85
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 129,
+   "heading": null,
+   "background": "rgb(250, 249, 245)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "nav",
+   "height": 88,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "24px 0px",
+   "children": 6
+  },
+  {
+   "tag": "nav",
+   "height": 45,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "12px 0px",
+   "children": 1
+  },
+  {
+   "tag": "main",
+   "height": 11061,
+   "heading": "Claude Code",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 26
+  },
+  {
+   "tag": "section",
+   "height": 949,
+   "heading": "Claude Code",
+   "background": "rgb(250, 249, 245)",
+   "padding": "192px 0px 96px",
+   "children": 1
+  },
+  {
+   "tag": "aside",
+   "height": 474,
+   "heading": null,
+   "background": "rgb(251, 251, 249)",
+   "padding": "52px 0px 0px",
+   "children": 4
+  },
+  {
+   "tag": "nav",
+   "height": 140,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 8px 10px",
+   "children": 5
+  },
+  {
+   "tag": "section",
+   "height": 160,
+   "heading": null,
+   "background": "rgb(250, 249, 245)",
+   "padding": "0px 0px 96px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1141,
+   "heading": "Get started with Claude Code",
+   "background": "rgb(250, 249, 245)",
+   "padding": "0px 0px 128px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 1021,
+   "heading": "Latest feature announcements",
+   "background": "rgb(250, 249, 245)",
+   "padding": "0px 0px 128px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1456,
+   "heading": "What Claude Code can take on",
+   "background": "rgb(255, 255, 255)",
+   "padding": "0px 0px 128px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 1170,
+   "heading": "Meets you where you code",
+   "background": "rgb(250, 249, 245)",
+   "padding": "0px 0px 128px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 320,
+   "heading": "Kick off coding tasks in Slack",
+   "background": "rgb(250, 249, 245)",
+   "padding": "0px 0px 128px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1191,
+   "heading": "What developers are saying",
+   "background": "rgb(250, 249, 245)",
+   "padding": "0px 0px 128px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 816,
+   "heading": "Connects with your favorite command line tools",
+   "background": "rgb(250, 249, 245)",
+   "padding": "0px 0px 128px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1247,
+   "heading": "FAQ",
+   "background": "rgb(250, 249, 245)",
+   "padding": "0px 0px 128px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 959,
+   "heading": "Get the technical rundown",
+   "background": "rgb(250, 249, 245)",
+   "padding": "0px 0px 128px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 631,
+   "heading": "Create what’s exciting. Maintain what’s essential.",
+   "background": "rgb(20, 20, 19)",
+   "padding": "128px 0px",
+   "children": 1
+  },
+  {
+   "tag": "footer",
+   "height": 1227,
+   "heading": "Products",
+   "background": "rgb(20, 20, 19)",
+   "padding": "95.9999px 0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 18.43,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 10,
+  "tapTargetMedian": 28
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.2s",
+    "count": 412
+   },
+   {
+    "value": "0.15s",
+    "count": 75
+   },
+   {
+    "value": "0.35s",
+    "count": 74
+   },
+   {
+    "value": "0.5s",
+    "count": 40
+   },
+   {
+    "value": "0.1s",
+    "count": 38
+   },
+   {
+    "value": "0.75s",
+    "count": 36
+   },
+   {
+    "value": "0.25s",
+    "count": 20
+   },
+   {
+    "value": "0.3s",
+    "count": 12
+   },
+   {
+    "value": "0.06s",
+    "count": 11
+   },
+   {
+    "value": "1s",
+    "count": 8
+   },
+   {
+    "value": "0.45s",
+    "count": 6
+   },
+   {
+    "value": "0.4s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 280
+   },
+   {
+    "value": "ease-in-out",
+    "count": 160
+   },
+   {
+    "value": "cubic-bezier(0.165, 0.84, 0.44, 1)",
+    "count": 41
+   },
+   {
+    "value": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "count": 38
+   },
+   {
+    "value": "cubic-bezier(0.19, 1, 0.22, 1)",
+    "count": 18
+   },
+   {
+    "value": "linear",
+    "count": 6
+   },
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 4
+   },
+   {
+    "value": "ease-in",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 327
+   },
+   {
+    "value": "background-color",
+    "count": 123
+   },
+   {
+    "value": "box-shadow",
+    "count": 74
+   },
+   {
+    "value": "border-color",
+    "count": 59
+   },
+   {
+    "value": "opacity",
+    "count": 54
+   },
+   {
+    "value": "transform",
+    "count": 44
+   },
+   {
+    "value": "background",
+    "count": 25
+   },
+   {
+    "value": "visibility",
+    "count": 10
+   },
+   {
+    "value": "max-height",
+    "count": 8
+   },
+   {
+    "value": "max-width",
+    "count": 6
+   }
+  ]
+ }
+}

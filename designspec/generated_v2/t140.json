@@ -1,0 +1,2183 @@
+{
+ "id": "t140",
+ "overview": {
+  "name": "Oneko",
+  "url": "https://oneko.dhrv.pw/",
+  "section": "组件库",
+  "pagesScanned": [
+   "https://oneko.dhrv.pw/",
+   "https://oneko.dhrv.pw/docs",
+   "https://oneko.dhrv.pw/studio"
+  ],
+  "subpages": [
+   "/docs",
+   "/studio"
+  ],
+  "sectionCount": 4,
+  "componentSamples": 83,
+  "typeSteps": 17
+ },
+ "colors": {
+  "roles": {
+   "border": {
+    "hex": "#d9cec4",
+    "value": "#d9cec4",
+    "token": "--border",
+    "source": "css-var",
+    "contrastOnBg": 1.55
+   },
+   "foreground": {
+    "hex": "#5c4033",
+    "value": "#5c4033",
+    "token": "--world-ink",
+    "source": "css-var",
+    "contrastOnBg": 9.39
+   },
+   "muted": {
+    "hex": "#f0e6d9",
+    "value": "#f0e6d9",
+    "token": "--muted",
+    "source": "css-var",
+    "contrastOnBg": 1.23
+   },
+   "focus": {
+    "hex": "#a8c3b5",
+    "value": "#a8c3b5",
+    "token": "--ring",
+    "source": "css-var",
+    "contrastOnBg": 1.89
+   },
+   "link": {
+    "hex": "#315f73",
+    "value": "#315f73",
+    "token": "--syntax-token-link",
+    "source": "css-var",
+    "contrastOnBg": 6.97
+   },
+   "primary": {
+    "hex": "#f4b8a8",
+    "value": "#f4b8a8",
+    "token": "--accent",
+    "source": "css-var",
+    "contrastOnBg": 1.71
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "danger": {
+    "hex": "#c94c4c",
+    "value": "#c94c4c",
+    "token": "--destructive",
+    "source": "css-var",
+    "contrastOnBg": 4.54
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 13
+   },
+   {
+    "hex": "#f5ebe3",
+    "count": 2
+   },
+   {
+    "hex": "#f5f8f4",
+    "count": 2
+   },
+   {
+    "hex": "#edf1e8",
+    "count": 2
+   },
+   {
+    "hex": "#d9cec4",
+    "count": 1
+   },
+   {
+    "hex": "#5c4033",
+    "count": 1687
+   },
+   {
+    "hex": "#806d62",
+    "count": 376
+   },
+   {
+    "hex": "#9b4f22",
+    "count": 207
+   },
+   {
+    "hex": "#7a3f62",
+    "count": 141
+   },
+   {
+    "hex": "#476c5b",
+    "count": 139
+   }
+  ],
+  "backgroundsTotal": 9,
+  "textTotal": 7,
+  "bordersTotal": 3
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "14.5px",
+    "letterSpacing": "0.66px",
+    "family": "Geist Mono",
+    "count": 20,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Installation"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "18.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Guide"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 93,
+    "tags": [
+     "a",
+     "p",
+     "span"
+    ],
+    "samples": [
+     "Made by dhrv"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 1180,
+    "tags": [
+     "pre",
+     "code",
+     "span"
+    ],
+    "samples": [
+     "npx shadcn@latest add https://oneko.dhrv"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "20.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 292,
+    "tags": [
+     "a",
+     "li",
+     "span",
+     "button",
+     "p"
+    ],
+    "samples": [
+     "Playground"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 21,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Overview"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 6,
+    "tags": [
+     "p",
+     "span"
+    ],
+    "samples": [
+     "A little shadow for your cursor"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 120,
+    "tags": [
+     "p",
+     "a"
+    ],
+    "samples": [
+     "Oneko brings a tiny pixel cat to any web"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 4,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "A tiny pixel cat for your website."
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "a",
+     "button"
+    ],
+    "samples": [
+     "Customize cat"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 107,
+    "tags": [
+     "h3",
+     "a"
+    ],
+    "samples": [
+     "Coat & appearance"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "600",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Classic"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "400",
+    "lineHeight": "31px",
+    "letterSpacing": "normal",
+    "family": "GeistPixelSquare",
+    "count": 40,
+    "tags": [
+     "h2",
+     "a"
+    ],
+    "samples": [
+     "InstallationGive your cat a home"
+    ]
+   },
+   {
+    "size": "26px",
+    "px": 26.0,
+    "weight": "400",
+    "lineHeight": "26px",
+    "letterSpacing": "-0.91px",
+    "family": "GeistPixelSquare",
+    "count": 2,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "oneko."
+    ]
+   },
+   {
+    "size": "40px",
+    "px": 40.0,
+    "weight": "400",
+    "lineHeight": "48px",
+    "letterSpacing": "-1.4px",
+    "family": "GeistPixelSquare",
+    "count": 2,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "oneko studio."
+    ]
+   },
+   {
+    "size": "44px",
+    "px": 44.0,
+    "weight": "400",
+    "lineHeight": "53px",
+    "letterSpacing": "-1.54px",
+    "family": "GeistPixelSquare",
+    "count": 7,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "oneko."
+    ]
+   },
+   {
+    "size": "54px",
+    "px": 54.0,
+    "weight": "400",
+    "lineHeight": "60.5px",
+    "letterSpacing": "-1.62px",
+    "family": "GeistPixelSquare",
+    "count": 2,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "A little guidefor little paws."
+    ]
+   }
+  ],
+  "totalSteps": 22,
+  "families": [
+   "Geist",
+   "Geist Mono",
+   "GeistPixelSquare"
+  ],
+  "weights": [
+   "400",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 162
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 30
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 81
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 10
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 249
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 136
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 119
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 35
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 99
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 187
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 157
+   },
+   {
+    "value": "22px",
+    "px": 22.0,
+    "count": 20
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 85
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 12
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 1
+   },
+   {
+    "value": "36px",
+    "px": 36.0,
+    "count": 11
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "761.124px",
+    "count": 42
+   },
+   {
+    "value": "1080px",
+    "count": 1
+   },
+   {
+    "value": "551.616px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 36
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 69
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 10
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 2
+   },
+   {
+    "value": "50%",
+    "px": 50,
+    "count": 1
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+    "count": 3
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.07) 0px 1px 3px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "2147483646",
+    "count": 4
+   },
+   {
+    "value": "50",
+    "count": 2
+   },
+   {
+    "value": "100",
+    "count": 1
+   },
+   {
+    "value": "1",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 13,
+   "sizeBuckets": {
+    "md": 2,
+    "lg": 6,
+    "sm": 1,
+    "xl": 4
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Switch to dark theme",
+      "tag": "button",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "oklab(0.999994 0.0000455677 0.0000200868 / 0.8)",
+      "color": "rgb(92, 64, 51)",
+      "border": "1px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "Switch to dark theme",
+      "tag": "button",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "oklab(0.999994 0.0000455677 0.0000200868 / 0.8)",
+      "color": "rgb(128, 109, 98)",
+      "border": "1px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Add a cat to your site",
+      "tag": "button",
+      "height": 44,
+      "width": 182,
+      "padding": "10px 14px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.18s ease-out, border-color 0.18s ease-out, transform 0.18s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "Let the garden rest",
+      "tag": "button",
+      "height": 44,
+      "width": 118,
+      "padding": "0px 4px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(128, 109, 98)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "GeistPixelSquare",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.18s ease-out, transform 0.18s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "normal",
+      "contrast": 4.28
+     },
+     {
+      "text": "Copy",
+      "tag": "button",
+      "height": 44,
+      "width": 52,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 2.24
+     },
+     {
+      "text": "Pause",
+      "tag": "button",
+      "height": 44,
+      "width": 112,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(92, 64, 51)",
+      "border": "1px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.39
+     }
+    ],
+    "sm": [
+     {
+      "text": "About this inspiration",
+      "tag": "button",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(128, 109, 98)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 4.28
+     }
+    ],
+    "xl": [
+     {
+      "text": "Appearance",
+      "tag": "button",
+      "height": 64,
+      "width": 138,
+      "padding": "8px 4px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.07) 0px 1px 3px 0px",
+      "transition": "background-color 0.15s ease-out, transform 0.15s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "7px",
+      "contrast": 9.39
+     },
+     {
+      "text": "Thoughts",
+      "tag": "button",
+      "height": 64,
+      "width": 138,
+      "padding": "8px 4px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(128, 109, 98)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s ease-out, transform 0.15s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "7px",
+      "contrast": 4.28
+     },
+     {
+      "text": "Classic",
+      "tag": "button",
+      "height": 84,
+      "width": 104,
+      "padding": "12px 2px 10px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(245, 235, 227)",
+      "color": "rgb(92, 64, 51)",
+      "border": "1px solid rgb(128, 109, 98)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s ease-out, transform 0.15s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "10px",
+      "contrast": 7.99
+     },
+     {
+      "text": "Black",
+      "tag": "button",
+      "height": 84,
+      "width": 104,
+      "padding": "12px 2px 10px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "1px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s ease-out, transform 0.15s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "10px",
+      "contrast": 2.24
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 13,
+   "sizeBuckets": {
+    "lg": 4,
+    "sm": 7,
+    "xl": 1,
+    "md": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Customize cat",
+      "tag": "a",
+      "height": 44,
+      "width": 140,
+      "padding": "10px 14px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(245, 235, 227)",
+      "color": "rgb(92, 64, 51)",
+      "border": "1px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.18s ease-out, border-color 0.18s ease-out, transform 0.18s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "normal",
+      "contrast": 7.99
+     },
+     {
+      "text": "Read the install guide",
+      "tag": "a",
+      "height": 44,
+      "width": 158,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "23.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.18s ease-out, transform 0.18s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "5px",
+      "contrast": 2.24
+     },
+     {
+      "text": "Made by dhrv",
+      "tag": "a",
+      "height": 44,
+      "width": 74,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(128, 109, 98)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.18s ease-out, transform 0.18s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "normal",
+      "contrast": 4.28
+     },
+     {
+      "text": "Made by dhrv",
+      "tag": "a",
+      "height": 44,
+      "width": 74,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "5px",
+      "contrast": 2.24
+     }
+    ],
+    "sm": [
+     {
+      "text": "oneko.js",
+      "tag": "a",
+      "height": 18,
+      "width": 45,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(128, 109, 98)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.2s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 4.28
+     },
+     {
+      "text": "oneko.",
+      "tag": "a",
+      "height": 26,
+      "width": 70,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "fontFamily": "GeistPixelSquare",
+      "lineHeight": "26px",
+      "letterSpacing": "-0.91px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "Playground",
+      "tag": "a",
+      "height": 24,
+      "width": 176,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(128, 109, 98)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.18s cubic-bezier(0.25, 1, 0.5, 1), transform 0.18s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "normal",
+      "contrast": 4.28
+     },
+     {
+      "text": "Documentation",
+      "tag": "a",
+      "height": 24,
+      "width": 176,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "20.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.18s cubic-bezier(0.25, 1, 0.5, 1), transform 0.18s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ],
+    "xl": [
+     {
+      "text": "Skip to the cat guide",
+      "tag": "a",
+      "height": 46,
+      "width": 167,
+      "padding": "10px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(92, 64, 51)",
+      "border": "1px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "23.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.39
+     }
+    ],
+    "md": [
+     {
+      "text": "Give your cat a home",
+      "tag": "a",
+      "height": 31,
+      "width": 243,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "GeistPixelSquare",
+      "lineHeight": "31.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 2,
+   "sizeBuckets": {
+    "lg": 2
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 44,
+      "width": 666,
+      "padding": "10px 12px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(92, 64, 51)",
+      "border": "1px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.39
+     },
+     {
+      "text": "1",
+      "tag": "input",
+      "height": 44,
+      "width": 319,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "A look of their ownPick a coat",
+      "tag": "div",
+      "height": 1192,
+      "width": 722,
+      "padding": "28px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "A look of their ownPick a coat",
+      "tag": "header",
+      "height": 52,
+      "width": 666,
+      "padding": "0px",
+      "margin": "0px 0px 28px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 6,
+   "sizeBuckets": {
+    "xl": 5,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "oneko.A tiny pixel cat for you",
+      "tag": "header",
+      "height": 110,
+      "width": 540,
+      "padding": "0px",
+      "margin": "0px 0px 36px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "PlaygroundGuideDocumentationOv",
+      "tag": "nav",
+      "height": 655,
+      "width": 176,
+      "padding": "0px",
+      "margin": "20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "ResourcesMarkdown guideAgent i",
+      "tag": "div",
+      "height": 131,
+      "width": 176,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "oneko studio.Make a little com",
+      "tag": "header",
+      "height": 82,
+      "width": 1040,
+      "padding": "0px",
+      "margin": "0px 0px 36px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ],
+    "lg": [
+     {
+      "text": "PlaygroundCat docs Made by dhr",
+      "tag": "nav",
+      "height": 44,
+      "width": 1040,
+      "padding": "0px",
+      "margin": "0px 0px 28px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(128, 109, 98)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "24px",
+      "contrast": 4.28
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 156,
+      "width": 232,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 8,
+   "sizeBuckets": {
+    "xl": 4,
+    "lg": 1,
+    "sm": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "oneko.",
+      "tag": "h1",
+      "height": 53,
+      "width": 540,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "44px",
+      "fontWeight": "400",
+      "fontFamily": "GeistPixelSquare",
+      "lineHeight": "52.8px",
+      "letterSpacing": "-1.54px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "A little guidefor little paws.",
+      "tag": "h1",
+      "height": 121,
+      "width": 720,
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "54px",
+      "fontWeight": "400",
+      "fontFamily": "GeistPixelSquare",
+      "lineHeight": "60.48px",
+      "letterSpacing": "-1.62px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "InstallationGive your cat a ho",
+      "tag": "h2",
+      "height": 49,
+      "width": 720,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "GeistPixelSquare",
+      "lineHeight": "31.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "oneko studio.",
+      "tag": "h1",
+      "height": 48,
+      "width": 1040,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "40px",
+      "fontWeight": "400",
+      "fontFamily": "GeistPixelSquare",
+      "lineHeight": "48px",
+      "letterSpacing": "-1.4px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ],
+    "lg": [
+     {
+      "text": "A pixel cat for your website.",
+      "tag": "h2",
+      "height": 37,
+      "width": 540,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "22px",
+      "fontWeight": "400",
+      "fontFamily": "GeistPixelSquare",
+      "lineHeight": "37.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ],
+    "sm": [
+     {
+      "text": "Coat & appearance",
+      "tag": "h3",
+      "height": 24,
+      "width": 720,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "23.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "Classic",
+      "tag": "h2",
+      "height": 24,
+      "width": 232,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "Choose a coat",
+      "tag": "h3",
+      "height": 18,
+      "width": 78,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 13,
+   "sizeBuckets": {
+    "sm": 7,
+    "xl": 6
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "A tiny pixel cat for your webs",
+      "tag": "p",
+      "height": 22,
+      "width": 540,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "Move your cursor. Your new fri",
+      "tag": "p",
+      "height": 22,
+      "width": 540,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(128, 109, 98)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.28
+     },
+     {
+      "text": "Inspired byoneko.js",
+      "tag": "p",
+      "height": 18,
+      "width": 134,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(128, 109, 98)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px 6px",
+      "contrast": 4.28
+     },
+     {
+      "text": "Guide",
+      "tag": "p",
+      "height": 19,
+      "width": 176,
+      "padding": "0px",
+      "margin": "14px 0px 2px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(128, 109, 98)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.7px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.28
+     }
+    ],
+    "xl": [
+     {
+      "text": "Oneko brings a tiny pixel cat ",
+      "tag": "p",
+      "height": 71,
+      "width": 540,
+      "padding": "0px",
+      "margin": "14px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "23.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "Open the studio to customize y",
+      "tag": "p",
+      "height": 48,
+      "width": 540,
+      "padding": "0px",
+      "margin": "14px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "23.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "Bring Oneko to React, Svelte, ",
+      "tag": "p",
+      "height": 82,
+      "width": 552,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "27.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "Choose one installation per pr",
+      "tag": "p",
+      "height": 119,
+      "width": 720,
+      "padding": "0px",
+      "margin": "18px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "23.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 6,
+   "sizeBuckets": {
+    "xl": 6
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "OverviewInstallationWithout Re",
+      "tag": "ol",
+      "height": 483,
+      "width": 176,
+      "padding": "0px",
+      "margin": "3px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "20.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "The script is about 33 KB gzip",
+      "tag": "ul",
+      "height": 155,
+      "width": 720,
+      "padding": "0px 0px 0px 20px",
+      "margin": "18px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "23.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "paused freezes the current act",
+      "tag": "ul",
+      "height": 262,
+      "width": 720,
+      "padding": "0px 0px 0px 20px",
+      "margin": "18px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "23.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "napWhileTyping: the cat curls ",
+      "tag": "ul",
+      "height": 179,
+      "width": 720,
+      "padding": "0px 0px 0px 20px",
+      "margin": "18px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "23.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "AppearanceThoughtsBehaviorZone",
+      "tag": "div",
+      "height": 80,
+      "width": 722,
+      "padding": "8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "color(srgb 0.982353 0.964706 0.950588)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": null
+     },
+     {
+      "text": "Appearance",
+      "tag": "button",
+      "height": 64,
+      "width": 138,
+      "padding": "8px 4px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.07) 0px 1px 3px 0px",
+      "transition": "background-color 0.15s ease-out, transform 0.15s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "7px",
+      "contrast": 9.39
+     },
+     {
+      "text": "Thoughts",
+      "tag": "button",
+      "height": 64,
+      "width": 138,
+      "padding": "8px 4px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(128, 109, 98)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s ease-out, transform 0.15s cubic-bezier(0.25, 1, 0.5, 1)",
+      "gap": "7px",
+      "contrast": 4.28
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 16,
+   "sizeBuckets": {
+    "sm": 13,
+    "md": 1,
+    "xl": 1,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), translate 0.2s cubic-bezier(0.4, 0, 0.2, 1), scale 0.2s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 80,
+      "width": 72,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 44,
+      "width": 56,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(92, 64, 51)",
+      "border": "0px solid rgb(217, 206, 196)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.24
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 575,
+   "heading": "oneko.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "81.3px 0px 0px",
+   "children": 5
+  },
+  {
+   "tag": "header",
+   "height": 110,
+   "heading": "oneko.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 5
+  },
+  {
+   "tag": "section",
+   "height": 359,
+   "heading": "A pixel cat for your website.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "28px 0px 0px",
+   "children": 5
+  },
+  {
+   "tag": "footer",
+   "height": 44,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 5
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 9.39,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 44
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.18s",
+    "count": 16
+   },
+   {
+    "value": "0.2s",
+    "count": 7
+   },
+   {
+    "value": "0.22s",
+    "count": 2
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease-out",
+    "count": 10
+   },
+   {
+    "value": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "count": 9
+   },
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 6
+   }
+  ],
+  "properties": [
+   {
+    "value": "transform",
+    "count": 13
+   },
+   {
+    "value": "color",
+    "count": 9
+   },
+   {
+    "value": "background-color",
+    "count": 5
+   },
+   {
+    "value": "border-color",
+    "count": 5
+   },
+   {
+    "value": "opacity",
+    "count": 2
+   },
+   {
+    "value": "translate",
+    "count": 2
+   },
+   {
+    "value": "scale",
+    "count": 2
+   },
+   {
+    "value": "rotate",
+    "count": 2
+   },
+   {
+    "value": "outline-color",
+    "count": 2
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 2
+   }
+  ]
+ }
+}

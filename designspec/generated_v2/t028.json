@@ -1,0 +1,902 @@
+{
+ "id": "t028",
+ "overview": {
+  "name": "Hover States",
+  "url": "https://hoverstat.es/",
+  "section": "设计画廊",
+  "pagesScanned": [
+   "https://hoverstat.es/",
+   "https://hoverstat.es/about/",
+   "https://hoverstat.es/features/soft-labor/"
+  ],
+  "subpages": [
+   "/about/",
+   "/features/soft-labor/"
+  ],
+  "sectionCount": 3,
+  "componentSamples": 21,
+  "typeSteps": 7
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#f1f1f1",
+    "value": "#f1f1f1",
+    "token": "--background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 18.59
+   },
+   "primary": {
+    "hex": "#711bff",
+    "value": "#711bff",
+    "token": "--key-color",
+    "source": "palette",
+    "contrastOnBg": 5.63
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#d6d6d6",
+    "count": 29
+   },
+   {
+    "hex": "#000000",
+    "count": 9
+   },
+   {
+    "hex": "#f1f1f1",
+    "count": 3
+   },
+   {
+    "hex": "#ffffff",
+    "count": 3
+   },
+   {
+    "hex": "#711bff",
+    "count": 29
+   }
+  ],
+  "backgroundsTotal": 4,
+  "textTotal": 2,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "300",
+    "lineHeight": "20px",
+    "letterSpacing": "0.336px",
+    "family": "-apple-system",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "www.softlabor.biz"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "17.5px",
+    "letterSpacing": "0.46102px",
+    "family": "Fakt",
+    "count": 34,
+    "tags": [
+     "h5",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "21 Jul 2026"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "300",
+    "lineHeight": "19.5px",
+    "letterSpacing": "0.336px",
+    "family": "Fakt",
+    "count": 78,
+    "tags": [
+     "li",
+     "a"
+    ],
+    "samples": [
+     "www.softlabor.biz21 Jul 2026www.softlabo"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "0.336px",
+    "family": "Fakt",
+    "count": 33,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "I lovely simple evolution to the timelin"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "0.336px",
+    "family": "Fakt",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Official Business"
+    ]
+   },
+   {
+    "size": "18.5px",
+    "px": 18.5,
+    "weight": "300",
+    "lineHeight": "normal",
+    "letterSpacing": "0.7448px",
+    "family": "Fakt",
+    "count": 29,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "hoverstat.es"
+    ]
+   },
+   {
+    "size": "18.5px",
+    "px": 18.5,
+    "weight": "400",
+    "lineHeight": "26px",
+    "letterSpacing": "0.336px",
+    "family": "Fakt",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "A soft fuzzy typography SVG animation to"
+    ]
+   }
+  ],
+  "totalSteps": 8,
+  "families": [
+   "-apple-system",
+   "Fakt"
+  ],
+  "weights": [
+   "300",
+   "400"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 18
+   },
+   {
+    "value": "7.5px",
+    "px": 7.5,
+    "count": 29
+   },
+   {
+    "value": "10.5px",
+    "px": 10.5,
+    "count": 84
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 6
+   },
+   {
+    "value": "14.5px",
+    "px": 14.5,
+    "count": 2
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 58
+   },
+   {
+    "value": "21px",
+    "px": 21.0,
+    "count": 24
+   },
+   {
+    "value": "29px",
+    "px": 29.0,
+    "count": 4
+   },
+   {
+    "value": "42px",
+    "px": 42.0,
+    "count": 14
+   },
+   {
+    "value": "211.5px",
+    "px": 211.5,
+    "count": 16
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1280px",
+    "count": 9
+   },
+   {
+    "value": "588px",
+    "count": 2
+   },
+   {
+    "value": "580px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 48
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 3
+   },
+   {
+    "value": "100%",
+    "px": 50,
+    "count": 9
+   },
+   {
+    "value": "140px",
+    "px": 140.0,
+    "count": 3
+   },
+   {
+    "value": "186.2px",
+    "px": 186.2,
+    "count": 29
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.42) 0px 0px 18px -3px",
+    "count": 3
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "20",
+    "count": 3
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "hoverstat.es",
+      "tag": "a",
+      "height": 36,
+      "width": 170,
+      "padding": "7.448px 14.896px 3.724px",
+      "margin": "2.793px 1.862px",
+      "radius": "186.2px",
+      "background": "rgb(214, 214, 214)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "18.62px",
+      "fontWeight": "300",
+      "fontFamily": "Fakt",
+      "lineHeight": "normal",
+      "letterSpacing": "0.7448px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.45
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 7,
+   "sizeBuckets": {
+    "md": 1,
+    "xl": 2,
+    "sm": 4
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "hoverstat.es",
+      "tag": "a",
+      "height": 36,
+      "width": 170,
+      "padding": "7.448px 14.896px 3.724px",
+      "margin": "2.793px 1.862px",
+      "radius": "186.2px",
+      "background": "rgb(214, 214, 214)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "18.62px",
+      "fontWeight": "300",
+      "fontFamily": "Fakt",
+      "lineHeight": "normal",
+      "letterSpacing": "0.7448px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.45
+     }
+    ],
+    "xl": [
+     {
+      "text": "www.softlabor.biz",
+      "tag": "a",
+      "height": 572,
+      "width": 976,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "fontFamily": "Fakt",
+      "lineHeight": "19.6px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "xk.studio",
+      "tag": "a",
+      "height": 212,
+      "width": 385,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "fontFamily": "Fakt",
+      "lineHeight": "19.6px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "www.softlabor.biz",
+      "tag": "a",
+      "height": 20,
+      "width": 588,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(113, 27, 255)",
+      "border": "0px none rgb(113, 27, 255)",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "fontFamily": "Fakt",
+      "lineHeight": "19.6px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.3
+     },
+     {
+      "text": "Other Means",
+      "tag": "a",
+      "height": 12,
+      "width": 92,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "12.46px",
+      "fontWeight": "400",
+      "fontFamily": "Fakt",
+      "lineHeight": "17.444px",
+      "letterSpacing": "0.46102px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Official Business",
+      "tag": "a",
+      "height": 15,
+      "width": 107,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Fakt",
+      "lineHeight": "14px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Instagram",
+      "tag": "a",
+      "height": 14,
+      "width": 65,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(113, 27, 255)",
+      "border": "0px none rgb(113, 27, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Fakt",
+      "lineHeight": "19.6px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.3
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "The home of alternative design",
+      "tag": "article",
+      "height": 275,
+      "width": 580,
+      "padding": "0px 21px",
+      "margin": "0px 339.5px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "fontFamily": "Fakt",
+      "lineHeight": "19.6px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 2,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "hoverstat.esArchiveSubmit?",
+      "tag": "nav",
+      "height": 56,
+      "width": 1440,
+      "padding": "14px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "fontFamily": "Fakt",
+      "lineHeight": "19.6px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "hoverstat.es",
+      "tag": "header",
+      "height": 548,
+      "width": 1259,
+      "padding": "0px 21px",
+      "margin": "42px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "fontFamily": "Fakt",
+      "lineHeight": "19.6px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "www.softlabor.biz",
+      "tag": "div",
+      "height": 35,
+      "width": 985,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "fontFamily": "Fakt",
+      "lineHeight": "14px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "21 Jul 2026",
+      "tag": "h5",
+      "height": 17,
+      "width": 588,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "12.46px",
+      "fontWeight": "400",
+      "fontFamily": "Fakt",
+      "lineHeight": "17.444px",
+      "letterSpacing": "0.46102px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "The home of alternative design",
+      "tag": "h2",
+      "height": 116,
+      "width": 538,
+      "padding": "0px",
+      "margin": "21px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "35px",
+      "fontWeight": "400",
+      "fontFamily": "Fakt",
+      "lineHeight": "38.5px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 3,
+    "lg": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "A soft fuzzy typography SVG an",
+      "tag": "p",
+      "height": 78,
+      "width": 588,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "18.62px",
+      "fontWeight": "400",
+      "fontFamily": "Fakt",
+      "lineHeight": "26.068px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Lovely use of a hover-toggle e",
+      "tag": "p",
+      "height": 59,
+      "width": 385,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Fakt",
+      "lineHeight": "19.6px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "A simple click-through contact",
+      "tag": "p",
+      "height": 78,
+      "width": 385,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Fakt",
+      "lineHeight": "19.6px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "lg": [
+     {
+      "text": "I lovely simple evolution to t",
+      "tag": "p",
+      "height": 39,
+      "width": 385,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Fakt",
+      "lineHeight": "19.6px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "Copyright © 2026 Official Busi",
+      "tag": "p",
+      "height": 20,
+      "width": 1259,
+      "padding": "0px",
+      "margin": "21px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Fakt",
+      "lineHeight": "19.6px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "www.softlabor.biz21 Jul 2026ww",
+      "tag": "ul",
+      "height": 3974,
+      "width": 1259,
+      "padding": "21px 10.5px",
+      "margin": "0px 0px 42px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "fontFamily": "Fakt",
+      "lineHeight": "19.6px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "42px",
+      "contrast": 1
+     },
+     {
+      "text": "www.softlabor.biz21 Jul 2026ww",
+      "tag": "ul",
+      "height": 852,
+      "width": 1259,
+      "padding": "21px 10.5px",
+      "margin": "0px 0px 42px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "fontFamily": "Fakt",
+      "lineHeight": "19.6px",
+      "letterSpacing": "0.336px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "42px",
+      "contrast": 1
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "nav",
+   "height": 56,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "14px 0px 0px",
+   "children": 1
+  },
+  {
+   "tag": "main",
+   "height": 4057,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 10.5px",
+   "children": 2
+  },
+  {
+   "tag": "footer",
+   "height": 117,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 0px 14px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 18.59,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 12,
+  "tapTargetMedian": 36
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.3s",
+    "count": 25
+   }
+  ],
+  "easings": [],
+  "properties": []
+ }
+}

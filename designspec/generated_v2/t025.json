@@ -1,0 +1,599 @@
+{
+ "id": "t025",
+ "overview": {
+  "name": "UX Archive",
+  "url": "https://uxarchive.com/",
+  "section": "设计画廊",
+  "pagesScanned": [
+   "https://uxarchive.com/"
+  ],
+  "subpages": [],
+  "sectionCount": 2,
+  "componentSamples": 12,
+  "typeSteps": 5
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#404040",
+    "value": "#404040",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 10.37
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 2
+   },
+   {
+    "hex": "#404040",
+    "count": 30
+   },
+   {
+    "hex": "#2f7bbf",
+    "count": 4
+   },
+   {
+    "hex": "#0051c3",
+    "count": 3
+   },
+   {
+    "hex": "#999999",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 1,
+  "textTotal": 4,
+  "bordersTotal": 2
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 11,
+    "tags": [
+     "p",
+     "span",
+     "button",
+     "a"
+    ],
+    "samples": [
+     "Cloudflare Ray ID: a4e562b91a04db6e\n    "
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 6,
+    "tags": [
+     "p",
+     "a"
+    ],
+    "samples": [
+     "You've requested a page on a website (ux"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "monaco",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Ray ID: a4e562b91a04db6e •"
+    ]
+   },
+   {
+    "size": "30px",
+    "px": 30.0,
+    "weight": "400",
+    "lineHeight": "37.5px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "What happened?"
+    ]
+   },
+   {
+    "size": "60px",
+    "px": 60.0,
+    "weight": "300",
+    "lineHeight": "75px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 3,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "Error\n                        1000"
+    ]
+   }
+  ],
+  "totalSteps": 8,
+  "families": [
+   "monaco",
+   "system-ui"
+  ],
+  "weights": [
+   "300",
+   "400",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 4
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 6
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 1
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 3
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 3
+   },
+   {
+    "value": "60px",
+    "px": 60.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": []
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 2
+   }
+  ],
+  "shadows": [],
+  "zIndex": []
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 2,
+   "sizeBuckets": {
+    "md": 1,
+    "sm": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Yes",
+      "tag": "button",
+      "height": 33,
+      "width": 55,
+      "padding": "8px 16px",
+      "margin": "0px 0px 0px 16px",
+      "radius": "4px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 81, 195)",
+      "border": "1px solid rgb(0, 69, 166)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s, border-color 0.2s, color 0.2s",
+      "gap": "normal",
+      "contrast": 7.08
+     }
+    ],
+    "sm": [
+     {
+      "text": "Click to reveal",
+      "tag": "button",
+      "height": 16,
+      "width": 85,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 81, 195)",
+      "border": "0px none rgb(0, 81, 195)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s",
+      "gap": "normal",
+      "contrast": 2.96
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 2,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Cloudflare",
+      "tag": "a",
+      "height": 18,
+      "width": 71,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 123, 191)",
+      "border": "0px none rgb(47, 123, 191)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 4.71
+     },
+     {
+      "text": "Cloudflare",
+      "tag": "a",
+      "height": 16,
+      "width": 62,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 123, 191)",
+      "border": "0px none rgb(47, 123, 191)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 4.71
+     }
+    ],
+    "lg": [
+     {
+      "text": "https://developers.cloudflare.",
+      "tag": "a",
+      "height": 41,
+      "width": 439,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 123, 191)",
+      "border": "0px none rgb(47, 123, 191)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 4.71
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Error\n                        ",
+      "tag": "header",
+      "height": 154,
+      "width": 960,
+      "padding": "40px 0px 0px",
+      "margin": "0px 240px 60px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(64, 64, 64)",
+      "border": "0px none rgb(64, 64, 64)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.03
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 1,
+    "lg": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Error\n                        ",
+      "tag": "h1",
+      "height": 75,
+      "width": 265,
+      "padding": "0px",
+      "margin": "0px 8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(64, 64, 64)",
+      "border": "0px none rgb(64, 64, 64)",
+      "fontSize": "60px",
+      "fontWeight": "300",
+      "fontFamily": "system-ui",
+      "lineHeight": "75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.03
+     }
+    ],
+    "lg": [
+     {
+      "text": "DNS points to prohibited IP",
+      "tag": "h2",
+      "height": 39,
+      "width": 960,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(153, 153, 153)",
+      "border": "0px none rgb(153, 153, 153)",
+      "fontSize": "30px",
+      "fontWeight": "300",
+      "fontFamily": "system-ui",
+      "lineHeight": "39px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.37
+     },
+     {
+      "text": "What happened?",
+      "tag": "h2",
+      "height": 38,
+      "width": 480,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(64, 64, 64)",
+      "border": "0px none rgb(64, 64, 64)",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "37.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.03
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "You've requested a page on a w",
+      "tag": "p",
+      "height": 68,
+      "width": 480,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(64, 64, 64)",
+      "border": "0px none rgb(64, 64, 64)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.03
+     }
+    ],
+    "sm": [
+     {
+      "text": "Cloudflare Ray ID: a4e562b91a0",
+      "tag": "p",
+      "height": 16,
+      "width": 960,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(64, 64, 64)",
+      "border": "0px none rgb(64, 64, 64)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.03
+     }
+    ]
+   }
+  },
+  "divider": {
+   "label": "分割线",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "•",
+      "tag": "span",
+      "height": 16,
+      "width": 6,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(64, 64, 64)",
+      "border": "0px none rgb(64, 64, 64)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.03
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 154,
+   "heading": "Error\n                        1000",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "40px 0px 0px",
+   "children": 4
+  },
+  {
+   "tag": "section",
+   "height": 334,
+   "heading": "What happened?",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 10.37,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 18
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 5
+   },
+   {
+    "value": "0.2s",
+    "count": 2
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0, 0, 0.2, 1)",
+    "count": 4
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 3
+   },
+   {
+    "value": "background-color",
+    "count": 2
+   },
+   {
+    "value": "border-color",
+    "count": 2
+   }
+  ]
+ }
+}

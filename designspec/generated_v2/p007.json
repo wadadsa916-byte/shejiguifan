@@ -1,0 +1,1016 @@
+{
+ "id": "p007",
+ "overview": {
+  "name": "Jhey Tompkins",
+  "url": "https://jhey.dev/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://jhey.dev/",
+   "https://jhey.dev/index"
+  ],
+  "subpages": [
+   "/index"
+  ],
+  "sectionCount": 6,
+  "componentSamples": 32,
+  "typeSteps": 4
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#474747",
+    "value": "lch(29.9996 0.00565137 none)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 9.29
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 51
+   },
+   {
+    "hex": "#000000",
+    "count": 2
+   }
+  ],
+  "backgroundsTotal": 2,
+  "textTotal": 4,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "400",
+    "lineHeight": "15px",
+    "letterSpacing": "0.6px",
+    "family": "ui-monospace",
+    "count": 3,
+    "tags": [
+     "li"
+    ],
+    "samples": [
+     "© 2026 Jhey"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "18px",
+    "letterSpacing": "0.72px",
+    "family": "ui-monospace",
+    "count": 57,
+    "tags": [
+     "li",
+     "a",
+     "span",
+     "h2"
+    ],
+    "samples": [
+     "Index   \n·"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "300",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "ui-sans-serif",
+    "count": 2128,
+    "tags": [
+     "button",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "prototypes"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "300",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "ui-sans-serif",
+    "count": 1051,
+    "tags": [
+     "a",
+     "p",
+     "li"
+    ],
+    "samples": [
+     "jhey.dev"
+    ]
+   }
+  ],
+  "totalSteps": 8,
+  "families": [
+   "ui-monospace",
+   "ui-sans-serif"
+  ],
+  "weights": [
+   "300",
+   "400",
+   "500",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 25
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 2
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 2177
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 1
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 2
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 1
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 2
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 1
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 2
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 3
+   },
+   {
+    "value": "56px",
+    "px": 56.0,
+    "count": 1
+   },
+   {
+    "value": "80px",
+    "px": 80.0,
+    "count": 1
+   },
+   {
+    "value": "162.5px",
+    "px": 162.5,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "1392px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 51
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 2
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "98",
+    "count": 39
+   },
+   {
+    "value": "99",
+    "count": 6
+   },
+   {
+    "value": "97",
+    "count": 2
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Updated",
+      "tag": "button",
+      "height": 24,
+      "width": 67,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "oklab(0.39655 0.0000126809 0.00000911951 / 0.1)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "A–Z",
+      "tag": "button",
+      "height": 24,
+      "width": 39,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "12px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "prototypes",
+      "tag": "button",
+      "height": 28,
+      "width": 1424,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "14px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 7,
+   "sizeBuckets": {
+    "lg": 2,
+    "sm": 5
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "jhey.dev",
+      "tag": "a",
+      "height": 40,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Wait, how did you do that?",
+      "tag": "a",
+      "height": 42,
+      "width": 557,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "prototypes",
+      "tag": "a",
+      "height": 18,
+      "width": 78,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Index",
+      "tag": "a",
+      "height": 18,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(39.9995 0.00753517 none)",
+      "border": "0px solid lch(39.9995 0.00753517 none)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "18px",
+      "letterSpacing": "0.72px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Echo Fluid",
+      "tag": "a",
+      "height": 26,
+      "width": 400,
+      "padding": "4px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "18px",
+      "letterSpacing": "0.72px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "adore u, Fred again.., Obongja",
+      "tag": "a",
+      "height": 18,
+      "width": 556,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "18px",
+      "letterSpacing": "0.72px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Search content",
+      "tag": "input",
+      "height": 26,
+      "width": 1306,
+      "padding": "4px 24px 4px 8px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "1px solid oklab(0.39655 0.0000126809 0.00000911951 / 0.2)",
+      "fontSize": "12px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "jhey.dev",
+      "tag": "nav",
+      "height": 56,
+      "width": 56,
+      "padding": "8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Jhey Tompkins  \nDesigner · Eng",
+      "tag": "header",
+      "height": 139,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "prototypes           2026     ",
+      "tag": "nav",
+      "height": 614,
+      "width": 1424,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Jhey Tompkins",
+      "tag": "h1",
+      "height": 98,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "71.7344px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "71.7344px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Latest",
+      "tag": "h2",
+      "height": 18,
+      "width": 400,
+      "padding": "0px",
+      "margin": "0px 0px 6px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(39.9995 0.00753517 none)",
+      "border": "0px solid lch(39.9995 0.00753517 none)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "18px",
+      "letterSpacing": "0.72px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 2,
+   "sizeBuckets": {
+    "md": 1,
+    "xl": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Designer · Engineer · Tastemak",
+      "tag": "p",
+      "height": 32,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "16.2px",
+      "letterSpacing": "0.96px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Crafting interfaces, prototype",
+      "tag": "p",
+      "height": 72,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 2,
+    "xl": 2,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Index   \n·\n   Email   \n·\n   AM",
+      "tag": "ul",
+      "height": 18,
+      "width": 223,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(39.9995 0.00753517 none)",
+      "border": "0px solid lch(39.9995 0.00753517 none)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "18px",
+      "letterSpacing": "0.72px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "© 2026 Jhey Rev 176d17b  Viewp",
+      "tag": "ul",
+      "height": 15,
+      "width": 600,
+      "padding": "0px",
+      "margin": "32px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(45.9995 0.00866544 none)",
+      "border": "0px solid lch(45.9995 0.00866544 none)",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "15px",
+      "letterSpacing": "0.6px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px 20px",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Echo Fluid         Holo sticke",
+      "tag": "ol",
+      "height": 130,
+      "width": 400,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "prototypes           2026     ",
+      "tag": "ul",
+      "height": 614,
+      "width": 1424,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Globe      eatin’ roasties in ",
+      "tag": "ul",
+      "height": 42,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "18px",
+      "letterSpacing": "0.72px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px 40px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 9,
+   "sizeBuckets": {
+    "sm": 7,
+    "xl": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(39.9995 0.00753517 none)",
+      "border": "0px solid lch(39.9995 0.00753517 none)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "18px",
+      "letterSpacing": "0.72px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 12,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(39.9995 0.00753517 none)",
+      "border": "0px solid lch(39.9995 0.00753517 none)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "18px",
+      "letterSpacing": "0.72px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Globe",
+      "tag": "svg",
+      "height": 15,
+      "width": 15,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(39.9995 0.00753517 none)",
+      "border": "0px solid lch(39.9995 0.00753517 none)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "18px",
+      "letterSpacing": "0.72px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 98,
+      "width": 221,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "71.7344px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "71.7344px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Jhey Tompkins",
+      "tag": "svg",
+      "height": 123,
+      "width": 146,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lch(29.9996 0.00565137 none)",
+      "border": "0px solid lch(29.9996 0.00565137 none)",
+      "fontSize": "16px",
+      "fontWeight": "300",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "nav",
+   "height": 56,
+   "heading": null,
+   "background": "rgb(255, 255, 255)",
+   "padding": "8px",
+   "children": 1
+  },
+  {
+   "tag": "main",
+   "height": 285,
+   "heading": "Jhey Tompkins",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 139,
+   "heading": "Jhey Tompkins",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 183,
+   "heading": "Latest",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "footer",
+   "height": 89,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 42,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 21.0,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 18,
+  "tapTargetMedian": 26
+ }
+}

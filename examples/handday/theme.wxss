@@ -1,0 +1,306 @@
+/* ============================================================
+   指掌天下 · 订货商城小程序
+   提取自官网架构图界面 + DOM 计算样式交叉验证
+   ============================================================ */
+
+page {
+  /* ---------- 主色：实心蓝 ---------- */
+  --color-primary: #3461FF;          /* 标题栏、主按钮 */
+  --color-primary-alt: #4870F8;      /* 链接、图标、选中态 */
+  --color-primary-light: #E8F3FF;    /* 浅蓝卡片底 */
+
+  /* ---------- 强调色：橙 ---------- */
+  --color-accent: #ED7D31;           /* 促销、角标、TabBar 选中 */
+  --color-accent-hot: #F15A24;       /* 限时特价渐变右端 */
+  --color-accent-light: #FFF1E8;     /* 角标底、公告底 */
+
+  /* ---------- 背景 ---------- */
+  --color-bg-page: #F2F6FF;          /* 页面底，带淡蓝调 */
+  --color-bg-card: #FFFFFF;          /* 卡片、列表 */
+
+  /* ---------- 文字 ---------- */
+  --color-text: #111111;
+  --color-text-2: #666666;
+  --color-text-3: #999999;
+  --color-text-inverse: #FFFFFF;
+
+  /* ---------- 线与状态 ---------- */
+  --color-border: #E5E5E5;
+  --color-divider: #F0F0F0;
+  --color-danger: #E64340;
+  --color-success: #07C160;
+
+  /* ---------- 间距（8px 基准）---------- */
+  --space-xs: 8rpx;      /* 4px */
+  --space-sm: 16rpx;     /* 8px */
+  --space-md: 24rpx;     /* 12px */
+  --space-lg: 32rpx;     /* 16px */
+  --space-xl: 40rpx;     /* 20px */
+  --space-2xl: 48rpx;    /* 24px */
+
+  /* ---------- 圆角 ---------- */
+  --radius-sm: 8rpx;     /* 4px */
+  --radius-md: 16rpx;    /* 8px */
+  --radius-lg: 30rpx;    /* 15px */
+  --radius-full: 9999rpx;
+
+  /* ---------- 字号 ---------- */
+  --font-title: 34rpx;   /* 17px */
+  --font-h2: 32rpx;      /* 16px */
+  --font-body: 32rpx;    /* 16px */
+  --font-body-sm: 28rpx; /* 14px */
+  --font-caption: 24rpx; /* 12px */
+  --font-micro: 20rpx;   /* 10px */
+
+  /* ---------- 组件尺寸 ---------- */
+  --navbar-height: 88rpx;
+  --tabbar-height: 100rpx;
+  --search-height: 72rpx;
+  --notice-height: 64rpx;
+  --btn-height: 88rpx;
+}
+
+/* ============================================================
+   页面底
+   ============================================================ */
+page {
+  background: var(--color-bg-page);
+  color: var(--color-text);
+  font-size: var(--font-body);
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC',
+               'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============================================================
+   标题栏：实心蓝 + 白字 + 底部圆角
+   ============================================================ */
+.navbar {
+  height: var(--navbar-height);
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-title);
+  font-weight: 600;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  padding-top: var(--status-bar-height, 44px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* ============================================================
+   店铺信息条
+   ============================================================ */
+.shop-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-md);
+  background: var(--color-bg-card);
+}
+.shop-name {
+  font-size: var(--font-h2);
+  font-weight: 600;
+  color: var(--color-text);
+}
+.shop-badge {
+  padding: 2rpx 10rpx;
+  border-radius: var(--radius-sm);
+  background: var(--color-accent-light);
+  color: var(--color-accent);
+  font-size: var(--font-micro);
+}
+.shop-actions {
+  margin-left: auto;
+  display: flex;
+  gap: var(--space-md);
+}
+
+/* ============================================================
+   搜索框：左侧扫码图标
+   ============================================================ */
+.search {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  height: var(--search-height);
+  margin: 0 var(--space-md) var(--space-md);
+  padding: 0 var(--space-md);
+  background: var(--color-primary-light);
+  border-radius: var(--radius-md);
+}
+.search input {
+  flex: 1;
+  border: 0;
+  background: none;
+  outline: none;
+  font-size: var(--font-body-sm);
+  color: var(--color-text);
+}
+.search input::placeholder {
+  color: var(--color-text-3);
+}
+
+/* ============================================================
+   公告条：浅橙底 + 橙字
+   ============================================================ */
+.notice {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  height: var(--notice-height);
+  margin: 0 var(--space-md) var(--space-md);
+  padding: 0 var(--space-sm);
+  background: var(--color-accent-light);
+  border-radius: var(--radius-sm);
+  color: var(--color-accent);
+  font-size: var(--font-caption);
+}
+
+/* ============================================================
+   分类网格：4 列，照片 + 两行标签
+   ============================================================ */
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-lg) var(--space-md);
+  padding: var(--space-md);
+  background: var(--color-bg-card);
+}
+.cat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+  border: 0;
+  background: none;
+  padding: 0;
+  font-family: inherit;
+}
+.cat-thumb {
+  width: 112rpx;
+  height: 112rpx;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+  background: var(--color-primary-light);
+}
+.cat-label {
+  font-size: var(--font-caption);
+  line-height: 1.33;
+  color: var(--color-text);
+  text-align: center;
+  max-width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* ============================================================
+   限时特价条：橙红渐变 + 大圆角
+   ============================================================ */
+.promo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  height: 88rpx;
+  margin: var(--space-md);
+  padding: 0 var(--space-md);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(90deg, var(--color-accent), var(--color-accent-hot));
+  color: var(--color-text-inverse);
+  font-size: var(--font-body-sm);
+  font-weight: 600;
+}
+
+/* ============================================================
+   登录浮条：黑底半透明 + 橙色按钮
+   ============================================================ */
+.login-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: var(--tabbar-height);
+  height: 80rpx;
+  padding: 0 var(--space-md);
+  background: rgba(0, 0, 0, 0.72);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: var(--color-text-inverse);
+  font-size: var(--font-caption);
+  z-index: 90;
+}
+.login-btn {
+  margin-left: auto;
+  height: 56rpx;
+  padding: 0 var(--space-lg);
+  border-radius: var(--radius-sm);
+  background: var(--color-accent);
+  color: var(--color-text-inverse);
+  font-size: var(--font-caption);
+  border: 0;
+}
+
+/* ============================================================
+   TabBar：选中态用橙色
+   ============================================================ */
+.tabbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--tabbar-height);
+  padding-bottom: env(safe-area-inset-bottom);
+  background: var(--color-bg-card);
+  border-top: 1rpx solid var(--color-divider);
+  display: flex;
+  z-index: 95;
+}
+.tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rpx;
+  border: 0;
+  background: none;
+  font-size: var(--font-micro);
+  color: var(--color-text-3);
+}
+.tab.active {
+  color: var(--color-accent);
+}
+
+/* 内容区要留出登录条 + TabBar 的高度 */
+.page-with-bars {
+  padding-bottom: calc(var(--tabbar-height) + 80rpx + env(safe-area-inset-bottom));
+}
+
+/* ============================================================
+   按钮
+   ============================================================ */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--btn-height);
+  border-radius: var(--radius-md);
+  font-size: var(--font-body);
+  font-weight: 500;
+  border: 0;
+}
+.btn::after { border: none; }
+
+.btn-primary { background: var(--color-primary); color: #fff; }
+.btn-accent  { background: var(--color-accent);  color: #fff; }
+.btn-outline {
+  background: transparent;
+  color: var(--color-primary);
+  box-shadow: inset 0 0 0 1rpx var(--color-primary);
+}

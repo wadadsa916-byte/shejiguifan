@@ -1,0 +1,3355 @@
+{
+ "id": "t262",
+ "overview": {
+  "name": "Spline",
+  "url": "https://spline.design/",
+  "section": "界面设计",
+  "pagesScanned": [
+   "https://spline.design/",
+   "https://spline.design/pricing",
+   "https://spline.design/enterprise",
+   "https://spline.design/customers"
+  ],
+  "subpages": [
+   "/pricing",
+   "/enterprise",
+   "/customers"
+  ],
+  "sectionCount": 17,
+  "componentSamples": 174,
+  "typeSteps": 34
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": "--color-bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 21.0
+   },
+   "primary": {
+    "hex": "#008761",
+    "value": "#008761",
+    "token": "--color-super-darker",
+    "source": "palette",
+    "contrastOnBg": 4.64
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 95
+   },
+   {
+    "hex": "#191a1d",
+    "count": 26
+   },
+   {
+    "hex": "#0062ff",
+    "count": 21
+   },
+   {
+    "hex": "#000000",
+    "count": 14
+   },
+   {
+    "hex": "#5267ff",
+    "count": 2
+   },
+   {
+    "hex": "#3a3a3a",
+    "count": 1
+   },
+   {
+    "hex": "#915dff",
+    "count": 1
+   },
+   {
+    "hex": "#f6f9fc",
+    "count": 52
+   },
+   {
+    "hex": "#ffa658",
+    "count": 9
+   },
+   {
+    "hex": "#569cd6",
+    "count": 5
+   }
+  ],
+  "backgroundsTotal": 13,
+  "textTotal": 20,
+  "bordersTotal": 4
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 26,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "@DesignGabor"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 52,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Give life to your 3D Projects with 3D an"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "3D Design"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 150,
+    "tags": [
+     "span",
+     "p",
+     "a"
+    ],
+    "samples": [
+     "Learn more"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 33,
+    "tags": [
+     "span",
+     "button",
+     "a"
+    ],
+    "samples": [
+     "Real-time rendering"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 23,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "<!-- Import Spline Viewer -->"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 30,
+    "tags": [
+     "li",
+     "label"
+    ],
+    "samples": [
+     "Custom requests / month"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 27,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Interactive Websites"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 17,
+    "tags": [
+     "a",
+     "h3"
+    ],
+    "samples": [
+     "Explore Community"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 16,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Save $36/seat/yr · 2 months free"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "18.5px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 93,
+    "tags": [
+     "li",
+     "button",
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Products"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 49,
+    "tags": [
+     "span",
+     "p"
+    ],
+    "samples": [
+     "Andrew Pons,"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 8,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Log In"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 61,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Library"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 44,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Get Started"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 5,
+    "tags": [
+     "h4"
+    ],
+    "samples": [
+     "Usage"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 13,
+    "tags": [
+     "h4"
+    ],
+    "samples": [
+     "Features Involved"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "700",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 5,
+    "tags": [
+     "strong"
+    ],
+    "samples": [
+     "$0"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 22,
+    "tags": [
+     "p",
+     "h3",
+     "span"
+    ],
+    "samples": [
+     "Create 3D with AI or build with direct c"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "27px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 6,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Superpower your team to deliver producti"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 12,
+    "tags": [
+     "li"
+    ],
+    "samples": [
+     "ISO 27001 & SOC 2 Compliance"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 11,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Community Platform"
+    ]
+   },
+   {
+    "size": "18.5px",
+    "px": 18.5,
+    "weight": "500",
+    "lineHeight": "21.5px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 3,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "SOC 2"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 7,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "$15"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "500",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 8,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Express your creativity in 3D"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 10,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "Can I use Spline for free?"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "500",
+    "lineHeight": "40px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 5,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Free"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "700",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 6,
+    "tags": [
+     "h4",
+     "span"
+    ],
+    "samples": [
+     "3D Editor"
+    ]
+   },
+   {
+    "size": "22px",
+    "px": 22.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 13,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Oscilar Branding"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "400",
+    "lineHeight": "36px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 9,
+    "tags": [
+     "h2",
+     "span"
+    ],
+    "samples": [
+     "\"We wanted to appeal to an enterprise au"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 3,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Designs tailored to your needs"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "500",
+    "lineHeight": "44px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 28,
+    "tags": [
+     "h2",
+     "span"
+    ],
+    "samples": [
+     "A complete platform for real-time intera"
+    ]
+   },
+   {
+    "size": "40px",
+    "px": 40.0,
+    "weight": "500",
+    "lineHeight": "54px",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 2,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Design. Collaborate. Ship."
+    ]
+   },
+   {
+    "size": "40px",
+    "px": 40.0,
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "Spline Sans",
+    "count": 5,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "Pricing"
+    ]
+   }
+  ],
+  "totalSteps": 38,
+  "families": [
+   "Spline Sans",
+   "ui-monospace"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 148
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 12
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 17
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 291
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 139
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 366
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 4
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 25
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 412
+   },
+   {
+    "value": "17px",
+    "px": 17.0,
+    "count": 25
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 55
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 148
+   },
+   {
+    "value": "25px",
+    "px": 25.0,
+    "count": 8
+   },
+   {
+    "value": "26px",
+    "px": 26.0,
+    "count": 3
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 229
+   },
+   {
+    "value": "30px",
+    "px": 30.0,
+    "count": 4
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1080px",
+    "count": 29
+   },
+   {
+    "value": "700px",
+    "count": 14
+   },
+   {
+    "value": "666px",
+    "count": 8
+   },
+   {
+    "value": "500px",
+    "count": 5
+   },
+   {
+    "value": "460px",
+    "count": 5
+   },
+   {
+    "value": "650px",
+    "count": 5
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 1
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 38
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 43
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 197
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 4
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 9
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 3
+   },
+   {
+    "value": "50%",
+    "px": 50,
+    "count": 46
+   },
+   {
+    "value": "50px",
+    "px": 50.0,
+    "count": 8
+   },
+   {
+    "value": "56px",
+    "px": 56.0,
+    "count": 4
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(15, 16, 16, 0.05) 0px 4px 32px 0px",
+    "count": 52
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset",
+    "count": 9
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset",
+    "count": 4
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.06) 0px 0px 0px 1px inset",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.1) 0px 2px 8px 0px, rgba(255, 255, 255, 0.1) 0px 1px 0px 0px inset",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "0",
+    "count": 17
+   },
+   {
+    "value": "2",
+    "count": 13
+   },
+   {
+    "value": "200",
+    "count": 11
+   },
+   {
+    "value": "10",
+    "count": 6
+   },
+   {
+    "value": "150",
+    "count": 5
+   },
+   {
+    "value": "4",
+    "count": 4
+   },
+   {
+    "value": "9999",
+    "count": 4
+   },
+   {
+    "value": "160",
+    "count": 3
+   },
+   {
+    "value": "1",
+    "count": 2
+   },
+   {
+    "value": "3",
+    "count": 2
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 22,
+   "sizeBuckets": {
+    "lg": 6,
+    "sm": 2,
+    "md": 1,
+    "xl": 13
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Products",
+      "tag": "button",
+      "height": 38,
+      "width": 101,
+      "padding": "10px 5px 10px 10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.7)",
+      "border": "0px none rgba(255, 255, 255, 0.7)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "capitalize",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "4px",
+      "contrast": 21
+     },
+     {
+      "text": "Log InGet Started",
+      "tag": "div",
+      "height": 42,
+      "width": 202,
+      "padding": "0px",
+      "margin": "0px 0px 0px 64px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "capitalize",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 21
+     },
+     {
+      "text": "Learn more",
+      "tag": "a",
+      "height": 40,
+      "width": 138,
+      "padding": "10px 20px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(255, 255, 255, 0.15)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.2s ease-in-out",
+      "gap": "10px",
+      "contrast": 1
+     },
+     {
+      "text": "Copy Code",
+      "tag": "button",
+      "height": 40,
+      "width": 238,
+      "padding": "12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(255, 255, 255, 0.1)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "0px none rgba(255, 255, 255, 0.9)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "16.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "8px",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "More options",
+      "tag": "button",
+      "height": 28,
+      "width": 28,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.52)",
+      "border": "0px none rgba(255, 255, 255, 0.52)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.15s, color 0.15s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 28,
+      "width": 25,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "Send",
+      "tag": "button",
+      "height": 32,
+      "width": 33,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(255, 255, 255, 0.08)",
+      "color": "rgba(255, 255, 255, 0.7)",
+      "border": "0px none rgba(255, 255, 255, 0.7)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.15s, color 0.15s",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "Webflow",
+      "tag": "button",
+      "height": 96,
+      "width": 114,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(255, 255, 255, 0.1)",
+      "color": "rgba(255, 255, 255, 0.8)",
+      "border": "0px none rgba(255, 255, 255, 0.8)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "12px",
+      "contrast": 1
+     },
+     {
+      "text": "Framer",
+      "tag": "button",
+      "height": 96,
+      "width": 114,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "12px",
+      "contrast": 21
+     },
+     {
+      "text": "Upgrade",
+      "tag": "a",
+      "height": 50,
+      "width": 284,
+      "padding": "12px 16px",
+      "margin": "0px 0px 32px",
+      "radius": "12px",
+      "background": "rgba(255, 255, 255, 0.1)",
+      "color": "rgba(255, 255, 255, 0.8)",
+      "border": "1px solid rgba(255, 255, 255, 0.05)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Upgrade",
+      "tag": "a",
+      "height": 50,
+      "width": 283,
+      "padding": "12px 16px",
+      "margin": "0px 0px 32px",
+      "radius": "12px",
+      "background": "rgb(82, 103, 255)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.1)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s",
+      "gap": "normal",
+      "contrast": 4.43
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 24,
+   "sizeBuckets": {
+    "md": 1,
+    "lg": 7,
+    "xl": 12,
+    "sm": 4
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "capitalize",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "lg": [
+     {
+      "text": "Customers",
+      "tag": "a",
+      "height": 38,
+      "width": 100,
+      "padding": "10px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.7)",
+      "border": "0px none rgba(255, 255, 255, 0.7)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "capitalize",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Log In",
+      "tag": "a",
+      "height": 42,
+      "width": 77,
+      "padding": "10px 16px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgba(255, 255, 255, 0.05)",
+      "color": "rgba(255, 255, 255, 0.7)",
+      "border": "1px solid rgba(255, 255, 255, 0.05)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "capitalize",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Get Started",
+      "tag": "a",
+      "height": 40,
+      "width": 117,
+      "padding": "10px 16px",
+      "margin": "0px",
+      "radius": "50px",
+      "background": "rgba(255, 255, 255, 0.2)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "capitalize",
+      "shadow": "none",
+      "transition": "background-color 0.2s",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Learn more",
+      "tag": "a",
+      "height": 40,
+      "width": 138,
+      "padding": "10px 20px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(255, 255, 255, 0.15)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background 0.2s ease-in-out",
+      "gap": "10px",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "Interactive Websites@DesignGab",
+      "tag": "a",
+      "height": 202,
+      "width": 240,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Read story \"I wanted to do som",
+      "tag": "a",
+      "height": 388,
+      "width": 344,
+      "padding": "40px",
+      "margin": "0px",
+      "radius": "16px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.1)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "LibraryExplore library files.",
+      "tag": "a",
+      "height": 161,
+      "width": 252,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Get started — it's free",
+      "tag": "a",
+      "height": 52,
+      "width": 241,
+      "padding": "16px 24px",
+      "margin": "40px 419.406px 0px 419.391px",
+      "radius": "12px",
+      "background": "rgb(0, 98, 255)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "10px",
+      "contrast": 5.01
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 19,
+      "width": 50,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "3D Design",
+      "tag": "a",
+      "height": 20,
+      "width": 164,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 28,
+      "width": 25,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Trust Center",
+      "tag": "a",
+      "height": 19,
+      "width": 89,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 5,
+   "sizeBuckets": {
+    "lg": 4,
+    "xl": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "",
+      "tag": "textarea",
+      "height": 40,
+      "width": 572,
+      "padding": "2px 8px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "2,000 monthly credits · Includ",
+      "tag": "select",
+      "height": 42,
+      "width": 284,
+      "padding": "8px 26px 8px 10px",
+      "margin": "0px 0px 16px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "1px solid rgba(255, 255, 255, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "input",
+      "height": 40,
+      "width": 209,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(255, 255, 255, 0.05)",
+      "color": "rgba(255, 255, 255, 0.8)",
+      "border": "0px none rgba(255, 255, 255, 0.8)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Pick a use case...Interactive ",
+      "tag": "select",
+      "height": 40,
+      "width": 434,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(255, 255, 255, 0.05)",
+      "color": "rgba(255, 255, 255, 0.4)",
+      "border": "0px none rgba(255, 255, 255, 0.4)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "textarea",
+      "height": 120,
+      "width": 434,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(255, 255, 255, 0.05)",
+      "color": "rgba(255, 255, 255, 0.8)",
+      "border": "0px none rgba(255, 255, 255, 0.8)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 6,
+   "sizeBuckets": {
+    "xl": 6
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Interactive Websites@DesignGab",
+      "tag": "div",
+      "height": 202,
+      "width": 240,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Express your creativity in 3DF",
+      "tag": "div",
+      "height": 400,
+      "width": 596,
+      "padding": "40px",
+      "margin": "0px",
+      "radius": "24px",
+      "background": "rgba(255, 255, 255, 0.08)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Express your creativity in 3DF",
+      "tag": "div",
+      "height": 218,
+      "width": 516,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Layer-based materialsCreate un",
+      "tag": "div",
+      "height": 86,
+      "width": 380,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Products Resources Community C",
+      "tag": "header",
+      "height": 56,
+      "width": 1220,
+      "padding": "0px",
+      "margin": "30px 110px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Products Resources Community C",
+      "tag": "ul",
+      "height": 56,
+      "width": 992,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "56px",
+      "background": "rgba(0, 0, 0, 0.8)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 838,
+      "width": 130,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 84,
+      "width": 80,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Get started — it's free",
+      "tag": "a",
+      "height": 52,
+      "width": 241,
+      "padding": "16px 24px",
+      "margin": "40px 419.406px 0px 419.391px",
+      "radius": "12px",
+      "background": "rgb(0, 98, 255)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "10px",
+      "contrast": 5.01
+     },
+     {
+      "text": "SOC 2 SOC 2 is a leading secur",
+      "tag": "div",
+      "height": 349,
+      "width": 1080,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "24px",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "Popular",
+      "tag": "div",
+      "height": 27,
+      "width": 65,
+      "padding": "6px 10px",
+      "margin": "0px 0px 0px 4px",
+      "radius": "99px",
+      "background": "rgba(82, 103, 255, 0.2)",
+      "color": "rgb(151, 165, 255)",
+      "border": "0px none rgb(151, 165, 255)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "14.95px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.93
+     },
+     {
+      "text": "Designs tailored to your needs",
+      "tag": "li",
+      "height": 20,
+      "width": 252,
+      "padding": "0px 0px 0px 20px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 162, 86)",
+      "border": "0px none rgb(255, 162, 86)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.55
+     },
+     {
+      "text": "Spline Expert Partners",
+      "tag": "li",
+      "height": 20,
+      "width": 209,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 166, 88)",
+      "border": "0px none rgb(255, 166, 88)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 10.85
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 22,
+   "sizeBuckets": {
+    "xl": 7,
+    "sm": 11,
+    "md": 2,
+    "lg": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Make anything 3D",
+      "tag": "h1",
+      "height": 48,
+      "width": 700,
+      "padding": "0px 24px",
+      "margin": "0px 370px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "38.4px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "48px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "A complete platform for real-t",
+      "tag": "h2",
+      "height": 88,
+      "width": 460,
+      "padding": "0px",
+      "margin": "0px 470px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "0px none rgba(255, 255, 255, 0.9)",
+      "fontSize": "36px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "\"We wanted to appeal to an ent",
+      "tag": "h2",
+      "height": 144,
+      "width": 500,
+      "padding": "0px",
+      "margin": "0px 290px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Ship real-time experiences to ",
+      "tag": "h2",
+      "height": 88,
+      "width": 550,
+      "padding": "0px",
+      "margin": "0px 265px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "0px none rgba(255, 255, 255, 0.9)",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "27.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "Interactive Websites",
+      "tag": "h3",
+      "height": 24,
+      "width": 133,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "0px none rgba(255, 255, 255, 0.9)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Empowering individuals and tea",
+      "tag": "h3",
+      "height": 28,
+      "width": 800,
+      "padding": "0px",
+      "margin": "0px 140px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "0px none rgba(255, 255, 255, 0.9)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Community Platform",
+      "tag": "h3",
+      "height": 28,
+      "width": 270,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "0px none rgba(255, 255, 255, 0.9)",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Library",
+      "tag": "h3",
+      "height": 24,
+      "width": 52,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "0px none rgba(255, 255, 255, 0.9)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "Express your creativity in 3D",
+      "tag": "h3",
+      "height": 30,
+      "width": 516,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "0px none rgba(255, 255, 255, 0.9)",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "SOC 2",
+      "tag": "h3",
+      "height": 29,
+      "width": 264,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "0px none rgba(255, 255, 255, 0.9)",
+      "fontSize": "18.72px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "21.528px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 21
+     }
+    ],
+    "lg": [
+     {
+      "text": "Getting started with Spline",
+      "tag": "h2",
+      "height": 44,
+      "width": 650,
+      "padding": "0px",
+      "margin": "0px 215px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "0px none rgba(255, 255, 255, 0.9)",
+      "fontSize": "36px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Free",
+      "tag": "h3",
+      "height": 40,
+      "width": 195,
+      "padding": "0px",
+      "margin": "20px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "0px none rgba(255, 255, 255, 0.9)",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 19,
+   "sizeBuckets": {
+    "sm": 7,
+    "xl": 10,
+    "lg": 1,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Create 3D with AI or build wit",
+      "tag": "p",
+      "height": 28,
+      "width": 500,
+      "padding": "0px 24px",
+      "margin": "0px 470px 28px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.7)",
+      "border": "0px none rgba(255, 255, 255, 0.7)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Get started by remixing a 3D d",
+      "tag": "p",
+      "height": 28,
+      "width": 666,
+      "padding": "0px",
+      "margin": "12px 367px 40px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "@DesignGabor",
+      "tag": "p",
+      "height": 16,
+      "width": 133,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Familiar design tools, and you",
+      "tag": "p",
+      "height": 24,
+      "width": 516,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "Supercharge your team to deliv",
+      "tag": "p",
+      "height": 56,
+      "width": 666,
+      "padding": "0px",
+      "margin": "12px 207px 40px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Familiar design tools to help ",
+      "tag": "p",
+      "height": 48,
+      "width": 340,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Design interactive and animate",
+      "tag": "p",
+      "height": 72,
+      "width": 300,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Superpower your team to delive",
+      "tag": "p",
+      "height": 54,
+      "width": 508,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.6)",
+      "border": "0px none rgba(255, 255, 255, 0.6)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "lg": [
+     {
+      "text": "Explore and remix designs made",
+      "tag": "p",
+      "height": 40,
+      "width": 270,
+      "padding": "0px",
+      "margin": "8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(136, 136, 136)",
+      "border": "0px none rgb(136, 136, 136)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.92
+     }
+    ],
+    "md": [
+     {
+      "text": "Give life to your 3D Projects ",
+      "tag": "p",
+      "height": 36,
+      "width": 154,
+      "padding": "0px",
+      "margin": "4px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(246, 249, 252, 0.5)",
+      "border": "0px none rgba(246, 249, 252, 0.5)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 19.87
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 9,
+   "sizeBuckets": {
+    "xl": 8,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Products Resources Community C",
+      "tag": "ul",
+      "height": 56,
+      "width": 992,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "56px",
+      "background": "rgba(0, 0, 0, 0.8)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Unlimited 3D & 2D filesUpload ",
+      "tag": "ul",
+      "height": 52,
+      "width": 284,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "No watermark on web exportsHig",
+      "tag": "ul",
+      "height": 84,
+      "width": 284,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Unlimited scenes per fileApple",
+      "tag": "ul",
+      "height": 148,
+      "width": 283,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "No watermark on web embeds",
+      "tag": "ul",
+      "height": 20,
+      "width": 283,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 11,
+   "sizeBuckets": {
+    "xl": 8,
+    "sm": 2,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "FreeHobbyProMaxEnterpriseFree$",
+      "tag": "div",
+      "height": 2843,
+      "width": 1280,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Free$0 / monthStart for freeHo",
+      "tag": "div",
+      "height": 218,
+      "width": 1248,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Start for free",
+      "tag": "a",
+      "height": 54,
+      "width": 171,
+      "padding": "15px 32px 17px",
+      "margin": "0px 12px",
+      "radius": "12px",
+      "background": "rgba(255, 255, 255, 0.1)",
+      "color": "rgba(255, 255, 255, 0.8)",
+      "border": "1px solid rgba(255, 255, 255, 0.05)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Upgrade",
+      "tag": "a",
+      "height": 54,
+      "width": 171,
+      "padding": "15px 32px 17px",
+      "margin": "0px 12px",
+      "radius": "12px",
+      "background": "rgb(82, 103, 255)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.1)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s",
+      "gap": "normal",
+      "contrast": 4.43
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 17,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px 16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "0px none rgba(255, 255, 255, 0.9)",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 24,
+      "width": 1248,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 30,
+      "width": 1248,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 4,
+   "sizeBuckets": {
+    "lg": 3,
+    "sm": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "2,000 monthly credits · Includ",
+      "tag": "select",
+      "height": 42,
+      "width": 284,
+      "padding": "8px 26px 8px 10px",
+      "margin": "0px 0px 16px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.9)",
+      "border": "1px solid rgba(255, 255, 255, 0.1)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Pick a use case...Interactive ",
+      "tag": "div",
+      "height": 40,
+      "width": 434,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.8)",
+      "border": "0px none rgba(255, 255, 255, 0.8)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Pick a use case...Interactive ",
+      "tag": "select",
+      "height": 40,
+      "width": 434,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(255, 255, 255, 0.05)",
+      "color": "rgba(255, 255, 255, 0.4)",
+      "border": "0px none rgba(255, 255, 255, 0.4)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "6px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.8)",
+      "border": "0px none rgba(255, 255, 255, 0.8)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "avatar": {
+   "label": "头像",
+   "count": 2,
+   "sizeBuckets": {
+    "md": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "img",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px 12px 0px 0px",
+      "radius": "50%",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 41,
+   "sizeBuckets": {
+    "sm": 27,
+    "md": 7,
+    "lg": 1,
+    "xl": 6
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.7)",
+      "border": "0px none rgba(255, 255, 255, 0.7)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "capitalize",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.52)",
+      "border": "0px none rgba(255, 255, 255, 0.52)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 26,
+      "width": 83,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgba(255, 255, 255, 0.1)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 31,
+      "width": 88,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 29,
+      "width": 115,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.8)",
+      "border": "0px none rgba(255, 255, 255, 0.8)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 37,
+      "width": 100,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 49,
+      "width": 50,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 72,
+      "width": 72,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgba(255, 255, 255, 0.08)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 56,
+      "width": 56,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 64,
+      "width": 64,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "16px",
+      "background": "rgba(255, 255, 255, 0.05)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Spline Sans",
+      "lineHeight": "18.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 56,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "nav",
+   "height": 56,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "main",
+   "height": 11401,
+   "heading": "Make anything 3D",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 12
+  },
+  {
+   "tag": "section",
+   "height": 813,
+   "heading": "Make anything 3D",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 620,
+   "heading": "A complete platform for real-time interactive desi",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 628,
+   "heading": "Empowering individuals and teams at world’s leadin",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "180px 0px 56px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1155,
+   "heading": "Where ideas become production-ready experiences",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "150px 0px 180px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 424,
+   "heading": "\"We wanted to appeal to an enterprise audience. Th",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 0px 180px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 2017,
+   "heading": "Agentic 3D Design, ready for production",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "150px 0px 56px",
+   "children": 6
+  },
+  {
+   "tag": "section",
+   "height": 548,
+   "heading": "\"With Spline, we can create interactive 3D objects",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "124px 0px 180px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 2017,
+   "heading": "Hana – a canvas for interactive design",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "150px 0px 56px",
+   "children": 6
+  },
+  {
+   "tag": "section",
+   "height": 1094,
+   "heading": "Ship real-time experiences to the Web, iOS and And",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "150px 0px 56px",
+   "children": 5
+  },
+  {
+   "tag": "section",
+   "height": 722,
+   "heading": "Loved by innovative teams around the world",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "150px 0px 56px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 983,
+   "heading": "Getting started with Spline",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "150px 0px 56px",
+   "children": 4
+  },
+  {
+   "tag": "section",
+   "height": 340,
+   "heading": "Design. Collaborate. Ship.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "128px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "footer",
+   "height": 546,
+   "heading": "Products",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 444,
+   "heading": "Products",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 21.0,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 19,
+  "tapTargetMedian": 48
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.2s",
+    "count": 141
+   },
+   {
+    "value": "0.15s",
+    "count": 5
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease-out",
+    "count": 26
+   },
+   {
+    "value": "ease-in-out",
+    "count": 11
+   },
+   {
+    "value": "ease",
+    "count": 4
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 77
+   },
+   {
+    "value": "transform",
+    "count": 26
+   },
+   {
+    "value": "opacity",
+    "count": 11
+   },
+   {
+    "value": "background-color",
+    "count": 4
+   },
+   {
+    "value": "background",
+    "count": 4
+   },
+   {
+    "value": "box-shadow",
+    "count": 1
+   }
+  ]
+ }
+}

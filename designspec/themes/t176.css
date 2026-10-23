@@ -1,0 +1,39 @@
+/* Uiuno — https://uiuno.com/ */
+/* 语义映射自动生成，值来自运行态实测；token 名仅供参考 */
+:root {
+  --color-bg: lab(96.0988 -0.493258 1.82395);  /* measured */
+  --color-text: lab(2.93655 -0.435196 -0.608262);  /* measured */
+  --color-primary: #fef2c0;  /* palette: --sp-colors-warningSurface */
+  --color-warning: #6a4516;  /* css-var: --sp-colors-warning */
+  --color-danger: #ea3323;  /* css-var: --sp-colors-error */
+  --radius-xs: 4px;
+  --radius-sm: 7.5px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 1.75rem;
+  --space-10: 32px;
+  --space-12: 36px;
+  --space-16: 2.375rem;
+  --text-xs: .75rem;
+  --text-sm: 14px;
+  --text-base: 1.125rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --duration-fastest: .15s;
+  --duration-fast: 1.25s;
+  --ease-1: cubic-bezier(0, 0, .2, 1);
+  --ease-2: cubic-bezier(.4, 0, .2, 1);
+  --shadow-1: 0 1px 2px #00000026;
+  --shadow-2: color-mix(in oklab, lab(3.26204% -.309289 1.13377) 5%, transparent);
+  --shadow-3: color-mix(in oklab, lab(10.5512% -1.19986 4.84231) 20%, transparent);
+  --shadow-4: 0 0 #0000;
+  --shadow-5: inset 0 1px #fff8, inset 0 0 1px 1px #fff8, 0 .5px 1px #0001, 0 0 1px .5px #0002, 0 0 4px -1px #0002;
+  --shadow-6: inset 0 1px #fff8, inset 0 0 1px 1px #fff8, 0 0 1px #0002, 0 0 3px -1px #0002;
+  --font-sans: sansFont, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-size-base: 16px;
+  --line-height-base: 24px;
+}

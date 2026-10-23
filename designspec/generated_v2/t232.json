@@ -1,0 +1,1334 @@
+{
+ "id": "t232",
+ "overview": {
+  "name": "HyperFrames",
+  "url": "https://www.hyperframes.dev/",
+  "section": "智能体与 MCP",
+  "pagesScanned": [
+   "https://www.hyperframes.dev/"
+  ],
+  "subpages": [],
+  "sectionCount": 6,
+  "componentSamples": 28,
+  "typeSteps": 14
+ },
+ "colors": {
+  "roles": {
+   "border": {
+    "hex": "#e0dfdb",
+    "value": "#e0dfdb",
+    "token": "--border",
+    "source": "css-var",
+    "contrastOnBg": 1.16
+   },
+   "foreground": {
+    "hex": "#0a0a0a",
+    "value": "#0a0a0a",
+    "token": "--foreground",
+    "source": "css-var",
+    "contrastOnBg": 17.19
+   },
+   "muted": {
+    "hex": "#f0efe9",
+    "value": "#f0efe9",
+    "token": "--muted",
+    "source": "css-var",
+    "contrastOnBg": 1.0
+   },
+   "primary": {
+    "hex": "#3ce6ac",
+    "value": "#3ce6ac",
+    "token": "--primary",
+    "source": "css-var",
+    "contrastOnBg": 1.39
+   },
+   "background": {
+    "hex": "#f0efe9",
+    "value": "#f0efe9",
+    "token": "--surface",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "danger": {
+    "hex": "#dc2626",
+    "value": "#dc2626",
+    "token": "--destructive",
+    "source": "css-var",
+    "contrastOnBg": 4.19
+   },
+   "focus": {
+    "hex": "#3ce6ac",
+    "value": "#3ce6ac",
+    "token": "--ring",
+    "source": "css-var",
+    "contrastOnBg": 1.39
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 4
+   },
+   {
+    "hex": "#131109",
+    "count": 2
+   },
+   {
+    "hex": "#f6f5f1",
+    "count": 1
+   },
+   {
+    "hex": "#f7ecd3",
+    "count": 1
+   },
+   {
+    "hex": "#3ce6ac",
+    "count": 1
+   },
+   {
+    "hex": "#f3ead4",
+    "count": 1
+   },
+   {
+    "hex": "#f4f1ea",
+    "count": 13
+   },
+   {
+    "hex": "#0a0a0a",
+    "count": 10
+   }
+  ],
+  "backgroundsTotal": 8,
+  "textTotal": 6,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "TT Norms Pro",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Community"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "-0.36px",
+    "family": "Studio TT Norms",
+    "count": 3,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Universal"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Studio TT Norms",
+    "count": 2,
+    "tags": [
+     "p",
+     "a"
+    ],
+    "samples": [
+     "Not sure? Apple menu > About This Mac: C"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 2,
+    "tags": [
+     "button",
+     "code"
+    ],
+    "samples": [
+     "npx skills add heygen-com/hyperframes"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "-0.1512px",
+    "family": "Studio TT Norms",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "GitHub stars"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Studio TT Norms",
+    "count": 4,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "69.3kGitHub stars"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "700",
+    "lineHeight": "25.5px",
+    "letterSpacing": "-0.34px",
+    "family": "Studio TT Norms",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Apple Silicon"
+    ]
+   },
+   {
+    "size": "17.5px",
+    "px": 17.5,
+    "weight": "400",
+    "lineHeight": "23.5px",
+    "letterSpacing": "-0.3456px",
+    "family": "Studio TT Norms",
+    "count": 3,
+    "tags": [
+     "p",
+     "a"
+    ],
+    "samples": [
+     "Access HyperFrames Studio on desktop."
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "-0.36px",
+    "family": "Studio TT Norms",
+    "count": 18,
+    "tags": [
+     "li",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "macOSApple SiliconIntelUniversal"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "400",
+    "lineHeight": "39.5px",
+    "letterSpacing": "-1.26px",
+    "family": "Studio TT Norms",
+    "count": 3,
+    "tags": [
+     "p",
+     "span"
+    ],
+    "samples": [
+     "The video editorbuilt for agents."
+    ]
+   },
+   {
+    "size": "41.5px",
+    "px": 41.5,
+    "weight": "300",
+    "lineHeight": "37.5px",
+    "letterSpacing": "-1.24416px",
+    "family": "Studio TT Norms",
+    "count": 3,
+    "tags": [
+     "small"
+    ],
+    "samples": [
+     "k"
+    ]
+   },
+   {
+    "size": "50.5px",
+    "px": 50.5,
+    "weight": "700",
+    "lineHeight": "48px",
+    "letterSpacing": "-2.268px",
+    "family": "Studio TT Norms",
+    "count": 2,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Get started"
+    ]
+   },
+   {
+    "size": "92px",
+    "px": 92.0,
+    "weight": "300",
+    "lineHeight": "83px",
+    "letterSpacing": "-5.0688px",
+    "family": "Studio TT Norms",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "69.3k"
+    ]
+   },
+   {
+    "size": "101px",
+    "px": 101.0,
+    "weight": "700",
+    "lineHeight": "90.5px",
+    "letterSpacing": "-5.544px",
+    "family": "Studio TT Norms",
+    "count": 2,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "HyperFramesStudio"
+    ]
+   }
+  ],
+  "totalSteps": 21,
+  "families": [
+   "Studio TT Norms",
+   "TT Norms Pro",
+   "ui-monospace"
+  ],
+  "weights": [
+   "300",
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 4
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 4
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 3
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 1
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 20
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 8
+   },
+   {
+    "value": "13px",
+    "px": 13.0,
+    "count": 2
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 1
+   },
+   {
+    "value": "14.5px",
+    "px": 14.5,
+    "count": 14
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 3
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 4
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 6
+   },
+   {
+    "value": "20.5px",
+    "px": 20.5,
+    "count": 12
+   },
+   {
+    "value": "21.5px",
+    "px": 21.5,
+    "count": 2
+   },
+   {
+    "value": "22px",
+    "px": 22.0,
+    "count": 8
+   },
+   {
+    "value": "24.5px",
+    "px": 24.5,
+    "count": 4
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "560px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 4
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 1
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 1
+   },
+   {
+    "value": "999px",
+    "px": 999.0,
+    "count": 7
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 3
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "-1",
+    "count": 1
+   },
+   {
+    "value": "30",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 2,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Play the launch film with soun",
+      "tag": "button",
+      "height": 338,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 17, 9)",
+      "border": "0px none rgb(19, 17, 9)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "npx skills add heygen-com/hype",
+      "tag": "button",
+      "height": 48,
+      "width": 560,
+      "padding": "0px 8px 0px 18px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(255, 255, 255, 0.42)",
+      "color": "rgb(19, 17, 9)",
+      "border": "1px solid rgba(19, 17, 9, 0.14)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border-color 0.15s ease-out",
+      "gap": "10px",
+      "contrast": 18.89
+     }
+    ],
+    "md": [
+     {
+      "text": "Unmute",
+      "tag": "button",
+      "height": 29,
+      "width": 29,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(19, 17, 9, 0.55)",
+      "color": "rgb(244, 241, 234)",
+      "border": "0px none rgb(244, 241, 234)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s",
+      "gap": "normal",
+      "contrast": 16.74
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 10,
+   "sizeBuckets": {
+    "md": 2,
+    "xl": 4,
+    "sm": 4
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Community",
+      "tag": "a",
+      "height": 36,
+      "width": 88,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(19, 17, 9, 0.78)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "TT Norms Pro",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Log in",
+      "tag": "a",
+      "height": 30,
+      "width": 58,
+      "padding": "6px 12px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgb(60, 230, 172)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "fontFamily": "TT Norms Pro",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 12.36
+     }
+    ],
+    "xl": [
+     {
+      "text": "Apple Silicon",
+      "tag": "a",
+      "height": 48,
+      "width": 170,
+      "padding": "0px 22px 0px 18px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgb(19, 17, 9)",
+      "color": "rgb(244, 241, 234)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "17px",
+      "fontWeight": "700",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "25.5px",
+      "letterSpacing": "-0.34px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.16s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.15s ease-out",
+      "gap": "10px",
+      "contrast": 16.74
+     },
+     {
+      "text": "Intel",
+      "tag": "a",
+      "height": 48,
+      "width": 78,
+      "padding": "0px 22px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(255, 255, 255, 0.42)",
+      "color": "rgb(19, 17, 9)",
+      "border": "1px solid rgba(19, 17, 9, 0.14)",
+      "fontSize": "17px",
+      "fontWeight": "500",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "25.5px",
+      "letterSpacing": "-0.34px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border-color 0.15s ease-out",
+      "gap": "normal",
+      "contrast": 18.89
+     },
+     {
+      "text": "69.3kGitHub stars",
+      "tag": "a",
+      "height": 112,
+      "width": 180,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 17, 9)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px",
+      "contrast": 1.11
+     },
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 48,
+      "width": 76,
+      "padding": "0px 20px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(255, 255, 255, 0.42)",
+      "color": "rgb(19, 17, 9)",
+      "border": "1px solid rgba(19, 17, 9, 0.14)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "22.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border-color 0.15s ease-out",
+      "gap": "normal",
+      "contrast": 18.89
+     }
+    ],
+    "sm": [
+     {
+      "text": "universal installer",
+      "tag": "a",
+      "height": 18,
+      "width": 106,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 17, 9)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "19.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Apple Silicon",
+      "tag": "a",
+      "height": 18,
+      "width": 101,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 17, 9)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "18px",
+      "letterSpacing": "-0.36px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Universal",
+      "tag": "a",
+      "height": 14,
+      "width": 55,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 17, 9)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "14px",
+      "letterSpacing": "-0.36px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "heygen-com/hyperframes",
+      "tag": "a",
+      "height": 22,
+      "width": 194,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(19, 17, 9, 0.62)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "17.28px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "23.328px",
+      "letterSpacing": "-0.3456px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "DesktopAll of HyperFrames Stud",
+      "tag": "article",
+      "height": 509,
+      "width": 786,
+      "padding": "43.2px 24.48px 12.96px",
+      "margin": "0px",
+      "radius": "28px",
+      "background": "rgba(255, 255, 255, 0.42)",
+      "color": "rgb(19, 17, 9)",
+      "border": "1px solid rgba(19, 17, 9, 0.14)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.89
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "CommunityDocsLog in",
+      "tag": "header",
+      "height": 48,
+      "width": 1440,
+      "padding": "0px 120px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 10)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "TT Norms Pro",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Apple Silicon",
+      "tag": "a",
+      "height": 48,
+      "width": 170,
+      "padding": "0px 22px 0px 18px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgb(19, 17, 9)",
+      "color": "rgb(244, 241, 234)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "17px",
+      "fontWeight": "700",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "25.5px",
+      "letterSpacing": "-0.34px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.16s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.15s ease-out",
+      "gap": "10px",
+      "contrast": 16.74
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "HyperFramesStudio",
+      "tag": "h1",
+      "height": 181,
+      "width": 746,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 17, 9)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "100.8px",
+      "fontWeight": "700",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "90.72px",
+      "letterSpacing": "-5.544px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Get started",
+      "tag": "h2",
+      "height": 48,
+      "width": 393,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 17, 9)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "50.4px",
+      "fontWeight": "700",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "47.88px",
+      "letterSpacing": "-2.268px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ],
+    "sm": [
+     {
+      "text": "Desktop",
+      "tag": "h3",
+      "height": 27,
+      "width": 735,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 17, 9)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "24.48px",
+      "fontWeight": "500",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "26.928px",
+      "letterSpacing": "-0.7344px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 1,
+    "lg": 1,
+    "sm": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "The video editorbuilt for agen",
+      "tag": "p",
+      "height": 79,
+      "width": 368,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 17, 9)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "39.6px",
+      "letterSpacing": "-1.26px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ],
+    "lg": [
+     {
+      "text": "Not sure? Apple menu > About T",
+      "tag": "p",
+      "height": 39,
+      "width": 746,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(19, 17, 9, 0.62)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "19.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ],
+    "sm": [
+     {
+      "text": "Built by the team who open sou",
+      "tag": "p",
+      "height": 22,
+      "width": 746,
+      "padding": "0px",
+      "margin": "14px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(19, 17, 9, 0.62)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "15.84px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "22.176px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Access HyperFrames Studio on d",
+      "tag": "p",
+      "height": 23,
+      "width": 393,
+      "padding": "0px",
+      "margin": "15.84px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(19, 17, 9, 0.62)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "17.28px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "23.328px",
+      "letterSpacing": "-0.3456px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "All of HyperFrames Studio, in ",
+      "tag": "p",
+      "height": 24,
+      "width": 735,
+      "padding": "0px",
+      "margin": "12.96px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(19, 17, 9, 0.62)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "23.8px",
+      "letterSpacing": "-0.255px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "macOSApple SiliconIntelUnivers",
+      "tag": "ul",
+      "height": 362,
+      "width": 735,
+      "padding": "0px",
+      "margin": "24.48px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 17, 9)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 20,
+      "width": 20,
+      "padding": "0px",
+      "margin": "-2px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(244, 241, 234)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "17px",
+      "fontWeight": "700",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "25.5px",
+      "letterSpacing": "-0.34px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.62
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 12,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(244, 241, 234)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Studio TT Norms",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.62
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(19, 17, 9, 0.62)",
+      "border": "0px solid lab(91.6229 -0.159115 -2.26791)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 48,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 120px",
+   "children": 2
+  },
+  {
+   "tag": "main",
+   "height": 392,
+   "heading": "HyperFramesStudio",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "60.975px 120px 0px",
+   "children": 4
+  },
+  {
+   "tag": "section",
+   "height": 338,
+   "heading": null,
+   "background": "rgb(243, 234, 212)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 509,
+   "heading": "Get started",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 509,
+   "heading": "Desktop",
+   "background": "rgba(255, 255, 255, 0.42)",
+   "padding": "43.2px 24.48px 12.96px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 366,
+   "heading": "Open source",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 17.19,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 14,
+  "tapTargetMedian": 36
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 9
+   },
+   {
+    "value": "0.2s",
+    "count": 3
+   },
+   {
+    "value": "0.16s",
+    "count": 2
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease-out",
+    "count": 5
+   },
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 3
+   },
+   {
+    "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+    "count": 2
+   }
+  ],
+  "properties": [
+   {
+    "value": "border-color",
+    "count": 5
+   },
+   {
+    "value": "opacity",
+    "count": 5
+   },
+   {
+    "value": "transform",
+    "count": 3
+   },
+   {
+    "value": "color",
+    "count": 2
+   },
+   {
+    "value": "background-color",
+    "count": 2
+   },
+   {
+    "value": "outline-color",
+    "count": 2
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 2
+   },
+   {
+    "value": "fill",
+    "count": 2
+   },
+   {
+    "value": "stroke",
+    "count": 2
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 2
+   }
+  ]
+ }
+}

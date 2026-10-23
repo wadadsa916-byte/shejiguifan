@@ -1,0 +1,582 @@
+{
+ "id": "p108",
+ "overview": {
+  "name": "Airla Fan",
+  "url": "https://airladesigns.com/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://airladesigns.com/"
+  ],
+  "subpages": [],
+  "sectionCount": 3,
+  "componentSamples": 11,
+  "typeSteps": 1
+ },
+ "colors": {
+  "roles": {
+   "muted": {
+    "hex": "#6a6a6a",
+    "value": "#6a6a6a",
+    "token": "--muted",
+    "source": "css-var",
+    "contrastOnBg": 3.31
+   },
+   "background": {
+    "hex": "#171717",
+    "value": "#171717",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 1.17
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 2
+   },
+   {
+    "hex": "#767680",
+    "count": 1
+   },
+   {
+    "hex": "#000000",
+    "count": 1
+   },
+   {
+    "hex": "#171717",
+    "count": 3
+   },
+   {
+    "hex": "#6a6a6a",
+    "count": 2
+   }
+  ],
+  "backgroundsTotal": 3,
+  "textTotal": 3,
+  "bordersTotal": 0
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "Haas",
+    "count": 5,
+    "tags": [
+     "a",
+     "span",
+     "button"
+    ],
+    "samples": [
+     "AIRLA"
+    ]
+   }
+  ],
+  "totalSteps": 7,
+  "families": [
+   "-apple-system",
+   "Haas"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 4
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 4
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 1
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 1
+   },
+   {
+    "value": "79px",
+    "px": 79.0,
+    "count": 2
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": []
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 2
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 1
+   },
+   {
+    "value": "50%",
+    "px": 50,
+    "count": 1
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 2
+   },
+   {
+    "value": "12",
+    "count": 1
+   },
+   {
+    "value": "5",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 3,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Index",
+      "tag": "button",
+      "height": 26,
+      "width": 88,
+      "padding": "1px 6px",
+      "margin": "0px",
+      "radius": "7px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "19.141px",
+      "letterSpacing": "-0.0875px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Spatial",
+      "tag": "button",
+      "height": 26,
+      "width": 88,
+      "padding": "1px 6px",
+      "margin": "0px",
+      "radius": "7px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "fontFamily": "-apple-system",
+      "lineHeight": "19.141px",
+      "letterSpacing": "-0.0875px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Info",
+      "tag": "button",
+      "height": 25,
+      "width": 24,
+      "padding": "4px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Haas",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "Switch to dark mode",
+      "tag": "button",
+      "height": 30,
+      "width": 9,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Haas",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "AIRLA",
+      "tag": "a",
+      "height": 17,
+      "width": 39,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Haas",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "0px",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 3,
+   "sizeBuckets": {
+    "md": 2,
+    "sm": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "AIRLAIndexSpatialScroll up to ",
+      "tag": "header",
+      "height": 30,
+      "width": 1308,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Haas",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "InfoContact",
+      "tag": "nav",
+      "height": 30,
+      "width": 240,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Haas",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "79.2px",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "span",
+      "height": 9,
+      "width": 9,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Haas",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border-radius 0.2s, transform 0.18s",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Designer of uniquebrands and i",
+      "tag": "h1",
+      "height": 108,
+      "width": 408,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "47.9952px",
+      "fontWeight": "400",
+      "fontFamily": "Haas",
+      "lineHeight": "53.7546px",
+      "letterSpacing": "-1.25px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Hover over work to see related",
+      "tag": "p",
+      "height": 28,
+      "width": 408,
+      "padding": "0px",
+      "margin": "18px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(106, 106, 106)",
+      "border": "0px none rgb(106, 106, 106)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Haas",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.88
+     },
+     {
+      "text": "Scroll up to enter and drag to",
+      "tag": "p",
+      "height": 20,
+      "width": 350,
+      "padding": "0px",
+      "margin": "14px -85px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(106, 106, 106)",
+      "border": "0px none rgb(106, 106, 106)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Haas",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.22s, visibility",
+      "gap": "normal",
+      "contrast": 3.88
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 813,
+   "heading": "Designer of uniquebrands and interfaces",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 7
+  },
+  {
+   "tag": "section",
+   "height": 693,
+   "heading": "Selected work (01—06)",
+   "background": "rgb(255, 255, 255)",
+   "padding": "15px 70px 16px",
+   "children": 3
+  },
+  {
+   "tag": "footer",
+   "height": 80,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 1.17,
+  "bodyContrastLevel": "fail",
+  "tapTargetMin": 17,
+  "tapTargetMedian": 26
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.18s",
+    "count": 72
+   },
+   {
+    "value": "0.6s",
+    "count": 6
+   },
+   {
+    "value": "0.24s",
+    "count": 3
+   },
+   {
+    "value": "0.32s",
+    "count": 2
+   },
+   {
+    "value": "0.28s",
+    "count": 2
+   },
+   {
+    "value": "0.22s",
+    "count": 1
+   },
+   {
+    "value": "0.2s",
+    "count": 1
+   },
+   {
+    "value": "0.42s",
+    "count": 1
+   },
+   {
+    "value": "0.45s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 75
+   },
+   {
+    "value": "cubic-bezier(0.2, 0.6, 0.3, 1)",
+    "count": 6
+   },
+   {
+    "value": "cubic-bezier(0.22, 0.85, 0.24, 1)",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "opacity",
+    "count": 44
+   },
+   {
+    "value": "width",
+    "count": 32
+   },
+   {
+    "value": "transform",
+    "count": 9
+   },
+   {
+    "value": "visibility",
+    "count": 3
+   },
+   {
+    "value": "color",
+    "count": 2
+   },
+   {
+    "value": "margin",
+    "count": 1
+   },
+   {
+    "value": "border-radius",
+    "count": 1
+   }
+  ]
+ }
+}

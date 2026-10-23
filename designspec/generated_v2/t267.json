@@ -1,0 +1,2723 @@
+{
+ "id": "t267",
+ "overview": {
+  "name": "design.dev",
+  "url": "https://design.dev/",
+  "section": "界面设计",
+  "pagesScanned": [
+   "https://design.dev/",
+   "https://design.dev/templates/"
+  ],
+  "subpages": [
+   "/templates/"
+  ],
+  "sectionCount": 10,
+  "componentSamples": 94,
+  "typeSteps": 31
+ },
+ "colors": {
+  "roles": {
+   "border": {
+    "hex": "#e5e7eb",
+    "value": "#e5e7eb",
+    "token": "--border",
+    "source": "css-var",
+    "contrastOnBg": 1.24
+   },
+   "primary": {
+    "hex": "#0ea5e9",
+    "value": "#0ea5e9",
+    "token": "--accent",
+    "source": "css-var",
+    "contrastOnBg": 2.77
+   },
+   "muted": {
+    "hex": "#6b7280",
+    "value": "#6b7280",
+    "token": "--muted",
+    "source": "css-var",
+    "contrastOnBg": 4.83
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#1a1b1e",
+    "value": "#1a1b1e",
+    "token": "--text",
+    "source": "css-var",
+    "contrastOnBg": 17.22
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#0a0a0a",
+    "count": 28
+   },
+   {
+    "hex": "#0e0e0e",
+    "count": 22
+   },
+   {
+    "hex": "#00c4ff",
+    "count": 16
+   },
+   {
+    "hex": "#ffffff",
+    "count": 10
+   },
+   {
+    "hex": "#f8f9fa",
+    "count": 8
+   },
+   {
+    "hex": "#8fcb9b",
+    "count": 7
+   },
+   {
+    "hex": "#000000",
+    "count": 6
+   },
+   {
+    "hex": "#f3f4f6",
+    "count": 6
+   },
+   {
+    "hex": "#0ea5e9",
+    "count": 5
+   },
+   {
+    "hex": "#050505",
+    "count": 3
+   }
+  ],
+  "backgroundsTotal": 19,
+  "textTotal": 20,
+  "bordersTotal": 9
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "0.5px",
+    "family": "ui-monospace",
+    "count": 28,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "BackgroundsNew"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "17.5px",
+    "letterSpacing": "0.44px",
+    "family": "ui-monospace",
+    "count": 6,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "DESIGN.md"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "500",
+    "lineHeight": "14.5px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Let's ship it Friday."
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "500",
+    "lineHeight": "17.5px",
+    "letterSpacing": "0.11px",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Free to start · Works in every app"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 6,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "effects"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 6,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Design tokens and rules agents can apply"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 7,
+    "tags": [
+     "button",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "⌘K\n\t\t\t\t\t\tto search tools"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "500",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Voice-to-text AI for clear, polished wri"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 32,
+    "tags": [
+     "p",
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Read by 9,000+ developers. No spam. Unsu"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 16,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Slow curtain aurora on canvas behind a h"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 5,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "A prompt template is a complete, copy-pa"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 16,
+    "tags": [
+     "a",
+     "button"
+    ],
+    "samples": [
+     "Templates"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "17px",
+    "letterSpacing": "0.7px",
+    "family": "system-ui",
+    "count": 6,
+    "tags": [
+     "h4"
+    ],
+    "samples": [
+     "Popular"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Complete pages for SaaS, apps, studios, "
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "600",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Try Flow free\n\t\t\t\t\t\t\t→"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "700",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Start building\n\t\t\t\t\t\t→"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 70,
+    "tags": [
+     "a",
+     "p",
+     "li"
+    ],
+    "samples": [
+     "Don't type. Just speak.\n\t\t\t\t\t\tVoice-to-t"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 5,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Browse all AI generators →"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "600",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 8,
+    "tags": [
+     "a",
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Skip to main content"
+    ]
+   },
+   {
+    "size": "17px",
+    "px": 17.0,
+    "weight": "500",
+    "lineHeight": "22px",
+    "letterSpacing": "-0.34px",
+    "family": "system-ui",
+    "count": 6,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "DESIGN.md Generator"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "29px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Learn to build with AI agents, prompts t"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "600",
+    "lineHeight": "29px",
+    "letterSpacing": "-0.36px",
+    "family": "system-ui",
+    "count": 4,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "design.dev"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "600",
+    "lineHeight": "25px",
+    "letterSpacing": "-0.2px",
+    "family": "system-ui",
+    "count": 6,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "CSS Hover Effects Generator"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "600",
+    "lineHeight": "28px",
+    "letterSpacing": "-0.4px",
+    "family": "system-ui",
+    "count": 16,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Aurora Background"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "600",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.4px",
+    "family": "system-ui",
+    "count": 3,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Color Contrast Checker"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "700",
+    "lineHeight": "23px",
+    "letterSpacing": "-0.3px",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "span",
+     "em"
+    ],
+    "samples": [
+     "Describe your idea. Build websites & app"
+    ]
+   },
+   {
+    "size": "21px",
+    "px": 21.0,
+    "weight": "700",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.315px",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "span",
+     "em"
+    ],
+    "samples": [
+     "Don't type. Just speak."
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "400",
+    "lineHeight": "36px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "p",
+     "strong"
+    ],
+    "samples": [
+     "Generators, templates, and tools to dire"
+    ]
+   },
+   {
+    "size": "40px",
+    "px": 40.0,
+    "weight": "700",
+    "lineHeight": "48px",
+    "letterSpacing": "-1.2px",
+    "family": "system-ui",
+    "count": 7,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "AI Agent Config Generators"
+    ]
+   },
+   {
+    "size": "48px",
+    "px": 48.0,
+    "weight": "700",
+    "lineHeight": "57.5px",
+    "letterSpacing": "-1.44px",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Get the Weekly Drop"
+    ]
+   },
+   {
+    "size": "72px",
+    "px": 72.0,
+    "weight": "700",
+    "lineHeight": "83px",
+    "letterSpacing": "-2.88px",
+    "family": "system-ui",
+    "count": 2,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "AI Design & Dev Resources"
+    ]
+   }
+  ],
+  "totalSteps": 38,
+  "families": [
+   "system-ui",
+   "ui-monospace"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 14
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 5
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 96
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 18
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 99
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 4
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 22
+   },
+   {
+    "value": "11px",
+    "px": 11.0,
+    "count": 1
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 73
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 6
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 6
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 55
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 2
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 144
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 66
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 6
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1200px",
+    "count": 18
+   },
+   {
+    "value": "700px",
+    "count": 3
+   },
+   {
+    "value": "800px",
+    "count": 2
+   },
+   {
+    "value": "1256px",
+    "count": 2
+   },
+   {
+    "value": "620px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "2px",
+    "px": 2.0,
+    "count": 7
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 2
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 5
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 14
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 28
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 3
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 1
+   },
+   {
+    "value": "50%",
+    "px": 50,
+    "count": 6
+   },
+   {
+    "value": "100px",
+    "px": 100.0,
+    "count": 16
+   },
+   {
+    "value": "999px",
+    "px": 999.0,
+    "count": 13
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset",
+    "count": 22
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.035) 0px 0px 0px 1px",
+    "count": 6
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.22) 0px 1px 0px 0px inset, rgba(94, 156, 110, 0.14) 0px 0px 0px 4px, rgba(94, 156, 110, 0.35) 0px 8px 24px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.35) 0px 6px 20px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.4) 0px 1px 2px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgb(229, 231, 235) 0px 2px 0px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 196, 255, 0.2) 0px 0px 12px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.4) 0px 2px 10px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 28
+   },
+   {
+    "value": "1000",
+    "count": 2
+   },
+   {
+    "value": "50",
+    "count": 2
+   },
+   {
+    "value": "-1",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 11,
+   "sizeBuckets": {
+    "xl": 2,
+    "lg": 5,
+    "sm": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Subscribe",
+      "tag": "button",
+      "height": 48,
+      "width": 123,
+      "padding": "0px",
+      "margin": "0px 0px 15px",
+      "radius": "8px",
+      "background": "rgb(14, 165, 233)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 2.77
+     },
+     {
+      "text": "Browse all AI generators →",
+      "tag": "a",
+      "height": 52,
+      "width": 240,
+      "padding": "12px 20px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(243, 244, 246)",
+      "color": "rgb(26, 27, 30)",
+      "border": "1px solid rgb(209, 213, 219)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "8px",
+      "contrast": 15.65
+     }
+    ],
+    "lg": [
+     {
+      "text": "Try Flow free\n\t\t\t\t\t\t\t→",
+      "tag": "span",
+      "height": 44,
+      "width": 152,
+      "padding": "10px 18px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(245, 241, 232)",
+      "border": "0px none rgb(245, 241, 232)",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "fontFamily": "system-ui",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.4) 0px 1px 2px 0px",
+      "transition": "0.2s",
+      "gap": "9px",
+      "contrast": 18.63
+     },
+     {
+      "text": "⌘K\n\t\t\t\t\t\tto search tools",
+      "tag": "button",
+      "height": 44,
+      "width": 159,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "20.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "8px",
+      "contrast": 4.34
+     },
+     {
+      "text": "All",
+      "tag": "button",
+      "height": 40,
+      "width": 51,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(255, 255, 255, 0.1)",
+      "color": "rgb(26, 27, 30)",
+      "border": "1px solid rgb(14, 165, 233)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 196, 255, 0.2) 0px 0px 12px 0px",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 17.22
+     },
+     {
+      "text": "colors",
+      "tag": "button",
+      "height": 40,
+      "width": 75,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgb(248, 249, 250)",
+      "color": "rgb(107, 114, 128)",
+      "border": "1px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 4.59
+     }
+    ],
+    "sm": [
+     {
+      "text": "Try Flow free",
+      "tag": "span",
+      "height": 24,
+      "width": 93,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(245, 241, 232)",
+      "border": "0px none rgb(245, 241, 232)",
+      "fontSize": "15px",
+      "fontWeight": "600",
+      "fontFamily": "system-ui",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.63
+     },
+     {
+      "text": "→",
+      "tag": "span",
+      "height": 16,
+      "width": 15,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(245, 241, 232)",
+      "border": "0px none rgb(245, 241, 232)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "system-ui",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.2s",
+      "gap": "normal",
+      "contrast": 18.63
+     },
+     {
+      "text": "Start building",
+      "tag": "span",
+      "height": 24,
+      "width": 100,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 11)",
+      "border": "0px none rgb(10, 10, 11)",
+      "fontSize": "15px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.06
+     },
+     {
+      "text": "→",
+      "tag": "span",
+      "height": 16,
+      "width": 15,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(10, 10, 11)",
+      "border": "0px none rgb(10, 10, 11)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.2s",
+      "gap": "normal",
+      "contrast": 1.06
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 14,
+   "sizeBuckets": {
+    "lg": 1,
+    "md": 1,
+    "sm": 4,
+    "xl": 8
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Skip to main content",
+      "tag": "a",
+      "height": 42,
+      "width": 188,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgb(14, 165, 233)",
+      "color": "rgb(5, 32, 42)",
+      "border": "0px none rgb(5, 32, 42)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "top 0.3s",
+      "gap": "normal",
+      "contrast": 6.08
+     }
+    ],
+    "md": [
+     {
+      "text": "design.dev",
+      "tag": "a",
+      "height": 32,
+      "width": 133,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "fontFamily": "system-ui",
+      "lineHeight": "28.8px",
+      "letterSpacing": "-0.36px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s",
+      "gap": "12px",
+      "contrast": 1.22
+     }
+    ],
+    "sm": [
+     {
+      "text": "Templates",
+      "tag": "a",
+      "height": 22,
+      "width": 68,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px none rgb(107, 114, 128)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "Prompt Templates",
+      "tag": "a",
+      "height": 17,
+      "width": 117,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px none rgb(107, 114, 128)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "View All →",
+      "tag": "a",
+      "height": 16,
+      "width": 63,
+      "padding": "0px",
+      "margin": "6px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(229, 229, 229)",
+      "border": "0px none rgb(229, 229, 229)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "20.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 16.67
+     },
+     {
+      "text": "Home",
+      "tag": "a",
+      "height": 21,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px none rgb(107, 114, 128)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "20.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s",
+      "gap": "normal",
+      "contrast": 4.34
+     }
+    ],
+    "xl": [
+     {
+      "text": "Don't type. Just speak.\n\t\t\t\t\t\t",
+      "tag": "a",
+      "height": 109,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "opacity 0.2s",
+      "gap": "normal",
+      "contrast": 1.22
+     },
+     {
+      "text": "DESIGN.md Generator\n\t\t\t\t\t\t\n\t\t\n",
+      "tag": "a",
+      "height": 372,
+      "width": 380,
+      "padding": "28px 24px 24px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgb(14, 14, 14)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.035) 0px 0px 0px 1px",
+      "transition": "background 0.4s, box-shadow 0.4s",
+      "gap": "normal",
+      "contrast": 1.12
+     },
+     {
+      "text": "Browse all AI generators →",
+      "tag": "a",
+      "height": 52,
+      "width": 240,
+      "padding": "12px 20px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(243, 244, 246)",
+      "color": "rgb(26, 27, 30)",
+      "border": "1px solid rgb(209, 213, 219)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "8px",
+      "contrast": 15.65
+     },
+     {
+      "text": "BackgroundsNew\n\t\t\t\t\t\t\tAurora B",
+      "tag": "a",
+      "height": 348,
+      "width": 278,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgb(14, 14, 14)",
+      "color": "rgb(26, 27, 30)",
+      "border": "1px solid rgba(255, 255, 255, 0.035)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset",
+      "transition": "background 0.4s, border-color 0.4s, box-shadow 0.4s",
+      "gap": "normal",
+      "contrast": 1.12
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Email Address",
+      "tag": "input",
+      "height": 48,
+      "width": 378,
+      "padding": "0px 20px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(26, 27, 30)",
+      "border": "1px solid rgb(209, 213, 219)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "none",
+      "gap": "normal",
+      "contrast": 17.22
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 15,
+   "sizeBuckets": {
+    "xl": 13,
+    "sm": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "DESIGN.md Generator\n\t\t\t\t\t\t\n\t\t\n",
+      "tag": "a",
+      "height": 372,
+      "width": 380,
+      "padding": "28px 24px 24px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgb(14, 14, 14)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.035) 0px 0px 0px 1px",
+      "transition": "background 0.4s, box-shadow 0.4s",
+      "gap": "normal",
+      "contrast": 1.12
+     },
+     {
+      "text": "BackgroundsNew\n\t\t\t\t\t\t\tAurora B",
+      "tag": "a",
+      "height": 348,
+      "width": 278,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgb(14, 14, 14)",
+      "color": "rgb(26, 27, 30)",
+      "border": "1px solid rgba(255, 255, 255, 0.035)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset",
+      "transition": "background 0.4s, border-color 0.4s, box-shadow 0.4s",
+      "gap": "normal",
+      "contrast": 1.12
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 173,
+      "width": 276,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(10, 10, 10)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.15
+     },
+     {
+      "text": "BackgroundsNew\n\t\t\t\t\t\t\tAurora B",
+      "tag": "div",
+      "height": 173,
+      "width": 276,
+      "padding": "20px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 1.22
+     }
+    ],
+    "sm": [
+     {
+      "text": "BackgroundsNew",
+      "tag": "span",
+      "height": 24,
+      "width": 128,
+      "padding": "3px 8px",
+      "margin": "0px 0px 6px",
+      "radius": "100px",
+      "background": "rgba(0, 196, 255, 0.05)",
+      "color": "rgb(0, 196, 255)",
+      "border": "1px solid rgba(0, 196, 255, 0.15)",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "16px",
+      "letterSpacing": "0.5px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 1
+     },
+     {
+      "text": "New",
+      "tag": "span",
+      "height": 16,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "16px",
+      "letterSpacing": "0.5px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "design.dev\n\t\t\t\n\t\t\n\t\t\tTemplates",
+      "tag": "header",
+      "height": 65,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0.8)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     }
+    ],
+    "sm": [
+     {
+      "text": "Templates\n\t\t\tAI\n\t\t\tTools\n\t\t\tGu",
+      "tag": "nav",
+      "height": 22,
+      "width": 326,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "32px",
+      "contrast": 1.22
+     },
+     {
+      "text": "Templates",
+      "tag": "a",
+      "height": 22,
+      "width": 68,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px none rgb(107, 114, 128)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "Home\n\t\t\t\t/\n\t\t\t\tTemplates",
+      "tag": "nav",
+      "height": 21,
+      "width": 1160,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "0px",
+      "contrast": 1.22
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 7,
+   "sizeBuckets": {
+    "xl": 1,
+    "md": 2,
+    "lg": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "300 custom icons — free downlo",
+      "tag": "div",
+      "height": 90,
+      "width": 90,
+      "padding": "0px",
+      "margin": "-25px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(26, 27, 30)",
+      "border": "1px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 17.22
+     },
+     {
+      "text": "effects",
+      "tag": "span",
+      "height": 29,
+      "width": 63,
+      "padding": "4px 10px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "1px solid rgb(229, 231, 235)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     }
+    ],
+    "lg": [
+     {
+      "text": "⌘K\n\t\t\t\t\t\tto search tools\n\t\t\t\t\t",
+      "tag": "div",
+      "height": 44,
+      "width": 690,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "20px",
+      "contrast": 1.22
+     },
+     {
+      "text": "Allcolorseffectslayouttypograp",
+      "tag": "div",
+      "height": 40,
+      "width": 512,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.22
+     },
+     {
+      "text": "All",
+      "tag": "button",
+      "height": 40,
+      "width": 51,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgba(255, 255, 255, 0.1)",
+      "color": "rgb(26, 27, 30)",
+      "border": "1px solid rgb(14, 165, 233)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 196, 255, 0.2) 0px 0px 12px 0px",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 17.22
+     },
+     {
+      "text": "colors",
+      "tag": "button",
+      "height": 40,
+      "width": 75,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "999px",
+      "background": "rgb(248, 249, 250)",
+      "color": "rgb(107, 114, 128)",
+      "border": "1px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 4.59
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 9,
+   "sizeBuckets": {
+    "xl": 4,
+    "sm": 5
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "AI Design & Dev Resources",
+      "tag": "h1",
+      "height": 83,
+      "width": 1200,
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "72px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "82.8px",
+      "letterSpacing": "-2.88px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     },
+     {
+      "text": "AI Agent Config Generators",
+      "tag": "h2",
+      "height": 48,
+      "width": 1160,
+      "padding": "0px",
+      "margin": "0px 0px 6px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "40px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "48px",
+      "letterSpacing": "-1.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1.22
+     },
+     {
+      "text": "Get the Weekly Drop",
+      "tag": "h2",
+      "height": 58,
+      "width": 548,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "48px",
+      "fontWeight": "700",
+      "fontFamily": "system-ui",
+      "lineHeight": "57.6px",
+      "letterSpacing": "-1.44px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     },
+     {
+      "text": "Date Picker & Date Range Picke",
+      "tag": "h3",
+      "height": 56,
+      "width": 236,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "system-ui",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.4px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     }
+    ],
+    "sm": [
+     {
+      "text": "DESIGN.md Generator",
+      "tag": "h3",
+      "height": 22,
+      "width": 168,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "17px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.1px",
+      "letterSpacing": "-0.34px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     },
+     {
+      "text": "Aurora Background",
+      "tag": "h3",
+      "height": 28,
+      "width": 236,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "system-ui",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.4px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     },
+     {
+      "text": "Color Contrast Checker",
+      "tag": "h3",
+      "height": 24,
+      "width": 365,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "system-ui",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.4px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.2s",
+      "gap": "normal",
+      "contrast": 1.22
+     },
+     {
+      "text": "CSS Hover Effects Generator",
+      "tag": "h3",
+      "height": 25,
+      "width": 337,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "system-ui",
+      "lineHeight": "25px",
+      "letterSpacing": "-0.2px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 13,
+   "sizeBuckets": {
+    "xl": 5,
+    "sm": 7,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Generators, templates, and too",
+      "tag": "p",
+      "height": 72,
+      "width": 800,
+      "padding": "0px",
+      "margin": "0px 200px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px none rgb(107, 114, 128)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "36px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "Slow curtain aurora on canvas ",
+      "tag": "p",
+      "height": 63,
+      "width": 236,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px none rgb(107, 114, 128)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "Catch the low-contrast grays a",
+      "tag": "p",
+      "height": 51,
+      "width": 320,
+      "padding": "0px",
+      "margin": "0px 22.6719px 0px 22.6562px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px none rgb(107, 114, 128)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "Learn to build with AI agents,",
+      "tag": "p",
+      "height": 58,
+      "width": 548,
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px none rgb(107, 114, 128)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "28.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     }
+    ],
+    "sm": [
+     {
+      "text": "Design tokens and rules agents",
+      "tag": "p",
+      "height": 20,
+      "width": 252,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px none rgb(107, 114, 128)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "20.15px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "UI components as copy-paste pr",
+      "tag": "p",
+      "height": 25,
+      "width": 1160,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px none rgb(107, 114, 128)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "24.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "Read by 9,000+ developers. No ",
+      "tag": "p",
+      "height": 22,
+      "width": 548,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(102, 102, 102)",
+      "border": "0px none rgb(102, 102, 102)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.66
+     },
+     {
+      "text": "© 2026 design.dev — All rights",
+      "tag": "p",
+      "height": 22,
+      "width": 1160,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px none rgb(107, 114, 128)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     }
+    ],
+    "lg": [
+     {
+      "text": "Six-tile feature grid with a c",
+      "tag": "p",
+      "height": 42,
+      "width": 236,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px none rgb(107, 114, 128)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Prompt Templates\n\t\t\t\t\t\tDESIGN.",
+      "tag": "ul",
+      "height": 214,
+      "width": 203,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1.22
+     },
+     {
+      "text": "Sponsor\n\t\t\t\t\t\tPrivacy\n\t\t\t\t\t\tTe",
+      "tag": "ul",
+      "height": 101,
+      "width": 203,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1.22
+     }
+    ],
+    "sm": [
+     {
+      "text": "Copy the prompt\n\t\t\t\t\tPaste it ",
+      "tag": "ol",
+      "height": 26,
+      "width": 1200,
+      "padding": "0px 20px",
+      "margin": "32px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px 24px",
+      "contrast": 1.22
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 13,
+   "sizeBuckets": {
+    "xl": 5,
+    "md": 2,
+    "sm": 6
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "300 custom icons — free downlo",
+      "tag": "svg",
+      "height": 127,
+      "width": 127,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 133,
+      "width": 800,
+      "padding": "0px 16px",
+      "margin": "-20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 163,
+      "width": 208,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.55s cubic-bezier(0.22, 1, 0.36, 1), filter 0.5s",
+      "gap": "normal",
+      "contrast": 1.22
+     },
+     {
+      "text": "",
+      "tag": "div",
+      "height": 48,
+      "width": 48,
+      "padding": "12px",
+      "margin": "0px 158.672px 20px 158.656px",
+      "radius": "12px",
+      "background": "rgb(248, 249, 250)",
+      "color": "rgb(229, 229, 229)",
+      "border": "1px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "border-color 0.2s",
+      "gap": "normal",
+      "contrast": 1.2
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "50%",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(26, 27, 30)",
+      "border": "1px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 17.22
+     },
+     {
+      "text": "",
+      "tag": "img",
+      "height": 34,
+      "width": 34,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 22,
+      "width": 78,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(240, 235, 224)",
+      "border": "0px none rgb(240, 235, 224)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 17.66
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 15,
+      "width": 15,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(245, 241, 232)",
+      "border": "0px none rgb(245, 241, 232)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.63
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 22,
+      "width": 22,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(229, 229, 229)",
+      "border": "0px none rgb(229, 229, 229)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 16.67
+     }
+    ]
+   }
+  },
+  "breadcrumb": {
+   "label": "面包屑",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Home\n\t\t\t\t/\n\t\t\t\tTemplates",
+      "tag": "div",
+      "height": 46,
+      "width": 1440,
+      "padding": "12px 0px",
+      "margin": "64px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     }
+    ],
+    "sm": [
+     {
+      "text": "Home\n\t\t\t\t/\n\t\t\t\tTemplates",
+      "tag": "nav",
+      "height": 21,
+      "width": 1160,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "25.6px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "0px",
+      "contrast": 1.22
+     },
+     {
+      "text": "/",
+      "tag": "span",
+      "height": 19,
+      "width": 4,
+      "padding": "0px",
+      "margin": "0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(229, 231, 235)",
+      "border": "0px none rgb(229, 231, 235)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "system-ui",
+      "lineHeight": "19.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 16.96
+     },
+     {
+      "text": "Templates",
+      "tag": "span",
+      "height": 21,
+      "width": 64,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 27, 30)",
+      "border": "0px none rgb(26, 27, 30)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "system-ui",
+      "lineHeight": "20.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.22
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 65,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0.8)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "main",
+   "height": 4727,
+   "heading": "AI Design & Dev Resources",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 7
+  },
+  {
+   "tag": "section",
+   "height": 723,
+   "heading": "AI Design & Dev Resources",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "64px 0px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 111,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1103,
+   "heading": "AI Agent Config Generators",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "64px 0px 96px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 727,
+   "heading": "Templates",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "64px 0px 96px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 525,
+   "heading": "Check What the Agent Shipped",
+   "background": "rgb(5, 5, 5)",
+   "padding": "128px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1025,
+   "heading": "CSS Generators & Dev Tools",
+   "background": "rgb(255, 255, 255)",
+   "padding": "0px 48px 128px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 514,
+   "heading": "Get the Weekly Drop",
+   "background": "rgb(5, 5, 5)",
+   "padding": "128px 0px",
+   "children": 1
+  },
+  {
+   "tag": "footer",
+   "height": 455,
+   "heading": null,
+   "background": "rgb(255, 255, 255)",
+   "padding": "64px 0px 24px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 17.22,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 44
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.2s",
+    "count": 57
+   },
+   {
+    "value": "0.3s",
+    "count": 33
+   },
+   {
+    "value": "0.4s",
+    "count": 24
+   },
+   {
+    "value": "0.55s",
+    "count": 6
+   },
+   {
+    "value": "0.5s",
+    "count": 6
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease",
+    "count": 48
+   },
+   {
+    "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "count": 6
+   },
+   {
+    "value": "ease-in-out",
+    "count": 4
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 29
+   },
+   {
+    "value": "border-color",
+    "count": 17
+   },
+   {
+    "value": "background",
+    "count": 16
+   },
+   {
+    "value": "box-shadow",
+    "count": 16
+   },
+   {
+    "value": "filter",
+    "count": 12
+   },
+   {
+    "value": "transform",
+    "count": 7
+   },
+   {
+    "value": "opacity",
+    "count": 5
+   },
+   {
+    "value": "top",
+    "count": 1
+   }
+  ]
+ }
+}

@@ -1,0 +1,724 @@
+{
+ "id": "t218",
+ "overview": {
+  "name": "Hyperbrowser Design.md",
+  "url": "https://design-md.hyperbrowser.ai/",
+  "section": "智能体与 MCP",
+  "pagesScanned": [
+   "https://design-md.hyperbrowser.ai/"
+  ],
+  "subpages": [],
+  "sectionCount": 3,
+  "componentSamples": 15,
+  "typeSteps": 2
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#fafafa",
+    "value": "#fafafa",
+    "token": "--background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#0a0a0a",
+    "value": "#0a0a0a",
+    "token": "--foreground",
+    "source": "css-var",
+    "contrastOnBg": 18.97
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 4
+   },
+   {
+    "hex": "#fafafa",
+    "count": 2
+   },
+   {
+    "hex": "#000000",
+    "count": 22
+   },
+   {
+    "hex": "#0a0a0a",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 3,
+  "textTotal": 5,
+  "bordersTotal": 2
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "700",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "family": "__JetBrains_Mono_3c557b",
+    "count": 2,
+    "tags": [
+     "p",
+     "span"
+    ],
+    "samples": [
+     "Extract a DESIGN.md from any website."
+    ]
+   },
+   {
+    "size": "96px",
+    "px": 96.0,
+    "weight": "900",
+    "lineHeight": "96px",
+    "letterSpacing": "-4.8px",
+    "family": "__JetBrains_Mono_3c557b",
+    "count": 2,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "DESIGNMD"
+    ]
+   }
+  ],
+  "totalSteps": 10,
+  "families": [
+   "__JetBrains_Mono_3c557b"
+  ],
+  "weights": [
+   "600",
+   "700",
+   "900"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 5
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 2
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 8
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 6
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 8
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 1
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 5
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 1
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 11
+   },
+   {
+    "value": "56px",
+    "px": 56.0,
+    "count": 1
+   },
+   {
+    "value": "96px",
+    "px": 96.0,
+    "count": 2
+   },
+   {
+    "value": "112px",
+    "px": 112.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "1280px",
+    "count": 1
+   },
+   {
+    "value": "672px",
+    "count": 1
+   },
+   {
+    "value": "576px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [],
+  "shadows": [
+   {
+    "value": "rgb(10, 10, 10) 2px 2px 0px 0px",
+    "count": 2
+   },
+   {
+    "value": "rgb(10, 10, 10) 8px 8px 0px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "50",
+    "count": 1
+   },
+   {
+    "value": "10",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Save key",
+      "tag": "button",
+      "height": 48,
+      "width": 147,
+      "padding": "12px 32px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklch(0.928 0.006 264.531)",
+      "color": "oklch(0.707 0.022 261.325)",
+      "border": "0px solid oklch(0.707 0.022 261.325)",
+      "fontSize": "16px",
+      "fontWeight": "900",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "24px",
+      "letterSpacing": "0.8px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 4,
+   "sizeBuckets": {
+    "md": 1,
+    "lg": 1,
+    "sm": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Get API key",
+      "tag": "a",
+      "height": 36,
+      "width": 145,
+      "padding": "8px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "2px solid rgb(0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "900",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "16px",
+      "letterSpacing": "0.6px",
+      "textTransform": "uppercase",
+      "shadow": "rgb(10, 10, 10) 2px 2px 0px 0px",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 21
+     }
+    ],
+    "lg": [
+     {
+      "text": "BUILT WITH HYPERBROWSER",
+      "tag": "a",
+      "height": 39,
+      "width": 282,
+      "padding": "8px 16px",
+      "margin": "32px 0px 0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "4px solid rgb(0, 0, 0)",
+      "fontSize": "10px",
+      "fontWeight": "900",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "15px",
+      "letterSpacing": "4.5px",
+      "textTransform": "uppercase",
+      "shadow": "rgb(10, 10, 10) 2px 2px 0px 0px",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "Get your key at hyperbrowser.a",
+      "tag": "a",
+      "height": 28,
+      "width": 287,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.446 0.03 256.802)",
+      "border": "0px solid oklch(0.446 0.03 256.802)",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "20px",
+      "letterSpacing": "0.35px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "DESIGN.md specification",
+      "tag": "a",
+      "height": 17,
+      "width": 177,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "11px",
+      "fontWeight": "700",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "16.5px",
+      "letterSpacing": "1.1px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 64,
+      "width": 504,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "4px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "DESIGNMDExtract a DESIGN.md fr",
+      "tag": "header",
+      "height": 370,
+      "width": 1216,
+      "padding": "0px",
+      "margin": "0px 0px 56px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "DESIGNMD",
+      "tag": "h1",
+      "height": 96,
+      "width": 422,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "96px",
+      "fontWeight": "900",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "96px",
+      "letterSpacing": "-4.8px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "Hyperbrowser API key",
+      "tag": "h2",
+      "height": 28,
+      "width": 471,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "20px",
+      "fontWeight": "900",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.5px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 3,
+   "sizeBuckets": {
+    "md": 1,
+    "sm": 1,
+    "lg": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Extract a DESIGN.md from any w",
+      "tag": "p",
+      "height": 30,
+      "width": 545,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.446 0.03 256.802)",
+      "border": "0px solid oklch(0.446 0.03 256.802)",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Following Google's open standa",
+      "tag": "p",
+      "height": 20,
+      "width": 358,
+      "padding": "0px",
+      "margin": "24px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.551 0.027 264.364)",
+      "border": "0px solid oklch(0.551 0.027 264.364)",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "20px",
+      "letterSpacing": "2.8px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Stored in this browser only. N",
+      "tag": "p",
+      "height": 40,
+      "width": 471,
+      "padding": "0px",
+      "margin": "4px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.551 0.027 264.364)",
+      "border": "0px solid oklch(0.551 0.027 264.364)",
+      "fontSize": "14px",
+      "fontWeight": "600",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "20px",
+      "letterSpacing": "0.7px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Get API keyDESIGNMDExtract a D",
+      "tag": "main",
+      "height": 1116,
+      "width": 1440,
+      "padding": "0px 0px 112px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(250, 250, 250)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 20.12
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 15,
+      "width": 15,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "900",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "16px",
+      "letterSpacing": "0.6px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 26,
+      "width": 21,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "__JetBrains_Mono_3c557b",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 1116,
+   "heading": "DESIGNMD",
+   "background": "rgb(250, 250, 250)",
+   "padding": "0px 0px 112px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 370,
+   "heading": "DESIGNMD",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 5
+  },
+  {
+   "tag": "footer",
+   "height": 82,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "32px 4px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 18.97,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 17,
+  "tapTargetMedian": 36
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 3
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 3
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 1
+   },
+   {
+    "value": "background-color",
+    "count": 1
+   },
+   {
+    "value": "border-color",
+    "count": 1
+   },
+   {
+    "value": "outline-color",
+    "count": 1
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 1
+   },
+   {
+    "value": "fill",
+    "count": 1
+   },
+   {
+    "value": "stroke",
+    "count": 1
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 1
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 1
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 1
+   }
+  ]
+ }
+}

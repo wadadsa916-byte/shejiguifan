@@ -1,0 +1,2987 @@
+{
+ "id": "t199",
+ "overview": {
+  "name": "AI Stack",
+  "url": "https://github.com/alp82/aistack",
+  "section": "开发环境",
+  "pagesScanned": [
+   "https://github.com/alp82/aistack",
+   "https://github.com/alp82/aistack/pricing",
+   "https://github.com/alp82/aistack/enterprise",
+   "https://github.com/alp82/aistack/marketplace"
+  ],
+  "subpages": [
+   "/pricing",
+   "/enterprise",
+   "/marketplace"
+  ],
+  "sectionCount": 10,
+  "componentSamples": 149,
+  "typeSteps": 24
+ },
+ "colors": {
+  "roles": {
+   "muted": {
+    "hex": "#59636e",
+    "value": "#59636e",
+    "token": "--fgColor-muted",
+    "source": "css-var",
+    "contrastOnBg": 1.77
+   },
+   "disabled": {
+    "hex": "#818b98",
+    "value": "#818b98",
+    "token": "--fgColor-disabled",
+    "source": "css-var",
+    "contrastOnBg": 1.0
+   },
+   "primary": {
+    "hex": "#0969da",
+    "value": "#0969da",
+    "token": "--fgColor-accent",
+    "source": "css-var",
+    "contrastOnBg": 1.5
+   },
+   "active": {
+    "hex": "#e6eaef",
+    "value": "#e6eaef",
+    "token": "--control-bgColor-active",
+    "source": "css-var",
+    "contrastOnBg": 2.86
+   },
+   "danger": {
+    "hex": "#d1242f",
+    "value": "#d1242f",
+    "token": "--fgColor-danger",
+    "source": "css-var",
+    "contrastOnBg": 1.52
+   },
+   "success": {
+    "hex": "#1a7f37",
+    "value": "#1a7f37",
+    "token": "--fgColor-success",
+    "source": "css-var",
+    "contrastOnBg": 1.47
+   },
+   "hover": {
+    "hex": "#eff2f5",
+    "value": "#eff2f5",
+    "token": "--control-bgColor-hover",
+    "source": "css-var",
+    "contrastOnBg": 3.07
+   },
+   "focus": {
+    "hex": "#0377ff",
+    "value": "#0377ff",
+    "token": "--brand-color-focus",
+    "source": "css-var",
+    "contrastOnBg": 1.2
+   },
+   "link": {
+    "hex": "#0969da",
+    "value": "#0969da",
+    "token": "--fgColor-link",
+    "source": "css-var",
+    "contrastOnBg": 1.5
+   },
+   "warning": {
+    "hex": "#9a6700",
+    "value": "#9a6700",
+    "token": "--control-borderColor-warning",
+    "source": "css-var",
+    "contrastOnBg": 1.41
+   },
+   "background": {
+    "hex": "#818b98",
+    "value": "#818b98",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#1f2328",
+    "value": "#1f2328",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 4.57
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#f6f8fa",
+    "count": 122
+   },
+   {
+    "hex": "#818b98",
+    "count": 67
+   },
+   {
+    "hex": "#ffffff",
+    "count": 31
+   },
+   {
+    "hex": "#000000",
+    "count": 12
+   },
+   {
+    "hex": "#ddf4ff",
+    "count": 6
+   },
+   {
+    "hex": "#f2f5f3",
+    "count": 6
+   },
+   {
+    "hex": "#0d1117",
+    "count": 4
+   },
+   {
+    "hex": "#0d6731",
+    "count": 3
+   },
+   {
+    "hex": "#08872b",
+    "count": 3
+   },
+   {
+    "hex": "#1f883d",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 15,
+  "textTotal": 12,
+  "bordersTotal": 10
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 19,
+    "tags": [
+     "span",
+     "li",
+     "a",
+     "button"
+    ],
+    "samples": [
+     "© 2026 GitHub, Inc."
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 35,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Notifications"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 7,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Notifications"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "600",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 6,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "agentic-workflow"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "600",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 5,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "1"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 83,
+    "tags": [
+     "pre",
+     "span"
+    ],
+    "samples": [
+     "npx @use-aistack/cli <command>"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "400",
+    "lineHeight": "20.5px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 61,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "@use-aistack/cli"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "600",
+    "lineHeight": "20.5px",
+    "letterSpacing": "normal",
+    "family": "ui-monospace",
+    "count": 3,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "migrations/backup.ts"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 415,
+    "tags": [
+     "li",
+     "a",
+     "span",
+     "td"
+    ],
+    "samples": [
+     "alp82"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 3,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "alp82"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "480",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans Mono",
+    "count": 15,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "The developer newsletter"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 13,
+    "tags": [
+     "button",
+     "span",
+     "a"
+    ],
+    "samples": [
+     "main"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "21px",
+    "letterSpacing": "0.21px",
+    "family": "Mona Sans",
+    "count": 143,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Search/"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans",
+    "count": 3,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "Search"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 6,
+    "tags": [
+     "span",
+     "a",
+     "strong"
+    ],
+    "samples": [
+     "Code"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 206,
+    "tags": [
+     "button",
+     "span",
+     "a",
+     "li",
+     "p",
+     "td"
+    ],
+    "samples": [
+     "Search/"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "0.24px",
+    "family": "Mona Sans",
+    "count": 3,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Get tips, technical guides, and best pra"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "0.24px",
+    "family": "Mona Sans",
+    "count": 24,
+    "tags": [
+     "button",
+     "a"
+    ],
+    "samples": [
+     "Platform"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "600",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 72,
+    "tags": [
+     "strong",
+     "th",
+     "h2",
+     "span"
+    ],
+    "samples": [
+     "discover, compare, and share AI technolo"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "600",
+    "lineHeight": "25px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 10,
+    "tags": [
+     "h3",
+     "strong"
+    ],
+    "samples": [
+     "Discover, compare, and share AI technolo"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "600",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 2,
+    "tags": [
+     "strong",
+     "a"
+    ],
+    "samples": [
+     "aistack"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "600",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 15,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "🎯 What is AI Stack"
+    ]
+   },
+   {
+    "size": "32px",
+    "px": 32.0,
+    "weight": "600",
+    "lineHeight": "48px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 6,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Topics"
+    ]
+   },
+   {
+    "size": "32px",
+    "px": 32.0,
+    "weight": "600",
+    "lineHeight": "40px",
+    "letterSpacing": "normal",
+    "family": "Mona Sans VF",
+    "count": 2,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "AI Stack"
+    ]
+   }
+  ],
+  "totalSteps": 26,
+  "families": [
+   "Mona Sans",
+   "Mona Sans Mono",
+   "Mona Sans VF",
+   "ui-monospace"
+  ],
+  "weights": [
+   "400",
+   "480",
+   "500",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 133
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 12
+   },
+   {
+    "value": "5.5px",
+    "px": 5.5,
+    "count": 128
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 156
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 15
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 238
+   },
+   {
+    "value": "9.5px",
+    "px": 9.5,
+    "count": 2
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 41
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 139
+   },
+   {
+    "value": "13px",
+    "px": 13.0,
+    "count": 124
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 436
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 6
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 36
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 72
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 4
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 8
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1280px",
+    "count": 7
+   },
+   {
+    "value": "1012px",
+    "count": 5
+   },
+   {
+    "value": "806px",
+    "count": 3
+   },
+   {
+    "value": "520px",
+    "count": 3
+   },
+   {
+    "value": "1296px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "3px",
+    "px": 3.0,
+    "count": 5
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 4
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 139
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 3
+   },
+   {
+    "value": "50%",
+    "px": 50,
+    "count": 1
+   },
+   {
+    "value": "9999.01px",
+    "px": 9999.01,
+    "count": 7
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(31, 35, 40, 0.04) 0px 1px 0px 0px",
+    "count": 4
+   },
+   {
+    "value": "rgb(25, 31, 27) 0px -1px 0px 0px inset",
+    "count": 4
+   },
+   {
+    "value": "rgba(31, 35, 40, 0.04) 0px 1px 0px 0px inset",
+    "count": 4
+   },
+   {
+    "value": "rgba(209, 217, 224, 0.7) 0px -1px 0px 0px inset",
+    "count": 2
+   },
+   {
+    "value": "rgb(209, 217, 224) 0px -1px 0px 0px inset",
+    "count": 1
+   },
+   {
+    "value": "rgba(31, 35, 40, 0.15) 0px 0px 0px 1px",
+    "count": 1
+   },
+   {
+    "value": "rgba(31, 35, 40, 0.04) 0px 1px 1px 0px, rgba(31, 35, 40, 0.03) 0px 1px 2px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.4) 0px 0px 18px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 10
+   },
+   {
+    "value": "32",
+    "count": 4
+   },
+   {
+    "value": "100",
+    "count": 4
+   },
+   {
+    "value": "0",
+    "count": 3
+   },
+   {
+    "value": "2",
+    "count": 3
+   },
+   {
+    "value": "999",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 32,
+   "sizeBuckets": {
+    "lg": 1,
+    "sm": 21,
+    "md": 10
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Platform",
+      "tag": "button",
+      "height": 40,
+      "width": 101,
+      "padding": "8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "0.24px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px 0px 0px 4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "0.24px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Search/",
+      "tag": "span",
+      "height": 21,
+      "width": 174,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Search/",
+      "tag": "span",
+      "height": 21,
+      "width": 174,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans",
+      "lineHeight": "21px",
+      "letterSpacing": "0.21px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "span",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "md": [
+     {
+      "text": "Search/",
+      "tag": "button",
+      "height": 32,
+      "width": 200,
+      "padding": "1px 12px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0.01)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgb(38, 44, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s, border-color 0.2s",
+      "gap": "12px",
+      "contrast": 21
+     },
+     {
+      "text": "Sign up",
+      "tag": "a",
+      "height": 32,
+      "width": 77,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(255, 255, 255, 0.12)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.06)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s, border-color 0.2s",
+      "gap": "12px",
+      "contrast": 1
+     },
+     {
+      "text": "main",
+      "tag": "button",
+      "height": 32,
+      "width": 106,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(246, 248, 250)",
+      "color": "rgb(37, 41, 46)",
+      "border": "1px solid rgb(209, 217, 224)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(31, 35, 40, 0.04) 0px 1px 0px 0px",
+      "transition": "color 0.08s cubic-bezier(0.65, 0, 0.35, 1), fill 0.08s cubic-bezier(0.65, 0, 0.35, 1), background-color 0.08s cubic-bezier(0.65, 0, 0.35, 1), border-color 0.08s cubic-bezier(0.65, 0, 0.35, 1)",
+      "gap": "8px",
+      "contrast": 13.74
+     },
+     {
+      "text": "Branches",
+      "tag": "a",
+      "height": 32,
+      "width": 96,
+      "padding": "0px 4px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(89, 99, 110)",
+      "border": "1px solid rgba(255, 255, 255, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.08s cubic-bezier(0.65, 0, 0.35, 1), fill 0.08s cubic-bezier(0.65, 0, 0.35, 1), background-color 0.08s cubic-bezier(0.65, 0, 0.35, 1), border-color 0.08s cubic-bezier(0.65, 0, 0.35, 1)",
+      "gap": "8px",
+      "contrast": 3.43
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 23,
+   "sizeBuckets": {
+    "md": 7,
+    "lg": 2,
+    "sm": 14
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Homepage",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px 16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Sign in",
+      "tag": "a",
+      "height": 32,
+      "width": 72,
+      "padding": "0px 12px",
+      "margin": "0px 0px 0px 8px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0.01)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgb(38, 44, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s, border-color 0.2s",
+      "gap": "12px",
+      "contrast": 21
+     },
+     {
+      "text": "Sign up",
+      "tag": "a",
+      "height": 32,
+      "width": 77,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(255, 255, 255, 0.12)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(255, 255, 255, 0.06)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.2s, border-color 0.2s",
+      "gap": "12px",
+      "contrast": 1
+     },
+     {
+      "text": "alp82",
+      "tag": "a",
+      "height": 32,
+      "width": 48,
+      "padding": "4px 6px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ],
+    "lg": [
+     {
+      "text": "Pricing",
+      "tag": "a",
+      "height": 40,
+      "width": 69,
+      "padding": "8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "0.24px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 38,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(9, 105, 218)",
+      "border": "0px none rgb(9, 105, 218)",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.04
+     }
+    ],
+    "sm": [
+     {
+      "text": "aistack",
+      "tag": "a",
+      "height": 23,
+      "width": 66,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "Notifications",
+      "tag": "a",
+      "height": 28,
+      "width": 112,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(246, 248, 250)",
+      "color": "rgb(37, 41, 46)",
+      "border": "1px solid rgb(209, 217, 224)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(31, 35, 40, 0.04) 0px 1px 0px 0px",
+      "transition": "color 0.08s cubic-bezier(0.65, 0, 0.35, 1), fill 0.08s cubic-bezier(0.65, 0, 0.35, 1), background-color 0.08s cubic-bezier(0.65, 0, 0.35, 1), border-color 0.08s cubic-bezier(0.65, 0, 0.35, 1)",
+      "gap": "4px",
+      "contrast": 13.74
+     },
+     {
+      "text": "596 Commits",
+      "tag": "a",
+      "height": 28,
+      "width": 116,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "1px solid rgba(255, 255, 255, 0)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.08s cubic-bezier(0.65, 0, 0.35, 1), fill 0.08s cubic-bezier(0.65, 0, 0.35, 1), background-color 0.08s cubic-bezier(0.65, 0, 0.35, 1), border-color 0.08s cubic-bezier(0.65, 0, 0.35, 1)",
+      "gap": "4px",
+      "contrast": 1.33
+     },
+     {
+      "text": ".claude",
+      "tag": "a",
+      "height": 17,
+      "width": 47,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 2,
+   "sizeBuckets": {
+    "md": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Go to file",
+      "tag": "input",
+      "height": 30,
+      "width": 154,
+      "padding": "1px 0px",
+      "margin": "0px 8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "",
+      "tag": "input",
+      "height": 32,
+      "width": 892,
+      "padding": "5px 12px",
+      "margin": "0px 8px 0px 0px",
+      "radius": "6px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(31, 35, 40)",
+      "border": "1px solid rgb(209, 217, 224)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(31, 35, 40, 0.04) 0px 1px 0px 0px inset",
+      "transition": "color 0.08s cubic-bezier(0.33, 1, 0.68, 1), background-color 0.08s cubic-bezier(0.33, 1, 0.68, 1), box-shadow 0.08s cubic-bezier(0.33, 1, 0.68, 1), border-color 0.08s cubic-bezier(0.33, 1, 0.68, 1)",
+      "gap": "normal",
+      "contrast": 15.8
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "AI Stack\nDiscover, compare, an",
+      "tag": "article",
+      "height": 8767,
+      "width": 838,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 14,
+   "sizeBuckets": {
+    "xl": 6,
+    "lg": 3,
+    "md": 1,
+    "sm": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Navigation MenuSign inAppearan",
+      "tag": "header",
+      "height": 72,
+      "width": 1440,
+      "padding": "16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "alp82aistackRepository navigat",
+      "tag": "header",
+      "height": 100,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(246, 248, 250)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(209, 217, 224) 0px -1px 0px 0px inset",
+      "transition": "all",
+      "gap": "0px",
+      "contrast": 14.84
+     },
+     {
+      "text": "alp82aistack",
+      "tag": "div",
+      "height": 52,
+      "width": 1416,
+      "padding": "16px 0px 4px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.33
+     },
+     {
+      "text": "CodeIssuesPull requests1 (1)Ac",
+      "tag": "nav",
+      "height": 48,
+      "width": 1440,
+      "padding": "8px 16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(209, 217, 224, 0.7) 0px -1px 0px 0px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ],
+    "lg": [
+     {
+      "text": "PlatformAI CODE CREATIONGitHub",
+      "tag": "nav",
+      "height": 40,
+      "width": 643,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Pricing",
+      "tag": "a",
+      "height": 40,
+      "width": 69,
+      "padding": "8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "0.24px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "CodeIssuesPull requests1 (1)Ac",
+      "tag": "ul",
+      "height": 40,
+      "width": 1408,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.33
+     }
+    ],
+    "md": [
+     {
+      "text": "alp82aistack",
+      "tag": "nav",
+      "height": 32,
+      "width": 1400,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "div",
+      "height": 20,
+      "width": 24,
+      "padding": "16px 16px 4px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.33
+     },
+     {
+      "text": "Footer navigation\n\n      \n\n\n  ",
+      "tag": "nav",
+      "height": 18,
+      "width": 745,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(89, 99, 110)",
+      "border": "0px none rgb(89, 99, 110)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.43
+     },
+     {
+      "text": "© 2026 GitHub, Inc.TermsPrivac",
+      "tag": "nav",
+      "height": 18,
+      "width": 681,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(88, 99, 91)",
+      "border": "0px none rgb(88, 99, 91)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans Mono",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.35
+     },
+     {
+      "text": "GitHub on LinkedInGitHub on In",
+      "tag": "nav",
+      "height": 27,
+      "width": 264,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 2,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(89, 99, 110)",
+      "border": "0px none rgb(89, 99, 110)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.43
+     },
+     {
+      "text": "agentic-workflow",
+      "tag": "a",
+      "height": 26,
+      "width": 129,
+      "padding": "2px 12px",
+      "margin": "0px",
+      "radius": "9999.01px",
+      "background": "rgb(221, 244, 255)",
+      "color": "rgb(9, 105, 218)",
+      "border": "1px solid rgba(255, 255, 255, 0)",
+      "fontSize": "12px",
+      "fontWeight": "600",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.56
+     }
+    ],
+    "xl": [
+     {
+      "text": "agentic-workflowaiai-agentscod",
+      "tag": "div",
+      "height": 59,
+      "width": 272,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px 2px",
+      "contrast": 1.33
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 6,
+   "sizeBuckets": {
+    "xl": 1,
+    "sm": 3,
+    "lg": 1,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "AI Stack",
+      "tag": "h1",
+      "height": 51,
+      "width": 838,
+      "padding": "0px 0px 9.6px",
+      "margin": "24px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "40px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ],
+    "sm": [
+     {
+      "text": "Discover, compare, and share A",
+      "tag": "h3",
+      "height": 25,
+      "width": 838,
+      "padding": "0px",
+      "margin": "24px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "About",
+      "tag": "h2",
+      "height": 24,
+      "width": 272,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "Platform",
+      "tag": "h3",
+      "height": 21,
+      "width": 286,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(88, 99, 91)",
+      "border": "0px none rgb(88, 99, 91)",
+      "fontSize": "14px",
+      "fontWeight": "480",
+      "fontFamily": "Mona Sans Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.35
+     }
+    ],
+    "lg": [
+     {
+      "text": "🎯 What is AI Stack",
+      "tag": "h2",
+      "height": 38,
+      "width": 838,
+      "padding": "0px 0px 7.2px",
+      "margin": "24px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ],
+    "md": [
+     {
+      "text": "The developer newsletter",
+      "tag": "h3",
+      "height": 29,
+      "width": 520,
+      "padding": "4px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "480",
+      "fontFamily": "Mona Sans Mono",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 11,
+   "sizeBuckets": {
+    "lg": 1,
+    "xl": 8,
+    "sm": 2
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "",
+      "tag": "p",
+      "height": 38,
+      "width": 838,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "p",
+      "height": 339,
+      "width": 838,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "",
+      "tag": "p",
+      "height": 46,
+      "width": 838,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "AI Stack helps developers and ",
+      "tag": "p",
+      "height": 96,
+      "width": 838,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "AI Stack has two surfaces that",
+      "tag": "p",
+      "height": 48,
+      "width": 838,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ],
+    "sm": [
+     {
+      "text": "Typical flow:",
+      "tag": "p",
+      "height": 24,
+      "width": 838,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "⚠️ Before running migrations o",
+      "tag": "p",
+      "height": 24,
+      "width": 802,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(89, 99, 110)",
+      "border": "0px none rgb(89, 99, 110)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.43
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 20,
+   "sizeBuckets": {
+    "lg": 2,
+    "md": 2,
+    "xl": 13,
+    "sm": 3
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "PlatformAI CODE CREATIONGitHub",
+      "tag": "ul",
+      "height": 40,
+      "width": 643,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "CodeIssuesPull requests1 (1)Ac",
+      "tag": "ul",
+      "height": 40,
+      "width": 1408,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.33
+     }
+    ],
+    "md": [
+     {
+      "text": "alp82aistack",
+      "tag": "ol",
+      "height": 32,
+      "width": 124,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "NotificationsYou must be signe",
+      "tag": "ul",
+      "height": 36,
+      "width": 314,
+      "padding": "4px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.33
+     }
+    ],
+    "xl": [
+     {
+      "text": "🔍 Discover AI tools and framew",
+      "tag": "ul",
+      "height": 192,
+      "width": 838,
+      "padding": "0px 0px 0px 32px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "The web app (aistack.to) - whe",
+      "tag": "ol",
+      "height": 136,
+      "width": 838,
+      "padding": "0px 0px 0px 32px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "Sign up on the web app and cre",
+      "tag": "ul",
+      "height": 256,
+      "width": 838,
+      "padding": "0px 0px 0px 32px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "Sent: session and token counts",
+      "tag": "ul",
+      "height": 76,
+      "width": 838,
+      "padding": "0px 0px 0px 32px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ],
+    "sm": [
+     {
+      "text": "Terms\n          \n\n          \n ",
+      "tag": "ul",
+      "height": 18,
+      "width": 745,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(89, 99, 110)",
+      "border": "0px none rgb(89, 99, 110)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.43
+     },
+     {
+      "text": "© 2026 GitHub, Inc.TermsPrivac",
+      "tag": "ul",
+      "height": 18,
+      "width": 681,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(88, 99, 91)",
+      "border": "0px none rgb(88, 99, 91)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans Mono",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "20px",
+      "contrast": 3.35
+     },
+     {
+      "text": "GitHub on LinkedInGitHub on In",
+      "tag": "ul",
+      "height": 27,
+      "width": 264,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "table": {
+   "label": "表格",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "NameNameLast commit messageLas",
+      "tag": "table",
+      "height": 1681,
+      "width": 904,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px 0px 6px 6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "Command\nWhat it does\n\n\n\n\nlogin",
+      "tag": "table",
+      "height": 260,
+      "width": 715,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "Function\nType\nDescription\n\n\n\n\n",
+      "tag": "table",
+      "height": 186,
+      "width": 723,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "Function\nType\nDescription\n\n\n\n\n",
+      "tag": "table",
+      "height": 223,
+      "width": 676,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ]
+   }
+  },
+  "modal": {
+   "label": "对话框",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "details-dialog",
+      "height": 65,
+      "width": 1296,
+      "padding": "16px",
+      "margin": "81.3px 0px",
+      "radius": "6px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(31, 35, 40)",
+      "border": "1px solid rgb(209, 217, 224)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.4) 0px 0px 18px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.8
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(89, 99, 110)",
+      "border": "0px none rgb(89, 99, 110)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.43
+     }
+    ],
+    "xl": [
+     {
+      "text": "NameNameLast commit messageLas",
+      "tag": "table",
+      "height": 1681,
+      "width": 904,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px 0px 6px 6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": ".claude.claude  .github/workfl",
+      "tag": "tbody",
+      "height": 1680,
+      "width": 902,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ]
+   }
+  },
+  "tooltip": {
+   "label": "提示",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "clipboard-copy",
+      "height": 34,
+      "width": 34,
+      "padding": "0px",
+      "margin": "8px 0px",
+      "radius": "6px",
+      "background": "rgb(246, 248, 250)",
+      "color": "rgb(37, 41, 46)",
+      "border": "1px solid rgb(209, 217, 224)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.08s cubic-bezier(0.33, 1, 0.68, 1), background-color 0.08s cubic-bezier(0.33, 1, 0.68, 1), box-shadow 0.08s cubic-bezier(0.33, 1, 0.68, 1), border-color 0.08s cubic-bezier(0.33, 1, 0.68, 1)",
+      "gap": "normal",
+      "contrast": 13.74
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 3,
+   "sizeBuckets": {
+    "md": 1,
+    "sm": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "main",
+      "tag": "button",
+      "height": 32,
+      "width": 106,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(246, 248, 250)",
+      "color": "rgb(37, 41, 46)",
+      "border": "1px solid rgb(209, 217, 224)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(31, 35, 40, 0.04) 0px 1px 0px 0px",
+      "transition": "color 0.08s cubic-bezier(0.65, 0, 0.35, 1), fill 0.08s cubic-bezier(0.65, 0, 0.35, 1), background-color 0.08s cubic-bezier(0.65, 0, 0.35, 1), border-color 0.08s cubic-bezier(0.65, 0, 0.35, 1)",
+      "gap": "8px",
+      "contrast": 13.74
+     }
+    ],
+    "sm": [
+     {
+      "text": "main",
+      "tag": "div",
+      "height": 21,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(37, 41, 46)",
+      "border": "0px none rgb(37, 41, 46)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.44
+     },
+     {
+      "text": "main",
+      "tag": "span",
+      "height": 17,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(37, 41, 46)",
+      "border": "0px none rgb(37, 41, 46)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.44
+     }
+    ]
+   }
+  },
+  "avatar": {
+   "label": "头像",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "img",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px 8px 0px 0px",
+      "radius": "50%",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(31, 35, 40, 0.15) 0px 0px 0px 1px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 22,
+   "sizeBuckets": {
+    "md": 2,
+    "sm": 20
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px 0px 0px 4px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans",
+      "lineHeight": "24px",
+      "letterSpacing": "0.24px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(89, 99, 110)",
+      "border": "0px none rgb(89, 99, 110)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.43
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(89, 99, 110)",
+      "border": "0px none rgb(89, 99, 110)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 3.43
+     }
+    ]
+   }
+  },
+  "breadcrumb": {
+   "label": "面包屑",
+   "count": 2,
+   "sizeBuckets": {
+    "md": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "alp82aistack",
+      "tag": "nav",
+      "height": 32,
+      "width": 1400,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     },
+     {
+      "text": "alp82",
+      "tag": "a",
+      "height": 32,
+      "width": 48,
+      "padding": "4px 6px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 40)",
+      "border": "0px none rgb(31, 35, 40)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Mona Sans VF",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.33
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 72,
+   "heading": "Navigation Menu",
+   "background": "rgb(0, 0, 0)",
+   "padding": "16px 0px",
+   "children": 4
+  },
+  {
+   "tag": "nav",
+   "height": 40,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "main",
+   "height": 10953,
+   "heading": "Repository navigation",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 21
+  },
+  {
+   "tag": "header",
+   "height": 100,
+   "heading": "Repository navigation",
+   "background": "rgb(246, 248, 250)",
+   "padding": "0px",
+   "children": 4
+  },
+  {
+   "tag": "nav",
+   "height": 48,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "8px 16px 0px",
+   "children": 2
+  },
+  {
+   "tag": "header",
+   "height": 69,
+   "heading": "About",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 32px",
+   "children": 2
+  },
+  {
+   "tag": "nav",
+   "height": 48,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "8px 8px 0px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 8767,
+   "heading": "AI Stack",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 78
+  },
+  {
+   "tag": "section",
+   "height": 203,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "footer",
+   "height": 114,
+   "heading": "Footer",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "48px 16px 40px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 4.57,
+  "bodyContrastLevel": "AA",
+  "tapTargetMin": 15,
+  "tapTargetMedian": 24
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.08s",
+    "count": 125
+   },
+   {
+    "value": "0.2s",
+    "count": 32
+   },
+   {
+    "value": "0.5s",
+    "count": 3
+   },
+   {
+    "value": "0.4s",
+    "count": 2
+   },
+   {
+    "value": "0.3s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+    "count": 77
+   },
+   {
+    "value": "cubic-bezier(0.33, 1, 0.68, 1)",
+    "count": 48
+   },
+   {
+    "value": "ease",
+    "count": 12
+   },
+   {
+    "value": "ease-in-out",
+    "count": 8
+   },
+   {
+    "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "count": 3
+   },
+   {
+    "value": "linear",
+    "count": 1
+   }
+  ],
+  "properties": [
+   {
+    "value": "background-color",
+    "count": 38
+   },
+   {
+    "value": "border-color",
+    "count": 38
+   },
+   {
+    "value": "color",
+    "count": 32
+   },
+   {
+    "value": "fill",
+    "count": 20
+   },
+   {
+    "value": "box-shadow",
+    "count": 12
+   },
+   {
+    "value": "transform",
+    "count": 10
+   },
+   {
+    "value": "opacity",
+    "count": 6
+   },
+   {
+    "value": "stroke-dashoffset",
+    "count": 6
+   },
+   {
+    "value": "margin",
+    "count": 2
+   },
+   {
+    "value": "mask-position",
+    "count": 2
+   }
+  ]
+ }
+}

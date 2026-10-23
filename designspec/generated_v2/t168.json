@@ -1,0 +1,2520 @@
+{
+ "id": "t168",
+ "overview": {
+  "name": "interior.dev",
+  "url": "https://www.interior.dev/",
+  "section": "组件库",
+  "pagesScanned": [
+   "https://www.interior.dev/",
+   "https://www.interior.dev/docs"
+  ],
+  "subpages": [
+   "/docs"
+  ],
+  "sectionCount": 15,
+  "componentSamples": 84,
+  "typeSteps": 24
+ },
+ "colors": {
+  "roles": {
+   "primary": {
+    "hex": "#4568ff",
+    "value": "#4568ff",
+    "token": "--accent",
+    "source": "css-var",
+    "contrastOnBg": 4.14
+   },
+   "foreground": {
+    "hex": "#131313",
+    "value": "#131313",
+    "token": "--ink",
+    "source": "css-var",
+    "contrastOnBg": 1.0
+   },
+   "background": {
+    "hex": "#131313",
+    "value": "oklab(0.18674 0.00000850856 0.00000372529 / 0.11)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 99
+   },
+   {
+    "hex": "#131313",
+    "count": 3
+   },
+   {
+    "hex": "#4568ff",
+    "count": 1
+   },
+   {
+    "hex": "#454545",
+    "count": 161
+   },
+   {
+    "hex": "#6e6e6e",
+    "count": 107
+   },
+   {
+    "hex": "#393a34",
+    "count": 7
+   },
+   {
+    "hex": "#999999",
+    "count": 6
+   },
+   {
+    "hex": "#b56959",
+    "count": 5
+   },
+   {
+    "hex": "#3d7a4e",
+    "count": 4
+   },
+   {
+    "hex": "#1e754f",
+    "count": 2
+   }
+  ],
+  "backgroundsTotal": 9,
+  "textTotal": 21,
+  "bordersTotal": 3
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "9.5px",
+    "px": 9.5,
+    "weight": "400",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 3,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "1"
+    ]
+   },
+   {
+    "size": "10.5px",
+    "px": 10.5,
+    "weight": "400",
+    "lineHeight": "10.5px",
+    "letterSpacing": "0.63px",
+    "family": "Geist Mono",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "terminal"
+    ]
+   },
+   {
+    "size": "10.5px",
+    "px": 10.5,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 4,
+    "tags": [
+     "button",
+     "span"
+    ],
+    "samples": [
+     "copy"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "16.5px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "1.00× · Normal"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "600",
+    "lineHeight": "16.5px",
+    "letterSpacing": "0.88px",
+    "family": "Geist",
+    "count": 3,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "The three failures"
+    ]
+   },
+   {
+    "size": "11.5px",
+    "px": 11.5,
+    "weight": "400",
+    "lineHeight": "18.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 12,
+    "tags": [
+     "a",
+     "span",
+     "p"
+    ],
+    "samples": [
+     "Library of the Month on 21st.dev↗"
+    ]
+   },
+   {
+    "size": "11.5px",
+    "px": 11.5,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 5,
+    "tags": [
+     "button"
+    ],
+    "samples": [
+     "Pause previews"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Components"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "129128"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "12.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 56,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "tbh this pure gold!"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist Mono",
+    "count": 28,
+    "tags": [
+     "pre",
+     "code",
+     "span"
+    ],
+    "samples": [
+     "npx shadcn@latest add https://www.interi"
+    ]
+   },
+   {
+    "size": "12.5px",
+    "px": 12.5,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 13,
+    "tags": [
+     "a",
+     "button",
+     "span"
+    ],
+    "samples": [
+     "Components"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 64,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Action Feedback"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 3,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "A label changes from Save to Saving and "
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "500",
+    "lineHeight": "19.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 16,
+    "tags": [
+     "a",
+     "button",
+     "span"
+    ],
+    "samples": [
+     "See the components"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "500",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 12,
+    "tags": [
+     "h3",
+     "a"
+    ],
+    "samples": [
+     "Loading Button"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "500",
+    "lineHeight": "18px",
+    "letterSpacing": "-0.13px",
+    "family": "Geist",
+    "count": 8,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Day"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "400",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 8,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Animated React components, shown in moti"
+    ]
+   },
+   {
+    "size": "13.5px",
+    "px": 13.5,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "-0.135px",
+    "family": "Geist",
+    "count": 3,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "The button jumps"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "The fade a beat too slow. The spinner ou"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "24.5px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "None of these are hard components. That "
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 132,
+    "tags": [
+     "span",
+     "button"
+    ],
+    "samples": [
+     "B"
+    ]
+   },
+   {
+    "size": "27px",
+    "px": 27.0,
+    "weight": "500",
+    "lineHeight": "31px",
+    "letterSpacing": "-0.81px",
+    "family": "Geist",
+    "count": 5,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Small things. Finished."
+    ]
+   },
+   {
+    "size": "52px",
+    "px": 52.0,
+    "weight": "500",
+    "lineHeight": "56px",
+    "letterSpacing": "-2.08px",
+    "family": "Geist",
+    "count": 2,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "Software feels cheap in the half-second "
+    ]
+   }
+  ],
+  "totalSteps": 39,
+  "families": [
+   "Geist",
+   "Geist Mono"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 16
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 32
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 22
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 16
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 46
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 94
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 109
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 127
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 44
+   },
+   {
+    "value": "18px",
+    "px": 18.0,
+    "count": 6
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 23
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 17
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 3
+   },
+   {
+    "value": "30px",
+    "px": 30.0,
+    "count": 54
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 1
+   },
+   {
+    "value": "36px",
+    "px": 36.0,
+    "count": 3
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "900px",
+    "count": 1
+   },
+   {
+    "value": "769.913px",
+    "count": 1
+   },
+   {
+    "value": "437.58px",
+    "count": 1
+   },
+   {
+    "value": "680px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "1px",
+    "px": 1.0,
+    "count": 54
+   },
+   {
+    "value": "1.5px",
+    "px": 1.5,
+    "count": 80
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 3
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 11
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 9
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 11
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 56
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 76
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 2
+   },
+   {
+    "value": "11px",
+    "px": 11.0,
+    "count": 6
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.09) 0px 1.5px 0px 0px, rgba(0, 0, 0, 0.11) 0px 0px 0px 1px inset",
+    "count": 66
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 0px 1px inset",
+    "count": 17
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.04) 0px 1px 2px 0px, rgba(0, 0, 0, 0.11) 0px 0px 0px 1px",
+    "count": 10
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.26) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.95) 0px 1.5px 0px 0px inset, rgba(28, 25, 23, 0.06) 0px -1px 0px 0px inset, rgba(28, 25, 23, 0.08) 0px 1px 2px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(28, 25, 23, 0.07) 0px 1px 2px 0px inset",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(28, 25, 23, 0.28) 0px 1px 2px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "10",
+    "count": 6
+   },
+   {
+    "value": "20",
+    "count": 1
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 12,
+   "sizeBuckets": {
+    "sm": 5,
+    "md": 4,
+    "lg": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Light",
+      "tag": "button",
+      "height": 20,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "5px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "Dark",
+      "tag": "button",
+      "height": 20,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "5px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.12
+     },
+     {
+      "text": "copy",
+      "tag": "button",
+      "height": 22,
+      "width": 40,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(69, 69, 69)",
+      "border": "0px solid rgb(69, 69, 69)",
+      "fontSize": "10.5px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "15.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.09) 0px 1.5px 0px 0px, rgba(0, 0, 0, 0.11) 0px 0px 0px 1px inset",
+      "transition": "transform 0.12s cubic-bezier(0.23, 1, 0.32, 1), background-color 0.15s",
+      "gap": "normal",
+      "contrast": 9.59
+     },
+     {
+      "text": "Expand all",
+      "tag": "button",
+      "height": 17,
+      "width": 75,
+      "padding": "0px 10px",
+      "margin": "10px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "11.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "17.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 4.12
+     }
+    ],
+    "md": [
+     {
+      "text": "PublishPublishPublishedTry aga",
+      "tag": "button",
+      "height": 36,
+      "width": 108,
+      "padding": "0px 14px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgb(255, 255, 255)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "1px solid lab(91.055 0.663072 0.865579)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.95) 0px 1.5px 0px 0px inset, rgba(28, 25, 23, 0.06) 0px -1px 0px 0px inset, rgba(28, 25, 23, 0.08) 0px 1px 2px 0px",
+      "transition": "border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "B",
+      "tag": "button",
+      "height": 36,
+      "width": 36,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "7px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.09) 0px 1.5px 0px 0px, rgba(0, 0, 0, 0.11) 0px 0px 0px 1px inset",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 5.1
+     },
+     {
+      "text": "Day",
+      "tag": "button",
+      "height": 32,
+      "width": 70,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "Action Feedback",
+      "tag": "button",
+      "height": 32,
+      "width": 220,
+      "padding": "0px 10px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.13
+     }
+    ],
+    "lg": [
+     {
+      "text": "Hold to delete workspaceWorksp",
+      "tag": "button",
+      "height": 40,
+      "width": 190,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgb(255, 255, 255)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "1px solid lab(91.055 0.663072 0.865579)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Pause previews",
+      "tag": "button",
+      "height": 44,
+      "width": 102,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "11.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "17.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 4.12
+     },
+     {
+      "text": "Pause reactions",
+      "tag": "button",
+      "height": 44,
+      "width": 84,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "11.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "17.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.12
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 10,
+   "sizeBuckets": {
+    "lg": 4,
+    "md": 3,
+    "sm": 3
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Components",
+      "tag": "a",
+      "height": 44,
+      "width": 73,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.12
+     },
+     {
+      "text": "Library of the Month on 21st.d",
+      "tag": "a",
+      "height": 44,
+      "width": 188,
+      "padding": "0px",
+      "margin": "20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "11.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.6875px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 4.12
+     },
+     {
+      "text": "All 54 components",
+      "tag": "a",
+      "height": 44,
+      "width": 129,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(69, 69, 69)",
+      "border": "0px solid rgb(69, 69, 69)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 2.19
+     },
+     {
+      "text": "Loading Button source and docu",
+      "tag": "a",
+      "height": 44,
+      "width": 44,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "7px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.12
+     }
+    ],
+    "md": [
+     {
+      "text": "See the components",
+      "tag": "a",
+      "height": 36,
+      "width": 153,
+      "padding": "0px 14px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgb(19, 19, 19)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.12s cubic-bezier(0.23, 1, 0.32, 1), background-color 0.15s",
+      "gap": "normal",
+      "contrast": 18.58
+     },
+     {
+      "text": "GitHub1,141",
+      "tag": "a",
+      "height": 36,
+      "width": 146,
+      "padding": "0px 14px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.26) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "transition": "transform 0.12s cubic-bezier(0.23, 1, 0.32, 1), background-color 0.15s",
+      "gap": "6px",
+      "contrast": 18.58
+     },
+     {
+      "text": "Copy Button",
+      "tag": "a",
+      "height": 30,
+      "width": 220,
+      "padding": "0px 10px 0px 30px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ],
+    "sm": [
+     {
+      "text": "Loading Button",
+      "tag": "a",
+      "height": 17,
+      "width": 92,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "interior[.]dev",
+      "tag": "a",
+      "height": 24,
+      "width": 96,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "Components",
+      "tag": "a",
+      "height": 18,
+      "width": 70,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 4.12
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Filter components",
+      "tag": "input",
+      "height": 20,
+      "width": 155,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 8,
+   "sizeBuckets": {
+    "xl": 8
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "interior[.]devComponentsGet st",
+      "tag": "div",
+      "height": 3262,
+      "width": 1400,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.04) 0px 1px 2px 0px, rgba(0, 0, 0, 0.11) 0px 0px 0px 1px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.58
+     },
+     {
+      "text": "PublishPublishPublishedTry aga",
+      "tag": "article",
+      "height": 326,
+      "width": 442,
+      "padding": "5px",
+      "margin": "0px",
+      "radius": "16px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.04) 0px 1px 2px 0px, rgba(0, 0, 0, 0.11) 0px 0px 0px 1px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.58
+     },
+     {
+      "text": "terminalcopynpx shadcn@latest ",
+      "tag": "div",
+      "height": 91,
+      "width": 533,
+      "padding": "5px",
+      "margin": "0px 0px 12px",
+      "radius": "14px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.04) 0px 1px 2px 0px, rgba(0, 0, 0, 0.11) 0px 0px 0px 1px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.58
+     },
+     {
+      "text": "your-component.tsxcopyimport {",
+      "tag": "div",
+      "height": 134,
+      "width": 533,
+      "padding": "5px",
+      "margin": "0px",
+      "radius": "14px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.04) 0px 1px 2px 0px, rgba(0, 0, 0, 0.11) 0px 0px 0px 1px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.58
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 4,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "interior[.]devComponentsGet st",
+      "tag": "header",
+      "height": 48,
+      "width": 1400,
+      "padding": "0px 20px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgba(0, 0, 0, 0.14)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": 1.13
+     },
+     {
+      "text": "interior[.]dev/Expand allActio",
+      "tag": "nav",
+      "height": 773,
+      "width": 236,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "interior[.]devComponentsCompon",
+      "tag": "header",
+      "height": 48,
+      "width": 1148,
+      "padding": "0px 20px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgba(0, 0, 0, 0.14)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": null
+     },
+     {
+      "text": "Why this existsNone of these a",
+      "tag": "header",
+      "height": 203,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ],
+    "lg": [
+     {
+      "text": "ComponentsGet started",
+      "tag": "nav",
+      "height": 44,
+      "width": 157,
+      "padding": "0px",
+      "margin": "0px 8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "20px",
+      "contrast": 4.12
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 1,
+    "md": 1,
+    "sm": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Software feels cheap in the ha",
+      "tag": "h1",
+      "height": 112,
+      "width": 770,
+      "padding": "0px",
+      "margin": "64px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "52px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "56.16px",
+      "letterSpacing": "-2.08px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ],
+    "md": [
+     {
+      "text": "Small things. Finished.",
+      "tag": "h2",
+      "height": 31,
+      "width": 288,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "27px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "31.05px",
+      "letterSpacing": "-0.81px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ],
+    "sm": [
+     {
+      "text": "Loading Button",
+      "tag": "h3",
+      "height": 21,
+      "width": 210,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "21.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "The three failures",
+      "tag": "h2",
+      "height": 17,
+      "width": 600,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "11px",
+      "fontWeight": "600",
+      "fontFamily": "Geist",
+      "lineHeight": "16.5px",
+      "letterSpacing": "0.88px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.12
+     },
+     {
+      "text": "The button jumps",
+      "tag": "h3",
+      "height": 20,
+      "width": 108,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "13.5px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "20.25px",
+      "letterSpacing": "-0.135px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 10,
+   "sizeBuckets": {
+    "xl": 4,
+    "sm": 2,
+    "lg": 3,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "The fade a beat too slow. The ",
+      "tag": "p",
+      "height": 51,
+      "width": 438,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(69, 69, 69)",
+      "border": "0px solid rgb(69, 69, 69)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.19
+     },
+     {
+      "text": "None of these are hard compone",
+      "tag": "p",
+      "height": 73,
+      "width": 600,
+      "padding": "0px",
+      "margin": "14px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(69, 69, 69)",
+      "border": "0px solid rgb(69, 69, 69)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24.375px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.19
+     },
+     {
+      "text": "A label changes from Save to S",
+      "tag": "p",
+      "height": 63,
+      "width": 600,
+      "padding": "0px 0px 0px 28px",
+      "margin": "8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(69, 69, 69)",
+      "border": "0px solid rgb(69, 69, 69)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.19
+     },
+     {
+      "text": "A file. Not an install, not a ",
+      "tag": "p",
+      "height": 66,
+      "width": 600,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(69, 69, 69)",
+      "border": "0px solid rgb(69, 69, 69)",
+      "fontSize": "13.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21.9375px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.19
+     }
+    ],
+    "sm": [
+     {
+      "text": "Animated React components, sho",
+      "tag": "p",
+      "height": 22,
+      "width": 288,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(69, 69, 69)",
+      "border": "0px solid rgb(69, 69, 69)",
+      "fontSize": "13.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21.9375px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.19
+     },
+     {
+      "text": "The label changes. The button ",
+      "tag": "p",
+      "height": 19,
+      "width": 210,
+      "padding": "0px",
+      "margin": "4px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "11.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.6875px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.12
+     }
+    ],
+    "lg": [
+     {
+      "text": "Add a component. Keep the sour",
+      "tag": "p",
+      "height": 44,
+      "width": 286,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(69, 69, 69)",
+      "border": "0px solid rgb(69, 69, 69)",
+      "fontSize": "13.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21.9375px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.19
+     },
+     {
+      "text": "React, Tailwind CSS, and Motio",
+      "tag": "p",
+      "height": 37,
+      "width": 244,
+      "padding": "0px",
+      "margin": "16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "11.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "18.6875px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.12
+     },
+     {
+      "text": "With reduced motion on, most l",
+      "tag": "p",
+      "height": 42,
+      "width": 600,
+      "padding": "0px 0px 0px 28px",
+      "margin": "8px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(69, 69, 69)",
+      "border": "0px solid rgb(69, 69, 69)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "21.125px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.19
+     }
+    ],
+    "md": [
+     {
+      "text": "tbh this pure gold!",
+      "tag": "p",
+      "height": 36,
+      "width": 131,
+      "padding": "0px 14px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(69, 69, 69)",
+      "border": "0px solid rgb(69, 69, 69)",
+      "fontSize": "12.5px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "12.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0.09) 0px 1.5px 0px 0px, rgba(0, 0, 0, 0.11) 0px 0px 0px 1px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.59
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 5
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Copy ButtonLoading ButtonHold ",
+      "tag": "ul",
+      "height": 216,
+      "width": 220,
+      "padding": "0px 0px 6px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "Floating LabelInline Validatio",
+      "tag": "ul",
+      "height": 186,
+      "width": 220,
+      "padding": "0px 0px 6px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "Skeleton SwapProgress BarLoad ",
+      "tag": "ul",
+      "height": 156,
+      "width": 220,
+      "padding": "0px 0px 6px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "Sortable TableFilter GridValue",
+      "tag": "ul",
+      "height": 126,
+      "width": 220,
+      "padding": "0px 0px 6px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "1,141",
+      "tag": "span",
+      "height": 12,
+      "width": 34,
+      "padding": "0px 0px 0px 6px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgba(0, 0, 0, 0.14)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "16.5px",
+      "letterSpacing": "-0.275px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 4.12
+     },
+     {
+      "text": "1.00× · Normal",
+      "tag": "span",
+      "height": 17,
+      "width": 92,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "0px solid lab(27.3812 1.32917 3.57789)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "Geist Mono",
+      "lineHeight": "16.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "129128",
+      "tag": "span",
+      "height": 18,
+      "width": 22,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "lab(48.1164 2.35701 4.26852)",
+      "border": "0px solid lab(48.1164 2.35701 4.26852)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 6,
+   "sizeBuckets": {
+    "md": 2,
+    "lg": 3,
+    "xl": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "PublishPublishPublishedTry aga",
+      "tag": "div",
+      "height": 36,
+      "width": 384,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "PublishPublishPublishedTry aga",
+      "tag": "button",
+      "height": 36,
+      "width": 108,
+      "padding": "0px 14px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgb(255, 255, 255)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "1px solid lab(91.055 0.663072 0.865579)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.95) 0px 1.5px 0px 0px inset, rgba(28, 25, 23, 0.06) 0px -1px 0px 0px inset, rgba(28, 25, 23, 0.08) 0px 1px 2px 0px",
+      "transition": "border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Hold to delete workspaceWorksp",
+      "tag": "div",
+      "height": 40,
+      "width": 384,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "Hold to delete workspaceWorksp",
+      "tag": "button",
+      "height": 40,
+      "width": 190,
+      "padding": "0px 16px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "rgb(255, 255, 255)",
+      "color": "lab(27.3812 1.32917 3.57789)",
+      "border": "1px solid lab(91.055 0.663072 0.865579)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "DayWeekMonthQuarterDayWeekMont",
+      "tag": "div",
+      "height": 40,
+      "width": 288,
+      "padding": "3px",
+      "margin": "0px",
+      "radius": "9px",
+      "background": "oklab(0.969998 -0.000292331 0.000981867 / 0.7)",
+      "color": "rgb(19, 19, 19)",
+      "border": "1px solid lab(91.055 0.663072 0.865579)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(28, 25, 23, 0.07) 0px 1px 2px 0px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Playback speed1.00× · Normal1.",
+      "tag": "div",
+      "height": 65,
+      "width": 384,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 14,
+   "sizeBuckets": {
+    "sm": 14
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 13,
+      "width": 13,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 13,
+      "width": 13,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.12
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 15,
+      "width": 15,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 11,
+      "width": 11,
+      "padding": "0px",
+      "margin": "0px 0px 0px -2px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(110, 110, 110)",
+      "border": "0px solid rgb(110, 110, 110)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "19.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 4.12
+     }
+    ]
+   }
+  },
+  "divider": {
+   "label": "分割线",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 5
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Small things. Finished.Animate",
+      "tag": "section",
+      "height": 1327,
+      "width": 900,
+      "padding": "80px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "One file. Yours.Add a componen",
+      "tag": "section",
+      "height": 397,
+      "width": 900,
+      "padding": "80px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "48px",
+      "contrast": 1.13
+     },
+     {
+      "text": "A few words back.From the laun",
+      "tag": "section",
+      "height": 489,
+      "width": 900,
+      "padding": "80px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     },
+     {
+      "text": "Finish the small things.54 com",
+      "tag": "section",
+      "height": 193,
+      "width": 900,
+      "padding": "64px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(19, 19, 19)",
+      "border": "0px solid rgb(19, 19, 19)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.13
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 48,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 20px",
+   "children": 4
+  },
+  {
+   "tag": "nav",
+   "height": 44,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "main",
+   "height": 3214,
+   "heading": "Software feels cheap in the half-second after a cl",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 48px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 724,
+   "heading": "Software feels cheap in the half-second after a cl",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "96px 0px",
+   "children": 5
+  },
+  {
+   "tag": "section",
+   "height": 1327,
+   "heading": "Small things. Finished.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "80px 0px",
+   "children": 3
+  },
+  {
+   "tag": "article",
+   "height": 326,
+   "heading": "Loading Button",
+   "background": "rgb(255, 255, 255)",
+   "padding": "5px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 326,
+   "heading": "Hold to Confirm",
+   "background": "rgb(255, 255, 255)",
+   "padding": "5px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 326,
+   "heading": "Tooltip Group",
+   "background": "rgb(255, 255, 255)",
+   "padding": "5px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 326,
+   "heading": "Slider Detents",
+   "background": "rgb(255, 255, 255)",
+   "padding": "5px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 326,
+   "heading": "Segmented Control",
+   "background": "rgb(255, 255, 255)",
+   "padding": "5px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 326,
+   "heading": "Like Burst",
+   "background": "rgb(255, 255, 255)",
+   "padding": "5px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 397,
+   "heading": "One file. Yours.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "80px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 489,
+   "heading": "A few words back.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "80px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 193,
+   "heading": "Finish the small things.",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "64px 0px",
+   "children": 1
+  },
+  {
+   "tag": "footer",
+   "height": 84,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "20px 0px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 18.58,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 17,
+  "tapTargetMedian": 36
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 14
+   },
+   {
+    "value": "0.12s",
+    "count": 5
+   },
+   {
+    "value": "0.1s",
+    "count": 4
+   },
+   {
+    "value": "0.22s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 13
+   },
+   {
+    "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+    "count": 6
+   },
+   {
+    "value": "ease",
+    "count": 5
+   }
+  ],
+  "properties": [
+   {
+    "value": "background-color",
+    "count": 11
+   },
+   {
+    "value": "transform",
+    "count": 6
+   },
+   {
+    "value": "color",
+    "count": 6
+   },
+   {
+    "value": "border-color",
+    "count": 6
+   },
+   {
+    "value": "outline-color",
+    "count": 6
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 6
+   },
+   {
+    "value": "fill",
+    "count": 6
+   },
+   {
+    "value": "stroke",
+    "count": 6
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 6
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 6
+   }
+  ]
+ }
+}

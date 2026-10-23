@@ -1,0 +1,1785 @@
+{
+ "id": "t417",
+ "overview": {
+  "name": "UI Skills",
+  "url": "https://ui-skills.com/",
+  "section": "阅读",
+  "pagesScanned": [
+   "https://ui-skills.com/",
+   "https://ui-skills.com/components",
+   "https://ui-skills.com/login",
+   "https://ui-skills.com/cli"
+  ],
+  "subpages": [
+   "/components",
+   "/login",
+   "/cli"
+  ],
+  "sectionCount": 8,
+  "componentSamples": 59,
+  "typeSteps": 7
+ },
+ "colors": {
+  "roles": {
+   "primary": {
+    "hex": "#1f78ff",
+    "value": "#1f78ff",
+    "token": "--color-content-accent",
+    "source": "css-var",
+    "contrastOnBg": 4.05
+   },
+   "muted": {
+    "hex": "#fafafa",
+    "value": "#fafafa",
+    "token": "--color-fill-subtle",
+    "source": "css-var",
+    "contrastOnBg": 1.04
+   },
+   "border": {
+    "hex": "#ededed",
+    "value": "#ededed",
+    "token": "--color-line-default",
+    "source": "css-var",
+    "contrastOnBg": 1.17
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--color-surface-default",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 21.0
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#fafafa",
+    "count": 54
+   },
+   {
+    "hex": "#ffffff",
+    "count": 37
+   },
+   {
+    "hex": "#151515",
+    "count": 7
+   },
+   {
+    "hex": "#f5f5f5",
+    "count": 7
+   },
+   {
+    "hex": "#000000",
+    "count": 836
+   },
+   {
+    "hex": "#757575",
+    "count": 635
+   },
+   {
+    "hex": "#a5a5a5",
+    "count": 136
+   },
+   {
+    "hex": "#e5e5e5",
+    "count": 40
+   }
+  ],
+  "backgroundsTotal": 4,
+  "textTotal": 7,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "16.5px",
+    "letterSpacing": "normal",
+    "family": "Inter Variable",
+    "count": 47,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "★"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "JetBrains Mono",
+    "count": 60,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "npx ui-skills"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Inter Variable",
+    "count": 404,
+    "tags": [
+     "a",
+     "span",
+     "p",
+     "li"
+    ],
+    "samples": [
+     "Sign in"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "19px",
+    "letterSpacing": "normal",
+    "family": "Inter Variable",
+    "count": 9,
+    "tags": [
+     "p",
+     "span",
+     "button"
+    ],
+    "samples": [
+     "If you want to promote to 80k+ unique vi"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "450",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "family": "Inter Variable",
+    "count": 210,
+    "tags": [
+     "a",
+     "span",
+     "h3"
+    ],
+    "samples": [
+     "UI Skills"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Inter Variable",
+    "count": 38,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "ui-skills-rootibelickUse when the user n"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "450",
+    "lineHeight": "45px",
+    "letterSpacing": "-0.9px",
+    "family": "Inter Variable",
+    "count": 3,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "Curated skills for design engineering"
+    ]
+   }
+  ],
+  "totalSteps": 8,
+  "families": [
+   "Inter Variable",
+   "JetBrains Mono"
+  ],
+  "weights": [
+   "400",
+   "450",
+   "500"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 338
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 6
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 295
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 328
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 138
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 46
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 3
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 4
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 10
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 9
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 8
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 5
+   },
+   {
+    "value": "80px",
+    "px": 80.0,
+    "count": 3
+   },
+   {
+    "value": "128px",
+    "px": 128.0,
+    "count": 3
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "1280px",
+    "count": 6
+   },
+   {
+    "value": "768px",
+    "count": 5
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 3
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 1
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 156
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 93
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 3
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(237, 237, 237) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+    "count": 3
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "10",
+    "count": 16
+   },
+   {
+    "value": "30",
+    "count": 14
+   },
+   {
+    "value": "20",
+    "count": 10
+   },
+   {
+    "value": "0",
+    "count": 6
+   },
+   {
+    "value": "40",
+    "count": 3
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 5,
+   "sizeBuckets": {
+    "md": 1,
+    "sm": 3,
+    "lg": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Search skills and playbook",
+      "tag": "button",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(21, 21, 21)",
+      "border": "1px solid rgb(237, 237, 237)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 18.26
+     }
+    ],
+    "sm": [
+     {
+      "text": "Copy command",
+      "tag": "button",
+      "height": 28,
+      "width": 28,
+      "padding": "4px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(117, 117, 117)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 4.56
+     },
+     {
+      "text": "Subscribe",
+      "tag": "button",
+      "height": 28,
+      "width": 28,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(21, 21, 21)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": 18.26
+     },
+     {
+      "text": "contact us",
+      "tag": "button",
+      "height": 19,
+      "width": 69,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(21, 21, 21)",
+      "border": "0px solid rgb(21, 21, 21)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "19.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.15
+     }
+    ],
+    "lg": [
+     {
+      "text": "Continue with GitHub",
+      "tag": "button",
+      "height": 40,
+      "width": 320,
+      "padding": "0px 20px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(21, 21, 21)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 18.26
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 15,
+   "sizeBuckets": {
+    "sm": 9,
+    "md": 3,
+    "xl": 2,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "UI Skills",
+      "tag": "a",
+      "height": 21,
+      "width": 77,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(21, 21, 21)",
+      "border": "0px solid rgb(21, 21, 21)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1.15
+     },
+     {
+      "text": "Sign in",
+      "tag": "a",
+      "height": 21,
+      "width": 45,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9999px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(117, 117, 117)",
+      "border": "0px solid rgb(117, 117, 117)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.56
+     },
+     {
+      "text": "Open CLI installation guide",
+      "tag": "a",
+      "height": 28,
+      "width": 28,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(117, 117, 117)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": 4.56
+     },
+     {
+      "text": "Skills",
+      "tag": "a",
+      "height": 21,
+      "width": 53,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(117, 117, 117)",
+      "border": "0px solid rgb(117, 117, 117)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": 4.56
+     }
+    ],
+    "md": [
+     {
+      "text": "9.8k+★",
+      "tag": "a",
+      "height": 32,
+      "width": 106,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(21, 21, 21)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": 18.26
+     },
+     {
+      "text": "Open Base UI website",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(117, 117, 117)",
+      "border": "0px solid rgb(117, 117, 117)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 4.56
+     },
+     {
+      "text": "UI Skills home",
+      "tag": "a",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "ui-skills-rootibelickUse when ",
+      "tag": "a",
+      "height": 71,
+      "width": 728,
+      "padding": "12px 0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(237, 237, 237)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1
+     },
+     {
+      "text": "Prevent layout shifts with asp",
+      "tag": "a",
+      "height": 91,
+      "width": 358,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "lg": [
+     {
+      "text": "Vercel",
+      "tag": "a",
+      "height": 40,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 21,
+      "width": 278,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(21, 21, 21)",
+      "border": "0px solid rgb(21, 21, 21)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.15
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 3,
+   "sizeBuckets": {
+    "lg": 1,
+    "xl": 2
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "CLIRun the UI Skills CLI from ",
+      "tag": "div",
+      "height": 44,
+      "width": 332,
+      "padding": "0px 32px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "2px",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "Base UI★11k+Unstyled React com",
+      "tag": "article",
+      "height": 75,
+      "width": 728,
+      "padding": "16px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(237, 237, 237)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "12px",
+      "contrast": 1
+     },
+     {
+      "text": "Start herePrint the routing sk",
+      "tag": "article",
+      "height": 102,
+      "width": 728,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "20px",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 5,
+   "sizeBuckets": {
+    "lg": 1,
+    "md": 1,
+    "xl": 1,
+    "sm": 2
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "UI SkillsSign in(()=>{var l=(n",
+      "tag": "header",
+      "height": 40,
+      "width": 1440,
+      "padding": "8px 0px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "UI SkillsSign in(()=>{var l=(n",
+      "tag": "nav",
+      "height": 32,
+      "width": 1280,
+      "padding": "0px 20px",
+      "margin": "0px 80px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "Curated skills for design engi",
+      "tag": "header",
+      "height": 90,
+      "width": 384,
+      "padding": "0px",
+      "margin": "0px 344px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "ExploreComponents",
+      "tag": "nav",
+      "height": 21,
+      "width": 728,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "React16Primitives8shadcn6Motio",
+      "tag": "nav",
+      "height": 28,
+      "width": 728,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 2,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Curated skills for design engi",
+      "tag": "h1",
+      "height": 90,
+      "width": 384,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(21, 21, 21)",
+      "border": "0px solid rgb(21, 21, 21)",
+      "fontSize": "36px",
+      "fontWeight": "450",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "45px",
+      "letterSpacing": "-0.9px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.15
+     },
+     {
+      "text": "React component libraries",
+      "tag": "h1",
+      "height": 45,
+      "width": 728,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(21, 21, 21)",
+      "border": "0px solid rgb(21, 21, 21)",
+      "fontSize": "36px",
+      "fontWeight": "450",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "45px",
+      "letterSpacing": "-0.9px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.15
+     }
+    ],
+    "sm": [
+     {
+      "text": "Discover",
+      "tag": "h3",
+      "height": 21,
+      "width": 222,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(21, 21, 21)",
+      "border": "0px solid rgb(21, 21, 21)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.15
+     },
+     {
+      "text": "Explore related directories",
+      "tag": "h2",
+      "height": 21,
+      "width": 728,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(117, 117, 117)",
+      "border": "0px solid rgb(117, 117, 117)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.56
+     }
+    ],
+    "md": [
+     {
+      "text": "Log in to UI Skills",
+      "tag": "h1",
+      "height": 36,
+      "width": 214,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(21, 21, 21)",
+      "border": "0px solid rgb(21, 21, 21)",
+      "fontSize": "30px",
+      "fontWeight": "500",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.75px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.15
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 3,
+    "lg": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Curated skills, guides, and re",
+      "tag": "p",
+      "height": 63,
+      "width": 222,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(117, 117, 117)",
+      "border": "0px solid rgb(117, 117, 117)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.56
+     },
+     {
+      "text": "©2026 UI Skills",
+      "tag": "p",
+      "height": 46,
+      "width": 1240,
+      "padding": "24px 0px 0px",
+      "margin": "64px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(117, 117, 117)",
+      "border": "1px solid rgb(237, 237, 237)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.56
+     },
+     {
+      "text": "If you want to promote to 80k+",
+      "tag": "p",
+      "height": 58,
+      "width": 276,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(21, 21, 21)",
+      "border": "0px solid rgb(21, 21, 21)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "19.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.15
+     }
+    ],
+    "lg": [
+     {
+      "text": "Find production-ready React co",
+      "tag": "p",
+      "height": 42,
+      "width": 728,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(117, 117, 117)",
+      "border": "0px solid rgb(117, 117, 117)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.56
+     }
+    ],
+    "sm": [
+     {
+      "text": "Unstyled React components from",
+      "tag": "p",
+      "height": 21,
+      "width": 596,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(117, 117, 117)",
+      "border": "0px solid rgb(117, 117, 117)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.56
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 3,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "SkillsNew skillsTopicsCollecti",
+      "tag": "ul",
+      "height": 137,
+      "width": 222,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "ComponentsIconsDesign.mdPlaybo",
+      "tag": "ul",
+      "height": 108,
+      "width": 222,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "AccessibilityMotionSystemsVisu",
+      "tag": "ul",
+      "height": 195,
+      "width": 222,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "ExploreComponents",
+      "tag": "ol",
+      "height": 21,
+      "width": 728,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "80k+",
+      "tag": "span",
+      "height": 17,
+      "width": 35,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(21, 21, 21)",
+      "border": "0px solid rgb(21, 21, 21)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "19.25px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.15
+     },
+     {
+      "text": "16",
+      "tag": "span",
+      "height": 18,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(165, 165, 165)",
+      "border": "0px solid rgb(165, 165, 165)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.53
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 5,
+   "sizeBuckets": {
+    "sm": 4,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Open CLI installation guide",
+      "tag": "a",
+      "height": 28,
+      "width": 28,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(117, 117, 117)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": 4.56
+     },
+     {
+      "text": "Subscribe",
+      "tag": "button",
+      "height": 28,
+      "width": 28,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(21, 21, 21)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": 18.26
+     },
+     {
+      "text": "",
+      "tag": "li",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(165, 165, 165)",
+      "border": "0px solid rgb(165, 165, 165)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.53
+     },
+     {
+      "text": "React16",
+      "tag": "a",
+      "height": 28,
+      "width": 75,
+      "padding": "0px 8px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(21, 21, 21)",
+      "border": "1px solid rgb(237, 237, 237)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "4px",
+      "contrast": 18.26
+     }
+    ],
+    "lg": [
+     {
+      "text": "Continue with GitHub",
+      "tag": "button",
+      "height": 40,
+      "width": 320,
+      "padding": "0px 20px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgb(21, 21, 21)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1), border-color 0.15s cubic-bezier(0, 0, 0.2, 1)",
+      "gap": "8px",
+      "contrast": 18.26
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 8,
+   "sizeBuckets": {
+    "sm": 8
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(21, 21, 21)",
+      "border": "0px solid rgb(21, 21, 21)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.15
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 10,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(117, 117, 117)",
+      "border": "0px solid rgb(117, 117, 117)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.56
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(165, 165, 165)",
+      "border": "0px solid rgb(165, 165, 165)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.53
+     }
+    ]
+   }
+  },
+  "breadcrumb": {
+   "label": "面包屑",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "ExploreComponents",
+      "tag": "nav",
+      "height": 21,
+      "width": 728,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter Variable",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 40,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "8px 0px 0px",
+   "children": 1
+  },
+  {
+   "tag": "main",
+   "height": 2570,
+   "heading": "Curated skills for design engineering",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "header",
+   "height": 90,
+   "heading": "Curated skills for design engineering",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1311,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 3
+  },
+  {
+   "tag": "section",
+   "height": 313,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 180,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "footer",
+   "height": 637,
+   "heading": "Discover",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "aside",
+   "height": 82,
+   "heading": null,
+   "background": "rgb(255, 255, 255)",
+   "padding": "12px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 21.0,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 17,
+  "tapTargetMedian": 28
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 69
+   },
+   {
+    "value": "0.2s",
+    "count": 18
+   },
+   {
+    "value": "0.1s",
+    "count": 1
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 64
+   },
+   {
+    "value": "cubic-bezier(0, 0, 0.2, 1)",
+    "count": 24
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 69
+   },
+   {
+    "value": "background-color",
+    "count": 69
+   },
+   {
+    "value": "border-color",
+    "count": 69
+   },
+   {
+    "value": "outline-color",
+    "count": 64
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 64
+   },
+   {
+    "value": "fill",
+    "count": 64
+   },
+   {
+    "value": "stroke",
+    "count": 64
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 64
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 64
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 64
+   }
+  ]
+ }
+}

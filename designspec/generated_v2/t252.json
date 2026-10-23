@@ -1,0 +1,1291 @@
+{
+ "id": "t252",
+ "overview": {
+  "name": "Morphrig",
+  "url": "https://morphrig.dev/",
+  "section": "动效",
+  "pagesScanned": [
+   "https://morphrig.dev/",
+   "https://morphrig.dev/docs",
+   "https://morphrig.dev/glossary",
+   "https://morphrig.dev/colophon"
+  ],
+  "subpages": [
+   "/docs",
+   "/glossary",
+   "/colophon"
+  ],
+  "sectionCount": 3,
+  "componentSamples": 42,
+  "typeSteps": 11
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#f1f1f3",
+    "value": "oklch(0.96 0.00216 286 / 0.06)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#f1f1f4",
+    "value": "oklch(0.96 0.004 286)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 1.0
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 4
+   }
+  ],
+  "backgroundsTotal": 4,
+  "textTotal": 6,
+  "bordersTotal": 1
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "10px",
+    "px": 10.0,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 2,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "6"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "17px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 115,
+    "tags": [
+     "a",
+     "button"
+    ],
+    "samples": [
+     "Parts"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "22px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 110,
+    "tags": [
+     "label",
+     "p",
+     "a"
+    ],
+    "samples": [
+     "Scrub the morph from download to upload"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "600",
+    "lineHeight": "22px",
+    "letterSpacing": "-0.325px",
+    "family": "-apple-system",
+    "count": 4,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Morphrig"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 4,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "A hamburger becoming a cross looks like "
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "500",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 2,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Start at Part 0"
+    ]
+   },
+   {
+    "size": "15px",
+    "px": 15.0,
+    "weight": "600",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 4,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "Morphing icons with Claude"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "25px",
+    "letterSpacing": "normal",
+    "family": "Spectral",
+    "count": 2,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Where it started"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "500",
+    "lineHeight": "25px",
+    "letterSpacing": "normal",
+    "family": "Spectral",
+    "count": 10,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "What morphing is"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "family": "Spectral",
+    "count": 3,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "Index"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "400",
+    "lineHeight": "60px",
+    "letterSpacing": "normal",
+    "family": "Spectral",
+    "count": 3,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "How icon morphingactually works"
+    ]
+   }
+  ],
+  "totalSteps": 14,
+  "families": [
+   "-apple-system",
+   "Source Code Pro",
+   "Spectral"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 90
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 64
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 72
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 47
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 73
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 71
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 47
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 8
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 3
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 3
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 1
+   },
+   {
+    "value": "56px",
+    "px": 56.0,
+    "count": 2
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 2
+   },
+   {
+    "value": "80px",
+    "px": 80.0,
+    "count": 5
+   },
+   {
+    "value": "128px",
+    "px": 128.0,
+    "count": 3
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "1152px",
+    "count": 8
+   },
+   {
+    "value": "576px",
+    "count": 8
+   },
+   {
+    "value": "616px",
+    "count": 4
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 4
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 23
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 2
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "0",
+    "count": 4
+   },
+   {
+    "value": "20",
+    "count": 4
+   },
+   {
+    "value": "30",
+    "count": 4
+   },
+   {
+    "value": "10",
+    "count": 4
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "SearchK",
+      "tag": "button",
+      "height": 17,
+      "width": 90,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6931 0.008 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "17.05px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "6px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 14,
+   "sizeBuckets": {
+    "sm": 10,
+    "xl": 4
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Morphrig",
+      "tag": "a",
+      "height": 22,
+      "width": 55,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "-0.325px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Parts",
+      "tag": "a",
+      "height": 17,
+      "width": 27,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6931 0.008 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "17.05px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Start at Part 0",
+      "tag": "a",
+      "height": 26,
+      "width": 122,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.8 0.11 328)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "-apple-system",
+      "lineHeight": "25.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     },
+     {
+      "text": "See all ten parts",
+      "tag": "a",
+      "height": 26,
+      "width": 110,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6931 0.008 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "25.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "0What morphing isWhy a crossfa",
+      "tag": "a",
+      "height": 91,
+      "width": 608,
+      "padding": "20px 16px",
+      "margin": "0px -16px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "20px",
+      "contrast": null
+     },
+     {
+      "text": "2Why this is hardEvery approac",
+      "tag": "a",
+      "height": 113,
+      "width": 608,
+      "padding": "20px 16px",
+      "margin": "0px -16px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "20px",
+      "contrast": null
+     },
+     {
+      "text": "Command structureWhy every ico",
+      "tag": "a",
+      "height": 84,
+      "width": 608,
+      "padding": "12px 16px",
+      "margin": "0px -16px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": null
+     },
+     {
+      "text": "Thanks for readingWhat you kno",
+      "tag": "a",
+      "height": 65,
+      "width": 608,
+      "padding": "12px 16px",
+      "margin": "0px -16px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "16px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "0.926",
+      "tag": "input",
+      "height": 16,
+      "width": 384,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Scrub the morph from download ",
+      "tag": "div",
+      "height": 254,
+      "width": 576,
+      "padding": "40px 24px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "oklch(0.204 0.004 286)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "1px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "24px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 2,
+    "md": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "MorphrigPartsGlossaryColophonS",
+      "tag": "header",
+      "height": 57,
+      "width": 1429,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "oklab(0.175 0.00110255 -0.00384505 / 0.8)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "MorphrigPartsGlossaryColophonS",
+      "tag": "nav",
+      "height": 56,
+      "width": 616,
+      "padding": "0px",
+      "margin": "0px 248px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.06)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "A to ZBy part",
+      "tag": "nav",
+      "height": 35,
+      "width": 132,
+      "padding": "4px",
+      "margin": "32px 0px 0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "1px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 1,
+    "md": 1,
+    "sm": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "How icon morphingactually work",
+      "tag": "h1",
+      "height": 120,
+      "width": 576,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "fontFamily": "Spectral",
+      "lineHeight": "60px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "md": [
+     {
+      "text": "Index",
+      "tag": "h1",
+      "height": 30,
+      "width": 576,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "Spectral",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "What morphing is",
+      "tag": "h3",
+      "height": 25,
+      "width": 448,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "fontFamily": "Spectral",
+      "lineHeight": "25.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Appendix",
+      "tag": "h2",
+      "height": 17,
+      "width": 576,
+      "padding": "0px",
+      "margin": "64px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6146 0.008 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "11px",
+      "fontWeight": "500",
+      "fontFamily": "Spectral",
+      "lineHeight": "17.05px",
+      "letterSpacing": "1.1px",
+      "textTransform": "uppercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Where it started",
+      "tag": "h2",
+      "height": 25,
+      "width": 576,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Spectral",
+      "lineHeight": "25.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "8px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 5,
+   "sizeBuckets": {
+    "xl": 3,
+    "lg": 1,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "A hamburger becoming a cross l",
+      "tag": "p",
+      "height": 77,
+      "width": 576,
+      "padding": "0px",
+      "margin": "24px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6931 0.008 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Written by Sanyam.",
+      "tag": "p",
+      "height": 47,
+      "width": 576,
+      "padding": "24px 0px 0px",
+      "margin": "64px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6146 0.008 286)",
+      "border": "1px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "The idea for this manual came ",
+      "tag": "p",
+      "height": 51,
+      "width": 576,
+      "padding": "0px",
+      "margin": "16px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6931 0.008 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "25.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "Ten parts, meant front to back",
+      "tag": "p",
+      "height": 44,
+      "width": 576,
+      "padding": "0px",
+      "margin": "12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6931 0.008 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "One post, and everything here ",
+      "tag": "p",
+      "height": 22,
+      "width": 576,
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6146 0.008 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 2,
+   "sizeBuckets": {
+    "xl": 2
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "0What morphing isWhy a crossfa",
+      "tag": "ol",
+      "height": 967,
+      "width": 576,
+      "padding": "0px",
+      "margin": "48px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Command structureWhy every ico",
+      "tag": "ul",
+      "height": 918,
+      "width": 576,
+      "padding": "0px",
+      "margin": "16px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "612",
+      "tag": "div",
+      "height": 120,
+      "width": 576,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 9,
+   "sizeBuckets": {
+    "sm": 8,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6931 0.008 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "17.05px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 10,
+      "width": 10,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6146 0.008 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "9.9px",
+      "fontWeight": "400",
+      "fontFamily": "Source Code Pro",
+      "lineHeight": "15.345px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.8 0.11 328)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "fontFamily": "-apple-system",
+      "lineHeight": "25.8px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), translate 0.15s cubic-bezier(0.4, 0, 0.2, 1), scale 0.15s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 14,
+      "width": 14,
+      "padding": "0px",
+      "margin": "0px 0px 0px 2px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.6931 0.008 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 132,
+      "width": 132,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.96 0.004 286)",
+      "border": "0px solid oklch(0.96 0.00216 286 / 0.08)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "22.1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 57,
+   "heading": null,
+   "background": "oklab(0.175 0.00110255 -0.00384505 / 0.8)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "nav",
+   "height": 56,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "main",
+   "height": 1005,
+   "heading": "How icon morphingactually works",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "80px 20px 128px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 21.0,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 16,
+  "tapTargetMedian": 25
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 9
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 9
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 8
+   },
+   {
+    "value": "background-color",
+    "count": 8
+   },
+   {
+    "value": "border-color",
+    "count": 8
+   },
+   {
+    "value": "outline-color",
+    "count": 8
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 8
+   },
+   {
+    "value": "fill",
+    "count": 8
+   },
+   {
+    "value": "stroke",
+    "count": 8
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 8
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 8
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 8
+   }
+  ]
+ }
+}

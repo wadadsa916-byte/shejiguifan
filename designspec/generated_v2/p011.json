@@ -1,0 +1,663 @@
+{
+ "id": "p011",
+ "overview": {
+  "name": "Äli",
+  "url": "https://aaali.xyz/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://aaali.xyz/"
+  ],
+  "subpages": [],
+  "sectionCount": 0,
+  "componentSamples": 15,
+  "typeSteps": 4
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 21.0
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 24
+   },
+   {
+    "hex": "#fafafa",
+    "count": 2
+   },
+   {
+    "hex": "#0099ff",
+    "count": 1
+   },
+   {
+    "hex": "#000000",
+    "count": 175
+   },
+   {
+    "hex": "#0000ee",
+    "count": 103
+   },
+   {
+    "hex": "#aaaaaa",
+    "count": 43
+   },
+   {
+    "hex": "#555555",
+    "count": 31
+   },
+   {
+    "hex": "#111111",
+    "count": 23
+   },
+   {
+    "hex": "#222222",
+    "count": 2
+   },
+   {
+    "hex": "#999999",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 4,
+  "textTotal": 8,
+  "bordersTotal": 0
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "sans-serif",
+    "count": 16,
+    "tags": [
+     "a",
+     "label",
+     "button"
+    ],
+    "samples": [
+     "INNOPLUS.StudioDesign Agency"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "0.28px",
+    "family": "Instrument Sans",
+    "count": 11,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Design Agency"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "0.28px",
+    "family": "Inter Display",
+    "count": 22,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "About"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Space Mono",
+    "count": 3,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "äli"
+    ]
+   }
+  ],
+  "totalSteps": 8,
+  "families": [
+   "DM Mono",
+   "Delius",
+   "Instrument Sans",
+   "Inter",
+   "Inter Display",
+   "Space Mono",
+   "sans-serif"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 4
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 60
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 156
+   },
+   {
+    "value": "9px",
+    "px": 9.0,
+    "count": 46
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 12
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 2
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 2
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 2
+   },
+   {
+    "value": "34px",
+    "px": 34.0,
+    "count": 1
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 3
+   },
+   {
+    "value": "80px",
+    "px": 80.0,
+    "count": 2
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "1080px",
+    "count": 2
+   },
+   {
+    "value": "800px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "2px",
+    "px": 2.0,
+    "count": 3
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 34
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 1
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 2
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.04) 0px 0px 8px 0px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.08) 0px 0px 0px 1px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "1",
+    "count": 20
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "↲",
+      "tag": "button",
+      "height": 33,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(0, 153, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px outset rgb(0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "sans-serif",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "0px",
+      "contrast": 7
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 2,
+   "sizeBuckets": {
+    "md": 2
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "INNOPLUS.StudioDesign Agency",
+      "tag": "a",
+      "height": 36,
+      "width": 672,
+      "padding": "6px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px none rgb(0, 0, 238)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "sans-serif",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 2.23
+     },
+     {
+      "text": "@alien69",
+      "tag": "a",
+      "height": 32,
+      "width": 672,
+      "padding": "6px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 238)",
+      "border": "0px none rgb(0, 0, 238)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "sans-serif",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "6px",
+      "contrast": 2.23
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "lg": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 37,
+      "width": 151,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "14px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "CurationsGreatStuff.fyiTools &",
+      "tag": "div",
+      "height": 36,
+      "width": 800,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "sans-serif",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Subscribe to All My Projects?",
+      "tag": "h5",
+      "height": 55,
+      "width": 225,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px none rgb(34, 34, 34)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Delicious Handrawn",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 7,
+   "sizeBuckets": {
+    "sm": 6,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "äli",
+      "tag": "p",
+      "height": 24,
+      "width": 29,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Space Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Designer & Curator",
+      "tag": "p",
+      "height": 24,
+      "width": 176,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "border": "0px none rgb(170, 170, 170)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Space Mono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.04
+     },
+     {
+      "text": "About",
+      "tag": "p",
+      "height": 20,
+      "width": 39,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter Display",
+      "lineHeight": "20px",
+      "letterSpacing": "0.28px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "Design Agency",
+      "tag": "p",
+      "height": 20,
+      "width": 400,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px none rgb(85, 85, 85)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Instrument Sans",
+      "lineHeight": "20px",
+      "letterSpacing": "0.28px",
+      "textTransform": "lowercase",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     }
+    ],
+    "xl": [
+     {
+      "text": "fill this then I'll add you to",
+      "tag": "p",
+      "height": 63,
+      "width": 226,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px none rgb(34, 34, 34)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "Delius",
+      "lineHeight": "16px",
+      "letterSpacing": "-0.12px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 12,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "border": "0px none rgb(170, 170, 170)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "sans-serif",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.04
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px none rgb(85, 85, 85)",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "sans-serif",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     }
+    ]
+   }
+  }
+ },
+ "sections": [],
+ "accessibility": {
+  "bodyContrast": 21.0,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 32,
+  "tapTargetMedian": 33
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.2s",
+    "count": 1
+   }
+  ],
+  "easings": [],
+  "properties": [
+   {
+    "value": "background",
+    "count": 1
+   },
+   {
+    "value": "box-shadow",
+    "count": 1
+   }
+  ]
+ }
+}

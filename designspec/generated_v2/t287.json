@@ -1,0 +1,755 @@
+{
+ "id": "t287",
+ "overview": {
+  "name": "Book of Shaders",
+  "url": "https://thebookofshaders.com/",
+  "section": "着色器",
+  "pagesScanned": [
+   "https://thebookofshaders.com/",
+   "https://thebookofshaders.com/shader.zone"
+  ],
+  "subpages": [
+   "/shader.zone"
+  ],
+  "sectionCount": 0,
+  "componentSamples": 20,
+  "typeSteps": 4
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#222222",
+    "value": "#222222",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 15.91
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 2
+   },
+   {
+    "hex": "#010101",
+    "count": 1
+   },
+   {
+    "hex": "#000000",
+    "count": 1
+   },
+   {
+    "hex": "#222222",
+    "count": 92
+   },
+   {
+    "hex": "#555555",
+    "count": 92
+   },
+   {
+    "hex": "#333333",
+    "count": 11
+   },
+   {
+    "hex": "#999999",
+    "count": 4
+   }
+  ],
+  "backgroundsTotal": 3,
+  "textTotal": 6,
+  "bordersTotal": 2
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "200",
+    "lineHeight": "16.5px",
+    "letterSpacing": "normal",
+    "family": "Baskerville",
+    "count": 2,
+    "tags": [
+     "p",
+     "a"
+    ],
+    "samples": [
+     "Copyright 2015 Patricio Gonzalez Vivo"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Baskerville",
+    "count": 23,
+    "tags": [
+     "a",
+     "button"
+    ],
+    "samples": [
+     "Українська"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "0.1px",
+    "family": "Helvetica",
+    "count": 11,
+    "tags": [
+     "label",
+     "span",
+     "button"
+    ],
+    "samples": [
+     "FiArst name"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "400",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "family": "Baskerville",
+    "count": 142,
+    "tags": [
+     "p",
+     "em",
+     "a",
+     "li"
+    ],
+    "samples": [
+     "by Patricio Gonzalez Vivo and Jen Lowe"
+    ]
+   }
+  ],
+  "totalSteps": 8,
+  "families": [
+   "Baskerville",
+   "Helvetica",
+   "Montserrat",
+   "PingFang SC"
+  ],
+  "weights": [
+   "200",
+   "300",
+   "400",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 2
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 3
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 4
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 14
+   },
+   {
+    "value": "13px",
+    "px": 13.0,
+    "count": 2
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 5
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 80
+   },
+   {
+    "value": "21.5px",
+    "px": 21.5,
+    "count": 2
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 2
+   },
+   {
+    "value": "25px",
+    "px": 25.0,
+    "count": 1
+   },
+   {
+    "value": "30px",
+    "px": 30.0,
+    "count": 5
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 8
+   },
+   {
+    "value": "60px",
+    "px": 60.0,
+    "count": 3
+   }
+  ],
+  "inferredBaseUnit": null,
+  "containerWidths": [
+   {
+    "value": "1170px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [],
+  "shadows": [],
+  "zIndex": []
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Turn off the lights",
+      "tag": "button",
+      "height": 18,
+      "width": 93,
+      "padding": "1px 6px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px none rgb(85, 85, 85)",
+      "fontSize": "12.8px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     }
+    ],
+    "xl": [
+     {
+      "text": "Subscribe",
+      "tag": "button",
+      "height": 46,
+      "width": 101,
+      "padding": "12px 20px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgb(0, 0, 0)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Helvetica",
+      "lineHeight": "20px",
+      "letterSpacing": "0.1px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 4
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Українська",
+      "tag": "a",
+      "height": 14,
+      "width": 53,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px none rgb(85, 85, 85)",
+      "fontSize": "12.8px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     },
+     {
+      "text": "Patricio Gonzalez Vivo",
+      "tag": "a",
+      "height": 24,
+      "width": 158,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px none rgb(85, 85, 85)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 21,
+      "width": 74,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px none rgb(85, 85, 85)",
+      "fontSize": "12.8px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     },
+     {
+      "text": "Patricio Gonzalez Vivo",
+      "tag": "a",
+      "height": 15,
+      "width": 119,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(85, 85, 85)",
+      "border": "0px none rgb(85, 85, 85)",
+      "fontSize": "12.8px",
+      "fontWeight": "200",
+      "fontFamily": "Baskerville",
+      "lineHeight": "16.64px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.82
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 46,
+      "width": 189,
+      "padding": "12px 20px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgb(221, 221, 221)",
+      "fontSize": "13px",
+      "fontWeight": "400",
+      "fontFamily": "Helvetica",
+      "lineHeight": "20px",
+      "letterSpacing": "0.1px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Not Found",
+      "tag": "h1",
+      "height": 45,
+      "width": 1424,
+      "padding": "0px",
+      "margin": "21.44px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "fontFamily": "PingFang SC",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 8,
+   "sizeBuckets": {
+    "sm": 4,
+    "xl": 4
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Українська -\n        Bahasa In",
+      "tag": "p",
+      "height": 17,
+      "width": 1320,
+      "padding": "0px",
+      "margin": "16px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(153, 153, 153)",
+      "border": "0px none rgb(153, 153, 153)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.37
+     },
+     {
+      "text": "by Patricio Gonzalez Vivo and ",
+      "tag": "p",
+      "height": 26,
+      "width": 800,
+      "padding": "0px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px none rgb(34, 34, 34)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     },
+     {
+      "text": "Copyright 2015 Patricio Gonzal",
+      "tag": "p",
+      "height": 17,
+      "width": 1320,
+      "padding": "0px",
+      "margin": "12.8px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px none rgb(34, 34, 34)",
+      "fontSize": "12.8px",
+      "fontWeight": "200",
+      "fontFamily": "Baskerville",
+      "lineHeight": "16.64px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     },
+     {
+      "text": "The requested URL /shader.zone",
+      "tag": "p",
+      "height": 22,
+      "width": 1424,
+      "padding": "0px",
+      "margin": "16px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "PingFang SC",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "Patricio Gonzalez Vivo (1982, ",
+      "tag": "p",
+      "height": 104,
+      "width": 800,
+      "padding": "0px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px none rgb(34, 34, 34)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     },
+     {
+      "text": "Patricio studied and practiced",
+      "tag": "p",
+      "height": 78,
+      "width": 800,
+      "padding": "0px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px none rgb(34, 34, 34)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     },
+     {
+      "text": "Jen Lowe is an independent dat",
+      "tag": "p",
+      "height": 208,
+      "width": 800,
+      "padding": "0px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px none rgb(34, 34, 34)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     },
+     {
+      "text": "Thanks Kenichi Yoneda (Kynd), ",
+      "tag": "p",
+      "height": 52,
+      "width": 800,
+      "padding": "0px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px none rgb(34, 34, 34)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "About this book\n\n\nGetting star",
+      "tag": "ul",
+      "height": 1490,
+      "width": 800,
+      "padding": "0px 0px 0px 40px",
+      "margin": "20px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px none rgb(34, 34, 34)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     },
+     {
+      "text": "What is a shader?\n“Hello world",
+      "tag": "ul",
+      "height": 104,
+      "width": 760,
+      "padding": "0px 0px 0px 40px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px none rgb(34, 34, 34)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     },
+     {
+      "text": "Shaping functions\nColors\nShape",
+      "tag": "ul",
+      "height": 130,
+      "width": 760,
+      "padding": "0px 0px 0px 40px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px none rgb(34, 34, 34)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     },
+     {
+      "text": "Lights\nNormal-maps\nBump-maps\nR",
+      "tag": "ul",
+      "height": 156,
+      "width": 760,
+      "padding": "0px 0px 0px 40px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "border": "0px none rgb(34, 34, 34)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Baskerville",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.32
+     }
+    ]
+   }
+  }
+ },
+ "sections": [],
+ "accessibility": {
+  "bodyContrast": 15.91,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 14,
+  "tapTargetMedian": 21
+ }
+}

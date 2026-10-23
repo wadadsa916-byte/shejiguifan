@@ -1,0 +1,27 @@
+/* User Interface Wiki — https://userinterface.wiki/ */
+/* 语义映射自动生成，值来自运行态实测；token 名仅供参考 */
+:root {
+  --color-bg: #838383;  /* measured */
+  --color-text: #202020;  /* measured */
+  --radius-xs: 8px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 64px;
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 24px;
+  --duration-fastest: 0.2s;
+  --ease-1: ease-in-out;
+  --ease-2: ease;
+  --shadow-1: inset 0 0 0 1px #0000001f,inset 0 1.5px 2px 0 #00000006,inset 0 1.5px 2px 0 #0000001a;
+  --shadow-2: 0 0 0 1px color-mix(in oklab,#0000000f,#f0f0f0/**/25%),0 0 0 .5px #0000000d,0 1px 1px 0 #00000006,0 2px 1px -1px #0000000d,0 1px 3px 0 #0000000d;
+  --shadow-3: 0 0 0 1px color-mix(in oklab,#0000000f,#f0f0f0/**/25%),0 2px 3px -2px #0000000f,0 3px 12px -4px #0000001a,0 4px 16px -8px #0000001a;
+  --shadow-4: 0 0 0 1px color-mix(in oklab,#0000000f,#f0f0f0/**/25%),0 8px 40px #0000000d,0 12px 32px -16px #0000000f;
+  --shadow-5: 0 0 0 1px color-mix(in oklab,#0000000f,#f0f0f0/**/25%),0 12px 60px #00000026,0 12px 32px -16px #0000001f;
+  --shadow-6: 0 0 0 1px color-mix(in oklab,#0000000f,#f0f0f0/**/25%),0 12px 60px #00000026,0 16px 64px #00000006,0 16px 36px -20px #00000031;
+  --font-sans: Inter, "Inter Fallback";
+  --font-size-base: 14px;
+  --line-height-base: 24px;
+}

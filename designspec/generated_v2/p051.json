@@ -1,0 +1,674 @@
+{
+ "id": "p051",
+ "overview": {
+  "name": "Preet Suthar",
+  "url": "https://preetsuthar.me/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://preetsuthar.me/"
+  ],
+  "subpages": [],
+  "sectionCount": 7,
+  "componentSamples": 15,
+  "typeSteps": 1
+ },
+ "colors": {
+  "roles": {
+   "foreground": {
+    "hex": "#111111",
+    "value": "#111111",
+    "token": "--fg",
+    "source": "css-var",
+    "contrastOnBg": 18.88
+   },
+   "muted": {
+    "hex": "#767676",
+    "value": "#767676",
+    "token": "--muted",
+    "source": "css-var",
+    "contrastOnBg": 4.54
+   },
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--bg",
+    "source": "css-var",
+    "contrastOnBg": null
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#111111",
+    "count": 2
+   },
+   {
+    "hex": "#ffffff",
+    "count": 1
+   },
+   {
+    "hex": "#e6e6e6",
+    "count": 1
+   },
+   {
+    "hex": "#767676",
+    "count": 22
+   },
+   {
+    "hex": "#000000",
+    "count": 1
+   },
+   {
+    "hex": "#ca8a04",
+    "count": 1
+   },
+   {
+    "hex": "#dc2626",
+    "count": 1
+   },
+   {
+    "hex": "#e8590c",
+    "count": 1
+   },
+   {
+    "hex": "#16a34a",
+    "count": 1
+   },
+   {
+    "hex": "#1d1dff",
+    "count": 1
+   }
+  ],
+  "backgroundsTotal": 3,
+  "textTotal": 11,
+  "bordersTotal": 0
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "450",
+    "lineHeight": "22.5px",
+    "letterSpacing": "normal",
+    "family": "system-ui",
+    "count": 59,
+    "tags": [
+     "h1",
+     "p",
+     "h2",
+     "a",
+     "li",
+     "span"
+    ],
+    "samples": [
+     "Preet Suthar"
+    ]
+   }
+  ],
+  "totalSteps": 1,
+  "families": [
+   "system-ui"
+  ],
+  "weights": [
+   "450"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "6.5px",
+    "px": 6.5,
+    "count": 1
+   },
+   {
+    "value": "7px",
+    "px": 7.0,
+    "count": 14
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 14
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 9
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 1
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 10
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 3
+   },
+   {
+    "value": "112px",
+    "px": 112.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 8,
+  "containerWidths": [
+   {
+    "value": "760px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [],
+  "shadows": [],
+  "zIndex": []
+ },
+ "components": {
+  "link": {
+   "label": "链接",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 2,
+    "lg": 1,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Book a call",
+      "tag": "a",
+      "height": 17,
+      "width": 75,
+      "padding": "0px 2.1px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(17, 17, 17)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.88
+     },
+     {
+      "text": "AI is removing the middle clas",
+      "tag": "a",
+      "height": 22,
+      "width": 360,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "text-decoration-color 0.15s ease-out",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ],
+    "lg": [
+     {
+      "text": "[D]\n                          ",
+      "tag": "a",
+      "height": 37,
+      "width": 600,
+      "padding": "7.2px 8px",
+      "margin": "0px -8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "0px 16px",
+      "contrast": 1.11
+     }
+    ],
+    "xl": [
+     {
+      "text": "[E]\n                          ",
+      "tag": "a",
+      "height": 59,
+      "width": 600,
+      "padding": "7.2px 8px",
+      "margin": "0px -8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "0px 16px",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 1,
+   "sizeBuckets": {
+    "lg": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "[S]\n                          ",
+      "tag": "a",
+      "height": 37,
+      "width": 600,
+      "padding": "7.2px 8px",
+      "margin": "0px -8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "0px 16px",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Preet Suthar\n            Indep",
+      "tag": "header",
+      "height": 117,
+      "width": 696,
+      "padding": "0px 0px 0px 112px",
+      "margin": "0px 0px 64px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Preet Suthar",
+      "tag": "h1",
+      "height": 22,
+      "width": 584,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "About",
+      "tag": "h2",
+      "height": 22,
+      "width": 112,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(118, 118, 118)",
+      "border": "0px none rgb(118, 118, 118)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.62
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 2,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Independent design engineer",
+      "tag": "p",
+      "height": 22,
+      "width": 584,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(118, 118, 118)",
+      "border": "0px none rgb(118, 118, 118)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.62
+     },
+     {
+      "text": "Taking on new projects. Book a",
+      "tag": "p",
+      "height": 22,
+      "width": 584,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ],
+    "xl": [
+     {
+      "text": "I design and build interfaces ",
+      "tag": "p",
+      "height": 67,
+      "width": 584,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "[D]\n                          ",
+      "tag": "ol",
+      "height": 74,
+      "width": 584,
+      "padding": "0px",
+      "margin": "-7.2px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "[E]\n                          ",
+      "tag": "ol",
+      "height": 229,
+      "width": 584,
+      "padding": "0px",
+      "margin": "-7.2px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     },
+     {
+      "text": "AI is removing the middle clas",
+      "tag": "ul",
+      "height": 51,
+      "width": 584,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.11
+     }
+    ]
+   }
+  },
+  "avatar": {
+   "label": "头像",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "img",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgb(230, 230, 230)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px none rgb(17, 17, 17)",
+      "fontSize": "14px",
+      "fontWeight": "450",
+      "fontFamily": "system-ui",
+      "lineHeight": "22.4px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 15.13
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 117,
+   "heading": "Preet Suthar",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px 0px 0px 112px",
+   "children": 3
+  },
+  {
+   "tag": "main",
+   "height": 670,
+   "heading": "About",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 5
+  },
+  {
+   "tag": "section",
+   "height": 67,
+   "heading": "About",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 54,
+   "heading": "Now",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "32px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 91,
+   "heading": "Projects",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "32px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 246,
+   "heading": "Work",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "32px 0px 0px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 83,
+   "heading": "Reading",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "32px 0px 0px",
+   "children": 2
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 18.88,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 17,
+  "tapTargetMedian": 37
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 2
+   }
+  ],
+  "easings": [
+   {
+    "value": "ease-out",
+    "count": 2
+   }
+  ],
+  "properties": [
+   {
+    "value": "text-decoration-color",
+    "count": 2
+   }
+  ]
+ }
+}

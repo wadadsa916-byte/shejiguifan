@@ -1,0 +1,2792 @@
+{
+ "id": "t112",
+ "overview": {
+  "name": "Flowbite",
+  "url": "https://flowbite.com/",
+  "section": "组件库",
+  "pagesScanned": [
+   "https://flowbite.com/",
+   "https://flowbite.com/docs/getting-started/introduction/",
+   "https://flowbite.com/blog/"
+  ],
+  "subpages": [
+   "/docs/getting-started/introduction/",
+   "/blog/"
+  ],
+  "sectionCount": 24,
+  "componentSamples": 203,
+  "typeSteps": 26
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": "--docsearch-hit-background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 21.0
+   },
+   "primary": {
+    "hex": "#3f83f8",
+    "value": "#3f83f8",
+    "token": "--tw-ring-color",
+    "source": "palette",
+    "contrastOnBg": 3.61
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 158
+   },
+   {
+    "hex": "#f9fafb",
+    "count": 89
+   },
+   {
+    "hex": "#e1effe",
+    "count": 48
+   },
+   {
+    "hex": "#f3f4f6",
+    "count": 27
+   },
+   {
+    "hex": "#24292e",
+    "count": 17
+   },
+   {
+    "hex": "#1a56db",
+    "count": 11
+   },
+   {
+    "hex": "#def7ec",
+    "count": 4
+   },
+   {
+    "hex": "#0e9f6e",
+    "count": 1
+   },
+   {
+    "hex": "#000000",
+    "count": 1218
+   },
+   {
+    "hex": "#6b7280",
+    "count": 415
+   }
+  ],
+  "backgroundsTotal": 13,
+  "textTotal": 29,
+  "bordersTotal": 8
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "8px",
+    "px": 8.0,
+    "weight": "600",
+    "lineHeight": "8px",
+    "letterSpacing": "0.5px",
+    "family": "-apple-system",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "ads via Carbon"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 7,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "New"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 48,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Marketing UI"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "16px",
+    "letterSpacing": "1.2px",
+    "family": "Inter",
+    "count": 7,
+    "tags": [
+     "h5"
+    ],
+    "samples": [
+     "Getting started"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "button",
+     "a",
+     "span"
+    ],
+    "samples": [
+     "v4.0"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "600",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 6,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "New"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 522,
+    "tags": [
+     "span",
+     "a",
+     "p"
+    ],
+    "samples": [
+     "Search"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "500",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 290,
+    "tags": [
+     "p",
+     "a",
+     "span"
+    ],
+    "samples": [
+     "NewWe have launched the new Flowbite Das"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "600",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 9,
+    "tags": [
+     "span",
+     "h3"
+    ],
+    "samples": [
+     "FEATURED IN"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 300,
+    "tags": [
+     "a",
+     "li",
+     "span",
+     "p"
+    ],
+    "samples": [
+     "Flowbite"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 217,
+    "tags": [
+     "button",
+     "span",
+     "a",
+     "h2",
+     "li"
+    ],
+    "samples": [
+     "Search⌘K"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "700",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "h1",
+     "h4"
+    ],
+    "samples": [
+     "Flowbite Blog"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 14,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Get started with the definitive design s"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "dark mode"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "600",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Flowbite Design System"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "400",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 6,
+    "tags": [
+     "p"
+    ],
+    "samples": [
+     "Start developing with an open-source lib"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 8,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Eugene Fedorenko"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "600",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 24,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Flowbite React"
+    ]
+   },
+   {
+    "size": "20px",
+    "px": 20.0,
+    "weight": "600",
+    "lineHeight": "28px",
+    "letterSpacing": "-0.4px",
+    "family": "Inter",
+    "count": 6,
+    "tags": [
+     "h3"
+    ],
+    "samples": [
+     "Quickstart"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "500",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 28,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Introduction\n #"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "600",
+    "lineHeight": "32px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Flowbite"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "700",
+    "lineHeight": "32px",
+    "letterSpacing": "-0.6px",
+    "family": "Inter",
+    "count": 16,
+    "tags": [
+     "h2",
+     "a"
+    ],
+    "samples": [
+     "Tailwind v4 is here! Learn how to upgrad"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "700",
+    "lineHeight": "40px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 4,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "9,365"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "800",
+    "lineHeight": "40px",
+    "letterSpacing": "normal",
+    "family": "Inter",
+    "count": 7,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Design with Figma"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "800",
+    "lineHeight": "40px",
+    "letterSpacing": "-0.9px",
+    "family": "Inter",
+    "count": 3,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Flowbite in other technologies"
+    ]
+   },
+   {
+    "size": "36px",
+    "px": 36.0,
+    "weight": "800",
+    "lineHeight": "36px",
+    "letterSpacing": "-0.9px",
+    "family": "Inter",
+    "count": 2,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "Sign up for our newsletter"
+    ]
+   }
+  ],
+  "totalSteps": 35,
+  "families": [
+   "-apple-system",
+   "Inter"
+  ],
+  "weights": [
+   "400",
+   "500",
+   "600",
+   "700",
+   "800"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 194
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 62
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 520
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 337
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 166
+   },
+   {
+    "value": "14px",
+    "px": 14.0,
+    "count": 35
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 310
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 207
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 242
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 5
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 144
+   },
+   {
+    "value": "36px",
+    "px": 36.0,
+    "count": 1
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 11
+   },
+   {
+    "value": "44px",
+    "px": 44.0,
+    "count": 2
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 62
+   },
+   {
+    "value": "64px",
+    "px": 64.0,
+    "count": 12
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "1440px",
+    "count": 26
+   },
+   {
+    "value": "1280px",
+    "count": 2
+   },
+   {
+    "value": "1024px",
+    "count": 2
+   },
+   {
+    "value": "672px",
+    "count": 2
+   },
+   {
+    "value": "576px",
+    "count": 2
+   },
+   {
+    "value": "896px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "3px",
+    "px": 3.0,
+    "count": 6
+   },
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 34
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 2
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 152
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 38
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 2
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 1
+   },
+   {
+    "value": "9999px",
+    "px": 9999.0,
+    "count": 54
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 20
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+    "count": 22
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+    "count": 7
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 6
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+    "count": 3
+   },
+   {
+    "value": "rgba(0, 0, 0, 0.1) 0px 1px 4px 1px",
+    "count": 2
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 25px 50px -12px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+    "count": 1
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "50",
+    "count": 4
+   },
+   {
+    "value": "40",
+    "count": 3
+   },
+   {
+    "value": "10",
+    "count": 2
+   },
+   {
+    "value": "100",
+    "count": 2
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 15,
+   "sizeBuckets": {
+    "lg": 3,
+    "sm": 10,
+    "md": 2
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Search⌘K",
+      "tag": "button",
+      "height": 40,
+      "width": 256,
+      "padding": "8px 8px 8px 16px",
+      "margin": "0px 0px 0px 32px",
+      "radius": "8px",
+      "background": "rgb(249, 250, 251)",
+      "color": "rgb(150, 159, 175)",
+      "border": "1px solid rgb(209, 213, 219)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.55
+     },
+     {
+      "text": "",
+      "tag": "button",
+      "height": 40,
+      "width": 40,
+      "padding": "10px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "Toggle dark mode",
+      "tag": "button",
+      "height": 40,
+      "width": 40,
+      "padding": "10px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.446 0.03 256.802)",
+      "border": "0px solid oklch(0.446 0.03 256.802)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Search",
+      "tag": "span",
+      "height": 20,
+      "width": 79,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(150, 159, 175)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.88
+     },
+     {
+      "text": "Search",
+      "tag": "span",
+      "height": 20,
+      "width": 63,
+      "padding": "0px 12px 0px 6px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "⌘K",
+      "tag": "span",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(150, 159, 175)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.88
+     },
+     {
+      "text": "⌘",
+      "tag": "kbd",
+      "height": 18,
+      "width": 10,
+      "padding": "4px 0px 0px",
+      "margin": "0px 1px 0px 0px",
+      "radius": "3px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px none rgb(107, 114, 128)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "ui-monospace",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "transition": "0.1s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": 4.34
+     }
+    ],
+    "md": [
+     {
+      "text": "Search⌘K",
+      "tag": "button",
+      "height": 36,
+      "width": 256,
+      "padding": "12px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "oklch(0.985 0.002 247.839)",
+      "color": "rgb(150, 159, 175)",
+      "border": "1px solid oklch(0.928 0.006 264.531)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Copy\n            npm install f",
+      "tag": "button",
+      "height": 36,
+      "width": 77,
+      "padding": "8px 12px",
+      "margin": "0px",
+      "radius": "0px 12px 0px 0px",
+      "background": "oklch(0.985 0.002 247.839)",
+      "color": "oklch(0.446 0.03 256.802)",
+      "border": "0px solid oklch(0.928 0.006 264.531)",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "16px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 65,
+   "sizeBuckets": {
+    "sm": 23,
+    "md": 8,
+    "lg": 11,
+    "xl": 23
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Check it out",
+      "tag": "a",
+      "height": 20,
+      "width": 97,
+      "padding": "0px",
+      "margin": "0px 0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 100, 242)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.15
+     },
+     {
+      "text": "Docs",
+      "tag": "a",
+      "height": 20,
+      "width": 58,
+      "padding": "0px 12px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 24,
+      "width": 107,
+      "padding": "0px",
+      "margin": "0px 20px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "dark mode",
+      "tag": "a",
+      "height": 21,
+      "width": 88,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     }
+    ],
+    "md": [
+     {
+      "text": "Flowbite",
+      "tag": "a",
+      "height": 33,
+      "width": 137,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "NewWe have launched over 100+ ",
+      "tag": "a",
+      "height": 36,
+      "width": 576,
+      "padding": "4px 16px 4px 4px",
+      "margin": "0px 0px 20px",
+      "radius": "9999px",
+      "background": "rgb(243, 244, 246)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.37
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 32,
+      "width": 155,
+      "padding": "0px",
+      "margin": "0px 12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "GitHub",
+      "tag": "a",
+      "height": 30,
+      "width": 78,
+      "padding": "4px 8px",
+      "margin": "0px -1px 0px 0px",
+      "radius": "12px 0px 0px 12px",
+      "background": "rgb(255, 255, 255)",
+      "color": "oklch(0.446 0.03 256.802)",
+      "border": "1px solid oklch(0.928 0.006 264.531)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "a",
+      "height": 40,
+      "width": 40,
+      "padding": "10px",
+      "margin": "0px 4px 0px 0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "LoginSign in",
+      "tag": "a",
+      "height": 40,
+      "width": 105,
+      "padding": "10px 20px",
+      "margin": "0px 0px 0px 12px",
+      "radius": "8px",
+      "background": "rgb(26, 86, 219)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.18
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 40,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px 24px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "Learn how to integrate dark mo",
+      "tag": "a",
+      "height": 44,
+      "width": 312,
+      "padding": "10px 20px",
+      "margin": "0px 16px 0px 0px",
+      "radius": "8px",
+      "background": "rgb(26, 86, 219)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.18
+     }
+    ],
+    "xl": [
+     {
+      "text": "Get started",
+      "tag": "a",
+      "height": 46,
+      "width": 132,
+      "padding": "10px 24px",
+      "margin": "0px 20px 0px 0px",
+      "radius": "8px",
+      "background": "rgb(26, 86, 219)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.18
+     },
+     {
+      "text": "Explore components",
+      "tag": "a",
+      "height": 46,
+      "width": 228,
+      "padding": "10px 24px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "1px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     },
+     {
+      "text": "",
+      "tag": "a",
+      "height": 56,
+      "width": 141,
+      "padding": "0px",
+      "margin": "0px 12px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "Flowbite React",
+      "tag": "a",
+      "height": 194,
+      "width": 288,
+      "padding": "48px 32px",
+      "margin": "0px",
+      "radius": "8px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 2,
+    "lg": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 58,
+      "width": 467,
+      "padding": "16px 12px 16px 44px",
+      "margin": "0px",
+      "radius": "12px 0px 0px 12px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(17, 24, 39)",
+      "border": "1px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 17.74
+     },
+     {
+      "text": "Subscribe",
+      "tag": "input",
+      "height": 58,
+      "width": 109,
+      "padding": "16px",
+      "margin": "0px",
+      "radius": "0px 12px 12px 0px",
+      "background": "rgb(26, 86, 219)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgb(26, 86, 219)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 6.18
+     }
+    ],
+    "lg": [
+     {
+      "text": "Email Address",
+      "tag": "input",
+      "height": 39,
+      "width": 334,
+      "padding": "10px 12px 10px 36px",
+      "margin": "0px",
+      "radius": "12px",
+      "background": "oklch(0.985 0.002 247.839)",
+      "color": "oklch(0.21 0.034 264.665)",
+      "border": "1px solid oklch(0.928 0.006 264.531)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "1px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Hero Sections18 componentsMark",
+      "tag": "article",
+      "height": 65,
+      "width": 462,
+      "padding": "10px 20px",
+      "margin": "0px",
+      "radius": "6px 6px 0px 0px",
+      "background": "rgb(249, 250, 251)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 20.1
+     },
+     {
+      "text": "#Tailwind CSS#FlowbitePublishe",
+      "tag": "article",
+      "height": 252,
+      "width": 672,
+      "padding": "24px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "#Tailwind CSS#Flowbite#FigmaPu",
+      "tag": "article",
+      "height": 277,
+      "width": 672,
+      "padding": "24px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "#Laravel#Flowbite#Alpine.jsPub",
+      "tag": "article",
+      "height": 253,
+      "width": 672,
+      "padding": "24px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "1px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "NewWe have launched the new Fl",
+      "tag": "header",
+      "height": 118,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "New\n              We have laun",
+      "tag": "header",
+      "height": 119,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid oklch(0.967 0.003 264.542)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Getting started\n          \n   ",
+      "tag": "nav",
+      "height": 4352,
+      "width": 175,
+      "padding": "8px 4px 80px 0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Introduction\n    Using Flowbit",
+      "tag": "nav",
+      "height": 1260,
+      "width": 223,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 20,
+   "sizeBuckets": {
+    "xl": 3,
+    "lg": 1,
+    "sm": 13,
+    "md": 3
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Build websites even faster wit",
+      "tag": "h1",
+      "height": 120,
+      "width": 1408,
+      "padding": "0px 144px",
+      "margin": "0px 0px 28px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "60px",
+      "fontWeight": "800",
+      "fontFamily": "Inter",
+      "lineHeight": "60px",
+      "letterSpacing": "-1.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     },
+     {
+      "text": "Tailwind CSS Components",
+      "tag": "h2",
+      "height": 50,
+      "width": 1408,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "36px",
+      "fontWeight": "800",
+      "fontFamily": "Inter",
+      "lineHeight": "49.5px",
+      "letterSpacing": "-0.9px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     },
+     {
+      "text": "Tailwind v4 is here! Learn how",
+      "tag": "h2",
+      "height": 64,
+      "width": 672,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "32px",
+      "letterSpacing": "-0.6px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     }
+    ],
+    "lg": [
+     {
+      "text": "Flowbite in other technologies",
+      "tag": "h2",
+      "height": 40,
+      "width": 1248,
+      "padding": "0px",
+      "margin": "0px 0px 24px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "36px",
+      "fontWeight": "800",
+      "fontFamily": "Inter",
+      "lineHeight": "40px",
+      "letterSpacing": "-0.9px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     }
+    ],
+    "sm": [
+     {
+      "text": "Flowbite React",
+      "tag": "h3",
+      "height": 28,
+      "width": 222,
+      "padding": "0px",
+      "margin": "14px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "20px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     },
+     {
+      "text": "Hero Sections",
+      "tag": "h2",
+      "height": 24,
+      "width": 104,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     },
+     {
+      "text": "Flowbite Design System",
+      "tag": "h3",
+      "height": 28,
+      "width": 274,
+      "padding": "0px",
+      "margin": "0px 0px 8px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "18px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     },
+     {
+      "text": "Join the community",
+      "tag": "h2",
+      "height": 28,
+      "width": 709,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "20px",
+      "fontWeight": "700",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "-0.5px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     }
+    ],
+    "md": [
+     {
+      "text": "Sign up for our newsletter",
+      "tag": "h2",
+      "height": 36,
+      "width": 1408,
+      "padding": "0px",
+      "margin": "0px 0px 28px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "36px",
+      "fontWeight": "800",
+      "fontFamily": "Inter",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.9px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     },
+     {
+      "text": "Flowbite - Tailwind CSS compon",
+      "tag": "h1",
+      "height": 36,
+      "width": 598,
+      "padding": "0px",
+      "margin": "0px 0px 12px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.21 0.034 264.665)",
+      "border": "0px solid oklch(0.21 0.034 264.665)",
+      "fontSize": "30px",
+      "fontWeight": "600",
+      "fontFamily": "Inter",
+      "lineHeight": "36px",
+      "letterSpacing": "-0.4px",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Introduction\n #",
+      "tag": "h2",
+      "height": 32,
+      "width": 894,
+      "padding": "0px",
+      "margin": "0px 0px 16px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.21 0.034 264.665)",
+      "border": "0px solid oklch(0.21 0.034 264.665)",
+      "fontSize": "24px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 25,
+   "sizeBuckets": {
+    "sm": 7,
+    "xl": 16,
+    "lg": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "NewWe have launched the new Fl",
+      "tag": "p",
+      "height": 20,
+      "width": 645,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     },
+     {
+      "text": "18 components",
+      "tag": "p",
+      "height": 20,
+      "width": 104,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "Become a member of a community",
+      "tag": "p",
+      "height": 24,
+      "width": 709,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "New\n              We have laun",
+      "tag": "p",
+      "height": 20,
+      "width": 714,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.21 0.034 264.665)",
+      "border": "0px solid oklch(0.21 0.034 264.665)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "Start developing with an open-",
+      "tag": "p",
+      "height": 56,
+      "width": 1408,
+      "padding": "0px 240px",
+      "margin": "0px 0px 40px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "\"Flowbite provides a robust se",
+      "tag": "p",
+      "height": 168,
+      "width": 648,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "Get started with the definitiv",
+      "tag": "p",
+      "height": 112,
+      "width": 656,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "Flowbite has native built-in s",
+      "tag": "p",
+      "height": 56,
+      "width": 672,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     }
+    ],
+    "lg": [
+     {
+      "text": "Do you want to get notified wh",
+      "tag": "p",
+      "height": 40,
+      "width": 828,
+      "padding": "0px",
+      "margin": "0px 0px 20px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.446 0.03 256.802)",
+      "border": "0px solid oklch(0.446 0.03 256.802)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Blog posts, articles, and tuto",
+      "tag": "p",
+      "height": 40,
+      "width": 270,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 21,
+   "sizeBuckets": {
+    "sm": 3,
+    "xl": 17,
+    "md": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "DocsBlocksFigmaIconsIllustrati",
+      "tag": "ul",
+      "height": 20,
+      "width": 617,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Quickstart\n        \n        \n ",
+      "tag": "ul",
+      "height": 24,
+      "width": 440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Import the default theme varia",
+      "tag": "ol",
+      "height": 28,
+      "width": 894,
+      "padding": "0px 0px 0px 16px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "xl": [
+     {
+      "text": "Increased accessibility based ",
+      "tag": "ul",
+      "height": 144,
+      "width": 400,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     },
+     {
+      "text": "Huge collection of over 400+ S",
+      "tag": "ul",
+      "height": 224,
+      "width": 360,
+      "padding": "0px",
+      "margin": "0px 0px 32px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 24, 39)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.18
+     },
+     {
+      "text": "DocumentationFlowbite BlocksFl",
+      "tag": "ul",
+      "height": 224,
+      "width": 195,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "Contact usSupport centerHire u",
+      "tag": "ul",
+      "height": 104,
+      "width": 195,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "md": [
+     {
+      "text": "Terminal",
+      "tag": "ul",
+      "height": 36,
+      "width": 446,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.446 0.03 256.802)",
+      "border": "0px solid oklch(0.446 0.03 256.802)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 45,
+   "sizeBuckets": {
+    "sm": 36,
+    "lg": 1,
+    "md": 3,
+    "xl": 5
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 12,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px 0px 0px 6px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 100, 242)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.15
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 12,
+      "width": 12,
+      "padding": "0px",
+      "margin": "0px 4px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 18,
+      "width": 18,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 24,
+      "width": 20,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     }
+    ],
+    "lg": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 40,
+      "width": 40,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 155,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(22, 189, 202)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.17
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(28, 100, 242)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.15
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 56,
+      "width": 141,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(107, 114, 128)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.34
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px 87px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(63, 131, 248)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.81
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px 87px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(49, 196, 141)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.41
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 48,
+      "width": 48,
+      "padding": "0px",
+      "margin": "0px 87px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(224, 36, 36)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 4.45
+     }
+    ]
+   }
+  },
+  "alert": {
+   "label": "提示条",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "NewWe have launched over 100+ ",
+      "tag": "a",
+      "height": 36,
+      "width": 576,
+      "padding": "4px 16px 4px 4px",
+      "margin": "0px 0px 20px",
+      "radius": "9999px",
+      "background": "rgb(243, 244, 246)",
+      "color": "rgb(55, 65, 81)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Inter",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 9.37
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "header",
+   "height": 118,
+   "heading": null,
+   "background": "rgb(255, 255, 255)",
+   "padding": "0px",
+   "children": 2
+  },
+  {
+   "tag": "main",
+   "height": 16924,
+   "heading": "Build websites even faster with components on top ",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 14
+  },
+  {
+   "tag": "section",
+   "height": 1038,
+   "heading": "Build websites even faster with components on top ",
+   "background": "rgb(255, 255, 255)",
+   "padding": "48px 0px 64px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 232,
+   "heading": null,
+   "background": "rgb(255, 255, 255)",
+   "padding": "24px 0px 96px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1678,
+   "heading": "Flowbite in other technologies",
+   "background": "rgb(249, 250, 251)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 6888,
+   "heading": "Tailwind CSS Components",
+   "background": "rgb(255, 255, 255)",
+   "padding": "96px 0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 510,
+   "heading": "Solid foundation for any project",
+   "background": "rgb(249, 250, 251)",
+   "padding": "96px 0px 112px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 1094,
+   "heading": "Building with blocks",
+   "background": "rgb(255, 255, 255)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "article",
+   "height": 65,
+   "heading": "Hero Sections",
+   "background": "rgb(249, 250, 251)",
+   "padding": "10px 20px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 65,
+   "heading": "Table Headers",
+   "background": "rgb(249, 250, 251)",
+   "padding": "10px 20px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 65,
+   "heading": "Side Navigations",
+   "background": "rgb(249, 250, 251)",
+   "padding": "10px 20px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 65,
+   "heading": "Feature Sections",
+   "background": "rgb(249, 250, 251)",
+   "padding": "10px 20px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 65,
+   "heading": "CTA Sections",
+   "background": "rgb(249, 250, 251)",
+   "padding": "10px 20px",
+   "children": 2
+  },
+  {
+   "tag": "article",
+   "height": 65,
+   "heading": "Content Sections",
+   "background": "rgb(249, 250, 251)",
+   "padding": "10px 20px",
+   "children": 2
+  },
+  {
+   "tag": "section",
+   "height": 569,
+   "heading": "Design with Figma",
+   "background": "rgb(249, 250, 251)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 755,
+   "heading": "Dark mode integration",
+   "background": "rgb(255, 255, 255)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 622,
+   "heading": "RTL (Right to left) Support",
+   "background": "rgb(249, 250, 251)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 913,
+   "heading": "Flowbite SVG Icons",
+   "background": "rgb(255, 255, 255)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 763,
+   "heading": "Flowbite SVG Illustrations",
+   "background": "rgb(255, 255, 255)",
+   "padding": "0px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 578,
+   "heading": "Flowbite GPT",
+   "background": "rgb(249, 250, 251)",
+   "padding": "0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 21.0,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 17,
+  "tapTargetMedian": 36
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.3s",
+    "count": 21
+   },
+   {
+    "value": "0.1s",
+    "count": 4
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 25
+   }
+  ],
+  "properties": [
+   {
+    "value": "opacity",
+    "count": 21
+   }
+  ]
+ }
+}

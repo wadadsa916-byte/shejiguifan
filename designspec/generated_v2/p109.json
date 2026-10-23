@@ -1,0 +1,728 @@
+{
+ "id": "p109",
+ "overview": {
+  "name": "Mariana Castilho",
+  "url": "https://www.mrncst.computer/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://www.mrncst.computer/",
+   "https://www.mrncst.computer/photos"
+  ],
+  "subpages": [
+   "/photos"
+  ],
+  "sectionCount": 2,
+  "componentSamples": 43,
+  "typeSteps": 3
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#f7eee3",
+    "value": "#f7eee3",
+    "token": "--color-background",
+    "source": "css-var",
+    "contrastOnBg": null
+   },
+   "primary": {
+    "hex": "#2b241d",
+    "value": "#2b241d",
+    "token": "--color-primary",
+    "source": "css-var",
+    "contrastOnBg": 13.33
+   },
+   "secondary": {
+    "hex": "#8f8272",
+    "value": "#8f8272",
+    "token": "--color-secondary",
+    "source": "css-var",
+    "contrastOnBg": 3.26
+   },
+   "foreground": {
+    "hex": "#ff0000",
+    "value": "color(display-p3 0.9176 0.2 0.1373)",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 3.48
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#fdf7ec",
+    "count": 90
+   },
+   {
+    "hex": "#f7eee3",
+    "count": 2
+   },
+   {
+    "hex": "#000000",
+    "count": 2
+   }
+  ],
+  "backgroundsTotal": 6,
+  "textTotal": 3,
+  "bordersTotal": 2
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "23px",
+    "letterSpacing": "normal",
+    "family": "plexMono",
+    "count": 7,
+    "tags": [
+     "p",
+     "a"
+    ],
+    "samples": [
+     "product designer and design engineer cur"
+    ]
+   },
+   {
+    "size": "115px",
+    "px": 115.0,
+    "weight": "400",
+    "lineHeight": "115px",
+    "letterSpacing": "normal",
+    "family": "tayBang",
+    "count": 4,
+    "tags": [
+     "p",
+     "a",
+     "span"
+    ],
+    "samples": [
+     "say hi on twitter."
+    ]
+   },
+   {
+    "size": "200px",
+    "px": 200.0,
+    "weight": "400",
+    "lineHeight": "160px",
+    "letterSpacing": "normal",
+    "family": "tayBang",
+    "count": 3,
+    "tags": [
+     "h1",
+     "span"
+    ],
+    "samples": [
+     "marianacastilho"
+    ]
+   }
+  ],
+  "totalSteps": 4,
+  "families": [
+   "plexMono",
+   "tayBang"
+  ],
+  "weights": [
+   "400"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 2
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 2
+   },
+   {
+    "value": "28px",
+    "px": 28.0,
+    "count": 2
+   },
+   {
+    "value": "48px",
+    "px": 48.0,
+    "count": 1
+   },
+   {
+    "value": "56px",
+    "px": 56.0,
+    "count": 1
+   },
+   {
+    "value": "69px",
+    "px": 69.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "436.8px",
+    "count": 1
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "2px",
+    "px": 2.0,
+    "count": 90
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 1
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 1
+   },
+   {
+    "value": "9999px",
+    "px": 9999,
+    "count": 1
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+    "count": 90
+   },
+   {
+    "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(43, 36, 29, 0.16) 0px 6px 16px 0px",
+    "count": 1
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "40",
+    "count": 2
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 16,
+   "sizeBuckets": {
+    "xl": 16
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Open photo gallery picture 1",
+      "tag": "button",
+      "height": 425,
+      "width": 283,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Open photo gallery picture 3",
+      "tag": "button",
+      "height": 283,
+      "width": 424,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Open photo gallery picture 14",
+      "tag": "button",
+      "height": 282,
+      "width": 425,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Open photo gallery picture 17",
+      "tag": "button",
+      "height": 293,
+      "width": 409,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 2,
+    "xl": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Profound",
+      "tag": "a",
+      "height": 23,
+      "width": 67,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "i take photos sometimes",
+      "tag": "a",
+      "height": 18,
+      "width": 193,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "xl": [
+     {
+      "text": "twitter",
+      "tag": "a",
+      "height": 117,
+      "width": 309,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "115.2px",
+      "fontWeight": "400",
+      "fontFamily": "tayBang",
+      "lineHeight": "115.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Navigate to home",
+      "tag": "a",
+      "height": 62,
+      "width": 56,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "marianacastilho",
+      "tag": "h1",
+      "height": 316,
+      "width": 673,
+      "padding": "0px",
+      "margin": "48px 0px -56px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "200px",
+      "fontWeight": "400",
+      "fontFamily": "tayBang",
+      "lineHeight": "160px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 3,
+   "sizeBuckets": {
+    "xl": 2,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "product designer and design en",
+      "tag": "p",
+      "height": 91,
+      "width": 437,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "say hi on twitter.",
+      "tag": "p",
+      "height": 117,
+      "width": 765,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "115.2px",
+      "fontWeight": "400",
+      "fontFamily": "tayBang",
+      "lineHeight": "115.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "also, i take photos sometimes.",
+      "tag": "p",
+      "height": 23,
+      "width": 437,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "22.75px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 17,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 16
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "click here!",
+      "tag": "span",
+      "height": 21,
+      "width": 89,
+      "padding": "2px 8px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(247, 238, 227)",
+      "border": "0px solid rgb(247, 238, 227)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "16.5px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.29
+     }
+    ],
+    "xl": [
+     {
+      "text": "",
+      "tag": "img",
+      "height": 425,
+      "width": 283,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "img",
+      "height": 283,
+      "width": 424,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "img",
+      "height": 282,
+      "width": 425,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     },
+     {
+      "text": "",
+      "tag": "img",
+      "height": 293,
+      "width": 409,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 12,
+      "width": 309,
+      "padding": "0px",
+      "margin": "-2px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "115.2px",
+      "fontWeight": "400",
+      "fontFamily": "tayBang",
+      "lineHeight": "115.2px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 9,
+      "width": 11,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "color(display-p3 0.9176 0.2 0.1373)",
+      "border": "0px solid color(display-p3 0.9176 0.2 0.1373)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "plexMono",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 813,
+   "heading": "marianacastilho",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "56px 24px 69.12px",
+   "children": 4
+  },
+  {
+   "tag": "footer",
+   "height": 117,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 1
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 18.29,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 18,
+  "tapTargetMedian": 290
+ }
+}

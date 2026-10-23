@@ -1,0 +1,1541 @@
+{
+ "id": "t289",
+ "overview": {
+  "name": "Shaderfrog",
+  "url": "https://shaderfrog.com/",
+  "section": "着色器",
+  "pagesScanned": [
+   "https://shaderfrog.com/",
+   "https://shaderfrog.com/blog/about-shaderfrog-alpha",
+   "https://shaderfrog.com/products",
+   "https://shaderfrog.com/sign-up"
+  ],
+  "subpages": [
+   "/blog/about-shaderfrog-alpha",
+   "/products",
+   "/sign-up"
+  ],
+  "sectionCount": 1,
+  "componentSamples": 67,
+  "typeSteps": 12
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 21.0
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#aaaaaa",
+    "count": 51
+   },
+   {
+    "hex": "#000000",
+    "count": 50
+   },
+   {
+    "hex": "#c5f995",
+    "count": 50
+   },
+   {
+    "hex": "#111111",
+    "count": 8
+   },
+   {
+    "hex": "#88b500",
+    "count": 3
+   },
+   {
+    "hex": "#5f655f",
+    "count": 2
+   },
+   {
+    "hex": "#3d3d3d",
+    "count": 1
+   },
+   {
+    "hex": "#324447",
+    "count": 1
+   },
+   {
+    "hex": "#ffbb63",
+    "count": 1
+   },
+   {
+    "hex": "#ffffff",
+    "count": 1357
+   }
+  ],
+  "backgroundsTotal": 11,
+  "textTotal": 15,
+  "bordersTotal": 4
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "9px",
+    "px": 9.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 50,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "PRO"
+    ]
+   },
+   {
+    "size": "11px",
+    "px": 11.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 53,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "Three"
+    ]
+   },
+   {
+    "size": "12px",
+    "px": 12.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 103,
+    "tags": [
+     "span"
+    ],
+    "samples": [
+     "0"
+    ]
+   },
+   {
+    "size": "13px",
+    "px": 13.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "monospace",
+    "count": 2,
+    "tags": [
+     "code"
+    ],
+    "samples": [
+     "x"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "18px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 2,
+    "tags": [
+     "a"
+    ],
+    "samples": [
+     "New Three.js Shader"
+    ]
+   },
+   {
+    "size": "14px",
+    "px": 14.0,
+    "weight": "400",
+    "lineHeight": "25px",
+    "letterSpacing": "0.5px",
+    "family": "-apple-system",
+    "count": 5,
+    "tags": [
+     "label"
+    ],
+    "samples": [
+     "Email"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 267,
+    "tags": [
+     "span",
+     "a",
+     "li"
+    ],
+    "samples": [
+     "Browse"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 40,
+    "tags": [
+     "span",
+     "a"
+    ],
+    "samples": [
+     "1"
+    ]
+   },
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "400",
+    "lineHeight": "27px",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 39,
+    "tags": [
+     "a",
+     "span"
+    ],
+    "samples": [
+     "Editor"
+    ]
+   },
+   {
+    "size": "18px",
+    "px": 18.0,
+    "weight": "700",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "arial",
+    "count": 2,
+    "tags": [
+     "th"
+    ],
+    "samples": [
+     "Free"
+    ]
+   },
+   {
+    "size": "24px",
+    "px": 24.0,
+    "weight": "700",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 11,
+    "tags": [
+     "h2"
+    ],
+    "samples": [
+     "How Shaderfrog 1.0 Came About"
+    ]
+   },
+   {
+    "size": "32px",
+    "px": 32.0,
+    "weight": "700",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "family": "-apple-system",
+    "count": 4,
+    "tags": [
+     "h1"
+    ],
+    "samples": [
+     "Create"
+    ]
+   }
+  ],
+  "totalSteps": 12,
+  "families": [
+   "-apple-system",
+   "arial",
+   "monospace"
+  ],
+  "weights": [
+   "400",
+   "700"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 244
+   },
+   {
+    "value": "5px",
+    "px": 5.0,
+    "count": 119
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 224
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 163
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 125
+   },
+   {
+    "value": "15px",
+    "px": 15.0,
+    "count": 8
+   },
+   {
+    "value": "16px",
+    "px": 16.0,
+    "count": 41
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 45
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 4
+   },
+   {
+    "value": "25px",
+    "px": 25.0,
+    "count": 10
+   },
+   {
+    "value": "35px",
+    "px": 35.0,
+    "count": 3
+   },
+   {
+    "value": "36px",
+    "px": 36.0,
+    "count": 2
+   },
+   {
+    "value": "40px",
+    "px": 40.0,
+    "count": 3
+   },
+   {
+    "value": "50px",
+    "px": 50.0,
+    "count": 8
+   },
+   {
+    "value": "100px",
+    "px": 100.0,
+    "count": 1
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": []
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 11
+   },
+   {
+    "value": "6px",
+    "px": 6.0,
+    "count": 62
+   },
+   {
+    "value": "10px",
+    "px": 10.0,
+    "count": 56
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 53
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 14
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 53
+   },
+   {
+    "value": "100px",
+    "px": 100.0,
+    "count": 2
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(255, 255, 255, 0.376) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.267) 0px 5px 10px 0px inset",
+    "count": 52
+   },
+   {
+    "value": "rgb(0, 128, 0) 0px 0px 5px 0px",
+    "count": 50
+   },
+   {
+    "value": "rgba(28, 28, 28, 0.475) 0px 0px 10px 0px inset",
+    "count": 24
+   },
+   {
+    "value": "rgb(0, 32, 0) 0px 0px 4px 0px, rgb(196, 215, 98) 0px 0px 4px 0px inset, rgba(243, 255, 240, 0.965) 0px 1px 3px 0px inset",
+    "count": 11
+   },
+   {
+    "value": "rgb(48, 57, 48) 0px -1px 0px 0px",
+    "count": 11
+   },
+   {
+    "value": "rgb(31, 31, 31) 0px 1px 4px 0px inset, rgb(68, 68, 68) 0px -1px 0px 0px inset",
+    "count": 8
+   },
+   {
+    "value": "rgb(68, 68, 68) 0px 1px 0px 0px inset",
+    "count": 4
+   },
+   {
+    "value": "rgb(172, 228, 0) 0px 1px 0px 0px inset",
+    "count": 3
+   }
+  ],
+  "zIndex": [
+   {
+    "value": "2",
+    "count": 54
+   },
+   {
+    "value": "1",
+    "count": 3
+   }
+  ]
+ },
+ "components": {
+  "button": {
+   "label": "按钮",
+   "count": 4,
+   "sizeBuckets": {
+    "sm": 4
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Report a bug",
+      "tag": "a",
+      "height": 18,
+      "width": 94,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 255, 121)",
+      "border": "0px none rgb(201, 255, 121)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.06
+     },
+     {
+      "text": "New Three.js Shader",
+      "tag": "a",
+      "height": 26,
+      "width": 223,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(61, 61, 61)",
+      "color": "rgb(224, 224, 224)",
+      "border": "0px none rgb(31, 31, 31)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(119, 119, 119) 0px 1px 0px 0px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.23
+     },
+     {
+      "text": "Sign in to Purchase",
+      "tag": "a",
+      "height": 26,
+      "width": 308,
+      "padding": "4px 8px",
+      "margin": "20px 0px 0px",
+      "radius": "6px",
+      "background": "rgb(136, 181, 0)",
+      "color": "rgb(224, 224, 224)",
+      "border": "0px none rgb(224, 224, 224)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(172, 228, 0) 0px 1px 0px 0px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.84
+     },
+     {
+      "text": "Show password",
+      "tag": "button",
+      "height": 14,
+      "width": 15,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(136, 136, 136)",
+      "border": "0px none rgb(136, 136, 136)",
+      "fontSize": "13.3333px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "13.3333px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 5.92
+     }
+    ]
+   }
+  },
+  "link": {
+   "label": "链接",
+   "count": 8,
+   "sizeBuckets": {
+    "sm": 7,
+    "lg": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Editor",
+      "tag": "a",
+      "height": 18,
+      "width": 43,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 255, 121)",
+      "border": "0px none rgb(201, 255, 121)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.06
+     },
+     {
+      "text": "Three.js (2219)",
+      "tag": "a",
+      "height": 19,
+      "width": 134,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 255, 121)",
+      "border": "0px none rgb(201, 255, 121)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.06
+     },
+     {
+      "text": "New Three.js Shader",
+      "tag": "a",
+      "height": 26,
+      "width": 223,
+      "padding": "4px 8px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(61, 61, 61)",
+      "color": "rgb(224, 224, 224)",
+      "border": "0px none rgb(31, 31, 31)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(119, 119, 119) 0px 1px 0px 0px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 8.23
+     },
+     {
+      "text": "2",
+      "tag": "a",
+      "height": 24,
+      "width": 24,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "20px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 255, 121)",
+      "border": "0px none rgb(201, 255, 121)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.06
+     }
+    ],
+    "lg": [
+     {
+      "text": "here's an early preview of exp",
+      "tag": "a",
+      "height": 42,
+      "width": 707,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 255, 121)",
+      "border": "0px none rgb(201, 255, 121)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.06
+     }
+    ]
+   }
+  },
+  "input": {
+   "label": "输入框",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "input",
+      "height": 26,
+      "width": 200,
+      "padding": "4px 12px 4px 35px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(17, 17, 17)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(31, 31, 31) 0px 1px 4px 0px inset, rgb(68, 68, 68) 0px -1px 0px 0px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.88
+     },
+     {
+      "text": "Sign In!",
+      "tag": "input",
+      "height": 26,
+      "width": 95,
+      "padding": "4px 24px",
+      "margin": "0px",
+      "radius": "6px",
+      "background": "rgb(136, 181, 0)",
+      "color": "rgb(224, 224, 224)",
+      "border": "0px none rgb(224, 224, 224)",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "Arial",
+      "lineHeight": "18px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(172, 228, 0) 0px 1px 0px 0px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.84
+     }
+    ]
+   }
+  },
+  "card": {
+   "label": "卡片",
+   "count": 4,
+   "sizeBuckets": {
+    "xl": 4
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "0 0  Cartography by andrewray ",
+      "tag": "div",
+      "height": 6152,
+      "width": 720,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "10px 15px",
+      "contrast": 21
+     },
+     {
+      "text": "0 0  Cartography by andrewray ",
+      "tag": "div",
+      "height": 232,
+      "width": 353,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgb(48, 50, 45)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "0 0",
+      "tag": "div",
+      "height": 200,
+      "width": 351,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "9px 9px 0px 0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "0 0  Rorschach's Marble by and",
+      "tag": "div",
+      "height": 248,
+      "width": 353,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "10px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgb(48, 50, 45)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "0.2s",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "nav": {
+   "label": "导航",
+   "count": 1,
+   "sizeBuckets": {
+    "md": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "HomeEditorSign In HomeEditorPr",
+      "tag": "header",
+      "height": 35,
+      "width": 1440,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "badge": {
+   "label": "徽标",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 3
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Three",
+      "tag": "div",
+      "height": 19,
+      "width": 70,
+      "padding": "3px 10px 3px 2px",
+      "margin": "0px",
+      "radius": "32px",
+      "background": "rgb(170, 170, 170)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "rgba(255, 255, 255, 0.376) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.267) 0px 5px 10px 0px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.32
+     },
+     {
+      "text": "Playcanvas",
+      "tag": "div",
+      "height": 19,
+      "width": 106,
+      "padding": "3px 10px 3px 2px",
+      "margin": "0px",
+      "radius": "32px",
+      "background": "rgb(50, 68, 71)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "rgba(255, 255, 255, 0.19) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.133) 0px 5px 10px 0px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 10.23
+     },
+     {
+      "text": ".babylon-icon_svg__cls-1{fill:",
+      "tag": "div",
+      "height": 19,
+      "width": 82,
+      "padding": "3px 10px 3px 2px",
+      "margin": "0px",
+      "radius": "32px",
+      "background": "rgb(255, 187, 99)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "uppercase",
+      "shadow": "rgba(255, 255, 255, 0.376) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.267) 0px 5px 10px 0px inset",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1.67
+     }
+    ]
+   }
+  },
+  "heading": {
+   "label": "标题",
+   "count": 2,
+   "sizeBuckets": {
+    "lg": 1,
+    "sm": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "Create",
+      "tag": "h1",
+      "height": 38,
+      "width": 678,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "How Shaderfrog 1.0 Came About",
+      "tag": "h2",
+      "height": 28,
+      "width": 720,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 8,
+   "sizeBuckets": {
+    "xl": 7,
+    "sm": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "Hi, my name is Andy. Almost 8 ",
+      "tag": "p",
+      "height": 72,
+      "width": 720,
+      "padding": "0px",
+      "margin": "16px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "I've spent the last several ye",
+      "tag": "p",
+      "height": 48,
+      "width": 720,
+      "padding": "0px",
+      "margin": "16px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "I made Shaderfrog 1.0 to help ",
+      "tag": "p",
+      "height": 96,
+      "width": 720,
+      "padding": "0px",
+      "margin": "16px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "After losing lots of money bui",
+      "tag": "p",
+      "height": 92,
+      "width": 720,
+      "padding": "20px 0px 0px",
+      "margin": "16px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "rgb(48, 57, 48) 0px -1px 0px 0px",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "sm": [
+     {
+      "text": "Shaderfrog was a great experim",
+      "tag": "p",
+      "height": 24,
+      "width": 720,
+      "padding": "0px",
+      "margin": "16px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "list": {
+   "label": "列表",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 1,
+    "xl": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "1234567",
+      "tag": "ul",
+      "height": 24,
+      "width": 224,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "It doesn't let you use Three.j",
+      "tag": "ul",
+      "height": 90,
+      "width": 720,
+      "padding": "0px 0px 0px 40px",
+      "margin": "16px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "You define your engine as a pl",
+      "tag": "ul",
+      "height": 126,
+      "width": 720,
+      "padding": "0px 0px 0px 40px",
+      "margin": "16px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "table": {
+   "label": "表格",
+   "count": 1,
+   "sizeBuckets": {
+    "xl": 1
+   },
+   "samples": {
+    "xl": [
+     {
+      "text": "FreeShaderfrog ProEditorCommen",
+      "tag": "table",
+      "height": 321,
+      "width": 720,
+      "padding": "0px",
+      "margin": "50px 0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "tabs": {
+   "label": "标签页",
+   "count": 3,
+   "sizeBuckets": {
+    "sm": 2,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "HomeEditorProductsSearch",
+      "tag": "div",
+      "height": 27,
+      "width": 696,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     },
+     {
+      "text": "Search",
+      "tag": "div",
+      "height": 28,
+      "width": 434,
+      "padding": "0px",
+      "margin": "-1px 15px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ],
+    "xl": [
+     {
+      "text": "FreeShaderfrog ProEditorCommen",
+      "tag": "table",
+      "height": 321,
+      "width": 720,
+      "padding": "0px",
+      "margin": "50px 0px",
+      "radius": "12px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "arial",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 27,
+   "sizeBuckets": {
+    "sm": 24,
+    "md": 2,
+    "xl": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(153, 235, 0)",
+      "border": "0px none rgb(153, 235, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 14.24
+     },
+     {
+      "text": "Editor",
+      "tag": "a",
+      "height": 18,
+      "width": 43,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 255, 121)",
+      "border": "0px none rgb(201, 255, 121)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.06
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 255, 121)",
+      "border": "0px none rgb(201, 255, 121)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.06
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(153, 153, 153)",
+      "border": "0px none rgb(153, 153, 153)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "27px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 7.37
+     }
+    ],
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px 10px 0px 0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(68, 68, 68)",
+      "border": "0px none rgb(68, 68, 68)",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 2.16
+     },
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px 0px 0px 10px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 255, 121)",
+      "border": "0px none rgb(201, 255, 121)",
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 18.06
+     }
+    ],
+    "xl": [
+     {
+      "text": ".babylon-icon_svg__cls-1{fill:",
+      "tag": "div",
+      "height": 203,
+      "width": 200,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px none rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  },
+  "pagination": {
+   "label": "分页",
+   "count": 1,
+   "sizeBuckets": {
+    "lg": 1
+   },
+   "samples": {
+    "lg": [
+     {
+      "text": "1234567",
+      "tag": "div",
+      "height": 44,
+      "width": 320,
+      "padding": "5px",
+      "margin": "0px",
+      "radius": "100px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "1px solid rgb(83, 85, 81)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 21
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "main",
+   "height": 6583,
+   "heading": "Create",
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "children": 6
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 21.0,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 14,
+  "tapTargetMedian": 26
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.2s",
+    "count": 50
+   }
+  ],
+  "easings": [],
+  "properties": []
+ }
+}

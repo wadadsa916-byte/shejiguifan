@@ -1,0 +1,387 @@
+{
+  "_meta": {
+    "name": "小程序设计规范",
+    "derivedFrom": [
+      {
+        "id": "t007",
+        "name": "Mobbin",
+        "url": "https://mobbin.com/"
+      },
+      {
+        "id": "t031",
+        "name": "Pttrns",
+        "url": "https://pttrns.com/"
+      },
+      {
+        "id": "t038",
+        "name": "Appinspo",
+        "url": "https://www.appinspo.com/"
+      },
+      {
+        "id": "t043",
+        "name": "loadmo.re",
+        "url": "https://loadmo.re/"
+      },
+      {
+        "id": "t025",
+        "name": "UX Archive",
+        "url": "https://uxarchive.com/"
+      }
+    ],
+    "method": "聚合 5 个移动端设计站的运行态实测值，按小程序平台约束推导",
+    "totalComponentSamples": 324,
+    "generatedAt": "2026-10-22"
+  },
+  "basis": {
+    "触屏目标": {
+      "observed": {
+        "median": 38,
+        "range": [
+          20,
+          68
+        ],
+        "peak": 44
+      },
+      "decision": 44,
+      "reason": "微信小程序官方建议热区不小于 44×44px；实测 44px 是出现最多的单值（6 次），且高于中位 38px"
+    },
+    "间距基准": {
+      "observed": {
+        "top": [
+          "20px",
+          "8px",
+          "16px",
+          "24px"
+        ],
+        "counts": [
+          439,
+          329,
+          226,
+          209
+        ]
+      },
+      "decision": 8,
+      "reason": "8px 是唯一能整除主流值的基准（8/16/24/32/40），20px 无法构成网格"
+    },
+    "圆角": {
+      "observed": {
+        "top": [
+          "30%",
+          "8px",
+          "20px",
+          "24px",
+          "32px"
+        ]
+      },
+      "decision": {
+        "sm": 8,
+        "md": 16,
+        "lg": 24,
+        "full": 9999
+      },
+      "reason": "30% 是相对值不通用；8/20/24/32 取整成四档，覆盖卡片、按钮、弹层"
+    },
+    "字号": {
+      "observed": {
+        "top": [
+          "16px",
+          "14px",
+          "13px",
+          "12px",
+          "20px"
+        ],
+        "counts": [
+          690,
+          108,
+          108,
+          79,
+          73
+        ]
+      },
+      "decision": {
+        "caption": 12,
+        "body": 16,
+        "title": 20,
+        "h1": 24,
+        "display": 32
+      },
+      "reason": "16px 正文绝对主导（690 次，是第二名的 6.4 倍）"
+    }
+  },
+  "colors": {
+    "primary": {
+      "value": "#07C160",
+      "note": "微信品牌绿。5 个参考站没有统一主色（2 个无主色），采用平台默认值"
+    },
+    "primaryPressed": {
+      "value": "#06AD56"
+    },
+    "primaryLight": {
+      "value": "#E8F8EF"
+    },
+    "background": {
+      "value": "#FFFFFF"
+    },
+    "backgroundPage": {
+      "value": "#F7F7F7"
+    },
+    "foreground": {
+      "value": "#1A1A1A",
+      "contrast": 16.1
+    },
+    "foregroundSecondary": {
+      "value": "#888888",
+      "contrast": 3.54,
+      "note": "仅用于辅助信息，不承载正文"
+    },
+    "foregroundTertiary": {
+      "value": "#B2B2B2",
+      "contrast": 2.15,
+      "note": "仅用于占位符/禁用态"
+    },
+    "border": {
+      "value": "#E5E5E5"
+    },
+    "danger": {
+      "value": "#FA5151"
+    },
+    "warning": {
+      "value": "#FFC300"
+    },
+    "success": {
+      "value": "#07C160"
+    },
+    "link": {
+      "value": "#576B95"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "value": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif",
+      "note": "小程序不支持自定义字体文件，只能用系统字体"
+    },
+    "scale": [
+      {
+        "name": "display",
+        "size": 32,
+        "weight": 600,
+        "lineHeight": 1.25,
+        "usage": "页面主标题、数字大屏"
+      },
+      {
+        "name": "h1",
+        "size": 24,
+        "weight": 600,
+        "lineHeight": 1.33,
+        "usage": "区块标题"
+      },
+      {
+        "name": "title",
+        "size": 20,
+        "weight": 600,
+        "lineHeight": 1.4,
+        "usage": "卡片标题、弹窗标题"
+      },
+      {
+        "name": "body-lg",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 1.53,
+        "usage": "长文正文"
+      },
+      {
+        "name": "body",
+        "size": 16,
+        "weight": 400,
+        "lineHeight": 1.5,
+        "usage": "默认正文（主力）"
+      },
+      {
+        "name": "body-sm",
+        "size": 14,
+        "weight": 400,
+        "lineHeight": 1.43,
+        "usage": "次要信息、列表副标题"
+      },
+      {
+        "name": "caption",
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 1.33,
+        "usage": "标签、时间戳、辅助说明"
+      }
+    ],
+    "weights": [
+      400,
+      500,
+      600
+    ]
+  },
+  "spacing": {
+    "base": 8,
+    "scale": {
+      "xs": 4,
+      "sm": 8,
+      "md": 16,
+      "lg": 24,
+      "xl": 32,
+      "2xl": 40,
+      "3xl": 48
+    },
+    "usage": {
+      "页面左右边距": 16,
+      "卡片内边距": 16,
+      "卡片间距": 12,
+      "列表项上下": 16,
+      "区块之间": 24,
+      "页面顶部留白": 32
+    }
+  },
+  "radius": {
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "full": 9999,
+    "usage": {
+      "按钮": "full 或 8",
+      "卡片": 16,
+      "弹层": "24 24 0 0",
+      "头像": "full",
+      "输入框": 8
+    }
+  },
+  "components": {
+    "button": {
+      "primary": {
+        "height": 44,
+        "paddingX": 24,
+        "radius": "full",
+        "bg": "#07C160",
+        "color": "#FFFFFF",
+        "fontSize": 16,
+        "fontWeight": 500
+      },
+      "secondary": {
+        "height": 44,
+        "paddingX": 24,
+        "radius": "full",
+        "bg": "#F2F2F2",
+        "color": "#1A1A1A",
+        "fontSize": 16,
+        "fontWeight": 500
+      },
+      "outline": {
+        "height": 44,
+        "paddingX": 24,
+        "radius": "full",
+        "bg": "transparent",
+        "border": "1px solid #07C160",
+        "color": "#07C160"
+      },
+      "text": {
+        "height": 44,
+        "paddingX": 12,
+        "bg": "transparent",
+        "color": "#576B95",
+        "fontSize": 16
+      },
+      "small": {
+        "height": 32,
+        "paddingX": 16,
+        "radius": "full",
+        "fontSize": 14
+      },
+      "disabled": {
+        "bg": "#F2F2F2",
+        "color": "#B2B2B2",
+        "note": "不设 opacity，避免文字发灰不清"
+      }
+    },
+    "input": {
+      "height": 44,
+      "paddingX": 16,
+      "radius": 8,
+      "bg": "#F7F7F7",
+      "fontSize": 16,
+      "placeholderColor": "#B2B2B2",
+      "note": "字号必须 ≥16px，否则 iOS 会自动放大页面"
+    },
+    "card": {
+      "radius": 16,
+      "padding": 16,
+      "bg": "#FFFFFF",
+      "gap": 12,
+      "note": "小程序没有阴影传统，用背景色对比区分层次"
+    },
+    "listItem": {
+      "height": 56,
+      "paddingX": 16,
+      "gap": 12,
+      "borderBottom": "1px solid #E5E5E5",
+      "note": "56px 是 iOS/微信列表标准高度"
+    },
+    "navbar": {
+      "height": 44,
+      "note": "微信导航栏固定 44px，不含状态栏",
+      "statusBar": {
+        "ios": 44,
+        "android": 24,
+        "note": "需用 wx.getSystemInfoSync 动态计算"
+      }
+    },
+    "tabbar": {
+      "height": 50,
+      "iconSize": 24,
+      "fontSize": 10,
+      "note": "微信 tabBar 固定 50px，安全区另加"
+    },
+    "modal": {
+      "width": "80%",
+      "maxWidth": 320,
+      "radius": "24 24 0 0 或 16",
+      "padding": 24,
+      "buttonHeight": 48
+    },
+    "toast": {
+      "radius": 8,
+      "padding": "16 24",
+      "bg": "rgba(0,0,0,0.75)",
+      "color": "#FFFFFF",
+      "fontSize": 14,
+      "maxWidth": 240
+    }
+  },
+  "safeArea": {
+    "top": "iPhone 刘海屏需加 safe-area-inset-top",
+    "bottom": "iPhone 底部横条需加 safe-area-inset-bottom，tabBar 要垫高",
+    "formula": "padding-bottom: calc(50px + env(safe-area-inset-bottom))"
+  },
+  "motion": {
+    "durations": {
+      "fast": 150,
+      "normal": 250,
+      "slow": 350
+    },
+    "easings": {
+      "standard": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "decelerate": "cubic-bezier(0, 0, 0.2, 1)",
+      "accelerate": "cubic-bezier(0.4, 0, 1, 1)"
+    },
+    "note": "小程序动画性能有限，避免同时动超过 3 个元素；用 transform/opacity，不要动 width/height"
+  },
+  "constraints": {
+    "mustDo": [
+      "点击热区 ≥44×44px（微信官方建议）",
+      "输入框字号 ≥16px（iOS 防自动缩放）",
+      "底部固定元素必须处理 safe-area-inset-bottom",
+      "导航栏高度用胶囊按钮位置动态计算，不要写死",
+      "避免使用 position: fixed 做长列表滚动容器（小程序渲染层问题）"
+    ],
+    "mustNot": [
+      "不要用自定义字体文件（小程序不支持）",
+      "不要用 box-shadow 做主要层次区分（性能差）",
+      "不要用 backdrop-filter（小程序兼容性差）",
+      "不要依赖 :hover（触屏无 hover）"
+    ]
+  }
+}

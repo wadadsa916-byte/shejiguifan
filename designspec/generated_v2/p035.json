@@ -1,0 +1,456 @@
+{
+ "id": "p035",
+ "overview": {
+  "name": "Aaron Mahlke",
+  "url": "https://www.mahlke.design/",
+  "section": "设计工程师",
+  "pagesScanned": [
+   "https://www.mahlke.design/"
+  ],
+  "subpages": [],
+  "sectionCount": 2,
+  "componentSamples": 8,
+  "typeSteps": 1
+ },
+ "colors": {
+  "roles": {
+   "background": {
+    "hex": "#ffffff",
+    "value": "#ffffff",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": null
+   },
+   "foreground": {
+    "hex": "#000000",
+    "value": "#000000",
+    "token": null,
+    "source": "measured",
+    "contrastOnBg": 21.0
+   }
+  },
+  "neutralRamp": [
+   {
+    "hex": "#ffffff",
+    "count": 16
+   },
+   {
+    "hex": "#000000",
+    "count": 66
+   }
+  ],
+  "backgroundsTotal": 4,
+  "textTotal": 4,
+  "bordersTotal": 0
+ },
+ "typography": {
+  "ladder": [
+   {
+    "size": "16px",
+    "px": 16.0,
+    "weight": "500",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "family": "Geist",
+    "count": 19,
+    "tags": [
+     "p",
+     "a"
+    ],
+    "samples": [
+     "Hey, I'm Aaron."
+    ]
+   }
+  ],
+  "totalSteps": 1,
+  "families": [
+   "Geist"
+  ],
+  "weights": [
+   "500"
+  ]
+ },
+ "spacing": {
+  "ladder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 58
+   },
+   {
+    "value": "8px",
+    "px": 8.0,
+    "count": 8
+   },
+   {
+    "value": "12px",
+    "px": 12.0,
+    "count": 6
+   },
+   {
+    "value": "20px",
+    "px": 20.0,
+    "count": 2
+   },
+   {
+    "value": "24px",
+    "px": 24.0,
+    "count": 1
+   },
+   {
+    "value": "26px",
+    "px": 26.0,
+    "count": 2
+   },
+   {
+    "value": "32px",
+    "px": 32.0,
+    "count": 2
+   },
+   {
+    "value": "60px",
+    "px": 60.0,
+    "count": 60
+   }
+  ],
+  "inferredBaseUnit": 4,
+  "containerWidths": [
+   {
+    "value": "1280px",
+    "count": 15
+   }
+  ]
+ },
+ "shape": {
+  "radiusLadder": [
+   {
+    "value": "4px",
+    "px": 4.0,
+    "count": 20
+   }
+  ],
+  "shadows": [],
+  "zIndex": [
+   {
+    "value": "0",
+    "count": 10
+   },
+   {
+    "value": "10",
+    "count": 10
+   }
+  ]
+ },
+ "components": {
+  "link": {
+   "label": "链接",
+   "count": 3,
+   "sizeBuckets": {
+    "md": 2,
+    "sm": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "Book intro",
+      "tag": "a",
+      "height": 32,
+      "width": 100,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "oklch(0.269 0 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "0px solid rgb(255, 255, 255)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Follow me",
+      "tag": "a",
+      "height": 32,
+      "width": 99,
+      "padding": "4px 12px",
+      "margin": "0px",
+      "radius": "4px",
+      "background": "oklch(0.922 0 0)",
+      "color": "oklch(0.439 0 0)",
+      "border": "0px solid oklch(0.439 0 0)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ],
+    "sm": [
+     {
+      "text": "Atlasflow",
+      "tag": "a",
+      "height": 21,
+      "width": 69,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.439 0 0)",
+      "border": "0px solid oklch(0.439 0 0)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "color 0.15s cubic-bezier(0.19, 1, 0.22, 1), background-color 0.15s cubic-bezier(0.19, 1, 0.22, 1), border-color 0.15s cubic-bezier(0.19, 1, 0.22, 1), outline-color 0.15s cubic-bezier(0.19, 1, 0.22, 1), text-decoration-color 0.15s cubic-bezier(0.19, 1, 0.22, 1), fill 0.15s cubic-bezier(0.19, 1, 0.22, 1), stroke 0.15s cubic-bezier(0.19, 1, 0.22, 1), --tw-gradient-from 0.15s cubic-bezier(0.19, 1, 0.22, 1), --tw-gradient-via 0.15s cubic-bezier(0.19, 1, 0.22, 1), --tw-gradient-to 0.15s cubic-bezier(0.19, 1, 0.22, 1)",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "para": {
+   "label": "正文",
+   "count": 2,
+   "sizeBuckets": {
+    "sm": 2
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Hey, I'm Aaron.",
+      "tag": "p",
+      "height": 24,
+      "width": 1160,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.439 0 0)",
+      "border": "0px solid oklch(0.439 0 0)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     },
+     {
+      "text": "Personal projects",
+      "tag": "p",
+      "height": 24,
+      "width": 570,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.556 0 0)",
+      "border": "0px solid oklch(0.556 0 0)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "dropdown": {
+   "label": "下拉菜单",
+   "count": 1,
+   "sizeBuckets": {
+    "sm": 1
+   },
+   "samples": {
+    "sm": [
+     {
+      "text": "Atlasflow",
+      "tag": "div",
+      "height": 24,
+      "width": 69,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.439 0 0)",
+      "border": "0px solid oklch(0.439 0 0)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "4px",
+      "contrast": null
+     }
+    ]
+   }
+  },
+  "icon": {
+   "label": "图标",
+   "count": 2,
+   "sizeBuckets": {
+    "md": 1,
+    "sm": 1
+   },
+   "samples": {
+    "md": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 32,
+      "width": 32,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "ui-sans-serif",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": 1
+     }
+    ],
+    "sm": [
+     {
+      "text": "",
+      "tag": "svg",
+      "height": 16,
+      "width": 16,
+      "padding": "0px",
+      "margin": "0px",
+      "radius": "0px",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.439 0 0)",
+      "border": "0px solid oklch(0.439 0 0)",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "fontFamily": "Geist",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "shadow": "none",
+      "transition": "all",
+      "gap": "normal",
+      "contrast": null
+     }
+    ]
+   }
+  }
+ },
+ "sections": [
+  {
+   "tag": "section",
+   "height": 484,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "60px 0px 24px",
+   "children": 1
+  },
+  {
+   "tag": "section",
+   "height": 9860,
+   "heading": null,
+   "background": "rgba(0, 0, 0, 0)",
+   "padding": "4px",
+   "children": 14
+  }
+ ],
+ "accessibility": {
+  "bodyContrast": 21.0,
+  "bodyContrastLevel": "AAA",
+  "tapTargetMin": 21,
+  "tapTargetMedian": 32
+ },
+ "motion": {
+  "durations": [
+   {
+    "value": "0.15s",
+    "count": 32
+   }
+  ],
+  "easings": [
+   {
+    "value": "cubic-bezier(0.19, 1, 0.22, 1)",
+    "count": 30
+   },
+   {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "count": 2
+   }
+  ],
+  "properties": [
+   {
+    "value": "color",
+    "count": 12
+   },
+   {
+    "value": "background-color",
+    "count": 12
+   },
+   {
+    "value": "border-color",
+    "count": 12
+   },
+   {
+    "value": "outline-color",
+    "count": 12
+   },
+   {
+    "value": "text-decoration-color",
+    "count": 12
+   },
+   {
+    "value": "fill",
+    "count": 12
+   },
+   {
+    "value": "stroke",
+    "count": 12
+   },
+   {
+    "value": "--tw-gradient-from",
+    "count": 12
+   },
+   {
+    "value": "--tw-gradient-via",
+    "count": 12
+   },
+   {
+    "value": "--tw-gradient-to",
+    "count": 12
+   }
+  ]
+ }
+}

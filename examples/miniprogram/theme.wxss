@@ -1,0 +1,301 @@
+/* ============================================================
+   小程序设计规范 · WXSS 变量
+   推导来源：Mobbin / Pttrns / Appinspo / loadmo.re / UX Archive
+   方法：聚合 5 个移动端设计站的运行态实测值，按小程序约束收敛
+   ============================================================ */
+
+page {
+  /* ---------- 色彩 ---------- */
+  --color-primary: #07C160;          /* 微信品牌绿 */
+  --color-primary-pressed: #06AD56;
+  --color-primary-light: #E8F8EF;
+
+  --color-bg: #FFFFFF;               /* 卡片、内容区 */
+  --color-bg-page: #F7F7F7;          /* 页面底色 */
+  --color-bg-input: #F7F7F7;
+
+  --color-text: #1A1A1A;             /* 正文，对比度 16.1:1 */
+  --color-text-2: #888888;           /* 次要，3.54:1，仅辅助信息 */
+  --color-text-3: #B2B2B2;           /* 占位符、禁用 */
+  --color-text-inverse: #FFFFFF;
+
+  --color-border: #E5E5E5;
+  --color-divider: #F0F0F0;
+
+  --color-danger: #FA5151;
+  --color-warning: #FFC300;
+  --color-success: #07C160;
+  --color-link: #576B95;
+
+  /* ---------- 间距（8px 基准）---------- */
+  --space-xs: 4rpx;
+  --space-sm: 16rpx;
+  --space-md: 32rpx;
+  --space-lg: 48rpx;
+  --space-xl: 64rpx;
+  --space-2xl: 80rpx;
+  --space-3xl: 96rpx;
+
+  /* ---------- 圆角 ---------- */
+  --radius-sm: 16rpx;
+  --radius-md: 32rpx;
+  --radius-lg: 48rpx;
+  --radius-full: 9999rpx;
+
+  /* ---------- 字号（rpx，1rpx ≈ 0.5px @750 设计稿）---------- */
+  --font-display: 64rpx;             /* 32px */
+  --font-h1: 48rpx;                  /* 24px */
+  --font-title: 40rpx;               /* 20px */
+  --font-body-lg: 34rpx;             /* 17px */
+  --font-body: 32rpx;                /* 16px —— 主力 */
+  --font-body-sm: 28rpx;             /* 14px */
+  --font-caption: 24rpx;             /* 12px */
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+
+  --line-tight: 1.25;
+  --line-normal: 1.5;
+  --line-relaxed: 1.6;
+
+  /* ---------- 组件尺寸 ---------- */
+  --btn-height: 88rpx;               /* 44px 触屏最小热区 */
+  --btn-height-sm: 64rpx;            /* 32px */
+  --input-height: 88rpx;
+  --list-item-height: 112rpx;        /* 56px */
+  --navbar-height: 88rpx;            /* 44px，不含状态栏 */
+  --status-bar-height: 44px;         /* 会被 JS 覆盖，这里给个 iOS 默认值 */
+  --tabbar-height: 100rpx;           /* 50px */
+
+  /* ---------- 动效 ---------- */
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 350ms;
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
+  --ease-accelerate: cubic-bezier(0.4, 0, 1, 1);
+}
+
+/* ============================================================
+   基础重置
+   ============================================================ */
+
+page {
+  background: var(--color-bg-page);
+  color: var(--color-text);
+  font-size: var(--font-body);
+  line-height: var(--line-normal);
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+               'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+view, text, button, input, textarea {
+  box-sizing: border-box;
+}
+
+/* ============================================================
+   按钮
+   ============================================================ */
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--btn-height);
+  padding: 0 var(--space-lg);
+  border-radius: var(--radius-full);
+  font-size: var(--font-body);
+  font-weight: var(--weight-medium);
+  border: none;
+  transition: background-color var(--duration-fast) var(--ease-standard),
+              transform var(--duration-fast) var(--ease-standard);
+}
+
+.btn::after { border: none; }        /* 去掉小程序默认边框 */
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+.btn-primary:active { background: var(--color-primary-pressed); }
+
+.btn-secondary {
+  background: #F2F2F2;
+  color: var(--color-text);
+}
+.btn-secondary:active { background: #E5E5E5; }
+
+.btn-outline {
+  background: transparent;
+  color: var(--color-primary);
+  box-shadow: inset 0 0 0 1rpx var(--color-primary);
+}
+
+.btn-text {
+  background: transparent;
+  color: var(--color-link);
+  padding: 0 var(--space-sm);
+}
+
+.btn-sm {
+  height: var(--btn-height-sm);
+  padding: 0 var(--space-md);
+  font-size: var(--font-body-sm);
+}
+
+.btn[disabled] {
+  background: #F2F2F2;
+  color: var(--color-text-3);
+}
+
+/* ============================================================
+   输入框
+   ============================================================ */
+
+.input {
+  height: var(--input-height);
+  padding: 0 var(--space-md);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg-input);
+  /* 关键：必须 16px（32rpx），否则 iOS Safari 会自动放大页面 */
+  font-size: var(--font-body);
+  color: var(--color-text);
+}
+
+.input-placeholder {
+  color: var(--color-text-3);
+}
+
+/* ============================================================
+   卡片
+   ============================================================ */
+
+.card {
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+}
+
+.card + .card {
+  margin-top: var(--space-sm);
+}
+
+/* ============================================================
+   列表
+   ============================================================ */
+
+.list {
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  min-height: var(--list-item-height);
+  padding: 0 var(--space-md);
+  border-bottom: 1rpx solid var(--color-divider);
+}
+.list-item:last-child { border-bottom: none; }
+.list-item:active { background: #F7F7F7; }
+
+/* ============================================================
+   导航栏（需配合 JS 动态计算状态栏高度）
+   ============================================================ */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: var(--navbar-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
+  font-size: var(--font-body);
+  font-weight: var(--weight-semibold);
+  /* 状态栏高度由 JS 注入 */
+  padding-top: var(--status-bar-height, 44px);
+}
+
+/* ============================================================
+   TabBar（必须处理安全区）
+   ============================================================ */
+
+.tabbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  height: var(--tabbar-height);
+  padding-bottom: env(safe-area-inset-bottom);
+  background: var(--color-bg);
+  border-top: 1rpx solid var(--color-divider);
+  display: flex;
+}
+
+/* 内容区底部要留出 tabBar 高度 + 安全区 */
+.page-with-tabbar {
+  padding-bottom: calc(var(--tabbar-height) + env(safe-area-inset-bottom));
+}
+
+/* ============================================================
+   弹层
+   ============================================================ */
+
+.modal-mask {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 200;
+}
+
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 640rpx;
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+  padding: var(--space-lg);
+  z-index: 201;
+}
+
+.modal-title {
+  font-size: var(--font-title);
+  font-weight: var(--weight-semibold);
+  line-height: var(--line-tight);
+  margin-bottom: var(--space-md);
+}
+
+/* ============================================================
+   文字工具类
+   ============================================================ */
+
+.t-display { font-size: var(--font-display); font-weight: var(--weight-semibold); line-height: var(--line-tight); }
+.t-h1      { font-size: var(--font-h1);      font-weight: var(--weight-semibold); line-height: 1.33; }
+.t-title   { font-size: var(--font-title);   font-weight: var(--weight-semibold); line-height: 1.4; }
+.t-body-lg { font-size: var(--font-body-lg); line-height: 1.53; }
+.t-body    { font-size: var(--font-body);    line-height: var(--line-normal); }
+.t-body-sm { font-size: var(--font-body-sm); line-height: 1.43; }
+.t-caption { font-size: var(--font-caption); line-height: 1.33; }
+
+.t-secondary { color: var(--color-text-2); }
+.t-tertiary  { color: var(--color-text-3); }
+.t-danger    { color: var(--color-danger); }
+.t-center    { text-align: center; }
+
+/* ============================================================
+   安全区工具类
+   ============================================================ */
+
+.safe-top    { padding-top: env(safe-area-inset-top); }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
